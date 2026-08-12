@@ -1,0 +1,22 @@
+Copia aqui las fotos del catalogo, UNA CARPETA POR MARCA.
+
+  public/catalogo/
+    sneakers/adidas/adidas-samba-og.jpg
+    sneakers/adidas/adidas-samba-og_2.jpg      <- 2a foto del mismo par
+    sneakers/nike/mujer/nike-dunk-low-panda.jpg
+    originales/jordan/air-jordan-1-unc-toe.jpg
+
+  - Carpeta con nombre de marca (adidas, nike, jordan, yeezy, new-balance,
+    puma, asics, travis-scott, off-white) -> esa marca para todo lo de adentro.
+  - Carpeta "originales" -> linea Originales. Cualquier otra -> linea Sneakers.
+  - Carpeta "mujer" u "hombre" -> esa horma. Sin carpeta -> unisex.
+  - Varias fotos del mismo par: mismo nombre + sufijo _2, _3...
+    Solo el guion bajo agrupa. Un (1) o un -2 quedan como pares distintos,
+    porque en la practica se usan para colorways diferentes.
+
+Luego, en la raiz del proyecto:
+
+  npm run catalogo -- --precio=180000 --antes=210000
+
+El script recorre todas las marcas y reescribe el catalogo completo. Las
+correcciones de nombre y colorway van en ajustes/<marca>.json.

@@ -1,0 +1,1487 @@
+{
+  "version": 3,
+  "exportedAt": "2026-08-12T15:36:09.574Z",
+  "sneakers": [
+    {
+      "id": "sneaker-adidas-adilette-22",
+      "name": "Adidas Adilette 22",
+      "brand": "Adidas",
+      "model": "Adidas Adilette 22",
+      "sku": "PAPI-7161",
+      "category": "general",
+      "gender": "unisex",
+      "price": 180000,
+      "originalPrice": 210000,
+      "images": [
+        "/catalogo/sneakers/adidas/adidas-adilette-22.jpg"
+      ],
+      "sizes": [
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "status": "disponible",
+      "isFeatured": true,
+      "isNewArrival": true,
+      "isOriginalCertified": false,
+      "description": "Sandalia Adilette 22 de silueta ancha y plantilla moldeada. Suela con textura para agarre en piso mojado.",
+      "details": {
+        "condition": "Nuevo",
+        "colorway": "",
+        "includedItems": [
+          "Caja original"
+        ]
+      },
+      "viewsCount": 0,
+      "inquiriesCount": 0,
+      "createdAt": "2026-08-12T15:36:09.566Z",
+      "updatedAt": "2026-08-12T15:36:09.566Z"
+    },
+    {
+      "id": "sneaker-adidas-adizero-adios-pro-lila",
+      "name": "Adidas Adizero Adios Pro Lila",
+      "brand": "Adidas",
+      "model": "Adidas Adizero Adios Pro Lila",
+      "sku": "PAPI-1344",
+      "category": "general",
+      "gender": "unisex",
+      "price": 180000,
+      "originalPrice": 210000,
+      "images": [
+        "/catalogo/sneakers/adidas/adidas-adizero-adios-pro-lila.jpg"
+      ],
+      "sizes": [
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "status": "disponible",
+      "isFeatured": true,
+      "isNewArrival": true,
+      "isOriginalCertified": false,
+      "description": "Adizero de perfil alto con mediasuela Lightstrike Pro y upper de malla ligera. Pensada para ritmo rápido.",
+      "details": {
+        "condition": "Nuevo en caja",
+        "colorway": "White / Purple / Lime",
+        "includedItems": [
+          "Caja original"
+        ]
+      },
+      "viewsCount": 0,
+      "inquiriesCount": 0,
+      "createdAt": "2026-08-12T15:36:09.566Z",
+      "updatedAt": "2026-08-12T15:36:09.566Z"
+    },
+    {
+      "id": "sneaker-adidas-adizero-adios-pro-volt",
+      "name": "Adidas Adizero Adios Pro Volt",
+      "brand": "Adidas",
+      "model": "Adidas Adizero Adios Pro Volt",
+      "sku": "PAPI-3645",
+      "category": "general",
+      "gender": "unisex",
+      "price": 180000,
+      "originalPrice": 210000,
+      "images": [
+        "/catalogo/sneakers/adidas/adidas-adizero-adios-pro-volt.jpg"
+      ],
+      "sizes": [
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "status": "disponible",
+      "isFeatured": true,
+      "isNewArrival": true,
+      "isOriginalCertified": false,
+      "description": "El mismo chasis Adizero en amarillo solar con las tres rayas en negro. Mediasuela Lightstrike y corte tipo calcetín.",
+      "details": {
+        "condition": "Nuevo en caja",
+        "colorway": "Solar Yellow / Black",
+        "includedItems": [
+          "Caja original"
+        ]
+      },
+      "viewsCount": 0,
+      "inquiriesCount": 0,
+      "createdAt": "2026-08-12T15:36:09.566Z",
+      "updatedAt": "2026-08-12T15:36:09.566Z"
+    },
+    {
+      "id": "sneaker-adidas-california-blanco-negro",
+      "name": "Adidas California Blanco / Negro",
+      "brand": "Adidas",
+      "model": "Adidas California Blanco / Negro",
+      "sku": "PAPI-1254",
+      "category": "general",
+      "gender": "unisex",
+      "price": 180000,
+      "originalPrice": 210000,
+      "images": [
+        "/catalogo/sneakers/adidas/adidas-california-blanco-negro.jpg"
+      ],
+      "sizes": [
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "status": "disponible",
+      "isFeatured": true,
+      "isNewArrival": true,
+      "isOriginalCertified": false,
+      "description": "Silueta retro de pista en cuero blanco con refuerzos de gamuza gris y suela gum.",
+      "details": {
+        "condition": "Nuevo en caja",
+        "colorway": "White / Black / Gum",
+        "includedItems": [
+          "Caja original"
+        ]
+      },
+      "viewsCount": 0,
+      "inquiriesCount": 0,
+      "createdAt": "2026-08-12T15:36:09.566Z",
+      "updatedAt": "2026-08-12T15:36:09.566Z"
+    },
+    {
+      "id": "sneaker-adidas-campus-00s-core-black",
+      "name": "Adidas Campus 00s Core Black",
+      "brand": "Adidas",
+      "model": "Adidas Campus 00s Core Black",
+      "sku": "PAPI-5127",
+      "category": "general",
+      "gender": "unisex",
+      "price": 180000,
+      "originalPrice": 210000,
+      "images": [
+        "/catalogo/sneakers/adidas/adidas-campus-00s-core-black.jpg"
+      ],
+      "sizes": [
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "status": "disponible",
+      "isFeatured": true,
+      "isNewArrival": true,
+      "isOriginalCertified": false,
+      "description": "",
+      "details": {
+        "condition": "Nuevo en caja",
+        "colorway": "Core Black / Cloud White",
+        "includedItems": [
+          "Caja original"
+        ]
+      },
+      "viewsCount": 0,
+      "inquiriesCount": 0,
+      "createdAt": "2026-08-12T15:36:09.566Z",
+      "updatedAt": "2026-08-12T15:36:09.566Z"
+    },
+    {
+      "id": "sneaker-adidas-campus-00s-gray",
+      "name": "Adidas Campus 00s Gray",
+      "brand": "Adidas",
+      "model": "Adidas Campus 00s Gray",
+      "sku": "PAPI-7263",
+      "category": "general",
+      "gender": "unisex",
+      "price": 180000,
+      "originalPrice": 210000,
+      "images": [
+        "/catalogo/sneakers/adidas/adidas-campus-00s-gray.jpg"
+      ],
+      "sizes": [
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "status": "disponible",
+      "isFeatured": true,
+      "isNewArrival": true,
+      "isOriginalCertified": false,
+      "description": "",
+      "details": {
+        "condition": "Nuevo en caja",
+        "colorway": "Grey / Cloud White",
+        "includedItems": [
+          "Caja original"
+        ]
+      },
+      "viewsCount": 0,
+      "inquiriesCount": 0,
+      "createdAt": "2026-08-12T15:36:09.566Z",
+      "updatedAt": "2026-08-12T15:36:09.566Z"
+    },
+    {
+      "id": "sneaker-adidas-duramo-sl",
+      "name": "Adidas Duramo SL",
+      "brand": "Adidas",
+      "model": "Adidas Duramo SL",
+      "sku": "PAPI-6199",
+      "category": "general",
+      "gender": "unisex",
+      "price": 180000,
+      "originalPrice": 210000,
+      "images": [
+        "/catalogo/sneakers/adidas/adidas-duramo-sl.jpg"
+      ],
+      "sizes": [
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "status": "disponible",
+      "isFeatured": true,
+      "isNewArrival": true,
+      "isOriginalCertified": false,
+      "description": "",
+      "details": {
+        "condition": "Nuevo en caja",
+        "colorway": "",
+        "includedItems": [
+          "Caja original"
+        ]
+      },
+      "viewsCount": 0,
+      "inquiriesCount": 0,
+      "createdAt": "2026-08-12T15:36:09.566Z",
+      "updatedAt": "2026-08-12T15:36:09.566Z"
+    },
+    {
+      "id": "sneaker-adidas-duramo-sl-blue",
+      "name": "Adidas Duramo SL Blue",
+      "brand": "Adidas",
+      "model": "Adidas Duramo SL Blue",
+      "sku": "PAPI-9493",
+      "category": "general",
+      "gender": "unisex",
+      "price": 180000,
+      "originalPrice": 210000,
+      "images": [
+        "/catalogo/sneakers/adidas/adidas-duramo-sl-blue.jpg"
+      ],
+      "sizes": [
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "status": "disponible",
+      "isFeatured": true,
+      "isNewArrival": true,
+      "isOriginalCertified": false,
+      "description": "",
+      "details": {
+        "condition": "Nuevo en caja",
+        "colorway": "Blue / White",
+        "includedItems": [
+          "Caja original"
+        ]
+      },
+      "viewsCount": 0,
+      "inquiriesCount": 0,
+      "createdAt": "2026-08-12T15:36:09.566Z",
+      "updatedAt": "2026-08-12T15:36:09.566Z"
+    },
+    {
+      "id": "sneaker-adidas-eqt-equipment-beige-naranja",
+      "name": "Adidas EQT Equipment Beige / Naranja",
+      "brand": "Adidas",
+      "model": "Adidas EQT Equipment Beige / Naranja",
+      "sku": "PAPI-1210",
+      "category": "general",
+      "gender": "unisex",
+      "price": 180000,
+      "originalPrice": 210000,
+      "images": [
+        "/catalogo/sneakers/adidas/adidas-eqt-equipment-beige-naranja.jpg"
+      ],
+      "sizes": [
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "status": "disponible",
+      "isFeatured": false,
+      "isNewArrival": true,
+      "isOriginalCertified": false,
+      "description": "Chasis EQT con Boost completo, gamuza beige, tres rayas naranja y talón verde. Suela gum.",
+      "details": {
+        "condition": "Nuevo en caja",
+        "colorway": "Cream / Orange / Green",
+        "includedItems": [
+          "Caja original"
+        ]
+      },
+      "viewsCount": 0,
+      "inquiriesCount": 0,
+      "createdAt": "2026-08-12T15:36:09.566Z",
+      "updatedAt": "2026-08-12T15:36:09.566Z"
+    },
+    {
+      "id": "sneaker-adidas-forum-x-bad-bunny",
+      "name": "Adidas Forum x Bad Bunny",
+      "brand": "Adidas",
+      "model": "Adidas Forum x Bad Bunny",
+      "sku": "PAPI-6580",
+      "category": "general",
+      "gender": "unisex",
+      "price": 180000,
+      "originalPrice": 210000,
+      "images": [
+        "/catalogo/sneakers/adidas/adidas-forum-x-bad-bunny.jpg"
+      ],
+      "sizes": [
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "status": "disponible",
+      "isFeatured": false,
+      "isNewArrival": true,
+      "isOriginalCertified": false,
+      "description": "",
+      "details": {
+        "condition": "Nuevo en caja",
+        "colorway": "",
+        "includedItems": [
+          "Caja original"
+        ]
+      },
+      "viewsCount": 0,
+      "inquiriesCount": 0,
+      "createdAt": "2026-08-12T15:36:09.566Z",
+      "updatedAt": "2026-08-12T15:36:09.566Z"
+    },
+    {
+      "id": "sneaker-adidas-gazelle-x-bad-bunny",
+      "name": "Adidas Gazelle x Bad Bunny",
+      "brand": "Adidas",
+      "model": "Adidas Gazelle x Bad Bunny",
+      "sku": "PAPI-1569",
+      "category": "general",
+      "gender": "unisex",
+      "price": 180000,
+      "originalPrice": 210000,
+      "images": [
+        "/catalogo/sneakers/adidas/adidas-gazelle-x-bad-bunny.jpg"
+      ],
+      "sizes": [
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "status": "disponible",
+      "isFeatured": false,
+      "isNewArrival": true,
+      "isOriginalCertified": false,
+      "description": "",
+      "details": {
+        "condition": "Nuevo en caja",
+        "colorway": "",
+        "includedItems": [
+          "Caja original"
+        ]
+      },
+      "viewsCount": 0,
+      "inquiriesCount": 0,
+      "createdAt": "2026-08-12T15:36:09.566Z",
+      "updatedAt": "2026-08-12T15:36:09.566Z"
+    },
+    {
+      "id": "sneaker-adidas-niteball-black",
+      "name": "Adidas Niteball Black",
+      "brand": "Adidas",
+      "model": "Adidas Niteball Black",
+      "sku": "PAPI-5464",
+      "category": "general",
+      "gender": "unisex",
+      "price": 180000,
+      "originalPrice": 210000,
+      "images": [
+        "/catalogo/sneakers/adidas/adidas-niteball-black.jpg"
+      ],
+      "sizes": [
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "status": "disponible",
+      "isFeatured": false,
+      "isNewArrival": true,
+      "isOriginalCertified": false,
+      "description": "",
+      "details": {
+        "condition": "Nuevo en caja",
+        "colorway": "Core Black",
+        "includedItems": [
+          "Caja original"
+        ]
+      },
+      "viewsCount": 0,
+      "inquiriesCount": 0,
+      "createdAt": "2026-08-12T15:36:09.566Z",
+      "updatedAt": "2026-08-12T15:36:09.566Z"
+    },
+    {
+      "id": "sneaker-adidas-niteball-upgrade",
+      "name": "Adidas Niteball Upgrade",
+      "brand": "Adidas",
+      "model": "Adidas Niteball Upgrade",
+      "sku": "PAPI-9578",
+      "category": "general",
+      "gender": "unisex",
+      "price": 180000,
+      "originalPrice": 210000,
+      "images": [
+        "/catalogo/sneakers/adidas/adidas-niteball-upgrade.jpg"
+      ],
+      "sizes": [
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "status": "disponible",
+      "isFeatured": false,
+      "isNewArrival": true,
+      "isOriginalCertified": false,
+      "description": "",
+      "details": {
+        "condition": "Nuevo en caja",
+        "colorway": "",
+        "includedItems": [
+          "Caja original"
+        ]
+      },
+      "viewsCount": 0,
+      "inquiriesCount": 0,
+      "createdAt": "2026-08-12T15:36:09.566Z",
+      "updatedAt": "2026-08-12T15:36:09.566Z"
+    },
+    {
+      "id": "sneaker-adidas-nizza-hi-fi",
+      "name": "Adidas Nizza Hi Fi",
+      "brand": "Adidas",
+      "model": "Adidas Nizza Hi Fi",
+      "sku": "PAPI-1522",
+      "category": "general",
+      "gender": "unisex",
+      "price": 180000,
+      "originalPrice": 210000,
+      "images": [
+        "/catalogo/sneakers/adidas/adidas-nizza-hi-fi.jpg"
+      ],
+      "sizes": [
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "status": "disponible",
+      "isFeatured": false,
+      "isNewArrival": true,
+      "isOriginalCertified": false,
+      "description": "",
+      "details": {
+        "condition": "Nuevo en caja",
+        "colorway": "",
+        "includedItems": [
+          "Caja original"
+        ]
+      },
+      "viewsCount": 0,
+      "inquiriesCount": 0,
+      "createdAt": "2026-08-12T15:36:09.566Z",
+      "updatedAt": "2026-08-12T15:36:09.566Z"
+    },
+    {
+      "id": "sneaker-adidas-pureboost",
+      "name": "Adidas Pureboost",
+      "brand": "Adidas",
+      "model": "Adidas Pureboost",
+      "sku": "PAPI-1702",
+      "category": "general",
+      "gender": "unisex",
+      "price": 180000,
+      "originalPrice": 210000,
+      "images": [
+        "/catalogo/sneakers/adidas/adidas-pureboost.jpg"
+      ],
+      "sizes": [
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "status": "disponible",
+      "isFeatured": false,
+      "isNewArrival": true,
+      "isOriginalCertified": false,
+      "description": "Amortiguación Boost expuesta y upper elástico que se ajusta al pie. Cómoda para todo el día.",
+      "details": {
+        "condition": "Nuevo en caja",
+        "colorway": "",
+        "includedItems": [
+          "Caja original"
+        ]
+      },
+      "viewsCount": 0,
+      "inquiriesCount": 0,
+      "createdAt": "2026-08-12T15:36:09.566Z",
+      "updatedAt": "2026-08-12T15:36:09.566Z"
+    },
+    {
+      "id": "sneaker-adidas-response-cl-x-bad-bunny-benito",
+      "name": "Adidas Response CL x Bad Bunny \"Benito\"",
+      "brand": "Adidas",
+      "model": "Adidas Response CL x Bad Bunny \"Benito\"",
+      "sku": "PAPI-8399",
+      "category": "general",
+      "gender": "unisex",
+      "price": 180000,
+      "originalPrice": 210000,
+      "images": [
+        "/catalogo/sneakers/adidas/adidas-response-cl-x-bad-bunny-benito.jpg"
+      ],
+      "sizes": [
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "status": "disponible",
+      "isFeatured": false,
+      "isNewArrival": true,
+      "isOriginalCertified": false,
+      "description": "La Response CL de Bad Bunny en café y rosado, con detalles plateados y azul rey. Lleva el bordado \"Para Bad Bunny\" en la lengua.",
+      "details": {
+        "condition": "Nuevo en caja",
+        "colorway": "Brown / Pink / Cream",
+        "includedItems": [
+          "Caja original"
+        ]
+      },
+      "viewsCount": 0,
+      "inquiriesCount": 0,
+      "createdAt": "2026-08-12T15:36:09.566Z",
+      "updatedAt": "2026-08-12T15:36:09.566Z"
+    },
+    {
+      "id": "sneaker-adidas-response-cl-x-bad-bunny-blanco",
+      "name": "Adidas Response CL x Bad Bunny Blanco",
+      "brand": "Adidas",
+      "model": "Adidas Response CL x Bad Bunny Blanco",
+      "sku": "PAPI-1087",
+      "category": "general",
+      "gender": "unisex",
+      "price": 180000,
+      "originalPrice": 210000,
+      "images": [
+        "/catalogo/sneakers/adidas/adidas-response-cl-x-bad-bunny-blanco.jpg"
+      ],
+      "sizes": [
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "status": "disponible",
+      "isFeatured": false,
+      "isNewArrival": true,
+      "isOriginalCertified": false,
+      "description": "Response CL en blanco hueso con capas grises y mediasuela crema. La silueta que popularizó la colaboración.",
+      "details": {
+        "condition": "Nuevo en caja",
+        "colorway": "Cloud White / Grey / Cream",
+        "includedItems": [
+          "Caja original"
+        ]
+      },
+      "viewsCount": 0,
+      "inquiriesCount": 0,
+      "createdAt": "2026-08-12T15:36:09.566Z",
+      "updatedAt": "2026-08-12T15:36:09.566Z"
+    },
+    {
+      "id": "sneaker-adidas-response-super",
+      "name": "Adidas Response Super",
+      "brand": "Adidas",
+      "model": "Adidas Response Super",
+      "sku": "PAPI-1484",
+      "category": "general",
+      "gender": "unisex",
+      "price": 180000,
+      "originalPrice": 210000,
+      "images": [
+        "/catalogo/sneakers/adidas/adidas-response-super.jpg"
+      ],
+      "sizes": [
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "status": "disponible",
+      "isFeatured": false,
+      "isNewArrival": true,
+      "isOriginalCertified": false,
+      "description": "",
+      "details": {
+        "condition": "Nuevo en caja",
+        "colorway": "",
+        "includedItems": [
+          "Caja original"
+        ]
+      },
+      "viewsCount": 0,
+      "inquiriesCount": 0,
+      "createdAt": "2026-08-12T15:36:09.566Z",
+      "updatedAt": "2026-08-12T15:36:09.566Z"
+    },
+    {
+      "id": "sneaker-adidas-running-blanco-azul",
+      "name": "Adidas Running Blanco / Azul",
+      "brand": "Adidas",
+      "model": "Adidas Running Blanco / Azul",
+      "sku": "PAPI-1268",
+      "category": "general",
+      "gender": "unisex",
+      "price": 180000,
+      "originalPrice": 210000,
+      "images": [
+        "/catalogo/sneakers/adidas/adidas-running-blanco-azul.jpg"
+      ],
+      "sizes": [
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "status": "disponible",
+      "isFeatured": false,
+      "isNewArrival": true,
+      "isOriginalCertified": false,
+      "description": "Tenis de running en malla blanca con las tres rayas en azul y mediasuela alta. Modelo por confirmar.",
+      "details": {
+        "condition": "Nuevo en caja",
+        "colorway": "White / Blue",
+        "includedItems": [
+          "Caja original"
+        ]
+      },
+      "viewsCount": 0,
+      "inquiriesCount": 0,
+      "createdAt": "2026-08-12T15:36:09.566Z",
+      "updatedAt": "2026-08-12T15:36:09.566Z"
+    },
+    {
+      "id": "sneaker-adidas-samba-flower",
+      "name": "Adidas Samba Flower",
+      "brand": "Adidas",
+      "model": "Adidas Samba Flower",
+      "sku": "PAPI-1211",
+      "category": "general",
+      "gender": "unisex",
+      "price": 180000,
+      "originalPrice": 210000,
+      "images": [
+        "/catalogo/sneakers/adidas/adidas-samba-flower.jpg"
+      ],
+      "sizes": [
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "status": "disponible",
+      "isFeatured": false,
+      "isNewArrival": true,
+      "isOriginalCertified": false,
+      "description": "",
+      "details": {
+        "condition": "Nuevo en caja",
+        "colorway": "",
+        "includedItems": [
+          "Caja original"
+        ]
+      },
+      "viewsCount": 0,
+      "inquiriesCount": 0,
+      "createdAt": "2026-08-12T15:36:09.566Z",
+      "updatedAt": "2026-08-12T15:36:09.566Z"
+    },
+    {
+      "id": "sneaker-adidas-samba-og",
+      "name": "Adidas Samba OG",
+      "brand": "Adidas",
+      "model": "Adidas Samba OG",
+      "sku": "PAPI-6009",
+      "category": "general",
+      "gender": "unisex",
+      "price": 180000,
+      "originalPrice": 210000,
+      "images": [
+        "/catalogo/sneakers/adidas/adidas-samba-og.webp"
+      ],
+      "sizes": [
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "status": "disponible",
+      "isFeatured": false,
+      "isNewArrival": true,
+      "isOriginalCertified": false,
+      "description": "La silueta de fútbol sala que se volvió clásico de calle. Cuero con puntera de gamuza y suela gum.",
+      "details": {
+        "condition": "Nuevo en caja",
+        "colorway": "",
+        "includedItems": [
+          "Caja original"
+        ]
+      },
+      "viewsCount": 0,
+      "inquiriesCount": 0,
+      "createdAt": "2026-08-12T15:36:09.566Z",
+      "updatedAt": "2026-08-12T15:36:09.566Z"
+    },
+    {
+      "id": "sneaker-adidas-sikaige",
+      "name": "Adidas Sikaige",
+      "brand": "Adidas",
+      "model": "Adidas Sikaige",
+      "sku": "PAPI-1553",
+      "category": "general",
+      "gender": "unisex",
+      "price": 180000,
+      "originalPrice": 210000,
+      "images": [
+        "/catalogo/sneakers/adidas/adidas-sikaige.jpg"
+      ],
+      "sizes": [
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "status": "disponible",
+      "isFeatured": false,
+      "isNewArrival": true,
+      "isOriginalCertified": false,
+      "description": "Silueta voluminosa en blanco con paneles coral y menta, cordones de contraste y suela dentada.",
+      "details": {
+        "condition": "Nuevo en caja",
+        "colorway": "White / Coral / Mint",
+        "includedItems": [
+          "Caja original"
+        ]
+      },
+      "viewsCount": 0,
+      "inquiriesCount": 0,
+      "createdAt": "2026-08-12T15:36:09.566Z",
+      "updatedAt": "2026-08-12T15:36:09.566Z"
+    },
+    {
+      "id": "sneaker-adidas-sl-72-brown",
+      "name": "Adidas SL 72 Brown",
+      "brand": "Adidas",
+      "model": "Adidas SL 72 Brown",
+      "sku": "PAPI-6242",
+      "category": "general",
+      "gender": "unisex",
+      "price": 180000,
+      "originalPrice": 210000,
+      "images": [
+        "/catalogo/sneakers/adidas/adidas-sl-72-brown.jpg"
+      ],
+      "sizes": [
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "status": "disponible",
+      "isFeatured": false,
+      "isNewArrival": true,
+      "isOriginalCertified": false,
+      "description": "",
+      "details": {
+        "condition": "Nuevo en caja",
+        "colorway": "Brown / Gum",
+        "includedItems": [
+          "Caja original"
+        ]
+      },
+      "viewsCount": 0,
+      "inquiriesCount": 0,
+      "createdAt": "2026-08-12T15:36:09.566Z",
+      "updatedAt": "2026-08-12T15:36:09.566Z"
+    },
+    {
+      "id": "sneaker-adidas-sl-72-red",
+      "name": "Adidas SL 72 Red",
+      "brand": "Adidas",
+      "model": "Adidas SL 72 Red",
+      "sku": "PAPI-4191",
+      "category": "general",
+      "gender": "unisex",
+      "price": 180000,
+      "originalPrice": 210000,
+      "images": [
+        "/catalogo/sneakers/adidas/adidas-sl-72-red.jpg"
+      ],
+      "sizes": [
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "status": "disponible",
+      "isFeatured": false,
+      "isNewArrival": true,
+      "isOriginalCertified": false,
+      "description": "",
+      "details": {
+        "condition": "Nuevo en caja",
+        "colorway": "Red / Gum",
+        "includedItems": [
+          "Caja original"
+        ]
+      },
+      "viewsCount": 0,
+      "inquiriesCount": 0,
+      "createdAt": "2026-08-12T15:36:09.566Z",
+      "updatedAt": "2026-08-12T15:36:09.566Z"
+    },
+    {
+      "id": "sneaker-adidas-spezial",
+      "name": "Adidas Spezial",
+      "brand": "Adidas",
+      "model": "Adidas Spezial",
+      "sku": "PAPI-1503",
+      "category": "general",
+      "gender": "unisex",
+      "price": 180000,
+      "originalPrice": 210000,
+      "images": [
+        "/catalogo/sneakers/adidas/adidas-spezial.jpg"
+      ],
+      "sizes": [
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "status": "disponible",
+      "isFeatured": false,
+      "isNewArrival": true,
+      "isOriginalCertified": false,
+      "description": "",
+      "details": {
+        "condition": "Nuevo en caja",
+        "colorway": "",
+        "includedItems": [
+          "Caja original"
+        ]
+      },
+      "viewsCount": 0,
+      "inquiriesCount": 0,
+      "createdAt": "2026-08-12T15:36:09.566Z",
+      "updatedAt": "2026-08-12T15:36:09.566Z"
+    },
+    {
+      "id": "sneaker-adidas-spezial-olive-green",
+      "name": "Adidas Spezial Olive Green",
+      "brand": "Adidas",
+      "model": "Adidas Spezial Olive Green",
+      "sku": "PAPI-8673",
+      "category": "general",
+      "gender": "unisex",
+      "price": 180000,
+      "originalPrice": 210000,
+      "images": [
+        "/catalogo/sneakers/adidas/adidas-spezial-olive-green.jpg"
+      ],
+      "sizes": [
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "status": "disponible",
+      "isFeatured": false,
+      "isNewArrival": true,
+      "isOriginalCertified": false,
+      "description": "",
+      "details": {
+        "condition": "Nuevo en caja",
+        "colorway": "Olive Green / Gum",
+        "includedItems": [
+          "Caja original"
+        ]
+      },
+      "viewsCount": 0,
+      "inquiriesCount": 0,
+      "createdAt": "2026-08-12T15:36:09.566Z",
+      "updatedAt": "2026-08-12T15:36:09.566Z"
+    },
+    {
+      "id": "sneaker-adidas-stan-smith-azul",
+      "name": "Adidas Stan Smith Azul",
+      "brand": "Adidas",
+      "model": "Adidas Stan Smith Azul",
+      "sku": "PAPI-7895",
+      "category": "general",
+      "gender": "unisex",
+      "price": 180000,
+      "originalPrice": 210000,
+      "images": [
+        "/catalogo/sneakers/adidas/adidas-stan-smith-azul.jpg"
+      ],
+      "sizes": [
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "status": "disponible",
+      "isFeatured": false,
+      "isNewArrival": true,
+      "isOriginalCertified": false,
+      "description": "Stan Smith en cuero blanco con talón azul marino. Perforaciones en las tres rayas y suela de goma.",
+      "details": {
+        "condition": "Nuevo en caja",
+        "colorway": "White / Collegiate Navy",
+        "includedItems": [
+          "Caja original"
+        ]
+      },
+      "viewsCount": 0,
+      "inquiriesCount": 0,
+      "createdAt": "2026-08-12T15:36:09.566Z",
+      "updatedAt": "2026-08-12T15:36:09.566Z"
+    },
+    {
+      "id": "sneaker-adidas-stan-smith-negro",
+      "name": "Adidas Stan Smith Negro",
+      "brand": "Adidas",
+      "model": "Adidas Stan Smith Negro",
+      "sku": "PAPI-5411",
+      "category": "general",
+      "gender": "unisex",
+      "price": 180000,
+      "originalPrice": 210000,
+      "images": [
+        "/catalogo/sneakers/adidas/adidas-stan-smith-negro.jpg"
+      ],
+      "sizes": [
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "status": "disponible",
+      "isFeatured": false,
+      "isNewArrival": true,
+      "isOriginalCertified": false,
+      "description": "Stan Smith en cuero blanco con talón negro. Perforaciones en las tres rayas y suela de goma.",
+      "details": {
+        "condition": "Nuevo en caja",
+        "colorway": "White / Core Black",
+        "includedItems": [
+          "Caja original"
+        ]
+      },
+      "viewsCount": 0,
+      "inquiriesCount": 0,
+      "createdAt": "2026-08-12T15:36:09.566Z",
+      "updatedAt": "2026-08-12T15:36:09.566Z"
+    },
+    {
+      "id": "sneaker-adidas-stan-smith-verde",
+      "name": "Adidas Stan Smith Verde",
+      "brand": "Adidas",
+      "model": "Adidas Stan Smith Verde",
+      "sku": "PAPI-6318",
+      "category": "general",
+      "gender": "unisex",
+      "price": 180000,
+      "originalPrice": 210000,
+      "images": [
+        "/catalogo/sneakers/adidas/adidas-stan-smith-verde.jpg"
+      ],
+      "sizes": [
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "status": "disponible",
+      "isFeatured": false,
+      "isNewArrival": true,
+      "isOriginalCertified": false,
+      "description": "El Stan Smith de siempre: cuero blanco, talón verde y la cara de Stan en la lengua.",
+      "details": {
+        "condition": "Nuevo en caja",
+        "colorway": "White / Green",
+        "includedItems": [
+          "Caja original"
+        ]
+      },
+      "viewsCount": 0,
+      "inquiriesCount": 0,
+      "createdAt": "2026-08-12T15:36:09.566Z",
+      "updatedAt": "2026-08-12T15:36:09.566Z"
+    },
+    {
+      "id": "sneaker-adidas-superstar-core-black",
+      "name": "Adidas Superstar Core Black",
+      "brand": "Adidas",
+      "model": "Adidas Superstar Core Black",
+      "sku": "PAPI-1476",
+      "category": "general",
+      "gender": "unisex",
+      "price": 180000,
+      "originalPrice": 210000,
+      "images": [
+        "/catalogo/sneakers/adidas/adidas-superstar-core-black.jpg"
+      ],
+      "sizes": [
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "status": "disponible",
+      "isFeatured": false,
+      "isNewArrival": true,
+      "isOriginalCertified": false,
+      "description": "",
+      "details": {
+        "condition": "Nuevo en caja",
+        "colorway": "Core Black / White",
+        "includedItems": [
+          "Caja original"
+        ]
+      },
+      "viewsCount": 0,
+      "inquiriesCount": 0,
+      "createdAt": "2026-08-12T15:36:09.566Z",
+      "updatedAt": "2026-08-12T15:36:09.566Z"
+    },
+    {
+      "id": "sneaker-adidas-superstar-rainbow",
+      "name": "Adidas Superstar Rainbow",
+      "brand": "Adidas",
+      "model": "Adidas Superstar Rainbow",
+      "sku": "PAPI-5250",
+      "category": "general",
+      "gender": "unisex",
+      "price": 180000,
+      "originalPrice": 210000,
+      "images": [
+        "/catalogo/sneakers/adidas/adidas-superstar-rainbow.jpg"
+      ],
+      "sizes": [
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "status": "disponible",
+      "isFeatured": false,
+      "isNewArrival": true,
+      "isOriginalCertified": false,
+      "description": "",
+      "details": {
+        "condition": "Nuevo en caja",
+        "colorway": "White / Multicolor",
+        "includedItems": [
+          "Caja original"
+        ]
+      },
+      "viewsCount": 0,
+      "inquiriesCount": 0,
+      "createdAt": "2026-08-12T15:36:09.566Z",
+      "updatedAt": "2026-08-12T15:36:09.566Z"
+    },
+    {
+      "id": "sneaker-adidas-superstar-reflectivo",
+      "name": "Adidas Superstar Reflectivo",
+      "brand": "Adidas",
+      "model": "Adidas Superstar Reflectivo",
+      "sku": "PAPI-9831",
+      "category": "general",
+      "gender": "unisex",
+      "price": 180000,
+      "originalPrice": 210000,
+      "images": [
+        "/catalogo/sneakers/adidas/adidas-superstar-reflectivo.jpg"
+      ],
+      "sizes": [
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "status": "disponible",
+      "isFeatured": false,
+      "isNewArrival": true,
+      "isOriginalCertified": false,
+      "description": "",
+      "details": {
+        "condition": "Nuevo en caja",
+        "colorway": "White / Reflective",
+        "includedItems": [
+          "Caja original"
+        ]
+      },
+      "viewsCount": 0,
+      "inquiriesCount": 0,
+      "createdAt": "2026-08-12T15:36:09.566Z",
+      "updatedAt": "2026-08-12T15:36:09.566Z"
+    },
+    {
+      "id": "sneaker-adidas-superstar-triple-white",
+      "name": "Adidas Superstar Triple White",
+      "brand": "Adidas",
+      "model": "Adidas Superstar Triple White",
+      "sku": "PAPI-8914",
+      "category": "general",
+      "gender": "unisex",
+      "price": 180000,
+      "originalPrice": 210000,
+      "images": [
+        "/catalogo/sneakers/adidas/adidas-superstar-triple-white.jpg"
+      ],
+      "sizes": [
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "status": "disponible",
+      "isFeatured": false,
+      "isNewArrival": true,
+      "isOriginalCertified": false,
+      "description": "",
+      "details": {
+        "condition": "Nuevo en caja",
+        "colorway": "Triple White",
+        "includedItems": [
+          "Caja original"
+        ]
+      },
+      "viewsCount": 0,
+      "inquiriesCount": 0,
+      "createdAt": "2026-08-12T15:36:09.566Z",
+      "updatedAt": "2026-08-12T15:36:09.566Z"
+    },
+    {
+      "id": "sneaker-adidas-superstar-white-black",
+      "name": "Adidas Superstar White / Black",
+      "brand": "Adidas",
+      "model": "Adidas Superstar White / Black",
+      "sku": "PAPI-3323",
+      "category": "general",
+      "gender": "unisex",
+      "price": 180000,
+      "originalPrice": 210000,
+      "images": [
+        "/catalogo/sneakers/adidas/adidas-superstar-white-black.jpg"
+      ],
+      "sizes": [
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "status": "disponible",
+      "isFeatured": false,
+      "isNewArrival": true,
+      "isOriginalCertified": false,
+      "description": "La Superstar de toda la vida: puntera de concha, cuero blanco y tres rayas negras.",
+      "details": {
+        "condition": "Nuevo en caja",
+        "colorway": "Cloud White / Core Black",
+        "includedItems": [
+          "Caja original"
+        ]
+      },
+      "viewsCount": 0,
+      "inquiriesCount": 0,
+      "createdAt": "2026-08-12T15:36:09.566Z",
+      "updatedAt": "2026-08-12T15:36:09.566Z"
+    },
+    {
+      "id": "sneaker-adidas-superstar-x-blessd",
+      "name": "Adidas Superstar x Blessd",
+      "brand": "Adidas",
+      "model": "Adidas Superstar x Blessd",
+      "sku": "PAPI-1408",
+      "category": "general",
+      "gender": "unisex",
+      "price": 180000,
+      "originalPrice": 210000,
+      "images": [
+        "/catalogo/sneakers/adidas/adidas-superstar-x-blessd.jpg"
+      ],
+      "sizes": [
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "status": "disponible",
+      "isFeatured": false,
+      "isNewArrival": true,
+      "isOriginalCertified": false,
+      "description": "",
+      "details": {
+        "condition": "Nuevo en caja",
+        "colorway": "",
+        "includedItems": [
+          "Caja original"
+        ]
+      },
+      "viewsCount": 0,
+      "inquiriesCount": 0,
+      "createdAt": "2026-08-12T15:36:09.566Z",
+      "updatedAt": "2026-08-12T15:36:09.566Z"
+    },
+    {
+      "id": "sneaker-adidas-ultraboost",
+      "name": "Adidas Ultraboost",
+      "brand": "Adidas",
+      "model": "Adidas Ultraboost",
+      "sku": "PAPI-1013",
+      "category": "general",
+      "gender": "unisex",
+      "price": 180000,
+      "originalPrice": 210000,
+      "images": [
+        "/catalogo/sneakers/adidas/adidas-ultraboost.jpg"
+      ],
+      "sizes": [
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "status": "disponible",
+      "isFeatured": false,
+      "isNewArrival": true,
+      "isOriginalCertified": false,
+      "description": "",
+      "details": {
+        "condition": "Nuevo en caja",
+        "colorway": "",
+        "includedItems": [
+          "Caja original"
+        ]
+      },
+      "viewsCount": 0,
+      "inquiriesCount": 0,
+      "createdAt": "2026-08-12T15:36:09.566Z",
+      "updatedAt": "2026-08-12T15:36:09.566Z"
+    },
+    {
+      "id": "sneaker-adidas-ultraboost-core-black",
+      "name": "Adidas Ultraboost Core Black",
+      "brand": "Adidas",
+      "model": "Adidas Ultraboost Core Black",
+      "sku": "PAPI-1606",
+      "category": "general",
+      "gender": "unisex",
+      "price": 180000,
+      "originalPrice": 210000,
+      "images": [
+        "/catalogo/sneakers/adidas/adidas-ultraboost-core-black.jpg"
+      ],
+      "sizes": [
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "status": "disponible",
+      "isFeatured": false,
+      "isNewArrival": true,
+      "isOriginalCertified": false,
+      "description": "Primeknit negro con jaula de soporte y mediasuela Boost completa. La más cómoda del catálogo para caminar.",
+      "details": {
+        "condition": "Nuevo en caja",
+        "colorway": "Core Black",
+        "includedItems": [
+          "Caja original"
+        ]
+      },
+      "viewsCount": 0,
+      "inquiriesCount": 0,
+      "createdAt": "2026-08-12T15:36:09.566Z",
+      "updatedAt": "2026-08-12T15:36:09.566Z"
+    }
+  ],
+  "deliveries": []
+}

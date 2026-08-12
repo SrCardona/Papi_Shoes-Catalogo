@@ -1,0 +1,233 @@
+@import 'tailwindcss';
+
+/* ═══════════════════════════════════════════════════════════
+   PAPI SHOES — SISTEMA DE DISEÑO "EL TEMPLO"
+   Tokens derivados del manual de marca oficial.
+   ═══════════════════════════════════════════════════════════ */
+
+@theme {
+  /* Paleta oficial */
+  --color-obsidian: #0d0d0d; /* Base absoluta */
+  --color-basalt: #1a1a1a; /* Superficies / tarjetas */
+  --color-marble-navy: #0d1b2a; /* Secciones profundas */
+  --color-lapis: #1e3a8a; /* Acento primario */
+  --color-lapis-lit: #2b4fb8; /* Acento hover */
+  --color-silver: #c0c0c0; /* Metálico */
+  --color-marble: #f2f2f2; /* Texto principal */
+
+  /* Tipografía */
+  --font-display: 'Anton', 'Impact', sans-serif;
+  --font-body: 'Montserrat', system-ui, sans-serif;
+}
+
+@layer base {
+  * {
+    border-color: rgb(255 255 255 / 0.08);
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: var(--color-obsidian);
+    color: var(--color-marble);
+    font-family: var(--font-body);
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  /* Los títulos son inscripciones: condensados, altos, en versalitas */
+  h1,
+  h2,
+  h3,
+  .font-display {
+    font-family: var(--font-display);
+    text-transform: uppercase;
+    letter-spacing: 0.01em;
+    font-weight: 400;
+    line-height: 0.92;
+  }
+
+  ::selection {
+    background: var(--color-lapis);
+    color: var(--color-marble);
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-silver);
+    outline-offset: 3px;
+  }
+}
+
+@layer utilities {
+  /* ── Metal grabado: el tratamiento del logotipo ─────────── */
+  .text-engraved {
+    background: linear-gradient(
+      177deg,
+      #ffffff 0%,
+      #e8e8e8 22%,
+      #9a9a9a 47%,
+      #6e6e6e 55%,
+      #d8d8d8 74%,
+      #ffffff 100%
+    );
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter: drop-shadow(0 2px 1px rgb(0 0 0 / 0.7));
+  }
+
+  /* ── Arquitrabe: el divisor de la casa ──────────────────── */
+  .architrave {
+    border-top: 1px solid rgb(192 192 192 / 0.28);
+    box-shadow: 0 2px 0 -1px rgb(30 58 138 / 0.55);
+  }
+
+  /* ── Estilóbato: la línea de base sobre la que se asienta
+        la columnata del catálogo ───────────────────────────── */
+  .stylobate {
+    background-image: linear-gradient(
+      90deg,
+      transparent,
+      rgb(192 192 192 / 0.3) 12%,
+      rgb(192 192 192 / 0.3) 88%,
+      transparent
+    );
+  }
+
+  /* ── Eyebrow: rótulo de sala del museo ──────────────────── */
+  .eyebrow {
+    font-family: var(--font-body);
+    font-weight: 600;
+    font-size: 0.625rem;
+    letter-spacing: 0.42em;
+    text-transform: uppercase;
+    color: var(--color-silver);
+  }
+
+  /* ── Columna: la unidad del catálogo ────────────────────── */
+  .column-card {
+    position: relative;
+    background: linear-gradient(180deg, #1a1a1a 0%, #121212 100%);
+    border: 1px solid rgb(255 255 255 / 0.07);
+    transition:
+      transform 420ms cubic-bezier(0.16, 1, 0.3, 1),
+      border-color 420ms ease,
+      box-shadow 420ms ease;
+  }
+
+  .column-card::before {
+    content: '';
+    position: absolute;
+    inset-inline: 0;
+    top: 0;
+    height: 2px;
+    background: linear-gradient(
+      90deg,
+      transparent,
+      rgb(192 192 192 / 0.55),
+      transparent
+    );
+    opacity: 0;
+    transition: opacity 420ms ease;
+  }
+
+  .column-card:hover {
+    transform: translateY(-6px);
+    border-color: rgb(192 192 192 / 0.24);
+    box-shadow:
+      0 24px 48px -20px rgb(0 0 0 / 0.9),
+      0 0 0 1px rgb(30 58 138 / 0.18);
+  }
+
+  .column-card:hover::before {
+    opacity: 1;
+  }
+
+  /* ── Estriado: las acanaladuras de la columna dórica ────── */
+  .fluted {
+    background-image: repeating-linear-gradient(
+      90deg,
+      transparent 0 7px,
+      rgb(192 192 192 / 0.045) 7px 8px
+    );
+  }
+
+  /* ── Luz de santuario tras el frontón ───────────────────── */
+  .sanctum-glow {
+    background:
+      radial-gradient(
+        ellipse 70% 55% at 50% 0%,
+        rgb(30 58 138 / 0.42) 0%,
+        transparent 62%
+      ),
+      radial-gradient(
+        ellipse 40% 35% at 50% 8%,
+        rgb(192 192 192 / 0.09) 0%,
+        transparent 70%
+      );
+  }
+
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  /* ── Entrada escalonada de la columnata ─────────────────── */
+  @keyframes rise {
+    from {
+      opacity: 0;
+      transform: translateY(18px);
+    }
+    to {
+      opacity: 1;
+      transform: none;
+    }
+  }
+  .animate-rise {
+    animation: rise 620ms cubic-bezier(0.16, 1, 0.3, 1) both;
+  }
+
+  @keyframes fade {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  .animate-fade {
+    animation: fade 500ms ease both;
+  }
+}
+
+/* Barras de scroll: finas, plata sobre obsidiana */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #0d0d0d;
+}
+::-webkit-scrollbar-thumb {
+  background: #2e2e2e;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-lapis);
+}
+
+/* Accesibilidad: respeta la preferencia de movimiento reducido */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
