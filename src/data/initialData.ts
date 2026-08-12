@@ -4,13 +4,22 @@ import { CATALOGO_GENERADO } from './catalogoGenerado';
 /* ═══════════════════════════════════════════════════════════════════════
    AJUSTES DE FÁBRICA
 
-   SEGURIDAD: `adminPinHash` es el SHA-256 del PIN, no el PIN.
-   El valor de abajo corresponde al PIN de fábrica 481004.
-   → Cámbialo desde el panel (Ajustes › Seguridad) antes de publicar el sitio.
+   SEGURIDAD DEL PIN: en el repositorio no va ningún PIN, ni en claro ni con
+   hash. Este repositorio es público, y un PIN publicado es un PIN conocido.
+
+   El hash entra por `VITE_ADMIN_PIN_HASH`, que se configura en Vercel
+   (Settings › Environment Variables) y por eso nunca se commitea. Si la
+   variable no está —desarrollo local, o un despliegue recién creado—, el panel
+   pide crear el PIN en el primer ingreso y lo guarda en el localStorage de ese
+   navegador.
+
+   Se exige el formato de un SHA-256 (64 dígitos hexadecimales) para que una
+   variable mal pegada no deje la puerta en un estado raro: si no calza, se
+   trata como si no existiera.
    ═══════════════════════════════════════════════════════════════════════ */
 
-export const FACTORY_PIN_HASH =
-  '15550a0d5dc7632d4ffb29bab437f8ff0e87ee1af9e21685386a6a33e66d2d45';
+const ENV_PIN_HASH = String(import.meta.env.VITE_ADMIN_PIN_HASH ?? '').trim();
+const FACTORY_PIN_HASH = /^[a-f0-9]{64}$/i.test(ENV_PIN_HASH) ? ENV_PIN_HASH : '';
 
 export const INITIAL_SETTINGS: StoreSettings = {
   storeName: 'PAPI SHOES',

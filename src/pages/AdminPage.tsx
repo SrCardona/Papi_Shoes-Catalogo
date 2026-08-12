@@ -7,7 +7,6 @@ import {
   LogOut,
   Plus,
   Settings2,
-  ShieldAlert,
 } from 'lucide-react';
 import type { Sneaker } from '../types';
 import { useAuth } from '../context/AuthContext';
@@ -18,7 +17,6 @@ import { SneakerForm } from '../admin/SneakerForm';
 import { SettingsPanel } from '../admin/SettingsPanel';
 import { DeliveryManager } from '../admin/DeliveryManager';
 import { TempleMark } from '../components/ui/TempleMark';
-import { FACTORY_PIN_HASH } from '../data/initialData';
 import { cx, formatPrice } from '../lib/utils';
 
 type Tab = 'inventory' | 'form' | 'deliveries' | 'settings';
@@ -94,23 +92,6 @@ export function AdminPage() {
           </button>
         </div>
       </div>
-
-      {/* Aviso: PIN de fábrica sin cambiar */}
-      {settings.adminPinHash === FACTORY_PIN_HASH && (
-        <div className="flex items-start gap-3 mt-6 bg-amber-950/30 border border-amber-500/35 px-4 py-3.5">
-          <ShieldAlert className="w-4 h-4 text-amber-300 shrink-0 mt-0.5" />
-          <p className="text-[12px] text-amber-100/85 leading-relaxed">
-            Sigues usando el PIN de fábrica. Cámbialo en{' '}
-            <button
-              onClick={() => setTab('settings')}
-              className="underline underline-offset-2 font-semibold hover:text-amber-50"
-            >
-              Ajustes › Seguridad
-            </button>{' '}
-            antes de compartir el sitio.
-          </p>
-        </div>
-      )}
 
       {storageWarning && (
         <p className="mt-4 bg-red-950/35 border border-red-500/30 px-4 py-3.5 text-[12px] text-red-200 leading-relaxed">

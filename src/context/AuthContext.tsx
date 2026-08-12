@@ -27,10 +27,16 @@ interface LoginResult {
 interface AuthContextValue {
   isAuthenticated: boolean;
   isChecking: boolean;
+  /** Este navegador todavía no tiene PIN: hay que crearlo antes de entrar. */
+  needsSetup: boolean;
   login: (username: string, pin: string) => Promise<LoginResult>;
   logout: () => void;
   changePin: (currentPin: string, newPin: string) => Promise<LoginResult>;
+  setupPin: (pin: string) => Promise<LoginResult>;
 }
+
+/** Regla única del formato del PIN, para que login y alta no se contradigan. */
+const PIN_FORMAT = /^\d{6,12}$/;
 
 const AuthContext = createContext<AuthContextValue | null>(null);
 
@@ -45,6 +51,28 @@ export function AuthProvider({ children }: { children: ReactNode }) {
       setIsChecking(false);
     });
   }, []);
+
+  /* El código no trae ningún PIN, así que un `adminPinHash` vacío significa
+     "primer arranque en este navegador", no "credencial inválida". */
+  const needsSetup = settings.adminPinHash === '';
+
+  const setupPin = useCallback(
+    async (pin: string): Promise<LoginResult> => {
+      if (settings.adminPinHash !== '') {
+        return { ok: false, message: 'Ya hay un PIN definido en este navegador.' };
+      }
+      const clean = pin.trim();
+      if (!PIN_FORMAT.test(clean)) {
+        return { ok: false, message: 'El PIN debe tener entre 6 y 12 dígitos.' };
+      }
+      setSettings({ ...settings, adminPinHash: await sha256(clean) });
+      resetAttempts();
+      await issueSession();
+      setIsAuthenticated(true);
+      return { ok: true };
+    },
+    [settings, setSettings],
+  );
 
   const login = useCallback(
     async (username: string, pin: string): Promise<LoginResult> => {
@@ -93,7 +121,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
         settings.adminPinHash,
       );
       if (!currentOk) return { ok: false, message: 'El PIN actual no coincide.' };
-      if (!/^\d{6,12}$/.test(newPin.trim())) {
+      if (!PIN_FORMAT.test(newPin.trim())) {
         return { ok: false, message: 'El nuevo PIN debe tener entre 6 y 12 dígitos.' };
       }
       setSettings({ ...settings, adminPinHash: await sha256(newPin.trim()) });
@@ -103,8 +131,8 @@ export function AuthProvider({ children }: { children: ReactNode }) {
   );
 
   const value = useMemo(
-    () => ({ isAuthenticated, isChecking, login, logout, changePin }),
-    [isAuthenticated, isChecking, login, logout, changePin],
+    () => ({ isAuthenticated, isChecking, needsSetup, login, logout, changePin, setupPin }),
+    [isAuthenticated, isChecking, needsSetup, login, logout, changePin, setupPin],
   );
 
   return <AuthContext.Provider value={value}>{children}</AuthContext.Provider>;

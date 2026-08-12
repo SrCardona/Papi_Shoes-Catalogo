@@ -9,8 +9,9 @@
  * cualquier control del lado del cliente.
  *
  * Lo que sí se corrigió respecto a la versión anterior:
- *   · El PIN ya no viaja en texto plano dentro del código.
- *   · Se eliminó el acceso maestro "admin / 481004" que ignoraba tu PIN real.
+ *   · El código no distribuye ningún PIN: ni en claro ni con hash. El PIN se
+ *     crea en el primer ingreso y vive en el navegador del dueño.
+ *   · Se eliminó el acceso maestro codificado que ignoraba tu PIN real.
  *   · La sesión ya no se activa escribiendo `true` en sessionStorage.
  *   · Se bloquea el acceso tras varios intentos fallidos.
  *
@@ -196,7 +197,7 @@ export function sanitizeImageUrl(url: unknown): string {
   if (
     !trimmed.startsWith('//') &&
     !trimmed.includes('..') &&
-    /^\/[a-z0-9._~\-\/%()'!*+,&=:@ ]+\.(png|jpe?g|gif|webp|avif)$/i.test(trimmed)
+    /^\/[a-z0-9._~\-/%()'!*+,&=:@ ]+\.(png|jpe?g|gif|webp|avif)$/i.test(trimmed)
   ) {
     return trimmed;
   }

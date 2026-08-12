@@ -30,13 +30,30 @@ invocarlo al desmontar el componente. Corre `npm run lint` antes de publicar.
 
 ## ⚠️ Antes de publicar el sitio
 
-**Cambia el PIN de fábrica.** Entra a `/admin` con:
+**Configura el PIN en Vercel.** El repositorio no trae ningún PIN, ni en claro ni
+con hash: este repositorio es público y un PIN publicado es un PIN conocido. El
+hash entra por variable de entorno:
 
-- Usuario: `papi.cardona`
-- PIN: `481004`
+1. Abre `/admin` en tu equipo. Sin variable configurada, el panel te pide crear
+   un PIN y lo guarda en ese navegador.
+2. Ve a **Ajustes › Seguridad › Hash para Vercel**, escribe el PIN que quieres
+   usar en el sitio publicado y copia el hash que aparece.
+3. En Vercel: **Settings › Environment Variables**, crea
+   `VITE_ADMIN_PIN_HASH` con ese valor. Vuelve a desplegar.
 
-y ve a **Ajustes › Seguridad › Cambiar PIN**. El panel muestra un aviso permanente
-mientras sigas con el PIN de fábrica.
+Nunca pongas el PIN en texto plano en un archivo, un commit o la variable: solo
+el hash. El usuario es `papi.cardona` (se cambia en **Ajustes › Seguridad**) y no
+es una credencial secreta: lo que protege el panel es el PIN.
+
+Si no configuras la variable, cualquier visitante que abra `/admin` en el sitio
+publicado verá la pantalla de creación de PIN y entrará al panel **en su propio
+navegador**. No puede alterar lo que ven los demás —no hay servidor— pero es
+confuso y conviene evitarlo.
+
+Y el límite de fondo: como el sitio no tiene backend, este control frena a un
+visitante casual, no a alguien con conocimientos técnicos. El hash viaja en el
+bundle y un PIN de pocos dígitos se adivina por fuerza bruta fuera de línea.
+Para seguridad real hace falta un backend (ver "Siguiente paso: backend").
 
 Revisa también, en **Ajustes › Tienda y contacto**, que el número de WhatsApp sea
 el correcto: ese número recibe todos los pedidos del sitio.
@@ -241,7 +258,12 @@ eso conviene ser explícito.
 
 **Lo que sí hace:**
 
-- El PIN se guarda cifrado con SHA-256, nunca en texto plano.
+- El PIN se guarda como hash SHA-256, nunca en texto plano. Es hash, no cifrado:
+  no hay forma de volver al PIN desde el valor guardado, pero tampoco lleva sal,
+  así que un PIN de pocos dígitos se puede adivinar por fuerza bruta si alguien
+  obtiene el hash. Por eso el repositorio no distribuye ninguno.
+- El código no trae PIN de fábrica: se crea en el primer ingreso y vive solo en
+  el navegador del dueño.
 - No existe ningún acceso maestro alterno: solo tu usuario y tu PIN entran.
 - La sesión es un token con caducidad de 2 horas, no una bandera booleana.
 - El acceso se bloquea 15 minutos tras 5 intentos fallidos.

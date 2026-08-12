@@ -4,9 +4,10 @@ import { useAuth } from '../context/AuthContext';
 import { BrandLockup } from '../components/ui/TempleMark';
 
 export function AdminLogin() {
-  const { login } = useAuth();
+  const { login, needsSetup, setupPin } = useAuth();
   const [username, setUsername] = useState('');
   const [pin, setPin] = useState('');
+  const [confirmPin, setConfirmPin] = useState('');
   const [error, setError] = useState<string | null>(null);
   const [isSubmitting, setIsSubmitting] = useState(false);
 
@@ -14,6 +15,25 @@ export function AdminLogin() {
     e.preventDefault();
     setIsSubmitting(true);
     setError(null);
+
+    // Primer arranque: en vez de verificar, se crea el PIN de este navegador.
+    if (needsSetup) {
+      if (pin.trim() !== confirmPin.trim()) {
+        setError('Los dos PIN no coinciden.');
+        setConfirmPin('');
+        setIsSubmitting(false);
+        return;
+      }
+      const created = await setupPin(pin);
+      if (!created.ok) {
+        setError(created.message ?? 'No se pudo crear el PIN.');
+        setPin('');
+        setConfirmPin('');
+      }
+      setIsSubmitting(false);
+      return;
+    }
+
     const result = await login(username, pin);
     if (!result.ok) {
       setError(result.message ?? 'No se pudo iniciar sesión.');
@@ -33,45 +53,56 @@ export function AdminLogin() {
         <div className="bg-basalt border border-white/10 p-7">
           <div className="flex items-center gap-2.5 mb-6 pb-5 border-b border-white/8">
             <Lock className="w-4 h-4 text-silver/70" />
-            <h1 className="font-display text-lg text-marble">Panel de administración</h1>
+            <h1 className="font-display text-lg text-marble">
+              {needsSetup ? 'Crea tu PIN de acceso' : 'Panel de administración'}
+            </h1>
           </div>
 
+          {needsSetup && (
+            <p className="mb-5 text-[11.5px] leading-relaxed text-marble/45">
+              Este navegador todavía no tiene PIN. Defínelo ahora: queda guardado
+              solo aquí, nunca se sube al repositorio.
+            </p>
+          )}
+
           <form onSubmit={onSubmit} className="space-y-4">
-            <div>
-              <label
-                htmlFor="admin-user"
-                className="block text-[9px] font-semibold uppercase tracking-[0.2em] text-marble/40 mb-2"
-              >
-                Usuario
-              </label>
-              <input
-                id="admin-user"
-                type="text"
-                autoComplete="username"
-                value={username}
-                onChange={(e) => {
-                  setUsername(e.target.value);
-                  setError(null);
-                }}
-                placeholder="tu.usuario"
-                className={field}
-                autoFocus
-                required
-              />
-            </div>
+            {!needsSetup && (
+              <div>
+                <label
+                  htmlFor="admin-user"
+                  className="block text-[9px] font-semibold uppercase tracking-[0.2em] text-marble/40 mb-2"
+                >
+                  Usuario
+                </label>
+                <input
+                  id="admin-user"
+                  type="text"
+                  autoComplete="username"
+                  value={username}
+                  onChange={(e) => {
+                    setUsername(e.target.value);
+                    setError(null);
+                  }}
+                  placeholder="tu.usuario"
+                  className={field}
+                  autoFocus
+                  required
+                />
+              </div>
+            )}
 
             <div>
               <label
                 htmlFor="admin-pin"
                 className="block text-[9px] font-semibold uppercase tracking-[0.2em] text-marble/40 mb-2"
               >
-                PIN
+                {needsSetup ? 'PIN nuevo (6–12 dígitos)' : 'PIN'}
               </label>
               <input
                 id="admin-pin"
                 type="password"
                 inputMode="numeric"
-                autoComplete="current-password"
+                autoComplete={needsSetup ? 'new-password' : 'current-password'}
                 value={pin}
                 onChange={(e) => {
                   setPin(e.target.value);
@@ -79,9 +110,35 @@ export function AdminLogin() {
                 }}
                 placeholder="••••••"
                 className={`${field} tracking-[0.35em]`}
+                autoFocus={needsSetup}
                 required
               />
             </div>
+
+            {needsSetup && (
+              <div>
+                <label
+                  htmlFor="admin-pin-confirm"
+                  className="block text-[9px] font-semibold uppercase tracking-[0.2em] text-marble/40 mb-2"
+                >
+                  Repite el PIN
+                </label>
+                <input
+                  id="admin-pin-confirm"
+                  type="password"
+                  inputMode="numeric"
+                  autoComplete="new-password"
+                  value={confirmPin}
+                  onChange={(e) => {
+                    setConfirmPin(e.target.value);
+                    setError(null);
+                  }}
+                  placeholder="••••••"
+                  className={`${field} tracking-[0.35em]`}
+                  required
+                />
+              </div>
+            )}
 
             {error && (
               <p
@@ -99,13 +156,21 @@ export function AdminLogin() {
               className="w-full flex items-center justify-center gap-2 py-3.5 bg-marble text-obsidian text-[10px] font-bold uppercase tracking-[0.22em] hover:bg-silver disabled:opacity-50 transition-colors mt-2"
             >
               {isSubmitting && <Loader2 className="w-3.5 h-3.5 animate-spin" />}
-              {isSubmitting ? 'Verificando' : 'Entrar'}
+              {isSubmitting
+                ? needsSetup
+                  ? 'Guardando'
+                  : 'Verificando'
+                : needsSetup
+                  ? 'Crear PIN y entrar'
+                  : 'Entrar'}
             </button>
           </form>
         </div>
 
         <p className="mt-5 text-[11px] leading-relaxed text-marble/30 text-center">
-          El acceso se bloquea 15 minutos tras 5 intentos fallidos.
+          {needsSetup
+            ? 'El PIN vive en este navegador. Si entras desde otro equipo, tendrás que definirlo de nuevo.'
+            : 'El acceso se bloquea 15 minutos tras 5 intentos fallidos.'}
         </p>
       </div>
     </div>
