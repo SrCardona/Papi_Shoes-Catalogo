@@ -1,9 +1,9 @@
 import { useEffect, useState } from 'react';
 import { Link, NavLink, useLocation, useNavigate } from 'react-router-dom';
-import { Menu, MessageCircle, Search, Shield, X } from 'lucide-react';
+import { Instagram, Menu, MessageCircle, Search, Shield, X } from 'lucide-react';
 import { useStore } from '../../context/StoreContext';
 import { TempleMark } from '../ui/TempleMark';
-import { cx, generateDirectWhatsAppContact } from '../../lib/utils';
+import { cx, generateDirectWhatsAppContact, instagramUrl } from '../../lib/utils';
 
 const NAV_LINKS = [
   { to: '/originales', label: 'Originales' },
@@ -22,6 +22,8 @@ export function Navbar() {
   const [menuOpenedAt, setMenuOpenedAt] = useState(location.pathname);
   const [isScrolled, setIsScrolled] = useState(false);
   const [query, setQuery] = useState('');
+
+  const igUrl = instagramUrl(settings.instagramHandle);
 
   // El menú móvil se cierra al cambiar de ruta. Ajustar el estado durante el
   // render (en vez de en un efecto) evita el parpadeo de un render intermedio
@@ -79,14 +81,18 @@ export function Navbar() {
             <Link
               to="/"
               className="flex items-center gap-3 shrink-0 group"
-              aria-label="PAPI SHOES — inicio"
+              aria-label={`${settings.storeName} — inicio`}
             >
               <TempleMark className="w-8 h-8 transition-transform duration-500 group-hover:-translate-y-0.5" />
               <span className="hidden sm:flex flex-col leading-none">
-                <span className="font-display text-engraved text-lg">PAPI SHOES</span>
-                <span className="text-[6.5px] font-semibold uppercase tracking-[0.34em] text-silver/55 mt-1">
-                  El Templo de los Tenis
+                <span className="font-display text-engraved text-lg">
+                  {settings.storeName}
                 </span>
+                {settings.tagline && (
+                  <span className="text-[6.5px] font-semibold uppercase tracking-[0.34em] text-silver/55 mt-1">
+                    {settings.tagline}
+                  </span>
+                )}
               </span>
             </Link>
 
@@ -139,6 +145,20 @@ export function Navbar() {
                 <MessageCircle className="w-3.5 h-3.5" />
                 Asesoría
               </a>
+
+              {/* Solo en pantallas medianas hacia arriba: en móvil vive en el
+                  menú desplegable para no apretar la barra. */}
+              {igUrl && (
+                <a
+                  href={igUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label={`${settings.storeName} en Instagram`}
+                  className="hidden sm:inline-flex p-2.5 text-marble/40 hover:text-silver transition-colors"
+                >
+                  <Instagram className="w-4 h-4" />
+                </a>
+              )}
 
               <Link
                 to="/admin"
@@ -209,6 +229,18 @@ export function Navbar() {
               <Shield className="w-3.5 h-3.5" />
               Panel de administración
             </Link>
+            {igUrl && (
+              <a
+                href={igUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label={`${settings.storeName} en Instagram`}
+                className="flex items-center justify-center gap-2 w-full py-3 text-marble/40 hover:text-marble text-[10px] font-semibold uppercase tracking-[0.22em] transition-colors"
+              >
+                <Instagram className="w-3.5 h-3.5" />
+                Instagram
+              </a>
+            )}
           </div>
         </div>
       )}

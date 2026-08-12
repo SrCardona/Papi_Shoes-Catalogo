@@ -74,6 +74,20 @@ export function generateDirectWhatsAppContact(
   return waHref(settings.whatsappNumber, message);
 }
 
+/* ── Redes ──────────────────────────────────────────────────────────────── */
+
+/**
+ * Perfil de Instagram, o `null` si no hay usuario configurado. Devuelve `null`
+ * en vez de una cadena para que quien lo llame no pueda dibujar un enlace a
+ * `instagram.com/` sin usuario. Se acepta el usuario con o sin arroba, porque
+ * el dueño lo escribe de las dos formas.
+ */
+export function instagramUrl(handle: string): string | null {
+  const clean = handle.trim().replace(/^@+/, '');
+  if (!clean) return null;
+  return `https://instagram.com/${encodeURIComponent(clean)}`;
+}
+
 /** Número en formato legible: 573045961031 → +57 304 596 1031 */
 export function formatPhoneDisplay(number: string): string {
   const d = number.replace(/\D/g, '');

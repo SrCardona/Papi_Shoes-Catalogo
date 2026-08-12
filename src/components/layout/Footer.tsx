@@ -3,11 +3,16 @@ import { Instagram, MessageCircle, Music2 } from 'lucide-react';
 import { useStore } from '../../context/StoreContext';
 import { BRAND_PILLARS } from '../../data/initialData';
 import { TempleMark } from '../ui/TempleMark';
-import { formatPhoneDisplay, generateDirectWhatsAppContact } from '../../lib/utils';
+import {
+  formatPhoneDisplay,
+  generateDirectWhatsAppContact,
+  instagramUrl,
+} from '../../lib/utils';
 
 export function Footer() {
   const { settings } = useStore();
   const year = new Date().getFullYear();
+  const igUrl = instagramUrl(settings.instagramHandle);
 
   return (
     <footer className="bg-marble-navy border-t border-silver/15 mt-24">
@@ -29,27 +34,33 @@ export function Footer() {
           {/* Marca */}
           <div className="lg:col-span-5 space-y-5">
             <div className="flex items-center gap-4">
-              <TempleMark className="w-12 h-12" />
+              <TempleMark className="w-12 h-12" title={settings.storeName} />
               <div className="leading-none">
-                <p className="font-display text-engraved text-2xl">PAPI SHOES</p>
-                <p className="text-[8px] font-semibold uppercase tracking-[0.34em] text-silver/55 mt-1.5">
-                  El Templo de los Tenis
+                <p className="font-display text-engraved text-2xl">
+                  {settings.storeName}
                 </p>
+                {settings.tagline && (
+                  <p className="text-[8px] font-semibold uppercase tracking-[0.34em] text-silver/55 mt-1.5">
+                    {settings.tagline}
+                  </p>
+                )}
               </div>
             </div>
             <p className="text-[13px] text-marble/45 leading-relaxed max-w-sm">
               {settings.guaranteeText} Atendemos desde {settings.locationCity}.
             </p>
             <div className="flex items-center gap-3 pt-1">
-              <a
-                href={`https://instagram.com/${settings.instagramHandle}`}
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="Instagram"
-                className="w-10 h-10 border border-white/12 flex items-center justify-center text-marble/50 hover:text-marble hover:border-silver/40 transition-colors"
-              >
-                <Instagram className="w-4 h-4" />
-              </a>
+              {igUrl && (
+                <a
+                  href={igUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label={`${settings.storeName} en Instagram`}
+                  className="w-10 h-10 border border-white/12 flex items-center justify-center text-marble/50 hover:text-marble hover:border-silver/40 transition-colors"
+                >
+                  <Instagram className="w-4 h-4" />
+                </a>
+              )}
               <a
                 href={`https://tiktok.com/@${settings.tiktokHandle}`}
                 target="_blank"

@@ -5,6 +5,7 @@ import {
   Check,
   ChevronLeft,
   ChevronRight,
+  Instagram,
   MessageCircle,
   Ruler,
   Share2,
@@ -22,6 +23,7 @@ import {
   formatPrice,
   generateDirectWhatsAppContact,
   generateWhatsAppLink,
+  instagramUrl,
 } from '../lib/utils';
 
 /**
@@ -39,6 +41,7 @@ function ProductView({ id }: { id?: string }) {
   const { getSneaker, sneakers, settings } = useStore();
 
   const sneaker = id ? getSneaker(id) : undefined;
+  const igUrl = instagramUrl(settings.instagramHandle);
 
   const [imageIndex, setImageIndex] = useState(0);
   const [selectedSize, setSelectedSize] = useState<string | number | null>(null);
@@ -49,11 +52,11 @@ function ProductView({ id }: { id?: string }) {
   useEffect(() => {
     if (!sneaker) return;
     const previousTitle = document.title;
-    document.title = `${sneaker.name} — PAPI SHOES`;
+    document.title = `${sneaker.name} — ${settings.storeName}`;
     return () => {
       document.title = previousTitle;
     };
-  }, [sneaker]);
+  }, [sneaker, settings.storeName]);
 
   const related = useMemo(() => {
     if (!sneaker) return [];
@@ -320,6 +323,21 @@ function ProductView({ id }: { id?: string }) {
                   {sneaker.status === 'bajo_encargo'
                     ? 'Cotizar bajo encargo'
                     : 'Pedir por WhatsApp'}
+                </a>
+              )}
+
+              {/* Enlace secundario: texto pequeño y apagado para que no le
+                  compita al botón de WhatsApp, que es la acción de la página. */}
+              {igUrl && (
+                <a
+                  href={igUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label={`Ver ${settings.storeName} en Instagram`}
+                  className="flex items-center justify-center gap-2 text-[11px] text-marble/35 hover:text-marble/70 transition-colors"
+                >
+                  <Instagram className="w-3.5 h-3.5" />
+                  Míralo en Instagram
                 </a>
               )}
 
