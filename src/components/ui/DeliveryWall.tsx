@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from 'react';
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { ChevronLeft, ChevronRight, MapPin, X } from 'lucide-react';
 import type { Delivery } from '../../types';
 import { SmartImage } from './SmartImage';
@@ -24,6 +24,12 @@ export function DeliveryWall({
 }: DeliveryWallProps) {
   const [city, setCity] = useState<string>('all');
   const [openIndex, setOpenIndex] = useState<number | null>(null);
+  const trackRef = useRef<HTMLDivElement>(null);
+  const [reach, setReach] = useState({
+    overflows: false,
+    atStart: true,
+    atEnd: true,
+  });
 
   /* Ciudades ordenadas por número de entregas: la cobertura real, no un
      listado alfabético que no dice nada. */
@@ -41,6 +47,41 @@ export function DeliveryWall({
       city === 'all' ? sorted : sorted.filter((d) => d.city === city);
     return limit ? filtered.slice(0, limit) : filtered;
   }, [deliveries, city, limit]);
+
+  /* El margen de 4 px absorbe los redondeos del navegador al medir el scroll:
+     sin él la flecha derecha queda activa aunque ya no haya recorrido. */
+  const readReach = useCallback(() => {
+    const el = trackRef.current;
+    if (!el) return;
+    const max = el.scrollWidth - el.clientWidth;
+    setReach({
+      overflows: max > 4,
+      atStart: el.scrollLeft <= 4,
+      atEnd: el.scrollLeft >= max - 4,
+    });
+  }, []);
+
+  /**
+   * La medición vive en un ResizeObserver y no en el cuerpo del efecto porque
+   * al observar el navegador entrega una primera medida con el layout ya hecho:
+   * un solo mecanismo sirve de arranque y de reacción al cambio de tamaño.
+   * Depende de `visible.length` para volver a medir cuando el filtro de ciudad
+   * cambia cuántas tarjetas hay, que es lo que decide si sobran flechas.
+   */
+  useEffect(() => {
+    const el = trackRef.current;
+    if (!el) return;
+    const observer = new ResizeObserver(() => readReach());
+    observer.observe(el);
+    return () => observer.disconnect();
+  }, [readReach, visible.length]);
+
+  /* Avanza una pantalla visible, que es lo que el ojo espera de una flecha. */
+  const page = (direction: -1 | 1) => {
+    const el = trackRef.current;
+    if (!el) return;
+    el.scrollBy({ left: direction * el.clientWidth, behavior: 'smooth' });
+  };
 
   /* Navegación del visor por teclado. */
   useEffect(() => {
@@ -100,50 +141,85 @@ export function DeliveryWall({
         </div>
       )}
 
-      <div className="grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-px bg-white/6 border border-white/6">
-        {visible.map((delivery, i) => (
-          <button
-            key={delivery.id}
-            onClick={() => setOpenIndex(i)}
-            style={{ animationDelay: `${Math.min(i, 11) * 55}ms` }}
-            className="column-card animate-rise group text-left"
-            aria-label={`Ver entrega en ${delivery.neighborhood || delivery.city}`}
-          >
-            <div className="relative aspect-[4/5] overflow-hidden bg-obsidian fluted">
-              <SmartImage
-                src={delivery.image}
-                alt={
-                  delivery.productName
-                    ? `${delivery.productName} entregado en ${delivery.city}`
-                    : `Entrega en ${delivery.city}`
-                }
-                sizes="(max-width: 640px) 50vw, (max-width: 1280px) 33vw, 25vw"
-                className="w-full h-full object-cover transition-transform duration-[900ms] ease-out group-hover:scale-[1.06]"
-              />
-              <div
-                aria-hidden
-                className="absolute inset-x-0 bottom-0 h-1/2 bg-gradient-to-t from-obsidian via-obsidian/70 to-transparent"
-              />
+      <div className="relative">
+        {/* El `py-2` da aire al salto de 6 px que `column-card` hace en hover:
+            `overflow-x-auto` obliga al eje vertical a `auto`, y sin ese espacio
+            el navegador recortaría la tarjeta o sacaría una barra de más. */}
+        <div
+          ref={trackRef}
+          onScroll={readReach}
+          role="region"
+          aria-label="Entregas a clientes"
+          className="flex gap-px overflow-x-auto snap-x snap-mandatory py-2"
+        >
+          {visible.map((delivery, i) => (
+            <button
+              key={delivery.id}
+              onClick={() => setOpenIndex(i)}
+              style={{ animationDelay: `${Math.min(i, 11) * 55}ms` }}
+              className="column-card animate-rise group text-left shrink-0 snap-start w-[68%] sm:w-[46%] lg:w-[31%] xl:w-[23.5%]"
+              aria-label={`Ver entrega en ${delivery.neighborhood || delivery.city}`}
+            >
+              <div className="relative aspect-[4/5] overflow-hidden bg-obsidian fluted">
+                <SmartImage
+                  src={delivery.image}
+                  alt={
+                    delivery.productName
+                      ? `${delivery.productName} entregado en ${delivery.city}`
+                      : `Entrega en ${delivery.city}`
+                  }
+                  sizes="(max-width: 640px) 68vw, (max-width: 1024px) 46vw, (max-width: 1280px) 31vw, 24vw"
+                  className="w-full h-full object-cover transition-transform duration-[900ms] ease-out group-hover:scale-[1.06]"
+                />
+                <div
+                  aria-hidden
+                  className="absolute inset-x-0 bottom-0 h-1/2 bg-gradient-to-t from-obsidian via-obsidian/70 to-transparent"
+                />
 
-              {/* Placa: la ubicación grabada sobre la foto */}
-              <div className="absolute inset-x-0 bottom-0 p-3.5">
-                {!delivery.locationInImage && (
-                  <p className="flex items-center gap-1.5 text-[11px] font-semibold text-marble leading-tight">
-                    <MapPin className="w-3.5 h-3.5 text-silver shrink-0" />
-                    <span className="truncate">
-                      {delivery.neighborhood
-                        ? `${delivery.neighborhood} · ${delivery.city}`
-                        : delivery.city}
-                    </span>
+                {/* Placa: la ubicación grabada sobre la foto */}
+                <div className="absolute inset-x-0 bottom-0 p-3.5">
+                  {!delivery.locationInImage && (
+                    <p className="flex items-center gap-1.5 text-[11px] font-semibold text-marble leading-tight">
+                      <MapPin className="w-3.5 h-3.5 text-silver shrink-0" />
+                      <span className="truncate">
+                        {delivery.neighborhood
+                          ? `${delivery.neighborhood} · ${delivery.city}`
+                          : delivery.city}
+                      </span>
+                    </p>
+                  )}
+                  <p className="mt-1 text-[9px] uppercase tracking-[0.2em] text-marble/45 truncate">
+                    {formatMonthYear(delivery.deliveredAt)}
                   </p>
-                )}
-                <p className="mt-1 text-[9px] uppercase tracking-[0.2em] text-marble/45 truncate">
-                  {formatMonthYear(delivery.deliveredAt)}
-                </p>
+                </div>
               </div>
-            </div>
-          </button>
-        ))}
+            </button>
+          ))}
+        </div>
+
+        {/* Solo si de verdad hay recorrido, y solo en escritorio: en móvil se
+            desliza con el dedo. Al llegar a un extremo la flecha se apaga en
+            lugar de desaparecer, para que la fila no se mueva de lugar. */}
+        {reach.overflows && (
+          <>
+            <button
+              onClick={() => page(-1)}
+              disabled={reach.atStart}
+              aria-label="Ver entregas anteriores"
+              className="hidden lg:flex absolute left-2 top-1/2 -translate-y-1/2 items-center justify-center w-11 h-11 border border-white/12 bg-obsidian/85 text-marble/70 hover:text-marble hover:border-silver/40 disabled:opacity-0 disabled:pointer-events-none transition-all"
+            >
+              <ChevronLeft className="w-5 h-5" />
+            </button>
+            <button
+              onClick={() => page(1)}
+              disabled={reach.atEnd}
+              aria-label="Ver más entregas"
+              className="hidden lg:flex absolute right-2 top-1/2 -translate-y-1/2 items-center justify-center w-11 h-11 border border-white/12 bg-obsidian/85 text-marble/70 hover:text-marble hover:border-silver/40 disabled:opacity-0 disabled:pointer-events-none transition-all"
+            >
+              <ChevronRight className="w-5 h-5" />
+            </button>
+          </>
+        )}
       </div>
 
       <div className="h-px stylobate" />

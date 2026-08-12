@@ -213,7 +213,7 @@ export function HomePage() {
               </Link>
             }
           />
-          <DeliveryWall deliveries={deliveries} showFilters={false} limit={4} />
+          <DeliveryWall deliveries={deliveries} showFilters={false} limit={10} />
         </section>
       )}
 
