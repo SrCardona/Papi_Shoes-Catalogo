@@ -3,6 +3,7 @@ import { Outlet, useLocation } from 'react-router-dom';
 import { Navbar } from './Navbar';
 import { Footer } from './Footer';
 import { FloatingWhatsApp } from '../ui/FloatingWhatsApp';
+import { useStore } from '../../context/StoreContext';
 
 /**
  * Devuelve el scroll al inicio en cada cambio de vista.
@@ -33,10 +34,34 @@ function ScrollToTop() {
   return null;
 }
 
+/**
+ * Mantiene el título de la pestaña al día con el nombre configurado.
+ *
+ * El `<title>` de index.html es solo lo que se ve antes de que arranque React:
+ * es un archivo estático y no puede leer los ajustes. La ficha de producto pone
+ * su propio título con el nombre del par, y aquí se respeta: los efectos de los
+ * hijos corren antes que los del padre, así que sin esta guarda este efecto le
+ * pisaría el título a la ficha.
+ */
+function DocumentTitle() {
+  const { settings } = useStore();
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    if (pathname.startsWith('/producto/')) return;
+    document.title = settings.tagline
+      ? `${settings.storeName} — ${settings.tagline}`
+      : settings.storeName;
+  }, [pathname, settings.storeName, settings.tagline]);
+
+  return null;
+}
+
 export function Layout() {
   return (
     <div className="min-h-screen flex flex-col">
       <ScrollToTop />
+      <DocumentTitle />
       <Navbar />
       <main className="flex-1">
         <Outlet />

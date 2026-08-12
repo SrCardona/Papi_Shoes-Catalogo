@@ -1,4 +1,5 @@
 import { useId } from 'react';
+import { useStore } from '../../context/StoreContext';
 import { cx } from '../../lib/utils';
 
 interface TempleMarkProps {
@@ -9,14 +10,19 @@ interface TempleMarkProps {
 }
 
 /**
- * El emblema de PAPI SHOES: frontón, cinco columnas y estilóbato.
+ * El emblema de la tienda: frontón, cinco columnas y estilóbato.
  * Se usa como SVG y no como imagen para que sea nítido a cualquier tamaño
  * y pueda heredar el color en los contextos monocromos.
+ *
+ * A propósito no lee `settings`: `ErrorBoundary` envuelve a `StoreProvider` y
+ * dibuja este emblema en su pantalla de error. Si aquí se llamara a `useStore`,
+ * un error controlado se convertiría en una caída seca. Quien represente a la
+ * marca pasa el nombre por `title`.
  */
 export function TempleMark({
   className,
   variant = 'silver',
-  title = 'PAPI SHOES',
+  title = 'Emblema del templo',
 }: TempleMarkProps) {
   const id = useId();
   const gradientId = `temple-metal-${id}`;
@@ -78,6 +84,7 @@ export function BrandLockup({
   className?: string;
   showTagline?: boolean;
 }) {
+  const { settings } = useStore();
   const scale = {
     sm: { mark: 'w-7 h-7', word: 'text-xl', tag: 'text-[7px] tracking-[0.3em]' },
     md: { mark: 'w-10 h-10', word: 'text-3xl', tag: 'text-[8px] tracking-[0.34em]' },
@@ -91,15 +98,15 @@ export function BrandLockup({
 
   return (
     <div className={cx('flex flex-col items-center', className)}>
-      <TempleMark className={scale.mark} />
+      <TempleMark className={scale.mark} title={settings.storeName} />
       <span
         className={cx('font-display text-engraved leading-none mt-2', scale.word)}
       >
-        PAPI SHOES
+        {settings.storeName}
       </span>
-      {showTagline && (
+      {showTagline && settings.tagline && (
         <span className={cx('mt-2 font-semibold uppercase text-silver/70', scale.tag)}>
-          El Templo de los Tenis
+          {settings.tagline}
         </span>
       )}
     </div>

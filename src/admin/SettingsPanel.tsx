@@ -8,6 +8,7 @@ import {
   validateSettings,
   validateSneakers,
 } from '../lib/validation';
+import { sha256 } from '../lib/security';
 import { cx, formatPhoneDisplay } from '../lib/utils';
 
 const field =
@@ -35,7 +36,29 @@ export function SettingsPanel() {
   const [currentPin, setCurrentPin] = useState('');
   const [newPin, setNewPin] = useState('');
   const [pinNotice, setPinNotice] = useState<Notice>(null);
+  const [hashSource, setHashSource] = useState('');
+  const [hashResult, setHashResult] = useState('');
   const importRef = useRef<HTMLInputElement>(null);
+  const hashSeq = useRef(0);
+
+  /* El hash se calcula mientras se escribe. `sha256` es asíncrono, así que se
+     numera cada pulsación y se descarta el resultado que llegue tarde. */
+  const updateHashSource = async (value: string) => {
+    setHashSource(value);
+    const seq = ++hashSeq.current;
+    const clean = value.trim();
+    if (!clean) {
+      setHashResult('');
+      return;
+    }
+    try {
+      const digest = await sha256(clean);
+      if (seq === hashSeq.current) setHashResult(digest);
+    } catch {
+      // Sin contexto seguro (http por IP de red) el navegador no da crypto.
+      if (seq === hashSeq.current) setHashResult('');
+    }
+  };
 
   const flash = (n: Notice) => {
     setNotice(n);
@@ -117,7 +140,10 @@ export function SettingsPanel() {
           text: `Se restauraron ${importedSneakers.length} pares y ${importedDeliveries.length} entregas. Tu usuario y PIN no cambiaron.`,
         });
       } catch {
-        flash({ tone: 'error', text: 'El archivo no es un respaldo válido de PAPI SHOES.' });
+        flash({
+          tone: 'error',
+          text: `El archivo no es un respaldo válido de ${settings.storeName}.`,
+        });
       } finally {
         if (importRef.current) importRef.current.value = '';
       }
@@ -151,6 +177,46 @@ export function SettingsPanel() {
         </div>
 
         <div className="grid sm:grid-cols-2 gap-5">
+          <div>
+            <label className={label} htmlFor="s-name">Nombre de la tienda</label>
+            <input
+              id="s-name"
+              value={draft.storeName}
+              onChange={(e) => setDraft({ ...draft, storeName: e.target.value })}
+              className={field}
+            />
+            <p className="text-[10.5px] text-marble/30 mt-1.5">
+              Sale en la barra, la portada, el pie y el título de la pestaña.
+            </p>
+          </div>
+
+          <div>
+            <label className={label} htmlFor="s-tagline">Bajada de la marca</label>
+            <input
+              id="s-tagline"
+              value={draft.tagline}
+              onChange={(e) => setDraft({ ...draft, tagline: e.target.value })}
+              placeholder="EL TEMPLO DE LOS TENIS"
+              className={field}
+            />
+            <p className="text-[10.5px] text-marble/30 mt-1.5">
+              Debajo del nombre. Si lo dejas vacío, no se dibuja.
+            </p>
+          </div>
+
+          <div className="sm:col-span-2">
+            <label className={label} htmlFor="s-slogan">Eslogan</label>
+            <input
+              id="s-slogan"
+              value={draft.slogan}
+              onChange={(e) => setDraft({ ...draft, slogan: e.target.value })}
+              className={field}
+            />
+            <p className="text-[10.5px] text-marble/30 mt-1.5">
+              Encima del titular de la portada y en el pie.
+            </p>
+          </div>
+
           <div>
             <label className={label} htmlFor="s-phone">WhatsApp (indicativo, sin +)</label>
             <input
@@ -214,6 +280,19 @@ export function SettingsPanel() {
               onChange={(e) => setDraft({ ...draft, locationCity: e.target.value })}
               className={field}
             />
+          </div>
+
+          <div className="sm:col-span-2">
+            <label className={label} htmlFor="s-guarantee">Texto de garantía</label>
+            <input
+              id="s-guarantee"
+              value={draft.guaranteeText}
+              onChange={(e) => setDraft({ ...draft, guaranteeText: e.target.value })}
+              className={field}
+            />
+            <p className="text-[10.5px] text-marble/30 mt-1.5">
+              Primer párrafo del pie, junto a las ciudades de operación.
+            </p>
           </div>
 
           <div className="sm:col-span-2">
@@ -336,6 +415,50 @@ export function SettingsPanel() {
               Actualizar PIN
             </button>
           </form>
+        </div>
+
+        {/* Puente hacia Vercel: el hash se calcula aquí, en el navegador, para
+            que el PIN no tenga que pasar por una terminal ni por un archivo. */}
+        <div className="bg-basalt border border-white/10 p-5 space-y-4">
+          <div className="flex items-center gap-2.5 pb-3 border-b border-white/8">
+            <KeyRound className="w-4 h-4 text-silver/70" />
+            <h3 className="text-[11px] font-bold uppercase tracking-[0.18em] text-marble">
+              Hash para Vercel
+            </h3>
+          </div>
+
+          <p className="text-[11.5px] text-marble/45 leading-relaxed">
+            Escribe el PIN que quieras usar en el sitio publicado y copia el hash
+            a la variable <code className="text-silver">VITE_ADMIN_PIN_HASH</code>{' '}
+            en Vercel (Settings › Environment Variables). El PIN no sale de este
+            navegador: solo se copia el hash, que no se puede devolver al PIN.
+          </p>
+
+          <div>
+            <label className={label} htmlFor="p-hash">PIN a convertir</label>
+            <input
+              id="p-hash"
+              type="password"
+              inputMode="numeric"
+              autoComplete="off"
+              value={hashSource}
+              onChange={(e) => void updateHashSource(e.target.value)}
+              className={cx(field, 'tracking-[0.3em]')}
+            />
+          </div>
+
+          {hashResult && (
+            <div>
+              <label className={label} htmlFor="p-hash-out">Hash SHA-256</label>
+              <input
+                id="p-hash-out"
+                readOnly
+                value={hashResult}
+                onFocus={(e) => e.currentTarget.select()}
+                className={cx(field, 'font-mono text-[10.5px]')}
+              />
+            </div>
+          )}
         </div>
 
         <p className="text-[11.5px] leading-relaxed text-marble/35 border-l-2 border-silver/35 pl-4 py-1">

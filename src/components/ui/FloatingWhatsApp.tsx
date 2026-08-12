@@ -26,7 +26,7 @@ export function FloatingWhatsApp() {
           <div className="px-4 py-3.5 border-b border-white/8 flex items-center justify-between">
             <div>
               <p className="text-[11px] font-bold uppercase tracking-[0.18em] text-marble">
-                Asesor PAPI SHOES
+                Asesor {settings.storeName}
               </p>
               <p className="text-[10px] text-marble/40 mt-0.5">
                 {formatPhoneDisplay(settings.whatsappNumber)}
