@@ -22,6 +22,34 @@ import {
 const INVENTORY_KEY = 'papi_shoes_inventory';
 const SETTINGS_KEY = 'papi_shoes_settings';
 const DELIVERIES_KEY = 'papi_shoes_deliveries';
+const CATALOG_VERSION_KEY = 'papi_shoes_catalog_version';
+
+/**
+ * Huella del catálogo que viene en el código.
+ *
+ * Existe para resolver el problema de siempre: el inventario del navegador le
+ * gana al del código, así que después de `npm run catalogo` el dueño no veía
+ * sus fotos nuevas y tenía que hacer `localStorage.clear()` a mano —lo que
+ * también le borraba los ajustes de la tienda—.
+ *
+ * Se calcula sola a partir de los pares generados, así que no hay ningún
+ * número que acordarse de subir. Se dejan fuera `createdAt` y `updatedAt` a
+ * propósito: cambian en cada corrida del generador, y sin excluirlos una
+ * regeneración que no cambió nada borraría las ediciones hechas en el panel.
+ */
+function computeCatalogFingerprint(): string {
+  let hash = 0;
+  for (const s of INITIAL_SNEAKERS) {
+    const shape = `${s.id}|${s.name}|${s.brand}|${s.category}|${s.status}|${s.price}|${s.originalPrice ?? ''}|${s.sizes.join(',')}|${s.images.join(',')}`;
+    for (let i = 0; i < shape.length; i++) {
+      hash = (Math.imul(hash, 31) + shape.charCodeAt(i)) | 0;
+    }
+  }
+  return `${INITIAL_SNEAKERS.length}-${(hash >>> 0).toString(36)}`;
+}
+
+/* El catálogo del código no cambia en tiempo de ejecución: se calcula una vez. */
+const CATALOG_FINGERPRINT = computeCatalogFingerprint();
 
 interface StoreContextValue {
   sneakers: Sneaker[];
@@ -49,6 +77,15 @@ function loadInventory(): Sneaker[] {
   try {
     const raw = localStorage.getItem(INVENTORY_KEY);
     if (!raw) return INITIAL_SNEAKERS;
+
+    /* Si el catálogo del código es otro (corriste `npm run catalogo`), manda el
+       código y se descarta el inventario guardado. Solo se toca esta llave: los
+       ajustes de la tienda, el PIN y el muro de entregas viven en otras y
+       quedan intactos. */
+    if (localStorage.getItem(CATALOG_VERSION_KEY) !== CATALOG_FINGERPRINT) {
+      return INITIAL_SNEAKERS;
+    }
+
     const parsed = validateSneakers(JSON.parse(raw));
     return parsed.length ? parsed : INITIAL_SNEAKERS;
   } catch {
@@ -102,6 +139,9 @@ export function StoreProvider({ children }: { children: ReactNode }) {
     try {
       localStorage.setItem(INVENTORY_KEY, JSON.stringify(sneakers));
       localStorage.setItem(DELIVERIES_KEY, JSON.stringify(deliveries));
+      // Se sella junto al inventario: a partir de aquí las ediciones del panel
+      // vuelven a tener prioridad, hasta la próxima regeneración del catálogo.
+      localStorage.setItem(CATALOG_VERSION_KEY, CATALOG_FINGERPRINT);
     } catch {
       failure =
         'El navegador se quedó sin espacio. Exporta un respaldo, borra entregas antiguas o usa imágenes por URL en vez de subirlas desde el dispositivo.';
