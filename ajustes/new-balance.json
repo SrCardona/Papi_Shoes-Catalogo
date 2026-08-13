@@ -1,0 +1,61 @@
+{
+  "new-balance-530-white-silver-navy": {
+    "name": "New Balance 530 White Silver Navy",
+    "colorway": "White / Silver / Navy",
+    "description": "La 530 en malla blanca con capas plateadas y detalles azul marino. Mediasuela ABZORB."
+  },
+  "new-balance-530-blanco-verde": {
+    "name": "New Balance 530 Blanco / Verde",
+    "colorway": "White / Green"
+  },
+  "new-balance-550-blanco-verde": {
+    "name": "New Balance 550 Blanco / Verde",
+    "colorway": "White / Green"
+  },
+  "new-balance-550-x-aime-leon-dore-blanco-rojo": {
+    "name": "New Balance 550 x Aimé Leon Dore Blanco / Rojo",
+    "colorway": "White / Red"
+  },
+  "new-balance-790-blanco-plata": {
+    "name": "New Balance 790 Blanco / Plata",
+    "colorway": "White / Silver / Grey"
+  },
+  "new-balance-1906r-plata": {
+    "name": "New Balance 1906R Plata",
+    "colorway": "Silver / White / Black",
+    "description": "La 1906R en malla blanca con placas plateadas y amortiguación N-ergy en el talón."
+  },
+  "new-balance-2000-dorado-crema": {
+    "name": "New Balance 2000 Dorado / Crema",
+    "colorway": "Gold / Cream"
+  },
+  "new-balance-2000-blanco-rosado": {
+    "name": "New Balance 2000 Blanco / Rosado",
+    "colorway": "White / Pink / Silver"
+  },
+  "new-balance-2000-gris-verde-neon": {
+    "name": "New Balance 2000 Gris / Verde Neón",
+    "colorway": "Grey / Black / Volt"
+  },
+  "new-balance-2000-negro-dorado": {
+    "name": "New Balance 2000 Negro / Dorado",
+    "colorway": "Black / Gold"
+  },
+  "new-balance-9060-negro": {
+    "name": "New Balance 9060 Negro",
+    "colorway": "Black / Sea Salt",
+    "description": "La 9060 en gamuza negra con la N blanca y la mediasuela ondulada en crema."
+  },
+  "new-balance-9060-triple-blanco": {
+    "name": "New Balance 9060 Triple Blanco",
+    "colorway": "Triple White"
+  },
+  "new-balance-9060-moonrock-linen": {
+    "name": "New Balance 9060 Moonrock Linen",
+    "colorway": "Moonrock / Linen"
+  },
+  "new-balance-9060-sea-salt-yellow": {
+    "name": "New Balance 9060 Sea Salt Yellow",
+    "colorway": "Sea Salt / Yellow"
+  }
+}

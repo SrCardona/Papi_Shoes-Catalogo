@@ -50,8 +50,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:10:09.355Z",
-    "updatedAt": "2026-08-13T19:10:09.355Z"
+    "createdAt": "2026-08-13T19:34:44.182Z",
+    "updatedAt": "2026-08-13T19:34:44.182Z"
   },
   {
     "id": "sneaker-adidas-adizero-adios-pro-lila",
@@ -90,8 +90,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:10:09.355Z",
-    "updatedAt": "2026-08-13T19:10:09.355Z"
+    "createdAt": "2026-08-13T19:34:44.182Z",
+    "updatedAt": "2026-08-13T19:34:44.182Z"
   },
   {
     "id": "sneaker-adidas-adizero-adios-pro-volt",
@@ -130,8 +130,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:10:09.355Z",
-    "updatedAt": "2026-08-13T19:10:09.355Z"
+    "createdAt": "2026-08-13T19:34:44.182Z",
+    "updatedAt": "2026-08-13T19:34:44.182Z"
   },
   {
     "id": "sneaker-adidas-california-blanco-negro",
@@ -170,8 +170,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:10:09.355Z",
-    "updatedAt": "2026-08-13T19:10:09.355Z"
+    "createdAt": "2026-08-13T19:34:44.182Z",
+    "updatedAt": "2026-08-13T19:34:44.182Z"
   },
   {
     "id": "sneaker-adidas-campus-00s-core-black",
@@ -210,8 +210,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:10:09.355Z",
-    "updatedAt": "2026-08-13T19:10:09.355Z"
+    "createdAt": "2026-08-13T19:34:44.182Z",
+    "updatedAt": "2026-08-13T19:34:44.182Z"
   },
   {
     "id": "sneaker-adidas-campus-00s-gray",
@@ -250,8 +250,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:10:09.355Z",
-    "updatedAt": "2026-08-13T19:10:09.355Z"
+    "createdAt": "2026-08-13T19:34:44.182Z",
+    "updatedAt": "2026-08-13T19:34:44.182Z"
   },
   {
     "id": "sneaker-adidas-duramo-sl",
@@ -290,8 +290,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:10:09.355Z",
-    "updatedAt": "2026-08-13T19:10:09.355Z"
+    "createdAt": "2026-08-13T19:34:44.182Z",
+    "updatedAt": "2026-08-13T19:34:44.182Z"
   },
   {
     "id": "sneaker-adidas-duramo-sl-blue",
@@ -330,8 +330,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:10:09.355Z",
-    "updatedAt": "2026-08-13T19:10:09.355Z"
+    "createdAt": "2026-08-13T19:34:44.182Z",
+    "updatedAt": "2026-08-13T19:34:44.182Z"
   },
   {
     "id": "sneaker-adidas-eqt-equipment-beige-naranja",
@@ -370,8 +370,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:10:09.355Z",
-    "updatedAt": "2026-08-13T19:10:09.355Z"
+    "createdAt": "2026-08-13T19:34:44.182Z",
+    "updatedAt": "2026-08-13T19:34:44.182Z"
   },
   {
     "id": "sneaker-adidas-forum-x-bad-bunny",
@@ -410,8 +410,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:10:09.355Z",
-    "updatedAt": "2026-08-13T19:10:09.355Z"
+    "createdAt": "2026-08-13T19:34:44.182Z",
+    "updatedAt": "2026-08-13T19:34:44.182Z"
   },
   {
     "id": "sneaker-adidas-gazelle-x-bad-bunny",
@@ -450,8 +450,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:10:09.355Z",
-    "updatedAt": "2026-08-13T19:10:09.355Z"
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
   },
   {
     "id": "sneaker-adidas-niteball-black",
@@ -490,8 +490,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:10:09.355Z",
-    "updatedAt": "2026-08-13T19:10:09.355Z"
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
   },
   {
     "id": "sneaker-adidas-niteball-upgrade",
@@ -530,8 +530,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:10:09.355Z",
-    "updatedAt": "2026-08-13T19:10:09.355Z"
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
   },
   {
     "id": "sneaker-adidas-nizza-hi-fi",
@@ -570,8 +570,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:10:09.355Z",
-    "updatedAt": "2026-08-13T19:10:09.355Z"
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
   },
   {
     "id": "sneaker-adidas-pureboost",
@@ -610,8 +610,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:10:09.355Z",
-    "updatedAt": "2026-08-13T19:10:09.355Z"
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
   },
   {
     "id": "sneaker-adidas-response-cl-x-bad-bunny-benito",
@@ -650,8 +650,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:10:09.355Z",
-    "updatedAt": "2026-08-13T19:10:09.355Z"
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
   },
   {
     "id": "sneaker-adidas-response-cl-x-bad-bunny-blanco",
@@ -690,8 +690,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:10:09.355Z",
-    "updatedAt": "2026-08-13T19:10:09.355Z"
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
   },
   {
     "id": "sneaker-adidas-response-super",
@@ -730,8 +730,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:10:09.355Z",
-    "updatedAt": "2026-08-13T19:10:09.355Z"
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
   },
   {
     "id": "sneaker-adidas-running-blanco-azul",
@@ -770,8 +770,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:10:09.355Z",
-    "updatedAt": "2026-08-13T19:10:09.355Z"
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
   },
   {
     "id": "sneaker-adidas-samba-flower",
@@ -810,8 +810,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:10:09.355Z",
-    "updatedAt": "2026-08-13T19:10:09.355Z"
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
   },
   {
     "id": "sneaker-adidas-samba-og",
@@ -850,8 +850,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:10:09.355Z",
-    "updatedAt": "2026-08-13T19:10:09.355Z"
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
   },
   {
     "id": "sneaker-adidas-sikaige",
@@ -890,8 +890,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:10:09.355Z",
-    "updatedAt": "2026-08-13T19:10:09.355Z"
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
   },
   {
     "id": "sneaker-adidas-sl-72-brown",
@@ -930,8 +930,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:10:09.355Z",
-    "updatedAt": "2026-08-13T19:10:09.355Z"
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
   },
   {
     "id": "sneaker-adidas-sl-72-red",
@@ -970,8 +970,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:10:09.355Z",
-    "updatedAt": "2026-08-13T19:10:09.355Z"
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
   },
   {
     "id": "sneaker-adidas-spezial",
@@ -1010,8 +1010,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:10:09.355Z",
-    "updatedAt": "2026-08-13T19:10:09.355Z"
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
   },
   {
     "id": "sneaker-adidas-spezial-olive-green",
@@ -1050,8 +1050,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:10:09.355Z",
-    "updatedAt": "2026-08-13T19:10:09.355Z"
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
   },
   {
     "id": "sneaker-adidas-stan-smith-azul",
@@ -1090,8 +1090,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:10:09.355Z",
-    "updatedAt": "2026-08-13T19:10:09.355Z"
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
   },
   {
     "id": "sneaker-adidas-stan-smith-negro",
@@ -1130,8 +1130,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:10:09.355Z",
-    "updatedAt": "2026-08-13T19:10:09.355Z"
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
   },
   {
     "id": "sneaker-adidas-stan-smith-verde",
@@ -1170,8 +1170,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:10:09.355Z",
-    "updatedAt": "2026-08-13T19:10:09.355Z"
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
   },
   {
     "id": "sneaker-adidas-superstar-core-black",
@@ -1210,8 +1210,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:10:09.355Z",
-    "updatedAt": "2026-08-13T19:10:09.355Z"
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
   },
   {
     "id": "sneaker-adidas-superstar-rainbow",
@@ -1250,8 +1250,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:10:09.355Z",
-    "updatedAt": "2026-08-13T19:10:09.355Z"
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
   },
   {
     "id": "sneaker-adidas-superstar-reflectivo",
@@ -1290,8 +1290,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:10:09.355Z",
-    "updatedAt": "2026-08-13T19:10:09.355Z"
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
   },
   {
     "id": "sneaker-adidas-superstar-triple-white",
@@ -1330,8 +1330,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:10:09.355Z",
-    "updatedAt": "2026-08-13T19:10:09.355Z"
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
   },
   {
     "id": "sneaker-adidas-superstar-white-black",
@@ -1370,8 +1370,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:10:09.355Z",
-    "updatedAt": "2026-08-13T19:10:09.355Z"
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
   },
   {
     "id": "sneaker-adidas-superstar-x-blessd",
@@ -1410,8 +1410,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:10:09.355Z",
-    "updatedAt": "2026-08-13T19:10:09.355Z"
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
   },
   {
     "id": "sneaker-adidas-ultraboost",
@@ -1450,8 +1450,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:10:09.355Z",
-    "updatedAt": "2026-08-13T19:10:09.355Z"
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
   },
   {
     "id": "sneaker-adidas-ultraboost-core-black",
@@ -1490,8 +1490,2408 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:10:09.355Z",
-    "updatedAt": "2026-08-13T19:10:09.355Z"
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
+  },
+  {
+    "id": "sneaker-jordan-1-low-paris-negro",
+    "name": "Air Jordan 1 Low Paris Negro",
+    "brand": "Jordan",
+    "model": "Air Jordan 1 Low Paris Negro",
+    "sku": "PAPI-8322",
+    "category": "general",
+    "gender": "unisex",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/jordan/jordan-1-low-paris-negro.jpeg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "Nuevo en caja",
+      "colorway": "Black / White",
+      "includedItems": [
+        "Caja original"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
+  },
+  {
+    "id": "sneaker-jordan-1-low-x-stussy-x-supreme",
+    "name": "Air Jordan 1 Low x Stüssy x Supreme",
+    "brand": "Jordan",
+    "model": "Air Jordan 1 Low x Stüssy x Supreme",
+    "sku": "PAPI-1483",
+    "category": "general",
+    "gender": "unisex",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/jordan/jordan-1-low-x-stussy-x-supreme.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "Nuevo en caja",
+      "colorway": "",
+      "includedItems": [
+        "Caja original"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
+  },
+  {
+    "id": "sneaker-jordan-1-low-x-swarovski-gris",
+    "name": "Air Jordan 1 Low x Swarovski Gris",
+    "brand": "Jordan",
+    "model": "Air Jordan 1 Low x Swarovski Gris",
+    "sku": "PAPI-5543",
+    "category": "general",
+    "gender": "unisex",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/jordan/jordan-1-low-x-swarovski-gris.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "Jordan 1 Low forrada en cristales, en gris y blanco. Trae cordones blancos de repuesto.",
+    "details": {
+      "condition": "Nuevo en caja",
+      "colorway": "Grey / Sail",
+      "includedItems": [
+        "Caja original"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
+  },
+  {
+    "id": "sneaker-jordan-1-low-x-swarovski-negro",
+    "name": "Air Jordan 1 Low x Swarovski Negro",
+    "brand": "Jordan",
+    "model": "Air Jordan 1 Low x Swarovski Negro",
+    "sku": "PAPI-3862",
+    "category": "general",
+    "gender": "unisex",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/jordan/jordan-1-low-x-swarovski-negro.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "La versión en cristales negros y plateados, con herrajes dorados en los cordones.",
+    "details": {
+      "condition": "Nuevo en caja",
+      "colorway": "Black / Silver",
+      "includedItems": [
+        "Caja original"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
+  },
+  {
+    "id": "sneaker-jordan-1-mid-panda",
+    "name": "Air Jordan 1 Mid Panda",
+    "brand": "Jordan",
+    "model": "Air Jordan 1 Mid Panda",
+    "sku": "PAPI-1382",
+    "category": "general",
+    "gender": "unisex",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/jordan/jordan-1-mid-panda.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "Nuevo en caja",
+      "colorway": "White / Black",
+      "includedItems": [
+        "Caja original"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
+  },
+  {
+    "id": "sneaker-jordan-1-retro-high-85-black-white",
+    "name": "Air Jordan 1 Retro High '85 Black White",
+    "brand": "Jordan",
+    "model": "Air Jordan 1 Retro High '85 Black White",
+    "sku": "PAPI-4311",
+    "category": "general",
+    "gender": "unisex",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/jordan/jordan-1-retro-high-85-black-white.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "Nuevo en caja",
+      "colorway": "Black / White",
+      "includedItems": [
+        "Caja original"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
+  },
+  {
+    "id": "sneaker-jordan-1-retro-high-85-og-satin-bred",
+    "name": "Air Jordan 1 Retro High '85 OG Satin Bred",
+    "brand": "Jordan",
+    "model": "Air Jordan 1 Retro High '85 OG Satin Bred",
+    "sku": "PAPI-1038",
+    "category": "general",
+    "gender": "unisex",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/jordan/jordan-1-retro-high-85-og-satin-bred.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "Nuevo en caja",
+      "colorway": "Black / Varsity Red",
+      "includedItems": [
+        "Caja original"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
+  },
+  {
+    "id": "sneaker-jordan-1-retro-high-chicago",
+    "name": "Air Jordan 1 Retro High Chicago",
+    "brand": "Jordan",
+    "model": "Air Jordan 1 Retro High Chicago",
+    "sku": "PAPI-1470",
+    "category": "general",
+    "gender": "unisex",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/jordan/jordan-1-retro-high-chicago.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "El colorway que abrió la línea: cuero blanco, negro y rojo Chicago. La referencia del Jordan 1.",
+    "details": {
+      "condition": "Nuevo en caja",
+      "colorway": "White / Black / Varsity Red",
+      "includedItems": [
+        "Caja original"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
+  },
+  {
+    "id": "sneaker-jordan-1-retro-high-golden-swoosh",
+    "name": "Air Jordan 1 Retro High Golden Swoosh",
+    "brand": "Jordan",
+    "model": "Air Jordan 1 Retro High Golden Swoosh",
+    "sku": "PAPI-1945",
+    "category": "general",
+    "gender": "unisex",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/jordan/jordan-1-retro-high-golden-swoosh.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "Nuevo en caja",
+      "colorway": "White / Gold",
+      "includedItems": [
+        "Caja original"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
+  },
+  {
+    "id": "sneaker-jordan-1-retro-high-obsidian",
+    "name": "Air Jordan 1 Retro High Obsidian",
+    "brand": "Jordan",
+    "model": "Air Jordan 1 Retro High Obsidian",
+    "sku": "PAPI-5177",
+    "category": "general",
+    "gender": "unisex",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/jordan/jordan-1-retro-high-obsidian.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "Nuevo en caja",
+      "colorway": "Obsidian / University Blue",
+      "includedItems": [
+        "Caja original"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
+  },
+  {
+    "id": "sneaker-jordan-1-retro-high-og-obsidian-unc",
+    "name": "Air Jordan 1 Retro High OG Obsidian UNC",
+    "brand": "Jordan",
+    "model": "Air Jordan 1 Retro High OG Obsidian UNC",
+    "sku": "PAPI-4150",
+    "category": "general",
+    "gender": "unisex",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/jordan/jordan-1-retro-high-og-obsidian-unc.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "Nuevo en caja",
+      "colorway": "Obsidian / Sail / University Blue",
+      "includedItems": [
+        "Caja original"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
+  },
+  {
+    "id": "sneaker-jordan-1-retro-high-og-patent-bred",
+    "name": "Air Jordan 1 Retro High OG Patent Bred",
+    "brand": "Jordan",
+    "model": "Air Jordan 1 Retro High OG Patent Bred",
+    "sku": "PAPI-3231",
+    "category": "general",
+    "gender": "unisex",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/jordan/jordan-1-retro-high-og-patent-bred.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "El Bred en charol: cuero brillante en negro y rojo, con el Swoosh liso.",
+    "details": {
+      "condition": "Nuevo en caja",
+      "colorway": "Black / Varsity Red",
+      "includedItems": [
+        "Caja original"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
+  },
+  {
+    "id": "sneaker-jordan-1-retro-high-og-unc-toe",
+    "name": "Air Jordan 1 Retro High OG UNC Toe",
+    "brand": "Jordan",
+    "model": "Air Jordan 1 Retro High OG UNC Toe",
+    "sku": "PAPI-7837",
+    "category": "general",
+    "gender": "unisex",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/jordan/jordan-1-retro-high-og-unc-toe.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "Nuevo en caja",
+      "colorway": "University Blue / Black / White",
+      "includedItems": [
+        "Caja original"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
+  },
+  {
+    "id": "sneaker-jordan-1-retro-high-og-washed-pink",
+    "name": "Air Jordan 1 Retro High OG Washed Pink",
+    "brand": "Jordan",
+    "model": "Air Jordan 1 Retro High OG Washed Pink",
+    "sku": "PAPI-1090",
+    "category": "general",
+    "gender": "unisex",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/jordan/jordan-1-retro-high-og-washed-pink.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "Nuevo en caja",
+      "colorway": "Washed Pink / Sail",
+      "includedItems": [
+        "Caja original"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
+  },
+  {
+    "id": "sneaker-jordan-1-retro-high-university-blue",
+    "name": "Air Jordan 1 Retro High University Blue",
+    "brand": "Jordan",
+    "model": "Air Jordan 1 Retro High University Blue",
+    "sku": "PAPI-9653",
+    "category": "general",
+    "gender": "unisex",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/jordan/jordan-1-retro-high-university-blue.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "Nuevo en caja",
+      "colorway": "University Blue / White",
+      "includedItems": [
+        "Caja original"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
+  },
+  {
+    "id": "sneaker-jordan-1-retro-high-x-travis-scott-negro",
+    "name": "Air Jordan 1 Retro High x Travis Scott Negro",
+    "brand": "Jordan",
+    "model": "Air Jordan 1 Retro High x Travis Scott Negro",
+    "sku": "PAPI-9414",
+    "category": "general",
+    "gender": "unisex",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/jordan/jordan-1-retro-high-x-travis-scott-negro.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "El Jordan 1 de Cactus Jack con el Swoosh invertido, en negro y hueso.",
+    "details": {
+      "condition": "Nuevo en caja",
+      "colorway": "Black / Phantom",
+      "includedItems": [
+        "Caja original"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
+  },
+  {
+    "id": "sneaker-jordan-1-retro-light-pink",
+    "name": "Air Jordan 1 Retro Light Pink",
+    "brand": "Jordan",
+    "model": "Air Jordan 1 Retro Light Pink",
+    "sku": "PAPI-4356",
+    "category": "general",
+    "gender": "unisex",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/jordan/jordan-1-retro-light-pink.jpeg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "Nuevo en caja",
+      "colorway": "Light Pink / White",
+      "includedItems": [
+        "Caja original"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
+  },
+  {
+    "id": "sneaker-jordan-1-retro-watermelon",
+    "name": "Air Jordan 1 Retro Watermelon",
+    "brand": "Jordan",
+    "model": "Air Jordan 1 Retro Watermelon",
+    "sku": "PAPI-1008",
+    "category": "general",
+    "gender": "unisex",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/jordan/jordan-1-retro-watermelon.jpeg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "Nuevo en caja",
+      "colorway": "Pink / Green / White",
+      "includedItems": [
+        "Caja original"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
+  },
+  {
+    "id": "sneaker-jordan-1-retro-x-dior",
+    "name": "Air Jordan 1 Retro x Dior",
+    "brand": "Jordan",
+    "model": "Air Jordan 1 Retro x Dior",
+    "sku": "PAPI-1520",
+    "category": "general",
+    "gender": "unisex",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/jordan/jordan-1-retro-x-dior.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "Nuevo en caja",
+      "colorway": "Grey / White",
+      "includedItems": [
+        "Caja original"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
+  },
+  {
+    "id": "sneaker-jordan-1-triple-red",
+    "name": "Air Jordan 1 Triple Red",
+    "brand": "Jordan",
+    "model": "Air Jordan 1 Triple Red",
+    "sku": "PAPI-4495",
+    "category": "general",
+    "gender": "unisex",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/jordan/jordan-1-triple-red.jpeg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "Nuevo en caja",
+      "colorway": "Triple Red",
+      "includedItems": [
+        "Caja original"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
+  },
+  {
+    "id": "sneaker-jordan-11-retro-black-concord",
+    "name": "Air Jordan 11 Retro Black Concord",
+    "brand": "Jordan",
+    "model": "Air Jordan 11 Retro Black Concord",
+    "sku": "PAPI-1284",
+    "category": "general",
+    "gender": "unisex",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/jordan/jordan-11-retro-black-concord.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "Nuevo en caja",
+      "colorway": "Black / Concord",
+      "includedItems": [
+        "Caja original"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
+  },
+  {
+    "id": "sneaker-jordan-11-retro-concord",
+    "name": "Air Jordan 11 Retro Concord",
+    "brand": "Jordan",
+    "model": "Air Jordan 11 Retro Concord",
+    "sku": "PAPI-1011",
+    "category": "general",
+    "gender": "unisex",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/jordan/jordan-11-retro-concord.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "El 11 en charol negro sobre cuero blanco, con la suela traslúcida.",
+    "details": {
+      "condition": "Nuevo en caja",
+      "colorway": "White / Black / Concord",
+      "includedItems": [
+        "Caja original"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
+  },
+  {
+    "id": "sneaker-jordan-11-retro-low-concord-bred",
+    "name": "Air Jordan 11 Retro Low Concord Bred",
+    "brand": "Jordan",
+    "model": "Air Jordan 11 Retro Low Concord Bred",
+    "sku": "PAPI-7560",
+    "category": "general",
+    "gender": "unisex",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/jordan/jordan-11-retro-low-concord-bred.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "Nuevo en caja",
+      "colorway": "Black / Varsity Red",
+      "includedItems": [
+        "Caja original"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
+  },
+  {
+    "id": "sneaker-jordan-11-retro-playoffs-bred",
+    "name": "Air Jordan 11 Retro Playoffs Bred",
+    "brand": "Jordan",
+    "model": "Air Jordan 11 Retro Playoffs Bred",
+    "sku": "PAPI-1396",
+    "category": "general",
+    "gender": "unisex",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/jordan/jordan-11-retro-playoffs-bred.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "Nuevo en caja",
+      "colorway": "Black / Varsity Red / White",
+      "includedItems": [
+        "Caja original"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
+  },
+  {
+    "id": "sneaker-jordan-3-retro-black-cement",
+    "name": "Air Jordan 3 Retro Black Cement",
+    "brand": "Jordan",
+    "model": "Air Jordan 3 Retro Black Cement",
+    "sku": "PAPI-6872",
+    "category": "general",
+    "gender": "unisex",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/jordan/jordan-3-retro-black-cement.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "El 3 de siempre: negro con el estampado elefante gris y la ventana de aire visible.",
+    "details": {
+      "condition": "Nuevo en caja",
+      "colorway": "Black / Cement Grey",
+      "includedItems": [
+        "Caja original"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
+  },
+  {
+    "id": "sneaker-jordan-3-retro-fire-red",
+    "name": "Air Jordan 3 Retro Fire Red",
+    "brand": "Jordan",
+    "model": "Air Jordan 3 Retro Fire Red",
+    "sku": "PAPI-5829",
+    "category": "general",
+    "gender": "unisex",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/jordan/jordan-3-retro-fire-red.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "Nuevo en caja",
+      "colorway": "White / Fire Red / Cement Grey",
+      "includedItems": [
+        "Caja original"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
+  },
+  {
+    "id": "sneaker-jordan-3-retro-unc",
+    "name": "Air Jordan 3 Retro UNC",
+    "brand": "Jordan",
+    "model": "Air Jordan 3 Retro UNC",
+    "sku": "PAPI-1280",
+    "category": "general",
+    "gender": "unisex",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/jordan/jordan-3-retro-unc.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "Nuevo en caja",
+      "colorway": "White / Valor Blue",
+      "includedItems": [
+        "Caja original"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
+  },
+  {
+    "id": "sneaker-jordan-3-retro-x-fragment",
+    "name": "Air Jordan 3 Retro x Fragment",
+    "brand": "Jordan",
+    "model": "Air Jordan 3 Retro x Fragment",
+    "sku": "PAPI-3960",
+    "category": "general",
+    "gender": "unisex",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/jordan/jordan-3-retro-x-fragment.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "Nuevo en caja",
+      "colorway": "White / Black",
+      "includedItems": [
+        "Caja original"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
+  },
+  {
+    "id": "sneaker-jordan-3-retro-x-travis-scott-negro",
+    "name": "Air Jordan 3 Retro x Travis Scott Negro",
+    "brand": "Jordan",
+    "model": "Air Jordan 3 Retro x Travis Scott Negro",
+    "sku": "PAPI-5404",
+    "category": "general",
+    "gender": "unisex",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/jordan/jordan-3-retro-x-travis-scott-negro.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "Nuevo en caja",
+      "colorway": "Black / Cement",
+      "includedItems": [
+        "Caja original"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
+  },
+  {
+    "id": "sneaker-jordan-3-retro-year-of-the-tiger",
+    "name": "Air Jordan 3 Retro Year of the Tiger",
+    "brand": "Jordan",
+    "model": "Air Jordan 3 Retro Year of the Tiger",
+    "sku": "PAPI-7165",
+    "category": "general",
+    "gender": "unisex",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/jordan/jordan-3-retro-year-of-the-tiger.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "Nuevo en caja",
+      "colorway": "Orange / Black",
+      "includedItems": [
+        "Caja original"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
+  },
+  {
+    "id": "sneaker-jordan-3-x-j-balvin-rio",
+    "name": "Air Jordan 3 x J Balvin Rio",
+    "brand": "Jordan",
+    "model": "Air Jordan 3 x J Balvin Rio",
+    "sku": "PAPI-1264",
+    "category": "general",
+    "gender": "unisex",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/jordan/jordan-3-x-j-balvin-rio.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "Nuevo en caja",
+      "colorway": "Multicolor",
+      "includedItems": [
+        "Caja original"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
+  },
+  {
+    "id": "sneaker-jordan-4-retro-black-cat",
+    "name": "Air Jordan 4 Retro Black Cat",
+    "brand": "Jordan",
+    "model": "Air Jordan 4 Retro Black Cat",
+    "sku": "PAPI-7874",
+    "category": "general",
+    "gender": "unisex",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/jordan/jordan-4-retro-black-cat.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "El 4 en negro total, en nobuk, con las mallas y la suela del mismo tono.",
+    "details": {
+      "condition": "Nuevo en caja",
+      "colorway": "Triple Black",
+      "includedItems": [
+        "Caja original"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
+  },
+  {
+    "id": "sneaker-jordan-4-retro-bred",
+    "name": "Air Jordan 4 Retro Bred",
+    "brand": "Jordan",
+    "model": "Air Jordan 4 Retro Bred",
+    "sku": "PAPI-1497",
+    "category": "general",
+    "gender": "unisex",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/jordan/jordan-4-retro-bred.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "Nuevo en caja",
+      "colorway": "Black / Cement Grey / Fire Red",
+      "includedItems": [
+        "Caja original"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
+  },
+  {
+    "id": "sneaker-jordan-4-retro-sb-pine-green",
+    "name": "Air Jordan 4 Retro SB Pine Green",
+    "brand": "Jordan",
+    "model": "Air Jordan 4 Retro SB Pine Green",
+    "sku": "PAPI-6999",
+    "category": "general",
+    "gender": "unisex",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/jordan/jordan-4-retro-sb-pine-green.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "Nuevo en caja",
+      "colorway": "Pine Green / White",
+      "includedItems": [
+        "Caja original"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
+  },
+  {
+    "id": "sneaker-jordan-4-retro-triple-brown",
+    "name": "Air Jordan 4 Retro Triple Brown",
+    "brand": "Jordan",
+    "model": "Air Jordan 4 Retro Triple Brown",
+    "sku": "PAPI-2197",
+    "category": "general",
+    "gender": "unisex",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/jordan/jordan-4-retro-triple-brown.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "Nuevo en caja",
+      "colorway": "Triple Brown",
+      "includedItems": [
+        "Caja original"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
+  },
+  {
+    "id": "sneaker-jordan-4-retro-white-thunder",
+    "name": "Air Jordan 4 Retro White Thunder",
+    "brand": "Jordan",
+    "model": "Air Jordan 4 Retro White Thunder",
+    "sku": "PAPI-1288",
+    "category": "general",
+    "gender": "unisex",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/jordan/jordan-4-retro-white-thunder.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "Nuevo en caja",
+      "colorway": "White / Black / Tour Yellow",
+      "includedItems": [
+        "Caja original"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
+  },
+  {
+    "id": "sneaker-jordan-4-retro-x-off-white-sail",
+    "name": "Air Jordan 4 Retro x Off-White Sail",
+    "brand": "Jordan",
+    "model": "Air Jordan 4 Retro x Off-White Sail",
+    "sku": "PAPI-1207",
+    "category": "general",
+    "gender": "unisex",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/jordan/jordan-4-retro-x-off-white-sail.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "Nuevo en caja",
+      "colorway": "Sail / Muslin",
+      "includedItems": [
+        "Caja original"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
+  },
+  {
+    "id": "sneaker-jordan-4-retro-x-union-guava-ice",
+    "name": "Air Jordan 4 Retro x Union Guava Ice",
+    "brand": "Jordan",
+    "model": "Air Jordan 4 Retro x Union Guava Ice",
+    "sku": "PAPI-1542",
+    "category": "general",
+    "gender": "unisex",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/jordan/jordan-4-retro-x-union-guava-ice.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "Nuevo en caja",
+      "colorway": "Guava Ice / Light Fusion Red",
+      "includedItems": [
+        "Caja original"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
+  },
+  {
+    "id": "sneaker-jordan-6-retro-infrared-white",
+    "name": "Air Jordan 6 Retro Infrared White",
+    "brand": "Jordan",
+    "model": "Air Jordan 6 Retro Infrared White",
+    "sku": "PAPI-1255",
+    "category": "general",
+    "gender": "unisex",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/jordan/jordan-6-retro-infrared-white.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "Nuevo en caja",
+      "colorway": "White / Infrared",
+      "includedItems": [
+        "Caja original"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
+  },
+  {
+    "id": "sneaker-asics-comfort",
+    "name": "Asics Comfort",
+    "brand": "Otras",
+    "model": "Asics Comfort",
+    "sku": "PAPI-1047",
+    "category": "general",
+    "gender": "unisex",
+    "price": 190000,
+    "originalPrice": 230000,
+    "images": [
+      "/catalogo/sneakers/otras/asics-comfort.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "Nuevo en caja",
+      "colorway": "",
+      "includedItems": [
+        "Caja original"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
+  },
+  {
+    "id": "sneaker-asics-rosado",
+    "name": "Asics Rosado",
+    "brand": "Otras",
+    "model": "Asics Rosado",
+    "sku": "PAPI-3608",
+    "category": "general",
+    "gender": "unisex",
+    "price": 190000,
+    "originalPrice": 230000,
+    "images": [
+      "/catalogo/sneakers/otras/asics-rosado.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "Nuevo en caja",
+      "colorway": "Pink / White",
+      "includedItems": [
+        "Caja original"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
+  },
+  {
+    "id": "sneaker-bape-sta-blanco-negro",
+    "name": "Bape Sta Blanco / Negro",
+    "brand": "Otras",
+    "model": "Bape Sta Blanco / Negro",
+    "sku": "PAPI-1412",
+    "category": "general",
+    "gender": "unisex",
+    "price": 190000,
+    "originalPrice": 230000,
+    "images": [
+      "/catalogo/sneakers/otras/bape-sta-blanco-negro.jpeg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "La Bape Sta en charol, con la estrella negra sobre cuero blanco y suela de goma.",
+    "details": {
+      "condition": "Nuevo en caja",
+      "colorway": "White / Black",
+      "includedItems": [
+        "Caja original"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
+  },
+  {
+    "id": "sneaker-bape-sta-negro",
+    "name": "Bape Sta Negro",
+    "brand": "Otras",
+    "model": "Bape Sta Negro",
+    "sku": "PAPI-5435",
+    "category": "general",
+    "gender": "unisex",
+    "price": 190000,
+    "originalPrice": 230000,
+    "images": [
+      "/catalogo/sneakers/otras/bape-sta-negro.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "Nuevo en caja",
+      "colorway": "Black / White",
+      "includedItems": [
+        "Caja original"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
+  },
+  {
+    "id": "sneaker-bape-sta-wgm-blanco",
+    "name": "Bape Sta WGM Blanco",
+    "brand": "Otras",
+    "model": "Bape Sta WGM Blanco",
+    "sku": "PAPI-2916",
+    "category": "general",
+    "gender": "unisex",
+    "price": 190000,
+    "originalPrice": 230000,
+    "images": [
+      "/catalogo/sneakers/otras/bape-sta-wgm-blanco.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "Nuevo en caja",
+      "colorway": "White",
+      "includedItems": [
+        "Caja original"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
+  },
+  {
+    "id": "sneaker-boss-black-pillow",
+    "name": "Boss Black Pillow",
+    "brand": "Otras",
+    "model": "Boss Black Pillow",
+    "sku": "PAPI-1037",
+    "category": "general",
+    "gender": "unisex",
+    "price": 190000,
+    "originalPrice": 230000,
+    "images": [
+      "/catalogo/sneakers/otras/boss-black-pillow.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "Nuevo en caja",
+      "colorway": "Black",
+      "includedItems": [
+        "Caja original"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
+  },
+  {
+    "id": "sneaker-boss-master-gris",
+    "name": "Boss Master Gris",
+    "brand": "Otras",
+    "model": "Boss Master Gris",
+    "sku": "PAPI-3708",
+    "category": "general",
+    "gender": "unisex",
+    "price": 190000,
+    "originalPrice": 230000,
+    "images": [
+      "/catalogo/sneakers/otras/boss-master-gris.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "Nuevo en caja",
+      "colorway": "Grey",
+      "includedItems": [
+        "Caja original"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
+  },
+  {
+    "id": "sneaker-calvin-klein-carlla",
+    "name": "Calvin Klein Carlla",
+    "brand": "Otras",
+    "model": "Calvin Klein Carlla",
+    "sku": "PAPI-7483",
+    "category": "general",
+    "gender": "unisex",
+    "price": 190000,
+    "originalPrice": 230000,
+    "images": [
+      "/catalogo/sneakers/otras/calvin-klein-carlla.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "Nuevo en caja",
+      "colorway": "",
+      "includedItems": [
+        "Caja original"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
+  },
+  {
+    "id": "sneaker-calvin-klein-jeans-negro",
+    "name": "Calvin Klein Jeans Negro",
+    "brand": "Otras",
+    "model": "Calvin Klein Jeans Negro",
+    "sku": "PAPI-1468",
+    "category": "general",
+    "gender": "unisex",
+    "price": 190000,
+    "originalPrice": 230000,
+    "images": [
+      "/catalogo/sneakers/otras/calvin-klein-jeans-negro.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "Nuevo en caja",
+      "colorway": "Black",
+      "includedItems": [
+        "Caja original"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
+  },
+  {
+    "id": "sneaker-christian-dior-running",
+    "name": "Christian Dior Running",
+    "brand": "Otras",
+    "model": "Christian Dior Running",
+    "sku": "PAPI-1554",
+    "category": "general",
+    "gender": "unisex",
+    "price": 190000,
+    "originalPrice": 230000,
+    "images": [
+      "/catalogo/sneakers/otras/christian-dior-running.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "Nuevo en caja",
+      "colorway": "",
+      "includedItems": [
+        "Caja original"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
+  },
+  {
+    "id": "sneaker-coach-platform",
+    "name": "Coach Platform",
+    "brand": "Otras",
+    "model": "Coach Platform",
+    "sku": "PAPI-4974",
+    "category": "general",
+    "gender": "unisex",
+    "price": 190000,
+    "originalPrice": 230000,
+    "images": [
+      "/catalogo/sneakers/otras/coach-platform.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "Nuevo en caja",
+      "colorway": "",
+      "includedItems": [
+        "Caja original"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
+  },
+  {
+    "id": "sneaker-creative-recreation-blanco",
+    "name": "Creative Recreation Blanco",
+    "brand": "Otras",
+    "model": "Creative Recreation Blanco",
+    "sku": "PAPI-1632",
+    "category": "general",
+    "gender": "unisex",
+    "price": 190000,
+    "originalPrice": 230000,
+    "images": [
+      "/catalogo/sneakers/otras/creative-recreation-blanco.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "Nuevo en caja",
+      "colorway": "Triple White",
+      "includedItems": [
+        "Caja original"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
+  },
+  {
+    "id": "sneaker-creative-recreation-blanco-negro",
+    "name": "Creative Recreation Blanco / Negro",
+    "brand": "Otras",
+    "model": "Creative Recreation Blanco / Negro",
+    "sku": "PAPI-1112",
+    "category": "general",
+    "gender": "unisex",
+    "price": 190000,
+    "originalPrice": 230000,
+    "images": [
+      "/catalogo/sneakers/otras/creative-recreation-blanco-negro.jpeg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "Silueta baja en cuero blanco con paneles perforados negros. Incluye bolsa de tela.",
+    "details": {
+      "condition": "Nuevo en caja",
+      "colorway": "White / Black",
+      "includedItems": [
+        "Caja original"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
+  },
+  {
+    "id": "sneaker-creative-recreation-gris-negro",
+    "name": "Creative Recreation Gris / Negro",
+    "brand": "Otras",
+    "model": "Creative Recreation Gris / Negro",
+    "sku": "PAPI-1245",
+    "category": "general",
+    "gender": "unisex",
+    "price": 190000,
+    "originalPrice": 230000,
+    "images": [
+      "/catalogo/sneakers/otras/creative-recreation-gris-negro.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "Nuevo en caja",
+      "colorway": "Grey / Black",
+      "includedItems": [
+        "Caja original"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
+  },
+  {
+    "id": "sneaker-creative-recreation-los-angeles",
+    "name": "Creative Recreation Los Angeles",
+    "brand": "Otras",
+    "model": "Creative Recreation Los Angeles",
+    "sku": "PAPI-8654",
+    "category": "general",
+    "gender": "unisex",
+    "price": 190000,
+    "originalPrice": 230000,
+    "images": [
+      "/catalogo/sneakers/otras/creative-recreation-los-angeles.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "Nuevo en caja",
+      "colorway": "",
+      "includedItems": [
+        "Caja original"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
+  },
+  {
+    "id": "sneaker-creative-recreation-tejido-blanco-negro",
+    "name": "Creative Recreation Tejido Blanco / Negro",
+    "brand": "Otras",
+    "model": "Creative Recreation Tejido Blanco / Negro",
+    "sku": "PAPI-1582",
+    "category": "general",
+    "gender": "unisex",
+    "price": 190000,
+    "originalPrice": 230000,
+    "images": [
+      "/catalogo/sneakers/otras/creative-recreation-tejido-blanco-negro.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "La misma silueta en tejido de dos tonos, con la correa de cuero sobre el empeine.",
+    "details": {
+      "condition": "Nuevo en caja",
+      "colorway": "White / Black",
+      "includedItems": [
+        "Caja original"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
+  },
+  {
+    "id": "sneaker-creative-recreation-triple-negro",
+    "name": "Creative Recreation Triple Negro",
+    "brand": "Otras",
+    "model": "Creative Recreation Triple Negro",
+    "sku": "PAPI-1544",
+    "category": "general",
+    "gender": "unisex",
+    "price": 190000,
+    "originalPrice": 230000,
+    "images": [
+      "/catalogo/sneakers/otras/creative-recreation-triple-negro.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "Nuevo en caja",
+      "colorway": "Triple Black",
+      "includedItems": [
+        "Caja original"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
+  },
+  {
+    "id": "sneaker-dolce-gabbana",
+    "name": "Dolce & Gabbana",
+    "brand": "Otras",
+    "model": "Dolce & Gabbana",
+    "sku": "PAPI-5318",
+    "category": "general",
+    "gender": "unisex",
+    "price": 190000,
+    "originalPrice": 230000,
+    "images": [
+      "/catalogo/sneakers/otras/dolce-gabbana.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "Nuevo en caja",
+      "colorway": "",
+      "includedItems": [
+        "Caja original"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
+  },
+  {
+    "id": "sneaker-gucci-platform",
+    "name": "Gucci Platform",
+    "brand": "Otras",
+    "model": "Gucci Platform",
+    "sku": "PAPI-8347",
+    "category": "general",
+    "gender": "unisex",
+    "price": 190000,
+    "originalPrice": 230000,
+    "images": [
+      "/catalogo/sneakers/otras/gucci-platform.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "Nuevo en caja",
+      "colorway": "",
+      "includedItems": [
+        "Caja original"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
+  },
+  {
+    "id": "sneaker-hugo-boss-classic",
+    "name": "Hugo Boss Classic",
+    "brand": "Otras",
+    "model": "Hugo Boss Classic",
+    "sku": "PAPI-8369",
+    "category": "general",
+    "gender": "unisex",
+    "price": 190000,
+    "originalPrice": 230000,
+    "images": [
+      "/catalogo/sneakers/otras/hugo-boss-classic.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "Nuevo en caja",
+      "colorway": "",
+      "includedItems": [
+        "Caja original"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
+  },
+  {
+    "id": "sneaker-jordan-legacy-312-blanco-rosado",
+    "name": "Jordan Legacy 312 Blanco / Rosado",
+    "brand": "Jordan",
+    "model": "Jordan Legacy 312 Blanco / Rosado",
+    "sku": "PAPI-1176",
+    "category": "general",
+    "gender": "unisex",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/jordan/jordan-legacy-312-blanco-rosado.jpeg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "La Legacy 312 mezcla piezas del 1, el 3 y el Air Force: correa amarilla, elefante gris y talón azul.",
+    "details": {
+      "condition": "Nuevo en caja",
+      "colorway": "White / Pink / Blue / Yellow",
+      "includedItems": [
+        "Caja original"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
   },
   {
     "id": "sneaker-louis-vuitton-skate-azul-blanco",
@@ -1530,8 +3930,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:10:09.355Z",
-    "updatedAt": "2026-08-13T19:10:09.355Z"
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
   },
   {
     "id": "sneaker-louis-vuitton-skate-blanco-beige",
@@ -1570,8 +3970,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:10:09.355Z",
-    "updatedAt": "2026-08-13T19:10:09.355Z"
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
   },
   {
     "id": "sneaker-louis-vuitton-skate-blanco-gris",
@@ -1610,8 +4010,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:10:09.355Z",
-    "updatedAt": "2026-08-13T19:10:09.355Z"
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
   },
   {
     "id": "sneaker-louis-vuitton-skate-negro-monogram",
@@ -1650,8 +4050,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:10:09.355Z",
-    "updatedAt": "2026-08-13T19:10:09.355Z"
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
   },
   {
     "id": "sneaker-louis-vuitton-skate-rojo",
@@ -1690,8 +4090,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:10:09.355Z",
-    "updatedAt": "2026-08-13T19:10:09.355Z"
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
   },
   {
     "id": "sneaker-louis-vuitton-skate-triple-blanco",
@@ -1730,8 +4130,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:10:09.355Z",
-    "updatedAt": "2026-08-13T19:10:09.355Z"
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
   },
   {
     "id": "sneaker-louis-vuitton-skate-triple-negro",
@@ -1770,8 +4170,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:10:09.355Z",
-    "updatedAt": "2026-08-13T19:10:09.355Z"
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
   },
   {
     "id": "sneaker-louis-vuitton-skate-verde",
@@ -1810,8 +4210,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:10:09.355Z",
-    "updatedAt": "2026-08-13T19:10:09.355Z"
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
   },
   {
     "id": "sneaker-louis-vuitton-trainer-blanco-negro",
@@ -1850,8 +4250,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:10:09.355Z",
-    "updatedAt": "2026-08-13T19:10:09.355Z"
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
   },
   {
     "id": "sneaker-louis-vuitton-trainer-denim-monogram",
@@ -1890,8 +4290,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:10:09.355Z",
-    "updatedAt": "2026-08-13T19:10:09.355Z"
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
   },
   {
     "id": "sneaker-louis-vuitton-trainer-negro",
@@ -1930,8 +4330,568 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:10:09.355Z",
-    "updatedAt": "2026-08-13T19:10:09.355Z"
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
+  },
+  {
+    "id": "sneaker-new-balance-1906r-plata",
+    "name": "New Balance 1906R Plata",
+    "brand": "New Balance",
+    "model": "New Balance 1906R Plata",
+    "sku": "PAPI-1250",
+    "category": "general",
+    "gender": "unisex",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/new-balance/new-balance-1906r-plata.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "La 1906R en malla blanca con placas plateadas y amortiguación N-ergy en el talón.",
+    "details": {
+      "condition": "Nuevo en caja",
+      "colorway": "Silver / White / Black",
+      "includedItems": [
+        "Caja original"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
+  },
+  {
+    "id": "sneaker-new-balance-2000-blanco-rosado",
+    "name": "New Balance 2000 Blanco / Rosado",
+    "brand": "New Balance",
+    "model": "New Balance 2000 Blanco / Rosado",
+    "sku": "PAPI-1494",
+    "category": "general",
+    "gender": "unisex",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/new-balance/new-balance-2000-blanco-rosado.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "Nuevo en caja",
+      "colorway": "White / Pink / Silver",
+      "includedItems": [
+        "Caja original"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
+  },
+  {
+    "id": "sneaker-new-balance-2000-dorado-crema",
+    "name": "New Balance 2000 Dorado / Crema",
+    "brand": "New Balance",
+    "model": "New Balance 2000 Dorado / Crema",
+    "sku": "PAPI-1414",
+    "category": "general",
+    "gender": "unisex",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/new-balance/new-balance-2000-dorado-crema.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "Nuevo en caja",
+      "colorway": "Gold / Cream",
+      "includedItems": [
+        "Caja original"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
+  },
+  {
+    "id": "sneaker-new-balance-2000-gris-verde-neon",
+    "name": "New Balance 2000 Gris / Verde Neón",
+    "brand": "New Balance",
+    "model": "New Balance 2000 Gris / Verde Neón",
+    "sku": "PAPI-9700",
+    "category": "general",
+    "gender": "unisex",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/new-balance/new-balance-2000-gris-verde-neon.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "Nuevo en caja",
+      "colorway": "Grey / Black / Volt",
+      "includedItems": [
+        "Caja original"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
+  },
+  {
+    "id": "sneaker-new-balance-2000-negro-dorado",
+    "name": "New Balance 2000 Negro / Dorado",
+    "brand": "New Balance",
+    "model": "New Balance 2000 Negro / Dorado",
+    "sku": "PAPI-8481",
+    "category": "general",
+    "gender": "unisex",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/new-balance/new-balance-2000-negro-dorado.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "Nuevo en caja",
+      "colorway": "Black / Gold",
+      "includedItems": [
+        "Caja original"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
+  },
+  {
+    "id": "sneaker-new-balance-530-blanco-verde",
+    "name": "New Balance 530 Blanco / Verde",
+    "brand": "New Balance",
+    "model": "New Balance 530 Blanco / Verde",
+    "sku": "PAPI-1428",
+    "category": "general",
+    "gender": "unisex",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/new-balance/new-balance-530-blanco-verde.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "Nuevo en caja",
+      "colorway": "White / Green",
+      "includedItems": [
+        "Caja original"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
+  },
+  {
+    "id": "sneaker-new-balance-530-white-silver-navy",
+    "name": "New Balance 530 White Silver Navy",
+    "brand": "New Balance",
+    "model": "New Balance 530 White Silver Navy",
+    "sku": "PAPI-2218",
+    "category": "general",
+    "gender": "unisex",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/new-balance/new-balance-530-white-silver-navy.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "La 530 en malla blanca con capas plateadas y detalles azul marino. Mediasuela ABZORB.",
+    "details": {
+      "condition": "Nuevo en caja",
+      "colorway": "White / Silver / Navy",
+      "includedItems": [
+        "Caja original"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
+  },
+  {
+    "id": "sneaker-new-balance-550-blanco-verde",
+    "name": "New Balance 550 Blanco / Verde",
+    "brand": "New Balance",
+    "model": "New Balance 550 Blanco / Verde",
+    "sku": "PAPI-3905",
+    "category": "general",
+    "gender": "unisex",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/new-balance/new-balance-550-blanco-verde.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "Nuevo en caja",
+      "colorway": "White / Green",
+      "includedItems": [
+        "Caja original"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
+  },
+  {
+    "id": "sneaker-new-balance-550-x-aime-leon-dore-blanco-rojo",
+    "name": "New Balance 550 x Aimé Leon Dore Blanco / Rojo",
+    "brand": "New Balance",
+    "model": "New Balance 550 x Aimé Leon Dore Blanco / Rojo",
+    "sku": "PAPI-3201",
+    "category": "general",
+    "gender": "unisex",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/new-balance/new-balance-550-x-aime-leon-dore-blanco-rojo.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "Nuevo en caja",
+      "colorway": "White / Red",
+      "includedItems": [
+        "Caja original"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
+  },
+  {
+    "id": "sneaker-new-balance-790-blanco-plata",
+    "name": "New Balance 790 Blanco / Plata",
+    "brand": "New Balance",
+    "model": "New Balance 790 Blanco / Plata",
+    "sku": "PAPI-3225",
+    "category": "general",
+    "gender": "unisex",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/new-balance/new-balance-790-blanco-plata.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "Nuevo en caja",
+      "colorway": "White / Silver / Grey",
+      "includedItems": [
+        "Caja original"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
+  },
+  {
+    "id": "sneaker-new-balance-9060-moonrock-linen",
+    "name": "New Balance 9060 Moonrock Linen",
+    "brand": "New Balance",
+    "model": "New Balance 9060 Moonrock Linen",
+    "sku": "PAPI-1452",
+    "category": "general",
+    "gender": "unisex",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/new-balance/new-balance-9060-moonrock-linen.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "Nuevo en caja",
+      "colorway": "Moonrock / Linen",
+      "includedItems": [
+        "Caja original"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
+  },
+  {
+    "id": "sneaker-new-balance-9060-negro",
+    "name": "New Balance 9060 Negro",
+    "brand": "New Balance",
+    "model": "New Balance 9060 Negro",
+    "sku": "PAPI-6877",
+    "category": "general",
+    "gender": "unisex",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/new-balance/new-balance-9060-negro.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "La 9060 en gamuza negra con la N blanca y la mediasuela ondulada en crema.",
+    "details": {
+      "condition": "Nuevo en caja",
+      "colorway": "Black / Sea Salt",
+      "includedItems": [
+        "Caja original"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
+  },
+  {
+    "id": "sneaker-new-balance-9060-sea-salt-yellow",
+    "name": "New Balance 9060 Sea Salt Yellow",
+    "brand": "New Balance",
+    "model": "New Balance 9060 Sea Salt Yellow",
+    "sku": "PAPI-1647",
+    "category": "general",
+    "gender": "unisex",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/new-balance/new-balance-9060-sea-salt-yellow.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "Nuevo en caja",
+      "colorway": "Sea Salt / Yellow",
+      "includedItems": [
+        "Caja original"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
+  },
+  {
+    "id": "sneaker-new-balance-9060-triple-blanco",
+    "name": "New Balance 9060 Triple Blanco",
+    "brand": "New Balance",
+    "model": "New Balance 9060 Triple Blanco",
+    "sku": "PAPI-1550",
+    "category": "general",
+    "gender": "unisex",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/new-balance/new-balance-9060-triple-blanco.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "Nuevo en caja",
+      "colorway": "Triple White",
+      "includedItems": [
+        "Caja original"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
   },
   {
     "id": "sneaker-nike-air-force-1-blanco-verde",
@@ -1970,8 +4930,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:10:09.355Z",
-    "updatedAt": "2026-08-13T19:10:09.355Z"
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
   },
   {
     "id": "sneaker-nike-air-force-1-negro",
@@ -2010,8 +4970,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:10:09.355Z",
-    "updatedAt": "2026-08-13T19:10:09.355Z"
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
   },
   {
     "id": "sneaker-nike-air-force-1-mid-07",
@@ -2050,8 +5010,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:10:09.355Z",
-    "updatedAt": "2026-08-13T19:10:09.355Z"
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
   },
   {
     "id": "sneaker-nike-air-force-1-super-gris",
@@ -2090,8 +5050,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:10:09.355Z",
-    "updatedAt": "2026-08-13T19:10:09.355Z"
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
   },
   {
     "id": "sneaker-nike-air-force-1-super-morado",
@@ -2130,8 +5090,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:10:09.355Z",
-    "updatedAt": "2026-08-13T19:10:09.355Z"
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
   },
   {
     "id": "sneaker-nike-air-force-1-super-naranja",
@@ -2170,8 +5130,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:10:09.355Z",
-    "updatedAt": "2026-08-13T19:10:09.355Z"
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
   },
   {
     "id": "sneaker-nike-air-force-1-swoosh-pink",
@@ -2210,8 +5170,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:10:09.355Z",
-    "updatedAt": "2026-08-13T19:10:09.355Z"
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
   },
   {
     "id": "sneaker-nike-air-force-1-triple-white",
@@ -2250,8 +5210,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:10:09.355Z",
-    "updatedAt": "2026-08-13T19:10:09.355Z"
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
   },
   {
     "id": "sneaker-nike-air-force-1-triple-yellow",
@@ -2290,8 +5250,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:10:09.355Z",
-    "updatedAt": "2026-08-13T19:10:09.355Z"
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
   },
   {
     "id": "sneaker-nike-air-force-1-university-blue",
@@ -2330,8 +5290,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:10:09.355Z",
-    "updatedAt": "2026-08-13T19:10:09.355Z"
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
   },
   {
     "id": "sneaker-nike-air-force-1-x-louis-vuitton",
@@ -2370,8 +5330,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:10:09.355Z",
-    "updatedAt": "2026-08-13T19:10:09.355Z"
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
   },
   {
     "id": "sneaker-nike-air-force-1-x-noah",
@@ -2410,8 +5370,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:10:09.355Z",
-    "updatedAt": "2026-08-13T19:10:09.355Z"
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
   },
   {
     "id": "sneaker-nike-air-force-1-x-stussy",
@@ -2450,8 +5410,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:10:09.355Z",
-    "updatedAt": "2026-08-13T19:10:09.355Z"
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
   },
   {
     "id": "sneaker-nike-air-force-1-x-north-face",
@@ -2490,8 +5450,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:10:09.355Z",
-    "updatedAt": "2026-08-13T19:10:09.355Z"
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
   },
   {
     "id": "sneaker-nike-air-force-1-x-tiffany",
@@ -2530,8 +5490,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:10:09.355Z",
-    "updatedAt": "2026-08-13T19:10:09.355Z"
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
   },
   {
     "id": "sneaker-nike-air-force-1-x-travis-scott",
@@ -2570,8 +5530,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:10:09.355Z",
-    "updatedAt": "2026-08-13T19:10:09.355Z"
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
   },
   {
     "id": "sneaker-nike-air-max-90-black-orange",
@@ -2610,8 +5570,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:10:09.356Z",
-    "updatedAt": "2026-08-13T19:10:09.356Z"
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
   },
   {
     "id": "sneaker-nike-air-max-90-lucha-libre",
@@ -2650,8 +5610,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:10:09.356Z",
-    "updatedAt": "2026-08-13T19:10:09.356Z"
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
   },
   {
     "id": "sneaker-nike-air-max-90-oregon",
@@ -2690,8 +5650,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:10:09.356Z",
-    "updatedAt": "2026-08-13T19:10:09.356Z"
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
   },
   {
     "id": "sneaker-nike-air-max-90-triple-blanco",
@@ -2730,8 +5690,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:10:09.356Z",
-    "updatedAt": "2026-08-13T19:10:09.356Z"
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
   },
   {
     "id": "sneaker-nike-air-max-90-triple-negro",
@@ -2770,8 +5730,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:10:09.356Z",
-    "updatedAt": "2026-08-13T19:10:09.356Z"
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
   },
   {
     "id": "sneaker-nike-air-max-95-blanco-azul",
@@ -2810,8 +5770,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:10:09.356Z",
-    "updatedAt": "2026-08-13T19:10:09.356Z"
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
   },
   {
     "id": "sneaker-nike-air-max-95-gris-morado",
@@ -2850,8 +5810,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:10:09.356Z",
-    "updatedAt": "2026-08-13T19:10:09.356Z"
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
   },
   {
     "id": "sneaker-nike-air-max-95-gris-rojo",
@@ -2890,8 +5850,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:10:09.356Z",
-    "updatedAt": "2026-08-13T19:10:09.356Z"
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
   },
   {
     "id": "sneaker-nike-air-max-95-gris-rosado",
@@ -2930,8 +5890,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:10:09.356Z",
-    "updatedAt": "2026-08-13T19:10:09.356Z"
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
   },
   {
     "id": "sneaker-nike-air-max-95-negro-gris",
@@ -2970,8 +5930,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:10:09.356Z",
-    "updatedAt": "2026-08-13T19:10:09.356Z"
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
   },
   {
     "id": "sneaker-nike-air-max-95-neon",
@@ -3010,8 +5970,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:10:09.356Z",
-    "updatedAt": "2026-08-13T19:10:09.356Z"
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
   },
   {
     "id": "sneaker-nike-air-max-95-triple-negro",
@@ -3050,8 +6010,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:10:09.356Z",
-    "updatedAt": "2026-08-13T19:10:09.356Z"
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
   },
   {
     "id": "sneaker-nike-air-max-95-x-a-ma-maniere-azul",
@@ -3090,8 +6050,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:10:09.356Z",
-    "updatedAt": "2026-08-13T19:10:09.356Z"
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
   },
   {
     "id": "sneaker-nike-air-max-95-x-a-ma-maniere-taupe",
@@ -3130,8 +6090,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:10:09.356Z",
-    "updatedAt": "2026-08-13T19:10:09.356Z"
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
   },
   {
     "id": "sneaker-nike-air-max-95-x-a-ma-maniere-vino",
@@ -3170,8 +6130,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:10:09.356Z",
-    "updatedAt": "2026-08-13T19:10:09.356Z"
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
   },
   {
     "id": "sneaker-nike-air-max-97-cafe",
@@ -3210,8 +6170,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:10:09.356Z",
-    "updatedAt": "2026-08-13T19:10:09.356Z"
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
   },
   {
     "id": "sneaker-nike-air-max-97-nebulous",
@@ -3250,8 +6210,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:10:09.356Z",
-    "updatedAt": "2026-08-13T19:10:09.356Z"
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
   },
   {
     "id": "sneaker-nike-air-max-97-negro-volt",
@@ -3290,8 +6250,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:10:09.356Z",
-    "updatedAt": "2026-08-13T19:10:09.356Z"
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
   },
   {
     "id": "sneaker-nike-air-max-97-nightmare",
@@ -3330,8 +6290,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:10:09.356Z",
-    "updatedAt": "2026-08-13T19:10:09.356Z"
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
   },
   {
     "id": "sneaker-nike-air-max-blanco-morado",
@@ -3370,8 +6330,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:10:09.356Z",
-    "updatedAt": "2026-08-13T19:10:09.356Z"
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
   },
   {
     "id": "sneaker-nike-air-max-bw-gris-rojo",
@@ -3411,8 +6371,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:10:09.356Z",
-    "updatedAt": "2026-08-13T19:10:09.356Z"
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
   },
   {
     "id": "sneaker-nike-air-max-dn-se-triple-negro",
@@ -3451,8 +6411,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:10:09.356Z",
-    "updatedAt": "2026-08-13T19:10:09.356Z"
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
   },
   {
     "id": "sneaker-nike-air-max-dn8-azul",
@@ -3491,8 +6451,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:10:09.356Z",
-    "updatedAt": "2026-08-13T19:10:09.356Z"
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
   },
   {
     "id": "sneaker-nike-air-max-dn8-blanco",
@@ -3531,8 +6491,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:10:09.356Z",
-    "updatedAt": "2026-08-13T19:10:09.356Z"
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
   },
   {
     "id": "sneaker-nike-air-max-dn8-gris-menta",
@@ -3571,8 +6531,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:10:09.356Z",
-    "updatedAt": "2026-08-13T19:10:09.356Z"
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
   },
   {
     "id": "sneaker-nike-air-max-dn8-hueso",
@@ -3611,8 +6571,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:10:09.356Z",
-    "updatedAt": "2026-08-13T19:10:09.356Z"
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
   },
   {
     "id": "sneaker-nike-air-max-dn8-plata",
@@ -3651,8 +6611,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:10:09.356Z",
-    "updatedAt": "2026-08-13T19:10:09.356Z"
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
   },
   {
     "id": "sneaker-nike-air-max-dn8-triple-negro",
@@ -3691,8 +6651,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:10:09.356Z",
-    "updatedAt": "2026-08-13T19:10:09.356Z"
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
   },
   {
     "id": "sneaker-nike-air-max-ltd-blanco-azul",
@@ -3731,8 +6691,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:10:09.356Z",
-    "updatedAt": "2026-08-13T19:10:09.356Z"
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
   },
   {
     "id": "sneaker-nike-air-max-plus-drift-baroque-brown",
@@ -3771,8 +6731,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:10:09.356Z",
-    "updatedAt": "2026-08-13T19:10:09.356Z"
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
   },
   {
     "id": "sneaker-nike-air-max-plus-drift-metallic-silver",
@@ -3811,8 +6771,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:10:09.356Z",
-    "updatedAt": "2026-08-13T19:10:09.356Z"
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
   },
   {
     "id": "sneaker-nike-air-max-plus-drift-tn-all-day",
@@ -3851,8 +6811,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:10:09.356Z",
-    "updatedAt": "2026-08-13T19:10:09.356Z"
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
   },
   {
     "id": "sneaker-nike-air-max-plus-drift-tn-phantom-cacao",
@@ -3891,8 +6851,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:10:09.356Z",
-    "updatedAt": "2026-08-13T19:10:09.356Z"
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
   },
   {
     "id": "sneaker-nike-air-max-plus-og-hyper-blue",
@@ -3931,8 +6891,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:10:09.356Z",
-    "updatedAt": "2026-08-13T19:10:09.356Z"
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
   },
   {
     "id": "sneaker-nike-air-max-plus-tn-blanco-azul",
@@ -3971,8 +6931,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:10:09.356Z",
-    "updatedAt": "2026-08-13T19:10:09.356Z"
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
   },
   {
     "id": "sneaker-nike-air-max-plus-tn-blue-gradient",
@@ -4011,8 +6971,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:10:09.356Z",
-    "updatedAt": "2026-08-13T19:10:09.356Z"
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
   },
   {
     "id": "sneaker-nike-air-max-plus-tn-pink-gradient",
@@ -4051,8 +7011,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:10:09.356Z",
-    "updatedAt": "2026-08-13T19:10:09.356Z"
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
   },
   {
     "id": "sneaker-nike-air-max-plus-tn-triple-blanco",
@@ -4091,8 +7051,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:10:09.356Z",
-    "updatedAt": "2026-08-13T19:10:09.356Z"
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
   },
   {
     "id": "sneaker-nike-air-max-plus-tn-triple-negro",
@@ -4131,8 +7091,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:10:09.356Z",
-    "updatedAt": "2026-08-13T19:10:09.356Z"
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
   },
   {
     "id": "sneaker-nike-air-max-plus-tn-voltage-purple",
@@ -4171,8 +7131,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:10:09.356Z",
-    "updatedAt": "2026-08-13T19:10:09.356Z"
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
   },
   {
     "id": "sneaker-nike-air-more-uptempo-96-negro-blanco",
@@ -4211,8 +7171,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:10:09.356Z",
-    "updatedAt": "2026-08-13T19:10:09.356Z"
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
   },
   {
     "id": "sneaker-nike-air-vomero-18-negro",
@@ -4251,8 +7211,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:10:09.356Z",
-    "updatedAt": "2026-08-13T19:10:09.356Z"
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
   },
   {
     "id": "sneaker-nike-blazer-low-77-vintage",
@@ -4291,8 +7251,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:10:09.356Z",
-    "updatedAt": "2026-08-13T19:10:09.356Z"
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
   },
   {
     "id": "sneaker-nike-blazer-mid-77-vintage",
@@ -4331,8 +7291,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:10:09.356Z",
-    "updatedAt": "2026-08-13T19:10:09.356Z"
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
   },
   {
     "id": "sneaker-nike-blazer-mid-victory-off-noir",
@@ -4371,8 +7331,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:10:09.356Z",
-    "updatedAt": "2026-08-13T19:10:09.356Z"
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
   },
   {
     "id": "sneaker-nike-blazer-mid-victory-phantom",
@@ -4409,8 +7369,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:10:09.356Z",
-    "updatedAt": "2026-08-13T19:10:09.356Z"
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
   },
   {
     "id": "sneaker-nike-cortez-cafe",
@@ -4449,8 +7409,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:10:09.356Z",
-    "updatedAt": "2026-08-13T19:10:09.356Z"
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
   },
   {
     "id": "sneaker-nike-cortez-classic-blanco-negro",
@@ -4489,8 +7449,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:10:09.356Z",
-    "updatedAt": "2026-08-13T19:10:09.356Z"
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
   },
   {
     "id": "sneaker-nike-cortez-forrest-gump",
@@ -4530,8 +7490,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:10:09.356Z",
-    "updatedAt": "2026-08-13T19:10:09.356Z"
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
   },
   {
     "id": "sneaker-nike-cortez-morado",
@@ -4570,8 +7530,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:10:09.356Z",
-    "updatedAt": "2026-08-13T19:10:09.356Z"
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
   },
   {
     "id": "sneaker-nike-cortez-pine-green",
@@ -4610,8 +7570,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:10:09.356Z",
-    "updatedAt": "2026-08-13T19:10:09.356Z"
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
   },
   {
     "id": "sneaker-nike-cortez-rojo-oscuro",
@@ -4650,8 +7610,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:10:09.356Z",
-    "updatedAt": "2026-08-13T19:10:09.356Z"
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
   },
   {
     "id": "sneaker-nike-cortez-verde",
@@ -4690,8 +7650,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:10:09.356Z",
-    "updatedAt": "2026-08-13T19:10:09.356Z"
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
   },
   {
     "id": "sneaker-nike-cortez-verde-rosado",
@@ -4730,8 +7690,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:10:09.356Z",
-    "updatedAt": "2026-08-13T19:10:09.356Z"
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
   },
   {
     "id": "sneaker-nike-dunk-low-panda",
@@ -4770,8 +7730,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:10:09.356Z",
-    "updatedAt": "2026-08-13T19:10:09.356Z"
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
   },
   {
     "id": "sneaker-nike-dunk-low-triple-pink",
@@ -4810,8 +7770,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:10:09.356Z",
-    "updatedAt": "2026-08-13T19:10:09.356Z"
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
   },
   {
     "id": "sneaker-nike-dunk-low-unc",
@@ -4850,8 +7810,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:10:09.356Z",
-    "updatedAt": "2026-08-13T19:10:09.356Z"
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
   },
   {
     "id": "sneaker-nike-dunk-x-travis-scott-gray",
@@ -4890,8 +7850,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:10:09.356Z",
-    "updatedAt": "2026-08-13T19:10:09.356Z"
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
   },
   {
     "id": "sneaker-nike-free-metcon-blanco-lila",
@@ -4930,8 +7890,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:10:09.356Z",
-    "updatedAt": "2026-08-13T19:10:09.356Z"
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
   },
   {
     "id": "sneaker-nike-free-metcon-blanco-rojo",
@@ -4970,8 +7930,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:10:09.356Z",
-    "updatedAt": "2026-08-13T19:10:09.356Z"
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
   },
   {
     "id": "sneaker-nike-free-metcon-blanco-rosado",
@@ -5010,8 +7970,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:10:09.356Z",
-    "updatedAt": "2026-08-13T19:10:09.356Z"
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
   },
   {
     "id": "sneaker-nike-free-metcon-morado",
@@ -5050,8 +8010,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:10:09.356Z",
-    "updatedAt": "2026-08-13T19:10:09.356Z"
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
   },
   {
     "id": "sneaker-nike-free-metcon-negro",
@@ -5090,8 +8050,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:10:09.356Z",
-    "updatedAt": "2026-08-13T19:10:09.356Z"
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
   },
   {
     "id": "sneaker-nike-free-metcon-negro-cafe",
@@ -5130,8 +8090,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:10:09.356Z",
-    "updatedAt": "2026-08-13T19:10:09.356Z"
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
   },
   {
     "id": "sneaker-nike-hyper-bubble-negro",
@@ -5170,8 +8130,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:10:09.356Z",
-    "updatedAt": "2026-08-13T19:10:09.356Z"
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
   },
   {
     "id": "sneaker-nike-hyper-bubble-negro-cromo",
@@ -5210,8 +8170,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:10:09.356Z",
-    "updatedAt": "2026-08-13T19:10:09.356Z"
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
   },
   {
     "id": "sneaker-nike-hyper-bubble-negro-verde",
@@ -5250,8 +8210,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:10:09.356Z",
-    "updatedAt": "2026-08-13T19:10:09.356Z"
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
   },
   {
     "id": "sneaker-nike-initiator-hueso-verde",
@@ -5290,8 +8250,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:10:09.356Z",
-    "updatedAt": "2026-08-13T19:10:09.356Z"
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
   },
   {
     "id": "sneaker-nike-initiator-plata-rojo",
@@ -5330,8 +8290,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:10:09.356Z",
-    "updatedAt": "2026-08-13T19:10:09.356Z"
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
   },
   {
     "id": "sneaker-nike-p-6000-blanco-malva",
@@ -5370,8 +8330,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:10:09.356Z",
-    "updatedAt": "2026-08-13T19:10:09.356Z"
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
   },
   {
     "id": "sneaker-nike-p-6000-blanco-rosado",
@@ -5410,8 +8370,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:10:09.356Z",
-    "updatedAt": "2026-08-13T19:10:09.356Z"
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
   },
   {
     "id": "sneaker-nike-p-6000-gris",
@@ -5450,8 +8410,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:10:09.356Z",
-    "updatedAt": "2026-08-13T19:10:09.356Z"
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
   },
   {
     "id": "sneaker-nike-p-6000-hueso",
@@ -5490,8 +8450,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:10:09.356Z",
-    "updatedAt": "2026-08-13T19:10:09.356Z"
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
   },
   {
     "id": "sneaker-nike-p-6000-negro-blanco",
@@ -5530,8 +8490,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:10:09.356Z",
-    "updatedAt": "2026-08-13T19:10:09.356Z"
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
   },
   {
     "id": "sneaker-nike-p-6000-plata-negro",
@@ -5570,8 +8530,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:10:09.356Z",
-    "updatedAt": "2026-08-13T19:10:09.356Z"
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
   },
   {
     "id": "sneaker-nike-p-6000-plata-rosado",
@@ -5610,8 +8570,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:10:09.356Z",
-    "updatedAt": "2026-08-13T19:10:09.356Z"
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
   },
   {
     "id": "sneaker-nike-p-6000-rosa-total",
@@ -5650,8 +8610,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:10:09.356Z",
-    "updatedAt": "2026-08-13T19:10:09.356Z"
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
   },
   {
     "id": "sneaker-nike-p-6000-triple-blanco",
@@ -5690,8 +8650,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:10:09.356Z",
-    "updatedAt": "2026-08-13T19:10:09.356Z"
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
   },
   {
     "id": "sneaker-nike-sb-skate-blanco-gris",
@@ -5730,8 +8690,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:10:09.356Z",
-    "updatedAt": "2026-08-13T19:10:09.356Z"
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
   },
   {
     "id": "sneaker-nike-sb-dunk-low-stellar",
@@ -5770,8 +8730,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:10:09.356Z",
-    "updatedAt": "2026-08-13T19:10:09.356Z"
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
   },
   {
     "id": "sneaker-nike-sb-dunk-low-x-jarritos",
@@ -5810,8 +8770,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:10:09.356Z",
-    "updatedAt": "2026-08-13T19:10:09.356Z"
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
   },
   {
     "id": "sneaker-nike-sb-dunk-super-brown",
@@ -5850,8 +8810,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:10:09.356Z",
-    "updatedAt": "2026-08-13T19:10:09.356Z"
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
   },
   {
     "id": "sneaker-nike-sb-skate-negro",
@@ -5890,8 +8850,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:10:09.356Z",
-    "updatedAt": "2026-08-13T19:10:09.356Z"
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
   },
   {
     "id": "sneaker-nike-shox-negro",
@@ -5930,8 +8890,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:10:09.356Z",
-    "updatedAt": "2026-08-13T19:10:09.356Z"
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
   },
   {
     "id": "sneaker-nike-shox-tl-blanco-verde",
@@ -5970,8 +8930,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:10:09.356Z",
-    "updatedAt": "2026-08-13T19:10:09.356Z"
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
   },
   {
     "id": "sneaker-nike-shox-tl-gris-verde",
@@ -6010,8 +8970,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:10:09.356Z",
-    "updatedAt": "2026-08-13T19:10:09.356Z"
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
   },
   {
     "id": "sneaker-nike-shox-tl-negro-rojo",
@@ -6050,8 +9010,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:10:09.356Z",
-    "updatedAt": "2026-08-13T19:10:09.356Z"
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
   },
   {
     "id": "sneaker-nike-shox-tl-triple-blanco",
@@ -6090,8 +9050,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:10:09.356Z",
-    "updatedAt": "2026-08-13T19:10:09.356Z"
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
   },
   {
     "id": "sneaker-nike-shox-tl-triple-negro",
@@ -6130,8 +9090,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:10:09.356Z",
-    "updatedAt": "2026-08-13T19:10:09.356Z"
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
   },
   {
     "id": "sneaker-nike-shox-triple-cafe",
@@ -6170,8 +9130,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:10:09.356Z",
-    "updatedAt": "2026-08-13T19:10:09.356Z"
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
   },
   {
     "id": "sneaker-nike-zoom-vomero-5-crema",
@@ -6210,8 +9170,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:10:09.356Z",
-    "updatedAt": "2026-08-13T19:10:09.356Z"
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
   },
   {
     "id": "sneaker-nike-zoom-vomero-5-plata",
@@ -6250,8 +9210,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:10:09.356Z",
-    "updatedAt": "2026-08-13T19:10:09.356Z"
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
   },
   {
     "id": "sneaker-nike-zoom-vomero-5-triple-blanco",
@@ -6290,8 +9250,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:10:09.356Z",
-    "updatedAt": "2026-08-13T19:10:09.356Z"
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
   },
   {
     "id": "sneaker-nike-zoom-vomero-san-valentin",
@@ -6330,8 +9290,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:10:09.356Z",
-    "updatedAt": "2026-08-13T19:10:09.356Z"
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
   },
   {
     "id": "sneaker-nike-zoomx-blanco",
@@ -6370,7 +9330,127 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:10:09.356Z",
-    "updatedAt": "2026-08-13T19:10:09.356Z"
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
+  },
+  {
+    "id": "sneaker-reebok-x-anuel-aa-rojo",
+    "name": "Reebok x Anuel AA Rojo",
+    "brand": "Otras",
+    "model": "Reebok x Anuel AA Rojo",
+    "sku": "PAPI-1301",
+    "category": "general",
+    "gender": "unisex",
+    "price": 190000,
+    "originalPrice": 230000,
+    "images": [
+      "/catalogo/sneakers/otras/reebok-x-anuel-aa-rojo.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "Nuevo en caja",
+      "colorway": "Red / Black",
+      "includedItems": [
+        "Caja original"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
+  },
+  {
+    "id": "sneaker-vans-old-skool-cafe",
+    "name": "Vans Old Skool Café",
+    "brand": "Otras",
+    "model": "Vans Old Skool Café",
+    "sku": "PAPI-5939",
+    "category": "general",
+    "gender": "unisex",
+    "price": 190000,
+    "originalPrice": 230000,
+    "images": [
+      "/catalogo/sneakers/otras/vans-old-skool-cafe.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "Nuevo en caja",
+      "colorway": "Brown / White",
+      "includedItems": [
+        "Caja original"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
+  },
+  {
+    "id": "sneaker-vans-old-skool-negro",
+    "name": "Vans Old Skool Negro",
+    "brand": "Otras",
+    "model": "Vans Old Skool Negro",
+    "sku": "PAPI-1327",
+    "category": "general",
+    "gender": "unisex",
+    "price": 190000,
+    "originalPrice": 230000,
+    "images": [
+      "/catalogo/sneakers/otras/vans-old-skool-negro.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "La Old Skool clásica: lona y gamuza negra, franja lateral blanca y suela de gofre.",
+    "details": {
+      "condition": "Nuevo en caja",
+      "colorway": "Black / White",
+      "includedItems": [
+        "Caja original"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-13T19:34:44.183Z",
+    "updatedAt": "2026-08-13T19:34:44.183Z"
   }
 ];

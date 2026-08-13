@@ -133,6 +133,11 @@ buena es que las fotos viajen dentro del proyecto.
 
    Cargar marca por marca es la idea: cada una es su propia carpeta, y agregar
    Nike no toca nada de lo que ya hay en Adidas.
+
+   La carpeta `otras` es para las marcas con dos o tres referencias, que no dan
+   para una sección propia: todas quedan bajo la marca **Otras** y comparten un
+   solo filtro. El nombre del par sí dice de qué marca es (`Vans Old Skool
+   Negro`), así que se encuentran buscando.
 2. Agrega el precio del lote a `precios.csv`, en la raíz:
 
    ```csv

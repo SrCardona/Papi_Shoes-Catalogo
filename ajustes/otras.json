@@ -1,0 +1,98 @@
+{
+  "asics-comfort": {
+    "name": "Asics Comfort",
+    "colorway": ""
+  },
+  "asics-rosado": {
+    "name": "Asics Rosado",
+    "colorway": "Pink / White"
+  },
+  "bape-sta-blanco-negro": {
+    "name": "Bape Sta Blanco / Negro",
+    "colorway": "White / Black",
+    "description": "La Bape Sta en charol, con la estrella negra sobre cuero blanco y suela de goma."
+  },
+  "bape-sta-negro": {
+    "name": "Bape Sta Negro",
+    "colorway": "Black / White"
+  },
+  "bape-sta-wgm-blanco": {
+    "name": "Bape Sta WGM Blanco",
+    "colorway": "White"
+  },
+  "boss-black-pillow": {
+    "name": "Boss Black Pillow",
+    "colorway": "Black"
+  },
+  "boss-master-gris": {
+    "name": "Boss Master Gris",
+    "colorway": "Grey"
+  },
+  "hugo-boss-classic": {
+    "name": "Hugo Boss Classic",
+    "colorway": ""
+  },
+  "calvin-klein-carlla": {
+    "name": "Calvin Klein Carlla",
+    "colorway": ""
+  },
+  "calvin-klein-jeans-negro": {
+    "name": "Calvin Klein Jeans Negro",
+    "colorway": "Black"
+  },
+  "coach-platform": {
+    "name": "Coach Platform",
+    "colorway": ""
+  },
+  "gucci-platform": {
+    "name": "Gucci Platform",
+    "colorway": ""
+  },
+  "christian-dior-running": {
+    "name": "Christian Dior Running",
+    "colorway": ""
+  },
+  "dolce-gabbana": {
+    "name": "Dolce & Gabbana",
+    "colorway": ""
+  },
+  "creative-recreation-blanco-negro": {
+    "name": "Creative Recreation Blanco / Negro",
+    "colorway": "White / Black",
+    "description": "Silueta baja en cuero blanco con paneles perforados negros. Incluye bolsa de tela."
+  },
+  "creative-recreation-tejido-blanco-negro": {
+    "name": "Creative Recreation Tejido Blanco / Negro",
+    "colorway": "White / Black",
+    "description": "La misma silueta en tejido de dos tonos, con la correa de cuero sobre el empeine."
+  },
+  "creative-recreation-blanco": {
+    "name": "Creative Recreation Blanco",
+    "colorway": "Triple White"
+  },
+  "creative-recreation-gris-negro": {
+    "name": "Creative Recreation Gris / Negro",
+    "colorway": "Grey / Black"
+  },
+  "creative-recreation-los-angeles": {
+    "name": "Creative Recreation Los Angeles",
+    "colorway": ""
+  },
+  "creative-recreation-triple-negro": {
+    "name": "Creative Recreation Triple Negro",
+    "colorway": "Triple Black"
+  },
+  "reebok-x-anuel-aa-rojo": {
+    "name": "Reebok x Anuel AA Rojo",
+    "colorway": "Red / Black"
+  },
+  "vans-old-skool-negro": {
+    "name": "Vans Old Skool Negro",
+    "colorway": "Black / White",
+    "description": "La Old Skool clásica: lona y gamuza negra, franja lateral blanca y suela de gofre."
+  },
+  "vans-old-skool-cafe": {
+    "name": "Vans Old Skool Café",
+    "colorway": "Brown / White"
+  }
+}

@@ -318,6 +318,7 @@ for (const file of files) {
 
 const sneakers = [];
 const sinPrecio = [];
+const marcasDudosas = [];
 
 [...groups.values()].forEach((group, i) => {
   const ajuste = overrides[group.key] ?? {};
@@ -329,6 +330,11 @@ const sinPrecio = [];
     detectBrand(group.haystack);
   const gender = ajuste.gender ?? group.gender;
   const category = ajuste.category ?? group.category;
+  // "Otras" en la carpeta `otras/` es una decisión, no un fallo de detección:
+  // son marcas con dos o tres referencias que no ameritan filtro propio.
+  if (brand === 'Otras' && !ajuste.brand && !group.brandFromFolder) {
+    marcasDudosas.push(name);
+  }
   // El par manda sobre su marca, y la marca sobre las banderas del comando.
   const tarifa = prices.byFile.get(group.key) ?? prices.byBrand.get(brand.toLowerCase()) ?? {};
   const price = tarifa.price || PRECIO_BASE;
@@ -435,10 +441,11 @@ for (const s of sneakers) {
   );
 }
 
-const marcasDudosas = sneakers.filter((s) => s.brand === 'Otras');
 if (marcasDudosas.length) {
   console.log(`\n⚠ Sin marca detectada (${marcasDudosas.length}), revísalos en el panel:`);
-  for (const s of marcasDudosas) console.log(`    ${s.name}`);
+  for (const nombre of marcasDudosas.sort((a, b) => a.localeCompare(b, 'es'))) {
+    console.log(`    ${nombre}`);
+  }
 }
 
 /* Pares cuyo nombre solo se diferencia en un número final: casi siempre son

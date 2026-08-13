@@ -67,6 +67,10 @@ escribe `src/data/catalogoGenerado.ts` + `catalogo-papishoes.json`. Las
 correcciones manuales (nombre, colorway, horma, descripción) van en
 `ajustes/<marca>.json`, por nombre de archivo sin extensión.
 
+Una marca con pocas referencias va en la carpeta `otras`: todas quedan bajo la
+marca `Otras` y comparten un filtro, con la marca real en el nombre del par.
+Solo se abre carpeta propia cuando la marca aguanta su propia sección.
+
 El precio va en `precios.csv`, una fila `marca:<Marca>,precio,antes` por lote.
 Cada marca conserva el suyo cuando entra la siguiente, así que no uses
 `--precio` para un lote nuevo: pisaría el de todas las demás.
