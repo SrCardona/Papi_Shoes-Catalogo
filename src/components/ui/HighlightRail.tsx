@@ -52,21 +52,30 @@ export function HighlightRail() {
     <>
       <section className="border-y border-white/8 bg-basalt/30">
         <div className="max-w-[1400px] mx-auto px-5 lg:px-8 py-7">
-          <div className="flex gap-7 overflow-x-auto no-scrollbar">
-            {INITIAL_STORIES.map((story) => (
-              <button
-                key={story.id}
-                onClick={() => setActive(story)}
-                className="group flex flex-col items-center gap-2.5 shrink-0 w-[74px]"
-              >
-                <span className="w-[58px] h-[58px] rounded-full border border-silver/25 group-hover:border-silver/70 flex items-center justify-center text-silver/70 group-hover:text-silver transition-all duration-300 group-hover:-translate-y-0.5">
-                  <HighlightIcon name={story.iconName} />
-                </span>
-                <span className="text-[8px] font-semibold uppercase tracking-[0.14em] text-marble/45 group-hover:text-marble/85 text-center leading-tight transition-colors">
-                  {story.title}
-                </span>
-              </button>
-            ))}
+          {/* El scroll vive en el contenedor y el centrado en la fila.
+              `w-max` le da a la fila el ancho de sus diez círculos, así que
+              `mx-auto` la centra cuando sobra sitio y no hace nada cuando no:
+              al desbordar, los márgenes automáticos se resuelven a cero y el
+              scroll arranca en el primer círculo. Con `justify-center` en el
+              contenedor el sobrante se repartiría a los dos lados y la mitad
+              de la izquierda quedaría fuera de alcance. */}
+          <div className="overflow-x-auto no-scrollbar">
+            <div className="flex gap-7 w-max mx-auto">
+              {INITIAL_STORIES.map((story) => (
+                <button
+                  key={story.id}
+                  onClick={() => setActive(story)}
+                  className="group flex flex-col items-center gap-2.5 shrink-0 w-[74px]"
+                >
+                  <span className="w-[58px] h-[58px] rounded-full border border-silver/25 group-hover:border-silver/70 flex items-center justify-center text-silver/70 group-hover:text-silver transition-all duration-300 group-hover:-translate-y-0.5">
+                    <HighlightIcon name={story.iconName} />
+                  </span>
+                  <span className="text-[8px] font-semibold uppercase tracking-[0.14em] text-marble/45 group-hover:text-marble/85 text-center leading-tight transition-colors">
+                    {story.title}
+                  </span>
+                </button>
+              ))}
+            </div>
           </div>
         </div>
       </section>
