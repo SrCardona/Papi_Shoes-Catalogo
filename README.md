@@ -125,25 +125,33 @@ buena es que las fotos viajen dentro del proyecto.
    ```
 
    - carpeta con nombre de marca (`adidas`, `nike`, `jordan`, `yeezy`,
-     `new-balance`, `puma`, `asics`, `travis-scott`, `off-white`) → esa marca
+     `new-balance`, `puma`, `asics`, `travis-scott`, `off-white`,
+     `louis-vuitton`) → esa marca
    - carpeta `originales` → línea Originales; cualquier otra → línea Sneakers
    - carpeta `mujer` u `hombre` → esa horma; sin carpeta → unisex
    - varias fotos del mismo par: mismo nombre + `_2`, `_3`…
 
    Cargar marca por marca es la idea: cada una es su propia carpeta, y agregar
    Nike no toca nada de lo que ya hay en Adidas.
-2. Opcional: crea `precios.csv` en la raíz con `archivo,precio` por línea.
-3. Corre el script indicando la marca y los precios del lote:
+2. Agrega el precio del lote a `precios.csv`, en la raíz:
+
+   ```csv
+   archivo,precio,antes
+   marca:Nike,180000,210000
+   marca:Louis Vuitton,190000,230000
+   ```
+
+3. Corre el script:
 
    ```bash
-   npm run catalogo -- --precio=180000 --antes=210000
+   npm run catalogo
    ```
 
    El script recorre **todas** las marcas y reescribe el catálogo completo, así
    que las marcas ya cargadas se conservan mientras sus fotos sigan en
-   `public/catalogo/`. Banderas: `--precio` es el precio de los pares que no
-   estén en `precios.csv`, `--antes` el precio tachado, `--marca=Adidas` fuerza
-   la marca si no usaste carpetas y `--linea=originales` fuerza la línea.
+   `public/catalogo/` y su fila siga en `precios.csv`. Banderas: `--precio` y
+   `--antes` son el respaldo de lo que no aparezca en el CSV, `--marca=Adidas`
+   fuerza la marca si no usaste carpetas y `--linea=originales` fuerza la línea.
 
 4. Corrige lo que quedó raro en `ajustes/<marca>.json` (nombre, colorway,
    horma, descripción, línea, por nombre de archivo sin extensión) y vuelve a
@@ -166,8 +174,8 @@ informe en la terminal: qué pares quedaron sin precio, cuáles sin marca
 detectada y cuáles podrían ser fotos del mismo par mal nombradas.
 
 **Precios por par.** Si un lote no es todo al mismo precio, pon los que se
-salgan en `precios.csv` (`nombre-de-archivo,precio`) y usa `--precio` para el
-resto.
+salgan en `precios.csv` con el nombre del archivo sin extensión
+(`nike-dunk-low-panda,420000,480000`): esa fila le gana a la de su marca.
 
 **Cada marca es una sección.** El muro de marcas de la portada se arma con las
 marcas que de verdad hay en el catálogo y cada una enlaza a `/catalogo?marca=Adidas`,

@@ -49,11 +49,18 @@
  *
  * PRECIOS
  * ───────
- * Opcional: crea `precios.csv` en la raíz del proyecto con dos columnas.
+ * Opcional: crea `precios.csv` en la raíz del proyecto. Tercera columna
+ * opcional para el precio tachado.
  *
- *   archivo,precio
- *   air-jordan-1-high-og-unc-toe,850000
- *   nike-dunk-low-panda,420000
+ *   archivo,precio,antes
+ *   marca:Louis Vuitton,190000,230000
+ *   marca:Nike,180000,210000
+ *   air-jordan-1-high-og-unc-toe,850000,990000
+ *
+ * Una fila `marca:<Marca>` fija el precio de toda esa marca, que es como se
+ * cargan los lotes: cada marca entra con su precio y las anteriores no se
+ * tocan. Una fila por nombre de archivo le gana a la de su marca, y las
+ * banderas `--precio`/`--antes` son el respaldo de lo que no aparezca aquí.
  *
  * Los pares sin precio quedan en 0 y el script los lista al final.
  */
@@ -90,6 +97,7 @@ const IMAGE_EXT = new Set(['.jpg', '.jpeg', '.png', '.webp', '.avif', '.gif']);
 
 /* El orden importa: "air jordan" debe ganarle a "nike". */
 const BRAND_RULES = [
+  [/louis\s?vuitton|\blv\b/i, 'Louis Vuitton'],
   [/travis|cactus\s?jack/i, 'Travis Scott'],
   [/off[\s-]?white|\bow\b/i, 'Off-White'],
   [/yeezy|\b350\b|\b700\b|\bfoam\b/i, 'Yeezy'],
@@ -119,6 +127,8 @@ const BRAND_FOLDERS = new Map([
   ['travis-scott', 'Travis Scott'],
   ['travis', 'Travis Scott'],
   ['off-white', 'Off-White'],
+  ['louis-vuitton', 'Louis Vuitton'],
+  ['lv', 'Louis Vuitton'],
   ['puma', 'Puma'],
   ['asics', 'Asics'],
   ['otras', 'Otras'],
@@ -203,17 +213,28 @@ function stripGenderTokens(slug) {
 }
 
 function readPrices() {
-  if (!existsSync(PRICES_FILE)) return new Map();
-  const prices = new Map();
+  const byFile = new Map();
+  const byBrand = new Map();
+  if (!existsSync(PRICES_FILE)) return { byFile, byBrand };
+
+  const toNumber = (raw) => {
+    const n = Number(String(raw ?? '').replace(/[^\d]/g, ''));
+    return Number.isFinite(n) && n > 0 ? n : 0;
+  };
+
   const lines = readFileSync(PRICES_FILE, 'utf8').split(/\r?\n/);
   for (const line of lines) {
-    if (!line.trim() || /^archivo|^nombre/i.test(line)) continue;
-    const [key, value] = line.split(/[,;]/);
-    if (!key || !value) continue;
-    const price = Number(value.replace(/[^\d]/g, ''));
-    if (Number.isFinite(price) && price > 0) prices.set(slugify(key), price);
+    if (!line.trim() || line.startsWith('#') || /^archivo|^nombre/i.test(line)) continue;
+    const [key, value, before] = line.split(/[,;]/);
+    if (!key) continue;
+    const price = toNumber(value);
+    if (!price) continue;
+    const entry = { price, before: toNumber(before) };
+    const marca = key.trim().match(/^marca\s*:\s*(.+)$/i);
+    if (marca) byBrand.set(marca[1].trim().toLowerCase(), entry);
+    else byFile.set(slugify(key), entry);
   }
-  return prices;
+  return { byFile, byBrand };
 }
 
 /* ── Proceso ─────────────────────────────────────────────────────────────── */
@@ -308,7 +329,10 @@ const sinPrecio = [];
     detectBrand(group.haystack);
   const gender = ajuste.gender ?? group.gender;
   const category = ajuste.category ?? group.category;
-  const price = prices.get(group.key) ?? PRECIO_BASE;
+  // El par manda sobre su marca, y la marca sobre las banderas del comando.
+  const tarifa = prices.byFile.get(group.key) ?? prices.byBrand.get(brand.toLowerCase()) ?? {};
+  const price = tarifa.price || PRECIO_BASE;
+  const antes = tarifa.before || PRECIO_ANTES;
   if (!price) sinPrecio.push(group.key);
 
   const hash = createHash('sha1').update(group.key).digest('hex');
@@ -323,7 +347,7 @@ const sinPrecio = [];
     category,
     gender,
     price,
-    originalPrice: PRECIO_ANTES > price ? PRECIO_ANTES : undefined,
+    originalPrice: antes > price ? antes : undefined,
     images: group.images,
     sizes: SIZES_BY_GENDER[gender],
     status: 'disponible',

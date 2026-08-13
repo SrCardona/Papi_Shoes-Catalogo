@@ -1,0 +1,7 @@
+# Precio por marca. Una fila por lote: al cargar la siguiente marca las
+# anteriores conservan el suyo. Una fila con nombre de archivo (sin extension)
+# le gana a la de su marca.
+archivo,precio,antes
+marca:Adidas,180000,210000
+marca:Nike,180000,210000
+marca:Louis Vuitton,190000,230000

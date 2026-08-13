@@ -10,7 +10,7 @@ armado. Todo el texto de cara al usuario va en español de Colombia.
 npm run dev       # servidor local
 npm run build     # tsc --noEmit && vite build
 npm run lint      # tsc --noEmit && eslint src
-npm run catalogo -- --precio=180000 --antes=210000
+npm run catalogo    # precios por marca en precios.csv
 ```
 
 ## Stack
@@ -66,6 +66,10 @@ carpeta por marca. `npm run catalogo` recorre todo, deduce nombre y marca, y
 escribe `src/data/catalogoGenerado.ts` + `catalogo-papishoes.json`. Las
 correcciones manuales (nombre, colorway, horma, descripción) van en
 `ajustes/<marca>.json`, por nombre de archivo sin extensión.
+
+El precio va en `precios.csv`, una fila `marca:<Marca>,precio,antes` por lote.
+Cada marca conserva el suyo cuando entra la siguiente, así que no uses
+`--precio` para un lote nuevo: pisaría el de todas las demás.
 
 Solo el guion bajo agrupa varias fotos en un par (`modelo_2.jpg`). Un `(1)` o
 un `-2` quedan como pares distintos, porque los catálogos los usan para

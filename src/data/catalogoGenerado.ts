@@ -50,8 +50,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T14:35:21.365Z",
-    "updatedAt": "2026-08-13T14:35:21.365Z"
+    "createdAt": "2026-08-13T19:10:09.355Z",
+    "updatedAt": "2026-08-13T19:10:09.355Z"
   },
   {
     "id": "sneaker-adidas-adizero-adios-pro-lila",
@@ -90,8 +90,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T14:35:21.369Z",
-    "updatedAt": "2026-08-13T14:35:21.369Z"
+    "createdAt": "2026-08-13T19:10:09.355Z",
+    "updatedAt": "2026-08-13T19:10:09.355Z"
   },
   {
     "id": "sneaker-adidas-adizero-adios-pro-volt",
@@ -130,8 +130,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T14:35:21.369Z",
-    "updatedAt": "2026-08-13T14:35:21.369Z"
+    "createdAt": "2026-08-13T19:10:09.355Z",
+    "updatedAt": "2026-08-13T19:10:09.355Z"
   },
   {
     "id": "sneaker-adidas-california-blanco-negro",
@@ -170,8 +170,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T14:35:21.369Z",
-    "updatedAt": "2026-08-13T14:35:21.369Z"
+    "createdAt": "2026-08-13T19:10:09.355Z",
+    "updatedAt": "2026-08-13T19:10:09.355Z"
   },
   {
     "id": "sneaker-adidas-campus-00s-core-black",
@@ -210,8 +210,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T14:35:21.369Z",
-    "updatedAt": "2026-08-13T14:35:21.369Z"
+    "createdAt": "2026-08-13T19:10:09.355Z",
+    "updatedAt": "2026-08-13T19:10:09.355Z"
   },
   {
     "id": "sneaker-adidas-campus-00s-gray",
@@ -250,8 +250,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T14:35:21.369Z",
-    "updatedAt": "2026-08-13T14:35:21.369Z"
+    "createdAt": "2026-08-13T19:10:09.355Z",
+    "updatedAt": "2026-08-13T19:10:09.355Z"
   },
   {
     "id": "sneaker-adidas-duramo-sl",
@@ -290,8 +290,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T14:35:21.369Z",
-    "updatedAt": "2026-08-13T14:35:21.369Z"
+    "createdAt": "2026-08-13T19:10:09.355Z",
+    "updatedAt": "2026-08-13T19:10:09.355Z"
   },
   {
     "id": "sneaker-adidas-duramo-sl-blue",
@@ -330,8 +330,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T14:35:21.369Z",
-    "updatedAt": "2026-08-13T14:35:21.369Z"
+    "createdAt": "2026-08-13T19:10:09.355Z",
+    "updatedAt": "2026-08-13T19:10:09.355Z"
   },
   {
     "id": "sneaker-adidas-eqt-equipment-beige-naranja",
@@ -370,8 +370,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T14:35:21.369Z",
-    "updatedAt": "2026-08-13T14:35:21.369Z"
+    "createdAt": "2026-08-13T19:10:09.355Z",
+    "updatedAt": "2026-08-13T19:10:09.355Z"
   },
   {
     "id": "sneaker-adidas-forum-x-bad-bunny",
@@ -410,8 +410,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T14:35:21.369Z",
-    "updatedAt": "2026-08-13T14:35:21.369Z"
+    "createdAt": "2026-08-13T19:10:09.355Z",
+    "updatedAt": "2026-08-13T19:10:09.355Z"
   },
   {
     "id": "sneaker-adidas-gazelle-x-bad-bunny",
@@ -450,8 +450,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T14:35:21.369Z",
-    "updatedAt": "2026-08-13T14:35:21.369Z"
+    "createdAt": "2026-08-13T19:10:09.355Z",
+    "updatedAt": "2026-08-13T19:10:09.355Z"
   },
   {
     "id": "sneaker-adidas-niteball-black",
@@ -490,8 +490,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T14:35:21.369Z",
-    "updatedAt": "2026-08-13T14:35:21.369Z"
+    "createdAt": "2026-08-13T19:10:09.355Z",
+    "updatedAt": "2026-08-13T19:10:09.355Z"
   },
   {
     "id": "sneaker-adidas-niteball-upgrade",
@@ -530,8 +530,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T14:35:21.369Z",
-    "updatedAt": "2026-08-13T14:35:21.369Z"
+    "createdAt": "2026-08-13T19:10:09.355Z",
+    "updatedAt": "2026-08-13T19:10:09.355Z"
   },
   {
     "id": "sneaker-adidas-nizza-hi-fi",
@@ -570,8 +570,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T14:35:21.369Z",
-    "updatedAt": "2026-08-13T14:35:21.369Z"
+    "createdAt": "2026-08-13T19:10:09.355Z",
+    "updatedAt": "2026-08-13T19:10:09.355Z"
   },
   {
     "id": "sneaker-adidas-pureboost",
@@ -610,8 +610,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T14:35:21.369Z",
-    "updatedAt": "2026-08-13T14:35:21.369Z"
+    "createdAt": "2026-08-13T19:10:09.355Z",
+    "updatedAt": "2026-08-13T19:10:09.355Z"
   },
   {
     "id": "sneaker-adidas-response-cl-x-bad-bunny-benito",
@@ -650,8 +650,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T14:35:21.369Z",
-    "updatedAt": "2026-08-13T14:35:21.369Z"
+    "createdAt": "2026-08-13T19:10:09.355Z",
+    "updatedAt": "2026-08-13T19:10:09.355Z"
   },
   {
     "id": "sneaker-adidas-response-cl-x-bad-bunny-blanco",
@@ -690,8 +690,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T14:35:21.369Z",
-    "updatedAt": "2026-08-13T14:35:21.369Z"
+    "createdAt": "2026-08-13T19:10:09.355Z",
+    "updatedAt": "2026-08-13T19:10:09.355Z"
   },
   {
     "id": "sneaker-adidas-response-super",
@@ -730,8 +730,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T14:35:21.369Z",
-    "updatedAt": "2026-08-13T14:35:21.369Z"
+    "createdAt": "2026-08-13T19:10:09.355Z",
+    "updatedAt": "2026-08-13T19:10:09.355Z"
   },
   {
     "id": "sneaker-adidas-running-blanco-azul",
@@ -770,8 +770,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T14:35:21.369Z",
-    "updatedAt": "2026-08-13T14:35:21.369Z"
+    "createdAt": "2026-08-13T19:10:09.355Z",
+    "updatedAt": "2026-08-13T19:10:09.355Z"
   },
   {
     "id": "sneaker-adidas-samba-flower",
@@ -810,8 +810,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T14:35:21.369Z",
-    "updatedAt": "2026-08-13T14:35:21.369Z"
+    "createdAt": "2026-08-13T19:10:09.355Z",
+    "updatedAt": "2026-08-13T19:10:09.355Z"
   },
   {
     "id": "sneaker-adidas-samba-og",
@@ -850,8 +850,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T14:35:21.369Z",
-    "updatedAt": "2026-08-13T14:35:21.369Z"
+    "createdAt": "2026-08-13T19:10:09.355Z",
+    "updatedAt": "2026-08-13T19:10:09.355Z"
   },
   {
     "id": "sneaker-adidas-sikaige",
@@ -890,8 +890,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T14:35:21.369Z",
-    "updatedAt": "2026-08-13T14:35:21.369Z"
+    "createdAt": "2026-08-13T19:10:09.355Z",
+    "updatedAt": "2026-08-13T19:10:09.355Z"
   },
   {
     "id": "sneaker-adidas-sl-72-brown",
@@ -930,8 +930,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T14:35:21.369Z",
-    "updatedAt": "2026-08-13T14:35:21.369Z"
+    "createdAt": "2026-08-13T19:10:09.355Z",
+    "updatedAt": "2026-08-13T19:10:09.355Z"
   },
   {
     "id": "sneaker-adidas-sl-72-red",
@@ -970,8 +970,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T14:35:21.369Z",
-    "updatedAt": "2026-08-13T14:35:21.369Z"
+    "createdAt": "2026-08-13T19:10:09.355Z",
+    "updatedAt": "2026-08-13T19:10:09.355Z"
   },
   {
     "id": "sneaker-adidas-spezial",
@@ -1010,8 +1010,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T14:35:21.369Z",
-    "updatedAt": "2026-08-13T14:35:21.369Z"
+    "createdAt": "2026-08-13T19:10:09.355Z",
+    "updatedAt": "2026-08-13T19:10:09.355Z"
   },
   {
     "id": "sneaker-adidas-spezial-olive-green",
@@ -1050,8 +1050,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T14:35:21.369Z",
-    "updatedAt": "2026-08-13T14:35:21.369Z"
+    "createdAt": "2026-08-13T19:10:09.355Z",
+    "updatedAt": "2026-08-13T19:10:09.355Z"
   },
   {
     "id": "sneaker-adidas-stan-smith-azul",
@@ -1090,8 +1090,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T14:35:21.369Z",
-    "updatedAt": "2026-08-13T14:35:21.369Z"
+    "createdAt": "2026-08-13T19:10:09.355Z",
+    "updatedAt": "2026-08-13T19:10:09.355Z"
   },
   {
     "id": "sneaker-adidas-stan-smith-negro",
@@ -1130,8 +1130,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T14:35:21.369Z",
-    "updatedAt": "2026-08-13T14:35:21.369Z"
+    "createdAt": "2026-08-13T19:10:09.355Z",
+    "updatedAt": "2026-08-13T19:10:09.355Z"
   },
   {
     "id": "sneaker-adidas-stan-smith-verde",
@@ -1170,8 +1170,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T14:35:21.369Z",
-    "updatedAt": "2026-08-13T14:35:21.369Z"
+    "createdAt": "2026-08-13T19:10:09.355Z",
+    "updatedAt": "2026-08-13T19:10:09.355Z"
   },
   {
     "id": "sneaker-adidas-superstar-core-black",
@@ -1210,8 +1210,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T14:35:21.369Z",
-    "updatedAt": "2026-08-13T14:35:21.369Z"
+    "createdAt": "2026-08-13T19:10:09.355Z",
+    "updatedAt": "2026-08-13T19:10:09.355Z"
   },
   {
     "id": "sneaker-adidas-superstar-rainbow",
@@ -1250,8 +1250,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T14:35:21.369Z",
-    "updatedAt": "2026-08-13T14:35:21.369Z"
+    "createdAt": "2026-08-13T19:10:09.355Z",
+    "updatedAt": "2026-08-13T19:10:09.355Z"
   },
   {
     "id": "sneaker-adidas-superstar-reflectivo",
@@ -1290,8 +1290,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T14:35:21.369Z",
-    "updatedAt": "2026-08-13T14:35:21.369Z"
+    "createdAt": "2026-08-13T19:10:09.355Z",
+    "updatedAt": "2026-08-13T19:10:09.355Z"
   },
   {
     "id": "sneaker-adidas-superstar-triple-white",
@@ -1330,8 +1330,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T14:35:21.369Z",
-    "updatedAt": "2026-08-13T14:35:21.369Z"
+    "createdAt": "2026-08-13T19:10:09.355Z",
+    "updatedAt": "2026-08-13T19:10:09.355Z"
   },
   {
     "id": "sneaker-adidas-superstar-white-black",
@@ -1370,8 +1370,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T14:35:21.369Z",
-    "updatedAt": "2026-08-13T14:35:21.369Z"
+    "createdAt": "2026-08-13T19:10:09.355Z",
+    "updatedAt": "2026-08-13T19:10:09.355Z"
   },
   {
     "id": "sneaker-adidas-superstar-x-blessd",
@@ -1410,8 +1410,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T14:35:21.369Z",
-    "updatedAt": "2026-08-13T14:35:21.369Z"
+    "createdAt": "2026-08-13T19:10:09.355Z",
+    "updatedAt": "2026-08-13T19:10:09.355Z"
   },
   {
     "id": "sneaker-adidas-ultraboost",
@@ -1450,8 +1450,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T14:35:21.369Z",
-    "updatedAt": "2026-08-13T14:35:21.369Z"
+    "createdAt": "2026-08-13T19:10:09.355Z",
+    "updatedAt": "2026-08-13T19:10:09.355Z"
   },
   {
     "id": "sneaker-adidas-ultraboost-core-black",
@@ -1490,8 +1490,448 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T14:35:21.369Z",
-    "updatedAt": "2026-08-13T14:35:21.369Z"
+    "createdAt": "2026-08-13T19:10:09.355Z",
+    "updatedAt": "2026-08-13T19:10:09.355Z"
+  },
+  {
+    "id": "sneaker-louis-vuitton-skate-azul-blanco",
+    "name": "Louis Vuitton Skate Azul / Blanco",
+    "brand": "Louis Vuitton",
+    "model": "Louis Vuitton Skate Azul / Blanco",
+    "sku": "PAPI-3720",
+    "category": "general",
+    "gender": "unisex",
+    "price": 190000,
+    "originalPrice": 230000,
+    "images": [
+      "/catalogo/sneakers/louis-vuitton/louis-vuitton-skate-azul-blanco.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "Skate en azul marino y blanco, con cordones tipo cuerda y suela azul traslúcida.",
+    "details": {
+      "condition": "Nuevo en caja",
+      "colorway": "Navy / White",
+      "includedItems": [
+        "Caja original"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-13T19:10:09.355Z",
+    "updatedAt": "2026-08-13T19:10:09.355Z"
+  },
+  {
+    "id": "sneaker-louis-vuitton-skate-blanco-beige",
+    "name": "Louis Vuitton Skate Blanco / Beige",
+    "brand": "Louis Vuitton",
+    "model": "Louis Vuitton Skate Blanco / Beige",
+    "sku": "PAPI-2596",
+    "category": "general",
+    "gender": "unisex",
+    "price": 190000,
+    "originalPrice": 230000,
+    "images": [
+      "/catalogo/sneakers/louis-vuitton/louis-vuitton-skate-blanco-beige.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "Nuevo en caja",
+      "colorway": "White / Sand",
+      "includedItems": [
+        "Caja original"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-13T19:10:09.355Z",
+    "updatedAt": "2026-08-13T19:10:09.355Z"
+  },
+  {
+    "id": "sneaker-louis-vuitton-skate-blanco-gris",
+    "name": "Louis Vuitton Skate Blanco / Gris",
+    "brand": "Louis Vuitton",
+    "model": "Louis Vuitton Skate Blanco / Gris",
+    "sku": "PAPI-4197",
+    "category": "general",
+    "gender": "unisex",
+    "price": 190000,
+    "originalPrice": 230000,
+    "images": [
+      "/catalogo/sneakers/louis-vuitton/louis-vuitton-skate-blanco-gris.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "Nuevo en caja",
+      "colorway": "White / Grey",
+      "includedItems": [
+        "Caja original"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-13T19:10:09.355Z",
+    "updatedAt": "2026-08-13T19:10:09.355Z"
+  },
+  {
+    "id": "sneaker-louis-vuitton-skate-negro-monogram",
+    "name": "Louis Vuitton Skate Negro Monogram",
+    "brand": "Louis Vuitton",
+    "model": "Louis Vuitton Skate Negro Monogram",
+    "sku": "PAPI-2704",
+    "category": "general",
+    "gender": "unisex",
+    "price": 190000,
+    "originalPrice": 230000,
+    "images": [
+      "/catalogo/sneakers/louis-vuitton/louis-vuitton-skate-negro-monogram.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "La Skate en cuero granulado negro, con la flor del monograma del mismo tono y puntera texturizada.",
+    "details": {
+      "condition": "Nuevo en caja",
+      "colorway": "Triple Black",
+      "includedItems": [
+        "Caja original"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-13T19:10:09.355Z",
+    "updatedAt": "2026-08-13T19:10:09.355Z"
+  },
+  {
+    "id": "sneaker-louis-vuitton-skate-rojo",
+    "name": "Louis Vuitton Skate Rojo",
+    "brand": "Louis Vuitton",
+    "model": "Louis Vuitton Skate Rojo",
+    "sku": "PAPI-1247",
+    "category": "general",
+    "gender": "unisex",
+    "price": 190000,
+    "originalPrice": 230000,
+    "images": [
+      "/catalogo/sneakers/louis-vuitton/louis-vuitton-skate-rojo.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "Nuevo en caja",
+      "colorway": "Red / Coral / Pink",
+      "includedItems": [
+        "Caja original"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-13T19:10:09.355Z",
+    "updatedAt": "2026-08-13T19:10:09.355Z"
+  },
+  {
+    "id": "sneaker-louis-vuitton-skate-triple-blanco",
+    "name": "Louis Vuitton Skate Triple Blanco",
+    "brand": "Louis Vuitton",
+    "model": "Louis Vuitton Skate Triple Blanco",
+    "sku": "PAPI-1186",
+    "category": "general",
+    "gender": "unisex",
+    "price": 190000,
+    "originalPrice": 230000,
+    "images": [
+      "/catalogo/sneakers/louis-vuitton/louis-vuitton-skate-triple-blanco.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "Silueta Skate en blanco total, con la flor del monograma en relieve y paneles de malla. Suela gruesa dentada.",
+    "details": {
+      "condition": "Nuevo en caja",
+      "colorway": "Triple White",
+      "includedItems": [
+        "Caja original"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-13T19:10:09.355Z",
+    "updatedAt": "2026-08-13T19:10:09.355Z"
+  },
+  {
+    "id": "sneaker-louis-vuitton-skate-triple-negro",
+    "name": "Louis Vuitton Skate Triple Negro",
+    "brand": "Louis Vuitton",
+    "model": "Louis Vuitton Skate Triple Negro",
+    "sku": "PAPI-2382",
+    "category": "general",
+    "gender": "unisex",
+    "price": 190000,
+    "originalPrice": 230000,
+    "images": [
+      "/catalogo/sneakers/louis-vuitton/louis-vuitton-skate-triple-negro.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "Skate en negro con malla y la flor del monograma en blanco. Mediasuela alta con los símbolos grabados.",
+    "details": {
+      "condition": "Nuevo en caja",
+      "colorway": "Black / White",
+      "includedItems": [
+        "Caja original"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-13T19:10:09.355Z",
+    "updatedAt": "2026-08-13T19:10:09.355Z"
+  },
+  {
+    "id": "sneaker-louis-vuitton-skate-verde",
+    "name": "Louis Vuitton Skate Verde",
+    "brand": "Louis Vuitton",
+    "model": "Louis Vuitton Skate Verde",
+    "sku": "PAPI-8346",
+    "category": "general",
+    "gender": "unisex",
+    "price": 190000,
+    "originalPrice": 230000,
+    "images": [
+      "/catalogo/sneakers/louis-vuitton/louis-vuitton-skate-verde.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "Nuevo en caja",
+      "colorway": "Green / Mint",
+      "includedItems": [
+        "Caja original"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-13T19:10:09.355Z",
+    "updatedAt": "2026-08-13T19:10:09.355Z"
+  },
+  {
+    "id": "sneaker-louis-vuitton-trainer-blanco-negro",
+    "name": "Louis Vuitton Trainer Blanco / Negro",
+    "brand": "Louis Vuitton",
+    "model": "Louis Vuitton Trainer Blanco / Negro",
+    "sku": "PAPI-8013",
+    "category": "general",
+    "gender": "unisex",
+    "price": 190000,
+    "originalPrice": 230000,
+    "images": [
+      "/catalogo/sneakers/louis-vuitton/louis-vuitton-trainer-blanco-negro.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "Nuevo en caja",
+      "colorway": "White / Black",
+      "includedItems": [
+        "Caja original"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-13T19:10:09.355Z",
+    "updatedAt": "2026-08-13T19:10:09.355Z"
+  },
+  {
+    "id": "sneaker-louis-vuitton-trainer-denim-monogram",
+    "name": "Louis Vuitton Trainer Denim Monogram",
+    "brand": "Louis Vuitton",
+    "model": "Louis Vuitton Trainer Denim Monogram",
+    "sku": "PAPI-6253",
+    "category": "general",
+    "gender": "unisex",
+    "price": 190000,
+    "originalPrice": 230000,
+    "images": [
+      "/catalogo/sneakers/louis-vuitton/louis-vuitton-trainer-denim-monogram.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "Trainer en cuero blanco con paneles de denim estampado con el monograma. Correa de la lengüeta y talón en negro.",
+    "details": {
+      "condition": "Nuevo en caja",
+      "colorway": "White / Black Denim",
+      "includedItems": [
+        "Caja original"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-13T19:10:09.355Z",
+    "updatedAt": "2026-08-13T19:10:09.355Z"
+  },
+  {
+    "id": "sneaker-louis-vuitton-trainer-negro",
+    "name": "Louis Vuitton Trainer Negro",
+    "brand": "Louis Vuitton",
+    "model": "Louis Vuitton Trainer Negro",
+    "sku": "PAPI-1585",
+    "category": "general",
+    "gender": "unisex",
+    "price": 190000,
+    "originalPrice": 230000,
+    "images": [
+      "/catalogo/sneakers/louis-vuitton/louis-vuitton-trainer-negro.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "Trainer en cuero negro con el monograma en relieve y la correa de la lengüeta. Cordones blancos de contraste.",
+    "details": {
+      "condition": "Nuevo en caja",
+      "colorway": "Triple Black",
+      "includedItems": [
+        "Caja original"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-13T19:10:09.355Z",
+    "updatedAt": "2026-08-13T19:10:09.355Z"
   },
   {
     "id": "sneaker-nike-air-force-1-blanco-verde",
@@ -1530,8 +1970,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T14:35:21.369Z",
-    "updatedAt": "2026-08-13T14:35:21.369Z"
+    "createdAt": "2026-08-13T19:10:09.355Z",
+    "updatedAt": "2026-08-13T19:10:09.355Z"
   },
   {
     "id": "sneaker-nike-air-force-1-negro",
@@ -1570,8 +2010,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T14:35:21.369Z",
-    "updatedAt": "2026-08-13T14:35:21.369Z"
+    "createdAt": "2026-08-13T19:10:09.355Z",
+    "updatedAt": "2026-08-13T19:10:09.355Z"
   },
   {
     "id": "sneaker-nike-air-force-1-mid-07",
@@ -1610,8 +2050,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T14:35:21.369Z",
-    "updatedAt": "2026-08-13T14:35:21.369Z"
+    "createdAt": "2026-08-13T19:10:09.355Z",
+    "updatedAt": "2026-08-13T19:10:09.355Z"
   },
   {
     "id": "sneaker-nike-air-force-1-super-gris",
@@ -1650,8 +2090,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T14:35:21.369Z",
-    "updatedAt": "2026-08-13T14:35:21.369Z"
+    "createdAt": "2026-08-13T19:10:09.355Z",
+    "updatedAt": "2026-08-13T19:10:09.355Z"
   },
   {
     "id": "sneaker-nike-air-force-1-super-morado",
@@ -1690,8 +2130,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T14:35:21.369Z",
-    "updatedAt": "2026-08-13T14:35:21.369Z"
+    "createdAt": "2026-08-13T19:10:09.355Z",
+    "updatedAt": "2026-08-13T19:10:09.355Z"
   },
   {
     "id": "sneaker-nike-air-force-1-super-naranja",
@@ -1730,8 +2170,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T14:35:21.369Z",
-    "updatedAt": "2026-08-13T14:35:21.369Z"
+    "createdAt": "2026-08-13T19:10:09.355Z",
+    "updatedAt": "2026-08-13T19:10:09.355Z"
   },
   {
     "id": "sneaker-nike-air-force-1-swoosh-pink",
@@ -1770,8 +2210,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T14:35:21.369Z",
-    "updatedAt": "2026-08-13T14:35:21.369Z"
+    "createdAt": "2026-08-13T19:10:09.355Z",
+    "updatedAt": "2026-08-13T19:10:09.355Z"
   },
   {
     "id": "sneaker-nike-air-force-1-triple-white",
@@ -1810,8 +2250,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T14:35:21.369Z",
-    "updatedAt": "2026-08-13T14:35:21.369Z"
+    "createdAt": "2026-08-13T19:10:09.355Z",
+    "updatedAt": "2026-08-13T19:10:09.355Z"
   },
   {
     "id": "sneaker-nike-air-force-1-triple-yellow",
@@ -1850,8 +2290,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T14:35:21.369Z",
-    "updatedAt": "2026-08-13T14:35:21.369Z"
+    "createdAt": "2026-08-13T19:10:09.355Z",
+    "updatedAt": "2026-08-13T19:10:09.355Z"
   },
   {
     "id": "sneaker-nike-air-force-1-university-blue",
@@ -1890,8 +2330,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T14:35:21.369Z",
-    "updatedAt": "2026-08-13T14:35:21.369Z"
+    "createdAt": "2026-08-13T19:10:09.355Z",
+    "updatedAt": "2026-08-13T19:10:09.355Z"
   },
   {
     "id": "sneaker-nike-air-force-1-x-louis-vuitton",
@@ -1930,8 +2370,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T14:35:21.369Z",
-    "updatedAt": "2026-08-13T14:35:21.369Z"
+    "createdAt": "2026-08-13T19:10:09.355Z",
+    "updatedAt": "2026-08-13T19:10:09.355Z"
   },
   {
     "id": "sneaker-nike-air-force-1-x-noah",
@@ -1970,8 +2410,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T14:35:21.369Z",
-    "updatedAt": "2026-08-13T14:35:21.369Z"
+    "createdAt": "2026-08-13T19:10:09.355Z",
+    "updatedAt": "2026-08-13T19:10:09.355Z"
   },
   {
     "id": "sneaker-nike-air-force-1-x-stussy",
@@ -2010,8 +2450,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T14:35:21.369Z",
-    "updatedAt": "2026-08-13T14:35:21.369Z"
+    "createdAt": "2026-08-13T19:10:09.355Z",
+    "updatedAt": "2026-08-13T19:10:09.355Z"
   },
   {
     "id": "sneaker-nike-air-force-1-x-north-face",
@@ -2050,8 +2490,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T14:35:21.369Z",
-    "updatedAt": "2026-08-13T14:35:21.369Z"
+    "createdAt": "2026-08-13T19:10:09.355Z",
+    "updatedAt": "2026-08-13T19:10:09.355Z"
   },
   {
     "id": "sneaker-nike-air-force-1-x-tiffany",
@@ -2090,8 +2530,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T14:35:21.369Z",
-    "updatedAt": "2026-08-13T14:35:21.369Z"
+    "createdAt": "2026-08-13T19:10:09.355Z",
+    "updatedAt": "2026-08-13T19:10:09.355Z"
   },
   {
     "id": "sneaker-nike-air-force-1-x-travis-scott",
@@ -2130,8 +2570,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T14:35:21.369Z",
-    "updatedAt": "2026-08-13T14:35:21.369Z"
+    "createdAt": "2026-08-13T19:10:09.355Z",
+    "updatedAt": "2026-08-13T19:10:09.355Z"
   },
   {
     "id": "sneaker-nike-air-max-90-black-orange",
@@ -2170,8 +2610,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T14:35:21.369Z",
-    "updatedAt": "2026-08-13T14:35:21.369Z"
+    "createdAt": "2026-08-13T19:10:09.356Z",
+    "updatedAt": "2026-08-13T19:10:09.356Z"
   },
   {
     "id": "sneaker-nike-air-max-90-lucha-libre",
@@ -2210,8 +2650,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T14:35:21.369Z",
-    "updatedAt": "2026-08-13T14:35:21.369Z"
+    "createdAt": "2026-08-13T19:10:09.356Z",
+    "updatedAt": "2026-08-13T19:10:09.356Z"
   },
   {
     "id": "sneaker-nike-air-max-90-oregon",
@@ -2250,8 +2690,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T14:35:21.369Z",
-    "updatedAt": "2026-08-13T14:35:21.369Z"
+    "createdAt": "2026-08-13T19:10:09.356Z",
+    "updatedAt": "2026-08-13T19:10:09.356Z"
   },
   {
     "id": "sneaker-nike-air-max-90-triple-blanco",
@@ -2290,8 +2730,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T14:35:21.369Z",
-    "updatedAt": "2026-08-13T14:35:21.369Z"
+    "createdAt": "2026-08-13T19:10:09.356Z",
+    "updatedAt": "2026-08-13T19:10:09.356Z"
   },
   {
     "id": "sneaker-nike-air-max-90-triple-negro",
@@ -2330,8 +2770,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T14:35:21.369Z",
-    "updatedAt": "2026-08-13T14:35:21.369Z"
+    "createdAt": "2026-08-13T19:10:09.356Z",
+    "updatedAt": "2026-08-13T19:10:09.356Z"
   },
   {
     "id": "sneaker-nike-air-max-95-blanco-azul",
@@ -2370,8 +2810,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T14:35:21.369Z",
-    "updatedAt": "2026-08-13T14:35:21.369Z"
+    "createdAt": "2026-08-13T19:10:09.356Z",
+    "updatedAt": "2026-08-13T19:10:09.356Z"
   },
   {
     "id": "sneaker-nike-air-max-95-gris-morado",
@@ -2410,8 +2850,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T14:35:21.369Z",
-    "updatedAt": "2026-08-13T14:35:21.369Z"
+    "createdAt": "2026-08-13T19:10:09.356Z",
+    "updatedAt": "2026-08-13T19:10:09.356Z"
   },
   {
     "id": "sneaker-nike-air-max-95-gris-rojo",
@@ -2450,8 +2890,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T14:35:21.369Z",
-    "updatedAt": "2026-08-13T14:35:21.369Z"
+    "createdAt": "2026-08-13T19:10:09.356Z",
+    "updatedAt": "2026-08-13T19:10:09.356Z"
   },
   {
     "id": "sneaker-nike-air-max-95-gris-rosado",
@@ -2490,8 +2930,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T14:35:21.369Z",
-    "updatedAt": "2026-08-13T14:35:21.369Z"
+    "createdAt": "2026-08-13T19:10:09.356Z",
+    "updatedAt": "2026-08-13T19:10:09.356Z"
   },
   {
     "id": "sneaker-nike-air-max-95-negro-gris",
@@ -2530,8 +2970,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T14:35:21.369Z",
-    "updatedAt": "2026-08-13T14:35:21.369Z"
+    "createdAt": "2026-08-13T19:10:09.356Z",
+    "updatedAt": "2026-08-13T19:10:09.356Z"
   },
   {
     "id": "sneaker-nike-air-max-95-neon",
@@ -2570,8 +3010,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T14:35:21.369Z",
-    "updatedAt": "2026-08-13T14:35:21.369Z"
+    "createdAt": "2026-08-13T19:10:09.356Z",
+    "updatedAt": "2026-08-13T19:10:09.356Z"
   },
   {
     "id": "sneaker-nike-air-max-95-triple-negro",
@@ -2610,8 +3050,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T14:35:21.369Z",
-    "updatedAt": "2026-08-13T14:35:21.369Z"
+    "createdAt": "2026-08-13T19:10:09.356Z",
+    "updatedAt": "2026-08-13T19:10:09.356Z"
   },
   {
     "id": "sneaker-nike-air-max-95-x-a-ma-maniere-azul",
@@ -2650,8 +3090,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T14:35:21.369Z",
-    "updatedAt": "2026-08-13T14:35:21.369Z"
+    "createdAt": "2026-08-13T19:10:09.356Z",
+    "updatedAt": "2026-08-13T19:10:09.356Z"
   },
   {
     "id": "sneaker-nike-air-max-95-x-a-ma-maniere-taupe",
@@ -2690,8 +3130,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T14:35:21.369Z",
-    "updatedAt": "2026-08-13T14:35:21.369Z"
+    "createdAt": "2026-08-13T19:10:09.356Z",
+    "updatedAt": "2026-08-13T19:10:09.356Z"
   },
   {
     "id": "sneaker-nike-air-max-95-x-a-ma-maniere-vino",
@@ -2730,8 +3170,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T14:35:21.369Z",
-    "updatedAt": "2026-08-13T14:35:21.369Z"
+    "createdAt": "2026-08-13T19:10:09.356Z",
+    "updatedAt": "2026-08-13T19:10:09.356Z"
   },
   {
     "id": "sneaker-nike-air-max-97-cafe",
@@ -2770,8 +3210,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T14:35:21.369Z",
-    "updatedAt": "2026-08-13T14:35:21.369Z"
+    "createdAt": "2026-08-13T19:10:09.356Z",
+    "updatedAt": "2026-08-13T19:10:09.356Z"
   },
   {
     "id": "sneaker-nike-air-max-97-nebulous",
@@ -2810,8 +3250,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T14:35:21.369Z",
-    "updatedAt": "2026-08-13T14:35:21.369Z"
+    "createdAt": "2026-08-13T19:10:09.356Z",
+    "updatedAt": "2026-08-13T19:10:09.356Z"
   },
   {
     "id": "sneaker-nike-air-max-97-negro-volt",
@@ -2850,8 +3290,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T14:35:21.369Z",
-    "updatedAt": "2026-08-13T14:35:21.369Z"
+    "createdAt": "2026-08-13T19:10:09.356Z",
+    "updatedAt": "2026-08-13T19:10:09.356Z"
   },
   {
     "id": "sneaker-nike-air-max-97-nightmare",
@@ -2890,8 +3330,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T14:35:21.369Z",
-    "updatedAt": "2026-08-13T14:35:21.369Z"
+    "createdAt": "2026-08-13T19:10:09.356Z",
+    "updatedAt": "2026-08-13T19:10:09.356Z"
   },
   {
     "id": "sneaker-nike-air-max-blanco-morado",
@@ -2930,8 +3370,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T14:35:21.369Z",
-    "updatedAt": "2026-08-13T14:35:21.369Z"
+    "createdAt": "2026-08-13T19:10:09.356Z",
+    "updatedAt": "2026-08-13T19:10:09.356Z"
   },
   {
     "id": "sneaker-nike-air-max-bw-gris-rojo",
@@ -2971,8 +3411,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T14:35:21.369Z",
-    "updatedAt": "2026-08-13T14:35:21.369Z"
+    "createdAt": "2026-08-13T19:10:09.356Z",
+    "updatedAt": "2026-08-13T19:10:09.356Z"
   },
   {
     "id": "sneaker-nike-air-max-dn-se-triple-negro",
@@ -3011,8 +3451,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T14:35:21.369Z",
-    "updatedAt": "2026-08-13T14:35:21.369Z"
+    "createdAt": "2026-08-13T19:10:09.356Z",
+    "updatedAt": "2026-08-13T19:10:09.356Z"
   },
   {
     "id": "sneaker-nike-air-max-dn8-azul",
@@ -3051,8 +3491,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T14:35:21.369Z",
-    "updatedAt": "2026-08-13T14:35:21.369Z"
+    "createdAt": "2026-08-13T19:10:09.356Z",
+    "updatedAt": "2026-08-13T19:10:09.356Z"
   },
   {
     "id": "sneaker-nike-air-max-dn8-blanco",
@@ -3091,8 +3531,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T14:35:21.369Z",
-    "updatedAt": "2026-08-13T14:35:21.369Z"
+    "createdAt": "2026-08-13T19:10:09.356Z",
+    "updatedAt": "2026-08-13T19:10:09.356Z"
   },
   {
     "id": "sneaker-nike-air-max-dn8-gris-menta",
@@ -3131,8 +3571,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T14:35:21.369Z",
-    "updatedAt": "2026-08-13T14:35:21.369Z"
+    "createdAt": "2026-08-13T19:10:09.356Z",
+    "updatedAt": "2026-08-13T19:10:09.356Z"
   },
   {
     "id": "sneaker-nike-air-max-dn8-hueso",
@@ -3171,8 +3611,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T14:35:21.369Z",
-    "updatedAt": "2026-08-13T14:35:21.369Z"
+    "createdAt": "2026-08-13T19:10:09.356Z",
+    "updatedAt": "2026-08-13T19:10:09.356Z"
   },
   {
     "id": "sneaker-nike-air-max-dn8-plata",
@@ -3211,8 +3651,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T14:35:21.369Z",
-    "updatedAt": "2026-08-13T14:35:21.369Z"
+    "createdAt": "2026-08-13T19:10:09.356Z",
+    "updatedAt": "2026-08-13T19:10:09.356Z"
   },
   {
     "id": "sneaker-nike-air-max-dn8-triple-negro",
@@ -3251,8 +3691,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T14:35:21.369Z",
-    "updatedAt": "2026-08-13T14:35:21.369Z"
+    "createdAt": "2026-08-13T19:10:09.356Z",
+    "updatedAt": "2026-08-13T19:10:09.356Z"
   },
   {
     "id": "sneaker-nike-air-max-ltd-blanco-azul",
@@ -3291,8 +3731,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T14:35:21.369Z",
-    "updatedAt": "2026-08-13T14:35:21.369Z"
+    "createdAt": "2026-08-13T19:10:09.356Z",
+    "updatedAt": "2026-08-13T19:10:09.356Z"
   },
   {
     "id": "sneaker-nike-air-max-plus-drift-baroque-brown",
@@ -3331,8 +3771,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T14:35:21.369Z",
-    "updatedAt": "2026-08-13T14:35:21.369Z"
+    "createdAt": "2026-08-13T19:10:09.356Z",
+    "updatedAt": "2026-08-13T19:10:09.356Z"
   },
   {
     "id": "sneaker-nike-air-max-plus-drift-metallic-silver",
@@ -3371,8 +3811,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T14:35:21.369Z",
-    "updatedAt": "2026-08-13T14:35:21.369Z"
+    "createdAt": "2026-08-13T19:10:09.356Z",
+    "updatedAt": "2026-08-13T19:10:09.356Z"
   },
   {
     "id": "sneaker-nike-air-max-plus-drift-tn-all-day",
@@ -3411,8 +3851,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T14:35:21.369Z",
-    "updatedAt": "2026-08-13T14:35:21.369Z"
+    "createdAt": "2026-08-13T19:10:09.356Z",
+    "updatedAt": "2026-08-13T19:10:09.356Z"
   },
   {
     "id": "sneaker-nike-air-max-plus-drift-tn-phantom-cacao",
@@ -3451,8 +3891,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T14:35:21.369Z",
-    "updatedAt": "2026-08-13T14:35:21.369Z"
+    "createdAt": "2026-08-13T19:10:09.356Z",
+    "updatedAt": "2026-08-13T19:10:09.356Z"
   },
   {
     "id": "sneaker-nike-air-max-plus-og-hyper-blue",
@@ -3491,8 +3931,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T14:35:21.369Z",
-    "updatedAt": "2026-08-13T14:35:21.369Z"
+    "createdAt": "2026-08-13T19:10:09.356Z",
+    "updatedAt": "2026-08-13T19:10:09.356Z"
   },
   {
     "id": "sneaker-nike-air-max-plus-tn-blanco-azul",
@@ -3531,8 +3971,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T14:35:21.369Z",
-    "updatedAt": "2026-08-13T14:35:21.369Z"
+    "createdAt": "2026-08-13T19:10:09.356Z",
+    "updatedAt": "2026-08-13T19:10:09.356Z"
   },
   {
     "id": "sneaker-nike-air-max-plus-tn-blue-gradient",
@@ -3571,8 +4011,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T14:35:21.369Z",
-    "updatedAt": "2026-08-13T14:35:21.369Z"
+    "createdAt": "2026-08-13T19:10:09.356Z",
+    "updatedAt": "2026-08-13T19:10:09.356Z"
   },
   {
     "id": "sneaker-nike-air-max-plus-tn-pink-gradient",
@@ -3611,8 +4051,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T14:35:21.369Z",
-    "updatedAt": "2026-08-13T14:35:21.369Z"
+    "createdAt": "2026-08-13T19:10:09.356Z",
+    "updatedAt": "2026-08-13T19:10:09.356Z"
   },
   {
     "id": "sneaker-nike-air-max-plus-tn-triple-blanco",
@@ -3651,8 +4091,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T14:35:21.369Z",
-    "updatedAt": "2026-08-13T14:35:21.369Z"
+    "createdAt": "2026-08-13T19:10:09.356Z",
+    "updatedAt": "2026-08-13T19:10:09.356Z"
   },
   {
     "id": "sneaker-nike-air-max-plus-tn-triple-negro",
@@ -3691,8 +4131,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T14:35:21.369Z",
-    "updatedAt": "2026-08-13T14:35:21.369Z"
+    "createdAt": "2026-08-13T19:10:09.356Z",
+    "updatedAt": "2026-08-13T19:10:09.356Z"
   },
   {
     "id": "sneaker-nike-air-max-plus-tn-voltage-purple",
@@ -3731,8 +4171,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T14:35:21.369Z",
-    "updatedAt": "2026-08-13T14:35:21.369Z"
+    "createdAt": "2026-08-13T19:10:09.356Z",
+    "updatedAt": "2026-08-13T19:10:09.356Z"
   },
   {
     "id": "sneaker-nike-air-more-uptempo-96-negro-blanco",
@@ -3771,8 +4211,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T14:35:21.369Z",
-    "updatedAt": "2026-08-13T14:35:21.369Z"
+    "createdAt": "2026-08-13T19:10:09.356Z",
+    "updatedAt": "2026-08-13T19:10:09.356Z"
   },
   {
     "id": "sneaker-nike-air-vomero-18-negro",
@@ -3811,8 +4251,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T14:35:21.369Z",
-    "updatedAt": "2026-08-13T14:35:21.369Z"
+    "createdAt": "2026-08-13T19:10:09.356Z",
+    "updatedAt": "2026-08-13T19:10:09.356Z"
   },
   {
     "id": "sneaker-nike-blazer-low-77-vintage",
@@ -3851,8 +4291,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T14:35:21.369Z",
-    "updatedAt": "2026-08-13T14:35:21.369Z"
+    "createdAt": "2026-08-13T19:10:09.356Z",
+    "updatedAt": "2026-08-13T19:10:09.356Z"
   },
   {
     "id": "sneaker-nike-blazer-mid-77-vintage",
@@ -3891,8 +4331,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T14:35:21.369Z",
-    "updatedAt": "2026-08-13T14:35:21.369Z"
+    "createdAt": "2026-08-13T19:10:09.356Z",
+    "updatedAt": "2026-08-13T19:10:09.356Z"
   },
   {
     "id": "sneaker-nike-blazer-mid-victory-off-noir",
@@ -3931,8 +4371,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T14:35:21.369Z",
-    "updatedAt": "2026-08-13T14:35:21.369Z"
+    "createdAt": "2026-08-13T19:10:09.356Z",
+    "updatedAt": "2026-08-13T19:10:09.356Z"
   },
   {
     "id": "sneaker-nike-blazer-mid-victory-phantom",
@@ -3969,8 +4409,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T14:35:21.369Z",
-    "updatedAt": "2026-08-13T14:35:21.369Z"
+    "createdAt": "2026-08-13T19:10:09.356Z",
+    "updatedAt": "2026-08-13T19:10:09.356Z"
   },
   {
     "id": "sneaker-nike-cortez-cafe",
@@ -4009,8 +4449,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T14:35:21.369Z",
-    "updatedAt": "2026-08-13T14:35:21.369Z"
+    "createdAt": "2026-08-13T19:10:09.356Z",
+    "updatedAt": "2026-08-13T19:10:09.356Z"
   },
   {
     "id": "sneaker-nike-cortez-classic-blanco-negro",
@@ -4049,8 +4489,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T14:35:21.369Z",
-    "updatedAt": "2026-08-13T14:35:21.369Z"
+    "createdAt": "2026-08-13T19:10:09.356Z",
+    "updatedAt": "2026-08-13T19:10:09.356Z"
   },
   {
     "id": "sneaker-nike-cortez-forrest-gump",
@@ -4090,8 +4530,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T14:35:21.369Z",
-    "updatedAt": "2026-08-13T14:35:21.369Z"
+    "createdAt": "2026-08-13T19:10:09.356Z",
+    "updatedAt": "2026-08-13T19:10:09.356Z"
   },
   {
     "id": "sneaker-nike-cortez-morado",
@@ -4130,8 +4570,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T14:35:21.369Z",
-    "updatedAt": "2026-08-13T14:35:21.369Z"
+    "createdAt": "2026-08-13T19:10:09.356Z",
+    "updatedAt": "2026-08-13T19:10:09.356Z"
   },
   {
     "id": "sneaker-nike-cortez-pine-green",
@@ -4170,8 +4610,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T14:35:21.369Z",
-    "updatedAt": "2026-08-13T14:35:21.369Z"
+    "createdAt": "2026-08-13T19:10:09.356Z",
+    "updatedAt": "2026-08-13T19:10:09.356Z"
   },
   {
     "id": "sneaker-nike-cortez-rojo-oscuro",
@@ -4210,8 +4650,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T14:35:21.369Z",
-    "updatedAt": "2026-08-13T14:35:21.369Z"
+    "createdAt": "2026-08-13T19:10:09.356Z",
+    "updatedAt": "2026-08-13T19:10:09.356Z"
   },
   {
     "id": "sneaker-nike-cortez-verde",
@@ -4250,8 +4690,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T14:35:21.369Z",
-    "updatedAt": "2026-08-13T14:35:21.369Z"
+    "createdAt": "2026-08-13T19:10:09.356Z",
+    "updatedAt": "2026-08-13T19:10:09.356Z"
   },
   {
     "id": "sneaker-nike-cortez-verde-rosado",
@@ -4290,8 +4730,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T14:35:21.369Z",
-    "updatedAt": "2026-08-13T14:35:21.369Z"
+    "createdAt": "2026-08-13T19:10:09.356Z",
+    "updatedAt": "2026-08-13T19:10:09.356Z"
   },
   {
     "id": "sneaker-nike-dunk-low-panda",
@@ -4330,8 +4770,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T14:35:21.369Z",
-    "updatedAt": "2026-08-13T14:35:21.369Z"
+    "createdAt": "2026-08-13T19:10:09.356Z",
+    "updatedAt": "2026-08-13T19:10:09.356Z"
   },
   {
     "id": "sneaker-nike-dunk-low-triple-pink",
@@ -4370,8 +4810,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T14:35:21.369Z",
-    "updatedAt": "2026-08-13T14:35:21.369Z"
+    "createdAt": "2026-08-13T19:10:09.356Z",
+    "updatedAt": "2026-08-13T19:10:09.356Z"
   },
   {
     "id": "sneaker-nike-dunk-low-unc",
@@ -4410,8 +4850,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T14:35:21.369Z",
-    "updatedAt": "2026-08-13T14:35:21.369Z"
+    "createdAt": "2026-08-13T19:10:09.356Z",
+    "updatedAt": "2026-08-13T19:10:09.356Z"
   },
   {
     "id": "sneaker-nike-dunk-x-travis-scott-gray",
@@ -4450,8 +4890,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T14:35:21.370Z",
-    "updatedAt": "2026-08-13T14:35:21.370Z"
+    "createdAt": "2026-08-13T19:10:09.356Z",
+    "updatedAt": "2026-08-13T19:10:09.356Z"
   },
   {
     "id": "sneaker-nike-free-metcon-blanco-lila",
@@ -4490,8 +4930,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T14:35:21.370Z",
-    "updatedAt": "2026-08-13T14:35:21.370Z"
+    "createdAt": "2026-08-13T19:10:09.356Z",
+    "updatedAt": "2026-08-13T19:10:09.356Z"
   },
   {
     "id": "sneaker-nike-free-metcon-blanco-rojo",
@@ -4530,8 +4970,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T14:35:21.370Z",
-    "updatedAt": "2026-08-13T14:35:21.370Z"
+    "createdAt": "2026-08-13T19:10:09.356Z",
+    "updatedAt": "2026-08-13T19:10:09.356Z"
   },
   {
     "id": "sneaker-nike-free-metcon-blanco-rosado",
@@ -4570,8 +5010,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T14:35:21.370Z",
-    "updatedAt": "2026-08-13T14:35:21.370Z"
+    "createdAt": "2026-08-13T19:10:09.356Z",
+    "updatedAt": "2026-08-13T19:10:09.356Z"
   },
   {
     "id": "sneaker-nike-free-metcon-morado",
@@ -4610,8 +5050,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T14:35:21.370Z",
-    "updatedAt": "2026-08-13T14:35:21.370Z"
+    "createdAt": "2026-08-13T19:10:09.356Z",
+    "updatedAt": "2026-08-13T19:10:09.356Z"
   },
   {
     "id": "sneaker-nike-free-metcon-negro",
@@ -4650,8 +5090,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T14:35:21.370Z",
-    "updatedAt": "2026-08-13T14:35:21.370Z"
+    "createdAt": "2026-08-13T19:10:09.356Z",
+    "updatedAt": "2026-08-13T19:10:09.356Z"
   },
   {
     "id": "sneaker-nike-free-metcon-negro-cafe",
@@ -4690,8 +5130,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T14:35:21.370Z",
-    "updatedAt": "2026-08-13T14:35:21.370Z"
+    "createdAt": "2026-08-13T19:10:09.356Z",
+    "updatedAt": "2026-08-13T19:10:09.356Z"
   },
   {
     "id": "sneaker-nike-hyper-bubble-negro",
@@ -4730,8 +5170,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T14:35:21.370Z",
-    "updatedAt": "2026-08-13T14:35:21.370Z"
+    "createdAt": "2026-08-13T19:10:09.356Z",
+    "updatedAt": "2026-08-13T19:10:09.356Z"
   },
   {
     "id": "sneaker-nike-hyper-bubble-negro-cromo",
@@ -4770,8 +5210,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T14:35:21.370Z",
-    "updatedAt": "2026-08-13T14:35:21.370Z"
+    "createdAt": "2026-08-13T19:10:09.356Z",
+    "updatedAt": "2026-08-13T19:10:09.356Z"
   },
   {
     "id": "sneaker-nike-hyper-bubble-negro-verde",
@@ -4810,8 +5250,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T14:35:21.370Z",
-    "updatedAt": "2026-08-13T14:35:21.370Z"
+    "createdAt": "2026-08-13T19:10:09.356Z",
+    "updatedAt": "2026-08-13T19:10:09.356Z"
   },
   {
     "id": "sneaker-nike-initiator-hueso-verde",
@@ -4850,8 +5290,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T14:35:21.370Z",
-    "updatedAt": "2026-08-13T14:35:21.370Z"
+    "createdAt": "2026-08-13T19:10:09.356Z",
+    "updatedAt": "2026-08-13T19:10:09.356Z"
   },
   {
     "id": "sneaker-nike-initiator-plata-rojo",
@@ -4890,8 +5330,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T14:35:21.370Z",
-    "updatedAt": "2026-08-13T14:35:21.370Z"
+    "createdAt": "2026-08-13T19:10:09.356Z",
+    "updatedAt": "2026-08-13T19:10:09.356Z"
   },
   {
     "id": "sneaker-nike-p-6000-blanco-malva",
@@ -4930,8 +5370,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T14:35:21.370Z",
-    "updatedAt": "2026-08-13T14:35:21.370Z"
+    "createdAt": "2026-08-13T19:10:09.356Z",
+    "updatedAt": "2026-08-13T19:10:09.356Z"
   },
   {
     "id": "sneaker-nike-p-6000-blanco-rosado",
@@ -4970,8 +5410,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T14:35:21.370Z",
-    "updatedAt": "2026-08-13T14:35:21.370Z"
+    "createdAt": "2026-08-13T19:10:09.356Z",
+    "updatedAt": "2026-08-13T19:10:09.356Z"
   },
   {
     "id": "sneaker-nike-p-6000-gris",
@@ -5010,8 +5450,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T14:35:21.370Z",
-    "updatedAt": "2026-08-13T14:35:21.370Z"
+    "createdAt": "2026-08-13T19:10:09.356Z",
+    "updatedAt": "2026-08-13T19:10:09.356Z"
   },
   {
     "id": "sneaker-nike-p-6000-hueso",
@@ -5050,8 +5490,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T14:35:21.370Z",
-    "updatedAt": "2026-08-13T14:35:21.370Z"
+    "createdAt": "2026-08-13T19:10:09.356Z",
+    "updatedAt": "2026-08-13T19:10:09.356Z"
   },
   {
     "id": "sneaker-nike-p-6000-negro-blanco",
@@ -5090,8 +5530,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T14:35:21.370Z",
-    "updatedAt": "2026-08-13T14:35:21.370Z"
+    "createdAt": "2026-08-13T19:10:09.356Z",
+    "updatedAt": "2026-08-13T19:10:09.356Z"
   },
   {
     "id": "sneaker-nike-p-6000-plata-negro",
@@ -5130,8 +5570,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T14:35:21.370Z",
-    "updatedAt": "2026-08-13T14:35:21.370Z"
+    "createdAt": "2026-08-13T19:10:09.356Z",
+    "updatedAt": "2026-08-13T19:10:09.356Z"
   },
   {
     "id": "sneaker-nike-p-6000-plata-rosado",
@@ -5170,8 +5610,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T14:35:21.370Z",
-    "updatedAt": "2026-08-13T14:35:21.370Z"
+    "createdAt": "2026-08-13T19:10:09.356Z",
+    "updatedAt": "2026-08-13T19:10:09.356Z"
   },
   {
     "id": "sneaker-nike-p-6000-rosa-total",
@@ -5210,8 +5650,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T14:35:21.370Z",
-    "updatedAt": "2026-08-13T14:35:21.370Z"
+    "createdAt": "2026-08-13T19:10:09.356Z",
+    "updatedAt": "2026-08-13T19:10:09.356Z"
   },
   {
     "id": "sneaker-nike-p-6000-triple-blanco",
@@ -5250,8 +5690,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T14:35:21.370Z",
-    "updatedAt": "2026-08-13T14:35:21.370Z"
+    "createdAt": "2026-08-13T19:10:09.356Z",
+    "updatedAt": "2026-08-13T19:10:09.356Z"
   },
   {
     "id": "sneaker-nike-sb-skate-blanco-gris",
@@ -5290,8 +5730,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T14:35:21.370Z",
-    "updatedAt": "2026-08-13T14:35:21.370Z"
+    "createdAt": "2026-08-13T19:10:09.356Z",
+    "updatedAt": "2026-08-13T19:10:09.356Z"
   },
   {
     "id": "sneaker-nike-sb-dunk-low-stellar",
@@ -5330,8 +5770,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T14:35:21.370Z",
-    "updatedAt": "2026-08-13T14:35:21.370Z"
+    "createdAt": "2026-08-13T19:10:09.356Z",
+    "updatedAt": "2026-08-13T19:10:09.356Z"
   },
   {
     "id": "sneaker-nike-sb-dunk-low-x-jarritos",
@@ -5370,8 +5810,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T14:35:21.370Z",
-    "updatedAt": "2026-08-13T14:35:21.370Z"
+    "createdAt": "2026-08-13T19:10:09.356Z",
+    "updatedAt": "2026-08-13T19:10:09.356Z"
   },
   {
     "id": "sneaker-nike-sb-dunk-super-brown",
@@ -5410,8 +5850,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T14:35:21.370Z",
-    "updatedAt": "2026-08-13T14:35:21.370Z"
+    "createdAt": "2026-08-13T19:10:09.356Z",
+    "updatedAt": "2026-08-13T19:10:09.356Z"
   },
   {
     "id": "sneaker-nike-sb-skate-negro",
@@ -5450,8 +5890,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T14:35:21.370Z",
-    "updatedAt": "2026-08-13T14:35:21.370Z"
+    "createdAt": "2026-08-13T19:10:09.356Z",
+    "updatedAt": "2026-08-13T19:10:09.356Z"
   },
   {
     "id": "sneaker-nike-shox-negro",
@@ -5490,8 +5930,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T14:35:21.370Z",
-    "updatedAt": "2026-08-13T14:35:21.370Z"
+    "createdAt": "2026-08-13T19:10:09.356Z",
+    "updatedAt": "2026-08-13T19:10:09.356Z"
   },
   {
     "id": "sneaker-nike-shox-tl-blanco-verde",
@@ -5530,8 +5970,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T14:35:21.370Z",
-    "updatedAt": "2026-08-13T14:35:21.370Z"
+    "createdAt": "2026-08-13T19:10:09.356Z",
+    "updatedAt": "2026-08-13T19:10:09.356Z"
   },
   {
     "id": "sneaker-nike-shox-tl-gris-verde",
@@ -5570,8 +6010,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T14:35:21.370Z",
-    "updatedAt": "2026-08-13T14:35:21.370Z"
+    "createdAt": "2026-08-13T19:10:09.356Z",
+    "updatedAt": "2026-08-13T19:10:09.356Z"
   },
   {
     "id": "sneaker-nike-shox-tl-negro-rojo",
@@ -5610,8 +6050,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T14:35:21.370Z",
-    "updatedAt": "2026-08-13T14:35:21.370Z"
+    "createdAt": "2026-08-13T19:10:09.356Z",
+    "updatedAt": "2026-08-13T19:10:09.356Z"
   },
   {
     "id": "sneaker-nike-shox-tl-triple-blanco",
@@ -5650,8 +6090,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T14:35:21.370Z",
-    "updatedAt": "2026-08-13T14:35:21.370Z"
+    "createdAt": "2026-08-13T19:10:09.356Z",
+    "updatedAt": "2026-08-13T19:10:09.356Z"
   },
   {
     "id": "sneaker-nike-shox-tl-triple-negro",
@@ -5690,8 +6130,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T14:35:21.370Z",
-    "updatedAt": "2026-08-13T14:35:21.370Z"
+    "createdAt": "2026-08-13T19:10:09.356Z",
+    "updatedAt": "2026-08-13T19:10:09.356Z"
   },
   {
     "id": "sneaker-nike-shox-triple-cafe",
@@ -5730,8 +6170,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T14:35:21.370Z",
-    "updatedAt": "2026-08-13T14:35:21.370Z"
+    "createdAt": "2026-08-13T19:10:09.356Z",
+    "updatedAt": "2026-08-13T19:10:09.356Z"
   },
   {
     "id": "sneaker-nike-zoom-vomero-5-crema",
@@ -5770,8 +6210,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T14:35:21.370Z",
-    "updatedAt": "2026-08-13T14:35:21.370Z"
+    "createdAt": "2026-08-13T19:10:09.356Z",
+    "updatedAt": "2026-08-13T19:10:09.356Z"
   },
   {
     "id": "sneaker-nike-zoom-vomero-5-plata",
@@ -5810,8 +6250,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T14:35:21.370Z",
-    "updatedAt": "2026-08-13T14:35:21.370Z"
+    "createdAt": "2026-08-13T19:10:09.356Z",
+    "updatedAt": "2026-08-13T19:10:09.356Z"
   },
   {
     "id": "sneaker-nike-zoom-vomero-5-triple-blanco",
@@ -5850,8 +6290,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T14:35:21.370Z",
-    "updatedAt": "2026-08-13T14:35:21.370Z"
+    "createdAt": "2026-08-13T19:10:09.356Z",
+    "updatedAt": "2026-08-13T19:10:09.356Z"
   },
   {
     "id": "sneaker-nike-zoom-vomero-san-valentin",
@@ -5890,8 +6330,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T14:35:21.370Z",
-    "updatedAt": "2026-08-13T14:35:21.370Z"
+    "createdAt": "2026-08-13T19:10:09.356Z",
+    "updatedAt": "2026-08-13T19:10:09.356Z"
   },
   {
     "id": "sneaker-nike-zoomx-blanco",
@@ -5930,7 +6370,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T14:35:21.370Z",
-    "updatedAt": "2026-08-13T14:35:21.370Z"
+    "createdAt": "2026-08-13T19:10:09.356Z",
+    "updatedAt": "2026-08-13T19:10:09.356Z"
   }
 ];
