@@ -6,3 +6,7 @@ coverage/
 *.log
 .env*
 !.env.example
+
+# Lotes de fotos sin desempacar. Las fotos del catalogo si van al repo:
+# viven en public/catalogo/ y son las que sirve el sitio.
+*.zip

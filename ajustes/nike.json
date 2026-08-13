@@ -1,0 +1,463 @@
+{
+  "nike-air-force-1-negro": {
+    "name": "Nike Air Force 1 Low Negro",
+    "colorway": "Triple Black"
+  },
+  "nike-air-force-1-mid-07": {
+    "name": "Nike Air Force 1 Mid '07",
+    "colorway": "White / Gum"
+  },
+  "nike-air-force-1-university-blue": {
+    "name": "Nike Air Force 1 University Blue",
+    "colorway": "White / University Blue"
+  },
+  "nike-air-force-1-triple-white": {
+    "name": "Nike Air Force 1 Triple White",
+    "colorway": "Triple White",
+    "description": "La Air Force 1 blanca de siempre, en cuero liso y suela de goma. La base que combina con todo."
+  },
+  "nike-air-force-1-triple-yellow": {
+    "name": "Nike Air Force 1 Triple Yellow",
+    "colorway": "Triple Yellow"
+  },
+  "nike-air-force-1-swoosh-pink": {
+    "name": "Nike Air Force 1 Swoosh Pink",
+    "colorway": "White / Pink"
+  },
+  "nike-air-force-1-blanco-verde": {
+    "name": "Nike Air Force 1 Blanco / Verde",
+    "colorway": "White / Green"
+  },
+  "nike-air-force-1-super-gris": {
+    "name": "Nike Air Force 1 Super Gris",
+    "colorway": "Grey / White",
+    "description": "Air Force 1 en bloques de gris y blanco, con cordones gruesos tipo cuerda."
+  },
+  "nike-air-force-1-super-naranja": {
+    "name": "Nike Air Force 1 Super Naranja",
+    "colorway": "Orange / White"
+  },
+  "nike-air-force-1-super-morado": {
+    "name": "Nike Air Force 1 Super Morado",
+    "colorway": "Purple / White"
+  },
+  "nike-air-force-1-x-louis-vuitton": {
+    "name": "Nike Air Force 1 x Louis Vuitton",
+    "colorway": ""
+  },
+  "nike-air-force-1-x-tiffany": {
+    "name": "Nike Air Force 1 x Tiffany & Co.",
+    "colorway": "Black / Tiffany Blue"
+  },
+  "nike-air-force-1-x-stussy": {
+    "name": "Nike Air Force 1 x Stüssy",
+    "colorway": ""
+  },
+  "nike-air-force-1-x-north-face": {
+    "name": "Nike Air Force 1 x The North Face",
+    "colorway": ""
+  },
+  "nike-air-force-1-x-noah": {
+    "name": "Nike Air Force 1 x Noah",
+    "colorway": ""
+  },
+  "nike-air-force-1-x-travis-scott": {
+    "name": "Nike Air Force 1 x Travis Scott",
+    "colorway": ""
+  },
+  "nike-air-max-90-triple-blanco": {
+    "name": "Nike Air Max 90 Triple Blanco",
+    "colorway": "White / Wolf Grey",
+    "description": "Air Max 90 en blanco total con la cámara de aire visible en el talón. Malla y cuero."
+  },
+  "nike-air-max-90-triple-negro": {
+    "name": "Nike Air Max 90 Triple Negro",
+    "colorway": "Triple Black"
+  },
+  "nike-air-max-90-black-orange": {
+    "name": "Nike Air Max 90 Black Orange",
+    "colorway": "Black / Total Orange"
+  },
+  "nike-air-max-90-oregon": {
+    "name": "Nike Air Max 90 Oregon",
+    "colorway": "Green / Yellow"
+  },
+  "nike-air-max-90-lucha-libre": {
+    "name": "Nike Air Max 90 Lucha Libre",
+    "colorway": ""
+  },
+  "nike-air-max-95-neon": {
+    "name": "Nike Air Max 95 Neon",
+    "colorway": "Black / Neon Yellow",
+    "description": "El degradado gris de la 95 con los acentos neón que hicieron famosa la silueta."
+  },
+  "nike-air-max-95-triple-negro": {
+    "name": "Nike Air Max 95 Triple Negro",
+    "colorway": "Triple Black"
+  },
+  "nike-air-max-95-negro-gris": {
+    "name": "Nike Air Max 95 Negro / Gris",
+    "colorway": "Black / Grey / Sail"
+  },
+  "nike-air-max-95-blanco-azul": {
+    "name": "Nike Air Max 95 Blanco / Azul",
+    "colorway": "White / Midnight Navy"
+  },
+  "nike-air-max-95-gris-rojo": {
+    "name": "Nike Air Max 95 Gris / Rojo",
+    "colorway": "Smoke Grey / Solar Red"
+  },
+  "nike-air-max-95-gris-rosado": {
+    "name": "Nike Air Max 95 Gris / Rosado",
+    "colorway": "Grey / Pink Foam"
+  },
+  "nike-air-max-95-gris-morado": {
+    "name": "Nike Air Max 95 Gris / Morado",
+    "colorway": "Grey / White / Purple"
+  },
+  "nike-air-max-95-x-a-ma-maniere-taupe": {
+    "name": "Nike Air Max 95 x A Ma Manière Taupe",
+    "colorway": "Taupe / Plum / Sail"
+  },
+  "nike-air-max-95-x-a-ma-maniere-vino": {
+    "name": "Nike Air Max 95 x A Ma Manière Vino",
+    "colorway": "Burgundy / Pink / White"
+  },
+  "nike-air-max-95-x-a-ma-maniere-azul": {
+    "name": "Nike Air Max 95 x A Ma Manière Azul",
+    "colorway": "Navy / Pink / White"
+  },
+  "nike-air-max-97-negro-volt": {
+    "name": "Nike Air Max 97 Negro / Volt",
+    "colorway": "Black / Wolf Grey / Volt"
+  },
+  "nike-air-max-97-cafe": {
+    "name": "Nike Air Max 97 Café",
+    "colorway": "Brown / Sail / Gum",
+    "description": "Air Max 97 en café con las ondas en crema y suela gum. Cámara de aire de largo completo."
+  },
+  "nike-air-max-97-nebulous": {
+    "name": "Nike Air Max 97 Nebulous",
+    "colorway": ""
+  },
+  "nike-air-max-97-nightmare": {
+    "name": "Nike Air Max 97 Nightmare",
+    "colorway": ""
+  },
+  "nike-air-max-plus-tn-triple-negro": {
+    "name": "Nike Air Max Plus TN Triple Negro",
+    "colorway": "Triple Black"
+  },
+  "nike-air-max-plus-tn-triple-blanco": {
+    "name": "Nike Air Max Plus TN Triple Blanco",
+    "colorway": "Triple White"
+  },
+  "nike-air-max-plus-tn-blanco-azul": {
+    "name": "Nike Air Max Plus TN Blanco / Azul",
+    "colorway": "White / Navy / Orange"
+  },
+  "nike-air-max-plus-tn-blue-gradient": {
+    "name": "Nike Air Max Plus TN Blue Gradient",
+    "colorway": "Blue Gradient"
+  },
+  "nike-air-max-plus-tn-pink-gradient": {
+    "name": "Nike Air Max Plus TN Pink Gradient",
+    "colorway": "Pink Gradient"
+  },
+  "nike-air-max-plus-tn-voltage-purple": {
+    "name": "Nike Air Max Plus TN Voltage Purple",
+    "colorway": "Voltage Purple"
+  },
+  "nike-air-max-plus-og-hyper-blue": {
+    "name": "Nike Air Max Plus OG Hyper Blue",
+    "colorway": "Hyper Blue"
+  },
+  "nike-air-max-plus-drift-tn-all-day": {
+    "name": "Nike Air Max Plus Drift TN All Day",
+    "colorway": ""
+  },
+  "nike-air-max-plus-drift-tn-phantom-cacao": {
+    "name": "Nike Air Max Plus Drift TN Phantom Cacao",
+    "colorway": "Phantom / Cacao"
+  },
+  "nike-air-max-plus-drift-baroque-brown": {
+    "name": "Nike Air Max Plus Drift Baroque Brown",
+    "colorway": "Baroque Brown"
+  },
+  "nike-air-max-plus-drift-metallic-silver": {
+    "name": "Nike Air Max Plus Drift Metallic Silver",
+    "colorway": "Metallic Silver"
+  },
+  "nike-air-max-ltd-blanco-azul": {
+    "name": "Nike Air Max LTD Blanco / Azul",
+    "colorway": "White / Navy / Royal"
+  },
+  "nike-air-max-bw-gris-rojo": {
+    "name": "Nike Air Max BW Gris / Rojo",
+    "colorway": "Grey / Black / Red"
+  },
+  "nike-air-max-blanco-morado": {
+    "name": "Nike Air Max Blanco / Morado",
+    "colorway": "White / Black / Purple",
+    "description": "Silueta Air Max en malla blanca con paneles negros y cámara de aire morada. Modelo por confirmar."
+  },
+  "nike-air-max-dn8-azul": {
+    "name": "Nike Air Max DN8 Azul",
+    "colorway": "Blue / Black"
+  },
+  "nike-air-max-dn8-blanco": {
+    "name": "Nike Air Max DN8 Blanco",
+    "colorway": "White / Silver"
+  },
+  "nike-air-max-dn8-hueso": {
+    "name": "Nike Air Max DN8 Hueso",
+    "colorway": "Sail / Silver"
+  },
+  "nike-air-max-dn8-gris-menta": {
+    "name": "Nike Air Max DN8 Gris / Menta",
+    "colorway": "Mint Grey / Black"
+  },
+  "nike-air-max-dn8-plata": {
+    "name": "Nike Air Max DN8 Plata",
+    "colorway": "Metallic Silver"
+  },
+  "nike-air-max-dn8-triple-negro": {
+    "name": "Nike Air Max DN8 Triple Negro",
+    "colorway": "Triple Black"
+  },
+  "nike-air-max-dn-se-triple-negro": {
+    "name": "Nike Air Max DN SE Triple Negro",
+    "colorway": "Triple Black"
+  },
+  "nike-air-more-uptempo-96-negro-blanco": {
+    "name": "Nike Air More Uptempo 96 Negro / Blanco",
+    "colorway": "Black / White"
+  },
+  "nike-blazer-low-77-vintage": {
+    "name": "Nike Blazer Low '77 Vintage",
+    "colorway": ""
+  },
+  "nike-blazer-mid-77-vintage": {
+    "name": "Nike Blazer Mid '77 Vintage",
+    "colorway": ""
+  },
+  "nike-blazer-mid-victory-off-noir": {
+    "name": "Nike Blazer Mid Victory Off Noir",
+    "colorway": "Black / Off Noir"
+  },
+  "nike-blazer-mid-victory-phantom-mujer": {
+    "name": "Nike Blazer Mid Victory Phantom",
+    "colorway": "White / Phantom / Light Cream"
+  },
+  "nike-cortez-classic-blanco-negro": {
+    "name": "Nike Cortez Classic Blanco / Negro",
+    "colorway": "White / Black",
+    "description": "Cortez en cuero blanco con el swoosh y la franja en negro. Suela de goma dentada."
+  },
+  "nike-cortez-forrest-gump": {
+    "name": "Nike Cortez Forrest Gump",
+    "colorway": "White / Varsity Red / Royal",
+    "description": "El colorway original de la Cortez: cuero blanco, swoosh rojo y franja azul en la suela."
+  },
+  "nike-cortez-cafe": {
+    "name": "Nike Cortez Café",
+    "colorway": "Brown / Sail"
+  },
+  "nike-cortez-verde": {
+    "name": "Nike Cortez Verde",
+    "colorway": "Green / Sail"
+  },
+  "nike-cortez-pine-green": {
+    "name": "Nike Cortez Pine Green",
+    "colorway": "Pine Green / Sail"
+  },
+  "nike-cortez-verde-rosado": {
+    "name": "Nike Cortez Verde / Rosado",
+    "colorway": "Pro Green / Pinksicle",
+    "description": "Cortez en nylon verde con gamuza del mismo tono y swoosh rosado. Mediasuela crema."
+  },
+  "nike-cortez-morado": {
+    "name": "Nike Cortez Morado",
+    "colorway": "Purple / Sail"
+  },
+  "nike-cortez-rojo-oscuro": {
+    "name": "Nike Cortez Rojo Oscuro",
+    "colorway": "Dark Red / Sail"
+  },
+  "nike-dunk-low-panda": {
+    "name": "Nike Dunk Low Panda",
+    "colorway": "White / Black",
+    "description": "La Dunk Low en blanco y negro que se volvió el par de entrada para todo el mundo."
+  },
+  "nike-dunk-low-unc": {
+    "name": "Nike Dunk Low UNC",
+    "colorway": "White / University Blue"
+  },
+  "nike-dunk-low-triple-pink": {
+    "name": "Nike Dunk Low Triple Pink",
+    "colorway": "Pink Foam / Hyper Pink"
+  },
+  "nike-dunk-x-travis-scott-gray": {
+    "name": "Nike Dunk x Travis Scott Gray",
+    "colorway": "Grey / Sail"
+  },
+  "nike-sb-dunk-low-stellar": {
+    "name": "Nike SB Dunk Low Stellar",
+    "colorway": "Grey / Sail / Brown"
+  },
+  "nike-sb-dunk-super-brown": {
+    "name": "Nike SB Dunk Super Brown",
+    "colorway": "Brown / Sail"
+  },
+  "nike-sb-dunk-low-x-jarritos": {
+    "name": "Nike SB Dunk Low x Jarritos",
+    "colorway": ""
+  },
+  "nike-sb-skate-negro": {
+    "name": "Nike SB Negro",
+    "colorway": "Black / White",
+    "description": "Silueta baja de skate en lona negra con suela vulcanizada blanca."
+  },
+  "nike-sb-skate-blanco-gris": {
+    "name": "Nike SB Blanco / Gris",
+    "colorway": "White / Grey",
+    "description": "Skate baja en gamuza gris y lona blanca, con suela vulcanizada."
+  },
+  "nike-shox-tl-triple-blanco": {
+    "name": "Nike Shox TL Triple Blanco",
+    "colorway": "White / Metallic Silver",
+    "description": "Shox TL en blanco con las cuatro columnas visibles en el talón."
+  },
+  "nike-shox-tl-triple-negro": {
+    "name": "Nike Shox TL Triple Negro",
+    "colorway": "Triple Black"
+  },
+  "nike-shox-tl-blanco-verde": {
+    "name": "Nike Shox TL Blanco / Verde",
+    "colorway": "White / Olive Green"
+  },
+  "nike-shox-tl-gris-verde": {
+    "name": "Nike Shox TL Gris / Verde",
+    "colorway": "Grey / Volt / Black"
+  },
+  "nike-shox-tl-negro-rojo": {
+    "name": "Nike Shox TL Negro / Rojo",
+    "colorway": "Black / Red / Yellow"
+  },
+  "nike-shox-triple-cafe": {
+    "name": "Nike Shox Triple Café",
+    "colorway": "Triple Brown"
+  },
+  "nike-shox-negro": {
+    "name": "Nike Shox Negro",
+    "colorway": "Triple Black"
+  },
+  "nike-hyper-bubble-negro": {
+    "name": "Nike Hyper Bubble Negro",
+    "colorway": "Black / White"
+  },
+  "nike-hyper-bubble-negro-cromo": {
+    "name": "Nike Hyper Bubble Negro / Cromo",
+    "colorway": "Black / Chrome"
+  },
+  "nike-hyper-bubble-negro-verde": {
+    "name": "Nike Hyper Bubble Negro / Verde",
+    "colorway": "Black / Volt"
+  },
+  "nike-p-6000-triple-blanco": {
+    "name": "Nike P-6000 Triple Blanco",
+    "colorway": "Triple White",
+    "description": "P-6000 en blanco total, con el entramado de capas y la mediasuela Rideliner."
+  },
+  "nike-p-6000-negro-blanco": {
+    "name": "Nike P-6000 Negro / Blanco",
+    "colorway": "Black / White"
+  },
+  "nike-p-6000-hueso": {
+    "name": "Nike P-6000 Hueso",
+    "colorway": "Light Bone / Sail"
+  },
+  "nike-p-6000-gris": {
+    "name": "Nike P-6000 Gris",
+    "colorway": "Cool Grey / Metallic Silver"
+  },
+  "nike-p-6000-plata-negro": {
+    "name": "Nike P-6000 Plata / Negro",
+    "colorway": "Metallic Silver / Black"
+  },
+  "nike-p-6000-blanco-malva": {
+    "name": "Nike P-6000 Blanco / Malva",
+    "colorway": "White / Silver / Plum"
+  },
+  "nike-p-6000-blanco-rosado": {
+    "name": "Nike P-6000 Blanco / Rosado",
+    "colorway": "White / Pink / Navy"
+  },
+  "nike-p-6000-plata-rosado": {
+    "name": "Nike P-6000 Plata / Rosado",
+    "colorway": "Metallic Silver / Pink"
+  },
+  "nike-p-6000-rosa-total": {
+    "name": "Nike P-6000 Rosa Total",
+    "colorway": "Pink / Plum"
+  },
+  "nike-zoom-vomero-5-triple-blanco": {
+    "name": "Nike Zoom Vomero 5 Triple Blanco",
+    "colorway": "Triple White"
+  },
+  "nike-zoom-vomero-5-plata": {
+    "name": "Nike Zoom Vomero 5 Plata",
+    "colorway": "Metallic Silver / Sail"
+  },
+  "nike-zoom-vomero-5-crema": {
+    "name": "Nike Zoom Vomero 5 Crema",
+    "colorway": "Sail / Khaki",
+    "description": "Vomero 5 en crema y beige, con capas de malla y refuerzos en gamuza."
+  },
+  "nike-zoom-vomero-san-valentin": {
+    "name": "Nike Zoom Vomero San Valentín",
+    "colorway": ""
+  },
+  "nike-air-vomero-18-negro": {
+    "name": "Nike Air Vomero 18 Negro",
+    "colorway": "Black / White",
+    "description": "Vomero 18 con mediasuela ZoomX alta en blanco y upper en negro y gris."
+  },
+  "nike-zoomx-blanco": {
+    "name": "Nike ZoomX Blanco",
+    "colorway": "White / Black"
+  },
+  "nike-initiator-hueso-verde": {
+    "name": "Nike Initiator Hueso / Verde",
+    "colorway": "Sail / Khaki / Lime"
+  },
+  "nike-initiator-plata-rojo": {
+    "name": "Nike Initiator Plata / Rojo",
+    "colorway": "Metallic Silver / Varsity Red",
+    "description": "Initiator en plata metalizada con el swoosh en rojo. Corredora de los 2000 hecha para diario."
+  },
+  "nike-free-metcon-blanco-lila": {
+    "name": "Nike Free Metcon Blanco / Lila",
+    "colorway": "Sail / Lilac"
+  },
+  "nike-free-metcon-blanco-rojo": {
+    "name": "Nike Free Metcon Blanco / Rojo",
+    "colorway": "White / Red"
+  },
+  "nike-free-metcon-blanco-rosado": {
+    "name": "Nike Free Metcon Blanco / Rosado",
+    "colorway": "White / Pink"
+  },
+  "nike-free-metcon-negro": {
+    "name": "Nike Free Metcon Negro",
+    "colorway": "Triple Black"
+  },
+  "nike-free-metcon-negro-cafe": {
+    "name": "Nike Free Metcon Negro / Café",
+    "colorway": "Black / Brown"
+  },
+  "nike-free-metcon-morado": {
+    "name": "Nike Free Metcon Morado",
+    "colorway": "Purple / White"
+  }
+}
