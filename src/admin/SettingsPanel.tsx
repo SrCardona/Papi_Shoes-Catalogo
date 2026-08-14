@@ -1,6 +1,17 @@
 import { useRef, useState } from 'react';
-import { Download, KeyRound, RotateCcw, Save, Upload } from 'lucide-react';
-import type { StoreSettings } from '../types';
+import {
+  Camera,
+  Download,
+  ImagePlus,
+  KeyRound,
+  Loader2,
+  Plus,
+  RotateCcw,
+  Save,
+  Trash2,
+  Upload,
+} from 'lucide-react';
+import type { StoreSettings, StorySlide } from '../types';
 import { useStore } from '../context/StoreContext';
 import { useAuth } from '../context/AuthContext';
 import {
@@ -8,8 +19,9 @@ import {
   validateSettings,
   validateSneakers,
 } from '../lib/validation';
-import { sha256 } from '../lib/security';
-import { cx, formatPhoneDisplay } from '../lib/utils';
+import { sanitizeImageUrl, sanitizeText, sha256 } from '../lib/security';
+import { SmartImage } from '../components/ui/SmartImage';
+import { compressImageFile, cx, formatPhoneDisplay } from '../lib/utils';
 
 const field =
   'w-full bg-obsidian border border-white/12 py-2.5 px-3 text-[12.5px] text-marble placeholder:text-marble/25 focus:outline-none focus:border-silver/50 transition-colors';
@@ -19,7 +31,226 @@ const label =
 
 type Notice = { tone: 'ok' | 'error'; text: string } | null;
 
-export function SettingsPanel() {
+/**
+ * Editor de las diapositivas de una historia (Envíos, Promos o Reseñas).
+ *
+ * La foto entra por archivo o por URL, igual que en Entregas: por archivo se
+ * recomprime, porque una foto de celular sin tratar llena el almacenamiento
+ * del navegador en pocas subidas; por URL pasa por `sanitizeImageUrl`, que
+ * solo deja `https://` y rutas del propio sitio.
+ */
+function StorySlidesEditor({
+  title,
+  hint,
+  slides,
+  onChange,
+}: {
+  title: string;
+  hint: string;
+  slides: StorySlide[];
+  onChange: (slides: StorySlide[]) => void;
+}) {
+  const [image, setImage] = useState('');
+  const [slideTitle, setSlideTitle] = useState('');
+  const [caption, setCaption] = useState('');
+  const [imageUrl, setImageUrl] = useState('');
+  const [isUploading, setIsUploading] = useState(false);
+  const [error, setError] = useState<string | null>(null);
+  const fileRef = useRef<HTMLInputElement>(null);
+
+  const uploadPhoto = async (e: React.ChangeEvent<HTMLInputElement>) => {
+    const file = e.target.files?.[0];
+    if (!file) return;
+    setIsUploading(true);
+    setError(null);
+    try {
+      setImage(await compressImageFile(file));
+    } catch (err) {
+      setError(err instanceof Error ? err.message : 'No se pudo cargar la foto.');
+    } finally {
+      setIsUploading(false);
+      if (fileRef.current) fileRef.current.value = '';
+    }
+  };
+
+  const addUrlPhoto = () => {
+    if (!imageUrl.trim()) return;
+    const clean = sanitizeImageUrl(imageUrl);
+    if (clean.startsWith('data:image/svg')) {
+      setError('Esa URL no sirve. Debe empezar por https://');
+      return;
+    }
+    setImage(clean);
+    setImageUrl('');
+    setError(null);
+  };
+
+  const add = () => {
+    if (!image) {
+      setError('Falta la foto de la historia.');
+      return;
+    }
+    const texto = sanitizeText(caption, 240);
+    if (!texto) {
+      setError('El texto es obligatorio: es lo que se lee sobre la foto.');
+      return;
+    }
+    onChange([
+      ...slides,
+      {
+        image,
+        caption: texto,
+        title: sanitizeText(slideTitle, 80) || undefined,
+      },
+    ]);
+    setImage('');
+    setSlideTitle('');
+    setCaption('');
+    setError(null);
+  };
+
+  return (
+    <div className="bg-basalt border border-white/10 p-5 space-y-5">
+      <div className="pb-3 border-b border-white/8">
+        <h3 className="text-[11px] font-bold uppercase tracking-[0.18em] text-marble">
+          {title}
+        </h3>
+        <p className="text-[11px] text-marble/35 mt-1.5 leading-relaxed">{hint}</p>
+      </div>
+
+      {slides.length > 0 ? (
+        <ul className="space-y-2">
+          {slides.map((slide, i) => (
+            <li
+              key={`${slide.image}-${i}`}
+              className="flex items-center gap-3 bg-obsidian border border-white/8 p-2.5"
+            >
+              <SmartImage
+                src={slide.image}
+                alt=""
+                className="w-12 h-12 object-cover shrink-0"
+              />
+              <div className="min-w-0 flex-1">
+                {slide.title && (
+                  <p className="text-[11px] font-semibold text-marble truncate">
+                    {slide.title}
+                  </p>
+                )}
+                <p className="text-[11px] text-marble/45 line-clamp-2 leading-snug">
+                  {slide.caption}
+                </p>
+              </div>
+              <button
+                type="button"
+                onClick={() => onChange(slides.filter((_, index) => index !== i))}
+                aria-label={`Eliminar diapositiva ${i + 1}`}
+                className="p-2 text-marble/35 hover:text-red-300 transition-colors shrink-0"
+              >
+                <Trash2 className="w-3.5 h-3.5" />
+              </button>
+            </li>
+          ))}
+        </ul>
+      ) : (
+        <p className="text-[11.5px] text-marble/30 leading-relaxed">
+          Todavía no hay fotos tuyas. Mientras tanto, la historia muestra la
+          diapositiva de ejemplo que trae el sitio.
+        </p>
+      )}
+
+      {error && (
+        <p role="alert" className="text-[11.5px] text-red-300">
+          {error}
+        </p>
+      )}
+
+      <div className="space-y-3 pt-1">
+        {image && (
+          <div className="flex items-center gap-3">
+            <SmartImage src={image} alt="" className="w-16 h-16 object-cover" />
+            <button
+              type="button"
+              onClick={() => setImage('')}
+              className="text-[10px] font-semibold uppercase tracking-[0.18em] text-marble/45 hover:text-marble transition-colors"
+            >
+              Quitar foto
+            </button>
+          </div>
+        )}
+
+        <div className="flex flex-wrap items-center gap-2">
+          <button
+            type="button"
+            onClick={() => fileRef.current?.click()}
+            disabled={isUploading}
+            className="flex items-center gap-2 px-3.5 py-2.5 border border-white/12 text-[10px] font-semibold uppercase tracking-[0.16em] text-marble/65 hover:text-marble hover:border-silver/40 transition-colors disabled:opacity-50"
+          >
+            {isUploading ? (
+              <Loader2 className="w-3.5 h-3.5 animate-spin" />
+            ) : (
+              <ImagePlus className="w-3.5 h-3.5" />
+            )}
+            Subir foto
+          </button>
+          <input
+            ref={fileRef}
+            type="file"
+            accept="image/*"
+            onChange={uploadPhoto}
+            className="hidden"
+          />
+
+          <input
+            value={imageUrl}
+            onChange={(e) => setImageUrl(e.target.value)}
+            onKeyDown={(e) => {
+              if (e.key === 'Enter') {
+                e.preventDefault();
+                addUrlPhoto();
+              }
+            }}
+            placeholder="…o pega una URL https://"
+            aria-label="URL de la foto"
+            className={cx(field, 'flex-1 min-w-[12rem]')}
+          />
+        </div>
+
+        <input
+          value={slideTitle}
+          onChange={(e) => setSlideTitle(e.target.value)}
+          placeholder="Título (opcional)"
+          aria-label="Título de la diapositiva"
+          className={field}
+        />
+
+        <textarea
+          value={caption}
+          onChange={(e) => setCaption(e.target.value)}
+          placeholder="Texto que se lee sobre la foto"
+          aria-label="Texto de la diapositiva"
+          rows={2}
+          className={cx(field, 'resize-none')}
+        />
+
+        <button
+          type="button"
+          onClick={add}
+          className="flex items-center gap-2 px-4 py-2.5 bg-marble text-obsidian text-[10px] font-bold uppercase tracking-[0.18em] hover:bg-silver transition-colors"
+        >
+          <Plus className="w-3.5 h-3.5" />
+          Agregar diapositiva
+        </button>
+      </div>
+    </div>
+  );
+}
+
+export function SettingsPanel({
+  onGoToDeliveries,
+}: {
+  /** Lleva a la pestaña de Entregas, que es donde viven las de Clientes. */
+  onGoToDeliveries?: () => void;
+}) {
   const {
     settings,
     setSettings,
@@ -63,6 +294,19 @@ export function SettingsPanel() {
   const flash = (n: Notice) => {
     setNotice(n);
     setTimeout(() => setNotice(null), 4000);
+  };
+
+  /**
+   * Las historias se guardan al momento, como las entregas: no esperan al
+   * botón "Guardar ajustes". El borrador local se sincroniza a la vez, porque
+   * si no, guardar el formulario después devolvería la lista anterior.
+   */
+  const saveSlides = (
+    key: 'shippingSlides' | 'promoSlides' | 'reviewSlides',
+    slides: StorySlide[],
+  ) => {
+    setSettings({ ...settings, [key]: slides });
+    setDraft((prev) => ({ ...prev, [key]: slides }));
   };
 
   const saveSettings = () => {
@@ -467,6 +711,62 @@ export function SettingsPanel() {
           alguien con conocimientos técnicos. Si vas a manejar datos de clientes o
           pagos, monta un backend: está explicado en el README.
         </p>
+      </section>
+
+      {/* Historias */}
+      <section className="space-y-5">
+        <div className="pb-4 border-b border-white/10">
+          <h2 className="font-display text-2xl text-marble">Historias</h2>
+          <p className="text-[12px] text-marble/40 mt-1">
+            Los círculos de la portada. Las fotos que subas aquí reemplazan a
+            las de ejemplo.
+          </p>
+        </div>
+
+        <StorySlidesEditor
+          title="Envíos"
+          hint="Empaque, guías, despachos. Lo que quieras que vea quien duda de cómo llega el par."
+          slides={draft.shippingSlides}
+          onChange={(slides) => saveSlides('shippingSlides', slides)}
+        />
+
+        <StorySlidesEditor
+          title="Promos"
+          hint="Combos y descuentos vigentes. Bórralos cuando se acaben: quedan publicados hasta que los quites."
+          slides={draft.promoSlides}
+          onChange={(slides) => saveSlides('promoSlides', slides)}
+        />
+
+        <StorySlidesEditor
+          title="Reseñas"
+          hint="Capturas de lo que te escriben los clientes. Tapa los datos personales antes de subirlas."
+          slides={draft.reviewSlides}
+          onChange={(slides) => saveSlides('reviewSlides', slides)}
+        />
+
+        {/* Clientes no se edita aquí: sus fotos son las entregas reales, que
+            ya tienen su propia pestaña con ciudad, barrio y fecha. */}
+        <div className="flex flex-wrap items-center justify-between gap-3 bg-basalt border border-white/10 p-5">
+          <div>
+            <h3 className="text-[11px] font-bold uppercase tracking-[0.18em] text-marble">
+              Clientes
+            </h3>
+            <p className="text-[11px] text-marble/35 mt-1.5 leading-relaxed">
+              Esta historia se arma sola con las {deliveries.length} entregas
+              cargadas. Se edita desde la pestaña Entregas.
+            </p>
+          </div>
+          {onGoToDeliveries && (
+            <button
+              type="button"
+              onClick={onGoToDeliveries}
+              className="flex items-center gap-2 px-4 py-2.5 border border-white/12 text-[10px] font-semibold uppercase tracking-[0.16em] text-marble/65 hover:text-marble hover:border-silver/40 transition-colors"
+            >
+              <Camera className="w-3.5 h-3.5" />
+              Ir a Entregas
+            </button>
+          )}
+        </div>
       </section>
 
       {/* Datos */}

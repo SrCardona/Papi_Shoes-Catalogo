@@ -156,7 +156,9 @@ export function AdminPage() {
           <SneakerForm key={editing?.id ?? 'new'} editing={editing} onDone={closeForm} />
         )}
         {tab === 'deliveries' && <DeliveryManager />}
-        {tab === 'settings' && <SettingsPanel />}
+        {tab === 'settings' && (
+          <SettingsPanel onGoToDeliveries={() => setTab('deliveries')} />
+        )}
       </div>
     </div>
   );

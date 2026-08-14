@@ -15,6 +15,7 @@ import type {
   SneakerGender,
   SneakerStatus,
   StoreSettings,
+  StorySlide,
 } from '../types';
 import { sanitizeImageUrl, sanitizeText, uuid } from './security';
 
@@ -155,6 +156,39 @@ export function validateDeliveries(raw: unknown): Delivery[] {
     .filter((d): d is Delivery => d !== null);
 }
 
+/* ── Diapositivas de las historias ───────────────────────────────────────
+   Van dentro de los ajustes, así que entran por el mismo archivo de respaldo
+   y merecen el mismo trato que el muro: la foto por `sanitizeImageUrl` y los
+   textos por `sanitizeText`. Una diapositiva sin foto se descarta, porque el
+   visor la mostraría en negro.                                              */
+
+function validateSlide(raw: unknown): StorySlide | null {
+  if (!raw || typeof raw !== 'object') return null;
+  // `unknown` y no `any`: los saneadores ya aceptan lo que sea y descartan lo
+  // que no sea texto, así que no hace falta apagar el tipado aquí.
+  const s = raw as Record<string, unknown>;
+
+  const image = sanitizeImageUrl(s.image);
+  // `sanitizeImageUrl` devuelve un SVG de marcador cuando la URL no sirve.
+  if (!image || image.startsWith('data:image/svg')) return null;
+
+  return {
+    image,
+    caption: sanitizeText(s.caption, 240),
+    title: sanitizeText(s.title, 80) || undefined,
+    ctaText: sanitizeText(s.ctaText, 40) || undefined,
+    badge: sanitizeText(s.badge, 40) || undefined,
+  };
+}
+
+export function validateSlides(raw: unknown): StorySlide[] {
+  if (!Array.isArray(raw)) return [];
+  return raw
+    .slice(0, 30)
+    .map(validateSlide)
+    .filter((s): s is StorySlide => s !== null);
+}
+
 /**
  * Valida ajustes importados. `current` aporta los valores de respaldo, y las
  * credenciales NUNCA se toman del archivo: un respaldo no puede reescribir
@@ -189,6 +223,16 @@ export function validateSettings(
     tiktokHandle: sanitizeText(s.tiktokHandle, 40) || current.tiktokHandle,
     locationCity: sanitizeText(s.locationCity, 120) || current.locationCity,
     guaranteeText: sanitizeText(s.guaranteeText, 240) || current.guaranteeText,
+    // Un respaldo sin historias no debe vaciar las que ya están cargadas.
+    shippingSlides: Array.isArray(s.shippingSlides)
+      ? validateSlides(s.shippingSlides)
+      : current.shippingSlides,
+    promoSlides: Array.isArray(s.promoSlides)
+      ? validateSlides(s.promoSlides)
+      : current.promoSlides,
+    reviewSlides: Array.isArray(s.reviewSlides)
+      ? validateSlides(s.reviewSlides)
+      : current.reviewSlides,
     // Credenciales preservadas a propósito — ver comentario superior.
     adminUsername: current.adminUsername,
     adminPinHash: current.adminPinHash,

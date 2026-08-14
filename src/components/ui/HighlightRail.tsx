@@ -86,10 +86,14 @@ function resolveSlides(
   const subidas = propias[story.id];
   if (subidas?.length) return subidas;
 
-  if (story.id === 'resenas' && !story.slides.length) {
+  // Reseñas es la excepción entre las de ejemplo: la diapositiva que trae el
+  // sitio afirma una calificación que nadie ha dejado todavía. Mejor decir que
+  // están por venir que enseñar una reseña inventada. La de ejemplo sigue en
+  // INITIAL_STORIES por si se quiere recuperar.
+  if (story.id === 'resenas') {
     return [
       {
-        image: story.previewImage,
+        image: story.slides[0]?.image ?? story.previewImage,
         caption: 'Pronto aquí las reseñas de nuestros clientes.',
       },
     ];
