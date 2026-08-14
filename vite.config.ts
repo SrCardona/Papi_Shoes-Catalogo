@@ -14,7 +14,7 @@ import { defineConfig, loadEnv } from 'vite';
  * escrita acá. La variable `VITE_API_ORIGIN` en un `.env` tiene prioridad, para
  * apuntar a un despliegue de prueba sin tocar el código.
  */
-const ORIGEN_API_POR_DEFECTO = '';
+const ORIGEN_API_POR_DEFECTO = 'https://papi-shoes-catalogo.vercel.app';
 
 export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, process.cwd(), '');

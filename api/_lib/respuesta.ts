@@ -13,9 +13,3 @@ export function json(
   });
 }
 
-export function metodoNoPermitido(permitidos: string): Response {
-  return json(
-    { error: `Solo se aceptan los métodos ${permitidos}.` },
-    { status: 405, extra: { Allow: permitidos } },
-  );
-}

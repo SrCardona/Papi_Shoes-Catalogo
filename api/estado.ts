@@ -14,13 +14,19 @@ import {
   saneaEstado,
   type EstadoPublicado,
 } from './_lib/estado';
-import { json, metodoNoPermitido } from './_lib/respuesta';
+import { json } from './_lib/respuesta';
 import { sesionDisponible, tokenValido } from './_lib/sesion';
 
-export default async function handler(request: Request): Promise<Response> {
-  if (request.method === 'GET') return leer(request);
-  if (request.method === 'PUT') return guardar(request);
-  return metodoNoPermitido('GET, PUT');
+/* Un método por exportación, y nunca `export default`: Vercel interpreta el
+   handler por defecto como la firma antigua `(request, response)`, ignora la
+   `Response` que uno devuelve y la función se cae sin contestar. Con los métodos
+   por nombre, además, el propio runtime responde 405 a lo que no está acá. */
+export function GET(request: Request): Promise<Response> {
+  return leer(request);
+}
+
+export function PUT(request: Request): Promise<Response> {
+  return guardar(request);
 }
 
 async function leer(request: Request): Promise<Response> {

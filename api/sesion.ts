@@ -11,7 +11,7 @@
  */
 import { almacenDisponible } from './_lib/almacen';
 import { limpiaFallos, minutosBloqueado, registraFallo } from './_lib/intentos';
-import { json, metodoNoPermitido } from './_lib/respuesta';
+import { json } from './_lib/respuesta';
 import {
   FORMATO_PIN,
   emiteToken,
@@ -25,21 +25,22 @@ import {
 /** Freno a la fuerza bruta: cada fallo cuesta tiempo de reloj al que insiste. */
 const CASTIGO_MS = 400;
 
-export default async function handler(request: Request): Promise<Response> {
-  if (request.method === 'GET') {
-    return json(
-      {
-        disponible: sesionDisponible,
-        nube: almacenDisponible,
-        faltaPin: !pinConfigurado,
-        faltaSecreto: !secretoConfigurado,
-      },
-      { cache: 'no-store' },
-    );
-  }
+/* Un método por exportación, y nunca `export default`: ver la nota en
+   `api/estado.ts`. Con el handler por defecto Vercel usa la firma antigua y la
+   respuesta se pierde. */
+export function GET(): Response {
+  return json(
+    {
+      disponible: sesionDisponible,
+      nube: almacenDisponible,
+      faltaPin: !pinConfigurado,
+      faltaSecreto: !secretoConfigurado,
+    },
+    { cache: 'no-store' },
+  );
+}
 
-  if (request.method !== 'POST') return metodoNoPermitido('GET, POST');
-
+export async function POST(request: Request): Promise<Response> {
   if (!sesionDisponible) {
     return json(
       {

@@ -13,7 +13,7 @@
  */
 import { createHash } from 'node:crypto';
 import { almacenDisponible, escribirImagen } from './_lib/almacen';
-import { json, metodoNoPermitido } from './_lib/respuesta';
+import { json } from './_lib/respuesta';
 import { sesionDisponible, tokenValido } from './_lib/sesion';
 
 const TOPE_BYTES = 4_000_000;
@@ -27,9 +27,9 @@ const EXTENSIONES: Record<string, string> = {
   'image/gif': 'gif',
 };
 
-export default async function handler(request: Request): Promise<Response> {
-  if (request.method !== 'POST') return metodoNoPermitido('POST');
-
+/* Un método por exportación, y nunca `export default`: ver la nota en
+   `api/estado.ts`. */
+export async function POST(request: Request): Promise<Response> {
   if (!almacenDisponible || !sesionDisponible) {
     return json(
       { error: 'La nube no está configurada, así que no se pueden subir fotos.' },
