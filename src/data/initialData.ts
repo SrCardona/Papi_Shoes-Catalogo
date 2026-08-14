@@ -39,6 +39,12 @@ export const INITIAL_SETTINGS: StoreSettings = {
   tiktokHandle: 'papishoes_cultura',
   locationCity: 'Medellín · Bogotá · Envíos Nacionales',
   guaranteeText: 'Garantía de calidad y autenticidad verificada en cada entrega.',
+  // Vacías a propósito: son las fotos del dueño, que entran desde
+  // Panel › Ajustes › Historias. Hasta entonces cada historia enseña la
+  // diapositiva de ejemplo que trae INITIAL_STORIES.
+  shippingSlides: [],
+  promoSlides: [],
+  reviewSlides: [],
 };
 
 /* ── Los cinco pilares del manual de marca ──────────────────────────────── */

@@ -83,12 +83,38 @@ export interface StorySlide {
   badge?: string;
 }
 
+/**
+ * Qué pasa al tocar un círculo de la fila de historias.
+ *
+ * No todas las historias tienen algo que contar en fotos: "Catálogo" o "FAQ"
+ * son atajos a una página, y "Bajo encargo" es una conversación. Abrirlas
+ * todas en el visor obligaba a mirar una diapositiva antes de llegar a lo que
+ * de verdad se buscaba.
+ */
+export type StoryBehavior =
+  /** Ruta interna de la app: '/originales', '/nosotros'… */
+  | { type: 'navigate'; to: string }
+  /** El visor de diapositivas de siempre. */
+  | { type: 'slides' }
+  /** Catálogo con un filtro puesto. `filter` viaja como ?marca=… */
+  | { type: 'catalog-filter'; filter: string }
+  /** WhatsApp con un mensaje ya escrito, buscado por `messageKey`. */
+  | { type: 'whatsapp'; messageKey: string };
+
 export interface StoryHighlight {
   id: string;
   title: string;
+  /**
+   * Rótulo bajo el círculo. Existe porque el círculo mide 74px y ahí no cabe
+   * un título largo: `title` se sigue usando en el visor y como texto
+   * accesible. Si falta, se muestra `title`.
+   */
+  label?: string;
   iconName: string;
   previewImage: string;
   slides: StorySlide[];
+  /** Sin definir se comporta como siempre: abre el visor de diapositivas. */
+  behavior?: StoryBehavior;
 }
 
 export interface StoreSettings {
@@ -108,6 +134,17 @@ export interface StoreSettings {
   tiktokHandle: string;
   locationCity: string;
   guaranteeText: string;
+  /**
+   * Diapositivas que el dueño administra desde Panel › Ajustes › Historias.
+   * Vacías de fábrica: mientras no suba las suyas, la historia muestra la
+   * diapositiva de ejemplo que trae `INITIAL_STORIES`.
+   *
+   * Las de "Clientes" no están aquí: se arman solas con las entregas reales
+   * que ya se cargan en Panel › Entregas.
+   */
+  shippingSlides: StorySlide[];
+  promoSlides: StorySlide[];
+  reviewSlides: StorySlide[];
 }
 
 export interface FilterState {
