@@ -17,6 +17,16 @@ const DURACION_MS = 2 * 60 * 60 * 1000;
 const HASH_ADMIN = (process.env.ADMIN_PIN_HASH ?? '').trim().toLowerCase();
 const SECRETO = (process.env.ADMIN_SESSION_SECRET ?? '').trim();
 
+/**
+ * Usuario del panel.
+ *
+ * No es un secreto —está escrito en el README— y por sí solo no abre nada: lo
+ * que protege el panel es el PIN. Se exige igual porque es un campo más que hay
+ * que acertar, y se compara acá y no en el navegador para que no se pueda
+ * saltar. Se cambia con `ADMIN_USUARIO`, sin tocar el código.
+ */
+const USUARIO = (process.env.ADMIN_USUARIO ?? 'papi.cardona').trim().toLowerCase();
+
 /** Un hash mal pegado se trata como si no existiera, no como credencial rara. */
 export const pinConfigurado = /^[a-f0-9]{64}$/.test(HASH_ADMIN);
 export const secretoConfigurado = SECRETO.length >= 24;
@@ -40,6 +50,10 @@ export function pinCorrecto(pin: string): boolean {
   if (!pinConfigurado) return false;
   const recibido = createHash('sha256').update(pin, 'utf8').digest('hex');
   return igual(recibido, HASH_ADMIN);
+}
+
+export function usuarioCorrecto(usuario: string): boolean {
+  return igual(usuario.trim().toLowerCase(), USUARIO);
 }
 
 export function emiteToken(): { token: string; expiraEn: number } {

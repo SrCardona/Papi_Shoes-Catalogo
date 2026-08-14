@@ -148,7 +148,10 @@ export async function consultaPanel(): Promise<{
   };
 }
 
-export async function abrirSesion(pin: string): Promise<ResultadoSesion> {
+export async function abrirSesion(
+  usuario: string,
+  pin: string,
+): Promise<ResultadoSesion> {
   const r = await pide<{
     ok?: boolean;
     token?: string;
@@ -158,7 +161,7 @@ export async function abrirSesion(pin: string): Promise<ResultadoSesion> {
   }>('/api/sesion', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({ pin }),
+    body: JSON.stringify({ usuario, pin }),
   });
 
   if (r.tipo !== 'json') return { ok: false, servidor: false, mensaje: FALLO_GENERICO };

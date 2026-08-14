@@ -154,9 +154,18 @@ colorways diferentes.
 - El PIN del panel se guarda como hash SHA-256 (sin sal), nunca en claro. El
   repositorio no distribuye ninguno: el hash del sitio publicado entra por
   `ADMIN_PIN_HASH` (variable de entorno de Vercel, sin prefijo `VITE_` para que
-  no llegue al navegador). Si falta, el panel cae al modo local y lo pide en el
-  primer ingreso. Nunca agregues un PIN ni su hash al código: este repositorio es
-  público.
+  no llegue al navegador). Nunca agregues un PIN ni su hash al código: este
+  repositorio es público, y el hash de un PIN de pocos dígitos se revierte en un
+  segundo. Si alguien lo pide, la respuesta es la variable de entorno.
+- **En el sitio compilado la única puerta es el servidor** (`SOLO_SERVIDOR` en
+  `AuthContext`, que es `!import.meta.env.DEV`). Sin las variables, el panel
+  muestra "Panel cerrado" y no abre para nadie; el alta de PIN local y la
+  validación local solo existen en `npm run dev`. Esto se cerró porque un
+  despliegue sin variables le ofrecía "crea tu PIN" a cualquiera que abriera
+  `/admin`. No lo relajes para "poder entrar rápido".
+- El usuario (`ADMIN_USUARIO`, por defecto `papi.cardona`) también se compara en
+  el servidor. No es un secreto, pero es un campo más que hay que acertar, y el
+  error no dice cuál de los dos falló.
 - `ADMIN_SESSION_SECRET` firma las sesiones de escritura. Mismo trato: solo en
   Vercel, nunca en el repositorio, y nunca con prefijo `VITE_`.
 - Lo que se importe desde un respaldo pasa por `src/lib/validation.ts` antes de

@@ -4,7 +4,7 @@ import { useAuth } from '../context/AuthContext';
 import { BrandLockup } from '../components/ui/TempleMark';
 
 export function AdminLogin() {
-  const { login, needsSetup, setupPin, validaEnServidor } = useAuth();
+  const { login, needsSetup, setupPin, validaEnServidor, panelBloqueado } = useAuth();
   const [username, setUsername] = useState('');
   const [pin, setPin] = useState('');
   const [confirmPin, setConfirmPin] = useState('');
@@ -45,6 +45,35 @@ export function AdminLogin() {
   const field =
     'w-full bg-obsidian border border-white/14 py-3 px-3.5 text-[13px] text-marble placeholder:text-marble/25 focus:outline-none focus:border-silver/50 transition-colors';
 
+  /* Sin servidor que valide, el panel no se abre. Antes esta misma situación
+     mostraba "crea tu PIN" y dejaba entrar a cualquiera que llegara a /admin. */
+  if (panelBloqueado) {
+    return (
+      <div className="min-h-[70vh] flex items-center justify-center px-5 py-16">
+        <div className="w-full max-w-sm">
+          <BrandLockup size="md" className="mb-10" />
+          <div className="bg-basalt border border-white/10 p-7">
+            <div className="flex items-center gap-2.5 mb-6 pb-5 border-b border-white/8">
+              <Lock className="w-4 h-4 text-silver/70" />
+              <h1 className="font-display text-lg text-marble">Panel cerrado</h1>
+            </div>
+            <p className="text-[11.5px] leading-relaxed text-marble/50">
+              Este panel solo abre cuando el servidor puede verificar las
+              credenciales, y todavía no está configurado. No hay forma de entrar
+              desde aquí, y eso es a propósito.
+            </p>
+            <p className="mt-4 text-[11.5px] leading-relaxed text-marble/35">
+              Si eres el dueño: falta definir{' '}
+              <code className="text-silver">ADMIN_PIN_HASH</code> y{' '}
+              <code className="text-silver">ADMIN_SESSION_SECRET</code> en Vercel.
+              Está explicado en el README.
+            </p>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
   return (
     <div className="min-h-[70vh] flex items-center justify-center px-5 py-16">
       <div className="w-full max-w-sm">
@@ -67,16 +96,14 @@ export function AdminLogin() {
 
           {validaEnServidor && (
             <p className="mb-5 text-[11.5px] leading-relaxed text-marble/45">
-              El PIN lo verifica el servidor, así que sirve desde cualquier
-              equipo. Tu sesión dura dos horas y es la que autoriza a publicar
-              los cambios.
+              El usuario y el PIN los verifica el servidor, así que sirven desde
+              cualquier equipo y no se pueden saltar desde el navegador. Tu sesión
+              dura dos horas y es la que autoriza a publicar los cambios.
             </p>
           )}
 
           <form onSubmit={onSubmit} className="space-y-4">
-            {/* Con validación en el servidor el usuario no se pide: el servidor no
-                lo conoce y nunca fue una credencial secreta. */}
-            {!needsSetup && !validaEnServidor && (
+            {!needsSetup && (
               <div>
                 <label
                   htmlFor="admin-user"
@@ -120,7 +147,7 @@ export function AdminLogin() {
                 }}
                 placeholder="••••••"
                 className={`${field} tracking-[0.35em]`}
-                autoFocus={needsSetup || validaEnServidor}
+                autoFocus={needsSetup}
                 required
               />
             </div>

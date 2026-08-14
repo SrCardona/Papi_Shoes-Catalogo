@@ -25,11 +25,26 @@ interface LoginResult {
   message?: string;
 }
 
+/**
+ * En el sitio compilado la única puerta es el servidor.
+ *
+ * Antes, un despliegue sin variables mostraba la pantalla de "crea tu PIN" a
+ * cualquiera que abriera /admin, y ese visitante quedaba dentro del panel en su
+ * propio navegador: podía mirar los ajustes y exportarse el catálogo. El control
+ * local sigue existiendo, pero solo en desarrollo, donde nadie más llega.
+ */
+const SOLO_SERVIDOR = !import.meta.env.DEV;
+
 interface AuthContextValue {
   isAuthenticated: boolean;
   isChecking: boolean;
   /** Este navegador todavía no tiene PIN: hay que crearlo antes de entrar. */
   needsSetup: boolean;
+  /**
+   * No hay forma de entrar: el sitio está publicado y el servidor no puede
+   * validar porque le faltan las variables. Es cerrado a propósito, no un fallo.
+   */
+  panelBloqueado: boolean;
   /**
    * El servidor tiene el PIN configurado y es él quien valida. Cambia lo que el
    * panel puede prometer: el ingreso sirve en cualquier equipo, el PIN ya no se
@@ -65,9 +80,12 @@ export function AuthProvider({ children }: { children: ReactNode }) {
 
       const enServidor = Boolean(panel?.validaEnServidor);
       setValidaEnServidor(enServidor);
-      /* Con validación en el servidor, una sesión local sin token de escritura ya
-         no alcanza: dejaría entrar al panel sin poder guardar nada. */
-      setIsAuthenticated(sesionLocal && (!enServidor || Boolean(leeToken())));
+      /* Una sesión guardada en este navegador no basta: en el sitio publicado hay
+         que tener el token que solo entrega el servidor. Si no, bastaría con
+         haber entrado una vez —o con escribir la llave a mano— para seguir
+         entrando. */
+      const exigeToken = SOLO_SERVIDOR || enServidor;
+      setIsAuthenticated(sesionLocal && (!exigeToken || Boolean(leeToken())));
       setIsChecking(false);
     })();
 
@@ -77,12 +95,23 @@ export function AuthProvider({ children }: { children: ReactNode }) {
   }, []);
 
   /* El código no trae ningún PIN, así que un `adminPinHash` vacío significa
-     "primer arranque en este navegador", no "credencial inválida". Cuando el
-     servidor valida no hay nada que crear: el PIN ya existe, en Vercel. */
-  const needsSetup = !validaEnServidor && settings.adminPinHash === '';
+     "primer arranque en este navegador", no "credencial inválida". Eso solo vale
+     en desarrollo: en el sitio publicado el PIN ya existe, en Vercel, y no hay
+     nada que crear. */
+  const needsSetup =
+    !SOLO_SERVIDOR && !validaEnServidor && settings.adminPinHash === '';
+
+  const panelBloqueado = SOLO_SERVIDOR && !validaEnServidor;
 
   const setupPin = useCallback(
     async (pin: string): Promise<LoginResult> => {
+      // Cinturón, además del tirante: la pantalla ni se muestra fuera de desarrollo.
+      if (SOLO_SERVIDOR) {
+        return {
+          ok: false,
+          message: 'El PIN del sitio publicado se configura en Vercel, no aquí.',
+        };
+      }
       if (settings.adminPinHash !== '') {
         return { ok: false, message: 'Ya hay un PIN definido en este navegador.' };
       }
@@ -109,12 +138,10 @@ export function AuthProvider({ children }: { children: ReactNode }) {
         };
       }
 
-      /* Camino normal del sitio publicado: valida el servidor y devuelve el token
-         que autoriza a escribir en la nube. El usuario no entra en la cuenta —no
-         es un secreto y el servidor no lo conoce—: lo que protege el panel es el
-         PIN. */
+      /* Camino normal del sitio publicado: el servidor compara usuario y PIN, y
+         devuelve el token que autoriza a escribir en la nube. */
       if (validaEnServidor) {
-        const remoto = await abrirSesion(pin.trim());
+        const remoto = await abrirSesion(username, pin.trim());
         if (remoto.ok) {
           resetAttempts();
           await issueSession();
@@ -131,6 +158,17 @@ export function AuthProvider({ children }: { children: ReactNode }) {
         }
         /* El servidor existe pero no está en condiciones de validar (le faltan
            variables). Sigue el control local de siempre. */
+      }
+
+      /* En el sitio publicado no hay control local que valga: cualquier
+         credencial guardada en este navegador la puso este navegador, y aceptarla
+         sería la misma puerta abierta que se cerró. */
+      if (SOLO_SERVIDOR) {
+        return {
+          ok: false,
+          message:
+            'El panel está cerrado hasta que el servidor pueda validar. Configura ADMIN_PIN_HASH y ADMIN_SESSION_SECRET en Vercel.',
+        };
       }
 
       const userOk = safeCompare(
@@ -201,6 +239,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
       isAuthenticated,
       isChecking,
       needsSetup,
+      panelBloqueado,
       validaEnServidor,
       login,
       logout,
@@ -211,6 +250,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
       isAuthenticated,
       isChecking,
       needsSetup,
+      panelBloqueado,
       validaEnServidor,
       login,
       logout,

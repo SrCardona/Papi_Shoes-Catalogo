@@ -30,17 +30,29 @@ invocarlo al desmontar el componente. Corre `npm run lint` antes de publicar.
 
 ## ⚠️ Antes de publicar el sitio
 
-### 1. Guardar los cambios en la nube
+### 1. Abrir el panel (y cerrárselo a los demás)
 
-Sin esto el panel funciona igual, pero **cada cambio se queda en el navegador
-donde lo hiciste**: no lo ven los visitantes ni tu otro equipo, y se pierde si
-limpias el navegador. Es una configuración de una sola vez, en Vercel:
+**Sin estas variables el panel del sitio publicado no abre para nadie**, ni para
+ti: la pantalla de ingreso dice "Panel cerrado". Es a propósito. Cualquier
+credencial que viviera en el código o en el navegador sería pública —el
+repositorio es público y el bundle lo lee cualquiera—, así que la única puerta
+del sitio publicado es el servidor. En desarrollo (`npm run dev`) sí puedes
+crear un PIN local y entrar, porque ahí no llega nadie más.
+
+Es una configuración de una sola vez, en Vercel:
 
 1. **El almacén.** *Storage › Create › Blob*, y conéctalo a este proyecto. Eso
    crea la variable `BLOB_READ_WRITE_TOKEN` sola: no la escribas a mano.
-2. **El PIN del panel.** Abre `/admin`, entra a **Ajustes › Seguridad › Hash
-   para Vercel**, escribe el PIN que quieras usar y copia el hash. En
-   *Settings › Environment Variables*, crea `ADMIN_PIN_HASH` con ese valor.
+2. **El PIN del panel.** En *Settings › Environment Variables*, crea
+   `ADMIN_PIN_HASH` con el hash SHA-256 del PIN. Para calcularlo sin que el PIN
+   salga de tu equipo, en una terminal (cambia `TU_PIN`):
+
+   ```bash
+   node -e "console.log(require('crypto').createHash('sha256').update('TU_PIN').digest('hex'))"
+   ```
+
+   También lo calcula el panel en **Ajustes › Seguridad › Hash para Vercel**, sin
+   terminal, si ya puedes entrar (con `npm run dev`, por ejemplo).
 3. **La firma de las sesiones.** Genera una cadena aleatoria y guárdala en
    `ADMIN_SESSION_SECRET`:
 
@@ -48,18 +60,22 @@ limpias el navegador. Es una configuración de una sola vez, en Vercel:
    node -e "console.log(require('crypto').randomBytes(32).toString('hex'))"
    ```
 
-Vuelve a desplegar. Entra al panel: en **Ajustes › Nube** debe decir
-"Publicado", y el encabezado muestra el estado en cada pantalla.
+4. **El usuario** es `papi.cardona`. Si quieres otro, ponlo en `ADMIN_USUARIO`.
+
+Vuelve a desplegar. Entra al panel con el usuario y el PIN: en **Ajustes › Nube**
+debe decir "Publicado", y el encabezado muestra el estado en cada pantalla.
 
 Nunca pongas el PIN en texto plano en un archivo, un commit ni una variable:
-solo el hash. Este repositorio es público y un PIN publicado es un PIN conocido.
-Las tres variables viven en Vercel y ninguna se commitea. `ADMIN_PIN_HASH` y
-`ADMIN_SESSION_SECRET` no llevan el prefijo `VITE_` a propósito: así se quedan
-en el servidor y no entran al código que descarga el navegador.
+solo el hash. Este repositorio es público y un PIN publicado es un PIN conocido
+—y el hash de un PIN corto también, porque se prueban el millón de combinaciones
+en un segundo—. Las variables viven en Vercel y ninguna se commitea.
+`ADMIN_PIN_HASH`, `ADMIN_SESSION_SECRET` y `ADMIN_USUARIO` no llevan el prefijo
+`VITE_` a propósito: así se quedan en el servidor y no entran al código que
+descarga el navegador.
 
-Con esto configurado, el ingreso al panel lo valida el servidor y sirve desde
-cualquier equipo. El usuario deja de pedirse: nunca fue un secreto, y lo que
-protege el panel es el PIN.
+Con esto configurado, el servidor compara usuario y PIN, cuenta los intentos
+fallidos y es el único que puede autorizar un cambio. Un PIN largo ayuda: el
+formato acepta hasta 12 dígitos.
 
 ### 2. Trabajar desde otro equipo
 
@@ -330,9 +346,14 @@ que son las únicas que pueden escribir en la nube.
 
 **Lo que sí hace:**
 
-- El PIN se compara **en el servidor**, contra `ADMIN_PIN_HASH`. Ese hash no
-  entra al bundle, así que nadie se lo puede descargar para probarlo por fuerza
-  bruta sin conexión.
+- El usuario y el PIN se comparan **en el servidor**, contra `ADMIN_USUARIO` y
+  `ADMIN_PIN_HASH`. Ese hash no entra al bundle, así que nadie se lo puede
+  descargar para probarlo por fuerza bruta sin conexión, y el control no se
+  puede saltar tocando el navegador. Si falla cualquiera de los dos, la respuesta
+  es la misma: no se dice cuál.
+- En el sitio publicado **no hay puerta local**. Sin las variables del servidor
+  el panel no abre para nadie, y una sesión guardada en el navegador no sirve sin
+  el token que solo entrega el servidor.
 - Escribir exige un token firmado (HMAC con `ADMIN_SESSION_SECRET`) que caduca a
   las dos horas. El navegador solo guarda ese token; el PIN no se guarda.
 - Cinco intentos fallidos bloquean quince minutos, y el contador vive en el
@@ -355,9 +376,10 @@ que son las únicas que pueden escribir en la nube.
 
 **Lo que no puede hacer:**
 
-- Sin las variables configuradas, el panel vuelve al control local: valida en el
-  navegador y los cambios no salen de ese equipo. Sirve para que un visitante
-  casual no entre, no para frenar a alguien con conocimientos técnicos.
+- En desarrollo (`npm run dev`) sigue existiendo el control local, que valida en
+  el navegador y se puede saltar leyendo el código. Ahí no importa: no hay nadie
+  más y los cambios no salen del equipo. En el sitio publicado ese camino está
+  cerrado.
 - Un PIN es un PIN: si se lo prestas a alguien, ese alguien puede editar el
   catálogo del sitio. No hay usuarios separados ni permisos por persona.
 - El documento publicado es público, como el catálogo que describe. No pongas

@@ -20,6 +20,7 @@ import {
   pinCorrecto,
   secretoConfigurado,
   sesionDisponible,
+  usuarioCorrecto,
 } from './_lib/sesion.js';
 
 /** Freno a la fuerza bruta: cada fallo cuesta tiempo de reloj al que insiste. */
@@ -35,6 +36,8 @@ export function GET(): Response {
       nube: almacenDisponible,
       faltaPin: !pinConfigurado,
       faltaSecreto: !secretoConfigurado,
+      // El panel necesita saber que tiene que pedir usuario y no solo PIN.
+      pideUsuario: true,
     },
     { cache: 'no-store' },
   );
@@ -52,7 +55,11 @@ export async function POST(request: Request): Promise<Response> {
     );
   }
 
-  const cuerpo = (await request.json().catch(() => null)) as { pin?: unknown } | null;
+  const cuerpo = (await request.json().catch(() => null)) as {
+    usuario?: unknown;
+    pin?: unknown;
+  } | null;
+  const usuario = typeof cuerpo?.usuario === 'string' ? cuerpo.usuario : '';
   const pin = typeof cuerpo?.pin === 'string' ? cuerpo.pin.trim() : '';
 
   const huella = huellaDeIp(request);
@@ -77,7 +84,9 @@ export async function POST(request: Request): Promise<Response> {
     );
   }
 
-  if (!pinCorrecto(pin)) {
+  /* Se comprueban los dos y se responde igual falle cualquiera: decir cuál de
+     los dos estuvo mal le regalaría media credencial al que prueba. */
+  if (!usuarioCorrecto(usuario) || !pinCorrecto(pin)) {
     const restantes = await registraFallo(huella);
     await new Promise((listo) => setTimeout(listo, CASTIGO_MS));
     return json(
@@ -85,7 +94,7 @@ export async function POST(request: Request): Promise<Response> {
         disponible: true,
         error:
           restantes > 0
-            ? `PIN incorrecto. Te quedan ${restantes} intento${restantes === 1 ? '' : 's'}.`
+            ? `Usuario o PIN incorrecto. Te quedan ${restantes} intento${restantes === 1 ? '' : 's'}.`
             : 'Acceso bloqueado por 15 minutos tras varios intentos fallidos.',
       },
       { status: 401 },
