@@ -13,12 +13,13 @@ import {
   Users,
   X,
 } from 'lucide-react';
-import type { StoryHighlight } from '../../types';
-import { INITIAL_STORIES } from '../../data/initialData';
+import { useNavigate } from 'react-router-dom';
+import type { Delivery, StoreSettings, StoryHighlight, StorySlide } from '../../types';
+import { INITIAL_STORIES, STORY_WHATSAPP_MESSAGES } from '../../data/initialData';
 import { useStore } from '../../context/StoreContext';
 import { SmartImage } from './SmartImage';
 import { TempleMark } from './TempleMark';
-import { generateDirectWhatsAppContact } from '../../lib/utils';
+import { generateDirectWhatsAppContact, waHref } from '../../lib/utils';
 
 /**
  * Las diez historias destacadas del manual de marca.
@@ -45,8 +46,96 @@ function HighlightIcon({ name }: { name: string }) {
   return <Icon className="w-5 h-5" />;
 }
 
+/**
+ * Las diapositivas que toca mostrar para una historia.
+ *
+ * Cuatro de las diez se llenan con material que sube el dueño, y ninguna vive
+ * en el código: clientes sale de las entregas ya cargadas, y envíos, promos y
+ * reseñas de Panel › Ajustes › Historias. Mientras esas fuentes estén vacías
+ * se enseña la diapositiva de ejemplo de `INITIAL_STORIES`, y si tampoco hay,
+ * un texto de relleno; así el visor nunca abre en blanco.
+ */
+function resolveSlides(
+  story: StoryHighlight,
+  deliveries: Delivery[],
+  settings: StoreSettings,
+): StorySlide[] {
+  if (story.id === 'clientes') {
+    if (!deliveries.length) {
+      return [
+        {
+          image: story.slides[0]?.image ?? story.previewImage,
+          caption: 'Pronto aquí las historias de nuestros clientes.',
+        },
+      ];
+    }
+    return [...deliveries]
+      .sort((a, b) => Date.parse(b.deliveredAt) - Date.parse(a.deliveredAt))
+      .map((delivery) => ({
+        image: delivery.image,
+        title: delivery.productName || undefined,
+        caption: [delivery.neighborhood, delivery.city].filter(Boolean).join(' · '),
+      }));
+  }
+
+  const propias: Record<string, StorySlide[]> = {
+    envios: settings.shippingSlides,
+    promos: settings.promoSlides,
+    resenas: settings.reviewSlides,
+  };
+  const subidas = propias[story.id];
+  if (subidas?.length) return subidas;
+
+  if (story.id === 'resenas' && !story.slides.length) {
+    return [
+      {
+        image: story.previewImage,
+        caption: 'Pronto aquí las reseñas de nuestros clientes.',
+      },
+    ];
+  }
+
+  return story.slides;
+}
+
 export function HighlightRail() {
+  const navigate = useNavigate();
+  const { deliveries, settings } = useStore();
   const [active, setActive] = useState<StoryHighlight | null>(null);
+
+  /**
+   * Un solo sitio decide qué hace cada círculo. Los que abren WhatsApp o
+   * navegan no montan el visor: sería un paso de más para llegar a algo que
+   * el cliente ya pidió al tocar.
+   */
+  const open = (story: StoryHighlight) => {
+    const behavior = story.behavior ?? { type: 'slides' as const };
+
+    switch (behavior.type) {
+      case 'navigate':
+        navigate(behavior.to);
+        return;
+
+      case 'catalog-filter':
+        navigate(`/catalogo?marca=${encodeURIComponent(behavior.filter)}`);
+        return;
+
+      case 'whatsapp': {
+        const message =
+          STORY_WHATSAPP_MESSAGES[behavior.messageKey] ??
+          `Hola, quiero información sobre ${story.title.toLowerCase()} 👟`;
+        window.open(
+          waHref(settings.whatsappNumber, message),
+          '_blank',
+          'noopener,noreferrer',
+        );
+        return;
+      }
+
+      default:
+        setActive({ ...story, slides: resolveSlides(story, deliveries, settings) });
+    }
+  };
 
   return (
     <>
@@ -64,14 +153,24 @@ export function HighlightRail() {
               {INITIAL_STORIES.map((story) => (
                 <button
                   key={story.id}
-                  onClick={() => setActive(story)}
+                  onClick={() => open(story)}
+                  aria-label={story.title}
                   className="group flex flex-col items-center gap-2.5 shrink-0 w-[74px]"
                 >
-                  <span className="w-[58px] h-[58px] rounded-full border border-silver/25 group-hover:border-silver/70 flex items-center justify-center text-silver/70 group-hover:text-silver transition-all duration-300 group-hover:-translate-y-0.5">
+                  <span className="relative w-[58px] h-[58px] rounded-full border border-silver/25 group-hover:border-silver/70 flex items-center justify-center text-silver/70 group-hover:text-silver transition-all duration-300 group-hover:-translate-y-0.5">
                     <HighlightIcon name={story.iconName} />
+
+                    {/* Las que abren WhatsApp llevan un punto apagado: avisa
+                        que el toque sale de la página sin gritar. */}
+                    {story.behavior?.type === 'whatsapp' && (
+                      <span
+                        aria-hidden
+                        className="absolute top-0 right-0 w-1 h-1 rounded-full bg-emerald-500/70"
+                      />
+                    )}
                   </span>
                   <span className="text-[8px] font-semibold uppercase tracking-[0.14em] text-marble/45 group-hover:text-marble/85 text-center leading-tight transition-colors">
-                    {story.title}
+                    {story.label ?? story.title}
                   </span>
                 </button>
               ))}

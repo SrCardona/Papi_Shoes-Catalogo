@@ -33,7 +33,13 @@ export function discountPercent(sneaker: Sneaker): number | null {
 
 const TEMPLATE_VARS = ['{modelo}', '{talla}', '{precio}', '{categoria}'] as const;
 
-function waHref(number: string, message: string): string {
+/**
+ * Enlace a wa.me con el número reducido a dígitos y el mensaje ya codificado.
+ * Se exporta para los casos en que el texto va literal —la fila de historias,
+ * por ejemplo— y no debe pasar por la plantilla de producto ni por el saludo
+ * que antepone `generateDirectWhatsAppContact`.
+ */
+export function waHref(number: string, message: string): string {
   const clean = number.replace(/\D/g, '');
   return `https://wa.me/${clean}?text=${encodeURIComponent(message)}`;
 }

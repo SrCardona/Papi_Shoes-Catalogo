@@ -91,12 +91,23 @@ export const BRAND_WALL = [
 ] as const;
 
 
-/* ── Historias destacadas (las 10 del manual de marca) ──────────────────── */
+/* ── Historias destacadas (las 10 del manual de marca) ──────────────────────
+   Cada una hace algo distinto al tocarla, según su `behavior`:
+
+   · navigate  → atajo a una página que ya existe. Enseñar una diapositiva
+                 antes de llevar al catálogo solo ponía un paso de más.
+   · whatsapp  → la historia es una conversación, no una foto.
+   · slides    → visor. Las de clientes, envíos, promos y reseñas se llenan
+                 con material del dueño (entregas y Panel › Ajustes ›
+                 Historias); las diapositivas de aquí abajo son el ejemplo
+                 que se ve mientras no haya subido las suyas.
+   ────────────────────────────────────────────────────────────────────────── */
 
 export const INITIAL_STORIES: StoryHighlight[] = [
   {
     id: 'el-templo',
     title: 'EL TEMPLO',
+    behavior: { type: 'navigate', to: '/nosotros' },
     iconName: 'Temple',
     previewImage: 'https://images.unsplash.com/photo-1552346154-21d32810aba3?auto=format&fit=crop&w=600&q=80',
     slides: [
@@ -111,6 +122,7 @@ export const INITIAL_STORIES: StoryHighlight[] = [
   {
     id: 'clientes',
     title: 'CLIENTES',
+    behavior: { type: 'slides' },
     iconName: 'Users',
     previewImage: 'https://images.unsplash.com/photo-1512374382149-233c42b6a83b?auto=format&fit=crop&w=600&q=80',
     slides: [
@@ -131,6 +143,7 @@ export const INITIAL_STORIES: StoryHighlight[] = [
   {
     id: 'originales',
     title: 'ORIGINALES',
+    behavior: { type: 'navigate', to: '/originales' },
     iconName: 'ShieldCheck',
     previewImage: 'https://images.unsplash.com/photo-1579338559194-a162d19bf842?auto=format&fit=crop&w=600&q=80',
     slides: [
@@ -152,6 +165,7 @@ export const INITIAL_STORIES: StoryHighlight[] = [
   {
     id: 'catalogo',
     title: 'CATÁLOGO',
+    behavior: { type: 'navigate', to: '/catalogo' },
     iconName: 'Package',
     previewImage: 'https://images.unsplash.com/photo-1607522370275-f14206abe5d3?auto=format&fit=crop&w=600&q=80',
     slides: [
@@ -167,6 +181,8 @@ export const INITIAL_STORIES: StoryHighlight[] = [
   {
     id: 'bajo-encargo',
     title: 'BAJO ENCARGO',
+    label: 'ENCARGOS',
+    behavior: { type: 'whatsapp', messageKey: 'bajo-encargo' },
     iconName: 'ShoppingBag',
     previewImage: 'https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?auto=format&fit=crop&w=600&q=80',
     slides: [
@@ -182,6 +198,7 @@ export const INITIAL_STORIES: StoryHighlight[] = [
   {
     id: 'referencias',
     title: 'REFERENCIAS',
+    behavior: { type: 'whatsapp', messageKey: 'referencias' },
     iconName: 'SearchCheck',
     previewImage: 'https://images.unsplash.com/photo-1539185441755-769473a23570?auto=format&fit=crop&w=600&q=80',
     slides: [
@@ -196,6 +213,7 @@ export const INITIAL_STORIES: StoryHighlight[] = [
   {
     id: 'envios',
     title: 'ENVÍOS',
+    behavior: { type: 'slides' },
     iconName: 'Truck',
     previewImage: 'https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=600&q=80',
     slides: [
@@ -210,6 +228,7 @@ export const INITIAL_STORIES: StoryHighlight[] = [
   {
     id: 'promos',
     title: 'PROMOS',
+    behavior: { type: 'slides' },
     iconName: 'Percent',
     previewImage: 'https://images.unsplash.com/photo-1549298916-b41d501d3772?auto=format&fit=crop&w=600&q=80',
     slides: [
@@ -224,6 +243,9 @@ export const INITIAL_STORIES: StoryHighlight[] = [
   {
     id: 'faq',
     title: 'FAQ',
+    // La página de preguntas vive en /preguntas, no en /faq: apuntar a /faq
+    // caía en la pantalla de "no encontrado".
+    behavior: { type: 'navigate', to: '/preguntas' },
     iconName: 'HelpCircle',
     previewImage: 'https://images.unsplash.com/photo-1556906781-9a412961c28c?auto=format&fit=crop&w=600&q=80',
     slides: [
@@ -239,6 +261,7 @@ export const INITIAL_STORIES: StoryHighlight[] = [
   {
     id: 'resenas',
     title: 'RESEÑAS',
+    behavior: { type: 'slides' },
     iconName: 'Star',
     previewImage: 'https://images.unsplash.com/photo-1560769629-975ec94e6a86?auto=format&fit=crop&w=600&q=80',
     slides: [
@@ -251,6 +274,16 @@ export const INITIAL_STORIES: StoryHighlight[] = [
     ],
   },
 ];
+
+/**
+ * Mensajes con los que se abre WhatsApp desde la fila de historias, por
+ * `messageKey`. Aquí y no en el componente para que el texto que le llega al
+ * cliente se lea junto al resto de los textos de la marca.
+ */
+export const STORY_WHATSAPP_MESSAGES: Record<string, string> = {
+  'bajo-encargo': 'Hola, quiero cotizar un par bajo encargo 👟',
+  referencias: 'Hola, quiero información sobre referencias y lanzamientos 👟',
+};
 
 
 /* ── Entregas documentadas ───────────────────────────────────────────────
