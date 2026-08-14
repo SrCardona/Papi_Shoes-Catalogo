@@ -99,6 +99,9 @@ const IMAGE_EXT = new Set(['.jpg', '.jpeg', '.png', '.webp', '.avif', '.gif']);
 /* El orden importa: "air jordan" debe ganarle a "nike". */
 const BRAND_RULES = [
   [/louis\s?vuitton|\blv\b/i, 'Louis Vuitton'],
+  [/calvin\s?klein|\bck\b/i, 'Calvin Klein'],
+  [/hugo\s?boss|\bboss\b|\bhugo\b/i, 'Hugo Boss'],
+  [/\bguess\b/i, 'Guess'],
   [/travis|cactus\s?jack/i, 'Travis Scott'],
   [/off[\s-]?white|\bow\b/i, 'Off-White'],
   [/yeezy|\b350\b|\b700\b|\bfoam\b/i, 'Yeezy'],
@@ -130,6 +133,11 @@ const BRAND_FOLDERS = new Map([
   ['off-white', 'Off-White'],
   ['louis-vuitton', 'Louis Vuitton'],
   ['lv', 'Louis Vuitton'],
+  ['calvin-klein', 'Calvin Klein'],
+  ['ck', 'Calvin Klein'],
+  ['hugo-boss', 'Hugo Boss'],
+  ['boss', 'Hugo Boss'],
+  ['guess', 'Guess'],
   ['puma', 'Puma'],
   ['asics', 'Asics'],
   ['otras', 'Otras'],
@@ -216,7 +224,11 @@ function stripGenderTokens(slug) {
 function readPrices() {
   const byFile = new Map();
   const byBrand = new Map();
-  if (!existsSync(PRICES_FILE)) return { byFile, byBrand };
+  const byOriginalBrand = new Map();
+  let originals = null;
+  if (!existsSync(PRICES_FILE)) {
+    return { byFile, byBrand, byOriginalBrand, originals };
+  }
 
   const toNumber = (raw) => {
     const n = Number(String(raw ?? '').replace(/[^\d]/g, ''));
@@ -231,11 +243,28 @@ function readPrices() {
     const price = toNumber(value);
     if (!price) continue;
     const entry = { price, before: toNumber(before) };
-    const marca = key.trim().match(/^marca\s*:\s*(.+)$/i);
+    const etiqueta = key.trim();
+
+    // `originales:Jordan` — esa marca, pero solo en la línea Originales. Un
+    // Jordan verificado no puede costar lo mismo que uno de uso diario, y
+    // `marca:Jordan` por sí solo no distingue entre las dos líneas.
+    const originalMarca = etiqueta.match(/^originales\s*:\s*(.+)$/i);
+    if (originalMarca) {
+      byOriginalBrand.set(originalMarca[1].trim().toLowerCase(), entry);
+      continue;
+    }
+
+    // `originales` a secas — toda la línea, para lo que no tenga fila propia.
+    if (/^originales$/i.test(etiqueta)) {
+      originals = entry;
+      continue;
+    }
+
+    const marca = etiqueta.match(/^marca\s*:\s*(.+)$/i);
     if (marca) byBrand.set(marca[1].trim().toLowerCase(), entry);
-    else byFile.set(slugify(key), entry);
+    else byFile.set(slugify(etiqueta), entry);
   }
-  return { byFile, byBrand };
+  return { byFile, byBrand, byOriginalBrand, originals };
 }
 
 /* ── Proceso ─────────────────────────────────────────────────────────────── */
@@ -408,14 +437,24 @@ const marcasDudosas = [];
   if (brand === 'Otras' && !ajuste.brand && !group.brandFromFolder) {
     marcasDudosas.push(name);
   }
-  // El par manda sobre su marca, y la marca sobre las banderas del comando.
-  const tarifa = prices.byFile.get(group.key) ?? prices.byBrand.get(brand.toLowerCase()) ?? {};
+  /* De lo más específico a lo más general: el par, luego su marca dentro de
+     la línea Originales, luego la línea Originales entera, luego la marca sin
+     distinguir línea, y al final las banderas del comando. */
+  const llave = brand.toLowerCase();
+  const tarifa =
+    prices.byFile.get(group.key) ??
+    (category === 'originales'
+      ? (prices.byOriginalBrand.get(llave) ?? prices.originals)
+      : null) ??
+    prices.byBrand.get(llave) ??
+    {};
   const price = tarifa.price || PRECIO_BASE;
   const antes = tarifa.before || PRECIO_ANTES;
   if (!price) sinPrecio.push(group.key);
 
   const hash = createHash('sha1').update(group.key).digest('hex');
   const llegada = registro[group.key];
+  const esOriginal = category === 'originales';
 
   sneakers.push({
     id: `sneaker-${group.key}`.slice(0, 78),
@@ -429,15 +468,21 @@ const marcasDudosas = [];
     originalPrice: antes > price ? antes : undefined,
     images: group.images,
     sizes: SIZES_BY_GENDER[gender],
-    status: 'disponible',
+    /* Los originales se traen por pedido, no se tienen en bodega: entran como
+       "bajo encargo" salvo que el ajuste del par diga otra cosa. Anunciar
+       entrega inmediata de algo que hay que encargar es una promesa que
+       después toca desdecir por WhatsApp. */
+    status: ajuste.status ?? (esOriginal ? 'bajo_encargo' : 'disponible'),
     isFeatured: enElAltar.has(group.key),
     isNewArrival: recienLlegados.has(group.key),
-    isOriginalCertified: category === 'originales',
+    isOriginalCertified: esOriginal,
     description: ajuste.description ?? '',
     details: {
-      condition: ajuste.condition ?? 'Nuevo en caja',
+      condition: ajuste.condition ?? (esOriginal ? 'Original nuevo en caja' : 'Nuevo en caja'),
       colorway: ajuste.colorway ?? '',
-      includedItems: ['Caja original'],
+      /* "Caja original" solo donde el par lo es. En la línea Sneakers esa
+         frase afirmaba una autenticidad que esos pares no tienen. */
+      includedItems: esOriginal ? ['Caja original', 'Comprobante de procedencia'] : ['Caja'],
     },
     viewsCount: 0,
     inquiriesCount: 0,

@@ -1,0 +1,45 @@
+{
+  "puma-caven-2-0": {
+    "name": "Puma Caven 2.0",
+    "colorway": ""
+  },
+  "puma-caven-bmw": {
+    "name": "Puma Caven BMW M Motorsport",
+    "colorway": "",
+    "description": "La Caven de la línea BMW M Motorsport, con los colores del equipo en el talón."
+  },
+  "puma-rebound": {
+    "name": "Puma Rebound",
+    "colorway": ""
+  },
+  "puma-rebound-low": {
+    "name": "Puma Rebound Low",
+    "colorway": ""
+  },
+  "puma-robound-b": {
+    "name": "Puma Rebound Negro",
+    "colorway": "Black"
+  },
+  "puma-shuffle": {
+    "name": "Puma Shuffle",
+    "colorway": "",
+    "description": "Silueta de corte bajo en cuero, con la fórmula del Puma clásico y suela de goma."
+  },
+  "puma-smash": {
+    "name": "Puma Smash",
+    "colorway": ""
+  },
+  "puma-smash-3-0": {
+    "name": "Puma Smash 3.0",
+    "colorway": ""
+  },
+  "puma-smash-3-0-b-n": {
+    "name": "Puma Smash 3.0 Blanco / Negro",
+    "colorway": "White / Black"
+  },
+  "puma-suede-xl": {
+    "name": "Puma Suede XL",
+    "colorway": "",
+    "description": "La Suede de siempre con la banda y la lengüeta engordadas. Gamuza y suela de goma."
+  }
+}

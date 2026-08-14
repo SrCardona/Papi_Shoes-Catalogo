@@ -8,3 +8,13 @@ marca:Jordan,180000,210000
 marca:New Balance,180000,210000
 marca:Louis Vuitton,190000,230000
 marca:Otras,190000,230000
+marca:Calvin Klein,190000,230000
+marca:Hugo Boss,190000,230000
+
+# Línea Originales. Una fila `originales:<Marca>` le gana a la de `marca:`,
+# para que un par verificado no herede el precio de la línea de uso diario.
+originales:Nike,380000,450000
+originales:Puma,280000,340000
+originales:Calvin Klein,280000,340000
+originales:Guess,280000,340000
+originales:Hugo Boss,450000,520000

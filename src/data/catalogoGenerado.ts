@@ -45,7 +45,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo",
       "colorway": "",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -85,7 +85,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "White / Purple / Lime",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -125,7 +125,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "Solar Yellow / Black",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -165,7 +165,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "White / Black / Gum",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -205,7 +205,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "Core Black / Cloud White",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -245,7 +245,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "Grey / Cloud White",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -285,7 +285,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -325,7 +325,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "Blue / White",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -365,7 +365,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "Cream / Orange / Green",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -405,7 +405,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -445,7 +445,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -485,7 +485,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "Core Black",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -525,7 +525,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -565,7 +565,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -605,7 +605,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -645,7 +645,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "Brown / Pink / Cream",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -685,7 +685,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "Cloud White / Grey / Cream",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -725,7 +725,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -765,7 +765,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "White / Blue",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -805,7 +805,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -845,7 +845,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -885,7 +885,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "White / Coral / Mint",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -925,7 +925,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "Brown / Gum",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -965,7 +965,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "Red / Gum",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -1005,7 +1005,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -1045,7 +1045,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "Olive Green / Gum",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -1085,7 +1085,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "White / Collegiate Navy",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -1125,7 +1125,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "White / Core Black",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -1165,7 +1165,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "White / Green",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -1205,7 +1205,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "Core Black / White",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -1245,7 +1245,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "White / Multicolor",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -1285,7 +1285,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "White / Reflective",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -1325,7 +1325,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "Triple White",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -1365,7 +1365,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "Cloud White / Core Black",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -1405,7 +1405,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -1445,7 +1445,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -1485,7 +1485,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "Core Black",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -1517,7 +1517,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       44
     ],
     "status": "disponible",
-    "isFeatured": true,
+    "isFeatured": false,
     "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
@@ -1525,7 +1525,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "Black / White",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -1557,7 +1557,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       44
     ],
     "status": "disponible",
-    "isFeatured": true,
+    "isFeatured": false,
     "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
@@ -1565,7 +1565,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -1605,7 +1605,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "Grey / Sail",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -1645,7 +1645,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "Black / Silver",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -1685,7 +1685,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "White / Black",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -1725,7 +1725,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "Black / White",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -1765,7 +1765,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "Black / Varsity Red",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -1805,7 +1805,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "White / Black / Varsity Red",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -1845,7 +1845,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "White / Gold",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -1885,7 +1885,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "Obsidian / University Blue",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -1925,7 +1925,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "Obsidian / Sail / University Blue",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -1965,7 +1965,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "Black / Varsity Red",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -2005,7 +2005,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "University Blue / Black / White",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -2045,7 +2045,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "Washed Pink / Sail",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -2085,7 +2085,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "University Blue / White",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -2125,7 +2125,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "Black / Phantom",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -2165,7 +2165,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "Light Pink / White",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -2205,7 +2205,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "Pink / Green / White",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -2245,7 +2245,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "Grey / White",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -2285,7 +2285,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "Triple Red",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -2325,7 +2325,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "Black / Concord",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -2365,7 +2365,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "White / Black / Concord",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -2405,7 +2405,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "Black / Varsity Red",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -2445,7 +2445,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "Black / Varsity Red / White",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -2485,7 +2485,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "Black / Cement Grey",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -2525,7 +2525,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "White / Fire Red / Cement Grey",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -2565,7 +2565,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "White / Valor Blue",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -2605,7 +2605,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "White / Black",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -2645,7 +2645,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "Black / Cement",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -2685,7 +2685,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "Orange / Black",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -2725,7 +2725,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "Multicolor",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -2765,7 +2765,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "Triple Black",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -2805,7 +2805,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "Black / Cement Grey / Fire Red",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -2845,7 +2845,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "Pine Green / White",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -2885,7 +2885,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "Triple Brown",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -2925,7 +2925,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "White / Black / Tour Yellow",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -2965,7 +2965,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "Sail / Muslin",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -3005,7 +3005,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "Guava Ice / Light Fusion Red",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -3045,7 +3045,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "White / Infrared",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -3077,15 +3077,15 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       44
     ],
     "status": "disponible",
-    "isFeatured": true,
-    "isNewArrival": true,
+    "isFeatured": false,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
       "condition": "Nuevo en caja",
       "colorway": "",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -3117,15 +3117,15 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       44
     ],
     "status": "disponible",
-    "isFeatured": true,
-    "isNewArrival": true,
+    "isFeatured": false,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
       "condition": "Nuevo en caja",
       "colorway": "Pink / White",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -3157,15 +3157,15 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       44
     ],
     "status": "disponible",
-    "isFeatured": true,
-    "isNewArrival": true,
+    "isFeatured": false,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "La Bape Sta en charol, con la estrella negra sobre cuero blanco y suela de goma.",
     "details": {
       "condition": "Nuevo en caja",
       "colorway": "White / Black",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -3198,14 +3198,14 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
       "condition": "Nuevo en caja",
       "colorway": "Black / White",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -3238,14 +3238,14 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
       "condition": "Nuevo en caja",
       "colorway": "White",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -3254,9 +3254,50 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "updatedAt": "2026-08-13T19:36:12.000Z"
   },
   {
+    "id": "sneaker-hugo-boss-aiden-block",
+    "name": "BOSS Aiden Block",
+    "brand": "Hugo Boss",
+    "model": "BOSS Aiden Block",
+    "sku": "PAPI-1393",
+    "category": "originales",
+    "gender": "unisex",
+    "price": 450000,
+    "originalPrice": 520000,
+    "images": [
+      "/catalogo/originales/hugo-boss/hugo-boss-aiden-block.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "bajo_encargo",
+    "isFeatured": true,
+    "isNewArrival": true,
+    "isOriginalCertified": true,
+    "description": "",
+    "details": {
+      "condition": "Original nuevo en caja",
+      "colorway": "",
+      "includedItems": [
+        "Caja original",
+        "Comprobante de procedencia"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-14T15:29:51.536Z",
+    "updatedAt": "2026-08-14T15:29:51.536Z"
+  },
+  {
     "id": "sneaker-boss-black-pillow",
     "name": "Boss Black Pillow",
-    "brand": "Otras",
+    "brand": "Hugo Boss",
     "model": "Boss Black Pillow",
     "sku": "PAPI-1037",
     "category": "general",
@@ -3264,7 +3305,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "price": 190000,
     "originalPrice": 230000,
     "images": [
-      "/catalogo/sneakers/otras/boss-black-pillow.jpg"
+      "/catalogo/sneakers/hugo-boss/boss-black-pillow.jpg"
     ],
     "sizes": [
       37,
@@ -3278,14 +3319,14 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
       "condition": "Nuevo en caja",
       "colorway": "Black",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -3294,9 +3335,91 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "updatedAt": "2026-08-13T19:36:12.000Z"
   },
   {
+    "id": "sneaker-hugo-boss-kai-retro-black",
+    "name": "BOSS Kai Retro Black",
+    "brand": "Hugo Boss",
+    "model": "BOSS Kai Retro Black",
+    "sku": "PAPI-4005",
+    "category": "originales",
+    "gender": "unisex",
+    "price": 450000,
+    "originalPrice": 520000,
+    "images": [
+      "/catalogo/originales/hugo-boss/hugo-boss-kai-retro-black.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "bajo_encargo",
+    "isFeatured": true,
+    "isNewArrival": true,
+    "isOriginalCertified": true,
+    "description": "",
+    "details": {
+      "condition": "Original nuevo en caja",
+      "colorway": "Black",
+      "includedItems": [
+        "Caja original",
+        "Comprobante de procedencia"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-14T15:29:51.536Z",
+    "updatedAt": "2026-08-14T15:29:51.536Z"
+  },
+  {
+    "id": "sneaker-hugo-boss-kye-retro-style-white-oak",
+    "name": "BOSS Kye Retro White Oak",
+    "brand": "Hugo Boss",
+    "model": "BOSS Kye Retro White Oak",
+    "sku": "PAPI-3228",
+    "category": "originales",
+    "gender": "unisex",
+    "price": 450000,
+    "originalPrice": 520000,
+    "images": [
+      "/catalogo/originales/hugo-boss/hugo-boss-kye-retro-style-white-oak.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "bajo_encargo",
+    "isFeatured": true,
+    "isNewArrival": true,
+    "isOriginalCertified": true,
+    "description": "",
+    "details": {
+      "condition": "Original nuevo en caja",
+      "colorway": "White / Oak",
+      "includedItems": [
+        "Caja original",
+        "Comprobante de procedencia"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-14T15:29:51.536Z",
+    "updatedAt": "2026-08-14T15:29:51.536Z"
+  },
+  {
     "id": "sneaker-boss-master-gris",
     "name": "Boss Master Gris",
-    "brand": "Otras",
+    "brand": "Hugo Boss",
     "model": "Boss Master Gris",
     "sku": "PAPI-3708",
     "category": "general",
@@ -3304,7 +3427,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "price": 190000,
     "originalPrice": 230000,
     "images": [
-      "/catalogo/sneakers/otras/boss-master-gris.jpg"
+      "/catalogo/sneakers/hugo-boss/boss-master-gris.jpg"
     ],
     "sizes": [
       37,
@@ -3318,14 +3441,14 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
       "condition": "Nuevo en caja",
       "colorway": "Grey",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -3334,9 +3457,819 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "updatedAt": "2026-08-13T19:36:12.000Z"
   },
   {
+    "id": "sneaker-hugo-boss-mesh-blueberry",
+    "name": "BOSS Mesh Blueberry",
+    "brand": "Hugo Boss",
+    "model": "BOSS Mesh Blueberry",
+    "sku": "PAPI-1460",
+    "category": "originales",
+    "gender": "unisex",
+    "price": 450000,
+    "originalPrice": 520000,
+    "images": [
+      "/catalogo/originales/hugo-boss/hugo-boss-mesh-blueberry.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "bajo_encargo",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": true,
+    "description": "",
+    "details": {
+      "condition": "Original nuevo en caja",
+      "colorway": "Blueberry",
+      "includedItems": [
+        "Caja original",
+        "Comprobante de procedencia"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-14T15:29:51.536Z",
+    "updatedAt": "2026-08-14T15:29:51.536Z"
+  },
+  {
+    "id": "sneaker-hugo-boss-mesh-white-oak",
+    "name": "BOSS Mesh White Oak",
+    "brand": "Hugo Boss",
+    "model": "BOSS Mesh White Oak",
+    "sku": "PAPI-7884",
+    "category": "originales",
+    "gender": "unisex",
+    "price": 450000,
+    "originalPrice": 520000,
+    "images": [
+      "/catalogo/originales/hugo-boss/hugo-boss-mesh-white-oak.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "bajo_encargo",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": true,
+    "description": "",
+    "details": {
+      "condition": "Original nuevo en caja",
+      "colorway": "White / Oak",
+      "includedItems": [
+        "Caja original",
+        "Comprobante de procedencia"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-14T15:29:51.536Z",
+    "updatedAt": "2026-08-14T15:29:51.536Z"
+  },
+  {
+    "id": "sneaker-hugo-boss-parkour-run-carbon",
+    "name": "BOSS Parkour Run Carbon",
+    "brand": "Hugo Boss",
+    "model": "BOSS Parkour Run Carbon",
+    "sku": "PAPI-1297",
+    "category": "originales",
+    "gender": "unisex",
+    "price": 450000,
+    "originalPrice": 520000,
+    "images": [
+      "/catalogo/originales/hugo-boss/hugo-boss-parkour-run-carbon.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "bajo_encargo",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": true,
+    "description": "La Parkour Run original, con la suela de perfil alto y el logo BOSS en el lateral.",
+    "details": {
+      "condition": "Original nuevo en caja",
+      "colorway": "Carbon",
+      "includedItems": [
+        "Caja original",
+        "Comprobante de procedencia"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-14T15:29:51.536Z",
+    "updatedAt": "2026-08-14T15:29:51.536Z"
+  },
+  {
+    "id": "sneaker-hugo-boss-parkour-runn-onyx",
+    "name": "BOSS Parkour Run Onyx",
+    "brand": "Hugo Boss",
+    "model": "BOSS Parkour Run Onyx",
+    "sku": "PAPI-1343",
+    "category": "originales",
+    "gender": "unisex",
+    "price": 450000,
+    "originalPrice": 520000,
+    "images": [
+      "/catalogo/originales/hugo-boss/hugo-boss-parkour-runn-onyx.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "bajo_encargo",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": true,
+    "description": "",
+    "details": {
+      "condition": "Original nuevo en caja",
+      "colorway": "Onyx",
+      "includedItems": [
+        "Caja original",
+        "Comprobante de procedencia"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-14T15:29:51.536Z",
+    "updatedAt": "2026-08-14T15:29:51.536Z"
+  },
+  {
+    "id": "sneaker-hugo-boss-parkour-run-sky-navy-blue",
+    "name": "BOSS Parkour Run Sky Navy Blue",
+    "brand": "Hugo Boss",
+    "model": "BOSS Parkour Run Sky Navy Blue",
+    "sku": "PAPI-4097",
+    "category": "originales",
+    "gender": "unisex",
+    "price": 450000,
+    "originalPrice": 520000,
+    "images": [
+      "/catalogo/originales/hugo-boss/hugo-boss-parkour-run-sky-navy-blue.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "bajo_encargo",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": true,
+    "description": "",
+    "details": {
+      "condition": "Original nuevo en caja",
+      "colorway": "Sky / Navy Blue",
+      "includedItems": [
+        "Caja original",
+        "Comprobante de procedencia"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-14T15:29:51.536Z",
+    "updatedAt": "2026-08-14T15:29:51.536Z"
+  },
+  {
+    "id": "sneaker-hugo-boss-parkour-vison-orange",
+    "name": "BOSS Parkour Vision Orange",
+    "brand": "Hugo Boss",
+    "model": "BOSS Parkour Vision Orange",
+    "sku": "PAPI-4135",
+    "category": "originales",
+    "gender": "unisex",
+    "price": 450000,
+    "originalPrice": 520000,
+    "images": [
+      "/catalogo/originales/hugo-boss/hugo-boss-parkour-vison-orange.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "bajo_encargo",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": true,
+    "description": "",
+    "details": {
+      "condition": "Original nuevo en caja",
+      "colorway": "Orange",
+      "includedItems": [
+        "Caja original",
+        "Comprobante de procedencia"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-14T15:29:51.536Z",
+    "updatedAt": "2026-08-14T15:29:51.536Z"
+  },
+  {
+    "id": "sneaker-hugo-boss-rhys-cupsole-blue-yankee",
+    "name": "BOSS Rhys Cupsole Blue Yankee",
+    "brand": "Hugo Boss",
+    "model": "BOSS Rhys Cupsole Blue Yankee",
+    "sku": "PAPI-1252",
+    "category": "originales",
+    "gender": "unisex",
+    "price": 450000,
+    "originalPrice": 520000,
+    "images": [
+      "/catalogo/originales/hugo-boss/hugo-boss-rhys-cupsole-blue-yankee.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "bajo_encargo",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": true,
+    "description": "",
+    "details": {
+      "condition": "Original nuevo en caja",
+      "colorway": "Blue Yankee",
+      "includedItems": [
+        "Caja original",
+        "Comprobante de procedencia"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-14T15:29:51.536Z",
+    "updatedAt": "2026-08-14T15:29:51.536Z"
+  },
+  {
+    "id": "sneaker-hugo-boss-rhys-cupsole-white",
+    "name": "BOSS Rhys Cupsole White",
+    "brand": "Hugo Boss",
+    "model": "BOSS Rhys Cupsole White",
+    "sku": "PAPI-2752",
+    "category": "originales",
+    "gender": "unisex",
+    "price": 450000,
+    "originalPrice": 520000,
+    "images": [
+      "/catalogo/originales/hugo-boss/hugo-boss-rhys-cupsole-white.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "bajo_encargo",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": true,
+    "description": "Silueta baja en cuero blanco con suela de copa. La más vestidora del lote.",
+    "details": {
+      "condition": "Original nuevo en caja",
+      "colorway": "White",
+      "includedItems": [
+        "Caja original",
+        "Comprobante de procedencia"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-14T15:29:51.536Z",
+    "updatedAt": "2026-08-14T15:29:51.536Z"
+  },
+  {
+    "id": "sneaker-hugo-boss-running-mesh",
+    "name": "BOSS Running Mesh",
+    "brand": "Hugo Boss",
+    "model": "BOSS Running Mesh",
+    "sku": "PAPI-5640",
+    "category": "originales",
+    "gender": "unisex",
+    "price": 450000,
+    "originalPrice": 520000,
+    "images": [
+      "/catalogo/originales/hugo-boss/hugo-boss-running-mesh.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "bajo_encargo",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": true,
+    "description": "",
+    "details": {
+      "condition": "Original nuevo en caja",
+      "colorway": "",
+      "includedItems": [
+        "Caja original",
+        "Comprobante de procedencia"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-14T15:29:51.536Z",
+    "updatedAt": "2026-08-14T15:29:51.536Z"
+  },
+  {
+    "id": "sneaker-hugo-boss-running-mesh-sky-navy-blue",
+    "name": "BOSS Running Mesh Sky Navy Blue",
+    "brand": "Hugo Boss",
+    "model": "BOSS Running Mesh Sky Navy Blue",
+    "sku": "PAPI-1071",
+    "category": "originales",
+    "gender": "unisex",
+    "price": 450000,
+    "originalPrice": 520000,
+    "images": [
+      "/catalogo/originales/hugo-boss/hugo-boss-running-mesh-sky-navy-blue.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "bajo_encargo",
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isOriginalCertified": true,
+    "description": "",
+    "details": {
+      "condition": "Original nuevo en caja",
+      "colorway": "Sky / Navy Blue",
+      "includedItems": [
+        "Caja original",
+        "Comprobante de procedencia"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-14T15:29:51.536Z",
+    "updatedAt": "2026-08-14T15:29:51.536Z"
+  },
+  {
+    "id": "sneaker-calvin-klein-acre",
+    "name": "Calvin Klein Acre",
+    "brand": "Calvin Klein",
+    "model": "Calvin Klein Acre",
+    "sku": "PAPI-1459",
+    "category": "originales",
+    "gender": "unisex",
+    "price": 280000,
+    "originalPrice": 340000,
+    "images": [
+      "/catalogo/originales/calvin-klein/calvin-klein-acre.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "bajo_encargo",
+    "isFeatured": true,
+    "isNewArrival": false,
+    "isOriginalCertified": true,
+    "description": "",
+    "details": {
+      "condition": "Original nuevo en caja",
+      "colorway": "",
+      "includedItems": [
+        "Caja original",
+        "Comprobante de procedencia"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-14T15:26:27.178Z",
+    "updatedAt": "2026-08-14T15:26:27.178Z"
+  },
+  {
+    "id": "sneaker-calvin-klein-acre-black-white",
+    "name": "Calvin Klein Acre Black & White",
+    "brand": "Calvin Klein",
+    "model": "Calvin Klein Acre Black & White",
+    "sku": "PAPI-6756",
+    "category": "originales",
+    "gender": "unisex",
+    "price": 280000,
+    "originalPrice": 340000,
+    "images": [
+      "/catalogo/originales/calvin-klein/calvin-klein-acre-black-white.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "bajo_encargo",
+    "isFeatured": true,
+    "isNewArrival": false,
+    "isOriginalCertified": true,
+    "description": "",
+    "details": {
+      "condition": "Original nuevo en caja",
+      "colorway": "Black / White",
+      "includedItems": [
+        "Caja original",
+        "Comprobante de procedencia"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-14T15:26:27.178Z",
+    "updatedAt": "2026-08-14T15:26:27.178Z"
+  },
+  {
+    "id": "sneaker-calvin-klein-calvin-acre-multi-142",
+    "name": "Calvin Klein Acre Multi 142",
+    "brand": "Calvin Klein",
+    "model": "Calvin Klein Acre Multi 142",
+    "sku": "PAPI-1659",
+    "category": "originales",
+    "gender": "unisex",
+    "price": 280000,
+    "originalPrice": 340000,
+    "images": [
+      "/catalogo/originales/calvin-klein/calvin-klein-calvin-acre-multi-142.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "bajo_encargo",
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isOriginalCertified": true,
+    "description": "",
+    "details": {
+      "condition": "Original nuevo en caja",
+      "colorway": "Multi",
+      "includedItems": [
+        "Caja original",
+        "Comprobante de procedencia"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-14T15:26:27.178Z",
+    "updatedAt": "2026-08-14T15:26:27.178Z"
+  },
+  {
+    "id": "sneaker-calvin-klein-alondra-white-142",
+    "name": "Calvin Klein Alondra White 142",
+    "brand": "Calvin Klein",
+    "model": "Calvin Klein Alondra White 142",
+    "sku": "PAPI-1627",
+    "category": "originales",
+    "gender": "unisex",
+    "price": 280000,
+    "originalPrice": 340000,
+    "images": [
+      "/catalogo/originales/calvin-klein/calvin-klein-alondra-white-142.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "bajo_encargo",
+    "isFeatured": true,
+    "isNewArrival": false,
+    "isOriginalCertified": true,
+    "description": "",
+    "details": {
+      "condition": "Original nuevo en caja",
+      "colorway": "White",
+      "includedItems": [
+        "Caja original",
+        "Comprobante de procedencia"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-14T15:26:27.178Z",
+    "updatedAt": "2026-08-14T15:26:27.178Z"
+  },
+  {
+    "id": "sneaker-calvin-klein-ashier-black-001",
+    "name": "Calvin Klein Ashier Black 001",
+    "brand": "Calvin Klein",
+    "model": "Calvin Klein Ashier Black 001",
+    "sku": "PAPI-7960",
+    "category": "originales",
+    "gender": "mujer",
+    "price": 280000,
+    "originalPrice": 340000,
+    "images": [
+      "/catalogo/originales/calvin-klein/calvin-klein-ashier-black-001-mujer.jpg"
+    ],
+    "sizes": [
+      35,
+      36,
+      37,
+      38,
+      39,
+      40
+    ],
+    "status": "bajo_encargo",
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isOriginalCertified": true,
+    "description": "",
+    "details": {
+      "condition": "Original nuevo en caja",
+      "colorway": "Black",
+      "includedItems": [
+        "Caja original",
+        "Comprobante de procedencia"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-14T15:26:27.178Z",
+    "updatedAt": "2026-08-14T15:26:27.178Z"
+  },
+  {
+    "id": "sneaker-calvin-klein-ashier-white-140",
+    "name": "Calvin Klein Ashier White 140",
+    "brand": "Calvin Klein",
+    "model": "Calvin Klein Ashier White 140",
+    "sku": "PAPI-7044",
+    "category": "originales",
+    "gender": "mujer",
+    "price": 280000,
+    "originalPrice": 340000,
+    "images": [
+      "/catalogo/originales/calvin-klein/calvin-klein-ashier-white-140-mujer.jpg"
+    ],
+    "sizes": [
+      35,
+      36,
+      37,
+      38,
+      39,
+      40
+    ],
+    "status": "bajo_encargo",
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isOriginalCertified": true,
+    "description": "",
+    "details": {
+      "condition": "Original nuevo en caja",
+      "colorway": "White",
+      "includedItems": [
+        "Caja original",
+        "Comprobante de procedencia"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-14T15:26:27.178Z",
+    "updatedAt": "2026-08-14T15:26:27.178Z"
+  },
+  {
+    "id": "sneaker-calvin-klein-caden",
+    "name": "Calvin Klein Caden",
+    "brand": "Calvin Klein",
+    "model": "Calvin Klein Caden",
+    "sku": "PAPI-7077",
+    "category": "originales",
+    "gender": "mujer",
+    "price": 280000,
+    "originalPrice": 340000,
+    "images": [
+      "/catalogo/originales/calvin-klein/calvin-klein-caden-mujer.jpg"
+    ],
+    "sizes": [
+      35,
+      36,
+      37,
+      38,
+      39,
+      40
+    ],
+    "status": "bajo_encargo",
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isOriginalCertified": true,
+    "description": "",
+    "details": {
+      "condition": "Original nuevo en caja",
+      "colorway": "",
+      "includedItems": [
+        "Caja original",
+        "Comprobante de procedencia"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-14T15:26:27.178Z",
+    "updatedAt": "2026-08-14T15:26:27.178Z"
+  },
+  {
+    "id": "sneaker-calvin-klein-caden-white",
+    "name": "Calvin Klein Caden White",
+    "brand": "Calvin Klein",
+    "model": "Calvin Klein Caden White",
+    "sku": "PAPI-1077",
+    "category": "originales",
+    "gender": "mujer",
+    "price": 280000,
+    "originalPrice": 340000,
+    "images": [
+      "/catalogo/originales/calvin-klein/calvin-klein-caden-white-mujer.jpg"
+    ],
+    "sizes": [
+      35,
+      36,
+      37,
+      38,
+      39,
+      40
+    ],
+    "status": "bajo_encargo",
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isOriginalCertified": true,
+    "description": "",
+    "details": {
+      "condition": "Original nuevo en caja",
+      "colorway": "White",
+      "includedItems": [
+        "Caja original",
+        "Comprobante de procedencia"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-14T15:26:27.178Z",
+    "updatedAt": "2026-08-14T15:26:27.178Z"
+  },
+  {
+    "id": "sneaker-calvin-klein-calla-brown-multi-211",
+    "name": "Calvin Klein Calla Brown Multi 211",
+    "brand": "Calvin Klein",
+    "model": "Calvin Klein Calla Brown Multi 211",
+    "sku": "PAPI-8375",
+    "category": "originales",
+    "gender": "unisex",
+    "price": 280000,
+    "originalPrice": 340000,
+    "images": [
+      "/catalogo/originales/calvin-klein/calvin-klein-calla-brown-multi-211.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "bajo_encargo",
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isOriginalCertified": true,
+    "description": "",
+    "details": {
+      "condition": "Original nuevo en caja",
+      "colorway": "Brown Multi",
+      "includedItems": [
+        "Caja original",
+        "Comprobante de procedencia"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-14T15:26:27.178Z",
+    "updatedAt": "2026-08-14T15:26:27.178Z"
+  },
+  {
+    "id": "sneaker-calvin-klein-camina-black",
+    "name": "Calvin Klein Camina Black",
+    "brand": "Calvin Klein",
+    "model": "Calvin Klein Camina Black",
+    "sku": "PAPI-5686",
+    "category": "originales",
+    "gender": "mujer",
+    "price": 280000,
+    "originalPrice": 340000,
+    "images": [
+      "/catalogo/originales/calvin-klein/calvin-klein-camina-black-mujer.jpg"
+    ],
+    "sizes": [
+      35,
+      36,
+      37,
+      38,
+      39,
+      40
+    ],
+    "status": "bajo_encargo",
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isOriginalCertified": true,
+    "description": "",
+    "details": {
+      "condition": "Original nuevo en caja",
+      "colorway": "Black",
+      "includedItems": [
+        "Caja original",
+        "Comprobante de procedencia"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-14T15:26:27.178Z",
+    "updatedAt": "2026-08-14T15:26:27.178Z"
+  },
+  {
     "id": "sneaker-calvin-klein-carlla",
     "name": "Calvin Klein Carlla",
-    "brand": "Otras",
+    "brand": "Calvin Klein",
     "model": "Calvin Klein Carlla",
     "sku": "PAPI-7483",
     "category": "general",
@@ -3344,7 +4277,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "price": 190000,
     "originalPrice": 230000,
     "images": [
-      "/catalogo/sneakers/otras/calvin-klein-carlla.jpg"
+      "/catalogo/sneakers/calvin-klein/calvin-klein-carlla.jpg"
     ],
     "sizes": [
       37,
@@ -3358,14 +4291,14 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
       "condition": "Nuevo en caja",
       "colorway": "",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -3374,9 +4307,649 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "updatedAt": "2026-08-13T19:36:12.000Z"
   },
   {
+    "id": "sneaker-calvin-klein-carlla-black-white",
+    "name": "Calvin Klein Carlla Black & White",
+    "brand": "Calvin Klein",
+    "model": "Calvin Klein Carlla Black & White",
+    "sku": "PAPI-8343",
+    "category": "originales",
+    "gender": "unisex",
+    "price": 280000,
+    "originalPrice": 340000,
+    "images": [
+      "/catalogo/originales/calvin-klein/calvin-klein-carlla-black-white.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "bajo_encargo",
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isOriginalCertified": true,
+    "description": "",
+    "details": {
+      "condition": "Original nuevo en caja",
+      "colorway": "Black / White",
+      "includedItems": [
+        "Caja original",
+        "Comprobante de procedencia"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-14T15:26:27.178Z",
+    "updatedAt": "2026-08-14T15:26:27.178Z"
+  },
+  {
+    "id": "sneaker-calvin-klein-carlla-black-002",
+    "name": "Calvin Klein Carlla Black 002",
+    "brand": "Calvin Klein",
+    "model": "Calvin Klein Carlla Black 002",
+    "sku": "PAPI-1642",
+    "category": "originales",
+    "gender": "mujer",
+    "price": 280000,
+    "originalPrice": 340000,
+    "images": [
+      "/catalogo/originales/calvin-klein/calvin-klein-carlla-black-002-mujer.jpg"
+    ],
+    "sizes": [
+      35,
+      36,
+      37,
+      38,
+      39,
+      40
+    ],
+    "status": "bajo_encargo",
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isOriginalCertified": true,
+    "description": "",
+    "details": {
+      "condition": "Original nuevo en caja",
+      "colorway": "Black",
+      "includedItems": [
+        "Caja original",
+        "Comprobante de procedencia"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-14T15:26:27.178Z",
+    "updatedAt": "2026-08-14T15:26:27.178Z"
+  },
+  {
+    "id": "sneaker-calvin-klein-carlla-brown-brown-multi-200",
+    "name": "Calvin Klein Carlla Brown Multi 200",
+    "brand": "Calvin Klein",
+    "model": "Calvin Klein Carlla Brown Multi 200",
+    "sku": "PAPI-1061",
+    "category": "originales",
+    "gender": "unisex",
+    "price": 280000,
+    "originalPrice": 340000,
+    "images": [
+      "/catalogo/originales/calvin-klein/calvin-klein-carlla-brown-brown-multi-200.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "bajo_encargo",
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isOriginalCertified": true,
+    "description": "",
+    "details": {
+      "condition": "Original nuevo en caja",
+      "colorway": "Brown Multi",
+      "includedItems": [
+        "Caja original",
+        "Comprobante de procedencia"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-14T15:26:27.178Z",
+    "updatedAt": "2026-08-14T15:26:27.178Z"
+  },
+  {
+    "id": "sneaker-calvin-klein-cayle-black-962",
+    "name": "Calvin Klein Cayle Black 962",
+    "brand": "Calvin Klein",
+    "model": "Calvin Klein Cayle Black 962",
+    "sku": "PAPI-1541",
+    "category": "originales",
+    "gender": "mujer",
+    "price": 280000,
+    "originalPrice": 340000,
+    "images": [
+      "/catalogo/originales/calvin-klein/calvin-klein-cayle-black-962-mujer.jpg"
+    ],
+    "sizes": [
+      35,
+      36,
+      37,
+      38,
+      39,
+      40
+    ],
+    "status": "bajo_encargo",
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isOriginalCertified": true,
+    "description": "",
+    "details": {
+      "condition": "Original nuevo en caja",
+      "colorway": "Black",
+      "includedItems": [
+        "Caja original",
+        "Comprobante de procedencia"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-14T15:26:27.178Z",
+    "updatedAt": "2026-08-14T15:26:27.178Z"
+  },
+  {
+    "id": "sneaker-calvin-klein-cayle-blue-denim-450",
+    "name": "Calvin Klein Cayle Blue Denim 450",
+    "brand": "Calvin Klein",
+    "model": "Calvin Klein Cayle Blue Denim 450",
+    "sku": "PAPI-1497",
+    "category": "originales",
+    "gender": "mujer",
+    "price": 280000,
+    "originalPrice": 340000,
+    "images": [
+      "/catalogo/originales/calvin-klein/calvin-klein-cayle-blue-denim-450-mujer.jpg"
+    ],
+    "sizes": [
+      35,
+      36,
+      37,
+      38,
+      39,
+      40
+    ],
+    "status": "bajo_encargo",
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isOriginalCertified": true,
+    "description": "",
+    "details": {
+      "condition": "Original nuevo en caja",
+      "colorway": "Blue Denim",
+      "includedItems": [
+        "Caja original",
+        "Comprobante de procedencia"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-14T15:26:27.178Z",
+    "updatedAt": "2026-08-14T15:26:27.178Z"
+  },
+  {
+    "id": "sneaker-calvin-klein-cayle-white-143",
+    "name": "Calvin Klein Cayle White 143",
+    "brand": "Calvin Klein",
+    "model": "Calvin Klein Cayle White 143",
+    "sku": "PAPI-4348",
+    "category": "originales",
+    "gender": "mujer",
+    "price": 280000,
+    "originalPrice": 340000,
+    "images": [
+      "/catalogo/originales/calvin-klein/calvin-klein-cayle-white-143-mujer.jpg"
+    ],
+    "sizes": [
+      35,
+      36,
+      37,
+      38,
+      39,
+      40
+    ],
+    "status": "bajo_encargo",
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isOriginalCertified": true,
+    "description": "",
+    "details": {
+      "condition": "Original nuevo en caja",
+      "colorway": "White",
+      "includedItems": [
+        "Caja original",
+        "Comprobante de procedencia"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-14T15:26:27.178Z",
+    "updatedAt": "2026-08-14T15:26:27.178Z"
+  },
+  {
+    "id": "sneaker-calvin-klein-ciyan-black",
+    "name": "Calvin Klein Ciyan Black",
+    "brand": "Calvin Klein",
+    "model": "Calvin Klein Ciyan Black",
+    "sku": "PAPI-1364",
+    "category": "originales",
+    "gender": "mujer",
+    "price": 280000,
+    "originalPrice": 340000,
+    "images": [
+      "/catalogo/originales/calvin-klein/calvin-klein-ciyan-black-mujer.jpg"
+    ],
+    "sizes": [
+      35,
+      36,
+      37,
+      38,
+      39,
+      40
+    ],
+    "status": "bajo_encargo",
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isOriginalCertified": true,
+    "description": "",
+    "details": {
+      "condition": "Original nuevo en caja",
+      "colorway": "Black",
+      "includedItems": [
+        "Caja original",
+        "Comprobante de procedencia"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-14T15:26:27.178Z",
+    "updatedAt": "2026-08-14T15:26:27.178Z"
+  },
+  {
+    "id": "sneaker-calvin-klein-ciyan-white-001",
+    "name": "Calvin Klein Ciyan White 001",
+    "brand": "Calvin Klein",
+    "model": "Calvin Klein Ciyan White 001",
+    "sku": "PAPI-1023",
+    "category": "originales",
+    "gender": "mujer",
+    "price": 280000,
+    "originalPrice": 340000,
+    "images": [
+      "/catalogo/originales/calvin-klein/calvin-klein-ciyan-white-001-mujer.jpg"
+    ],
+    "sizes": [
+      35,
+      36,
+      37,
+      38,
+      39,
+      40
+    ],
+    "status": "bajo_encargo",
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isOriginalCertified": true,
+    "description": "",
+    "details": {
+      "condition": "Original nuevo en caja",
+      "colorway": "White",
+      "includedItems": [
+        "Caja original",
+        "Comprobante de procedencia"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-14T15:26:27.178Z",
+    "updatedAt": "2026-08-14T15:26:27.178Z"
+  },
+  {
+    "id": "sneaker-calvin-klein-cylaie",
+    "name": "Calvin Klein Cylaie",
+    "brand": "Calvin Klein",
+    "model": "Calvin Klein Cylaie",
+    "sku": "PAPI-1275",
+    "category": "originales",
+    "gender": "mujer",
+    "price": 280000,
+    "originalPrice": 340000,
+    "images": [
+      "/catalogo/originales/calvin-klein/calvin-klein-cylaie-mujer.jpg"
+    ],
+    "sizes": [
+      35,
+      36,
+      37,
+      38,
+      39,
+      40
+    ],
+    "status": "bajo_encargo",
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isOriginalCertified": true,
+    "description": "",
+    "details": {
+      "condition": "Original nuevo en caja",
+      "colorway": "",
+      "includedItems": [
+        "Caja original",
+        "Comprobante de procedencia"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-14T15:26:27.178Z",
+    "updatedAt": "2026-08-14T15:26:27.178Z"
+  },
+  {
+    "id": "sneaker-calvin-klein-eden-negro-001",
+    "name": "Calvin Klein Eden Negro 001",
+    "brand": "Calvin Klein",
+    "model": "Calvin Klein Eden Negro 001",
+    "sku": "PAPI-2739",
+    "category": "originales",
+    "gender": "unisex",
+    "price": 280000,
+    "originalPrice": 340000,
+    "images": [
+      "/catalogo/originales/calvin-klein/calvin-klein-eden-negro-001.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "bajo_encargo",
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isOriginalCertified": true,
+    "description": "",
+    "details": {
+      "condition": "Original nuevo en caja",
+      "colorway": "Black",
+      "includedItems": [
+        "Caja original",
+        "Comprobante de procedencia"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-14T15:26:27.178Z",
+    "updatedAt": "2026-08-14T15:26:27.178Z"
+  },
+  {
+    "id": "sneaker-calvin-klein-falconi",
+    "name": "Calvin Klein Falconi",
+    "brand": "Calvin Klein",
+    "model": "Calvin Klein Falconi",
+    "sku": "PAPI-1276",
+    "category": "originales",
+    "gender": "unisex",
+    "price": 280000,
+    "originalPrice": 340000,
+    "images": [
+      "/catalogo/originales/calvin-klein/calvin-klein-falconi.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "bajo_encargo",
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isOriginalCertified": true,
+    "description": "",
+    "details": {
+      "condition": "Original nuevo en caja",
+      "colorway": "",
+      "includedItems": [
+        "Caja original",
+        "Comprobante de procedencia"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-14T15:26:27.178Z",
+    "updatedAt": "2026-08-14T15:26:27.178Z"
+  },
+  {
+    "id": "sneaker-calvin-klein-giano",
+    "name": "Calvin Klein Giano",
+    "brand": "Calvin Klein",
+    "model": "Calvin Klein Giano",
+    "sku": "PAPI-7108",
+    "category": "originales",
+    "gender": "unisex",
+    "price": 280000,
+    "originalPrice": 340000,
+    "images": [
+      "/catalogo/originales/calvin-klein/calvin-klein-giano.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "bajo_encargo",
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isOriginalCertified": true,
+    "description": "",
+    "details": {
+      "condition": "Original nuevo en caja",
+      "colorway": "",
+      "includedItems": [
+        "Caja original",
+        "Comprobante de procedencia"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-14T15:26:27.178Z",
+    "updatedAt": "2026-08-14T15:26:27.178Z"
+  },
+  {
+    "id": "sneaker-calvin-klein-gules-black-002",
+    "name": "Calvin Klein Gules Black 002",
+    "brand": "Calvin Klein",
+    "model": "Calvin Klein Gules Black 002",
+    "sku": "PAPI-7133",
+    "category": "originales",
+    "gender": "unisex",
+    "price": 280000,
+    "originalPrice": 340000,
+    "images": [
+      "/catalogo/originales/calvin-klein/calvin-klein-gules-black-002.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "bajo_encargo",
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isOriginalCertified": true,
+    "description": "",
+    "details": {
+      "condition": "Original nuevo en caja",
+      "colorway": "Black",
+      "includedItems": [
+        "Caja original",
+        "Comprobante de procedencia"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-14T15:26:27.178Z",
+    "updatedAt": "2026-08-14T15:26:27.178Z"
+  },
+  {
+    "id": "sneaker-calvin-klein-gules-espresso-multi-200",
+    "name": "Calvin Klein Gules Espresso Multi 200",
+    "brand": "Calvin Klein",
+    "model": "Calvin Klein Gules Espresso Multi 200",
+    "sku": "PAPI-1040",
+    "category": "originales",
+    "gender": "unisex",
+    "price": 280000,
+    "originalPrice": 340000,
+    "images": [
+      "/catalogo/originales/calvin-klein/calvin-klein-gules-espresso-multi-200.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "bajo_encargo",
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isOriginalCertified": true,
+    "description": "",
+    "details": {
+      "condition": "Original nuevo en caja",
+      "colorway": "Espresso Multi",
+      "includedItems": [
+        "Caja original",
+        "Comprobante de procedencia"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-14T15:26:27.178Z",
+    "updatedAt": "2026-08-14T15:26:27.178Z"
+  },
+  {
+    "id": "sneaker-calvin-klein-hania-white",
+    "name": "Calvin Klein Hania White",
+    "brand": "Calvin Klein",
+    "model": "Calvin Klein Hania White",
+    "sku": "PAPI-4355",
+    "category": "originales",
+    "gender": "mujer",
+    "price": 280000,
+    "originalPrice": 340000,
+    "images": [
+      "/catalogo/originales/calvin-klein/calvin-klein-hania-white-mujer.jpg"
+    ],
+    "sizes": [
+      35,
+      36,
+      37,
+      38,
+      39,
+      40
+    ],
+    "status": "bajo_encargo",
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isOriginalCertified": true,
+    "description": "",
+    "details": {
+      "condition": "Original nuevo en caja",
+      "colorway": "White",
+      "includedItems": [
+        "Caja original",
+        "Comprobante de procedencia"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-14T15:26:27.178Z",
+    "updatedAt": "2026-08-14T15:26:27.178Z"
+  },
+  {
+    "id": "sneaker-calvin-klein-horaldo-white-144",
+    "name": "Calvin Klein Horaldo White 144",
+    "brand": "Calvin Klein",
+    "model": "Calvin Klein Horaldo White 144",
+    "sku": "PAPI-8896",
+    "category": "originales",
+    "gender": "unisex",
+    "price": 280000,
+    "originalPrice": 340000,
+    "images": [
+      "/catalogo/originales/calvin-klein/calvin-klein-horaldo-white-144.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "bajo_encargo",
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isOriginalCertified": true,
+    "description": "",
+    "details": {
+      "condition": "Original nuevo en caja",
+      "colorway": "White",
+      "includedItems": [
+        "Caja original",
+        "Comprobante de procedencia"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-14T15:26:27.178Z",
+    "updatedAt": "2026-08-14T15:26:27.178Z"
+  },
+  {
     "id": "sneaker-calvin-klein-jeans-negro",
     "name": "Calvin Klein Jeans Negro",
-    "brand": "Otras",
+    "brand": "Calvin Klein",
     "model": "Calvin Klein Jeans Negro",
     "sku": "PAPI-1468",
     "category": "general",
@@ -3384,7 +4957,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "price": 190000,
     "originalPrice": 230000,
     "images": [
-      "/catalogo/sneakers/otras/calvin-klein-jeans-negro.jpg"
+      "/catalogo/sneakers/calvin-klein/calvin-klein-jeans-negro.jpg"
     ],
     "sizes": [
       37,
@@ -3398,20 +4971,512 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
       "condition": "Nuevo en caja",
       "colorway": "Black",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
     "createdAt": "2026-08-13T19:36:12.000Z",
     "updatedAt": "2026-08-13T19:36:12.000Z"
+  },
+  {
+    "id": "sneaker-calvin-klein-landy-black-001",
+    "name": "Calvin Klein Landy Black 001",
+    "brand": "Calvin Klein",
+    "model": "Calvin Klein Landy Black 001",
+    "sku": "PAPI-9102",
+    "category": "originales",
+    "gender": "unisex",
+    "price": 280000,
+    "originalPrice": 340000,
+    "images": [
+      "/catalogo/originales/calvin-klein/calvin-klein-landy-black-001.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "bajo_encargo",
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isOriginalCertified": true,
+    "description": "",
+    "details": {
+      "condition": "Original nuevo en caja",
+      "colorway": "Black",
+      "includedItems": [
+        "Caja original",
+        "Comprobante de procedencia"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-14T15:26:27.178Z",
+    "updatedAt": "2026-08-14T15:26:27.178Z"
+  },
+  {
+    "id": "sneaker-calvin-klein-landy-blue-450",
+    "name": "Calvin Klein Landy Blue 450",
+    "brand": "Calvin Klein",
+    "model": "Calvin Klein Landy Blue 450",
+    "sku": "PAPI-9580",
+    "category": "originales",
+    "gender": "unisex",
+    "price": 280000,
+    "originalPrice": 340000,
+    "images": [
+      "/catalogo/originales/calvin-klein/calvin-klein-landy-blue-450.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "bajo_encargo",
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isOriginalCertified": true,
+    "description": "",
+    "details": {
+      "condition": "Original nuevo en caja",
+      "colorway": "Blue",
+      "includedItems": [
+        "Caja original",
+        "Comprobante de procedencia"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-14T15:26:27.178Z",
+    "updatedAt": "2026-08-14T15:26:27.178Z"
+  },
+  {
+    "id": "sneaker-calvin-klein-lucio-black-002",
+    "name": "Calvin Klein Lucio Black 002",
+    "brand": "Calvin Klein",
+    "model": "Calvin Klein Lucio Black 002",
+    "sku": "PAPI-8784",
+    "category": "originales",
+    "gender": "unisex",
+    "price": 280000,
+    "originalPrice": 340000,
+    "images": [
+      "/catalogo/originales/calvin-klein/calvin-klein-lucio-black-002.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "bajo_encargo",
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isOriginalCertified": true,
+    "description": "",
+    "details": {
+      "condition": "Original nuevo en caja",
+      "colorway": "Black",
+      "includedItems": [
+        "Caja original",
+        "Comprobante de procedencia"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-14T15:26:27.178Z",
+    "updatedAt": "2026-08-14T15:26:27.178Z"
+  },
+  {
+    "id": "sneaker-calvin-klein-lucio-navy-blue",
+    "name": "Calvin Klein Lucio Navy Blue",
+    "brand": "Calvin Klein",
+    "model": "Calvin Klein Lucio Navy Blue",
+    "sku": "PAPI-1214",
+    "category": "originales",
+    "gender": "unisex",
+    "price": 280000,
+    "originalPrice": 340000,
+    "images": [
+      "/catalogo/originales/calvin-klein/calvin-klein-lucio-navy-blue.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "bajo_encargo",
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isOriginalCertified": true,
+    "description": "",
+    "details": {
+      "condition": "Original nuevo en caja",
+      "colorway": "Navy Blue",
+      "includedItems": [
+        "Caja original",
+        "Comprobante de procedencia"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-14T15:26:27.178Z",
+    "updatedAt": "2026-08-14T15:26:27.178Z"
+  },
+  {
+    "id": "sneaker-calvin-klein-lucio-white-101",
+    "name": "Calvin Klein Lucio White 101",
+    "brand": "Calvin Klein",
+    "model": "Calvin Klein Lucio White 101",
+    "sku": "PAPI-1206",
+    "category": "originales",
+    "gender": "unisex",
+    "price": 280000,
+    "originalPrice": 340000,
+    "images": [
+      "/catalogo/originales/calvin-klein/calvin-klein-lucio-white-101.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "bajo_encargo",
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isOriginalCertified": true,
+    "description": "",
+    "details": {
+      "condition": "Original nuevo en caja",
+      "colorway": "White",
+      "includedItems": [
+        "Caja original",
+        "Comprobante de procedencia"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-14T15:26:27.178Z",
+    "updatedAt": "2026-08-14T15:26:27.178Z"
+  },
+  {
+    "id": "sneaker-calvin-klein-pezrand-black-white-001",
+    "name": "Calvin Klein Pezrand Black & White 001",
+    "brand": "Calvin Klein",
+    "model": "Calvin Klein Pezrand Black & White 001",
+    "sku": "PAPI-1214",
+    "category": "originales",
+    "gender": "unisex",
+    "price": 280000,
+    "originalPrice": 340000,
+    "images": [
+      "/catalogo/originales/calvin-klein/calvin-klein-pezrand-black-white-001.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "bajo_encargo",
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isOriginalCertified": true,
+    "description": "",
+    "details": {
+      "condition": "Original nuevo en caja",
+      "colorway": "Black / White",
+      "includedItems": [
+        "Caja original",
+        "Comprobante de procedencia"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-14T15:26:27.178Z",
+    "updatedAt": "2026-08-14T15:26:27.178Z"
+  },
+  {
+    "id": "sneaker-calvin-klein-picio-black-002",
+    "name": "Calvin Klein Picio Black 002",
+    "brand": "Calvin Klein",
+    "model": "Calvin Klein Picio Black 002",
+    "sku": "PAPI-5598",
+    "category": "originales",
+    "gender": "unisex",
+    "price": 280000,
+    "originalPrice": 340000,
+    "images": [
+      "/catalogo/originales/calvin-klein/calvin-klein-picio-black-002.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "bajo_encargo",
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isOriginalCertified": true,
+    "description": "",
+    "details": {
+      "condition": "Original nuevo en caja",
+      "colorway": "Black",
+      "includedItems": [
+        "Caja original",
+        "Comprobante de procedencia"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-14T15:26:27.178Z",
+    "updatedAt": "2026-08-14T15:26:27.178Z"
+  },
+  {
+    "id": "sneaker-calvin-klein-picio-gray-mid-032",
+    "name": "Calvin Klein Picio Gray Mid 032",
+    "brand": "Calvin Klein",
+    "model": "Calvin Klein Picio Gray Mid 032",
+    "sku": "PAPI-4293",
+    "category": "originales",
+    "gender": "unisex",
+    "price": 280000,
+    "originalPrice": 340000,
+    "images": [
+      "/catalogo/originales/calvin-klein/calvin-klein-picio-gray-mid-032.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "bajo_encargo",
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isOriginalCertified": true,
+    "description": "",
+    "details": {
+      "condition": "Original nuevo en caja",
+      "colorway": "Grey",
+      "includedItems": [
+        "Caja original",
+        "Comprobante de procedencia"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-14T15:26:27.178Z",
+    "updatedAt": "2026-08-14T15:26:27.178Z"
+  },
+  {
+    "id": "sneaker-calvin-klein-picio-white-050",
+    "name": "Calvin Klein Picio White 050",
+    "brand": "Calvin Klein",
+    "model": "Calvin Klein Picio White 050",
+    "sku": "PAPI-1267",
+    "category": "originales",
+    "gender": "unisex",
+    "price": 280000,
+    "originalPrice": 340000,
+    "images": [
+      "/catalogo/originales/calvin-klein/calvin-klein-picio-white-050.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "bajo_encargo",
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isOriginalCertified": true,
+    "description": "",
+    "details": {
+      "condition": "Original nuevo en caja",
+      "colorway": "White",
+      "includedItems": [
+        "Caja original",
+        "Comprobante de procedencia"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-14T15:26:27.178Z",
+    "updatedAt": "2026-08-14T15:26:27.178Z"
+  },
+  {
+    "id": "sneaker-calvin-klein-picio-white-multi-052",
+    "name": "Calvin Klein Picio White Multi 052",
+    "brand": "Calvin Klein",
+    "model": "Calvin Klein Picio White Multi 052",
+    "sku": "PAPI-8174",
+    "category": "originales",
+    "gender": "unisex",
+    "price": 280000,
+    "originalPrice": 340000,
+    "images": [
+      "/catalogo/originales/calvin-klein/calvin-klein-picio-white-multi-052.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "bajo_encargo",
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isOriginalCertified": true,
+    "description": "",
+    "details": {
+      "condition": "Original nuevo en caja",
+      "colorway": "White Multi",
+      "includedItems": [
+        "Caja original",
+        "Comprobante de procedencia"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-14T15:26:27.178Z",
+    "updatedAt": "2026-08-14T15:26:27.178Z"
+  },
+  {
+    "id": "sneaker-calvin-klein-picio-white-multi-102",
+    "name": "Calvin Klein Picio White Multi 102",
+    "brand": "Calvin Klein",
+    "model": "Calvin Klein Picio White Multi 102",
+    "sku": "PAPI-6624",
+    "category": "originales",
+    "gender": "unisex",
+    "price": 280000,
+    "originalPrice": 340000,
+    "images": [
+      "/catalogo/originales/calvin-klein/calvin-klein-picio-white-multi-102.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "bajo_encargo",
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isOriginalCertified": true,
+    "description": "",
+    "details": {
+      "condition": "Original nuevo en caja",
+      "colorway": "White Multi",
+      "includedItems": [
+        "Caja original",
+        "Comprobante de procedencia"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-14T15:26:27.178Z",
+    "updatedAt": "2026-08-14T15:26:27.178Z"
+  },
+  {
+    "id": "sneaker-calvin-klein-rex",
+    "name": "Calvin Klein Rex",
+    "brand": "Calvin Klein",
+    "model": "Calvin Klein Rex",
+    "sku": "PAPI-2891",
+    "category": "originales",
+    "gender": "unisex",
+    "price": 280000,
+    "originalPrice": 340000,
+    "images": [
+      "/catalogo/originales/calvin-klein/calvin-klein-rex.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "bajo_encargo",
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isOriginalCertified": true,
+    "description": "",
+    "details": {
+      "condition": "Original nuevo en caja",
+      "colorway": "",
+      "includedItems": [
+        "Caja original",
+        "Comprobante de procedencia"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-14T15:26:27.178Z",
+    "updatedAt": "2026-08-14T15:26:27.178Z"
   },
   {
     "id": "sneaker-christian-dior-running",
@@ -3438,14 +5503,14 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
       "condition": "Nuevo en caja",
       "colorway": "",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -3478,14 +5543,14 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
       "condition": "Nuevo en caja",
       "colorway": "",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -3518,14 +5583,14 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
       "condition": "Nuevo en caja",
       "colorway": "Triple White",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -3565,7 +5630,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "White / Black",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -3605,7 +5670,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "Grey / Black",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -3645,7 +5710,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -3685,7 +5750,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "White / Black",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -3725,7 +5790,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "Triple Black",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -3765,7 +5830,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -3805,7 +5870,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -3814,9 +5879,747 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "updatedAt": "2026-08-13T19:36:12.000Z"
   },
   {
+    "id": "sneaker-guess-caldy",
+    "name": "Guess Caldy",
+    "brand": "Guess",
+    "model": "Guess Caldy",
+    "sku": "PAPI-1640",
+    "category": "originales",
+    "gender": "unisex",
+    "price": 280000,
+    "originalPrice": 340000,
+    "images": [
+      "/catalogo/originales/guess/guess-caldy.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "bajo_encargo",
+    "isFeatured": true,
+    "isNewArrival": false,
+    "isOriginalCertified": true,
+    "description": "",
+    "details": {
+      "condition": "Original nuevo en caja",
+      "colorway": "",
+      "includedItems": [
+        "Caja original",
+        "Comprobante de procedencia"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-14T15:26:27.178Z",
+    "updatedAt": "2026-08-14T15:26:27.178Z"
+  },
+  {
+    "id": "sneaker-guess-jeril",
+    "name": "Guess Jeril",
+    "brand": "Guess",
+    "model": "Guess Jeril",
+    "sku": "PAPI-4706",
+    "category": "originales",
+    "gender": "unisex",
+    "price": 280000,
+    "originalPrice": 340000,
+    "images": [
+      "/catalogo/originales/guess/guess-jeril.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "bajo_encargo",
+    "isFeatured": true,
+    "isNewArrival": false,
+    "isOriginalCertified": true,
+    "description": "",
+    "details": {
+      "condition": "Original nuevo en caja",
+      "colorway": "",
+      "includedItems": [
+        "Caja original",
+        "Comprobante de procedencia"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-14T15:26:27.178Z",
+    "updatedAt": "2026-08-14T15:26:27.178Z"
+  },
+  {
+    "id": "sneaker-guess-lacket",
+    "name": "Guess Lacket",
+    "brand": "Guess",
+    "model": "Guess Lacket",
+    "sku": "PAPI-7799",
+    "category": "originales",
+    "gender": "unisex",
+    "price": 280000,
+    "originalPrice": 340000,
+    "images": [
+      "/catalogo/originales/guess/guess-lacket.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "bajo_encargo",
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isOriginalCertified": true,
+    "description": "",
+    "details": {
+      "condition": "Original nuevo en caja",
+      "colorway": "",
+      "includedItems": [
+        "Caja original",
+        "Comprobante de procedencia"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-14T15:26:27.178Z",
+    "updatedAt": "2026-08-14T15:26:27.178Z"
+  },
+  {
+    "id": "sneaker-guess-larvin",
+    "name": "Guess Larvin",
+    "brand": "Guess",
+    "model": "Guess Larvin",
+    "sku": "PAPI-5418",
+    "category": "originales",
+    "gender": "unisex",
+    "price": 280000,
+    "originalPrice": 340000,
+    "images": [
+      "/catalogo/originales/guess/guess-larvin.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "bajo_encargo",
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isOriginalCertified": true,
+    "description": "",
+    "details": {
+      "condition": "Original nuevo en caja",
+      "colorway": "",
+      "includedItems": [
+        "Caja original",
+        "Comprobante de procedencia"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-14T15:26:27.178Z",
+    "updatedAt": "2026-08-14T15:26:27.178Z"
+  },
+  {
+    "id": "sneaker-guess-lensa",
+    "name": "Guess Lensa",
+    "brand": "Guess",
+    "model": "Guess Lensa",
+    "sku": "PAPI-7348",
+    "category": "originales",
+    "gender": "unisex",
+    "price": 280000,
+    "originalPrice": 340000,
+    "images": [
+      "/catalogo/originales/guess/guess-lensa.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "bajo_encargo",
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isOriginalCertified": true,
+    "description": "",
+    "details": {
+      "condition": "Original nuevo en caja",
+      "colorway": "",
+      "includedItems": [
+        "Caja original",
+        "Comprobante de procedencia"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-14T15:26:27.178Z",
+    "updatedAt": "2026-08-14T15:26:27.178Z"
+  },
+  {
+    "id": "sneaker-guess-letoro",
+    "name": "Guess Letoro",
+    "brand": "Guess",
+    "model": "Guess Letoro",
+    "sku": "PAPI-4238",
+    "category": "originales",
+    "gender": "unisex",
+    "price": 280000,
+    "originalPrice": 340000,
+    "images": [
+      "/catalogo/originales/guess/guess-letoro.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "bajo_encargo",
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isOriginalCertified": true,
+    "description": "",
+    "details": {
+      "condition": "Original nuevo en caja",
+      "colorway": "",
+      "includedItems": [
+        "Caja original",
+        "Comprobante de procedencia"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-14T15:26:27.178Z",
+    "updatedAt": "2026-08-14T15:26:27.178Z"
+  },
+  {
+    "id": "sneaker-guess-lodda",
+    "name": "Guess Lodda",
+    "brand": "Guess",
+    "model": "Guess Lodda",
+    "sku": "PAPI-1284",
+    "category": "originales",
+    "gender": "unisex",
+    "price": 280000,
+    "originalPrice": 340000,
+    "images": [
+      "/catalogo/originales/guess/guess-lodda.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "bajo_encargo",
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isOriginalCertified": true,
+    "description": "",
+    "details": {
+      "condition": "Original nuevo en caja",
+      "colorway": "",
+      "includedItems": [
+        "Caja original",
+        "Comprobante de procedencia"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-14T15:26:27.178Z",
+    "updatedAt": "2026-08-14T15:26:27.178Z"
+  },
+  {
+    "id": "sneaker-guess-lomynz-sneaker-black",
+    "name": "Guess Lomynz Black",
+    "brand": "Guess",
+    "model": "Guess Lomynz Black",
+    "sku": "PAPI-4350",
+    "category": "originales",
+    "gender": "unisex",
+    "price": 280000,
+    "originalPrice": 340000,
+    "images": [
+      "/catalogo/originales/guess/guess-lomynz-sneaker-black.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "bajo_encargo",
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isOriginalCertified": true,
+    "description": "",
+    "details": {
+      "condition": "Original nuevo en caja",
+      "colorway": "Black",
+      "includedItems": [
+        "Caja original",
+        "Comprobante de procedencia"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-14T15:26:27.178Z",
+    "updatedAt": "2026-08-14T15:26:27.178Z"
+  },
+  {
+    "id": "sneaker-guess-lomynz-sneaker-brown-light",
+    "name": "Guess Lomynz Brown Light",
+    "brand": "Guess",
+    "model": "Guess Lomynz Brown Light",
+    "sku": "PAPI-6574",
+    "category": "originales",
+    "gender": "unisex",
+    "price": 280000,
+    "originalPrice": 340000,
+    "images": [
+      "/catalogo/originales/guess/guess-lomynz-sneaker-brown-light.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "bajo_encargo",
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isOriginalCertified": true,
+    "description": "",
+    "details": {
+      "condition": "Original nuevo en caja",
+      "colorway": "Light Brown",
+      "includedItems": [
+        "Caja original",
+        "Comprobante de procedencia"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-14T15:26:27.178Z",
+    "updatedAt": "2026-08-14T15:26:27.178Z"
+  },
+  {
+    "id": "sneaker-guess-lorzi",
+    "name": "Guess Lorzi",
+    "brand": "Guess",
+    "model": "Guess Lorzi",
+    "sku": "PAPI-8237",
+    "category": "originales",
+    "gender": "unisex",
+    "price": 280000,
+    "originalPrice": 340000,
+    "images": [
+      "/catalogo/originales/guess/guess-lorzi.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "bajo_encargo",
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isOriginalCertified": true,
+    "description": "",
+    "details": {
+      "condition": "Original nuevo en caja",
+      "colorway": "",
+      "includedItems": [
+        "Caja original",
+        "Comprobante de procedencia"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-14T15:26:27.178Z",
+    "updatedAt": "2026-08-14T15:26:27.178Z"
+  },
+  {
+    "id": "sneaker-guess-luccan",
+    "name": "Guess Luccan",
+    "brand": "Guess",
+    "model": "Guess Luccan",
+    "sku": "PAPI-2045",
+    "category": "originales",
+    "gender": "unisex",
+    "price": 280000,
+    "originalPrice": 340000,
+    "images": [
+      "/catalogo/originales/guess/guess-luccan.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "bajo_encargo",
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isOriginalCertified": true,
+    "description": "",
+    "details": {
+      "condition": "Original nuevo en caja",
+      "colorway": "",
+      "includedItems": [
+        "Caja original",
+        "Comprobante de procedencia"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-14T15:26:27.178Z",
+    "updatedAt": "2026-08-14T15:26:27.178Z"
+  },
+  {
+    "id": "sneaker-guess-obvio",
+    "name": "Guess Obvio",
+    "brand": "Guess",
+    "model": "Guess Obvio",
+    "sku": "PAPI-2232",
+    "category": "originales",
+    "gender": "unisex",
+    "price": 280000,
+    "originalPrice": 340000,
+    "images": [
+      "/catalogo/originales/guess/guess-obvio.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "bajo_encargo",
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isOriginalCertified": true,
+    "description": "",
+    "details": {
+      "condition": "Original nuevo en caja",
+      "colorway": "",
+      "includedItems": [
+        "Caja original",
+        "Comprobante de procedencia"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-14T15:26:27.178Z",
+    "updatedAt": "2026-08-14T15:26:27.178Z"
+  },
+  {
+    "id": "sneaker-guess-tandy",
+    "name": "Guess Tandy",
+    "brand": "Guess",
+    "model": "Guess Tandy",
+    "sku": "PAPI-2990",
+    "category": "originales",
+    "gender": "unisex",
+    "price": 280000,
+    "originalPrice": 340000,
+    "images": [
+      "/catalogo/originales/guess/guess-tandy.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "bajo_encargo",
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isOriginalCertified": true,
+    "description": "",
+    "details": {
+      "condition": "Original nuevo en caja",
+      "colorway": "",
+      "includedItems": [
+        "Caja original",
+        "Comprobante de procedencia"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-14T15:26:27.178Z",
+    "updatedAt": "2026-08-14T15:26:27.178Z"
+  },
+  {
+    "id": "sneaker-guess-tirry",
+    "name": "Guess Tirry",
+    "brand": "Guess",
+    "model": "Guess Tirry",
+    "sku": "PAPI-1357",
+    "category": "originales",
+    "gender": "unisex",
+    "price": 280000,
+    "originalPrice": 340000,
+    "images": [
+      "/catalogo/originales/guess/guess-tirry.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "bajo_encargo",
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isOriginalCertified": true,
+    "description": "",
+    "details": {
+      "condition": "Original nuevo en caja",
+      "colorway": "",
+      "includedItems": [
+        "Caja original",
+        "Comprobante de procedencia"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-14T15:26:27.178Z",
+    "updatedAt": "2026-08-14T15:26:27.178Z"
+  },
+  {
+    "id": "sneaker-guess-tursan",
+    "name": "Guess Tursan",
+    "brand": "Guess",
+    "model": "Guess Tursan",
+    "sku": "PAPI-6358",
+    "category": "originales",
+    "gender": "unisex",
+    "price": 280000,
+    "originalPrice": 340000,
+    "images": [
+      "/catalogo/originales/guess/guess-tursan.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "bajo_encargo",
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isOriginalCertified": true,
+    "description": "",
+    "details": {
+      "condition": "Original nuevo en caja",
+      "colorway": "",
+      "includedItems": [
+        "Caja original",
+        "Comprobante de procedencia"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-14T15:26:27.178Z",
+    "updatedAt": "2026-08-14T15:26:27.178Z"
+  },
+  {
+    "id": "sneaker-guess-walen",
+    "name": "Guess Walen",
+    "brand": "Guess",
+    "model": "Guess Walen",
+    "sku": "PAPI-2649",
+    "category": "originales",
+    "gender": "unisex",
+    "price": 280000,
+    "originalPrice": 340000,
+    "images": [
+      "/catalogo/originales/guess/guess-walen.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "bajo_encargo",
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isOriginalCertified": true,
+    "description": "",
+    "details": {
+      "condition": "Original nuevo en caja",
+      "colorway": "",
+      "includedItems": [
+        "Caja original",
+        "Comprobante de procedencia"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-14T15:26:27.178Z",
+    "updatedAt": "2026-08-14T15:26:27.178Z"
+  },
+  {
+    "id": "sneaker-hugo-boss-hugo-black-white",
+    "name": "HUGO Black & White",
+    "brand": "Hugo Boss",
+    "model": "HUGO Black & White",
+    "sku": "PAPI-1667",
+    "category": "originales",
+    "gender": "unisex",
+    "price": 450000,
+    "originalPrice": 520000,
+    "images": [
+      "/catalogo/originales/hugo-boss/hugo-boss-hugo-black-white.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "bajo_encargo",
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isOriginalCertified": true,
+    "description": "",
+    "details": {
+      "condition": "Original nuevo en caja",
+      "colorway": "Black / White",
+      "includedItems": [
+        "Caja original",
+        "Comprobante de procedencia"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-14T15:26:27.178Z",
+    "updatedAt": "2026-08-14T15:26:27.178Z"
+  },
+  {
+    "id": "sneaker-hugo-boss-hugo-black-storm",
+    "name": "HUGO Black Storm",
+    "brand": "Hugo Boss",
+    "model": "HUGO Black Storm",
+    "sku": "PAPI-1436",
+    "category": "originales",
+    "gender": "unisex",
+    "price": 450000,
+    "originalPrice": 520000,
+    "images": [
+      "/catalogo/originales/hugo-boss/hugo-boss-hugo-black-storm.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "bajo_encargo",
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isOriginalCertified": true,
+    "description": "",
+    "details": {
+      "condition": "Original nuevo en caja",
+      "colorway": "Black",
+      "includedItems": [
+        "Caja original",
+        "Comprobante de procedencia"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-14T15:26:27.178Z",
+    "updatedAt": "2026-08-14T15:26:27.178Z"
+  },
+  {
     "id": "sneaker-hugo-boss-classic",
     "name": "Hugo Boss Classic",
-    "brand": "Otras",
+    "brand": "Hugo Boss",
     "model": "Hugo Boss Classic",
     "sku": "PAPI-8369",
     "category": "general",
@@ -3824,7 +6627,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "price": 190000,
     "originalPrice": 230000,
     "images": [
-      "/catalogo/sneakers/otras/hugo-boss-classic.jpg"
+      "/catalogo/sneakers/hugo-boss/hugo-boss-classic.jpg"
     ],
     "sizes": [
       37,
@@ -3845,13 +6648,54 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
     "createdAt": "2026-08-13T19:36:12.000Z",
     "updatedAt": "2026-08-13T19:36:12.000Z"
+  },
+  {
+    "id": "sneaker-hugo-boss-saturn",
+    "name": "HUGO Saturn",
+    "brand": "Hugo Boss",
+    "model": "HUGO Saturn",
+    "sku": "PAPI-1439",
+    "category": "originales",
+    "gender": "unisex",
+    "price": 450000,
+    "originalPrice": 520000,
+    "images": [
+      "/catalogo/originales/hugo-boss/hugo-boss-saturn.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "bajo_encargo",
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isOriginalCertified": true,
+    "description": "La Saturn de HUGO, en malla técnica con la suela moldeada de la línea.",
+    "details": {
+      "condition": "Original nuevo en caja",
+      "colorway": "",
+      "includedItems": [
+        "Caja original",
+        "Comprobante de procedencia"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-14T15:26:27.178Z",
+    "updatedAt": "2026-08-14T15:26:27.178Z"
   },
   {
     "id": "sneaker-jordan-legacy-312-blanco-rosado",
@@ -3885,7 +6729,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "White / Pink / Blue / Yellow",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -3925,7 +6769,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "Navy / White",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -3965,7 +6809,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "White / Sand",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -4005,7 +6849,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "White / Grey",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -4045,7 +6889,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "Triple Black",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -4085,7 +6929,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "Red / Coral / Pink",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -4125,7 +6969,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "Triple White",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -4165,7 +7009,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "Black / White",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -4205,7 +7049,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "Green / Mint",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -4245,7 +7089,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "White / Black",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -4285,7 +7129,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "White / Black Denim",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -4325,7 +7169,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "Triple Black",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -4357,7 +7201,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       44
     ],
     "status": "disponible",
-    "isFeatured": true,
+    "isFeatured": false,
     "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "La 1906R en malla blanca con placas plateadas y amortiguación N-ergy en el talón.",
@@ -4365,7 +7209,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "Silver / White / Black",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -4397,7 +7241,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       44
     ],
     "status": "disponible",
-    "isFeatured": true,
+    "isFeatured": false,
     "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
@@ -4405,7 +7249,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "White / Pink / Silver",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -4437,7 +7281,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       44
     ],
     "status": "disponible",
-    "isFeatured": true,
+    "isFeatured": false,
     "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
@@ -4445,7 +7289,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "Gold / Cream",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -4485,7 +7329,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "Grey / Black / Volt",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -4525,7 +7369,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "Black / Gold",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -4565,7 +7409,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "White / Green",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -4605,7 +7449,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "White / Silver / Navy",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -4645,7 +7489,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "White / Green",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -4685,7 +7529,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "White / Red",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -4725,7 +7569,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "White / Silver / Grey",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -4765,7 +7609,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "Moonrock / Linen",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -4805,7 +7649,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "Black / Sea Salt",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -4845,7 +7689,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "Sea Salt / Yellow",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -4885,7 +7729,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "Triple White",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -4925,7 +7769,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "White / Green",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -4965,7 +7809,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "Triple Black",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -5005,7 +7849,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "White / Gum",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -5045,7 +7889,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "Grey / White",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -5085,7 +7929,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "Purple / White",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -5125,7 +7969,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "Orange / White",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -5165,7 +8009,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "White / Pink",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -5205,7 +8049,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "Triple White",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -5245,7 +8089,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "Triple Yellow",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -5285,7 +8129,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "White / University Blue",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -5325,7 +8169,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -5365,7 +8209,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -5405,7 +8249,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -5445,7 +8289,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -5485,7 +8329,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "Black / Tiffany Blue",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -5525,7 +8369,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -5565,7 +8409,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "Black / Total Orange",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -5605,7 +8449,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -5645,7 +8489,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "Green / Yellow",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -5685,7 +8529,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "White / Wolf Grey",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -5725,7 +8569,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "Triple Black",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -5765,7 +8609,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "White / Midnight Navy",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -5805,7 +8649,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "Grey / White / Purple",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -5845,7 +8689,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "Smoke Grey / Solar Red",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -5885,7 +8729,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "Grey / Pink Foam",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -5925,7 +8769,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "Black / Grey / Sail",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -5965,7 +8809,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "Black / Neon Yellow",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -6005,7 +8849,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "Triple Black",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -6045,7 +8889,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "Navy / Pink / White",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -6085,7 +8929,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "Taupe / Plum / Sail",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -6125,7 +8969,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "Burgundy / Pink / White",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -6165,7 +9009,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "Brown / Sail / Gum",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -6205,7 +9049,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -6245,7 +9089,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "Black / Wolf Grey / Volt",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -6285,7 +9129,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -6325,7 +9169,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "White / Black / Purple",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -6366,13 +9210,54 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "Grey / Black / Red",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
     "createdAt": "2026-08-13T18:57:45.000Z",
     "updatedAt": "2026-08-13T18:57:45.000Z"
+  },
+  {
+    "id": "sneaker-nike-air-max-dn-black-white",
+    "name": "Nike Air Max DN Black & White",
+    "brand": "Nike",
+    "model": "Nike Air Max DN Black & White",
+    "sku": "PAPI-7437",
+    "category": "originales",
+    "gender": "unisex",
+    "price": 380000,
+    "originalPrice": 450000,
+    "images": [
+      "/catalogo/originales/nike/nike-air-max-dn-black-white.jpeg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "bajo_encargo",
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isOriginalCertified": true,
+    "description": "Air Max DN original con la unidad Dynamic Air de cuatro tubos. Malla técnica negra sobre mediasuela blanca.",
+    "details": {
+      "condition": "Original nuevo en caja",
+      "colorway": "Black / White",
+      "includedItems": [
+        "Caja original",
+        "Comprobante de procedencia"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-14T15:26:27.178Z",
+    "updatedAt": "2026-08-14T15:26:27.178Z"
   },
   {
     "id": "sneaker-nike-air-max-dn-se-triple-negro",
@@ -6406,13 +9291,54 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "Triple Black",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
     "createdAt": "2026-08-13T18:57:45.000Z",
     "updatedAt": "2026-08-13T18:57:45.000Z"
+  },
+  {
+    "id": "sneaker-nike-air-max-dn-triple-black",
+    "name": "Nike Air Max DN Triple Black",
+    "brand": "Nike",
+    "model": "Nike Air Max DN Triple Black",
+    "sku": "PAPI-1681",
+    "category": "originales",
+    "gender": "unisex",
+    "price": 380000,
+    "originalPrice": 450000,
+    "images": [
+      "/catalogo/originales/nike/nike-air-max-dn-triple-black.jpeg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "bajo_encargo",
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isOriginalCertified": true,
+    "description": "",
+    "details": {
+      "condition": "Original nuevo en caja",
+      "colorway": "Triple Black",
+      "includedItems": [
+        "Caja original",
+        "Comprobante de procedencia"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-14T15:26:27.178Z",
+    "updatedAt": "2026-08-14T15:26:27.178Z"
   },
   {
     "id": "sneaker-nike-air-max-dn8-azul",
@@ -6446,7 +9372,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "Blue / Black",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -6486,7 +9412,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "White / Silver",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -6526,7 +9452,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "Mint Grey / Black",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -6566,7 +9492,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "Sail / Silver",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -6606,13 +9532,95 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "Metallic Silver",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
     "createdAt": "2026-08-13T18:57:45.000Z",
     "updatedAt": "2026-08-13T18:57:45.000Z"
+  },
+  {
+    "id": "sneaker-nike-air-max-dn8-total-gray",
+    "name": "Nike Air Max DN8 Total Gray",
+    "brand": "Nike",
+    "model": "Nike Air Max DN8 Total Gray",
+    "sku": "PAPI-9833",
+    "category": "originales",
+    "gender": "unisex",
+    "price": 380000,
+    "originalPrice": 450000,
+    "images": [
+      "/catalogo/originales/nike/nike-air-max-dn8-total-gray.jpeg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "bajo_encargo",
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isOriginalCertified": true,
+    "description": "La DN8 en plata y gris, con las ocho cámaras de aire a la vista en toda la suela.",
+    "details": {
+      "condition": "Original nuevo en caja",
+      "colorway": "Wolf Grey / Metallic Silver",
+      "includedItems": [
+        "Caja original",
+        "Comprobante de procedencia"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-14T15:26:27.178Z",
+    "updatedAt": "2026-08-14T15:26:27.178Z"
+  },
+  {
+    "id": "sneaker-nike-air-max-dn8-triple-black",
+    "name": "Nike Air Max DN8 Triple Black",
+    "brand": "Nike",
+    "model": "Nike Air Max DN8 Triple Black",
+    "sku": "PAPI-1215",
+    "category": "originales",
+    "gender": "unisex",
+    "price": 380000,
+    "originalPrice": 450000,
+    "images": [
+      "/catalogo/originales/nike/nike-air-max-dn8-triple-black.jpeg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "bajo_encargo",
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isOriginalCertified": true,
+    "description": "",
+    "details": {
+      "condition": "Original nuevo en caja",
+      "colorway": "Triple Black",
+      "includedItems": [
+        "Caja original",
+        "Comprobante de procedencia"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-14T15:26:27.178Z",
+    "updatedAt": "2026-08-14T15:26:27.178Z"
   },
   {
     "id": "sneaker-nike-air-max-dn8-triple-negro",
@@ -6646,7 +9654,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "Triple Black",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -6686,7 +9694,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "White / Navy / Royal",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -6726,7 +9734,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "Baroque Brown",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -6766,7 +9774,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "Metallic Silver",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -6806,7 +9814,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -6846,7 +9854,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "Phantom / Cacao",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -6886,7 +9894,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "Hyper Blue",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -6926,7 +9934,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "White / Navy / Orange",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -6966,7 +9974,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "Blue Gradient",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -7006,7 +10014,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "Pink Gradient",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -7046,7 +10054,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "Triple White",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -7086,7 +10094,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "Triple Black",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -7126,13 +10134,54 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "Voltage Purple",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
     "createdAt": "2026-08-13T18:57:45.000Z",
     "updatedAt": "2026-08-13T18:57:45.000Z"
+  },
+  {
+    "id": "sneaker-nike-air-max-tn-plus-blue-gray",
+    "name": "Nike Air Max TN Plus Blue & Gray",
+    "brand": "Nike",
+    "model": "Nike Air Max TN Plus Blue & Gray",
+    "sku": "PAPI-8252",
+    "category": "originales",
+    "gender": "unisex",
+    "price": 380000,
+    "originalPrice": 450000,
+    "images": [
+      "/catalogo/originales/nike/nike-air-max-tn-plus-blue-gray.jpeg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "bajo_encargo",
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isOriginalCertified": true,
+    "description": "TN Plus original en hueso con el degradado azul en las nervaduras y doble cámara visible.",
+    "details": {
+      "condition": "Original nuevo en caja",
+      "colorway": "Light Bone / Racer Blue",
+      "includedItems": [
+        "Caja original",
+        "Comprobante de procedencia"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-14T15:26:27.178Z",
+    "updatedAt": "2026-08-14T15:26:27.178Z"
   },
   {
     "id": "sneaker-nike-air-more-uptempo-96-negro-blanco",
@@ -7166,7 +10215,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "Black / White",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -7206,7 +10255,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "Black / White",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -7246,7 +10295,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -7286,7 +10335,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -7326,7 +10375,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "Black / Off Noir",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -7364,7 +10413,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -7404,7 +10453,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "Brown / Sail",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -7444,7 +10493,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "White / Black",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -7485,7 +10534,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "White / Varsity Red / Royal",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -7525,7 +10574,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "Purple / Sail",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -7565,7 +10614,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "Pine Green / Sail",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -7605,7 +10654,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "Dark Red / Sail",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -7645,7 +10694,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "Green / Sail",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -7685,7 +10734,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "Pro Green / Pinksicle",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -7725,7 +10774,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "White / Black",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -7765,7 +10814,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "Pink Foam / Hyper Pink",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -7805,7 +10854,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "White / University Blue",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -7845,7 +10894,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "Grey / Sail",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -7885,7 +10934,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "Sail / Lilac",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -7925,7 +10974,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "White / Red",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -7965,7 +11014,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "White / Pink",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -8005,7 +11054,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "Purple / White",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -8045,7 +11094,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "Triple Black",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -8085,7 +11134,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "Black / Brown",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -8125,7 +11174,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "Black / White",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -8165,7 +11214,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "Black / Chrome",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -8205,7 +11254,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "Black / Volt",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -8245,7 +11294,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "Sail / Khaki / Lime",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -8285,7 +11334,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "Metallic Silver / Varsity Red",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -8325,7 +11374,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "White / Silver / Plum",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -8365,7 +11414,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "White / Pink / Navy",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -8405,7 +11454,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "Cool Grey / Metallic Silver",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -8445,7 +11494,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "Light Bone / Sail",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -8485,7 +11534,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "Black / White",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -8525,7 +11574,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "Metallic Silver / Black",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -8565,7 +11614,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "Metallic Silver / Pink",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -8605,7 +11654,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "Pink / Plum",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -8645,7 +11694,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "Triple White",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -8685,7 +11734,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "White / Grey",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -8725,7 +11774,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "Grey / Sail / Brown",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -8765,7 +11814,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -8805,7 +11854,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "Brown / Sail",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -8845,7 +11894,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "Black / White",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -8885,7 +11934,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "Triple Black",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -8925,7 +11974,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "White / Olive Green",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -8965,7 +12014,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "Grey / Volt / Black",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -9005,7 +12054,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "Black / Red / Yellow",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -9045,7 +12094,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "White / Metallic Silver",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -9085,7 +12134,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "Triple Black",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -9125,7 +12174,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "Triple Brown",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -9165,7 +12214,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "Sail / Khaki",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -9205,7 +12254,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "Metallic Silver / Sail",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -9245,13 +12294,93 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "Triple White",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
     "createdAt": "2026-08-13T18:57:45.000Z",
     "updatedAt": "2026-08-13T18:57:45.000Z"
+  },
+  {
+    "id": "sneaker-nike-vomero-6-gold",
+    "name": "Nike Zoom Vomero 6 Gold",
+    "brand": "Nike",
+    "model": "Nike Zoom Vomero 6 Gold",
+    "sku": "PAPI-1520",
+    "category": "originales",
+    "gender": "unisex",
+    "price": 380000,
+    "originalPrice": 450000,
+    "images": [
+      "/catalogo/originales/nike/nike-vomero-6-gold.jpeg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "bajo_encargo",
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isOriginalCertified": true,
+    "description": "",
+    "details": {
+      "condition": "Original nuevo en caja",
+      "colorway": "Sail / Metallic Gold",
+      "includedItems": [
+        "Caja original",
+        "Comprobante de procedencia"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-14T15:26:27.178Z",
+    "updatedAt": "2026-08-14T15:26:27.178Z"
+  },
+  {
+    "id": "sneaker-nike-vomero-6-pink",
+    "name": "Nike Zoom Vomero 6 Pink",
+    "brand": "Nike",
+    "model": "Nike Zoom Vomero 6 Pink",
+    "sku": "PAPI-8677",
+    "category": "originales",
+    "gender": "mujer",
+    "price": 380000,
+    "originalPrice": 450000,
+    "images": [
+      "/catalogo/originales/nike/nike-vomero-6-pink.jpeg"
+    ],
+    "sizes": [
+      35,
+      36,
+      37,
+      38,
+      39,
+      40
+    ],
+    "status": "bajo_encargo",
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isOriginalCertified": true,
+    "description": "Vomero 6 en hueso con paneles rosa palo y detalles plateados. Horma de mujer.",
+    "details": {
+      "condition": "Original nuevo en caja",
+      "colorway": "Sail / Pink Oxford / Metallic Silver",
+      "includedItems": [
+        "Caja original",
+        "Comprobante de procedencia"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-14T15:26:27.178Z",
+    "updatedAt": "2026-08-14T15:26:27.178Z"
   },
   {
     "id": "sneaker-nike-zoom-vomero-san-valentin",
@@ -9285,7 +12414,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -9325,13 +12454,423 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "White / Black",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
     "createdAt": "2026-08-13T18:57:45.000Z",
     "updatedAt": "2026-08-13T18:57:45.000Z"
+  },
+  {
+    "id": "sneaker-puma-caven-2-0",
+    "name": "Puma Caven 2.0",
+    "brand": "Puma",
+    "model": "Puma Caven 2.0",
+    "sku": "PAPI-1326",
+    "category": "originales",
+    "gender": "unisex",
+    "price": 280000,
+    "originalPrice": 340000,
+    "images": [
+      "/catalogo/originales/puma/puma-caven-2-0.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "bajo_encargo",
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isOriginalCertified": true,
+    "description": "",
+    "details": {
+      "condition": "Original nuevo en caja",
+      "colorway": "",
+      "includedItems": [
+        "Caja original",
+        "Comprobante de procedencia"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-14T15:26:27.178Z",
+    "updatedAt": "2026-08-14T15:26:27.178Z"
+  },
+  {
+    "id": "sneaker-puma-caven-bmw",
+    "name": "Puma Caven BMW M Motorsport",
+    "brand": "Puma",
+    "model": "Puma Caven BMW M Motorsport",
+    "sku": "PAPI-6571",
+    "category": "originales",
+    "gender": "unisex",
+    "price": 280000,
+    "originalPrice": 340000,
+    "images": [
+      "/catalogo/originales/puma/puma-caven-bmw.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "bajo_encargo",
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isOriginalCertified": true,
+    "description": "La Caven de la línea BMW M Motorsport, con los colores del equipo en el talón.",
+    "details": {
+      "condition": "Original nuevo en caja",
+      "colorway": "",
+      "includedItems": [
+        "Caja original",
+        "Comprobante de procedencia"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-14T15:26:27.178Z",
+    "updatedAt": "2026-08-14T15:26:27.178Z"
+  },
+  {
+    "id": "sneaker-puma-rebound",
+    "name": "Puma Rebound",
+    "brand": "Puma",
+    "model": "Puma Rebound",
+    "sku": "PAPI-2101",
+    "category": "originales",
+    "gender": "unisex",
+    "price": 280000,
+    "originalPrice": 340000,
+    "images": [
+      "/catalogo/originales/puma/puma-rebound.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "bajo_encargo",
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isOriginalCertified": true,
+    "description": "",
+    "details": {
+      "condition": "Original nuevo en caja",
+      "colorway": "",
+      "includedItems": [
+        "Caja original",
+        "Comprobante de procedencia"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-14T15:26:27.178Z",
+    "updatedAt": "2026-08-14T15:26:27.178Z"
+  },
+  {
+    "id": "sneaker-puma-rebound-low",
+    "name": "Puma Rebound Low",
+    "brand": "Puma",
+    "model": "Puma Rebound Low",
+    "sku": "PAPI-5721",
+    "category": "originales",
+    "gender": "unisex",
+    "price": 280000,
+    "originalPrice": 340000,
+    "images": [
+      "/catalogo/originales/puma/puma-rebound-low.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "bajo_encargo",
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isOriginalCertified": true,
+    "description": "",
+    "details": {
+      "condition": "Original nuevo en caja",
+      "colorway": "",
+      "includedItems": [
+        "Caja original",
+        "Comprobante de procedencia"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-14T15:26:27.178Z",
+    "updatedAt": "2026-08-14T15:26:27.178Z"
+  },
+  {
+    "id": "sneaker-puma-robound-b",
+    "name": "Puma Rebound Negro",
+    "brand": "Puma",
+    "model": "Puma Rebound Negro",
+    "sku": "PAPI-6925",
+    "category": "originales",
+    "gender": "unisex",
+    "price": 280000,
+    "originalPrice": 340000,
+    "images": [
+      "/catalogo/originales/puma/puma-robound-b.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "bajo_encargo",
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isOriginalCertified": true,
+    "description": "",
+    "details": {
+      "condition": "Original nuevo en caja",
+      "colorway": "Black",
+      "includedItems": [
+        "Caja original",
+        "Comprobante de procedencia"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-14T15:26:27.178Z",
+    "updatedAt": "2026-08-14T15:26:27.178Z"
+  },
+  {
+    "id": "sneaker-puma-shuffle",
+    "name": "Puma Shuffle",
+    "brand": "Puma",
+    "model": "Puma Shuffle",
+    "sku": "PAPI-8910",
+    "category": "originales",
+    "gender": "unisex",
+    "price": 280000,
+    "originalPrice": 340000,
+    "images": [
+      "/catalogo/originales/puma/puma-shuffle.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "bajo_encargo",
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isOriginalCertified": true,
+    "description": "Silueta de corte bajo en cuero, con la fórmula del Puma clásico y suela de goma.",
+    "details": {
+      "condition": "Original nuevo en caja",
+      "colorway": "",
+      "includedItems": [
+        "Caja original",
+        "Comprobante de procedencia"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-14T15:26:27.178Z",
+    "updatedAt": "2026-08-14T15:26:27.178Z"
+  },
+  {
+    "id": "sneaker-puma-smash",
+    "name": "Puma Smash",
+    "brand": "Puma",
+    "model": "Puma Smash",
+    "sku": "PAPI-1285",
+    "category": "originales",
+    "gender": "unisex",
+    "price": 280000,
+    "originalPrice": 340000,
+    "images": [
+      "/catalogo/originales/puma/puma-smash.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "bajo_encargo",
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isOriginalCertified": true,
+    "description": "",
+    "details": {
+      "condition": "Original nuevo en caja",
+      "colorway": "",
+      "includedItems": [
+        "Caja original",
+        "Comprobante de procedencia"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-14T15:26:27.178Z",
+    "updatedAt": "2026-08-14T15:26:27.178Z"
+  },
+  {
+    "id": "sneaker-puma-smash-3-0",
+    "name": "Puma Smash 3.0",
+    "brand": "Puma",
+    "model": "Puma Smash 3.0",
+    "sku": "PAPI-1937",
+    "category": "originales",
+    "gender": "unisex",
+    "price": 280000,
+    "originalPrice": 340000,
+    "images": [
+      "/catalogo/originales/puma/puma-smash-3-0.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "bajo_encargo",
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isOriginalCertified": true,
+    "description": "",
+    "details": {
+      "condition": "Original nuevo en caja",
+      "colorway": "",
+      "includedItems": [
+        "Caja original",
+        "Comprobante de procedencia"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-14T15:26:27.178Z",
+    "updatedAt": "2026-08-14T15:26:27.178Z"
+  },
+  {
+    "id": "sneaker-puma-smash-3-0-b-n",
+    "name": "Puma Smash 3.0 Blanco / Negro",
+    "brand": "Puma",
+    "model": "Puma Smash 3.0 Blanco / Negro",
+    "sku": "PAPI-1416",
+    "category": "originales",
+    "gender": "unisex",
+    "price": 280000,
+    "originalPrice": 340000,
+    "images": [
+      "/catalogo/originales/puma/puma-smash-3-0-b-n.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "bajo_encargo",
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isOriginalCertified": true,
+    "description": "",
+    "details": {
+      "condition": "Original nuevo en caja",
+      "colorway": "White / Black",
+      "includedItems": [
+        "Caja original",
+        "Comprobante de procedencia"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-14T15:26:27.178Z",
+    "updatedAt": "2026-08-14T15:26:27.178Z"
+  },
+  {
+    "id": "sneaker-puma-suede-xl",
+    "name": "Puma Suede XL",
+    "brand": "Puma",
+    "model": "Puma Suede XL",
+    "sku": "PAPI-5678",
+    "category": "originales",
+    "gender": "unisex",
+    "price": 280000,
+    "originalPrice": 340000,
+    "images": [
+      "/catalogo/originales/puma/puma-suede-xl.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "bajo_encargo",
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isOriginalCertified": true,
+    "description": "La Suede de siempre con la banda y la lengüeta engordadas. Gamuza y suela de goma.",
+    "details": {
+      "condition": "Original nuevo en caja",
+      "colorway": "",
+      "includedItems": [
+        "Caja original",
+        "Comprobante de procedencia"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-14T15:26:27.178Z",
+    "updatedAt": "2026-08-14T15:26:27.178Z"
   },
   {
     "id": "sneaker-reebok-x-anuel-aa-rojo",
@@ -9365,13 +12904,54 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "Red / Black",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
     "createdAt": "2026-08-13T19:36:12.000Z",
     "updatedAt": "2026-08-13T19:36:12.000Z"
+  },
+  {
+    "id": "sneaker-calvin-klein-sandalias-ck-wiston-slide-black-002",
+    "name": "Sandalias Calvin Klein Wiston Slide Black",
+    "brand": "Calvin Klein",
+    "model": "Sandalias Calvin Klein Wiston Slide Black",
+    "sku": "PAPI-9379",
+    "category": "originales",
+    "gender": "unisex",
+    "price": 280000,
+    "originalPrice": 340000,
+    "images": [
+      "/catalogo/originales/calvin-klein/calvin-klein-sandalias-ck-wiston-slide-black-002.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "bajo_encargo",
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isOriginalCertified": true,
+    "description": "Sandalia de la línea Wiston en negro, con el logo en relieve sobre la tira.",
+    "details": {
+      "condition": "Original nuevo en caja",
+      "colorway": "Black",
+      "includedItems": [
+        "Caja original",
+        "Comprobante de procedencia"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-14T15:26:27.178Z",
+    "updatedAt": "2026-08-14T15:26:27.178Z"
   },
   {
     "id": "sneaker-vans-old-skool-cafe",
@@ -9405,7 +12985,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "Brown / White",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,
@@ -9445,7 +13025,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "condition": "Nuevo en caja",
       "colorway": "Black / White",
       "includedItems": [
-        "Caja original"
+        "Caja"
       ]
     },
     "viewsCount": 0,

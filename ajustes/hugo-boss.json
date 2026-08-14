@@ -1,0 +1,81 @@
+{
+  "boss-black-pillow": {
+    "name": "Boss Black Pillow",
+    "colorway": "Black"
+  },
+  "boss-master-gris": {
+    "name": "Boss Master Gris",
+    "colorway": "Grey"
+  },
+  "hugo-boss-classic": {
+    "name": "Hugo Boss Classic",
+    "colorway": ""
+  },
+  "hugo-boss-aiden-block": {
+    "name": "BOSS Aiden Block",
+    "colorway": ""
+  },
+  "hugo-boss-kai-retro-black": {
+    "name": "BOSS Kai Retro Black",
+    "colorway": "Black"
+  },
+  "hugo-boss-kye-retro-style-white-oak": {
+    "name": "BOSS Kye Retro White Oak",
+    "colorway": "White / Oak"
+  },
+  "hugo-boss-mesh-blueberry": {
+    "name": "BOSS Mesh Blueberry",
+    "colorway": "Blueberry"
+  },
+  "hugo-boss-mesh-white-oak": {
+    "name": "BOSS Mesh White Oak",
+    "colorway": "White / Oak"
+  },
+  "hugo-boss-parkour-run-carbon": {
+    "name": "BOSS Parkour Run Carbon",
+    "colorway": "Carbon",
+    "description": "La Parkour Run original, con la suela de perfil alto y el logo BOSS en el lateral."
+  },
+  "hugo-boss-parkour-run-sky-navy-blue": {
+    "name": "BOSS Parkour Run Sky Navy Blue",
+    "colorway": "Sky / Navy Blue"
+  },
+  "hugo-boss-parkour-runn-onyx": {
+    "name": "BOSS Parkour Run Onyx",
+    "colorway": "Onyx"
+  },
+  "hugo-boss-parkour-vison-orange": {
+    "name": "BOSS Parkour Vision Orange",
+    "colorway": "Orange"
+  },
+  "hugo-boss-rhys-cupsole-blue-yankee": {
+    "name": "BOSS Rhys Cupsole Blue Yankee",
+    "colorway": "Blue Yankee"
+  },
+  "hugo-boss-rhys-cupsole-white": {
+    "name": "BOSS Rhys Cupsole White",
+    "colorway": "White",
+    "description": "Silueta baja en cuero blanco con suela de copa. La más vestidora del lote."
+  },
+  "hugo-boss-running-mesh": {
+    "name": "BOSS Running Mesh",
+    "colorway": ""
+  },
+  "hugo-boss-running-mesh-sky-navy-blue": {
+    "name": "BOSS Running Mesh Sky Navy Blue",
+    "colorway": "Sky / Navy Blue"
+  },
+  "hugo-boss-hugo-black-white": {
+    "name": "HUGO Black & White",
+    "colorway": "Black / White"
+  },
+  "hugo-boss-hugo-black-storm": {
+    "name": "HUGO Black Storm",
+    "colorway": "Black"
+  },
+  "hugo-boss-saturn": {
+    "name": "HUGO Saturn",
+    "colorway": "",
+    "description": "La Saturn de HUGO, en malla técnica con la suela moldeada de la línea."
+  }
+}

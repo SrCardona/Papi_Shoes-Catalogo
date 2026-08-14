@@ -8,6 +8,15 @@ export default defineConfig({
   resolve: {
     alias: { '@': path.resolve(__dirname, './src') },
   },
+  server: {
+    watch: {
+      /* Los lotes de fotos se copian a la raíz como .zip, y Windows los deja
+         bloqueados mientras se escriben. Vite intentaba vigilarlos y el
+         servidor se caía con EBUSY a media copia. No son código: no hay nada
+         que recargar cuando cambian. */
+      ignored: ['**/*.zip'],
+    },
+  },
   build: {
     rollupOptions: {
       output: {

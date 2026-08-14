@@ -11,6 +11,9 @@ export type SneakerBrand =
   | 'Travis Scott'
   | 'Off-White'
   | 'Louis Vuitton'
+  | 'Calvin Klein'
+  | 'Hugo Boss'
+  | 'Guess'
   | 'Puma'
   | 'Asics'
   | 'Otras';

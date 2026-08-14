@@ -107,7 +107,7 @@ export function HomePage() {
               className="mt-6 max-w-lg text-[14px] leading-relaxed text-marble/50 animate-rise"
               style={{ animationDelay: '280ms' }}
             >
-              Sneakers que hablan por ti. Originales con legit check documentado y
+              Sneakers que hablan por ti. Originales con legit check documentado
               y una selección de sneakers cuidada par por par.
             </p>
 
