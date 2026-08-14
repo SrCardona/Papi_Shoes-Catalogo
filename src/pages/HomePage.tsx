@@ -1,6 +1,7 @@
 import { useMemo } from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowRight, MessageCircle } from 'lucide-react';
+import type { Sneaker } from '../types';
 import { useStore } from '../context/StoreContext';
 import { BRAND_PILLARS, BRAND_WALL } from '../data/initialData';
 import { BrandLockup, TempleMark } from '../components/ui/TempleMark';
@@ -10,16 +11,45 @@ import { HighlightRail } from '../components/ui/HighlightRail';
 import { DeliveryWall } from '../components/ui/DeliveryWall';
 import { generateDirectWhatsAppContact } from '../lib/utils';
 
+/** Los pares que caben en la columnata del altar sin abrir una segunda fila. */
+const ALTAR_SIZE = 8;
+
 export function HomePage() {
   const { sneakers, settings, deliveries } = useStore();
 
-  const featured = useMemo(
-    () =>
-      [...sneakers]
-        .filter((s) => s.isFeatured && s.status !== 'agotado')
-        .slice(0, 8),
-    [sneakers],
-  );
+  /* El altar muestra lo último que entró al catálogo, venga del script o del
+     panel. Se ordena por fecha de alta en vez de confiar solo en `isFeatured`:
+     así un par agregado a mano hoy entra sin tener que marcarlo.
+
+     Con tope de tres por marca, porque un lote entero llega con la misma
+     fecha y sin el tope el altar queda con ocho pares de la misma casa. Si
+     aun así faltan puestos, se completan con los siguientes más recientes. */
+  const featured = useMemo(() => {
+    const recientes = [...sneakers]
+      .filter((s) => s.status !== 'agotado')
+      .sort(
+        (a, b) =>
+          new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime(),
+      );
+
+    const altar: Sneaker[] = [];
+    const porMarca = new Map<string, number>();
+
+    for (const sneaker of recientes) {
+      if (altar.length === ALTAR_SIZE) break;
+      const usados = porMarca.get(sneaker.brand) ?? 0;
+      if (usados >= 3) continue;
+      porMarca.set(sneaker.brand, usados + 1);
+      altar.push(sneaker);
+    }
+
+    for (const sneaker of recientes) {
+      if (altar.length === ALTAR_SIZE) break;
+      if (!altar.includes(sneaker)) altar.push(sneaker);
+    }
+
+    return altar;
+  }, [sneakers]);
 
   /* Muro de marcas: se arma con las marcas que de verdad hay en el catálogo,
      para que cada una lleve a su sección y no a un filtro vacío. */
@@ -53,7 +83,7 @@ export function HomePage() {
           ))}
         </div>
 
-        <div className="relative max-w-[1400px] mx-auto px-5 lg:px-8 pt-14 pb-16 sm:pt-16 sm:pb-20">
+        <div className="relative max-w-[1400px] mx-auto px-5 lg:px-8 pt-11 pb-14 sm:pt-16 sm:pb-20">
           <div className="flex flex-col items-center text-center">
             <BrandLockup size="xl" className="animate-rise" />
 
@@ -81,20 +111,23 @@ export function HomePage() {
               y una selección de sneakers cuidada par por par.
             </p>
 
+            {/* En móvil los dos accesos ocupan el ancho y quedan uno sobre
+                otro: dos botones a media pantalla se leen como un formulario,
+                no como la puerta de entrada al catálogo. */}
             <div
-              className="mt-9 flex flex-col sm:flex-row items-center gap-3 animate-rise"
+              className="mt-9 w-full max-w-sm sm:max-w-none flex flex-col sm:flex-row sm:items-center sm:justify-center gap-2.5 sm:gap-3 animate-rise"
               style={{ animationDelay: '360ms' }}
             >
               <Link
                 to="/originales"
-                className="group flex items-center gap-3 px-8 py-4 bg-marble text-obsidian text-[11px] font-bold uppercase tracking-[0.22em] hover:bg-silver transition-colors"
+                className="group flex items-center justify-center gap-3 px-8 py-4 bg-marble text-obsidian text-[11px] font-bold uppercase tracking-[0.22em] hover:bg-silver transition-colors"
               >
                 Ver Originales
                 <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
               </Link>
               <Link
                 to="/sneakers"
-                className="px-8 py-4 border border-white/18 text-marble/75 text-[11px] font-bold uppercase tracking-[0.22em] hover:text-marble hover:border-silver/45 transition-colors"
+                className="flex items-center justify-center px-8 py-4 border border-white/18 text-marble/75 text-[11px] font-bold uppercase tracking-[0.22em] hover:text-marble hover:border-silver/45 transition-colors"
               >
                 Ver Sneakers
               </Link>
@@ -110,13 +143,13 @@ export function HomePage() {
       <HighlightRail />
 
       {/* ═══ LAS DOS LÍNEAS ═══════════════════════════════════════════════ */}
-      <section className="max-w-[1400px] mx-auto px-5 lg:px-8 py-20">
+      <section className="max-w-[1400px] mx-auto px-5 lg:px-8 py-14 sm:py-20">
         <SectionHeader
           eyebrow="Dos líneas"
           title="Escoge tu entrada"
           description="El catálogo está dividido en dos líneas con criterios distintos. Sabe cuál estás mirando antes de decidir."
           align="center"
-          className="mb-14"
+          className="mb-10 sm:mb-14"
         />
 
         <div className="grid md:grid-cols-2 gap-px bg-white/8 border border-white/8">
@@ -141,9 +174,9 @@ export function HomePage() {
             <Link
               key={room.to}
               to={room.to}
-              className="group relative bg-basalt hover:bg-marble-navy transition-colors duration-500 p-9 sm:p-12"
+              className="group relative bg-basalt hover:bg-marble-navy transition-colors duration-500 p-7 sm:p-12"
             >
-              <div className="flex items-start justify-between mb-8">
+              <div className="flex items-start justify-between mb-6 sm:mb-8">
                 <span
                   className={`text-[9px] font-bold uppercase tracking-[0.3em] ${room.accent}`}
                 >
@@ -155,10 +188,10 @@ export function HomePage() {
                 />
               </div>
 
-              <h3 className="font-display text-5xl sm:text-6xl text-marble mb-4">
+              <h3 className="font-display text-[2.75rem] sm:text-6xl text-marble mb-3 sm:mb-4">
                 {room.title}
               </h3>
-              <p className="text-[13px] leading-relaxed text-marble/45 max-w-sm mb-9">
+              <p className="text-[13px] leading-relaxed text-marble/45 max-w-sm mb-7 sm:mb-9">
                 {room.text}
               </p>
 
@@ -175,16 +208,17 @@ export function HomePage() {
 
       {/* ═══ COLUMNATA DE DESTACADOS ══════════════════════════════════════ */}
       {featured.length > 0 && (
-        <section className="max-w-[1400px] mx-auto px-5 lg:px-8 pb-20">
+        <section className="max-w-[1400px] mx-auto px-5 lg:px-8 pb-14 sm:pb-20">
           <SectionHeader
             eyebrow="Selección"
             title="En el altar"
-            description="Los pares que más se están moviendo esta semana."
+            description="Lo último que entró al templo, de lo más reciente a lo más antiguo."
+            align="center"
             className="mb-10"
             action={
               <Link
                 to="/catalogo"
-                className="group flex items-center gap-2 text-[10px] font-semibold uppercase tracking-[0.22em] text-marble/55 hover:text-marble transition-colors"
+                className="group flex items-center justify-center gap-2 text-[10px] font-semibold uppercase tracking-[0.22em] text-marble/55 hover:text-marble transition-colors"
               >
                 Ver los {sneakers.length} pares
                 <ArrowRight className="w-3.5 h-3.5 transition-transform group-hover:translate-x-1" />
@@ -197,7 +231,7 @@ export function HomePage() {
 
       {/* ═══ ENTREGAS RECIENTES ═══════════════════════════════════════════ */}
       {deliveries.length > 0 && (
-        <section className="max-w-[1400px] mx-auto px-5 lg:px-8 pb-20">
+        <section className="max-w-[1400px] mx-auto px-5 lg:px-8 pb-14 sm:pb-20">
           <SectionHeader
             eyebrow="Comunidad"
             title="Ya están en la calle"
@@ -243,16 +277,16 @@ export function HomePage() {
       </section>
 
       {/* ═══ LOS CINCO PILARES ════════════════════════════════════════════ */}
-      <section className="max-w-[1400px] mx-auto px-5 lg:px-8 py-20">
+      <section className="max-w-[1400px] mx-auto px-5 lg:px-8 py-14 sm:py-20">
         <SectionHeader
           eyebrow="Cómo trabajamos"
           title="Los cinco pilares"
           align="center"
-          className="mb-14"
+          className="mb-10 sm:mb-14"
         />
         <div className="grid sm:grid-cols-2 lg:grid-cols-5 gap-px bg-white/8 border border-white/8">
           {BRAND_PILLARS.map((pillar, i) => (
-            <div key={pillar.id} className="bg-basalt p-7 space-y-4">
+            <div key={pillar.id} className="bg-basalt p-6 sm:p-7 space-y-3 sm:space-y-4">
               <span className="block font-display text-3xl text-silver/25 tabular-nums">
                 {String(i + 1).padStart(2, '0')}
               </span>
@@ -269,9 +303,9 @@ export function HomePage() {
 
       {/* ═══ LLAMADO FINAL ════════════════════════════════════════════════ */}
       <section className="max-w-[1400px] mx-auto px-5 lg:px-8 pb-4">
-        <div className="architrave bg-marble-navy px-8 py-16 sm:py-20 text-center">
-          <TempleMark className="w-12 h-12 mx-auto mb-7 opacity-75" />
-          <h2 className="font-display text-4xl sm:text-5xl text-marble max-w-2xl mx-auto leading-[0.95]">
+        <div className="architrave bg-marble-navy px-6 sm:px-8 py-14 sm:py-20 text-center">
+          <TempleMark className="w-11 h-11 sm:w-12 sm:h-12 mx-auto mb-6 sm:mb-7 opacity-75" />
+          <h2 className="font-display text-[2.15rem] sm:text-5xl text-marble max-w-2xl mx-auto leading-[0.95]">
             ¿No encuentras el par que buscas?
           </h2>
           <p className="mt-5 text-[13px] text-marble/50 max-w-md mx-auto leading-relaxed">
@@ -285,7 +319,7 @@ export function HomePage() {
             )}
             target="_blank"
             rel="noopener noreferrer"
-            className="mt-9 inline-flex items-center gap-3 px-8 py-4 bg-marble text-obsidian text-[11px] font-bold uppercase tracking-[0.22em] hover:bg-silver transition-colors"
+            className="mt-8 sm:mt-9 inline-flex w-full max-w-sm sm:w-auto items-center justify-center gap-3 px-8 py-4 bg-marble text-obsidian text-[11px] font-bold uppercase tracking-[0.22em] hover:bg-silver transition-colors"
           >
             <MessageCircle className="w-4 h-4" />
             Cotizar por WhatsApp

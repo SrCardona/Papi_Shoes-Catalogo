@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { useLocation } from 'react-router-dom';
 import { MessageCircle, X } from 'lucide-react';
 import { useStore } from '../../context/StoreContext';
-import { formatPhoneDisplay, generateDirectWhatsAppContact } from '../../lib/utils';
+import { cx, formatPhoneDisplay, generateDirectWhatsAppContact } from '../../lib/utils';
 
 const QUICK_TOPICS = [
   'Quiero saber mi talla',
@@ -19,10 +19,25 @@ export function FloatingWhatsApp() {
   // El panel de administración no necesita el botón de ventas.
   if (pathname.startsWith('/admin')) return null;
 
+  // En la ficha de producto el botón de WhatsApp ya ocupa el ancho de la
+  // pantalla y es la acción de la página. En un teléfono este flotante sería
+  // un segundo botón verde tapando la foto para hacer lo mismo, así que ahí
+  // se retira y vuelve desde sm, donde no estorba.
+  const isProductPage = pathname.startsWith('/producto/');
+
   return (
-    <div className="fixed bottom-5 right-5 z-40 flex flex-col items-end gap-3">
+    <div
+      className={cx(
+        'fixed right-4 sm:right-5 z-40 flex-col items-end gap-3',
+        'bottom-[max(1rem,env(safe-area-inset-bottom))] sm:bottom-5',
+        isProductPage ? 'hidden sm:flex' : 'flex',
+      )}
+    >
+      {/* En el ancho: los guiones bajos son los espacios de la resta.
+          `calc(100vw-2rem)` sin ellos es CSS inválido y el panel se sale de
+          la pantalla en un teléfono angosto. */}
       {isOpen && (
-        <div className="w-[19rem] bg-basalt border border-silver/20 shadow-2xl animate-rise">
+        <div className="w-[min(19rem,calc(100vw_-_2rem))] bg-basalt border border-silver/20 shadow-2xl animate-rise">
           <div className="px-4 py-3.5 border-b border-white/8 flex items-center justify-between">
             <div>
               <p className="text-[11px] font-bold uppercase tracking-[0.18em] text-marble">

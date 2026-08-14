@@ -37,8 +37,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       44
     ],
     "status": "disponible",
-    "isFeatured": true,
-    "isNewArrival": true,
+    "isFeatured": false,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "Sandalia Adilette 22 de silueta ancha y plantilla moldeada. Suela con textura para agarre en piso mojado.",
     "details": {
@@ -50,8 +50,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.182Z",
-    "updatedAt": "2026-08-13T19:34:44.182Z"
+    "createdAt": "2026-08-12T21:42:38.000Z",
+    "updatedAt": "2026-08-12T21:42:38.000Z"
   },
   {
     "id": "sneaker-adidas-adizero-adios-pro-lila",
@@ -77,8 +77,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       44
     ],
     "status": "disponible",
-    "isFeatured": true,
-    "isNewArrival": true,
+    "isFeatured": false,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "Adizero de perfil alto con mediasuela Lightstrike Pro y upper de malla ligera. Pensada para ritmo rápido.",
     "details": {
@@ -90,8 +90,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.182Z",
-    "updatedAt": "2026-08-13T19:34:44.182Z"
+    "createdAt": "2026-08-12T21:42:38.000Z",
+    "updatedAt": "2026-08-12T21:42:38.000Z"
   },
   {
     "id": "sneaker-adidas-adizero-adios-pro-volt",
@@ -117,8 +117,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       44
     ],
     "status": "disponible",
-    "isFeatured": true,
-    "isNewArrival": true,
+    "isFeatured": false,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "El mismo chasis Adizero en amarillo solar con las tres rayas en negro. Mediasuela Lightstrike y corte tipo calcetín.",
     "details": {
@@ -130,8 +130,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.182Z",
-    "updatedAt": "2026-08-13T19:34:44.182Z"
+    "createdAt": "2026-08-12T21:42:38.000Z",
+    "updatedAt": "2026-08-12T21:42:38.000Z"
   },
   {
     "id": "sneaker-adidas-california-blanco-negro",
@@ -157,8 +157,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       44
     ],
     "status": "disponible",
-    "isFeatured": true,
-    "isNewArrival": true,
+    "isFeatured": false,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "Silueta retro de pista en cuero blanco con refuerzos de gamuza gris y suela gum.",
     "details": {
@@ -170,8 +170,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.182Z",
-    "updatedAt": "2026-08-13T19:34:44.182Z"
+    "createdAt": "2026-08-12T21:42:38.000Z",
+    "updatedAt": "2026-08-12T21:42:38.000Z"
   },
   {
     "id": "sneaker-adidas-campus-00s-core-black",
@@ -197,8 +197,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       44
     ],
     "status": "disponible",
-    "isFeatured": true,
-    "isNewArrival": true,
+    "isFeatured": false,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -210,8 +210,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.182Z",
-    "updatedAt": "2026-08-13T19:34:44.182Z"
+    "createdAt": "2026-08-12T21:42:38.000Z",
+    "updatedAt": "2026-08-12T21:42:38.000Z"
   },
   {
     "id": "sneaker-adidas-campus-00s-gray",
@@ -237,8 +237,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       44
     ],
     "status": "disponible",
-    "isFeatured": true,
-    "isNewArrival": true,
+    "isFeatured": false,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -250,8 +250,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.182Z",
-    "updatedAt": "2026-08-13T19:34:44.182Z"
+    "createdAt": "2026-08-12T21:42:38.000Z",
+    "updatedAt": "2026-08-12T21:42:38.000Z"
   },
   {
     "id": "sneaker-adidas-duramo-sl",
@@ -277,8 +277,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       44
     ],
     "status": "disponible",
-    "isFeatured": true,
-    "isNewArrival": true,
+    "isFeatured": false,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -290,8 +290,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.182Z",
-    "updatedAt": "2026-08-13T19:34:44.182Z"
+    "createdAt": "2026-08-12T21:42:38.000Z",
+    "updatedAt": "2026-08-12T21:42:38.000Z"
   },
   {
     "id": "sneaker-adidas-duramo-sl-blue",
@@ -317,8 +317,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       44
     ],
     "status": "disponible",
-    "isFeatured": true,
-    "isNewArrival": true,
+    "isFeatured": false,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -330,8 +330,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.182Z",
-    "updatedAt": "2026-08-13T19:34:44.182Z"
+    "createdAt": "2026-08-12T21:42:38.000Z",
+    "updatedAt": "2026-08-12T21:42:38.000Z"
   },
   {
     "id": "sneaker-adidas-eqt-equipment-beige-naranja",
@@ -358,7 +358,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "Chasis EQT con Boost completo, gamuza beige, tres rayas naranja y talón verde. Suela gum.",
     "details": {
@@ -370,8 +370,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.182Z",
-    "updatedAt": "2026-08-13T19:34:44.182Z"
+    "createdAt": "2026-08-12T21:42:38.000Z",
+    "updatedAt": "2026-08-12T21:42:38.000Z"
   },
   {
     "id": "sneaker-adidas-forum-x-bad-bunny",
@@ -398,7 +398,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -410,8 +410,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.182Z",
-    "updatedAt": "2026-08-13T19:34:44.182Z"
+    "createdAt": "2026-08-12T21:42:38.000Z",
+    "updatedAt": "2026-08-12T21:42:38.000Z"
   },
   {
     "id": "sneaker-adidas-gazelle-x-bad-bunny",
@@ -438,7 +438,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -450,8 +450,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-12T21:42:38.000Z",
+    "updatedAt": "2026-08-12T21:42:38.000Z"
   },
   {
     "id": "sneaker-adidas-niteball-black",
@@ -478,7 +478,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -490,8 +490,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-12T21:42:38.000Z",
+    "updatedAt": "2026-08-12T21:42:38.000Z"
   },
   {
     "id": "sneaker-adidas-niteball-upgrade",
@@ -518,7 +518,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -530,8 +530,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-12T21:42:38.000Z",
+    "updatedAt": "2026-08-12T21:42:38.000Z"
   },
   {
     "id": "sneaker-adidas-nizza-hi-fi",
@@ -558,7 +558,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -570,8 +570,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-12T21:42:38.000Z",
+    "updatedAt": "2026-08-12T21:42:38.000Z"
   },
   {
     "id": "sneaker-adidas-pureboost",
@@ -598,7 +598,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "Amortiguación Boost expuesta y upper elástico que se ajusta al pie. Cómoda para todo el día.",
     "details": {
@@ -610,8 +610,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-12T21:42:38.000Z",
+    "updatedAt": "2026-08-12T21:42:38.000Z"
   },
   {
     "id": "sneaker-adidas-response-cl-x-bad-bunny-benito",
@@ -638,7 +638,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "La Response CL de Bad Bunny en café y rosado, con detalles plateados y azul rey. Lleva el bordado \"Para Bad Bunny\" en la lengua.",
     "details": {
@@ -650,8 +650,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-12T21:42:38.000Z",
+    "updatedAt": "2026-08-12T21:42:38.000Z"
   },
   {
     "id": "sneaker-adidas-response-cl-x-bad-bunny-blanco",
@@ -678,7 +678,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "Response CL en blanco hueso con capas grises y mediasuela crema. La silueta que popularizó la colaboración.",
     "details": {
@@ -690,8 +690,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-12T21:42:38.000Z",
+    "updatedAt": "2026-08-12T21:42:38.000Z"
   },
   {
     "id": "sneaker-adidas-response-super",
@@ -718,7 +718,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -730,8 +730,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-12T21:42:38.000Z",
+    "updatedAt": "2026-08-12T21:42:38.000Z"
   },
   {
     "id": "sneaker-adidas-running-blanco-azul",
@@ -758,7 +758,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "Tenis de running en malla blanca con las tres rayas en azul y mediasuela alta. Modelo por confirmar.",
     "details": {
@@ -770,8 +770,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-12T21:42:38.000Z",
+    "updatedAt": "2026-08-12T21:42:38.000Z"
   },
   {
     "id": "sneaker-adidas-samba-flower",
@@ -798,7 +798,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -810,8 +810,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-12T21:42:38.000Z",
+    "updatedAt": "2026-08-12T21:42:38.000Z"
   },
   {
     "id": "sneaker-adidas-samba-og",
@@ -838,7 +838,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "La silueta de fútbol sala que se volvió clásico de calle. Cuero con puntera de gamuza y suela gum.",
     "details": {
@@ -850,8 +850,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-12T21:42:38.000Z",
+    "updatedAt": "2026-08-12T21:42:38.000Z"
   },
   {
     "id": "sneaker-adidas-sikaige",
@@ -878,7 +878,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "Silueta voluminosa en blanco con paneles coral y menta, cordones de contraste y suela dentada.",
     "details": {
@@ -890,8 +890,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-12T21:42:38.000Z",
+    "updatedAt": "2026-08-12T21:42:38.000Z"
   },
   {
     "id": "sneaker-adidas-sl-72-brown",
@@ -918,7 +918,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -930,8 +930,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-12T21:42:38.000Z",
+    "updatedAt": "2026-08-12T21:42:38.000Z"
   },
   {
     "id": "sneaker-adidas-sl-72-red",
@@ -958,7 +958,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -970,8 +970,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-12T21:42:38.000Z",
+    "updatedAt": "2026-08-12T21:42:38.000Z"
   },
   {
     "id": "sneaker-adidas-spezial",
@@ -998,7 +998,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -1010,8 +1010,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-12T21:42:38.000Z",
+    "updatedAt": "2026-08-12T21:42:38.000Z"
   },
   {
     "id": "sneaker-adidas-spezial-olive-green",
@@ -1038,7 +1038,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -1050,8 +1050,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-12T21:42:38.000Z",
+    "updatedAt": "2026-08-12T21:42:38.000Z"
   },
   {
     "id": "sneaker-adidas-stan-smith-azul",
@@ -1078,7 +1078,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "Stan Smith en cuero blanco con talón azul marino. Perforaciones en las tres rayas y suela de goma.",
     "details": {
@@ -1090,8 +1090,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-12T21:42:38.000Z",
+    "updatedAt": "2026-08-12T21:42:38.000Z"
   },
   {
     "id": "sneaker-adidas-stan-smith-negro",
@@ -1118,7 +1118,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "Stan Smith en cuero blanco con talón negro. Perforaciones en las tres rayas y suela de goma.",
     "details": {
@@ -1130,8 +1130,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-12T21:42:38.000Z",
+    "updatedAt": "2026-08-12T21:42:38.000Z"
   },
   {
     "id": "sneaker-adidas-stan-smith-verde",
@@ -1158,7 +1158,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "El Stan Smith de siempre: cuero blanco, talón verde y la cara de Stan en la lengua.",
     "details": {
@@ -1170,8 +1170,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-12T21:42:38.000Z",
+    "updatedAt": "2026-08-12T21:42:38.000Z"
   },
   {
     "id": "sneaker-adidas-superstar-core-black",
@@ -1198,7 +1198,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -1210,8 +1210,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-12T21:42:38.000Z",
+    "updatedAt": "2026-08-12T21:42:38.000Z"
   },
   {
     "id": "sneaker-adidas-superstar-rainbow",
@@ -1238,7 +1238,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -1250,8 +1250,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-12T21:42:38.000Z",
+    "updatedAt": "2026-08-12T21:42:38.000Z"
   },
   {
     "id": "sneaker-adidas-superstar-reflectivo",
@@ -1278,7 +1278,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -1290,8 +1290,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-12T21:42:38.000Z",
+    "updatedAt": "2026-08-12T21:42:38.000Z"
   },
   {
     "id": "sneaker-adidas-superstar-triple-white",
@@ -1318,7 +1318,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -1330,8 +1330,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-12T21:42:38.000Z",
+    "updatedAt": "2026-08-12T21:42:38.000Z"
   },
   {
     "id": "sneaker-adidas-superstar-white-black",
@@ -1358,7 +1358,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "La Superstar de toda la vida: puntera de concha, cuero blanco y tres rayas negras.",
     "details": {
@@ -1370,8 +1370,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-12T21:42:38.000Z",
+    "updatedAt": "2026-08-12T21:42:38.000Z"
   },
   {
     "id": "sneaker-adidas-superstar-x-blessd",
@@ -1398,7 +1398,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -1410,8 +1410,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-12T21:42:38.000Z",
+    "updatedAt": "2026-08-12T21:42:38.000Z"
   },
   {
     "id": "sneaker-adidas-ultraboost",
@@ -1438,7 +1438,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -1450,8 +1450,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-12T21:42:38.000Z",
+    "updatedAt": "2026-08-12T21:42:38.000Z"
   },
   {
     "id": "sneaker-adidas-ultraboost-core-black",
@@ -1478,7 +1478,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "Primeknit negro con jaula de soporte y mediasuela Boost completa. La más cómoda del catálogo para caminar.",
     "details": {
@@ -1490,8 +1490,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-12T21:42:38.000Z",
+    "updatedAt": "2026-08-12T21:42:38.000Z"
   },
   {
     "id": "sneaker-jordan-1-low-paris-negro",
@@ -1517,8 +1517,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       44
     ],
     "status": "disponible",
-    "isFeatured": false,
-    "isNewArrival": true,
+    "isFeatured": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -1530,8 +1530,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T19:36:10.000Z",
+    "updatedAt": "2026-08-13T19:36:10.000Z"
   },
   {
     "id": "sneaker-jordan-1-low-x-stussy-x-supreme",
@@ -1557,8 +1557,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       44
     ],
     "status": "disponible",
-    "isFeatured": false,
-    "isNewArrival": true,
+    "isFeatured": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -1570,8 +1570,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T19:36:10.000Z",
+    "updatedAt": "2026-08-13T19:36:10.000Z"
   },
   {
     "id": "sneaker-jordan-1-low-x-swarovski-gris",
@@ -1598,7 +1598,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "Jordan 1 Low forrada en cristales, en gris y blanco. Trae cordones blancos de repuesto.",
     "details": {
@@ -1610,8 +1610,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T19:36:10.000Z",
+    "updatedAt": "2026-08-13T19:36:10.000Z"
   },
   {
     "id": "sneaker-jordan-1-low-x-swarovski-negro",
@@ -1638,7 +1638,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "La versión en cristales negros y plateados, con herrajes dorados en los cordones.",
     "details": {
@@ -1650,8 +1650,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T19:36:10.000Z",
+    "updatedAt": "2026-08-13T19:36:10.000Z"
   },
   {
     "id": "sneaker-jordan-1-mid-panda",
@@ -1678,7 +1678,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -1690,8 +1690,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T19:36:10.000Z",
+    "updatedAt": "2026-08-13T19:36:10.000Z"
   },
   {
     "id": "sneaker-jordan-1-retro-high-85-black-white",
@@ -1718,7 +1718,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -1730,8 +1730,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T19:36:10.000Z",
+    "updatedAt": "2026-08-13T19:36:10.000Z"
   },
   {
     "id": "sneaker-jordan-1-retro-high-85-og-satin-bred",
@@ -1758,7 +1758,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -1770,8 +1770,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T19:36:10.000Z",
+    "updatedAt": "2026-08-13T19:36:10.000Z"
   },
   {
     "id": "sneaker-jordan-1-retro-high-chicago",
@@ -1798,7 +1798,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "El colorway que abrió la línea: cuero blanco, negro y rojo Chicago. La referencia del Jordan 1.",
     "details": {
@@ -1810,8 +1810,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T19:36:10.000Z",
+    "updatedAt": "2026-08-13T19:36:10.000Z"
   },
   {
     "id": "sneaker-jordan-1-retro-high-golden-swoosh",
@@ -1838,7 +1838,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -1850,8 +1850,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T19:36:10.000Z",
+    "updatedAt": "2026-08-13T19:36:10.000Z"
   },
   {
     "id": "sneaker-jordan-1-retro-high-obsidian",
@@ -1878,7 +1878,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -1890,8 +1890,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T19:36:10.000Z",
+    "updatedAt": "2026-08-13T19:36:10.000Z"
   },
   {
     "id": "sneaker-jordan-1-retro-high-og-obsidian-unc",
@@ -1918,7 +1918,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -1930,8 +1930,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T19:36:10.000Z",
+    "updatedAt": "2026-08-13T19:36:10.000Z"
   },
   {
     "id": "sneaker-jordan-1-retro-high-og-patent-bred",
@@ -1958,7 +1958,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "El Bred en charol: cuero brillante en negro y rojo, con el Swoosh liso.",
     "details": {
@@ -1970,8 +1970,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T19:36:10.000Z",
+    "updatedAt": "2026-08-13T19:36:10.000Z"
   },
   {
     "id": "sneaker-jordan-1-retro-high-og-unc-toe",
@@ -1998,7 +1998,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -2010,8 +2010,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T19:36:10.000Z",
+    "updatedAt": "2026-08-13T19:36:10.000Z"
   },
   {
     "id": "sneaker-jordan-1-retro-high-og-washed-pink",
@@ -2038,7 +2038,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -2050,8 +2050,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T19:36:10.000Z",
+    "updatedAt": "2026-08-13T19:36:10.000Z"
   },
   {
     "id": "sneaker-jordan-1-retro-high-university-blue",
@@ -2078,7 +2078,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -2090,8 +2090,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T19:36:10.000Z",
+    "updatedAt": "2026-08-13T19:36:10.000Z"
   },
   {
     "id": "sneaker-jordan-1-retro-high-x-travis-scott-negro",
@@ -2118,7 +2118,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "El Jordan 1 de Cactus Jack con el Swoosh invertido, en negro y hueso.",
     "details": {
@@ -2130,8 +2130,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T19:36:10.000Z",
+    "updatedAt": "2026-08-13T19:36:10.000Z"
   },
   {
     "id": "sneaker-jordan-1-retro-light-pink",
@@ -2158,7 +2158,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -2170,8 +2170,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T19:36:10.000Z",
+    "updatedAt": "2026-08-13T19:36:10.000Z"
   },
   {
     "id": "sneaker-jordan-1-retro-watermelon",
@@ -2198,7 +2198,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -2210,8 +2210,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T19:36:10.000Z",
+    "updatedAt": "2026-08-13T19:36:10.000Z"
   },
   {
     "id": "sneaker-jordan-1-retro-x-dior",
@@ -2238,7 +2238,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -2250,8 +2250,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T19:36:10.000Z",
+    "updatedAt": "2026-08-13T19:36:10.000Z"
   },
   {
     "id": "sneaker-jordan-1-triple-red",
@@ -2278,7 +2278,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -2290,8 +2290,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T19:36:10.000Z",
+    "updatedAt": "2026-08-13T19:36:10.000Z"
   },
   {
     "id": "sneaker-jordan-11-retro-black-concord",
@@ -2318,7 +2318,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -2330,8 +2330,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T19:36:10.000Z",
+    "updatedAt": "2026-08-13T19:36:10.000Z"
   },
   {
     "id": "sneaker-jordan-11-retro-concord",
@@ -2358,7 +2358,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "El 11 en charol negro sobre cuero blanco, con la suela traslúcida.",
     "details": {
@@ -2370,8 +2370,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T19:36:10.000Z",
+    "updatedAt": "2026-08-13T19:36:10.000Z"
   },
   {
     "id": "sneaker-jordan-11-retro-low-concord-bred",
@@ -2398,7 +2398,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -2410,8 +2410,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T19:36:10.000Z",
+    "updatedAt": "2026-08-13T19:36:10.000Z"
   },
   {
     "id": "sneaker-jordan-11-retro-playoffs-bred",
@@ -2438,7 +2438,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -2450,8 +2450,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T19:36:10.000Z",
+    "updatedAt": "2026-08-13T19:36:10.000Z"
   },
   {
     "id": "sneaker-jordan-3-retro-black-cement",
@@ -2478,7 +2478,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "El 3 de siempre: negro con el estampado elefante gris y la ventana de aire visible.",
     "details": {
@@ -2490,8 +2490,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T19:36:10.000Z",
+    "updatedAt": "2026-08-13T19:36:10.000Z"
   },
   {
     "id": "sneaker-jordan-3-retro-fire-red",
@@ -2518,7 +2518,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -2530,8 +2530,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T19:36:10.000Z",
+    "updatedAt": "2026-08-13T19:36:10.000Z"
   },
   {
     "id": "sneaker-jordan-3-retro-unc",
@@ -2558,7 +2558,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -2570,8 +2570,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T19:36:10.000Z",
+    "updatedAt": "2026-08-13T19:36:10.000Z"
   },
   {
     "id": "sneaker-jordan-3-retro-x-fragment",
@@ -2598,7 +2598,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -2610,8 +2610,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T19:36:10.000Z",
+    "updatedAt": "2026-08-13T19:36:10.000Z"
   },
   {
     "id": "sneaker-jordan-3-retro-x-travis-scott-negro",
@@ -2638,7 +2638,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -2650,8 +2650,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T19:36:10.000Z",
+    "updatedAt": "2026-08-13T19:36:10.000Z"
   },
   {
     "id": "sneaker-jordan-3-retro-year-of-the-tiger",
@@ -2678,7 +2678,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -2690,8 +2690,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T19:36:10.000Z",
+    "updatedAt": "2026-08-13T19:36:10.000Z"
   },
   {
     "id": "sneaker-jordan-3-x-j-balvin-rio",
@@ -2718,7 +2718,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -2730,8 +2730,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T19:36:10.000Z",
+    "updatedAt": "2026-08-13T19:36:10.000Z"
   },
   {
     "id": "sneaker-jordan-4-retro-black-cat",
@@ -2758,7 +2758,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "El 4 en negro total, en nobuk, con las mallas y la suela del mismo tono.",
     "details": {
@@ -2770,8 +2770,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T19:36:10.000Z",
+    "updatedAt": "2026-08-13T19:36:10.000Z"
   },
   {
     "id": "sneaker-jordan-4-retro-bred",
@@ -2798,7 +2798,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -2810,8 +2810,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T19:36:10.000Z",
+    "updatedAt": "2026-08-13T19:36:10.000Z"
   },
   {
     "id": "sneaker-jordan-4-retro-sb-pine-green",
@@ -2838,7 +2838,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -2850,8 +2850,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T19:36:10.000Z",
+    "updatedAt": "2026-08-13T19:36:10.000Z"
   },
   {
     "id": "sneaker-jordan-4-retro-triple-brown",
@@ -2878,7 +2878,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -2890,8 +2890,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T19:36:10.000Z",
+    "updatedAt": "2026-08-13T19:36:10.000Z"
   },
   {
     "id": "sneaker-jordan-4-retro-white-thunder",
@@ -2918,7 +2918,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -2930,8 +2930,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T19:36:10.000Z",
+    "updatedAt": "2026-08-13T19:36:10.000Z"
   },
   {
     "id": "sneaker-jordan-4-retro-x-off-white-sail",
@@ -2958,7 +2958,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -2970,8 +2970,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T19:36:10.000Z",
+    "updatedAt": "2026-08-13T19:36:10.000Z"
   },
   {
     "id": "sneaker-jordan-4-retro-x-union-guava-ice",
@@ -2998,7 +2998,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -3010,8 +3010,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T19:36:10.000Z",
+    "updatedAt": "2026-08-13T19:36:10.000Z"
   },
   {
     "id": "sneaker-jordan-6-retro-infrared-white",
@@ -3038,7 +3038,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -3050,8 +3050,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T19:36:10.000Z",
+    "updatedAt": "2026-08-13T19:36:10.000Z"
   },
   {
     "id": "sneaker-asics-comfort",
@@ -3077,7 +3077,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       44
     ],
     "status": "disponible",
-    "isFeatured": false,
+    "isFeatured": true,
     "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
@@ -3090,8 +3090,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T19:36:12.000Z",
+    "updatedAt": "2026-08-13T19:36:12.000Z"
   },
   {
     "id": "sneaker-asics-rosado",
@@ -3117,7 +3117,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       44
     ],
     "status": "disponible",
-    "isFeatured": false,
+    "isFeatured": true,
     "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
@@ -3130,8 +3130,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T19:36:12.000Z",
+    "updatedAt": "2026-08-13T19:36:12.000Z"
   },
   {
     "id": "sneaker-bape-sta-blanco-negro",
@@ -3157,7 +3157,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       44
     ],
     "status": "disponible",
-    "isFeatured": false,
+    "isFeatured": true,
     "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "La Bape Sta en charol, con la estrella negra sobre cuero blanco y suela de goma.",
@@ -3170,8 +3170,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T19:36:12.000Z",
+    "updatedAt": "2026-08-13T19:36:12.000Z"
   },
   {
     "id": "sneaker-bape-sta-negro",
@@ -3210,8 +3210,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T19:36:12.000Z",
+    "updatedAt": "2026-08-13T19:36:12.000Z"
   },
   {
     "id": "sneaker-bape-sta-wgm-blanco",
@@ -3250,8 +3250,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T19:36:12.000Z",
+    "updatedAt": "2026-08-13T19:36:12.000Z"
   },
   {
     "id": "sneaker-boss-black-pillow",
@@ -3290,8 +3290,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T19:36:12.000Z",
+    "updatedAt": "2026-08-13T19:36:12.000Z"
   },
   {
     "id": "sneaker-boss-master-gris",
@@ -3330,8 +3330,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T19:36:12.000Z",
+    "updatedAt": "2026-08-13T19:36:12.000Z"
   },
   {
     "id": "sneaker-calvin-klein-carlla",
@@ -3370,8 +3370,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T19:36:12.000Z",
+    "updatedAt": "2026-08-13T19:36:12.000Z"
   },
   {
     "id": "sneaker-calvin-klein-jeans-negro",
@@ -3410,8 +3410,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T19:36:12.000Z",
+    "updatedAt": "2026-08-13T19:36:12.000Z"
   },
   {
     "id": "sneaker-christian-dior-running",
@@ -3450,8 +3450,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T19:36:12.000Z",
+    "updatedAt": "2026-08-13T19:36:12.000Z"
   },
   {
     "id": "sneaker-coach-platform",
@@ -3490,8 +3490,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T19:36:12.000Z",
+    "updatedAt": "2026-08-13T19:36:12.000Z"
   },
   {
     "id": "sneaker-creative-recreation-blanco",
@@ -3530,8 +3530,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T19:36:12.000Z",
+    "updatedAt": "2026-08-13T19:36:12.000Z"
   },
   {
     "id": "sneaker-creative-recreation-blanco-negro",
@@ -3558,7 +3558,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "Silueta baja en cuero blanco con paneles perforados negros. Incluye bolsa de tela.",
     "details": {
@@ -3570,8 +3570,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T19:36:12.000Z",
+    "updatedAt": "2026-08-13T19:36:12.000Z"
   },
   {
     "id": "sneaker-creative-recreation-gris-negro",
@@ -3598,7 +3598,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -3610,8 +3610,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T19:36:12.000Z",
+    "updatedAt": "2026-08-13T19:36:12.000Z"
   },
   {
     "id": "sneaker-creative-recreation-los-angeles",
@@ -3638,7 +3638,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -3650,8 +3650,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T19:36:12.000Z",
+    "updatedAt": "2026-08-13T19:36:12.000Z"
   },
   {
     "id": "sneaker-creative-recreation-tejido-blanco-negro",
@@ -3678,7 +3678,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "La misma silueta en tejido de dos tonos, con la correa de cuero sobre el empeine.",
     "details": {
@@ -3690,8 +3690,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T19:36:12.000Z",
+    "updatedAt": "2026-08-13T19:36:12.000Z"
   },
   {
     "id": "sneaker-creative-recreation-triple-negro",
@@ -3718,7 +3718,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -3730,8 +3730,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T19:36:12.000Z",
+    "updatedAt": "2026-08-13T19:36:12.000Z"
   },
   {
     "id": "sneaker-dolce-gabbana",
@@ -3758,7 +3758,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -3770,8 +3770,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T19:36:12.000Z",
+    "updatedAt": "2026-08-13T19:36:12.000Z"
   },
   {
     "id": "sneaker-gucci-platform",
@@ -3798,7 +3798,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -3810,8 +3810,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T19:36:12.000Z",
+    "updatedAt": "2026-08-13T19:36:12.000Z"
   },
   {
     "id": "sneaker-hugo-boss-classic",
@@ -3838,7 +3838,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -3850,8 +3850,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T19:36:12.000Z",
+    "updatedAt": "2026-08-13T19:36:12.000Z"
   },
   {
     "id": "sneaker-jordan-legacy-312-blanco-rosado",
@@ -3878,7 +3878,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "La Legacy 312 mezcla piezas del 1, el 3 y el Air Force: correa amarilla, elefante gris y talón azul.",
     "details": {
@@ -3890,8 +3890,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T19:36:10.000Z",
+    "updatedAt": "2026-08-13T19:36:10.000Z"
   },
   {
     "id": "sneaker-louis-vuitton-skate-azul-blanco",
@@ -3918,7 +3918,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "Skate en azul marino y blanco, con cordones tipo cuerda y suela azul traslúcida.",
     "details": {
@@ -3930,8 +3930,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T19:13:00.000Z",
+    "updatedAt": "2026-08-13T19:13:00.000Z"
   },
   {
     "id": "sneaker-louis-vuitton-skate-blanco-beige",
@@ -3958,7 +3958,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -3970,8 +3970,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T19:13:00.000Z",
+    "updatedAt": "2026-08-13T19:13:00.000Z"
   },
   {
     "id": "sneaker-louis-vuitton-skate-blanco-gris",
@@ -3998,7 +3998,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -4010,8 +4010,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T19:13:00.000Z",
+    "updatedAt": "2026-08-13T19:13:00.000Z"
   },
   {
     "id": "sneaker-louis-vuitton-skate-negro-monogram",
@@ -4038,7 +4038,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "La Skate en cuero granulado negro, con la flor del monograma del mismo tono y puntera texturizada.",
     "details": {
@@ -4050,8 +4050,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T19:13:00.000Z",
+    "updatedAt": "2026-08-13T19:13:00.000Z"
   },
   {
     "id": "sneaker-louis-vuitton-skate-rojo",
@@ -4078,7 +4078,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -4090,8 +4090,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T19:13:00.000Z",
+    "updatedAt": "2026-08-13T19:13:00.000Z"
   },
   {
     "id": "sneaker-louis-vuitton-skate-triple-blanco",
@@ -4118,7 +4118,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "Silueta Skate en blanco total, con la flor del monograma en relieve y paneles de malla. Suela gruesa dentada.",
     "details": {
@@ -4130,8 +4130,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T19:13:00.000Z",
+    "updatedAt": "2026-08-13T19:13:00.000Z"
   },
   {
     "id": "sneaker-louis-vuitton-skate-triple-negro",
@@ -4158,7 +4158,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "Skate en negro con malla y la flor del monograma en blanco. Mediasuela alta con los símbolos grabados.",
     "details": {
@@ -4170,8 +4170,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T19:13:00.000Z",
+    "updatedAt": "2026-08-13T19:13:00.000Z"
   },
   {
     "id": "sneaker-louis-vuitton-skate-verde",
@@ -4198,7 +4198,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -4210,8 +4210,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T19:13:00.000Z",
+    "updatedAt": "2026-08-13T19:13:00.000Z"
   },
   {
     "id": "sneaker-louis-vuitton-trainer-blanco-negro",
@@ -4238,7 +4238,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -4250,8 +4250,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T19:13:00.000Z",
+    "updatedAt": "2026-08-13T19:13:00.000Z"
   },
   {
     "id": "sneaker-louis-vuitton-trainer-denim-monogram",
@@ -4278,7 +4278,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "Trainer en cuero blanco con paneles de denim estampado con el monograma. Correa de la lengüeta y talón en negro.",
     "details": {
@@ -4290,8 +4290,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T19:13:00.000Z",
+    "updatedAt": "2026-08-13T19:13:00.000Z"
   },
   {
     "id": "sneaker-louis-vuitton-trainer-negro",
@@ -4318,7 +4318,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "Trainer en cuero negro con el monograma en relieve y la correa de la lengüeta. Cordones blancos de contraste.",
     "details": {
@@ -4330,8 +4330,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T19:13:00.000Z",
+    "updatedAt": "2026-08-13T19:13:00.000Z"
   },
   {
     "id": "sneaker-new-balance-1906r-plata",
@@ -4357,8 +4357,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       44
     ],
     "status": "disponible",
-    "isFeatured": false,
-    "isNewArrival": true,
+    "isFeatured": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "La 1906R en malla blanca con placas plateadas y amortiguación N-ergy en el talón.",
     "details": {
@@ -4370,8 +4370,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T19:36:11.000Z",
+    "updatedAt": "2026-08-13T19:36:11.000Z"
   },
   {
     "id": "sneaker-new-balance-2000-blanco-rosado",
@@ -4397,8 +4397,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       44
     ],
     "status": "disponible",
-    "isFeatured": false,
-    "isNewArrival": true,
+    "isFeatured": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -4410,8 +4410,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T19:36:11.000Z",
+    "updatedAt": "2026-08-13T19:36:11.000Z"
   },
   {
     "id": "sneaker-new-balance-2000-dorado-crema",
@@ -4437,8 +4437,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       44
     ],
     "status": "disponible",
-    "isFeatured": false,
-    "isNewArrival": true,
+    "isFeatured": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -4450,8 +4450,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T19:36:11.000Z",
+    "updatedAt": "2026-08-13T19:36:11.000Z"
   },
   {
     "id": "sneaker-new-balance-2000-gris-verde-neon",
@@ -4478,7 +4478,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -4490,8 +4490,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T19:36:11.000Z",
+    "updatedAt": "2026-08-13T19:36:11.000Z"
   },
   {
     "id": "sneaker-new-balance-2000-negro-dorado",
@@ -4518,7 +4518,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -4530,8 +4530,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T19:36:11.000Z",
+    "updatedAt": "2026-08-13T19:36:11.000Z"
   },
   {
     "id": "sneaker-new-balance-530-blanco-verde",
@@ -4558,7 +4558,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -4570,8 +4570,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T19:36:11.000Z",
+    "updatedAt": "2026-08-13T19:36:11.000Z"
   },
   {
     "id": "sneaker-new-balance-530-white-silver-navy",
@@ -4598,7 +4598,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "La 530 en malla blanca con capas plateadas y detalles azul marino. Mediasuela ABZORB.",
     "details": {
@@ -4610,8 +4610,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T19:36:11.000Z",
+    "updatedAt": "2026-08-13T19:36:11.000Z"
   },
   {
     "id": "sneaker-new-balance-550-blanco-verde",
@@ -4638,7 +4638,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -4650,8 +4650,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T19:36:11.000Z",
+    "updatedAt": "2026-08-13T19:36:11.000Z"
   },
   {
     "id": "sneaker-new-balance-550-x-aime-leon-dore-blanco-rojo",
@@ -4678,7 +4678,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -4690,8 +4690,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T19:36:11.000Z",
+    "updatedAt": "2026-08-13T19:36:11.000Z"
   },
   {
     "id": "sneaker-new-balance-790-blanco-plata",
@@ -4718,7 +4718,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -4730,8 +4730,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T19:36:11.000Z",
+    "updatedAt": "2026-08-13T19:36:11.000Z"
   },
   {
     "id": "sneaker-new-balance-9060-moonrock-linen",
@@ -4758,7 +4758,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -4770,8 +4770,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T19:36:11.000Z",
+    "updatedAt": "2026-08-13T19:36:11.000Z"
   },
   {
     "id": "sneaker-new-balance-9060-negro",
@@ -4798,7 +4798,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "La 9060 en gamuza negra con la N blanca y la mediasuela ondulada en crema.",
     "details": {
@@ -4810,8 +4810,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T19:36:11.000Z",
+    "updatedAt": "2026-08-13T19:36:11.000Z"
   },
   {
     "id": "sneaker-new-balance-9060-sea-salt-yellow",
@@ -4838,7 +4838,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -4850,8 +4850,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T19:36:11.000Z",
+    "updatedAt": "2026-08-13T19:36:11.000Z"
   },
   {
     "id": "sneaker-new-balance-9060-triple-blanco",
@@ -4878,7 +4878,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -4890,8 +4890,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T19:36:11.000Z",
+    "updatedAt": "2026-08-13T19:36:11.000Z"
   },
   {
     "id": "sneaker-nike-air-force-1-blanco-verde",
@@ -4918,7 +4918,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -4930,8 +4930,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T18:57:45.000Z",
+    "updatedAt": "2026-08-13T18:57:45.000Z"
   },
   {
     "id": "sneaker-nike-air-force-1-negro",
@@ -4958,7 +4958,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -4970,8 +4970,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T18:57:45.000Z",
+    "updatedAt": "2026-08-13T18:57:45.000Z"
   },
   {
     "id": "sneaker-nike-air-force-1-mid-07",
@@ -4998,7 +4998,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -5010,8 +5010,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T18:57:45.000Z",
+    "updatedAt": "2026-08-13T18:57:45.000Z"
   },
   {
     "id": "sneaker-nike-air-force-1-super-gris",
@@ -5038,7 +5038,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "Air Force 1 en bloques de gris y blanco, con cordones gruesos tipo cuerda.",
     "details": {
@@ -5050,8 +5050,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T18:57:45.000Z",
+    "updatedAt": "2026-08-13T18:57:45.000Z"
   },
   {
     "id": "sneaker-nike-air-force-1-super-morado",
@@ -5078,7 +5078,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -5090,8 +5090,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T18:57:45.000Z",
+    "updatedAt": "2026-08-13T18:57:45.000Z"
   },
   {
     "id": "sneaker-nike-air-force-1-super-naranja",
@@ -5118,7 +5118,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -5130,8 +5130,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T18:57:45.000Z",
+    "updatedAt": "2026-08-13T18:57:45.000Z"
   },
   {
     "id": "sneaker-nike-air-force-1-swoosh-pink",
@@ -5158,7 +5158,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -5170,8 +5170,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T18:57:45.000Z",
+    "updatedAt": "2026-08-13T18:57:45.000Z"
   },
   {
     "id": "sneaker-nike-air-force-1-triple-white",
@@ -5198,7 +5198,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "La Air Force 1 blanca de siempre, en cuero liso y suela de goma. La base que combina con todo.",
     "details": {
@@ -5210,8 +5210,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T18:57:45.000Z",
+    "updatedAt": "2026-08-13T18:57:45.000Z"
   },
   {
     "id": "sneaker-nike-air-force-1-triple-yellow",
@@ -5238,7 +5238,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -5250,8 +5250,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T18:57:45.000Z",
+    "updatedAt": "2026-08-13T18:57:45.000Z"
   },
   {
     "id": "sneaker-nike-air-force-1-university-blue",
@@ -5278,7 +5278,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -5290,8 +5290,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T18:57:45.000Z",
+    "updatedAt": "2026-08-13T18:57:45.000Z"
   },
   {
     "id": "sneaker-nike-air-force-1-x-louis-vuitton",
@@ -5318,7 +5318,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -5330,8 +5330,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T18:57:45.000Z",
+    "updatedAt": "2026-08-13T18:57:45.000Z"
   },
   {
     "id": "sneaker-nike-air-force-1-x-noah",
@@ -5358,7 +5358,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -5370,8 +5370,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T18:57:45.000Z",
+    "updatedAt": "2026-08-13T18:57:45.000Z"
   },
   {
     "id": "sneaker-nike-air-force-1-x-stussy",
@@ -5398,7 +5398,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -5410,8 +5410,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T18:57:45.000Z",
+    "updatedAt": "2026-08-13T18:57:45.000Z"
   },
   {
     "id": "sneaker-nike-air-force-1-x-north-face",
@@ -5438,7 +5438,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -5450,8 +5450,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T18:57:45.000Z",
+    "updatedAt": "2026-08-13T18:57:45.000Z"
   },
   {
     "id": "sneaker-nike-air-force-1-x-tiffany",
@@ -5478,7 +5478,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -5490,8 +5490,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T18:57:45.000Z",
+    "updatedAt": "2026-08-13T18:57:45.000Z"
   },
   {
     "id": "sneaker-nike-air-force-1-x-travis-scott",
@@ -5518,7 +5518,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -5530,8 +5530,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T18:57:45.000Z",
+    "updatedAt": "2026-08-13T18:57:45.000Z"
   },
   {
     "id": "sneaker-nike-air-max-90-black-orange",
@@ -5558,7 +5558,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -5570,8 +5570,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T18:57:45.000Z",
+    "updatedAt": "2026-08-13T18:57:45.000Z"
   },
   {
     "id": "sneaker-nike-air-max-90-lucha-libre",
@@ -5598,7 +5598,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -5610,8 +5610,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T18:57:45.000Z",
+    "updatedAt": "2026-08-13T18:57:45.000Z"
   },
   {
     "id": "sneaker-nike-air-max-90-oregon",
@@ -5638,7 +5638,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -5650,8 +5650,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T18:57:45.000Z",
+    "updatedAt": "2026-08-13T18:57:45.000Z"
   },
   {
     "id": "sneaker-nike-air-max-90-triple-blanco",
@@ -5678,7 +5678,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "Air Max 90 en blanco total con la cámara de aire visible en el talón. Malla y cuero.",
     "details": {
@@ -5690,8 +5690,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T18:57:45.000Z",
+    "updatedAt": "2026-08-13T18:57:45.000Z"
   },
   {
     "id": "sneaker-nike-air-max-90-triple-negro",
@@ -5718,7 +5718,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -5730,8 +5730,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T18:57:45.000Z",
+    "updatedAt": "2026-08-13T18:57:45.000Z"
   },
   {
     "id": "sneaker-nike-air-max-95-blanco-azul",
@@ -5758,7 +5758,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -5770,8 +5770,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T18:57:45.000Z",
+    "updatedAt": "2026-08-13T18:57:45.000Z"
   },
   {
     "id": "sneaker-nike-air-max-95-gris-morado",
@@ -5798,7 +5798,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -5810,8 +5810,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T18:57:45.000Z",
+    "updatedAt": "2026-08-13T18:57:45.000Z"
   },
   {
     "id": "sneaker-nike-air-max-95-gris-rojo",
@@ -5838,7 +5838,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -5850,8 +5850,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T18:57:45.000Z",
+    "updatedAt": "2026-08-13T18:57:45.000Z"
   },
   {
     "id": "sneaker-nike-air-max-95-gris-rosado",
@@ -5878,7 +5878,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -5890,8 +5890,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T18:57:45.000Z",
+    "updatedAt": "2026-08-13T18:57:45.000Z"
   },
   {
     "id": "sneaker-nike-air-max-95-negro-gris",
@@ -5918,7 +5918,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -5930,8 +5930,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T18:57:45.000Z",
+    "updatedAt": "2026-08-13T18:57:45.000Z"
   },
   {
     "id": "sneaker-nike-air-max-95-neon",
@@ -5958,7 +5958,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "El degradado gris de la 95 con los acentos neón que hicieron famosa la silueta.",
     "details": {
@@ -5970,8 +5970,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T18:57:45.000Z",
+    "updatedAt": "2026-08-13T18:57:45.000Z"
   },
   {
     "id": "sneaker-nike-air-max-95-triple-negro",
@@ -5998,7 +5998,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -6010,8 +6010,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T18:57:45.000Z",
+    "updatedAt": "2026-08-13T18:57:45.000Z"
   },
   {
     "id": "sneaker-nike-air-max-95-x-a-ma-maniere-azul",
@@ -6038,7 +6038,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -6050,8 +6050,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T18:57:45.000Z",
+    "updatedAt": "2026-08-13T18:57:45.000Z"
   },
   {
     "id": "sneaker-nike-air-max-95-x-a-ma-maniere-taupe",
@@ -6078,7 +6078,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -6090,8 +6090,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T18:57:45.000Z",
+    "updatedAt": "2026-08-13T18:57:45.000Z"
   },
   {
     "id": "sneaker-nike-air-max-95-x-a-ma-maniere-vino",
@@ -6118,7 +6118,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -6130,8 +6130,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T18:57:45.000Z",
+    "updatedAt": "2026-08-13T18:57:45.000Z"
   },
   {
     "id": "sneaker-nike-air-max-97-cafe",
@@ -6158,7 +6158,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "Air Max 97 en café con las ondas en crema y suela gum. Cámara de aire de largo completo.",
     "details": {
@@ -6170,8 +6170,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T18:57:45.000Z",
+    "updatedAt": "2026-08-13T18:57:45.000Z"
   },
   {
     "id": "sneaker-nike-air-max-97-nebulous",
@@ -6198,7 +6198,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -6210,8 +6210,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T18:57:45.000Z",
+    "updatedAt": "2026-08-13T18:57:45.000Z"
   },
   {
     "id": "sneaker-nike-air-max-97-negro-volt",
@@ -6238,7 +6238,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -6250,8 +6250,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T18:57:45.000Z",
+    "updatedAt": "2026-08-13T18:57:45.000Z"
   },
   {
     "id": "sneaker-nike-air-max-97-nightmare",
@@ -6278,7 +6278,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -6290,8 +6290,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T18:57:45.000Z",
+    "updatedAt": "2026-08-13T18:57:45.000Z"
   },
   {
     "id": "sneaker-nike-air-max-blanco-morado",
@@ -6318,7 +6318,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "Silueta Air Max en malla blanca con paneles negros y cámara de aire morada. Modelo por confirmar.",
     "details": {
@@ -6330,8 +6330,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T18:57:45.000Z",
+    "updatedAt": "2026-08-13T18:57:45.000Z"
   },
   {
     "id": "sneaker-nike-air-max-bw-gris-rojo",
@@ -6359,7 +6359,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -6371,8 +6371,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T18:57:45.000Z",
+    "updatedAt": "2026-08-13T18:57:45.000Z"
   },
   {
     "id": "sneaker-nike-air-max-dn-se-triple-negro",
@@ -6399,7 +6399,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -6411,8 +6411,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T18:57:45.000Z",
+    "updatedAt": "2026-08-13T18:57:45.000Z"
   },
   {
     "id": "sneaker-nike-air-max-dn8-azul",
@@ -6439,7 +6439,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -6451,8 +6451,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T18:57:45.000Z",
+    "updatedAt": "2026-08-13T18:57:45.000Z"
   },
   {
     "id": "sneaker-nike-air-max-dn8-blanco",
@@ -6479,7 +6479,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -6491,8 +6491,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T18:57:45.000Z",
+    "updatedAt": "2026-08-13T18:57:45.000Z"
   },
   {
     "id": "sneaker-nike-air-max-dn8-gris-menta",
@@ -6519,7 +6519,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -6531,8 +6531,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T18:57:45.000Z",
+    "updatedAt": "2026-08-13T18:57:45.000Z"
   },
   {
     "id": "sneaker-nike-air-max-dn8-hueso",
@@ -6559,7 +6559,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -6571,8 +6571,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T18:57:45.000Z",
+    "updatedAt": "2026-08-13T18:57:45.000Z"
   },
   {
     "id": "sneaker-nike-air-max-dn8-plata",
@@ -6599,7 +6599,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -6611,8 +6611,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T18:57:45.000Z",
+    "updatedAt": "2026-08-13T18:57:45.000Z"
   },
   {
     "id": "sneaker-nike-air-max-dn8-triple-negro",
@@ -6639,7 +6639,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -6651,8 +6651,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T18:57:45.000Z",
+    "updatedAt": "2026-08-13T18:57:45.000Z"
   },
   {
     "id": "sneaker-nike-air-max-ltd-blanco-azul",
@@ -6679,7 +6679,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -6691,8 +6691,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T18:57:45.000Z",
+    "updatedAt": "2026-08-13T18:57:45.000Z"
   },
   {
     "id": "sneaker-nike-air-max-plus-drift-baroque-brown",
@@ -6719,7 +6719,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -6731,8 +6731,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T18:57:45.000Z",
+    "updatedAt": "2026-08-13T18:57:45.000Z"
   },
   {
     "id": "sneaker-nike-air-max-plus-drift-metallic-silver",
@@ -6759,7 +6759,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -6771,8 +6771,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T18:57:45.000Z",
+    "updatedAt": "2026-08-13T18:57:45.000Z"
   },
   {
     "id": "sneaker-nike-air-max-plus-drift-tn-all-day",
@@ -6799,7 +6799,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -6811,8 +6811,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T18:57:45.000Z",
+    "updatedAt": "2026-08-13T18:57:45.000Z"
   },
   {
     "id": "sneaker-nike-air-max-plus-drift-tn-phantom-cacao",
@@ -6839,7 +6839,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -6851,8 +6851,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T18:57:45.000Z",
+    "updatedAt": "2026-08-13T18:57:45.000Z"
   },
   {
     "id": "sneaker-nike-air-max-plus-og-hyper-blue",
@@ -6879,7 +6879,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -6891,8 +6891,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T18:57:45.000Z",
+    "updatedAt": "2026-08-13T18:57:45.000Z"
   },
   {
     "id": "sneaker-nike-air-max-plus-tn-blanco-azul",
@@ -6919,7 +6919,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -6931,8 +6931,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T18:57:45.000Z",
+    "updatedAt": "2026-08-13T18:57:45.000Z"
   },
   {
     "id": "sneaker-nike-air-max-plus-tn-blue-gradient",
@@ -6959,7 +6959,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -6971,8 +6971,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T18:57:45.000Z",
+    "updatedAt": "2026-08-13T18:57:45.000Z"
   },
   {
     "id": "sneaker-nike-air-max-plus-tn-pink-gradient",
@@ -6999,7 +6999,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -7011,8 +7011,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T18:57:45.000Z",
+    "updatedAt": "2026-08-13T18:57:45.000Z"
   },
   {
     "id": "sneaker-nike-air-max-plus-tn-triple-blanco",
@@ -7039,7 +7039,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -7051,8 +7051,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T18:57:45.000Z",
+    "updatedAt": "2026-08-13T18:57:45.000Z"
   },
   {
     "id": "sneaker-nike-air-max-plus-tn-triple-negro",
@@ -7079,7 +7079,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -7091,8 +7091,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T18:57:45.000Z",
+    "updatedAt": "2026-08-13T18:57:45.000Z"
   },
   {
     "id": "sneaker-nike-air-max-plus-tn-voltage-purple",
@@ -7119,7 +7119,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -7131,8 +7131,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T18:57:45.000Z",
+    "updatedAt": "2026-08-13T18:57:45.000Z"
   },
   {
     "id": "sneaker-nike-air-more-uptempo-96-negro-blanco",
@@ -7159,7 +7159,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -7171,8 +7171,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T18:57:45.000Z",
+    "updatedAt": "2026-08-13T18:57:45.000Z"
   },
   {
     "id": "sneaker-nike-air-vomero-18-negro",
@@ -7199,7 +7199,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "Vomero 18 con mediasuela ZoomX alta en blanco y upper en negro y gris.",
     "details": {
@@ -7211,8 +7211,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T18:57:45.000Z",
+    "updatedAt": "2026-08-13T18:57:45.000Z"
   },
   {
     "id": "sneaker-nike-blazer-low-77-vintage",
@@ -7239,7 +7239,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -7251,8 +7251,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T18:57:45.000Z",
+    "updatedAt": "2026-08-13T18:57:45.000Z"
   },
   {
     "id": "sneaker-nike-blazer-mid-77-vintage",
@@ -7279,7 +7279,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -7291,8 +7291,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T18:57:45.000Z",
+    "updatedAt": "2026-08-13T18:57:45.000Z"
   },
   {
     "id": "sneaker-nike-blazer-mid-victory-off-noir",
@@ -7319,7 +7319,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -7331,8 +7331,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T18:57:45.000Z",
+    "updatedAt": "2026-08-13T18:57:45.000Z"
   },
   {
     "id": "sneaker-nike-blazer-mid-victory-phantom",
@@ -7357,7 +7357,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -7369,8 +7369,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T18:57:45.000Z",
+    "updatedAt": "2026-08-13T18:57:45.000Z"
   },
   {
     "id": "sneaker-nike-cortez-cafe",
@@ -7397,7 +7397,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -7409,8 +7409,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T18:57:45.000Z",
+    "updatedAt": "2026-08-13T18:57:45.000Z"
   },
   {
     "id": "sneaker-nike-cortez-classic-blanco-negro",
@@ -7437,7 +7437,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "Cortez en cuero blanco con el swoosh y la franja en negro. Suela de goma dentada.",
     "details": {
@@ -7449,8 +7449,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T18:57:45.000Z",
+    "updatedAt": "2026-08-13T18:57:45.000Z"
   },
   {
     "id": "sneaker-nike-cortez-forrest-gump",
@@ -7478,7 +7478,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "El colorway original de la Cortez: cuero blanco, swoosh rojo y franja azul en la suela.",
     "details": {
@@ -7490,8 +7490,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T18:57:45.000Z",
+    "updatedAt": "2026-08-13T18:57:45.000Z"
   },
   {
     "id": "sneaker-nike-cortez-morado",
@@ -7518,7 +7518,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -7530,8 +7530,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T18:57:45.000Z",
+    "updatedAt": "2026-08-13T18:57:45.000Z"
   },
   {
     "id": "sneaker-nike-cortez-pine-green",
@@ -7558,7 +7558,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -7570,8 +7570,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T18:57:45.000Z",
+    "updatedAt": "2026-08-13T18:57:45.000Z"
   },
   {
     "id": "sneaker-nike-cortez-rojo-oscuro",
@@ -7598,7 +7598,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -7610,8 +7610,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T18:57:45.000Z",
+    "updatedAt": "2026-08-13T18:57:45.000Z"
   },
   {
     "id": "sneaker-nike-cortez-verde",
@@ -7638,7 +7638,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -7650,8 +7650,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T18:57:45.000Z",
+    "updatedAt": "2026-08-13T18:57:45.000Z"
   },
   {
     "id": "sneaker-nike-cortez-verde-rosado",
@@ -7678,7 +7678,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "Cortez en nylon verde con gamuza del mismo tono y swoosh rosado. Mediasuela crema.",
     "details": {
@@ -7690,8 +7690,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T18:57:45.000Z",
+    "updatedAt": "2026-08-13T18:57:45.000Z"
   },
   {
     "id": "sneaker-nike-dunk-low-panda",
@@ -7718,7 +7718,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "La Dunk Low en blanco y negro que se volvió el par de entrada para todo el mundo.",
     "details": {
@@ -7730,8 +7730,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T18:57:45.000Z",
+    "updatedAt": "2026-08-13T18:57:45.000Z"
   },
   {
     "id": "sneaker-nike-dunk-low-triple-pink",
@@ -7758,7 +7758,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -7770,8 +7770,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T18:57:45.000Z",
+    "updatedAt": "2026-08-13T18:57:45.000Z"
   },
   {
     "id": "sneaker-nike-dunk-low-unc",
@@ -7798,7 +7798,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -7810,8 +7810,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T18:57:45.000Z",
+    "updatedAt": "2026-08-13T18:57:45.000Z"
   },
   {
     "id": "sneaker-nike-dunk-x-travis-scott-gray",
@@ -7838,7 +7838,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -7850,8 +7850,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T18:57:45.000Z",
+    "updatedAt": "2026-08-13T18:57:45.000Z"
   },
   {
     "id": "sneaker-nike-free-metcon-blanco-lila",
@@ -7878,7 +7878,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -7890,8 +7890,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T18:57:45.000Z",
+    "updatedAt": "2026-08-13T18:57:45.000Z"
   },
   {
     "id": "sneaker-nike-free-metcon-blanco-rojo",
@@ -7918,7 +7918,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -7930,8 +7930,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T18:57:45.000Z",
+    "updatedAt": "2026-08-13T18:57:45.000Z"
   },
   {
     "id": "sneaker-nike-free-metcon-blanco-rosado",
@@ -7958,7 +7958,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -7970,8 +7970,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T18:57:45.000Z",
+    "updatedAt": "2026-08-13T18:57:45.000Z"
   },
   {
     "id": "sneaker-nike-free-metcon-morado",
@@ -7998,7 +7998,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -8010,8 +8010,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T18:57:45.000Z",
+    "updatedAt": "2026-08-13T18:57:45.000Z"
   },
   {
     "id": "sneaker-nike-free-metcon-negro",
@@ -8038,7 +8038,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -8050,8 +8050,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T18:57:45.000Z",
+    "updatedAt": "2026-08-13T18:57:45.000Z"
   },
   {
     "id": "sneaker-nike-free-metcon-negro-cafe",
@@ -8078,7 +8078,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -8090,8 +8090,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T18:57:45.000Z",
+    "updatedAt": "2026-08-13T18:57:45.000Z"
   },
   {
     "id": "sneaker-nike-hyper-bubble-negro",
@@ -8118,7 +8118,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -8130,8 +8130,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T18:57:45.000Z",
+    "updatedAt": "2026-08-13T18:57:45.000Z"
   },
   {
     "id": "sneaker-nike-hyper-bubble-negro-cromo",
@@ -8158,7 +8158,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -8170,8 +8170,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T18:57:45.000Z",
+    "updatedAt": "2026-08-13T18:57:45.000Z"
   },
   {
     "id": "sneaker-nike-hyper-bubble-negro-verde",
@@ -8198,7 +8198,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -8210,8 +8210,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T18:57:45.000Z",
+    "updatedAt": "2026-08-13T18:57:45.000Z"
   },
   {
     "id": "sneaker-nike-initiator-hueso-verde",
@@ -8238,7 +8238,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -8250,8 +8250,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T18:57:45.000Z",
+    "updatedAt": "2026-08-13T18:57:45.000Z"
   },
   {
     "id": "sneaker-nike-initiator-plata-rojo",
@@ -8278,7 +8278,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "Initiator en plata metalizada con el swoosh en rojo. Corredora de los 2000 hecha para diario.",
     "details": {
@@ -8290,8 +8290,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T18:57:45.000Z",
+    "updatedAt": "2026-08-13T18:57:45.000Z"
   },
   {
     "id": "sneaker-nike-p-6000-blanco-malva",
@@ -8318,7 +8318,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -8330,8 +8330,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T18:57:45.000Z",
+    "updatedAt": "2026-08-13T18:57:45.000Z"
   },
   {
     "id": "sneaker-nike-p-6000-blanco-rosado",
@@ -8358,7 +8358,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -8370,8 +8370,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T18:57:45.000Z",
+    "updatedAt": "2026-08-13T18:57:45.000Z"
   },
   {
     "id": "sneaker-nike-p-6000-gris",
@@ -8398,7 +8398,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -8410,8 +8410,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T18:57:45.000Z",
+    "updatedAt": "2026-08-13T18:57:45.000Z"
   },
   {
     "id": "sneaker-nike-p-6000-hueso",
@@ -8438,7 +8438,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -8450,8 +8450,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T18:57:45.000Z",
+    "updatedAt": "2026-08-13T18:57:45.000Z"
   },
   {
     "id": "sneaker-nike-p-6000-negro-blanco",
@@ -8478,7 +8478,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -8490,8 +8490,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T18:57:45.000Z",
+    "updatedAt": "2026-08-13T18:57:45.000Z"
   },
   {
     "id": "sneaker-nike-p-6000-plata-negro",
@@ -8518,7 +8518,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -8530,8 +8530,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T18:57:45.000Z",
+    "updatedAt": "2026-08-13T18:57:45.000Z"
   },
   {
     "id": "sneaker-nike-p-6000-plata-rosado",
@@ -8558,7 +8558,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -8570,8 +8570,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T18:57:45.000Z",
+    "updatedAt": "2026-08-13T18:57:45.000Z"
   },
   {
     "id": "sneaker-nike-p-6000-rosa-total",
@@ -8598,7 +8598,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -8610,8 +8610,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T18:57:45.000Z",
+    "updatedAt": "2026-08-13T18:57:45.000Z"
   },
   {
     "id": "sneaker-nike-p-6000-triple-blanco",
@@ -8638,7 +8638,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "P-6000 en blanco total, con el entramado de capas y la mediasuela Rideliner.",
     "details": {
@@ -8650,8 +8650,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T18:57:45.000Z",
+    "updatedAt": "2026-08-13T18:57:45.000Z"
   },
   {
     "id": "sneaker-nike-sb-skate-blanco-gris",
@@ -8678,7 +8678,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "Skate baja en gamuza gris y lona blanca, con suela vulcanizada.",
     "details": {
@@ -8690,8 +8690,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T18:57:45.000Z",
+    "updatedAt": "2026-08-13T18:57:45.000Z"
   },
   {
     "id": "sneaker-nike-sb-dunk-low-stellar",
@@ -8718,7 +8718,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -8730,8 +8730,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T18:57:45.000Z",
+    "updatedAt": "2026-08-13T18:57:45.000Z"
   },
   {
     "id": "sneaker-nike-sb-dunk-low-x-jarritos",
@@ -8758,7 +8758,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -8770,8 +8770,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T18:57:45.000Z",
+    "updatedAt": "2026-08-13T18:57:45.000Z"
   },
   {
     "id": "sneaker-nike-sb-dunk-super-brown",
@@ -8798,7 +8798,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -8810,8 +8810,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T18:57:45.000Z",
+    "updatedAt": "2026-08-13T18:57:45.000Z"
   },
   {
     "id": "sneaker-nike-sb-skate-negro",
@@ -8838,7 +8838,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "Silueta baja de skate en lona negra con suela vulcanizada blanca.",
     "details": {
@@ -8850,8 +8850,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T18:57:45.000Z",
+    "updatedAt": "2026-08-13T18:57:45.000Z"
   },
   {
     "id": "sneaker-nike-shox-negro",
@@ -8878,7 +8878,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -8890,8 +8890,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T18:57:45.000Z",
+    "updatedAt": "2026-08-13T18:57:45.000Z"
   },
   {
     "id": "sneaker-nike-shox-tl-blanco-verde",
@@ -8918,7 +8918,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -8930,8 +8930,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T18:57:45.000Z",
+    "updatedAt": "2026-08-13T18:57:45.000Z"
   },
   {
     "id": "sneaker-nike-shox-tl-gris-verde",
@@ -8958,7 +8958,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -8970,8 +8970,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T18:57:45.000Z",
+    "updatedAt": "2026-08-13T18:57:45.000Z"
   },
   {
     "id": "sneaker-nike-shox-tl-negro-rojo",
@@ -8998,7 +8998,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -9010,8 +9010,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T18:57:45.000Z",
+    "updatedAt": "2026-08-13T18:57:45.000Z"
   },
   {
     "id": "sneaker-nike-shox-tl-triple-blanco",
@@ -9038,7 +9038,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "Shox TL en blanco con las cuatro columnas visibles en el talón.",
     "details": {
@@ -9050,8 +9050,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T18:57:45.000Z",
+    "updatedAt": "2026-08-13T18:57:45.000Z"
   },
   {
     "id": "sneaker-nike-shox-tl-triple-negro",
@@ -9078,7 +9078,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -9090,8 +9090,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T18:57:45.000Z",
+    "updatedAt": "2026-08-13T18:57:45.000Z"
   },
   {
     "id": "sneaker-nike-shox-triple-cafe",
@@ -9118,7 +9118,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -9130,8 +9130,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T18:57:45.000Z",
+    "updatedAt": "2026-08-13T18:57:45.000Z"
   },
   {
     "id": "sneaker-nike-zoom-vomero-5-crema",
@@ -9158,7 +9158,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "Vomero 5 en crema y beige, con capas de malla y refuerzos en gamuza.",
     "details": {
@@ -9170,8 +9170,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T18:57:45.000Z",
+    "updatedAt": "2026-08-13T18:57:45.000Z"
   },
   {
     "id": "sneaker-nike-zoom-vomero-5-plata",
@@ -9198,7 +9198,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -9210,8 +9210,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T18:57:45.000Z",
+    "updatedAt": "2026-08-13T18:57:45.000Z"
   },
   {
     "id": "sneaker-nike-zoom-vomero-5-triple-blanco",
@@ -9238,7 +9238,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -9250,8 +9250,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T18:57:45.000Z",
+    "updatedAt": "2026-08-13T18:57:45.000Z"
   },
   {
     "id": "sneaker-nike-zoom-vomero-san-valentin",
@@ -9278,7 +9278,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -9290,8 +9290,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T18:57:45.000Z",
+    "updatedAt": "2026-08-13T18:57:45.000Z"
   },
   {
     "id": "sneaker-nike-zoomx-blanco",
@@ -9318,7 +9318,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -9330,8 +9330,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T18:57:45.000Z",
+    "updatedAt": "2026-08-13T18:57:45.000Z"
   },
   {
     "id": "sneaker-reebok-x-anuel-aa-rojo",
@@ -9358,7 +9358,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -9370,8 +9370,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T19:36:12.000Z",
+    "updatedAt": "2026-08-13T19:36:12.000Z"
   },
   {
     "id": "sneaker-vans-old-skool-cafe",
@@ -9398,7 +9398,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "",
     "details": {
@@ -9410,8 +9410,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T19:36:12.000Z",
+    "updatedAt": "2026-08-13T19:36:12.000Z"
   },
   {
     "id": "sneaker-vans-old-skool-negro",
@@ -9438,7 +9438,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": false,
     "description": "La Old Skool clásica: lona y gamuza negra, franja lateral blanca y suela de gofre.",
     "details": {
@@ -9450,7 +9450,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:34:44.183Z",
-    "updatedAt": "2026-08-13T19:34:44.183Z"
+    "createdAt": "2026-08-13T19:36:12.000Z",
+    "updatedAt": "2026-08-13T19:36:12.000Z"
   }
 ];

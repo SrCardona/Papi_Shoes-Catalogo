@@ -39,8 +39,13 @@ const STATUSES: { value: 'all' | SneakerStatus; label: string }[] = [
   { value: 'bajo_encargo', label: 'Bajo encargo' },
 ];
 
+/**
+ * El tamaño de letra en móvil es 16px a propósito: Safari en iPhone hace zoom
+ * automático al enfocar un campo de menos de 16px y deja la página descuadrada
+ * y con scroll horizontal. Desde `sm` vuelve a los 11px del diseño.
+ */
 const fieldBase =
-  'bg-obsidian border border-white/12 py-2.5 px-3 text-[11px] text-marble focus:outline-none focus:border-silver/45 transition-colors';
+  'bg-obsidian border border-white/12 py-2.5 px-3 text-[16px] sm:text-[11px] text-marble focus:outline-none focus:border-silver/45 transition-colors';
 
 /** Campos del panel: ocupan el ancho de su columna. */
 const fieldClass = `${fieldBase} w-full`;
@@ -62,17 +67,30 @@ export function FilterRail({
   const { settings } = useStore();
   const [isPanelOpen, setIsPanelOpen] = useState(false);
 
+  /**
+   * Elegir un filtro cierra el panel y devuelve la vista al catálogo, que es
+   * lo que se quería ver. Para cambiarlo se vuelve a abrir con el botón.
+   *
+   * El precio es la excepción: se aplica igual mientras se arrastra, pero el
+   * panel se cierra al soltar. Cerrarlo en cada paso del deslizador lo haría
+   * inmanejable.
+   */
+  const applyAndClose = (patch: Partial<FilterState>) => {
+    onChange(patch);
+    setIsPanelOpen(false);
+  };
+
   return (
     <div className="border-y border-white/8 bg-basalt/40 sticky top-[68px] z-30 backdrop-blur-lg">
       <div className="max-w-[1400px] mx-auto px-5 lg:px-8">
         {/* Fila principal */}
-        <div className="flex items-center gap-3 py-3.5">
+        <div className="flex items-center gap-2.5 sm:gap-3 py-3 sm:py-3.5">
           <div className="relative flex-1 min-w-0 max-w-md">
             <Search className="w-3.5 h-3.5 absolute left-3 top-1/2 -translate-y-1/2 text-marble/35" />
             <input
               value={filters.searchQuery}
               onChange={(e) => onChange({ searchQuery: e.target.value })}
-              placeholder="Buscar modelo, marca o referencia"
+              placeholder="Buscar modelo o marca"
               aria-label="Buscar"
               className={cx(fieldClass, 'pl-9')}
             />
@@ -120,10 +138,39 @@ export function FilterRail({
           </button>
         </div>
 
-        {/* Panel desplegable */}
+        {/* Panel desplegable.
+            La barra va pegada arriba (`sticky`), así que el panel no puede
+            crecer más que la pantalla: en un teléfono bajito el pie con
+            "Restablecer" quedaría fuera de alcance. Con tope y scroll propio
+            siempre se llega al final. */}
         {isPanelOpen && (
-          <div className="pb-6 pt-2 border-t border-white/8 animate-fade">
-            <div className="grid grid-cols-2 lg:grid-cols-4 gap-x-5 gap-y-5">
+          <div className="pb-6 pt-2 border-t border-white/8 animate-fade max-h-[70vh] overflow-y-auto no-scrollbar">
+            <div className="grid grid-cols-2 lg:grid-cols-4 gap-x-4 sm:gap-x-5 gap-y-5">
+              {/* El orden vive fuera del panel a partir de sm. En móvil no
+                  cabía en la fila de arriba y quedaba sin ningún acceso: no
+                  se podía ordenar el catálogo desde un teléfono. */}
+              <div className="col-span-2 sm:hidden">
+                <label className={labelClass} htmlFor="f-sort">
+                  Ordenar por
+                </label>
+                <select
+                  id="f-sort"
+                  value={filters.sortBy}
+                  onChange={(e) =>
+                    applyAndClose({
+                      sortBy: e.target.value as FilterState['sortBy'],
+                    })
+                  }
+                  className={cx(fieldClass, 'cursor-pointer')}
+                >
+                  {SORT_OPTIONS.map((o) => (
+                    <option key={o.value} value={o.value} className="bg-obsidian">
+                      {o.label}
+                    </option>
+                  ))}
+                </select>
+              </div>
+
               <div>
                 <label className={labelClass} htmlFor="f-brand">
                   Marca
@@ -131,7 +178,7 @@ export function FilterRail({
                 <select
                   id="f-brand"
                   value={filters.brand}
-                  onChange={(e) => onChange({ brand: e.target.value })}
+                  onChange={(e) => applyAndClose({ brand: e.target.value })}
                   className={cx(fieldClass, 'cursor-pointer')}
                 >
                   <option value="" className="bg-obsidian">
@@ -152,7 +199,7 @@ export function FilterRail({
                 <select
                   id="f-size"
                   value={filters.size}
-                  onChange={(e) => onChange({ size: e.target.value })}
+                  onChange={(e) => applyAndClose({ size: e.target.value })}
                   className={cx(fieldClass, 'cursor-pointer')}
                 >
                   <option value="" className="bg-obsidian">
@@ -174,7 +221,9 @@ export function FilterRail({
                   id="f-gender"
                   value={filters.gender}
                   onChange={(e) =>
-                    onChange({ gender: e.target.value as FilterState['gender'] })
+                    applyAndClose({
+                      gender: e.target.value as FilterState['gender'],
+                    })
                   }
                   className={cx(fieldClass, 'cursor-pointer')}
                 >
@@ -194,7 +243,9 @@ export function FilterRail({
                   id="f-status"
                   value={filters.status}
                   onChange={(e) =>
-                    onChange({ status: e.target.value as FilterState['status'] })
+                    applyAndClose({
+                      status: e.target.value as FilterState['status'],
+                    })
                   }
                   className={cx(fieldClass, 'cursor-pointer')}
                 >
@@ -226,6 +277,10 @@ export function FilterRail({
                   step={50_000}
                   value={filters.maxPrice}
                   onChange={(e) => onChange({ maxPrice: Number(e.target.value) })}
+                  onPointerUp={() => setIsPanelOpen(false)}
+                  onKeyUp={(e) => {
+                    if (e.key === 'Enter') setIsPanelOpen(false);
+                  }}
                   className="w-full accent-lapis cursor-pointer"
                 />
               </div>
@@ -243,7 +298,7 @@ export function FilterRail({
                     ).map((c) => (
                       <button
                         key={c.value}
-                        onClick={() => onChange({ category: c.value })}
+                        onClick={() => applyAndClose({ category: c.value })}
                         className={cx(
                           'flex-1 py-2.5 text-[10px] font-semibold uppercase tracking-[0.14em] transition-colors',
                           filters.category === c.value
@@ -264,7 +319,10 @@ export function FilterRail({
                 {resultCount} de {totalCount} pares
               </p>
               <button
-                onClick={onReset}
+                onClick={() => {
+                  onReset();
+                  setIsPanelOpen(false);
+                }}
                 className="text-[10px] font-semibold uppercase tracking-[0.2em] text-marble/45 hover:text-marble transition-colors"
               >
                 Restablecer

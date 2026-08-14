@@ -18,8 +18,14 @@ interface SneakerColumnProps {
 }
 
 /**
- * Cada producto es una columna del templo: fuste estriado, capitel con el
- * la línea a la que pertenece y basa con el precio. El hover la ilumina.
+ * Cada producto es una columna del templo: fuste estriado, capitel con la
+ * línea a la que pertenece y basa con el precio. El hover la ilumina.
+ *
+ * En un teléfono la columna mide unos 175 px de ancho y ahí no caben ocho
+ * datos sin volverse ruido, así que la ficha se reduce a lo que decide la
+ * compra —foto, marca, nombre y precio— y el resto aparece desde `sm`. Lo
+ * único que sobrevive en móvil es lo que cambia la decisión: el descuento y
+ * un estado que no sea el normal (bajo encargo o agotado).
  */
 export function SneakerColumn({ sneaker, index = 0 }: SneakerColumnProps) {
   const { settings } = useStore();
@@ -27,6 +33,7 @@ export function SneakerColumn({ sneaker, index = 0 }: SneakerColumnProps) {
   const status = STATUS_META[sneaker.status];
   const isOriginal = sneaker.category === 'originales';
   const isSoldOut = sneaker.status === 'agotado';
+  const needsStatusNote = sneaker.status !== 'disponible';
 
   return (
     <article
@@ -37,8 +44,9 @@ export function SneakerColumn({ sneaker, index = 0 }: SneakerColumnProps) {
         to={`/producto/${sneaker.id}`}
         className="block focus:outline-none focus-visible:ring-1 focus-visible:ring-silver"
       >
-        {/* Capitel: rótulo de la línea */}
-        <div className="flex items-center justify-between px-3.5 py-2.5 border-b border-white/6">
+        {/* Capitel: rótulo de la línea. Desde sm, para no partir en dos la
+            cabecera de una tarjeta que en móvil ya es estrecha. */}
+        <div className="hidden sm:flex items-center justify-between px-3.5 py-2.5 border-b border-white/6">
           <span
             className={cx(
               'text-[8px] font-bold uppercase tracking-[0.24em]',
@@ -68,6 +76,14 @@ export function SneakerColumn({ sneaker, index = 0 }: SneakerColumnProps) {
             className="w-full h-full object-cover transition-transform duration-[900ms] ease-out group-hover:scale-[1.07]"
           />
 
+          {/* En móvil el descuento se marca sobre la foto, que es donde queda
+              el sitio libre al no haber capitel. */}
+          {discount && (
+            <span className="sm:hidden absolute top-0 right-0 bg-lapis text-marble text-[9px] font-bold px-1.5 py-1">
+              −{discount}%
+            </span>
+          )}
+
           {sneaker.isNewArrival && !isSoldOut && (
             <span className="absolute top-3 left-3 bg-marble text-obsidian text-[8px] font-bold uppercase tracking-[0.2em] px-2 py-1">
               Nuevo
@@ -82,19 +98,19 @@ export function SneakerColumn({ sneaker, index = 0 }: SneakerColumnProps) {
         </div>
 
         {/* Basa: identidad y precio */}
-        <div className="p-3.5 space-y-2.5">
-          <div className="min-h-[2.6rem]">
-            <p className="text-[9px] uppercase tracking-[0.22em] text-marble/35 mb-1">
+        <div className="p-3 sm:p-3.5 space-y-2 sm:space-y-2.5">
+          <div className="min-h-[2.4rem] sm:min-h-[2.6rem]">
+            <p className="text-[9px] uppercase tracking-[0.18em] sm:tracking-[0.22em] text-marble/35 mb-1">
               {sneaker.brand}
             </p>
-            <h3 className="font-body font-semibold text-[13px] leading-snug text-marble line-clamp-2 normal-case tracking-normal">
+            <h3 className="font-body font-semibold text-[12px] sm:text-[13px] leading-snug text-marble line-clamp-2 normal-case tracking-normal">
               {sneaker.name}
             </h3>
           </div>
 
-          <div className="flex items-end justify-between gap-2 pt-1">
+          <div className="flex items-end justify-between gap-2 pt-0.5 sm:pt-1">
             <div className="leading-none">
-              <p className="font-display text-lg text-marble">
+              <p className="font-display text-[17px] sm:text-lg text-marble">
                 {formatPrice(sneaker.price, settings.currency, settings.currencySymbol)}
               </p>
               {sneaker.originalPrice && sneaker.originalPrice > sneaker.price && (
@@ -107,18 +123,21 @@ export function SneakerColumn({ sneaker, index = 0 }: SneakerColumnProps) {
                 </p>
               )}
             </div>
-            <span className="text-[9px] text-marble/30 tabular-nums">
+            <span className="hidden sm:inline text-[9px] text-marble/30 tabular-nums">
               {sneaker.sizes.length} tallas
             </span>
           </div>
 
+          {/* "Entrega inmediata" es el caso normal: en móvil se da por sentado
+              y solo se dice cuando la respuesta es otra. */}
           <div
             className={cx(
-              'flex items-center gap-1.5 pt-2 border-t border-white/6',
+              'items-center gap-1.5 pt-2 border-t border-white/6',
+              needsStatusNote ? 'flex' : 'hidden sm:flex',
               status.tone,
             )}
           >
-            <status.Icon className="w-3 h-3" />
+            <status.Icon className="w-3 h-3 shrink-0" />
             <span className="text-[9px] font-semibold uppercase tracking-[0.16em]">
               {status.label}
             </span>

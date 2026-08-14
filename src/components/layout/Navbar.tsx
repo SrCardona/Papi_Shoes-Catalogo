@@ -84,12 +84,15 @@ export function Navbar() {
               aria-label={`${settings.storeName} — inicio`}
             >
               <TempleMark className="w-8 h-8 transition-transform duration-500 group-hover:-translate-y-0.5" />
-              <span className="hidden sm:flex flex-col leading-none">
-                <span className="font-display text-engraved text-lg">
+              {/* El nombre también en móvil: es la identidad de la tienda y
+                  antes desaparecía justo donde más gente entra. La bajada sí
+                  espera a sm, que es donde hay ancho para leerla. */}
+              <span className="flex flex-col leading-none min-w-0">
+                <span className="font-display text-engraved text-base sm:text-lg truncate">
                   {settings.storeName}
                 </span>
                 {settings.tagline && (
-                  <span className="text-[6.5px] font-semibold uppercase tracking-[0.34em] text-silver/55 mt-1">
+                  <span className="hidden sm:block text-[6.5px] font-semibold uppercase tracking-[0.34em] text-silver/55 mt-1">
                     {settings.tagline}
                   </span>
                 )}
@@ -160,10 +163,13 @@ export function Navbar() {
                 </a>
               )}
 
+              {/* El acceso al panel es para la tienda, no para el cliente: en
+                  móvil vive solo dentro del menú, donde ya estaba, y así la
+                  barra queda con una sola acción. */}
               <Link
                 to="/admin"
                 aria-label="Panel de administración"
-                className="p-2.5 text-marble/40 hover:text-silver transition-colors"
+                className="hidden sm:block p-2.5 text-marble/40 hover:text-silver transition-colors"
               >
                 <Shield className="w-4 h-4" />
               </Link>
@@ -171,7 +177,7 @@ export function Navbar() {
               <button
                 onClick={openMenu}
                 aria-label="Abrir menú"
-                className="lg:hidden p-2.5 text-marble"
+                className="tap lg:hidden -mr-1.5 p-2.5 text-marble"
               >
                 <Menu className="w-5 h-5" />
               </button>
@@ -188,13 +194,15 @@ export function Navbar() {
             <button
               onClick={() => setIsMenuOpen(false)}
               aria-label="Cerrar menú"
-              className="p-2.5 text-marble"
+              className="tap -mr-1.5 p-2.5 text-marble"
             >
               <X className="w-5 h-5" />
             </button>
           </div>
 
-          <nav className="flex-1 flex flex-col justify-center px-8 gap-1">
+          {/* `overflow-y-auto` para que en un teléfono bajito los cinco enlaces
+              y el pie del menú no se corten sin poder alcanzarlos. */}
+          <nav className="flex-1 flex flex-col justify-center px-7 sm:px-8 gap-1 overflow-y-auto">
             {NAV_LINKS.map((link, i) => (
               <NavLink
                 key={link.to}
@@ -212,7 +220,7 @@ export function Navbar() {
             ))}
           </nav>
 
-          <div className="p-8 space-y-3">
+          <div className="px-7 sm:px-8 pt-6 pb-safe space-y-3">
             <a
               href={generateDirectWhatsAppContact(settings)}
               target="_blank"

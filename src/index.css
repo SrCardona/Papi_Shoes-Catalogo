@@ -27,6 +27,8 @@
 
   html {
     scroll-behavior: smooth;
+    /* Safari en iPhone agranda el texto al girar el teléfono si no se fija. */
+    -webkit-text-size-adjust: 100%;
   }
 
   body {
@@ -35,6 +37,13 @@
     font-family: var(--font-body);
     font-weight: 400;
     -webkit-font-smoothing: antialiased;
+  }
+
+  /* Ningún medio puede empujar el ancho de la página en un teléfono. */
+  img,
+  svg,
+  video {
+    max-width: 100%;
   }
 
   /* Los títulos son inscripciones: condensados, altos, en versalitas */
@@ -106,6 +115,38 @@
     color: var(--color-silver);
   }
 
+  /* En un teléfono el tracking de museo parte las palabras en dos líneas.
+     Se cierra un poco: sigue leyéndose como rótulo grabado, pero cabe. */
+  @media (max-width: 480px) {
+    .eyebrow {
+      letter-spacing: 0.28em;
+    }
+  }
+
+  /* ── Zona táctil mínima ─────────────────────────────────────
+     Un icono de 16px dentro de un botón de 24px no se acierta con
+     el pulgar. Esto le da 44px reales sin agrandar lo que se ve. */
+  .tap {
+    position: relative;
+  }
+
+  .tap::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    min-width: 44px;
+    min-height: 44px;
+    transform: translate(-50%, -50%);
+  }
+
+  /* ── Respiro para la barra de gestos del iPhone ─────────── */
+  .pb-safe {
+    padding-bottom: max(1.25rem, env(safe-area-inset-bottom));
+  }
+
   /* ── Columna: la unidad del catálogo ────────────────────── */
   .column-card {
     position: relative;
@@ -133,16 +174,26 @@
     transition: opacity 420ms ease;
   }
 
-  .column-card:hover {
-    transform: translateY(-6px);
-    border-color: rgb(192 192 192 / 0.24);
-    box-shadow:
-      0 24px 48px -20px rgb(0 0 0 / 0.9),
-      0 0 0 1px rgb(30 58 138 / 0.18);
+  /* El realce va solo donde hay cursor: en una pantalla táctil el `:hover` se
+     queda pegado después de tocar y la tarjeta se ve levantada sin motivo. */
+  @media (hover: hover) and (pointer: fine) {
+    .column-card:hover {
+      transform: translateY(-6px);
+      border-color: rgb(192 192 192 / 0.24);
+      box-shadow:
+        0 24px 48px -20px rgb(0 0 0 / 0.9),
+        0 0 0 1px rgb(30 58 138 / 0.18);
+    }
+
+    .column-card:hover::before {
+      opacity: 1;
+    }
   }
 
-  .column-card:hover::before {
-    opacity: 1;
+  /* Al tocar, la columna responde hundiéndose apenas: es la señal táctil que
+     reemplaza al hover. */
+  .column-card:active {
+    transform: scale(0.985);
   }
 
   /* ── Estriado: las acanaladuras de la columna dórica ────── */

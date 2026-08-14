@@ -87,6 +87,7 @@ const PRECIO_BASE = Number(flags.precio) || 0;
 const PRECIO_ANTES = Number(flags.antes) || 0;
 const PHOTO_DIR = join(ROOT, 'public', 'catalogo');
 const PRICES_FILE = join(ROOT, 'precios.csv');
+const ARRIVALS_FILE = join(ROOT, 'llegadas.json');
 const OUTPUT_FILE = join(ROOT, 'catalogo-papishoes.json');
 const OVERRIDES_DIR = join(ROOT, 'ajustes');
 const TS_OUTPUT_FILE = join(ROOT, 'src', 'data', 'catalogoGenerado.ts');
@@ -316,18 +317,90 @@ for (const file of files) {
   if (category === 'originales') group.category = 'originales';
 }
 
+/* ── Libro de llegadas ───────────────────────────────────────────────────
+   Cuándo entró cada par al catálogo. No se puede deducir del sistema de
+   archivos: las fotos vienen dentro de un zip y conservan su fecha original,
+   que suele ser vieja, y copiarlas la arrastra. Tampoco de la hora de la
+   corrida, que es la misma para los 236.
+
+   Así que se anota: la primera vez que aparece una clave se le pone la fecha
+   de hoy y queda escrita en llegadas.json. Las siguientes corridas respetan
+   la que ya tenía. El archivo se versiona con el repo, de modo que el orden
+   del altar es el mismo para todos y no depende de qué máquina generó. */
+const llegadas = existsSync(ARRIVALS_FILE)
+  ? JSON.parse(readFileSync(ARRIVALS_FILE, 'utf8'))
+  : {};
+const ahora = new Date().toISOString();
+let llegadasNuevas = 0;
+
+for (const key of groups.keys()) {
+  if (!llegadas[key]) {
+    llegadas[key] = ahora;
+    llegadasNuevas++;
+  }
+}
+
+// Se conservan solo los pares que siguen en el catálogo, para que el archivo
+// no crezca con claves de fotos que ya se borraron.
+const registro = Object.fromEntries(
+  [...groups.keys()].sort().map((key) => [key, llegadas[key]]),
+);
+writeFileSync(ARRIVALS_FILE, `${JSON.stringify(registro, null, 2)}\n`, 'utf8');
+
+/* La marca de cada par, resuelta una sola vez: hace falta antes de repartir
+   el altar y otra vez al armar el producto. */
+const marcaDe = new Map(
+  [...groups.values()].map((group) => [
+    group.key,
+    overrides[group.key]?.brand ??
+      group.brandFromFolder ??
+      MARCA_FORZADA ??
+      detectBrand(group.haystack),
+  ]),
+);
+
+/* Lo último que entró es lo que va al altar de la portada, y lo que lleva el
+   sello "Nuevo". Con el sello puesto a todo el catálogo dejaba de significar
+   algo, así que se queda en una franja corta de los más recientes.
+
+   Con tope por marca: un lote entero llega con la misma fecha, y sin el tope
+   el altar —y el orden "Destacados" del catálogo, que sale del mismo flag—
+   quedaban con ocho pares de la misma casa. */
+const ALTAR = 8;
+const NOVEDADES = 12;
+const MAX_POR_MARCA = 3;
+const porLlegada = [...groups.keys()].sort((a, b) =>
+  registro[a] === registro[b]
+    ? a.localeCompare(b, 'es')
+    : registro[b].localeCompare(registro[a]),
+);
+
+const enElAltar = new Set();
+const usadasPorMarca = new Map();
+for (const key of porLlegada) {
+  if (enElAltar.size === ALTAR) break;
+  const marca = marcaDe.get(key);
+  const usadas = usadasPorMarca.get(marca) ?? 0;
+  if (usadas >= MAX_POR_MARCA) continue;
+  usadasPorMarca.set(marca, usadas + 1);
+  enElAltar.add(key);
+}
+// Con pocas marcas el tope puede dejar huecos: se llenan con lo siguiente.
+for (const key of porLlegada) {
+  if (enElAltar.size === ALTAR) break;
+  enElAltar.add(key);
+}
+
+const recienLlegados = new Set(porLlegada.slice(0, NOVEDADES));
+
 const sneakers = [];
 const sinPrecio = [];
 const marcasDudosas = [];
 
-[...groups.values()].forEach((group, i) => {
+[...groups.values()].forEach((group) => {
   const ajuste = overrides[group.key] ?? {};
   const name = ajuste.name ?? prettifyName(group.key);
-  const brand =
-    ajuste.brand ??
-    group.brandFromFolder ??
-    MARCA_FORZADA ??
-    detectBrand(group.haystack);
+  const brand = marcaDe.get(group.key);
   const gender = ajuste.gender ?? group.gender;
   const category = ajuste.category ?? group.category;
   // "Otras" en la carpeta `otras/` es una decisión, no un fallo de detección:
@@ -342,7 +415,7 @@ const marcasDudosas = [];
   if (!price) sinPrecio.push(group.key);
 
   const hash = createHash('sha1').update(group.key).digest('hex');
-  const now = new Date().toISOString();
+  const llegada = registro[group.key];
 
   sneakers.push({
     id: `sneaker-${group.key}`.slice(0, 78),
@@ -357,9 +430,8 @@ const marcasDudosas = [];
     images: group.images,
     sizes: SIZES_BY_GENDER[gender],
     status: 'disponible',
-    // Los primeros ocho llenan la sección "En el altar" de la portada.
-    isFeatured: i < 8,
-    isNewArrival: true,
+    isFeatured: enElAltar.has(group.key),
+    isNewArrival: recienLlegados.has(group.key),
     isOriginalCertified: category === 'originales',
     description: ajuste.description ?? '',
     details: {
@@ -369,8 +441,8 @@ const marcasDudosas = [];
     },
     viewsCount: 0,
     inquiriesCount: 0,
-    createdAt: now,
-    updatedAt: now,
+    createdAt: llegada,
+    updatedAt: llegada,
   });
 });
 

@@ -135,7 +135,9 @@ function ProductView({ id }: { id?: string }) {
         </div>
       </nav>
 
-      <article className="max-w-[1400px] mx-auto px-5 lg:px-8 pb-20">
+      {/* El padding extra deja pasar la barra fija de móvil sin taparle el
+          final a la página. */}
+      <article className="max-w-[1400px] mx-auto px-5 lg:px-8 pb-32 sm:pb-20">
         <div className="grid lg:grid-cols-2 gap-10 lg:gap-16">
           {/* ── Galería ────────────────────────────────────────────── */}
           <div className="space-y-3">
@@ -156,7 +158,7 @@ function ProductView({ id }: { id?: string }) {
                       )
                     }
                     aria-label="Foto anterior"
-                    className="absolute left-3 top-1/2 -translate-y-1/2 w-10 h-10 bg-obsidian/75 hover:bg-obsidian text-marble flex items-center justify-center transition-colors"
+                    className="absolute left-3 top-1/2 -translate-y-1/2 w-11 h-11 bg-obsidian/75 hover:bg-obsidian text-marble flex items-center justify-center transition-colors"
                   >
                     <ChevronLeft className="w-4 h-4" />
                   </button>
@@ -165,10 +167,16 @@ function ProductView({ id }: { id?: string }) {
                       setImageIndex((i) => (i + 1) % sneaker.images.length)
                     }
                     aria-label="Foto siguiente"
-                    className="absolute right-3 top-1/2 -translate-y-1/2 w-10 h-10 bg-obsidian/75 hover:bg-obsidian text-marble flex items-center justify-center transition-colors"
+                    className="absolute right-3 top-1/2 -translate-y-1/2 w-11 h-11 bg-obsidian/75 hover:bg-obsidian text-marble flex items-center justify-center transition-colors"
                   >
                     <ChevronRight className="w-4 h-4" />
                   </button>
+
+                  {/* En el teléfono las flechas quedan sobre la foto y no se
+                      ve cuántas hay: el contador lo dice sin ocupar sitio. */}
+                  <span className="sm:hidden absolute bottom-3 right-3 bg-obsidian/80 px-2 py-1 text-[10px] tabular-nums text-marble/80">
+                    {imageIndex + 1} / {sneaker.images.length}
+                  </span>
                 </>
               )}
 
@@ -179,8 +187,10 @@ function ProductView({ id }: { id?: string }) {
               )}
             </div>
 
+            {/* Cinco miniaturas en 320 px dejan cuadros de 55 px imposibles de
+                acertar. En móvil se muestran cuatro, que es lo que hay. */}
             {sneaker.images.length > 1 && (
-              <div className="grid grid-cols-5 gap-2">
+              <div className="grid grid-cols-4 sm:grid-cols-5 gap-2">
                 {sneaker.images.map((img, i) => (
                   <button
                     key={i}
@@ -220,7 +230,7 @@ function ProductView({ id }: { id?: string }) {
                 <button
                   onClick={share}
                   aria-label="Compartir este par"
-                  className="p-1.5 text-marble/40 hover:text-marble transition-colors"
+                  className="tap p-1.5 text-marble/40 hover:text-marble transition-colors"
                 >
                   {copied ? (
                     <Check className="w-4 h-4 text-emerald-300" />
@@ -432,11 +442,11 @@ function ProductView({ id }: { id?: string }) {
 
         {/* Relacionados */}
         {related.length > 0 && (
-          <section className="mt-24">
+          <section className="mt-16 sm:mt-24">
             <SectionHeader
               eyebrow="También en esta línea"
               title="Pares parecidos"
-              className="mb-9"
+              className="mb-7 sm:mb-9"
             />
             <Colonnade sneakers={related} />
           </section>
@@ -450,6 +460,46 @@ function ProductView({ id }: { id?: string }) {
           Volver a {isOriginal ? 'Originales' : 'Sneakers'}
         </Link>
       </article>
+
+      {/* ── Barra de acción de móvil ──────────────────────────────────────
+          La ficha es larga y el botón de WhatsApp queda arriba: después de
+          leer la descripción hay que devolverse a buscarlo. Esta barra lo
+          mantiene a mano con el precio al lado, y ocupa el lugar del botón
+          flotante, que en esta vista se retira para no repetir la acción. */}
+      <div className="sm:hidden fixed inset-x-0 bottom-0 z-40 border-t border-silver/20 bg-obsidian/95 backdrop-blur-lg">
+        <div className="flex items-center gap-3 px-4 pt-3 pb-safe">
+          <div className="min-w-0 leading-none">
+            <p className="font-display text-xl text-marble">
+              {formatPrice(sneaker.price, settings.currency, settings.currencySymbol)}
+            </p>
+            <p className="mt-1 text-[10px] uppercase tracking-[0.16em] text-marble/40 truncate">
+              {selectedSize ? `Talla ${selectedSize}` : 'Elige tu talla'}
+            </p>
+          </div>
+
+          <a
+            href={
+              isSoldOut
+                ? generateDirectWhatsAppContact(
+                    settings,
+                    `Reposición de ${sneaker.name}`,
+                  )
+                : generateWhatsAppLink(sneaker, selectedSize, settings)
+            }
+            target="_blank"
+            rel="noopener noreferrer"
+            className={cx(
+              'flex flex-1 items-center justify-center gap-2 py-4 text-[11px] font-bold uppercase tracking-[0.18em] transition-colors',
+              isSoldOut
+                ? 'border border-white/20 text-marble/70'
+                : 'bg-marble text-obsidian',
+            )}
+          >
+            <MessageCircle className="w-4 h-4 shrink-0" />
+            {isSoldOut ? 'Avísame' : 'Pedir'}
+          </a>
+        </div>
+      </div>
 
       <SizeGuide isOpen={isGuideOpen} onClose={() => setIsGuideOpen(false)} />
     </>

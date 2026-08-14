@@ -1,6 +1,6 @@
 {
   "version": 3,
-  "exportedAt": "2026-08-13T19:34:44.190Z",
+  "exportedAt": "2026-08-14T14:24:15.150Z",
   "sneakers": [
     {
       "id": "sneaker-adidas-adilette-22",
@@ -26,8 +26,8 @@
         44
       ],
       "status": "disponible",
-      "isFeatured": true,
-      "isNewArrival": true,
+      "isFeatured": false,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "Sandalia Adilette 22 de silueta ancha y plantilla moldeada. Suela con textura para agarre en piso mojado.",
       "details": {
@@ -39,8 +39,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.182Z",
-      "updatedAt": "2026-08-13T19:34:44.182Z"
+      "createdAt": "2026-08-12T21:42:38.000Z",
+      "updatedAt": "2026-08-12T21:42:38.000Z"
     },
     {
       "id": "sneaker-adidas-adizero-adios-pro-lila",
@@ -66,8 +66,8 @@
         44
       ],
       "status": "disponible",
-      "isFeatured": true,
-      "isNewArrival": true,
+      "isFeatured": false,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "Adizero de perfil alto con mediasuela Lightstrike Pro y upper de malla ligera. Pensada para ritmo rápido.",
       "details": {
@@ -79,8 +79,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.182Z",
-      "updatedAt": "2026-08-13T19:34:44.182Z"
+      "createdAt": "2026-08-12T21:42:38.000Z",
+      "updatedAt": "2026-08-12T21:42:38.000Z"
     },
     {
       "id": "sneaker-adidas-adizero-adios-pro-volt",
@@ -106,8 +106,8 @@
         44
       ],
       "status": "disponible",
-      "isFeatured": true,
-      "isNewArrival": true,
+      "isFeatured": false,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "El mismo chasis Adizero en amarillo solar con las tres rayas en negro. Mediasuela Lightstrike y corte tipo calcetín.",
       "details": {
@@ -119,8 +119,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.182Z",
-      "updatedAt": "2026-08-13T19:34:44.182Z"
+      "createdAt": "2026-08-12T21:42:38.000Z",
+      "updatedAt": "2026-08-12T21:42:38.000Z"
     },
     {
       "id": "sneaker-adidas-california-blanco-negro",
@@ -146,8 +146,8 @@
         44
       ],
       "status": "disponible",
-      "isFeatured": true,
-      "isNewArrival": true,
+      "isFeatured": false,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "Silueta retro de pista en cuero blanco con refuerzos de gamuza gris y suela gum.",
       "details": {
@@ -159,8 +159,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.182Z",
-      "updatedAt": "2026-08-13T19:34:44.182Z"
+      "createdAt": "2026-08-12T21:42:38.000Z",
+      "updatedAt": "2026-08-12T21:42:38.000Z"
     },
     {
       "id": "sneaker-adidas-campus-00s-core-black",
@@ -186,8 +186,8 @@
         44
       ],
       "status": "disponible",
-      "isFeatured": true,
-      "isNewArrival": true,
+      "isFeatured": false,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -199,8 +199,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.182Z",
-      "updatedAt": "2026-08-13T19:34:44.182Z"
+      "createdAt": "2026-08-12T21:42:38.000Z",
+      "updatedAt": "2026-08-12T21:42:38.000Z"
     },
     {
       "id": "sneaker-adidas-campus-00s-gray",
@@ -226,8 +226,8 @@
         44
       ],
       "status": "disponible",
-      "isFeatured": true,
-      "isNewArrival": true,
+      "isFeatured": false,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -239,8 +239,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.182Z",
-      "updatedAt": "2026-08-13T19:34:44.182Z"
+      "createdAt": "2026-08-12T21:42:38.000Z",
+      "updatedAt": "2026-08-12T21:42:38.000Z"
     },
     {
       "id": "sneaker-adidas-duramo-sl",
@@ -266,8 +266,8 @@
         44
       ],
       "status": "disponible",
-      "isFeatured": true,
-      "isNewArrival": true,
+      "isFeatured": false,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -279,8 +279,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.182Z",
-      "updatedAt": "2026-08-13T19:34:44.182Z"
+      "createdAt": "2026-08-12T21:42:38.000Z",
+      "updatedAt": "2026-08-12T21:42:38.000Z"
     },
     {
       "id": "sneaker-adidas-duramo-sl-blue",
@@ -306,8 +306,8 @@
         44
       ],
       "status": "disponible",
-      "isFeatured": true,
-      "isNewArrival": true,
+      "isFeatured": false,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -319,8 +319,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.182Z",
-      "updatedAt": "2026-08-13T19:34:44.182Z"
+      "createdAt": "2026-08-12T21:42:38.000Z",
+      "updatedAt": "2026-08-12T21:42:38.000Z"
     },
     {
       "id": "sneaker-adidas-eqt-equipment-beige-naranja",
@@ -347,7 +347,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "Chasis EQT con Boost completo, gamuza beige, tres rayas naranja y talón verde. Suela gum.",
       "details": {
@@ -359,8 +359,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.182Z",
-      "updatedAt": "2026-08-13T19:34:44.182Z"
+      "createdAt": "2026-08-12T21:42:38.000Z",
+      "updatedAt": "2026-08-12T21:42:38.000Z"
     },
     {
       "id": "sneaker-adidas-forum-x-bad-bunny",
@@ -387,7 +387,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -399,8 +399,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.182Z",
-      "updatedAt": "2026-08-13T19:34:44.182Z"
+      "createdAt": "2026-08-12T21:42:38.000Z",
+      "updatedAt": "2026-08-12T21:42:38.000Z"
     },
     {
       "id": "sneaker-adidas-gazelle-x-bad-bunny",
@@ -427,7 +427,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -439,8 +439,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-12T21:42:38.000Z",
+      "updatedAt": "2026-08-12T21:42:38.000Z"
     },
     {
       "id": "sneaker-adidas-niteball-black",
@@ -467,7 +467,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -479,8 +479,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-12T21:42:38.000Z",
+      "updatedAt": "2026-08-12T21:42:38.000Z"
     },
     {
       "id": "sneaker-adidas-niteball-upgrade",
@@ -507,7 +507,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -519,8 +519,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-12T21:42:38.000Z",
+      "updatedAt": "2026-08-12T21:42:38.000Z"
     },
     {
       "id": "sneaker-adidas-nizza-hi-fi",
@@ -547,7 +547,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -559,8 +559,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-12T21:42:38.000Z",
+      "updatedAt": "2026-08-12T21:42:38.000Z"
     },
     {
       "id": "sneaker-adidas-pureboost",
@@ -587,7 +587,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "Amortiguación Boost expuesta y upper elástico que se ajusta al pie. Cómoda para todo el día.",
       "details": {
@@ -599,8 +599,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-12T21:42:38.000Z",
+      "updatedAt": "2026-08-12T21:42:38.000Z"
     },
     {
       "id": "sneaker-adidas-response-cl-x-bad-bunny-benito",
@@ -627,7 +627,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "La Response CL de Bad Bunny en café y rosado, con detalles plateados y azul rey. Lleva el bordado \"Para Bad Bunny\" en la lengua.",
       "details": {
@@ -639,8 +639,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-12T21:42:38.000Z",
+      "updatedAt": "2026-08-12T21:42:38.000Z"
     },
     {
       "id": "sneaker-adidas-response-cl-x-bad-bunny-blanco",
@@ -667,7 +667,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "Response CL en blanco hueso con capas grises y mediasuela crema. La silueta que popularizó la colaboración.",
       "details": {
@@ -679,8 +679,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-12T21:42:38.000Z",
+      "updatedAt": "2026-08-12T21:42:38.000Z"
     },
     {
       "id": "sneaker-adidas-response-super",
@@ -707,7 +707,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -719,8 +719,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-12T21:42:38.000Z",
+      "updatedAt": "2026-08-12T21:42:38.000Z"
     },
     {
       "id": "sneaker-adidas-running-blanco-azul",
@@ -747,7 +747,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "Tenis de running en malla blanca con las tres rayas en azul y mediasuela alta. Modelo por confirmar.",
       "details": {
@@ -759,8 +759,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-12T21:42:38.000Z",
+      "updatedAt": "2026-08-12T21:42:38.000Z"
     },
     {
       "id": "sneaker-adidas-samba-flower",
@@ -787,7 +787,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -799,8 +799,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-12T21:42:38.000Z",
+      "updatedAt": "2026-08-12T21:42:38.000Z"
     },
     {
       "id": "sneaker-adidas-samba-og",
@@ -827,7 +827,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "La silueta de fútbol sala que se volvió clásico de calle. Cuero con puntera de gamuza y suela gum.",
       "details": {
@@ -839,8 +839,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-12T21:42:38.000Z",
+      "updatedAt": "2026-08-12T21:42:38.000Z"
     },
     {
       "id": "sneaker-adidas-sikaige",
@@ -867,7 +867,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "Silueta voluminosa en blanco con paneles coral y menta, cordones de contraste y suela dentada.",
       "details": {
@@ -879,8 +879,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-12T21:42:38.000Z",
+      "updatedAt": "2026-08-12T21:42:38.000Z"
     },
     {
       "id": "sneaker-adidas-sl-72-brown",
@@ -907,7 +907,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -919,8 +919,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-12T21:42:38.000Z",
+      "updatedAt": "2026-08-12T21:42:38.000Z"
     },
     {
       "id": "sneaker-adidas-sl-72-red",
@@ -947,7 +947,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -959,8 +959,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-12T21:42:38.000Z",
+      "updatedAt": "2026-08-12T21:42:38.000Z"
     },
     {
       "id": "sneaker-adidas-spezial",
@@ -987,7 +987,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -999,8 +999,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-12T21:42:38.000Z",
+      "updatedAt": "2026-08-12T21:42:38.000Z"
     },
     {
       "id": "sneaker-adidas-spezial-olive-green",
@@ -1027,7 +1027,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -1039,8 +1039,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-12T21:42:38.000Z",
+      "updatedAt": "2026-08-12T21:42:38.000Z"
     },
     {
       "id": "sneaker-adidas-stan-smith-azul",
@@ -1067,7 +1067,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "Stan Smith en cuero blanco con talón azul marino. Perforaciones en las tres rayas y suela de goma.",
       "details": {
@@ -1079,8 +1079,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-12T21:42:38.000Z",
+      "updatedAt": "2026-08-12T21:42:38.000Z"
     },
     {
       "id": "sneaker-adidas-stan-smith-negro",
@@ -1107,7 +1107,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "Stan Smith en cuero blanco con talón negro. Perforaciones en las tres rayas y suela de goma.",
       "details": {
@@ -1119,8 +1119,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-12T21:42:38.000Z",
+      "updatedAt": "2026-08-12T21:42:38.000Z"
     },
     {
       "id": "sneaker-adidas-stan-smith-verde",
@@ -1147,7 +1147,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "El Stan Smith de siempre: cuero blanco, talón verde y la cara de Stan en la lengua.",
       "details": {
@@ -1159,8 +1159,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-12T21:42:38.000Z",
+      "updatedAt": "2026-08-12T21:42:38.000Z"
     },
     {
       "id": "sneaker-adidas-superstar-core-black",
@@ -1187,7 +1187,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -1199,8 +1199,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-12T21:42:38.000Z",
+      "updatedAt": "2026-08-12T21:42:38.000Z"
     },
     {
       "id": "sneaker-adidas-superstar-rainbow",
@@ -1227,7 +1227,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -1239,8 +1239,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-12T21:42:38.000Z",
+      "updatedAt": "2026-08-12T21:42:38.000Z"
     },
     {
       "id": "sneaker-adidas-superstar-reflectivo",
@@ -1267,7 +1267,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -1279,8 +1279,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-12T21:42:38.000Z",
+      "updatedAt": "2026-08-12T21:42:38.000Z"
     },
     {
       "id": "sneaker-adidas-superstar-triple-white",
@@ -1307,7 +1307,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -1319,8 +1319,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-12T21:42:38.000Z",
+      "updatedAt": "2026-08-12T21:42:38.000Z"
     },
     {
       "id": "sneaker-adidas-superstar-white-black",
@@ -1347,7 +1347,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "La Superstar de toda la vida: puntera de concha, cuero blanco y tres rayas negras.",
       "details": {
@@ -1359,8 +1359,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-12T21:42:38.000Z",
+      "updatedAt": "2026-08-12T21:42:38.000Z"
     },
     {
       "id": "sneaker-adidas-superstar-x-blessd",
@@ -1387,7 +1387,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -1399,8 +1399,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-12T21:42:38.000Z",
+      "updatedAt": "2026-08-12T21:42:38.000Z"
     },
     {
       "id": "sneaker-adidas-ultraboost",
@@ -1427,7 +1427,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -1439,8 +1439,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-12T21:42:38.000Z",
+      "updatedAt": "2026-08-12T21:42:38.000Z"
     },
     {
       "id": "sneaker-adidas-ultraboost-core-black",
@@ -1467,7 +1467,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "Primeknit negro con jaula de soporte y mediasuela Boost completa. La más cómoda del catálogo para caminar.",
       "details": {
@@ -1479,8 +1479,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-12T21:42:38.000Z",
+      "updatedAt": "2026-08-12T21:42:38.000Z"
     },
     {
       "id": "sneaker-jordan-1-low-paris-negro",
@@ -1506,8 +1506,8 @@
         44
       ],
       "status": "disponible",
-      "isFeatured": false,
-      "isNewArrival": true,
+      "isFeatured": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -1519,8 +1519,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T19:36:10.000Z",
+      "updatedAt": "2026-08-13T19:36:10.000Z"
     },
     {
       "id": "sneaker-jordan-1-low-x-stussy-x-supreme",
@@ -1546,8 +1546,8 @@
         44
       ],
       "status": "disponible",
-      "isFeatured": false,
-      "isNewArrival": true,
+      "isFeatured": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -1559,8 +1559,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T19:36:10.000Z",
+      "updatedAt": "2026-08-13T19:36:10.000Z"
     },
     {
       "id": "sneaker-jordan-1-low-x-swarovski-gris",
@@ -1587,7 +1587,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "Jordan 1 Low forrada en cristales, en gris y blanco. Trae cordones blancos de repuesto.",
       "details": {
@@ -1599,8 +1599,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T19:36:10.000Z",
+      "updatedAt": "2026-08-13T19:36:10.000Z"
     },
     {
       "id": "sneaker-jordan-1-low-x-swarovski-negro",
@@ -1627,7 +1627,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "La versión en cristales negros y plateados, con herrajes dorados en los cordones.",
       "details": {
@@ -1639,8 +1639,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T19:36:10.000Z",
+      "updatedAt": "2026-08-13T19:36:10.000Z"
     },
     {
       "id": "sneaker-jordan-1-mid-panda",
@@ -1667,7 +1667,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -1679,8 +1679,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T19:36:10.000Z",
+      "updatedAt": "2026-08-13T19:36:10.000Z"
     },
     {
       "id": "sneaker-jordan-1-retro-high-85-black-white",
@@ -1707,7 +1707,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -1719,8 +1719,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T19:36:10.000Z",
+      "updatedAt": "2026-08-13T19:36:10.000Z"
     },
     {
       "id": "sneaker-jordan-1-retro-high-85-og-satin-bred",
@@ -1747,7 +1747,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -1759,8 +1759,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T19:36:10.000Z",
+      "updatedAt": "2026-08-13T19:36:10.000Z"
     },
     {
       "id": "sneaker-jordan-1-retro-high-chicago",
@@ -1787,7 +1787,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "El colorway que abrió la línea: cuero blanco, negro y rojo Chicago. La referencia del Jordan 1.",
       "details": {
@@ -1799,8 +1799,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T19:36:10.000Z",
+      "updatedAt": "2026-08-13T19:36:10.000Z"
     },
     {
       "id": "sneaker-jordan-1-retro-high-golden-swoosh",
@@ -1827,7 +1827,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -1839,8 +1839,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T19:36:10.000Z",
+      "updatedAt": "2026-08-13T19:36:10.000Z"
     },
     {
       "id": "sneaker-jordan-1-retro-high-obsidian",
@@ -1867,7 +1867,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -1879,8 +1879,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T19:36:10.000Z",
+      "updatedAt": "2026-08-13T19:36:10.000Z"
     },
     {
       "id": "sneaker-jordan-1-retro-high-og-obsidian-unc",
@@ -1907,7 +1907,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -1919,8 +1919,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T19:36:10.000Z",
+      "updatedAt": "2026-08-13T19:36:10.000Z"
     },
     {
       "id": "sneaker-jordan-1-retro-high-og-patent-bred",
@@ -1947,7 +1947,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "El Bred en charol: cuero brillante en negro y rojo, con el Swoosh liso.",
       "details": {
@@ -1959,8 +1959,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T19:36:10.000Z",
+      "updatedAt": "2026-08-13T19:36:10.000Z"
     },
     {
       "id": "sneaker-jordan-1-retro-high-og-unc-toe",
@@ -1987,7 +1987,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -1999,8 +1999,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T19:36:10.000Z",
+      "updatedAt": "2026-08-13T19:36:10.000Z"
     },
     {
       "id": "sneaker-jordan-1-retro-high-og-washed-pink",
@@ -2027,7 +2027,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -2039,8 +2039,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T19:36:10.000Z",
+      "updatedAt": "2026-08-13T19:36:10.000Z"
     },
     {
       "id": "sneaker-jordan-1-retro-high-university-blue",
@@ -2067,7 +2067,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -2079,8 +2079,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T19:36:10.000Z",
+      "updatedAt": "2026-08-13T19:36:10.000Z"
     },
     {
       "id": "sneaker-jordan-1-retro-high-x-travis-scott-negro",
@@ -2107,7 +2107,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "El Jordan 1 de Cactus Jack con el Swoosh invertido, en negro y hueso.",
       "details": {
@@ -2119,8 +2119,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T19:36:10.000Z",
+      "updatedAt": "2026-08-13T19:36:10.000Z"
     },
     {
       "id": "sneaker-jordan-1-retro-light-pink",
@@ -2147,7 +2147,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -2159,8 +2159,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T19:36:10.000Z",
+      "updatedAt": "2026-08-13T19:36:10.000Z"
     },
     {
       "id": "sneaker-jordan-1-retro-watermelon",
@@ -2187,7 +2187,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -2199,8 +2199,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T19:36:10.000Z",
+      "updatedAt": "2026-08-13T19:36:10.000Z"
     },
     {
       "id": "sneaker-jordan-1-retro-x-dior",
@@ -2227,7 +2227,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -2239,8 +2239,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T19:36:10.000Z",
+      "updatedAt": "2026-08-13T19:36:10.000Z"
     },
     {
       "id": "sneaker-jordan-1-triple-red",
@@ -2267,7 +2267,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -2279,8 +2279,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T19:36:10.000Z",
+      "updatedAt": "2026-08-13T19:36:10.000Z"
     },
     {
       "id": "sneaker-jordan-11-retro-black-concord",
@@ -2307,7 +2307,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -2319,8 +2319,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T19:36:10.000Z",
+      "updatedAt": "2026-08-13T19:36:10.000Z"
     },
     {
       "id": "sneaker-jordan-11-retro-concord",
@@ -2347,7 +2347,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "El 11 en charol negro sobre cuero blanco, con la suela traslúcida.",
       "details": {
@@ -2359,8 +2359,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T19:36:10.000Z",
+      "updatedAt": "2026-08-13T19:36:10.000Z"
     },
     {
       "id": "sneaker-jordan-11-retro-low-concord-bred",
@@ -2387,7 +2387,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -2399,8 +2399,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T19:36:10.000Z",
+      "updatedAt": "2026-08-13T19:36:10.000Z"
     },
     {
       "id": "sneaker-jordan-11-retro-playoffs-bred",
@@ -2427,7 +2427,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -2439,8 +2439,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T19:36:10.000Z",
+      "updatedAt": "2026-08-13T19:36:10.000Z"
     },
     {
       "id": "sneaker-jordan-3-retro-black-cement",
@@ -2467,7 +2467,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "El 3 de siempre: negro con el estampado elefante gris y la ventana de aire visible.",
       "details": {
@@ -2479,8 +2479,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T19:36:10.000Z",
+      "updatedAt": "2026-08-13T19:36:10.000Z"
     },
     {
       "id": "sneaker-jordan-3-retro-fire-red",
@@ -2507,7 +2507,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -2519,8 +2519,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T19:36:10.000Z",
+      "updatedAt": "2026-08-13T19:36:10.000Z"
     },
     {
       "id": "sneaker-jordan-3-retro-unc",
@@ -2547,7 +2547,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -2559,8 +2559,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T19:36:10.000Z",
+      "updatedAt": "2026-08-13T19:36:10.000Z"
     },
     {
       "id": "sneaker-jordan-3-retro-x-fragment",
@@ -2587,7 +2587,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -2599,8 +2599,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T19:36:10.000Z",
+      "updatedAt": "2026-08-13T19:36:10.000Z"
     },
     {
       "id": "sneaker-jordan-3-retro-x-travis-scott-negro",
@@ -2627,7 +2627,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -2639,8 +2639,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T19:36:10.000Z",
+      "updatedAt": "2026-08-13T19:36:10.000Z"
     },
     {
       "id": "sneaker-jordan-3-retro-year-of-the-tiger",
@@ -2667,7 +2667,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -2679,8 +2679,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T19:36:10.000Z",
+      "updatedAt": "2026-08-13T19:36:10.000Z"
     },
     {
       "id": "sneaker-jordan-3-x-j-balvin-rio",
@@ -2707,7 +2707,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -2719,8 +2719,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T19:36:10.000Z",
+      "updatedAt": "2026-08-13T19:36:10.000Z"
     },
     {
       "id": "sneaker-jordan-4-retro-black-cat",
@@ -2747,7 +2747,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "El 4 en negro total, en nobuk, con las mallas y la suela del mismo tono.",
       "details": {
@@ -2759,8 +2759,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T19:36:10.000Z",
+      "updatedAt": "2026-08-13T19:36:10.000Z"
     },
     {
       "id": "sneaker-jordan-4-retro-bred",
@@ -2787,7 +2787,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -2799,8 +2799,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T19:36:10.000Z",
+      "updatedAt": "2026-08-13T19:36:10.000Z"
     },
     {
       "id": "sneaker-jordan-4-retro-sb-pine-green",
@@ -2827,7 +2827,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -2839,8 +2839,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T19:36:10.000Z",
+      "updatedAt": "2026-08-13T19:36:10.000Z"
     },
     {
       "id": "sneaker-jordan-4-retro-triple-brown",
@@ -2867,7 +2867,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -2879,8 +2879,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T19:36:10.000Z",
+      "updatedAt": "2026-08-13T19:36:10.000Z"
     },
     {
       "id": "sneaker-jordan-4-retro-white-thunder",
@@ -2907,7 +2907,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -2919,8 +2919,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T19:36:10.000Z",
+      "updatedAt": "2026-08-13T19:36:10.000Z"
     },
     {
       "id": "sneaker-jordan-4-retro-x-off-white-sail",
@@ -2947,7 +2947,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -2959,8 +2959,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T19:36:10.000Z",
+      "updatedAt": "2026-08-13T19:36:10.000Z"
     },
     {
       "id": "sneaker-jordan-4-retro-x-union-guava-ice",
@@ -2987,7 +2987,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -2999,8 +2999,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T19:36:10.000Z",
+      "updatedAt": "2026-08-13T19:36:10.000Z"
     },
     {
       "id": "sneaker-jordan-6-retro-infrared-white",
@@ -3027,7 +3027,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -3039,8 +3039,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T19:36:10.000Z",
+      "updatedAt": "2026-08-13T19:36:10.000Z"
     },
     {
       "id": "sneaker-asics-comfort",
@@ -3066,7 +3066,7 @@
         44
       ],
       "status": "disponible",
-      "isFeatured": false,
+      "isFeatured": true,
       "isNewArrival": true,
       "isOriginalCertified": false,
       "description": "",
@@ -3079,8 +3079,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T19:36:12.000Z",
+      "updatedAt": "2026-08-13T19:36:12.000Z"
     },
     {
       "id": "sneaker-asics-rosado",
@@ -3106,7 +3106,7 @@
         44
       ],
       "status": "disponible",
-      "isFeatured": false,
+      "isFeatured": true,
       "isNewArrival": true,
       "isOriginalCertified": false,
       "description": "",
@@ -3119,8 +3119,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T19:36:12.000Z",
+      "updatedAt": "2026-08-13T19:36:12.000Z"
     },
     {
       "id": "sneaker-bape-sta-blanco-negro",
@@ -3146,7 +3146,7 @@
         44
       ],
       "status": "disponible",
-      "isFeatured": false,
+      "isFeatured": true,
       "isNewArrival": true,
       "isOriginalCertified": false,
       "description": "La Bape Sta en charol, con la estrella negra sobre cuero blanco y suela de goma.",
@@ -3159,8 +3159,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T19:36:12.000Z",
+      "updatedAt": "2026-08-13T19:36:12.000Z"
     },
     {
       "id": "sneaker-bape-sta-negro",
@@ -3199,8 +3199,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T19:36:12.000Z",
+      "updatedAt": "2026-08-13T19:36:12.000Z"
     },
     {
       "id": "sneaker-bape-sta-wgm-blanco",
@@ -3239,8 +3239,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T19:36:12.000Z",
+      "updatedAt": "2026-08-13T19:36:12.000Z"
     },
     {
       "id": "sneaker-boss-black-pillow",
@@ -3279,8 +3279,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T19:36:12.000Z",
+      "updatedAt": "2026-08-13T19:36:12.000Z"
     },
     {
       "id": "sneaker-boss-master-gris",
@@ -3319,8 +3319,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T19:36:12.000Z",
+      "updatedAt": "2026-08-13T19:36:12.000Z"
     },
     {
       "id": "sneaker-calvin-klein-carlla",
@@ -3359,8 +3359,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T19:36:12.000Z",
+      "updatedAt": "2026-08-13T19:36:12.000Z"
     },
     {
       "id": "sneaker-calvin-klein-jeans-negro",
@@ -3399,8 +3399,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T19:36:12.000Z",
+      "updatedAt": "2026-08-13T19:36:12.000Z"
     },
     {
       "id": "sneaker-christian-dior-running",
@@ -3439,8 +3439,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T19:36:12.000Z",
+      "updatedAt": "2026-08-13T19:36:12.000Z"
     },
     {
       "id": "sneaker-coach-platform",
@@ -3479,8 +3479,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T19:36:12.000Z",
+      "updatedAt": "2026-08-13T19:36:12.000Z"
     },
     {
       "id": "sneaker-creative-recreation-blanco",
@@ -3519,8 +3519,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T19:36:12.000Z",
+      "updatedAt": "2026-08-13T19:36:12.000Z"
     },
     {
       "id": "sneaker-creative-recreation-blanco-negro",
@@ -3547,7 +3547,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "Silueta baja en cuero blanco con paneles perforados negros. Incluye bolsa de tela.",
       "details": {
@@ -3559,8 +3559,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T19:36:12.000Z",
+      "updatedAt": "2026-08-13T19:36:12.000Z"
     },
     {
       "id": "sneaker-creative-recreation-gris-negro",
@@ -3587,7 +3587,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -3599,8 +3599,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T19:36:12.000Z",
+      "updatedAt": "2026-08-13T19:36:12.000Z"
     },
     {
       "id": "sneaker-creative-recreation-los-angeles",
@@ -3627,7 +3627,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -3639,8 +3639,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T19:36:12.000Z",
+      "updatedAt": "2026-08-13T19:36:12.000Z"
     },
     {
       "id": "sneaker-creative-recreation-tejido-blanco-negro",
@@ -3667,7 +3667,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "La misma silueta en tejido de dos tonos, con la correa de cuero sobre el empeine.",
       "details": {
@@ -3679,8 +3679,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T19:36:12.000Z",
+      "updatedAt": "2026-08-13T19:36:12.000Z"
     },
     {
       "id": "sneaker-creative-recreation-triple-negro",
@@ -3707,7 +3707,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -3719,8 +3719,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T19:36:12.000Z",
+      "updatedAt": "2026-08-13T19:36:12.000Z"
     },
     {
       "id": "sneaker-dolce-gabbana",
@@ -3747,7 +3747,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -3759,8 +3759,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T19:36:12.000Z",
+      "updatedAt": "2026-08-13T19:36:12.000Z"
     },
     {
       "id": "sneaker-gucci-platform",
@@ -3787,7 +3787,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -3799,8 +3799,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T19:36:12.000Z",
+      "updatedAt": "2026-08-13T19:36:12.000Z"
     },
     {
       "id": "sneaker-hugo-boss-classic",
@@ -3827,7 +3827,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -3839,8 +3839,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T19:36:12.000Z",
+      "updatedAt": "2026-08-13T19:36:12.000Z"
     },
     {
       "id": "sneaker-jordan-legacy-312-blanco-rosado",
@@ -3867,7 +3867,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "La Legacy 312 mezcla piezas del 1, el 3 y el Air Force: correa amarilla, elefante gris y talón azul.",
       "details": {
@@ -3879,8 +3879,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T19:36:10.000Z",
+      "updatedAt": "2026-08-13T19:36:10.000Z"
     },
     {
       "id": "sneaker-louis-vuitton-skate-azul-blanco",
@@ -3907,7 +3907,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "Skate en azul marino y blanco, con cordones tipo cuerda y suela azul traslúcida.",
       "details": {
@@ -3919,8 +3919,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T19:13:00.000Z",
+      "updatedAt": "2026-08-13T19:13:00.000Z"
     },
     {
       "id": "sneaker-louis-vuitton-skate-blanco-beige",
@@ -3947,7 +3947,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -3959,8 +3959,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T19:13:00.000Z",
+      "updatedAt": "2026-08-13T19:13:00.000Z"
     },
     {
       "id": "sneaker-louis-vuitton-skate-blanco-gris",
@@ -3987,7 +3987,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -3999,8 +3999,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T19:13:00.000Z",
+      "updatedAt": "2026-08-13T19:13:00.000Z"
     },
     {
       "id": "sneaker-louis-vuitton-skate-negro-monogram",
@@ -4027,7 +4027,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "La Skate en cuero granulado negro, con la flor del monograma del mismo tono y puntera texturizada.",
       "details": {
@@ -4039,8 +4039,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T19:13:00.000Z",
+      "updatedAt": "2026-08-13T19:13:00.000Z"
     },
     {
       "id": "sneaker-louis-vuitton-skate-rojo",
@@ -4067,7 +4067,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -4079,8 +4079,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T19:13:00.000Z",
+      "updatedAt": "2026-08-13T19:13:00.000Z"
     },
     {
       "id": "sneaker-louis-vuitton-skate-triple-blanco",
@@ -4107,7 +4107,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "Silueta Skate en blanco total, con la flor del monograma en relieve y paneles de malla. Suela gruesa dentada.",
       "details": {
@@ -4119,8 +4119,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T19:13:00.000Z",
+      "updatedAt": "2026-08-13T19:13:00.000Z"
     },
     {
       "id": "sneaker-louis-vuitton-skate-triple-negro",
@@ -4147,7 +4147,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "Skate en negro con malla y la flor del monograma en blanco. Mediasuela alta con los símbolos grabados.",
       "details": {
@@ -4159,8 +4159,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T19:13:00.000Z",
+      "updatedAt": "2026-08-13T19:13:00.000Z"
     },
     {
       "id": "sneaker-louis-vuitton-skate-verde",
@@ -4187,7 +4187,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -4199,8 +4199,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T19:13:00.000Z",
+      "updatedAt": "2026-08-13T19:13:00.000Z"
     },
     {
       "id": "sneaker-louis-vuitton-trainer-blanco-negro",
@@ -4227,7 +4227,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -4239,8 +4239,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T19:13:00.000Z",
+      "updatedAt": "2026-08-13T19:13:00.000Z"
     },
     {
       "id": "sneaker-louis-vuitton-trainer-denim-monogram",
@@ -4267,7 +4267,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "Trainer en cuero blanco con paneles de denim estampado con el monograma. Correa de la lengüeta y talón en negro.",
       "details": {
@@ -4279,8 +4279,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T19:13:00.000Z",
+      "updatedAt": "2026-08-13T19:13:00.000Z"
     },
     {
       "id": "sneaker-louis-vuitton-trainer-negro",
@@ -4307,7 +4307,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "Trainer en cuero negro con el monograma en relieve y la correa de la lengüeta. Cordones blancos de contraste.",
       "details": {
@@ -4319,8 +4319,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T19:13:00.000Z",
+      "updatedAt": "2026-08-13T19:13:00.000Z"
     },
     {
       "id": "sneaker-new-balance-1906r-plata",
@@ -4346,8 +4346,8 @@
         44
       ],
       "status": "disponible",
-      "isFeatured": false,
-      "isNewArrival": true,
+      "isFeatured": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "La 1906R en malla blanca con placas plateadas y amortiguación N-ergy en el talón.",
       "details": {
@@ -4359,8 +4359,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T19:36:11.000Z",
+      "updatedAt": "2026-08-13T19:36:11.000Z"
     },
     {
       "id": "sneaker-new-balance-2000-blanco-rosado",
@@ -4386,8 +4386,8 @@
         44
       ],
       "status": "disponible",
-      "isFeatured": false,
-      "isNewArrival": true,
+      "isFeatured": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -4399,8 +4399,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T19:36:11.000Z",
+      "updatedAt": "2026-08-13T19:36:11.000Z"
     },
     {
       "id": "sneaker-new-balance-2000-dorado-crema",
@@ -4426,8 +4426,8 @@
         44
       ],
       "status": "disponible",
-      "isFeatured": false,
-      "isNewArrival": true,
+      "isFeatured": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -4439,8 +4439,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T19:36:11.000Z",
+      "updatedAt": "2026-08-13T19:36:11.000Z"
     },
     {
       "id": "sneaker-new-balance-2000-gris-verde-neon",
@@ -4467,7 +4467,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -4479,8 +4479,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T19:36:11.000Z",
+      "updatedAt": "2026-08-13T19:36:11.000Z"
     },
     {
       "id": "sneaker-new-balance-2000-negro-dorado",
@@ -4507,7 +4507,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -4519,8 +4519,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T19:36:11.000Z",
+      "updatedAt": "2026-08-13T19:36:11.000Z"
     },
     {
       "id": "sneaker-new-balance-530-blanco-verde",
@@ -4547,7 +4547,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -4559,8 +4559,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T19:36:11.000Z",
+      "updatedAt": "2026-08-13T19:36:11.000Z"
     },
     {
       "id": "sneaker-new-balance-530-white-silver-navy",
@@ -4587,7 +4587,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "La 530 en malla blanca con capas plateadas y detalles azul marino. Mediasuela ABZORB.",
       "details": {
@@ -4599,8 +4599,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T19:36:11.000Z",
+      "updatedAt": "2026-08-13T19:36:11.000Z"
     },
     {
       "id": "sneaker-new-balance-550-blanco-verde",
@@ -4627,7 +4627,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -4639,8 +4639,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T19:36:11.000Z",
+      "updatedAt": "2026-08-13T19:36:11.000Z"
     },
     {
       "id": "sneaker-new-balance-550-x-aime-leon-dore-blanco-rojo",
@@ -4667,7 +4667,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -4679,8 +4679,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T19:36:11.000Z",
+      "updatedAt": "2026-08-13T19:36:11.000Z"
     },
     {
       "id": "sneaker-new-balance-790-blanco-plata",
@@ -4707,7 +4707,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -4719,8 +4719,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T19:36:11.000Z",
+      "updatedAt": "2026-08-13T19:36:11.000Z"
     },
     {
       "id": "sneaker-new-balance-9060-moonrock-linen",
@@ -4747,7 +4747,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -4759,8 +4759,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T19:36:11.000Z",
+      "updatedAt": "2026-08-13T19:36:11.000Z"
     },
     {
       "id": "sneaker-new-balance-9060-negro",
@@ -4787,7 +4787,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "La 9060 en gamuza negra con la N blanca y la mediasuela ondulada en crema.",
       "details": {
@@ -4799,8 +4799,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T19:36:11.000Z",
+      "updatedAt": "2026-08-13T19:36:11.000Z"
     },
     {
       "id": "sneaker-new-balance-9060-sea-salt-yellow",
@@ -4827,7 +4827,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -4839,8 +4839,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T19:36:11.000Z",
+      "updatedAt": "2026-08-13T19:36:11.000Z"
     },
     {
       "id": "sneaker-new-balance-9060-triple-blanco",
@@ -4867,7 +4867,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -4879,8 +4879,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T19:36:11.000Z",
+      "updatedAt": "2026-08-13T19:36:11.000Z"
     },
     {
       "id": "sneaker-nike-air-force-1-blanco-verde",
@@ -4907,7 +4907,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -4919,8 +4919,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T18:57:45.000Z",
+      "updatedAt": "2026-08-13T18:57:45.000Z"
     },
     {
       "id": "sneaker-nike-air-force-1-negro",
@@ -4947,7 +4947,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -4959,8 +4959,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T18:57:45.000Z",
+      "updatedAt": "2026-08-13T18:57:45.000Z"
     },
     {
       "id": "sneaker-nike-air-force-1-mid-07",
@@ -4987,7 +4987,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -4999,8 +4999,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T18:57:45.000Z",
+      "updatedAt": "2026-08-13T18:57:45.000Z"
     },
     {
       "id": "sneaker-nike-air-force-1-super-gris",
@@ -5027,7 +5027,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "Air Force 1 en bloques de gris y blanco, con cordones gruesos tipo cuerda.",
       "details": {
@@ -5039,8 +5039,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T18:57:45.000Z",
+      "updatedAt": "2026-08-13T18:57:45.000Z"
     },
     {
       "id": "sneaker-nike-air-force-1-super-morado",
@@ -5067,7 +5067,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -5079,8 +5079,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T18:57:45.000Z",
+      "updatedAt": "2026-08-13T18:57:45.000Z"
     },
     {
       "id": "sneaker-nike-air-force-1-super-naranja",
@@ -5107,7 +5107,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -5119,8 +5119,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T18:57:45.000Z",
+      "updatedAt": "2026-08-13T18:57:45.000Z"
     },
     {
       "id": "sneaker-nike-air-force-1-swoosh-pink",
@@ -5147,7 +5147,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -5159,8 +5159,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T18:57:45.000Z",
+      "updatedAt": "2026-08-13T18:57:45.000Z"
     },
     {
       "id": "sneaker-nike-air-force-1-triple-white",
@@ -5187,7 +5187,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "La Air Force 1 blanca de siempre, en cuero liso y suela de goma. La base que combina con todo.",
       "details": {
@@ -5199,8 +5199,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T18:57:45.000Z",
+      "updatedAt": "2026-08-13T18:57:45.000Z"
     },
     {
       "id": "sneaker-nike-air-force-1-triple-yellow",
@@ -5227,7 +5227,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -5239,8 +5239,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T18:57:45.000Z",
+      "updatedAt": "2026-08-13T18:57:45.000Z"
     },
     {
       "id": "sneaker-nike-air-force-1-university-blue",
@@ -5267,7 +5267,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -5279,8 +5279,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T18:57:45.000Z",
+      "updatedAt": "2026-08-13T18:57:45.000Z"
     },
     {
       "id": "sneaker-nike-air-force-1-x-louis-vuitton",
@@ -5307,7 +5307,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -5319,8 +5319,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T18:57:45.000Z",
+      "updatedAt": "2026-08-13T18:57:45.000Z"
     },
     {
       "id": "sneaker-nike-air-force-1-x-noah",
@@ -5347,7 +5347,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -5359,8 +5359,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T18:57:45.000Z",
+      "updatedAt": "2026-08-13T18:57:45.000Z"
     },
     {
       "id": "sneaker-nike-air-force-1-x-stussy",
@@ -5387,7 +5387,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -5399,8 +5399,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T18:57:45.000Z",
+      "updatedAt": "2026-08-13T18:57:45.000Z"
     },
     {
       "id": "sneaker-nike-air-force-1-x-north-face",
@@ -5427,7 +5427,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -5439,8 +5439,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T18:57:45.000Z",
+      "updatedAt": "2026-08-13T18:57:45.000Z"
     },
     {
       "id": "sneaker-nike-air-force-1-x-tiffany",
@@ -5467,7 +5467,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -5479,8 +5479,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T18:57:45.000Z",
+      "updatedAt": "2026-08-13T18:57:45.000Z"
     },
     {
       "id": "sneaker-nike-air-force-1-x-travis-scott",
@@ -5507,7 +5507,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -5519,8 +5519,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T18:57:45.000Z",
+      "updatedAt": "2026-08-13T18:57:45.000Z"
     },
     {
       "id": "sneaker-nike-air-max-90-black-orange",
@@ -5547,7 +5547,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -5559,8 +5559,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T18:57:45.000Z",
+      "updatedAt": "2026-08-13T18:57:45.000Z"
     },
     {
       "id": "sneaker-nike-air-max-90-lucha-libre",
@@ -5587,7 +5587,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -5599,8 +5599,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T18:57:45.000Z",
+      "updatedAt": "2026-08-13T18:57:45.000Z"
     },
     {
       "id": "sneaker-nike-air-max-90-oregon",
@@ -5627,7 +5627,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -5639,8 +5639,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T18:57:45.000Z",
+      "updatedAt": "2026-08-13T18:57:45.000Z"
     },
     {
       "id": "sneaker-nike-air-max-90-triple-blanco",
@@ -5667,7 +5667,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "Air Max 90 en blanco total con la cámara de aire visible en el talón. Malla y cuero.",
       "details": {
@@ -5679,8 +5679,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T18:57:45.000Z",
+      "updatedAt": "2026-08-13T18:57:45.000Z"
     },
     {
       "id": "sneaker-nike-air-max-90-triple-negro",
@@ -5707,7 +5707,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -5719,8 +5719,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T18:57:45.000Z",
+      "updatedAt": "2026-08-13T18:57:45.000Z"
     },
     {
       "id": "sneaker-nike-air-max-95-blanco-azul",
@@ -5747,7 +5747,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -5759,8 +5759,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T18:57:45.000Z",
+      "updatedAt": "2026-08-13T18:57:45.000Z"
     },
     {
       "id": "sneaker-nike-air-max-95-gris-morado",
@@ -5787,7 +5787,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -5799,8 +5799,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T18:57:45.000Z",
+      "updatedAt": "2026-08-13T18:57:45.000Z"
     },
     {
       "id": "sneaker-nike-air-max-95-gris-rojo",
@@ -5827,7 +5827,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -5839,8 +5839,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T18:57:45.000Z",
+      "updatedAt": "2026-08-13T18:57:45.000Z"
     },
     {
       "id": "sneaker-nike-air-max-95-gris-rosado",
@@ -5867,7 +5867,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -5879,8 +5879,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T18:57:45.000Z",
+      "updatedAt": "2026-08-13T18:57:45.000Z"
     },
     {
       "id": "sneaker-nike-air-max-95-negro-gris",
@@ -5907,7 +5907,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -5919,8 +5919,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T18:57:45.000Z",
+      "updatedAt": "2026-08-13T18:57:45.000Z"
     },
     {
       "id": "sneaker-nike-air-max-95-neon",
@@ -5947,7 +5947,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "El degradado gris de la 95 con los acentos neón que hicieron famosa la silueta.",
       "details": {
@@ -5959,8 +5959,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T18:57:45.000Z",
+      "updatedAt": "2026-08-13T18:57:45.000Z"
     },
     {
       "id": "sneaker-nike-air-max-95-triple-negro",
@@ -5987,7 +5987,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -5999,8 +5999,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T18:57:45.000Z",
+      "updatedAt": "2026-08-13T18:57:45.000Z"
     },
     {
       "id": "sneaker-nike-air-max-95-x-a-ma-maniere-azul",
@@ -6027,7 +6027,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -6039,8 +6039,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T18:57:45.000Z",
+      "updatedAt": "2026-08-13T18:57:45.000Z"
     },
     {
       "id": "sneaker-nike-air-max-95-x-a-ma-maniere-taupe",
@@ -6067,7 +6067,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -6079,8 +6079,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T18:57:45.000Z",
+      "updatedAt": "2026-08-13T18:57:45.000Z"
     },
     {
       "id": "sneaker-nike-air-max-95-x-a-ma-maniere-vino",
@@ -6107,7 +6107,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -6119,8 +6119,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T18:57:45.000Z",
+      "updatedAt": "2026-08-13T18:57:45.000Z"
     },
     {
       "id": "sneaker-nike-air-max-97-cafe",
@@ -6147,7 +6147,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "Air Max 97 en café con las ondas en crema y suela gum. Cámara de aire de largo completo.",
       "details": {
@@ -6159,8 +6159,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T18:57:45.000Z",
+      "updatedAt": "2026-08-13T18:57:45.000Z"
     },
     {
       "id": "sneaker-nike-air-max-97-nebulous",
@@ -6187,7 +6187,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -6199,8 +6199,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T18:57:45.000Z",
+      "updatedAt": "2026-08-13T18:57:45.000Z"
     },
     {
       "id": "sneaker-nike-air-max-97-negro-volt",
@@ -6227,7 +6227,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -6239,8 +6239,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T18:57:45.000Z",
+      "updatedAt": "2026-08-13T18:57:45.000Z"
     },
     {
       "id": "sneaker-nike-air-max-97-nightmare",
@@ -6267,7 +6267,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -6279,8 +6279,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T18:57:45.000Z",
+      "updatedAt": "2026-08-13T18:57:45.000Z"
     },
     {
       "id": "sneaker-nike-air-max-blanco-morado",
@@ -6307,7 +6307,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "Silueta Air Max en malla blanca con paneles negros y cámara de aire morada. Modelo por confirmar.",
       "details": {
@@ -6319,8 +6319,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T18:57:45.000Z",
+      "updatedAt": "2026-08-13T18:57:45.000Z"
     },
     {
       "id": "sneaker-nike-air-max-bw-gris-rojo",
@@ -6348,7 +6348,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -6360,8 +6360,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T18:57:45.000Z",
+      "updatedAt": "2026-08-13T18:57:45.000Z"
     },
     {
       "id": "sneaker-nike-air-max-dn-se-triple-negro",
@@ -6388,7 +6388,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -6400,8 +6400,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T18:57:45.000Z",
+      "updatedAt": "2026-08-13T18:57:45.000Z"
     },
     {
       "id": "sneaker-nike-air-max-dn8-azul",
@@ -6428,7 +6428,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -6440,8 +6440,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T18:57:45.000Z",
+      "updatedAt": "2026-08-13T18:57:45.000Z"
     },
     {
       "id": "sneaker-nike-air-max-dn8-blanco",
@@ -6468,7 +6468,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -6480,8 +6480,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T18:57:45.000Z",
+      "updatedAt": "2026-08-13T18:57:45.000Z"
     },
     {
       "id": "sneaker-nike-air-max-dn8-gris-menta",
@@ -6508,7 +6508,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -6520,8 +6520,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T18:57:45.000Z",
+      "updatedAt": "2026-08-13T18:57:45.000Z"
     },
     {
       "id": "sneaker-nike-air-max-dn8-hueso",
@@ -6548,7 +6548,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -6560,8 +6560,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T18:57:45.000Z",
+      "updatedAt": "2026-08-13T18:57:45.000Z"
     },
     {
       "id": "sneaker-nike-air-max-dn8-plata",
@@ -6588,7 +6588,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -6600,8 +6600,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T18:57:45.000Z",
+      "updatedAt": "2026-08-13T18:57:45.000Z"
     },
     {
       "id": "sneaker-nike-air-max-dn8-triple-negro",
@@ -6628,7 +6628,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -6640,8 +6640,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T18:57:45.000Z",
+      "updatedAt": "2026-08-13T18:57:45.000Z"
     },
     {
       "id": "sneaker-nike-air-max-ltd-blanco-azul",
@@ -6668,7 +6668,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -6680,8 +6680,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T18:57:45.000Z",
+      "updatedAt": "2026-08-13T18:57:45.000Z"
     },
     {
       "id": "sneaker-nike-air-max-plus-drift-baroque-brown",
@@ -6708,7 +6708,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -6720,8 +6720,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T18:57:45.000Z",
+      "updatedAt": "2026-08-13T18:57:45.000Z"
     },
     {
       "id": "sneaker-nike-air-max-plus-drift-metallic-silver",
@@ -6748,7 +6748,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -6760,8 +6760,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T18:57:45.000Z",
+      "updatedAt": "2026-08-13T18:57:45.000Z"
     },
     {
       "id": "sneaker-nike-air-max-plus-drift-tn-all-day",
@@ -6788,7 +6788,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -6800,8 +6800,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T18:57:45.000Z",
+      "updatedAt": "2026-08-13T18:57:45.000Z"
     },
     {
       "id": "sneaker-nike-air-max-plus-drift-tn-phantom-cacao",
@@ -6828,7 +6828,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -6840,8 +6840,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T18:57:45.000Z",
+      "updatedAt": "2026-08-13T18:57:45.000Z"
     },
     {
       "id": "sneaker-nike-air-max-plus-og-hyper-blue",
@@ -6868,7 +6868,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -6880,8 +6880,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T18:57:45.000Z",
+      "updatedAt": "2026-08-13T18:57:45.000Z"
     },
     {
       "id": "sneaker-nike-air-max-plus-tn-blanco-azul",
@@ -6908,7 +6908,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -6920,8 +6920,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T18:57:45.000Z",
+      "updatedAt": "2026-08-13T18:57:45.000Z"
     },
     {
       "id": "sneaker-nike-air-max-plus-tn-blue-gradient",
@@ -6948,7 +6948,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -6960,8 +6960,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T18:57:45.000Z",
+      "updatedAt": "2026-08-13T18:57:45.000Z"
     },
     {
       "id": "sneaker-nike-air-max-plus-tn-pink-gradient",
@@ -6988,7 +6988,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -7000,8 +7000,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T18:57:45.000Z",
+      "updatedAt": "2026-08-13T18:57:45.000Z"
     },
     {
       "id": "sneaker-nike-air-max-plus-tn-triple-blanco",
@@ -7028,7 +7028,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -7040,8 +7040,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T18:57:45.000Z",
+      "updatedAt": "2026-08-13T18:57:45.000Z"
     },
     {
       "id": "sneaker-nike-air-max-plus-tn-triple-negro",
@@ -7068,7 +7068,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -7080,8 +7080,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T18:57:45.000Z",
+      "updatedAt": "2026-08-13T18:57:45.000Z"
     },
     {
       "id": "sneaker-nike-air-max-plus-tn-voltage-purple",
@@ -7108,7 +7108,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -7120,8 +7120,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T18:57:45.000Z",
+      "updatedAt": "2026-08-13T18:57:45.000Z"
     },
     {
       "id": "sneaker-nike-air-more-uptempo-96-negro-blanco",
@@ -7148,7 +7148,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -7160,8 +7160,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T18:57:45.000Z",
+      "updatedAt": "2026-08-13T18:57:45.000Z"
     },
     {
       "id": "sneaker-nike-air-vomero-18-negro",
@@ -7188,7 +7188,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "Vomero 18 con mediasuela ZoomX alta en blanco y upper en negro y gris.",
       "details": {
@@ -7200,8 +7200,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T18:57:45.000Z",
+      "updatedAt": "2026-08-13T18:57:45.000Z"
     },
     {
       "id": "sneaker-nike-blazer-low-77-vintage",
@@ -7228,7 +7228,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -7240,8 +7240,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T18:57:45.000Z",
+      "updatedAt": "2026-08-13T18:57:45.000Z"
     },
     {
       "id": "sneaker-nike-blazer-mid-77-vintage",
@@ -7268,7 +7268,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -7280,8 +7280,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T18:57:45.000Z",
+      "updatedAt": "2026-08-13T18:57:45.000Z"
     },
     {
       "id": "sneaker-nike-blazer-mid-victory-off-noir",
@@ -7308,7 +7308,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -7320,8 +7320,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T18:57:45.000Z",
+      "updatedAt": "2026-08-13T18:57:45.000Z"
     },
     {
       "id": "sneaker-nike-blazer-mid-victory-phantom",
@@ -7346,7 +7346,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -7358,8 +7358,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T18:57:45.000Z",
+      "updatedAt": "2026-08-13T18:57:45.000Z"
     },
     {
       "id": "sneaker-nike-cortez-cafe",
@@ -7386,7 +7386,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -7398,8 +7398,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T18:57:45.000Z",
+      "updatedAt": "2026-08-13T18:57:45.000Z"
     },
     {
       "id": "sneaker-nike-cortez-classic-blanco-negro",
@@ -7426,7 +7426,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "Cortez en cuero blanco con el swoosh y la franja en negro. Suela de goma dentada.",
       "details": {
@@ -7438,8 +7438,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T18:57:45.000Z",
+      "updatedAt": "2026-08-13T18:57:45.000Z"
     },
     {
       "id": "sneaker-nike-cortez-forrest-gump",
@@ -7467,7 +7467,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "El colorway original de la Cortez: cuero blanco, swoosh rojo y franja azul en la suela.",
       "details": {
@@ -7479,8 +7479,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T18:57:45.000Z",
+      "updatedAt": "2026-08-13T18:57:45.000Z"
     },
     {
       "id": "sneaker-nike-cortez-morado",
@@ -7507,7 +7507,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -7519,8 +7519,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T18:57:45.000Z",
+      "updatedAt": "2026-08-13T18:57:45.000Z"
     },
     {
       "id": "sneaker-nike-cortez-pine-green",
@@ -7547,7 +7547,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -7559,8 +7559,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T18:57:45.000Z",
+      "updatedAt": "2026-08-13T18:57:45.000Z"
     },
     {
       "id": "sneaker-nike-cortez-rojo-oscuro",
@@ -7587,7 +7587,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -7599,8 +7599,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T18:57:45.000Z",
+      "updatedAt": "2026-08-13T18:57:45.000Z"
     },
     {
       "id": "sneaker-nike-cortez-verde",
@@ -7627,7 +7627,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -7639,8 +7639,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T18:57:45.000Z",
+      "updatedAt": "2026-08-13T18:57:45.000Z"
     },
     {
       "id": "sneaker-nike-cortez-verde-rosado",
@@ -7667,7 +7667,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "Cortez en nylon verde con gamuza del mismo tono y swoosh rosado. Mediasuela crema.",
       "details": {
@@ -7679,8 +7679,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T18:57:45.000Z",
+      "updatedAt": "2026-08-13T18:57:45.000Z"
     },
     {
       "id": "sneaker-nike-dunk-low-panda",
@@ -7707,7 +7707,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "La Dunk Low en blanco y negro que se volvió el par de entrada para todo el mundo.",
       "details": {
@@ -7719,8 +7719,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T18:57:45.000Z",
+      "updatedAt": "2026-08-13T18:57:45.000Z"
     },
     {
       "id": "sneaker-nike-dunk-low-triple-pink",
@@ -7747,7 +7747,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -7759,8 +7759,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T18:57:45.000Z",
+      "updatedAt": "2026-08-13T18:57:45.000Z"
     },
     {
       "id": "sneaker-nike-dunk-low-unc",
@@ -7787,7 +7787,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -7799,8 +7799,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T18:57:45.000Z",
+      "updatedAt": "2026-08-13T18:57:45.000Z"
     },
     {
       "id": "sneaker-nike-dunk-x-travis-scott-gray",
@@ -7827,7 +7827,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -7839,8 +7839,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T18:57:45.000Z",
+      "updatedAt": "2026-08-13T18:57:45.000Z"
     },
     {
       "id": "sneaker-nike-free-metcon-blanco-lila",
@@ -7867,7 +7867,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -7879,8 +7879,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T18:57:45.000Z",
+      "updatedAt": "2026-08-13T18:57:45.000Z"
     },
     {
       "id": "sneaker-nike-free-metcon-blanco-rojo",
@@ -7907,7 +7907,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -7919,8 +7919,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T18:57:45.000Z",
+      "updatedAt": "2026-08-13T18:57:45.000Z"
     },
     {
       "id": "sneaker-nike-free-metcon-blanco-rosado",
@@ -7947,7 +7947,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -7959,8 +7959,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T18:57:45.000Z",
+      "updatedAt": "2026-08-13T18:57:45.000Z"
     },
     {
       "id": "sneaker-nike-free-metcon-morado",
@@ -7987,7 +7987,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -7999,8 +7999,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T18:57:45.000Z",
+      "updatedAt": "2026-08-13T18:57:45.000Z"
     },
     {
       "id": "sneaker-nike-free-metcon-negro",
@@ -8027,7 +8027,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -8039,8 +8039,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T18:57:45.000Z",
+      "updatedAt": "2026-08-13T18:57:45.000Z"
     },
     {
       "id": "sneaker-nike-free-metcon-negro-cafe",
@@ -8067,7 +8067,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -8079,8 +8079,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T18:57:45.000Z",
+      "updatedAt": "2026-08-13T18:57:45.000Z"
     },
     {
       "id": "sneaker-nike-hyper-bubble-negro",
@@ -8107,7 +8107,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -8119,8 +8119,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T18:57:45.000Z",
+      "updatedAt": "2026-08-13T18:57:45.000Z"
     },
     {
       "id": "sneaker-nike-hyper-bubble-negro-cromo",
@@ -8147,7 +8147,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -8159,8 +8159,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T18:57:45.000Z",
+      "updatedAt": "2026-08-13T18:57:45.000Z"
     },
     {
       "id": "sneaker-nike-hyper-bubble-negro-verde",
@@ -8187,7 +8187,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -8199,8 +8199,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T18:57:45.000Z",
+      "updatedAt": "2026-08-13T18:57:45.000Z"
     },
     {
       "id": "sneaker-nike-initiator-hueso-verde",
@@ -8227,7 +8227,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -8239,8 +8239,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T18:57:45.000Z",
+      "updatedAt": "2026-08-13T18:57:45.000Z"
     },
     {
       "id": "sneaker-nike-initiator-plata-rojo",
@@ -8267,7 +8267,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "Initiator en plata metalizada con el swoosh en rojo. Corredora de los 2000 hecha para diario.",
       "details": {
@@ -8279,8 +8279,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T18:57:45.000Z",
+      "updatedAt": "2026-08-13T18:57:45.000Z"
     },
     {
       "id": "sneaker-nike-p-6000-blanco-malva",
@@ -8307,7 +8307,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -8319,8 +8319,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T18:57:45.000Z",
+      "updatedAt": "2026-08-13T18:57:45.000Z"
     },
     {
       "id": "sneaker-nike-p-6000-blanco-rosado",
@@ -8347,7 +8347,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -8359,8 +8359,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T18:57:45.000Z",
+      "updatedAt": "2026-08-13T18:57:45.000Z"
     },
     {
       "id": "sneaker-nike-p-6000-gris",
@@ -8387,7 +8387,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -8399,8 +8399,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T18:57:45.000Z",
+      "updatedAt": "2026-08-13T18:57:45.000Z"
     },
     {
       "id": "sneaker-nike-p-6000-hueso",
@@ -8427,7 +8427,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -8439,8 +8439,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T18:57:45.000Z",
+      "updatedAt": "2026-08-13T18:57:45.000Z"
     },
     {
       "id": "sneaker-nike-p-6000-negro-blanco",
@@ -8467,7 +8467,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -8479,8 +8479,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T18:57:45.000Z",
+      "updatedAt": "2026-08-13T18:57:45.000Z"
     },
     {
       "id": "sneaker-nike-p-6000-plata-negro",
@@ -8507,7 +8507,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -8519,8 +8519,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T18:57:45.000Z",
+      "updatedAt": "2026-08-13T18:57:45.000Z"
     },
     {
       "id": "sneaker-nike-p-6000-plata-rosado",
@@ -8547,7 +8547,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -8559,8 +8559,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T18:57:45.000Z",
+      "updatedAt": "2026-08-13T18:57:45.000Z"
     },
     {
       "id": "sneaker-nike-p-6000-rosa-total",
@@ -8587,7 +8587,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -8599,8 +8599,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T18:57:45.000Z",
+      "updatedAt": "2026-08-13T18:57:45.000Z"
     },
     {
       "id": "sneaker-nike-p-6000-triple-blanco",
@@ -8627,7 +8627,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "P-6000 en blanco total, con el entramado de capas y la mediasuela Rideliner.",
       "details": {
@@ -8639,8 +8639,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T18:57:45.000Z",
+      "updatedAt": "2026-08-13T18:57:45.000Z"
     },
     {
       "id": "sneaker-nike-sb-skate-blanco-gris",
@@ -8667,7 +8667,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "Skate baja en gamuza gris y lona blanca, con suela vulcanizada.",
       "details": {
@@ -8679,8 +8679,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T18:57:45.000Z",
+      "updatedAt": "2026-08-13T18:57:45.000Z"
     },
     {
       "id": "sneaker-nike-sb-dunk-low-stellar",
@@ -8707,7 +8707,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -8719,8 +8719,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T18:57:45.000Z",
+      "updatedAt": "2026-08-13T18:57:45.000Z"
     },
     {
       "id": "sneaker-nike-sb-dunk-low-x-jarritos",
@@ -8747,7 +8747,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -8759,8 +8759,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T18:57:45.000Z",
+      "updatedAt": "2026-08-13T18:57:45.000Z"
     },
     {
       "id": "sneaker-nike-sb-dunk-super-brown",
@@ -8787,7 +8787,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -8799,8 +8799,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T18:57:45.000Z",
+      "updatedAt": "2026-08-13T18:57:45.000Z"
     },
     {
       "id": "sneaker-nike-sb-skate-negro",
@@ -8827,7 +8827,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "Silueta baja de skate en lona negra con suela vulcanizada blanca.",
       "details": {
@@ -8839,8 +8839,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T18:57:45.000Z",
+      "updatedAt": "2026-08-13T18:57:45.000Z"
     },
     {
       "id": "sneaker-nike-shox-negro",
@@ -8867,7 +8867,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -8879,8 +8879,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T18:57:45.000Z",
+      "updatedAt": "2026-08-13T18:57:45.000Z"
     },
     {
       "id": "sneaker-nike-shox-tl-blanco-verde",
@@ -8907,7 +8907,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -8919,8 +8919,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T18:57:45.000Z",
+      "updatedAt": "2026-08-13T18:57:45.000Z"
     },
     {
       "id": "sneaker-nike-shox-tl-gris-verde",
@@ -8947,7 +8947,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -8959,8 +8959,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T18:57:45.000Z",
+      "updatedAt": "2026-08-13T18:57:45.000Z"
     },
     {
       "id": "sneaker-nike-shox-tl-negro-rojo",
@@ -8987,7 +8987,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -8999,8 +8999,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T18:57:45.000Z",
+      "updatedAt": "2026-08-13T18:57:45.000Z"
     },
     {
       "id": "sneaker-nike-shox-tl-triple-blanco",
@@ -9027,7 +9027,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "Shox TL en blanco con las cuatro columnas visibles en el talón.",
       "details": {
@@ -9039,8 +9039,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T18:57:45.000Z",
+      "updatedAt": "2026-08-13T18:57:45.000Z"
     },
     {
       "id": "sneaker-nike-shox-tl-triple-negro",
@@ -9067,7 +9067,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -9079,8 +9079,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T18:57:45.000Z",
+      "updatedAt": "2026-08-13T18:57:45.000Z"
     },
     {
       "id": "sneaker-nike-shox-triple-cafe",
@@ -9107,7 +9107,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -9119,8 +9119,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T18:57:45.000Z",
+      "updatedAt": "2026-08-13T18:57:45.000Z"
     },
     {
       "id": "sneaker-nike-zoom-vomero-5-crema",
@@ -9147,7 +9147,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "Vomero 5 en crema y beige, con capas de malla y refuerzos en gamuza.",
       "details": {
@@ -9159,8 +9159,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T18:57:45.000Z",
+      "updatedAt": "2026-08-13T18:57:45.000Z"
     },
     {
       "id": "sneaker-nike-zoom-vomero-5-plata",
@@ -9187,7 +9187,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -9199,8 +9199,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T18:57:45.000Z",
+      "updatedAt": "2026-08-13T18:57:45.000Z"
     },
     {
       "id": "sneaker-nike-zoom-vomero-5-triple-blanco",
@@ -9227,7 +9227,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -9239,8 +9239,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T18:57:45.000Z",
+      "updatedAt": "2026-08-13T18:57:45.000Z"
     },
     {
       "id": "sneaker-nike-zoom-vomero-san-valentin",
@@ -9267,7 +9267,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -9279,8 +9279,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T18:57:45.000Z",
+      "updatedAt": "2026-08-13T18:57:45.000Z"
     },
     {
       "id": "sneaker-nike-zoomx-blanco",
@@ -9307,7 +9307,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -9319,8 +9319,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T18:57:45.000Z",
+      "updatedAt": "2026-08-13T18:57:45.000Z"
     },
     {
       "id": "sneaker-reebok-x-anuel-aa-rojo",
@@ -9347,7 +9347,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -9359,8 +9359,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T19:36:12.000Z",
+      "updatedAt": "2026-08-13T19:36:12.000Z"
     },
     {
       "id": "sneaker-vans-old-skool-cafe",
@@ -9387,7 +9387,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "",
       "details": {
@@ -9399,8 +9399,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T19:36:12.000Z",
+      "updatedAt": "2026-08-13T19:36:12.000Z"
     },
     {
       "id": "sneaker-vans-old-skool-negro",
@@ -9427,7 +9427,7 @@
       ],
       "status": "disponible",
       "isFeatured": false,
-      "isNewArrival": true,
+      "isNewArrival": false,
       "isOriginalCertified": false,
       "description": "La Old Skool clásica: lona y gamuza negra, franja lateral blanca y suela de gofre.",
       "details": {
@@ -9439,8 +9439,8 @@
       },
       "viewsCount": 0,
       "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:34:44.183Z",
-      "updatedAt": "2026-08-13T19:34:44.183Z"
+      "createdAt": "2026-08-13T19:36:12.000Z",
+      "updatedAt": "2026-08-13T19:36:12.000Z"
     }
   ],
   "deliveries": []
