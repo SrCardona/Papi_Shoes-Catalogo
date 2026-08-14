@@ -7,10 +7,11 @@
     "dev": "vite --port=3000 --host",
     "build": "tsc --noEmit && vite build",
     "preview": "vite preview --port=4173",
-    "lint": "tsc --noEmit && eslint src",
+    "lint": "tsc --noEmit && eslint src api",
     "catalogo": "node scripts/generar-catalogo.mjs"
   },
   "dependencies": {
+    "@vercel/blob": "^2.8.0",
     "lucide-react": "^0.546.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",

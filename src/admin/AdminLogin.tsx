@@ -4,7 +4,7 @@ import { useAuth } from '../context/AuthContext';
 import { BrandLockup } from '../components/ui/TempleMark';
 
 export function AdminLogin() {
-  const { login, needsSetup, setupPin } = useAuth();
+  const { login, needsSetup, setupPin, validaEnServidor } = useAuth();
   const [username, setUsername] = useState('');
   const [pin, setPin] = useState('');
   const [confirmPin, setConfirmPin] = useState('');
@@ -65,8 +65,18 @@ export function AdminLogin() {
             </p>
           )}
 
+          {validaEnServidor && (
+            <p className="mb-5 text-[11.5px] leading-relaxed text-marble/45">
+              El PIN lo verifica el servidor, así que sirve desde cualquier
+              equipo. Tu sesión dura dos horas y es la que autoriza a publicar
+              los cambios.
+            </p>
+          )}
+
           <form onSubmit={onSubmit} className="space-y-4">
-            {!needsSetup && (
+            {/* Con validación en el servidor el usuario no se pide: el servidor no
+                lo conoce y nunca fue una credencial secreta. */}
+            {!needsSetup && !validaEnServidor && (
               <div>
                 <label
                   htmlFor="admin-user"
@@ -110,7 +120,7 @@ export function AdminLogin() {
                 }}
                 placeholder="••••••"
                 className={`${field} tracking-[0.35em]`}
-                autoFocus={needsSetup}
+                autoFocus={needsSetup || validaEnServidor}
                 required
               />
             </div>
@@ -170,7 +180,9 @@ export function AdminLogin() {
         <p className="mt-5 text-[11px] leading-relaxed text-marble/30 text-center">
           {needsSetup
             ? 'El PIN vive en este navegador. Si entras desde otro equipo, tendrás que definirlo de nuevo.'
-            : 'El acceso se bloquea 15 minutos tras 5 intentos fallidos.'}
+            : validaEnServidor
+              ? 'El acceso se bloquea 15 minutos tras 5 intentos fallidos, también del lado del servidor.'
+              : 'El acceso se bloquea 15 minutos tras 5 intentos fallidos.'}
         </p>
       </div>
     </div>

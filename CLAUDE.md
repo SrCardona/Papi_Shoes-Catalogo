@@ -17,24 +17,59 @@ npm run catalogo    # precios por marca en precios.csv
 
 React 19 + TypeScript + Vite + Tailwind v4 (sin archivo de config: los tokens
 están en `@theme` dentro de `src/index.css`) + react-router-dom. Iconos de
-lucide-react. Sin backend: todo vive en el navegador.
+lucide-react. El sitio es estático; el único servidor son tres funciones de
+Vercel en `api/`, que guardan lo que edita el panel.
 
 ## Dónde viven los datos (esto causa confusión, léelo bien)
 
-El catálogo tiene dos fuentes y **el navegador le gana al código**:
+Tres fuentes, y en este orden manda cada una:
 
-1. `src/data/catalogoGenerado.ts` — lo genera el script desde las fotos. Es lo
-   que ven los visitantes nuevos del sitio publicado.
-2. `localStorage` del navegador — llaves `papi_shoes_inventory`,
-   `papi_shoes_settings`, `papi_shoes_deliveries`. Si hay algo guardado ahí,
-   tiene prioridad sobre el código. Se carga en `src/context/StoreContext.tsx`.
+1. **La nube** — `estado.json` en Vercel Blob, servido por `api/estado.ts`. Es la
+   copia compartida: lo que publica el panel y lo que ven todos los visitantes y
+   todos los equipos. Si está configurada, gana.
+2. **`localStorage`** — llaves `papi_shoes_inventory`, `papi_shoes_settings`,
+   `papi_shoes_deliveries`, `papi_shoes_editado`. Copia local: primer pintado y
+   respaldo sin conexión. Solo le gana a la nube si `papi_shoes_editado` es
+   posterior a lo publicado (y entonces el panel marca "cambios sin publicar").
+3. **`src/data/catalogoGenerado.ts`** — lo genera el script desde las fotos.
+   Punto de partida, y vuelve a mandar al regenerarse: el documento de la nube
+   guarda la huella del catálogo con el que se publicó y, si el código trae otra,
+   el inventario del código gana. Los ajustes y las entregas se siguen tomando de
+   la nube.
 
 Si un cambio en los datos "no se ve", casi siempre es esto. Para volver al
-catálogo del código: `localStorage.clear()` en la consola.
+catálogo del código: `localStorage.clear()` en la consola — pero ojo, si la nube
+está configurada la próxima carga vuelve a traer lo publicado, y lo que hay que
+usar es **Panel › Ajustes › Nube › Traer de la nube** o publicar encima.
+
+La nube se apaga sola cuando faltan sus variables de entorno: sin ellas todo
+funciona como antes (código + `localStorage`) y el panel lo dice en el
+encabezado. No hay que tocar código para trabajar sin nube.
+
+### Cómo publica el panel
+
+`src/lib/nube.ts` es el único cliente de `/api`, y `StoreContext` lo usa así:
+todo cambio sube solo 1,5 s después de la última edición, siempre que haya token
+de escritura. La escritura es optimista: se manda el sello del documento sobre el
+que se editó y el servidor responde 409 si en la nube ya hay uno más nuevo, en
+vez de pisarlo. Las fotos que el dueño sube desde el dispositivo se guardan
+aparte con `api/imagen.ts` (nombre = hash del contenido) y en el catálogo queda su
+URL; nunca se publica el usuario ni el hash del PIN.
+
+Hacia el otro lado, volver a la pestaña o a la ventana consulta si hay algo más
+nuevo publicado (`refrescarDesdeNube`), con dos frenos: no trae nada si este
+navegador tiene cambios sin publicar, y no consulta dos veces en cinco segundos.
+No hay temporizador: nadie mira una pestaña que no está al frente.
+
+En desarrollo no hay funciones: `vite.config.ts` reenvía `/api` al sitio
+publicado (`VITE_API_ORIGIN`, o `ORIGEN_API_POR_DEFECTO` en ese mismo archivo).
+Ojo: eso significa que `npm run dev` edita los datos de producción.
 
 ## Estructura
 
 ```
+api/                estado.ts (leer/guardar), sesion.ts (PIN + token),
+│                   imagen.ts (fotos), _lib/ (almacén, sesión, intentos, saneado)
 src/
 ├── pages/          HomePage, CatalogPage (+ OriginalsPage, SneakersPage),
 │                   ProductPage, AboutPage (El Templo), FaqPage, AdminPage
@@ -42,12 +77,20 @@ src/
 │   ├── layout/     Navbar, Footer, Layout
 │   └── ui/         SneakerColumn, Colonnade, FilterRail, SmartImage,
 │                   DeliveryWall, HighlightRail, SectionHeader, TempleMark
-├── admin/          SneakerForm, QuickEditor, DeliveryManager, SettingsPanel
-├── context/        StoreContext (estado global + persistencia)
+├── admin/          SneakerForm, QuickEditor, DeliveryManager, SettingsPanel,
+│                   NubeSync (estado de la nube y publicación manual)
+├── context/        StoreContext (estado global + nube + localStorage)
 ├── hooks/          useCatalogFilters (todo el filtrado y orden)
-├── lib/            security.ts (saneamiento), validation.ts, utils.ts
+├── lib/            nube.ts (cliente de /api), security.ts (saneamiento),
+│                   validation.ts, utils.ts
 └── data/           initialData.ts, catalogoGenerado.ts (GENERADO, no editar)
 ```
+
+Las carpetas y archivos de `api/` que empiezan por `_` no se convierten en rutas:
+ahí va el código compartido. `api/_lib/estado.ts` importa los validadores de
+`src/lib/`, así que esos módulos tienen que seguir corriendo en Node: nada de
+`import.meta.env`, `window` ni `document` dentro de `validation.ts` o
+`security.ts`.
 
 ## Las dos líneas del catálogo
 
@@ -86,12 +129,20 @@ colorways diferentes.
   protocolo relativo `//`.
 - Todo texto de entrada pasa por `sanitizeText`.
 - El PIN del panel se guarda como hash SHA-256 (sin sal), nunca en claro. El
-  repositorio no distribuye ninguno: el hash entra por `VITE_ADMIN_PIN_HASH`
-  (variable de entorno de Vercel) y, si falta, el panel lo pide en el primer
-  ingreso y lo guarda en el `localStorage` de ese navegador. Nunca agregues un
-  PIN ni su hash al código: este repositorio es público.
+  repositorio no distribuye ninguno: el hash del sitio publicado entra por
+  `ADMIN_PIN_HASH` (variable de entorno de Vercel, sin prefijo `VITE_` para que
+  no llegue al navegador). Si falta, el panel cae al modo local y lo pide en el
+  primer ingreso. Nunca agregues un PIN ni su hash al código: este repositorio es
+  público.
+- `ADMIN_SESSION_SECRET` firma las sesiones de escritura. Mismo trato: solo en
+  Vercel, nunca en el repositorio, y nunca con prefijo `VITE_`.
 - Lo que se importe desde un respaldo pasa por `src/lib/validation.ts` antes de
   entrar al estado.
+- Lo que llega a `PUT /api/estado` se vuelve a sanear en el servidor
+  (`api/_lib/estado.ts`): no se confía en que el cliente ya lo hizo. Si agregas un
+  campo a `StoreSettings`, agrégalo también ahí o no se publicará.
+- Escribir en la nube exige el token de `api/sesion.ts`. Ningún endpoint nuevo
+  debe escribir sin pasar por `tokenValido`.
 
 ## Diseño
 

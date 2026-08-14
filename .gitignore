@@ -7,6 +7,9 @@ coverage/
 .env*
 !.env.example
 
+# Carpeta de la CLI de Vercel: guarda el id del proyecto y credenciales locales.
+.vercel/
+
 # Lotes de fotos sin desempacar. Las fotos del catalogo si van al repo:
 # viven en public/catalogo/ y son las que sirve el sitio.
 *.zip

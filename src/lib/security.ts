@@ -1,22 +1,22 @@
 /**
- * Capa de seguridad del panel de administración.
+ * Capa de seguridad del panel, del lado del navegador.
  *
  * NOTA IMPORTANTE PARA EL DUEÑO DEL PROYECTO
  * ──────────────────────────────────────────
- * Esta app es 100% frontend (sin servidor). Eso significa que la autenticación
- * que ves aquí protege contra un visitante casual, NO contra alguien con
- * conocimientos técnicos: quien lea el código del navegador puede saltarse
- * cualquier control del lado del cliente.
+ * Lo de aquí NO es lo que protege el sitio publicado. Cuando están configuradas
+ * `ADMIN_PIN_HASH` y `ADMIN_SESSION_SECRET`, el PIN lo compara el servidor
+ * (`api/sesion.ts`) y solo él puede autorizar un cambio en la nube. Este archivo
+ * cubre dos cosas distintas:
  *
- * Lo que sí se corrigió respecto a la versión anterior:
- *   · El código no distribuye ningún PIN: ni en claro ni con hash. El PIN se
- *     crea en el primer ingreso y vive en el navegador del dueño.
- *   · Se eliminó el acceso maestro codificado que ignoraba tu PIN real.
- *   · La sesión ya no se activa escribiendo `true` en sessionStorage.
- *   · Se bloquea el acceso tras varios intentos fallidos.
+ *   · El modo sin servidor —desarrollo local, o un despliegue al que le faltan
+ *     las variables—, donde el PIN se crea en el primer ingreso y vive en el
+ *     navegador del dueño. Ahí la validación se puede saltar leyendo el código:
+ *     frena a un visitante casual y nada más, y los cambios no salen del equipo.
+ *   · El saneamiento de URLs y de texto, que sí importa siempre: se aplica antes
+ *     de guardar y otra vez en el servidor antes de publicar.
  *
- * Para seguridad real necesitas un backend que valide credenciales. Ver
- * la sección "Siguiente paso: backend" del README.
+ * El código no distribuye ningún PIN, ni en claro ni con hash, y no existe
+ * ningún acceso maestro alterno.
  */
 
 /**

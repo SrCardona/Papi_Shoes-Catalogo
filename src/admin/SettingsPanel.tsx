@@ -20,6 +20,7 @@ import {
   validateSneakers,
 } from '../lib/validation';
 import { sanitizeImageUrl, sanitizeText, sha256 } from '../lib/security';
+import { NubePanel } from './NubeSync';
 import { SmartImage } from '../components/ui/SmartImage';
 import { compressImageFile, cx, formatPhoneDisplay } from '../lib/utils';
 
@@ -260,7 +261,7 @@ export function SettingsPanel({
     setDeliveries,
     resetCatalog,
   } = useStore();
-  const { changePin } = useAuth();
+  const { changePin, validaEnServidor } = useAuth();
 
   const [draft, setDraft] = useState<StoreSettings>(settings);
   const [notice, setNotice] = useState<Notice>(null);
@@ -589,6 +590,9 @@ export function SettingsPanel({
         </button>
       </section>
 
+      {/* Nube */}
+      <NubePanel />
+
       {/* Seguridad */}
       <section className="space-y-5">
         <div className="pb-4 border-b border-white/10">
@@ -598,6 +602,23 @@ export function SettingsPanel({
           </p>
         </div>
 
+        {validaEnServidor ? (
+          <div className="bg-basalt border border-white/10 p-5 space-y-3">
+            <div className="flex items-center gap-2.5 pb-3 border-b border-white/8">
+              <KeyRound className="w-4 h-4 text-silver/70" />
+              <h3 className="text-[11px] font-bold uppercase tracking-[0.18em] text-marble">
+                Cambiar PIN
+              </h3>
+            </div>
+            <p className="text-[11.5px] text-marble/45 leading-relaxed">
+              El PIN de este sitio lo verifica el servidor, así que no se cambia
+              desde aquí: cámbialo en Vercel. Genera el hash del PIN nuevo abajo,
+              reemplaza la variable <code className="text-silver">ADMIN_PIN_HASH</code>{' '}
+              y vuelve a desplegar. Mientras no lo hagas, sigue valiendo el
+              anterior.
+            </p>
+          </div>
+        ) : (
         <div className="bg-basalt border border-white/10 p-5">
           <form onSubmit={submitPinChange} className="space-y-4">
             <div className="flex items-center gap-2.5 pb-3 border-b border-white/8">
@@ -660,6 +681,7 @@ export function SettingsPanel({
             </button>
           </form>
         </div>
+        )}
 
         {/* Puente hacia Vercel: el hash se calcula aquí, en el navegador, para
             que el PIN no tenga que pasar por una terminal ni por un archivo. */}
@@ -673,9 +695,11 @@ export function SettingsPanel({
 
           <p className="text-[11.5px] text-marble/45 leading-relaxed">
             Escribe el PIN que quieras usar en el sitio publicado y copia el hash
-            a la variable <code className="text-silver">VITE_ADMIN_PIN_HASH</code>{' '}
-            en Vercel (Settings › Environment Variables). El PIN no sale de este
-            navegador: solo se copia el hash, que no se puede devolver al PIN.
+            a la variable <code className="text-silver">ADMIN_PIN_HASH</code> en
+            Vercel (Settings › Environment Variables). Es la que usa el servidor
+            para validar el ingreso y autorizar los cambios. El PIN no sale de
+            este navegador: solo se copia el hash, que no se puede devolver al
+            PIN.
           </p>
 
           <div>
@@ -706,10 +730,9 @@ export function SettingsPanel({
         </div>
 
         <p className="text-[11.5px] leading-relaxed text-marble/35 border-l-2 border-silver/35 pl-4 py-1">
-          Este sitio funciona sin servidor, así que la validación ocurre en el
-          navegador. Sirve para que un visitante casual no entre, pero no frena a
-          alguien con conocimientos técnicos. Si vas a manejar datos de clientes o
-          pagos, monta un backend: está explicado en el README.
+          {validaEnServidor
+            ? 'El PIN se compara en el servidor y el hash no viaja en el sitio, así que no se puede probar por fuerza bruta sin conexión. Cinco intentos fallidos bloquean quince minutos, también del lado del servidor.'
+            : 'Sin las variables del servidor la validación ocurre en el navegador. Sirve para que un visitante casual no entre, pero no frena a alguien con conocimientos técnicos, y los cambios no salen de este equipo. Los pasos para activarla están en el README.'}
         </p>
       </section>
 

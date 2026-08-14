@@ -16,6 +16,7 @@ import { QuickEditor } from '../admin/QuickEditor';
 import { SneakerForm } from '../admin/SneakerForm';
 import { SettingsPanel } from '../admin/SettingsPanel';
 import { DeliveryManager } from '../admin/DeliveryManager';
+import { NubeIndicador } from '../admin/NubeSync';
 import { TempleMark } from '../components/ui/TempleMark';
 import { cx, formatPrice } from '../lib/utils';
 
@@ -72,6 +73,7 @@ export function AdminPage() {
             <p className="text-[11px] text-marble/35 mt-0.5">
               Sesión activa · expira en 2 horas
             </p>
+            <NubeIndicador />
           </div>
         </div>
 

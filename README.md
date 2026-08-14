@@ -30,52 +30,85 @@ invocarlo al desmontar el componente. Corre `npm run lint` antes de publicar.
 
 ## ⚠️ Antes de publicar el sitio
 
-**Configura el PIN en Vercel.** El repositorio no trae ningún PIN, ni en claro ni
-con hash: este repositorio es público y un PIN publicado es un PIN conocido. El
-hash entra por variable de entorno:
+### 1. Guardar los cambios en la nube
 
-1. Abre `/admin` en tu equipo. Sin variable configurada, el panel te pide crear
-   un PIN y lo guarda en ese navegador.
-2. Ve a **Ajustes › Seguridad › Hash para Vercel**, escribe el PIN que quieres
-   usar en el sitio publicado y copia el hash que aparece.
-3. En Vercel: **Settings › Environment Variables**, crea
-   `VITE_ADMIN_PIN_HASH` con ese valor. Vuelve a desplegar.
+Sin esto el panel funciona igual, pero **cada cambio se queda en el navegador
+donde lo hiciste**: no lo ven los visitantes ni tu otro equipo, y se pierde si
+limpias el navegador. Es una configuración de una sola vez, en Vercel:
 
-Nunca pongas el PIN en texto plano en un archivo, un commit o la variable: solo
-el hash. El usuario es `papi.cardona` (se cambia en **Ajustes › Seguridad**) y no
-es una credencial secreta: lo que protege el panel es el PIN.
+1. **El almacén.** *Storage › Create › Blob*, y conéctalo a este proyecto. Eso
+   crea la variable `BLOB_READ_WRITE_TOKEN` sola: no la escribas a mano.
+2. **El PIN del panel.** Abre `/admin`, entra a **Ajustes › Seguridad › Hash
+   para Vercel**, escribe el PIN que quieras usar y copia el hash. En
+   *Settings › Environment Variables*, crea `ADMIN_PIN_HASH` con ese valor.
+3. **La firma de las sesiones.** Genera una cadena aleatoria y guárdala en
+   `ADMIN_SESSION_SECRET`:
 
-Si no configuras la variable, cualquier visitante que abra `/admin` en el sitio
-publicado verá la pantalla de creación de PIN y entrará al panel **en su propio
-navegador**. No puede alterar lo que ven los demás —no hay servidor— pero es
-confuso y conviene evitarlo.
+   ```bash
+   node -e "console.log(require('crypto').randomBytes(32).toString('hex'))"
+   ```
 
-Y el límite de fondo: como el sitio no tiene backend, este control frena a un
-visitante casual, no a alguien con conocimientos técnicos. El hash viaja en el
-bundle y un PIN de pocos dígitos se adivina por fuerza bruta fuera de línea.
-Para seguridad real hace falta un backend (ver "Siguiente paso: backend").
+Vuelve a desplegar. Entra al panel: en **Ajustes › Nube** debe decir
+"Publicado", y el encabezado muestra el estado en cada pantalla.
 
-Revisa también, en **Ajustes › Tienda y contacto**, que el número de WhatsApp sea
-el correcto: ese número recibe todos los pedidos del sitio.
+Nunca pongas el PIN en texto plano en un archivo, un commit ni una variable:
+solo el hash. Este repositorio es público y un PIN publicado es un PIN conocido.
+Las tres variables viven en Vercel y ninguna se commitea. `ADMIN_PIN_HASH` y
+`ADMIN_SESSION_SECRET` no llevan el prefijo `VITE_` a propósito: así se quedan
+en el servidor y no entran al código que descarga el navegador.
+
+Con esto configurado, el ingreso al panel lo valida el servidor y sirve desde
+cualquier equipo. El usuario deja de pedirse: nunca fue un secreto, y lo que
+protege el panel es el PIN.
+
+### 2. Trabajar desde otro equipo
+
+Clona el repositorio, `npm install`, y crea un `.env` con la dirección del sitio
+publicado:
+
+```
+VITE_API_ORIGIN="https://tu-sitio.vercel.app"
+```
+
+`npm run dev` reenvía `/api` a ese dominio, así que el panel local trabaja con el
+catálogo de verdad: lo que edites ahí lo ve el sitio publicado, y al revés. Para
+no repetir el `.env` en cada equipo, escribe el dominio en
+`ORIGEN_API_POR_DEFECTO`, arriba de `vite.config.ts`: es la dirección pública del
+sitio, no un secreto, y puede quedar en el repositorio.
+
+Sin `VITE_API_ORIGIN`, `npm run dev` arranca igual pero sin nube: trabaja contra
+el catálogo del código y el almacenamiento de ese navegador.
+
+### 3. Revisa el número de WhatsApp
+
+En **Ajustes › Tienda y contacto**: ese número recibe todos los pedidos del
+sitio.
 
 ---
 
 ## Cómo está organizado
 
 ```
+api/                         Funciones de Vercel: lo único que escribe en la nube
+├── estado.ts                Lee y guarda el catálogo publicado
+├── sesion.ts                Valida el PIN y firma la sesión de escritura
+├── imagen.ts                Guarda una foto y devuelve su dirección
+└── _lib/                    Almacén, sesión, intentos, saneado del documento
+
 src/
 ├── main.tsx                 Punto de entrada
 ├── App.tsx                  Rutas y proveedores de contexto
 ├── types.ts                 Modelo de datos
 │
 ├── context/
-│   ├── StoreContext.tsx     Inventario y ajustes (estado global)
+│   ├── StoreContext.tsx     Inventario y ajustes (estado global + nube)
 │   └── AuthContext.tsx      Sesión del panel
 │
 ├── hooks/
 │   └── useCatalogFilters.ts Filtrado y ordenamiento del catálogo
 │
 ├── lib/
+│   ├── nube.ts              Cliente de /api: publicar, traer, subir fotos
 │   ├── security.ts          Hash del PIN, sesión, saneamiento de URLs
 │   ├── validation.ts        Validación de respaldos importados
 │   └── utils.ts             Precios, enlaces de WhatsApp, archivos
@@ -251,74 +284,116 @@ catálogo), `.fluted` (estriado de columna), `.column-card` (tarjeta de producto
 
 ## Dónde se guardan los datos
 
-El catálogo y los ajustes viven en el `localStorage` del navegador. Esto tiene
-consecuencias que conviene tener claras:
+Hay tres capas, y en ese orden manda cada una:
 
-- Los cambios que hagas en el panel **solo existen en ese navegador y ese equipo**.
-- Si limpias los datos del navegador, **se pierde el catálogo**.
-- El límite es de unos 5 MB. Las fotos subidas desde el dispositivo se guardan
-  como texto y lo llenan rápido; para catálogos grandes usa URLs de imagen.
+1. **La nube** (`estado.json` en el Blob Store). Es la fuente compartida: lo que
+   se publica desde el panel y lo que ven todos los visitantes y todos los
+   equipos. Si está configurada, gana.
+2. **El `localStorage` del navegador**. Copia local: es lo que se pinta mientras
+   responde la nube, y con lo que se sigue trabajando si no hay conexión. Solo le
+   gana a la nube cuando tiene una edición más reciente que lo publicado, y en
+   ese caso el panel avisa que hay cambios sin publicar.
+3. **El código** (`src/data/catalogoGenerado.ts`). El catálogo que sale de las
+   fotos con `npm run catalogo`. Es el punto de partida y vuelve a mandar cuando
+   se regenera: el documento de la nube guarda la huella del catálogo con el que
+   se publicó, y si el código trae otra, el inventario del código gana (los
+   ajustes y las entregas se siguen tomando de la nube).
 
-**Exporta un respaldo seguido** desde Ajustes › Respaldos. Guarda el `.json` en
-un lugar seguro.
+Cómo se publica:
+
+- Cada cambio del panel sube solo, segundo y medio después de que dejas de
+  editar. En **Ajustes › Nube** están "Publicar ahora" y "Traer de la nube" para
+  hacerlo a mano.
+- Las fotos que subes desde el dispositivo se guardan aparte en el almacén y en
+  el catálogo queda su dirección. Por eso dejaron de llenar el navegador: antes
+  cada foto viajaba dentro del catálogo como texto en base64.
+- Los demás dispositivos se ponen al día al volver a la pestaña, y como la
+  respuesta se cachea quince segundos, un cambio tarda a lo sumo ese margen en
+  verse. No hace falta recargar a mano. Lo que sí pide recarga es un cambio de
+  **código**: eso viaja por `git push` y lo despliega Vercel.
+- Si editaste desde dos equipos, el segundo en guardar recibe un aviso de
+  conflicto en vez de pisar el trabajo del otro. Ahí decides: "Traer de la nube"
+  o volver a hacer tu cambio encima.
+- El usuario y el PIN **nunca** se publican: el documento de la nube lo puede
+  leer cualquiera.
+
+Sin nube configurada todo sigue como antes: los cambios existen solo en ese
+navegador. En ese caso, **exporta un respaldo seguido** desde Ajustes ›
+Respaldos y guarda el `.json` en un lugar seguro.
 
 ---
 
 ## Seguridad: qué protege y qué no
 
-Este proyecto no tiene servidor: todo corre en el navegador del visitante. Por
-eso conviene ser explícito.
+El sitio es estático, pero el panel sí tiene servidor: tres funciones en `api/`
+que son las únicas que pueden escribir en la nube.
 
 **Lo que sí hace:**
 
+- El PIN se compara **en el servidor**, contra `ADMIN_PIN_HASH`. Ese hash no
+  entra al bundle, así que nadie se lo puede descargar para probarlo por fuerza
+  bruta sin conexión.
+- Escribir exige un token firmado (HMAC con `ADMIN_SESSION_SECRET`) que caduca a
+  las dos horas. El navegador solo guarda ese token; el PIN no se guarda.
+- Cinco intentos fallidos bloquean quince minutos, y el contador vive en el
+  servidor —por huella de IP, nunca la IP en claro—, así que no se salta llamando
+  directo a la función. Cada fallo además cuesta tiempo de espera.
+- Lo que llega a guardarse se valida y sanea de nuevo en el servidor, con los
+  mismos validadores del panel: una petición armada a mano no puede meter una URL
+  `javascript:`, texto con caracteres de control ni desviar el número de
+  WhatsApp.
+- El usuario y el hash del PIN se descartan al publicar: no viajan al documento
+  que lee cualquier visitante.
+- Las fotos se aceptan solo como mapa de bits (JPG, PNG, WEBP, AVIF, GIF). El SVG
+  queda fuera a propósito: es un documento que puede traer scripts.
 - El PIN se guarda como hash SHA-256, nunca en texto plano. Es hash, no cifrado:
   no hay forma de volver al PIN desde el valor guardado, pero tampoco lleva sal,
-  así que un PIN de pocos dígitos se puede adivinar por fuerza bruta si alguien
-  obtiene el hash. Por eso el repositorio no distribuye ninguno.
-- El código no trae PIN de fábrica: se crea en el primer ingreso y vive solo en
-  el navegador del dueño.
-- No existe ningún acceso maestro alterno: solo tu usuario y tu PIN entran.
-- La sesión es un token con caducidad de 2 horas, no una bandera booleana.
-- El acceso se bloquea 15 minutos tras 5 intentos fallidos.
+  así que conviene un PIN largo. Por eso el repositorio no distribuye ninguno.
+- No existe ningún acceso maestro alterno.
 - Los respaldos importados se validan campo por campo, y un archivo importado
-  **no puede** cambiar tus credenciales ni tu número de WhatsApp arbitrariamente.
-- Las URLs de imagen se filtran: solo pasan `https://` y `data:image/`.
+  **no puede** cambiar tus credenciales.
 
-**Lo que no puede hacer:** frenar a alguien con conocimientos técnicos. Cualquier
-validación que ocurra en el navegador se puede saltar leyendo el código de la
-página. Para el caso de uso actual —un catálogo público donde el panel solo edita
-contenido de vitrina— es un riesgo aceptable: lo peor que puede pasar es que
-alguien modifique el catálogo *en su propio navegador*, sin afectar a los demás
-visitantes.
+**Lo que no puede hacer:**
 
-### Siguiente paso: backend
+- Sin las variables configuradas, el panel vuelve al control local: valida en el
+  navegador y los cambios no salen de ese equipo. Sirve para que un visitante
+  casual no entre, no para frenar a alguien con conocimientos técnicos.
+- Un PIN es un PIN: si se lo prestas a alguien, ese alguien puede editar el
+  catálogo del sitio. No hay usuarios separados ni permisos por persona.
+- El documento publicado es público, como el catálogo que describe. No pongas
+  ahí nada que no quieras que se lea.
+- Quien tenga el token de escritura durante esas dos horas puede escribir. Salir
+  del panel lo borra.
 
-Si en algún momento vas a manejar pedidos con datos de clientes, pagos o
-inventario compartido entre varias personas, necesitas un servidor. La ruta más
-corta desde aquí:
+### Siguiente paso
 
-1. **Supabase** o **Firebase** para base de datos y autenticación. Ambos tienen
-   plan gratuito suficiente para empezar.
-2. Reemplazar `localStorage` en `src/context/StoreContext.tsx` por llamadas a la
-   base de datos. El resto de la aplicación no se entera, porque todo el acceso
-   a datos pasa por ese archivo.
-3. Mover la validación del login a políticas del lado del servidor (RLS en
-   Supabase) para que el control deje de depender del navegador.
-4. Subir las imágenes a almacenamiento de objetos (Supabase Storage, Cloudflare
-   R2) en vez de guardarlas dentro del navegador.
+Lo que hay alcanza para un catálogo que administra una persona. Si en algún
+momento entran pedidos con datos de clientes, pagos o varias personas
+editando:
+
+1. **Supabase** o **Firebase** para base de datos y autenticación por persona,
+   con historial de quién cambió qué.
+2. El punto de reemplazo es el mismo de siempre: `src/lib/nube.ts` y
+   `src/context/StoreContext.tsx`. El resto de la aplicación no se entera, porque
+   todo el acceso a datos pasa por ahí.
+3. Guardar un histórico del documento en vez de sobrescribirlo, para poder volver
+   atrás sin depender de un respaldo manual.
 
 ---
 
 ## Publicar
 
-La compilación es un sitio estático. En Vercel o Netlify basta con conectar el
-repositorio; los archivos `vercel.json` y `public/_redirects` ya están incluidos
-para que las rutas funcionen al recargar la página.
+Conecta el repositorio a **Vercel**; `vercel.json` ya trae las reglas para que
+las rutas funcionen al recargar la página.
 
 ```
 Comando de compilación:  npm run build
 Carpeta de salida:       dist
 ```
+
+Tiene que ser Vercel, o al menos algo que ejecute las funciones de `api/`: en un
+alojamiento puramente estático el sitio se ve bien, pero el panel queda sin nube
+y los cambios vuelven a quedarse en un solo navegador.
 
 ---
 
