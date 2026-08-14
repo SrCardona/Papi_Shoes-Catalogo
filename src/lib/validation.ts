@@ -17,7 +17,7 @@ import type {
   StoreSettings,
   StorySlide,
 } from '../types';
-import { sanitizeImageUrl, sanitizeText, uuid } from './security';
+import { sanitizeImageUrl, sanitizeText, uuid } from './security.js';
 
 const BRANDS: SneakerBrand[] = [
   'Nike',

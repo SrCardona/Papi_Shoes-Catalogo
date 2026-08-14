@@ -25,18 +25,17 @@ export async function GET(): Promise<Response> {
     }
   };
 
-  await intenta('nodeCrypto', () => import('node:crypto'));
   await intenta('vercelBlob', () => import('@vercel/blob'));
-  await intenta('libRespuesta', () => import('./_lib/respuesta'));
-  await intenta('libSesion', () => import('./_lib/sesion'));
-  await intenta('libAlmacen', () => import('./_lib/almacen'));
-  await intenta('libIntentos', () => import('./_lib/intentos'));
-  await intenta('srcSecurity', () => import('../src/lib/security'));
-  await intenta('srcValidation', () => import('../src/lib/validation'));
-  await intenta('libEstado', () => import('./_lib/estado'));
-  await intenta('rutaSesion', () => import('./sesion'));
-  await intenta('rutaEstado', () => import('./estado'));
-  await intenta('rutaImagen', () => import('./imagen'));
+  await intenta('libRespuesta', () => import('./_lib/respuesta.js'));
+  await intenta('libSesion', () => import('./_lib/sesion.js'));
+  await intenta('libAlmacen', () => import('./_lib/almacen.js'));
+  await intenta('libIntentos', () => import('./_lib/intentos.js'));
+  await intenta('srcSecurity', () => import('../src/lib/security.js'));
+  await intenta('srcValidation', () => import('../src/lib/validation.js'));
+  await intenta('libEstado', () => import('./_lib/estado.js'));
+  await intenta('rutaSesion', () => import('./sesion.js'));
+  await intenta('rutaEstado', () => import('./estado.js'));
+  await intenta('rutaImagen', () => import('./imagen.js'));
 
   return new Response(pasos.join('\n'), {
     headers: { 'Content-Type': 'text/plain; charset=utf-8', 'Cache-Control': 'no-store' },

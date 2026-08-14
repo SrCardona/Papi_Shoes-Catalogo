@@ -16,7 +16,7 @@
  * recortado, y nada de lo que hay ahí sirve para entrar. Lo único que protege es
  * el conteo.
  */
-import { escribirJson, leerJson } from './almacen';
+import { escribirJson, leerJson } from './almacen.js';
 
 const RUTA = 'intentos.json';
 const MAX_FALLOS = 5;

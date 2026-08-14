@@ -9,9 +9,9 @@
  * parte: se convierte a SHA-256, se compara y se descarta. Tampoco se registra
  * en los logs.
  */
-import { almacenDisponible } from './_lib/almacen';
-import { limpiaFallos, minutosBloqueado, registraFallo } from './_lib/intentos';
-import { json } from './_lib/respuesta';
+import { almacenDisponible } from './_lib/almacen.js';
+import { limpiaFallos, minutosBloqueado, registraFallo } from './_lib/intentos.js';
+import { json } from './_lib/respuesta.js';
 import {
   FORMATO_PIN,
   emiteToken,
@@ -20,7 +20,7 @@ import {
   pinCorrecto,
   secretoConfigurado,
   sesionDisponible,
-} from './_lib/sesion';
+} from './_lib/sesion.js';
 
 /** Freno a la fuerza bruta: cada fallo cuesta tiempo de reloj al que insiste. */
 const CASTIGO_MS = 400;

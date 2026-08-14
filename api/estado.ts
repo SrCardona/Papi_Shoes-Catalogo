@@ -7,15 +7,15 @@
  * hay uno más nuevo, se responde 409 en vez de pisar el trabajo del otro
  * dispositivo.
  */
-import { almacenDisponible, escribirJson, leerJson } from './_lib/almacen';
+import { almacenDisponible, escribirJson, leerJson } from './_lib/almacen.js';
 import {
   RUTA_ESTADO,
   TOPE_BYTES,
   saneaEstado,
   type EstadoPublicado,
-} from './_lib/estado';
-import { json } from './_lib/respuesta';
-import { sesionDisponible, tokenValido } from './_lib/sesion';
+} from './_lib/estado.js';
+import { json } from './_lib/respuesta.js';
+import { sesionDisponible, tokenValido } from './_lib/sesion.js';
 
 /* Un método por exportación, y nunca `export default`: Vercel interpreta el
    handler por defecto como la firma antigua `(request, response)`, ignora la

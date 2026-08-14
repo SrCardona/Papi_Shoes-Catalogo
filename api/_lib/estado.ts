@@ -15,8 +15,8 @@ import {
   validateDeliveries,
   validateSlides,
   validateSneakers,
-} from '../../src/lib/validation';
-import { sanitizeText } from '../../src/lib/security';
+} from '../../src/lib/validation.js';
+import { sanitizeText } from '../../src/lib/security.js';
 
 export const RUTA_ESTADO = 'estado.json';
 

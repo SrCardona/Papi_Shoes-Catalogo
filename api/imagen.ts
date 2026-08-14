@@ -12,9 +12,9 @@
  * año sin servir nunca una versión vieja.
  */
 import { createHash } from 'node:crypto';
-import { almacenDisponible, escribirImagen } from './_lib/almacen';
-import { json } from './_lib/respuesta';
-import { sesionDisponible, tokenValido } from './_lib/sesion';
+import { almacenDisponible, escribirImagen } from './_lib/almacen.js';
+import { json } from './_lib/respuesta.js';
+import { sesionDisponible, tokenValido } from './_lib/sesion.js';
 
 const TOPE_BYTES = 4_000_000;
 
