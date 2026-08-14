@@ -92,6 +92,29 @@ ahí va el código compartido. `api/_lib/estado.ts` importa los validadores de
 `import.meta.env`, `window` ni `document` dentro de `validation.ts` o
 `security.ts`.
 
+### Tres reglas de las funciones que no se pueden relajar
+
+Romper cualquiera de las dos primeras devuelve **500 en producción y nada en
+local**, porque en desarrollo estas funciones no se ejecutan: `/api` se reenvía
+al sitio publicado.
+
+1. **Un método por exportación con su nombre** (`export function GET`), nunca
+   `export default`. Vercel lee el handler por defecto como la firma vieja
+   `(request, response)`, ignora la `Response` que devuelvas y la función muere
+   sin contestar. Con los métodos por nombre, el runtime responde 405 solo.
+2. **Los imports relativos llevan `.js`**, tanto en `api/**` como en los módulos
+   de `src/` que las funciones alcanzan (hoy `src/lib/validation.ts` →
+   `./security.js`). Vercel no empaqueta: compila archivo por archivo y lo corre
+   con Node en modo ESM, que exige la extensión. TypeScript y Vite resuelven ese
+   `.js` al `.ts` sin quejarse, así que la extensión no molesta a nadie.
+3. `vercel.json` deja `/api` fuera del reenvío al `index.html`
+   (`"source": "/((?!api/).*)"`). Sin eso, las rutas de la aplicación se comen a
+   las funciones.
+
+Para ver el estado del servidor publicado, sin exponer nada:
+`curl https://papi-shoes-catalogo.vercel.app/api/sesion` responde qué falta
+(`faltaPin`, `faltaSecreto`, `nube`).
+
 ## Las dos líneas del catálogo
 
 - **Originales** (`category: 'originales'`, ruta `/originales`): pares con legit
