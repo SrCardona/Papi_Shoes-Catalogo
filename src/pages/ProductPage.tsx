@@ -141,12 +141,19 @@ function ProductView({ id }: { id?: string }) {
         <div className="grid lg:grid-cols-2 gap-10 lg:gap-16">
           {/* ── Galería ────────────────────────────────────────────── */}
           <div className="space-y-3">
+            {/* Aquí la foto se ve entera, no recortada: es la pantalla donde se
+                decide la compra y el catálogo trae fotos muy apaisadas —hay de
+                430x211, que en un cuadro cuadrado perdían la mitad—. El marco
+                sigue siendo cuadrado para que la página no salte al cambiar de
+                foto, y lo que sobra queda sobre el estriado, como el paspartú
+                de un cuadro. En la rejilla se siguen recortando a propósito:
+                ahí lo que importa es que la columnata quede pareja. */}
             <div className="relative aspect-square bg-basalt fluted overflow-hidden border border-white/8">
               <SmartImage
                 src={sneaker.images[imageIndex]}
                 alt={`${sneaker.name} — vista ${imageIndex + 1}`}
                 loading="eager"
-                className="w-full h-full object-cover"
+                className="w-full h-full object-contain"
               />
 
               {sneaker.images.length > 1 && (
