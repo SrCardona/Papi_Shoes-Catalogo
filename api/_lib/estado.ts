@@ -10,8 +10,14 @@
  * quedan en el navegador del dueño y en las variables de entorno; publicarlos
  * sería repartirlos, porque este documento lo lee cualquier visitante.
  */
-import type { Delivery, Sneaker, StoreSettings } from '../../src/types';
+import type {
+  CatalogDecisions,
+  Delivery,
+  Sneaker,
+  StoreSettings,
+} from '../../src/types';
 import {
+  validateCatalogDecisions,
   validateDeliveries,
   validateSlides,
   validateSneakers,
@@ -39,6 +45,12 @@ export interface EstadoPublicado {
    * `localStorage`.
    */
   huellaCatalogo: string;
+  /**
+   * Lo que el panel quitó y editó del catálogo del código. Viaja junto a la
+   * huella porque solo sirve cuando esta deja de calzar: es lo que permite
+   * fusionar sin perder el trabajo del panel.
+   */
+  catalogo: CatalogDecisions;
   sneakers: Sneaker[];
   deliveries: Delivery[];
   settings: AjustesPublicados;
@@ -119,6 +131,7 @@ export function saneaEstado(raw: unknown, actualizadoEn: string): EstadoPublicad
     version: 1,
     actualizadoEn,
     huellaCatalogo: sanitizeText(entrada.huellaCatalogo, 40),
+    catalogo: validateCatalogDecisions(entrada.catalogo),
     sneakers: validateSneakers(entrada.sneakers),
     deliveries: validateDeliveries(entrada.deliveries),
     settings: saneaAjustes(entrada.settings),

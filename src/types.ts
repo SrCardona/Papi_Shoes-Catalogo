@@ -150,6 +150,22 @@ export interface StoreSettings {
   reviewSlides: StorySlide[];
 }
 
+/**
+ * Lo que el panel decidió sobre el catálogo generado, y que una regeneración
+ * (`npm run catalogo`) no puede borrar.
+ *
+ * Los pares que el dueño creó desde el panel no necesitan lista: se reconocen
+ * porque su id no está en el catálogo del código. Lo que sí hay que anotar es
+ * lo que no se puede deducir mirando el resultado: un par del código que falta
+ * puede ser uno que el dueño quitó o uno que el generador todavía no traía.
+ */
+export interface CatalogDecisions {
+  /** Ids del catálogo del código que se quitaron desde el panel. */
+  hiddenIds: string[];
+  /** Ids del catálogo del código que se editaron desde el panel. */
+  editedIds: string[];
+}
+
 export interface FilterState {
   searchQuery: string;
   category: 'all' | SneakerCategory;

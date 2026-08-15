@@ -32,10 +32,18 @@ Tres fuentes, y en este orden manda cada una:
    respaldo sin conexión. Solo le gana a la nube si `papi_shoes_editado` es
    posterior a lo publicado (y entonces el panel marca "cambios sin publicar").
 3. **`src/data/catalogoGenerado.ts`** — lo genera el script desde las fotos.
-   Punto de partida, y vuelve a mandar al regenerarse: el documento de la nube
-   guarda la huella del catálogo con el que se publicó y, si el código trae otra,
-   el inventario del código gana. Los ajustes y las entregas se siguen tomando de
-   la nube.
+   Punto de partida. Al regenerarse no se lleva por delante lo del panel: el
+   documento de la nube guarda la huella del catálogo con el que se publicó y,
+   cuando el código trae otra, `src/lib/catalogo.ts` fusiona par por par. Manda
+   el panel en lo suyo —lo que creó, lo que quitó y lo que editó, anotado en
+   `catalogo.hiddenIds` y `catalogo.editedIds`— y el código aporta el resto: sus
+   pares nuevos y las fotos corregidas de los que nadie tocó. Los ajustes y las
+   entregas se siguen tomando de la nube.
+
+   Esas dos listas se deducen comparando contra el código **al editar**, que es
+   cuando la comparación vale: después de regenerar, el par del código ya es otro
+   y "distinto" dejaría de significar "lo editó el dueño". Por eso se guardan y
+   se publican en vez de recalcularse al cargar.
 
 Si un cambio en los datos "no se ve", casi siempre es esto. Para volver al
 catálogo del código: `localStorage.clear()` en la consola — pero ojo, si la nube
@@ -82,7 +90,7 @@ src/
 ├── context/        StoreContext (estado global + nube + localStorage)
 ├── hooks/          useCatalogFilters (todo el filtrado y orden)
 ├── lib/            nube.ts (cliente de /api), security.ts (saneamiento),
-│                   validation.ts, utils.ts
+│                   validation.ts, catalogo.ts (huella y fusión), utils.ts
 └── data/           initialData.ts, catalogoGenerado.ts (GENERADO, no editar)
 ```
 

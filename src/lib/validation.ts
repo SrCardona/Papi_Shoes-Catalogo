@@ -8,6 +8,7 @@
  */
 
 import type {
+  CatalogDecisions,
   Delivery,
   Sneaker,
   SneakerBrand,
@@ -157,6 +158,29 @@ export function validateDeliveries(raw: unknown): Delivery[] {
     .slice(0, 300)
     .map(validateDelivery)
     .filter((d): d is Delivery => d !== null);
+}
+
+/* ── Decisiones sobre el catálogo generado ───────────────────────────────
+   Son listas de ids, y van dentro del documento publicado, así que las lee
+   tanto el navegador como la función que guarda: un id inventado no rompe
+   nada, pero una lista de cien mil sí.                                      */
+
+function validateIds(raw: unknown): string[] {
+  if (!Array.isArray(raw)) return [];
+  const ids = new Set<string>();
+  for (const value of raw.slice(0, 500)) {
+    const id = sanitizeText(value, 80);
+    if (id) ids.add(id);
+  }
+  return [...ids];
+}
+
+export function validateCatalogDecisions(raw: unknown): CatalogDecisions {
+  const d = (raw ?? {}) as Record<string, unknown>;
+  return {
+    hiddenIds: validateIds(d.hiddenIds),
+    editedIds: validateIds(d.editedIds),
+  };
 }
 
 /* ── Diapositivas de las historias ───────────────────────────────────────

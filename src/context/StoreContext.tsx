@@ -8,17 +8,24 @@ import {
   useState,
   type ReactNode,
 } from 'react';
-import type { Delivery, Sneaker, StoreSettings } from '../types';
+import type { CatalogDecisions, Delivery, Sneaker, StoreSettings } from '../types';
 import {
   INITIAL_DELIVERIES,
   INITIAL_SETTINGS,
   INITIAL_SNEAKERS,
 } from '../data/initialData';
 import {
+  validateCatalogDecisions,
   validateDeliveries,
   validateSettings,
   validateSneakers,
 } from '../lib/validation';
+import {
+  HUELLA_CATALOGO,
+  SIN_DECISIONES,
+  decisionesDe,
+  fusionaConCodigo,
+} from '../lib/catalogo';
 import {
   guardarEstado,
   leeToken,
@@ -32,40 +39,13 @@ const INVENTORY_KEY = 'papi_shoes_inventory';
 const SETTINGS_KEY = 'papi_shoes_settings';
 const DELIVERIES_KEY = 'papi_shoes_deliveries';
 const CATALOG_VERSION_KEY = 'papi_shoes_catalog_version';
+/** Qué quitó y qué editó el panel del catálogo del código. */
+const DECISIONS_KEY = 'papi_shoes_catalogo';
 /** Cuándo se editó algo en ESTE navegador. Decide quién manda contra la nube. */
 const LOCAL_STAMP_KEY = 'papi_shoes_editado';
 
 /** Margen entre el último cambio y la publicación, para no subir tecla por tecla. */
 const RETARDO_PUBLICACION_MS = 1500;
-
-/**
- * Huella del catálogo que viene en el código.
- *
- * Existe para resolver el problema de siempre: el inventario guardado le gana al
- * del código, así que después de `npm run catalogo` el dueño no veía sus fotos
- * nuevas y tenía que hacer `localStorage.clear()` a mano —lo que también le
- * borraba los ajustes de la tienda—.
- *
- * Se calcula sola a partir de los pares generados, así que no hay ningún número
- * que acordarse de subir. Se dejan fuera `createdAt` y `updatedAt` a propósito:
- * cambian en cada corrida del generador, y sin excluirlos una regeneración que
- * no cambió nada borraría las ediciones hechas en el panel.
- *
- * La misma huella viaja al documento de la nube, con el mismo criterio.
- */
-function computeCatalogFingerprint(): string {
-  let hash = 0;
-  for (const s of INITIAL_SNEAKERS) {
-    const shape = `${s.id}|${s.name}|${s.brand}|${s.category}|${s.status}|${s.price}|${s.originalPrice ?? ''}|${s.sizes.join(',')}|${s.images.join(',')}`;
-    for (let i = 0; i < shape.length; i++) {
-      hash = (Math.imul(hash, 31) + shape.charCodeAt(i)) | 0;
-    }
-  }
-  return `${INITIAL_SNEAKERS.length}-${(hash >>> 0).toString(36)}`;
-}
-
-/* El catálogo del código no cambia en tiempo de ejecución: se calcula una vez. */
-const CATALOG_FINGERPRINT = computeCatalogFingerprint();
 
 /**
  * Cómo va la sincronización con la nube.
@@ -110,22 +90,30 @@ interface StoreContextValue {
 
 const StoreContext = createContext<StoreContextValue | null>(null);
 
+function loadDecisions(): CatalogDecisions {
+  try {
+    const raw = localStorage.getItem(DECISIONS_KEY);
+    return raw ? validateCatalogDecisions(JSON.parse(raw)) : SIN_DECISIONES;
+  } catch {
+    return SIN_DECISIONES;
+  }
+}
+
 /** Lee de localStorage pasando siempre por el validador. */
 function loadInventory(): Sneaker[] {
   try {
     const raw = localStorage.getItem(INVENTORY_KEY);
     if (!raw) return INITIAL_SNEAKERS;
 
-    /* Si el catálogo del código es otro (corriste `npm run catalogo`), manda el
-       código y se descarta el inventario guardado. Solo se toca esta llave: los
-       ajustes de la tienda, el PIN y el muro de entregas viven en otras y
-       quedan intactos. */
-    if (localStorage.getItem(CATALOG_VERSION_KEY) !== CATALOG_FINGERPRINT) {
-      return INITIAL_SNEAKERS;
-    }
-
     const parsed = validateSneakers(JSON.parse(raw));
-    return parsed.length ? parsed : INITIAL_SNEAKERS;
+    if (!parsed.length) return INITIAL_SNEAKERS;
+
+    /* Si el catálogo del código es otro (corriste `npm run catalogo`), no se
+       descarta lo guardado: se fusiona, para que el código traiga sus pares
+       nuevos sin llevarse por delante lo que se cargó desde el panel. */
+    return localStorage.getItem(CATALOG_VERSION_KEY) === HUELLA_CATALOGO
+      ? parsed
+      : fusionaConCodigo(parsed, loadDecisions());
   } catch {
     return INITIAL_SNEAKERS;
   }
@@ -192,7 +180,8 @@ function borradorDe(
 ): BorradorNube {
   const { adminUsername: _usuario, adminPinHash: _hash, ...publicos } = settings;
   return {
-    huellaCatalogo: CATALOG_FINGERPRINT,
+    huellaCatalogo: HUELLA_CATALOGO,
+    catalogo: decisionesDe(sneakers),
     sneakers,
     deliveries,
     settings: publicos,
@@ -238,9 +227,12 @@ export function StoreProvider({ children }: { children: ReactNode }) {
     try {
       localStorage.setItem(INVENTORY_KEY, JSON.stringify(sneakers));
       localStorage.setItem(DELIVERIES_KEY, JSON.stringify(deliveries));
+      // Qué se quitó y qué se editó se anota aquí, contra el catálogo que trae
+      // este código: es la única forma de saberlo cuando el código cambie.
+      localStorage.setItem(DECISIONS_KEY, JSON.stringify(decisionesDe(sneakers)));
       // Se sella junto al inventario: a partir de aquí las ediciones del panel
       // vuelven a tener prioridad, hasta la próxima regeneración del catálogo.
-      localStorage.setItem(CATALOG_VERSION_KEY, CATALOG_FINGERPRINT);
+      localStorage.setItem(CATALOG_VERSION_KEY, HUELLA_CATALOGO);
     } catch {
       failure =
         'El navegador se quedó sin espacio. Entra al panel para publicar en la nube (las fotos se suben aparte y dejan de ocupar el navegador) o borra entregas antiguas.';
@@ -275,12 +267,15 @@ export function StoreProvider({ children }: { children: ReactNode }) {
 
   /** Reemplaza el estado por el de la nube. */
   const aplicarNube = useCallback((estado: EstadoNube) => {
-    /* Si el código trae otro catálogo (se regeneró y se desplegó), el del código
-       manda: es el que corresponde a las fotos que están publicadas. Los ajustes
-       y el muro de entregas sí se toman de la nube, que es donde los editó el
-       dueño. */
-    const delCodigo = estado.huellaCatalogo !== CATALOG_FINGERPRINT;
-    const inventario = delCodigo ? INITIAL_SNEAKERS : validateSneakers(estado.sneakers);
+    /* Si el código trae otro catálogo (se regeneró y se desplegó), se fusiona:
+       el panel conserva lo suyo y el código aporta sus pares nuevos. Los
+       ajustes y el muro de entregas se toman de la nube, que es donde los editó
+       el dueño. */
+    const otroCatalogo = estado.huellaCatalogo !== HUELLA_CATALOGO;
+    const guardados = validateSneakers(estado.sneakers);
+    const inventario = otroCatalogo
+      ? fusionaConCodigo(guardados, validateCatalogDecisions(estado.catalogo))
+      : guardados;
     const pares = inventario.length ? inventario : INITIAL_SNEAKERS;
     const entregas = validateDeliveries(estado.deliveries);
     const ajustes = validateSettings(estado.settings, datosRef.current.settings);
@@ -290,7 +285,12 @@ export function StoreProvider({ children }: { children: ReactNode }) {
     setSettingsState(ajustes);
 
     baseRef.current = estado.actualizadoEn;
-    ultimoEnviadoRef.current = JSON.stringify(borradorDe(pares, entregas, ajustes));
+    /* Tras una fusión, lo que quedó en pantalla ya no es lo que está publicado.
+       Se deja el último envío en blanco para que la publicación automática suba
+       el catálogo fusionado en vez de darlo por idéntico y no mandar nada. */
+    ultimoEnviadoRef.current = otroCatalogo
+      ? ''
+      : JSON.stringify(borradorDe(pares, entregas, ajustes));
     // Lo que acaba de llegar no es un cambio local: el reloj se pone a la par
     // para que no quede marcado como pendiente de publicar.
     escribirSelloLocal(estado.actualizadoEn);

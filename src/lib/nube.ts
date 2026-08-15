@@ -15,7 +15,7 @@
  * sitio sigue andando con el catálogo del código y el `localStorage`, tal como
  * funcionaba antes.
  */
-import type { Delivery, Sneaker, StoreSettings } from '../types';
+import type { CatalogDecisions, Delivery, Sneaker, StoreSettings } from '../types';
 
 /** Los ajustes tal como viajan: sin usuario ni hash del PIN. */
 export type AjustesNube = Partial<
@@ -26,6 +26,11 @@ export interface EstadoNube {
   version: number;
   actualizadoEn: string;
   huellaCatalogo: string;
+  /**
+   * Opcional porque los documentos publicados antes de esta versión no lo
+   * traen: ahí se lee como "el panel no quitó ni editó nada".
+   */
+  catalogo?: CatalogDecisions;
   sneakers: Sneaker[];
   deliveries: Delivery[];
   settings: AjustesNube;
