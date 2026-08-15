@@ -38,11 +38,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "Sandalia Adilette 22 de silueta ancha y plantilla moldeada. Suela con textura para agarre en piso mojado.",
     "details": {
-      "condition": "Nuevo",
+      "condition": "En caja",
       "colorway": "",
       "includedItems": [
         "Caja"
@@ -78,11 +78,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "Adizero de perfil alto con mediasuela Lightstrike Pro y upper de malla ligera. Pensada para ritmo rápido.",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "White / Purple / Lime",
       "includedItems": [
         "Caja"
@@ -118,11 +118,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "El mismo chasis Adizero en amarillo solar con las tres rayas en negro. Mediasuela Lightstrike y corte tipo calcetín.",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "Solar Yellow / Black",
       "includedItems": [
         "Caja"
@@ -158,11 +158,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "Silueta retro de pista en cuero blanco con refuerzos de gamuza gris y suela gum.",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "White / Black / Gum",
       "includedItems": [
         "Caja"
@@ -198,11 +198,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "Core Black / Cloud White",
       "includedItems": [
         "Caja"
@@ -238,11 +238,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "Grey / Cloud White",
       "includedItems": [
         "Caja"
@@ -278,11 +278,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "",
       "includedItems": [
         "Caja"
@@ -318,11 +318,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "Blue / White",
       "includedItems": [
         "Caja"
@@ -358,11 +358,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "Chasis EQT con Boost completo, gamuza beige, tres rayas naranja y talón verde. Suela gum.",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "Cream / Orange / Green",
       "includedItems": [
         "Caja"
@@ -398,11 +398,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "",
       "includedItems": [
         "Caja"
@@ -438,11 +438,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "",
       "includedItems": [
         "Caja"
@@ -478,11 +478,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "Core Black",
       "includedItems": [
         "Caja"
@@ -518,11 +518,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "",
       "includedItems": [
         "Caja"
@@ -558,11 +558,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "",
       "includedItems": [
         "Caja"
@@ -598,11 +598,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "Amortiguación Boost expuesta y upper elástico que se ajusta al pie. Cómoda para todo el día.",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "",
       "includedItems": [
         "Caja"
@@ -638,11 +638,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "La Response CL de Bad Bunny en café y rosado, con detalles plateados y azul rey. Lleva el bordado \"Para Bad Bunny\" en la lengua.",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "Brown / Pink / Cream",
       "includedItems": [
         "Caja"
@@ -678,11 +678,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "Response CL en blanco hueso con capas grises y mediasuela crema. La silueta que popularizó la colaboración.",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "Cloud White / Grey / Cream",
       "includedItems": [
         "Caja"
@@ -718,11 +718,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "",
       "includedItems": [
         "Caja"
@@ -758,11 +758,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "Tenis de running en malla blanca con las tres rayas en azul y mediasuela alta. Modelo por confirmar.",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "White / Blue",
       "includedItems": [
         "Caja"
@@ -798,11 +798,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "",
       "includedItems": [
         "Caja"
@@ -838,11 +838,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "La silueta de fútbol sala que se volvió clásico de calle. Cuero con puntera de gamuza y suela gum.",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "",
       "includedItems": [
         "Caja"
@@ -878,11 +878,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "Silueta voluminosa en blanco con paneles coral y menta, cordones de contraste y suela dentada.",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "White / Coral / Mint",
       "includedItems": [
         "Caja"
@@ -918,11 +918,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "Brown / Gum",
       "includedItems": [
         "Caja"
@@ -958,11 +958,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "Red / Gum",
       "includedItems": [
         "Caja"
@@ -998,11 +998,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "",
       "includedItems": [
         "Caja"
@@ -1038,11 +1038,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "Olive Green / Gum",
       "includedItems": [
         "Caja"
@@ -1078,11 +1078,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "Stan Smith en cuero blanco con talón azul marino. Perforaciones en las tres rayas y suela de goma.",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "White / Collegiate Navy",
       "includedItems": [
         "Caja"
@@ -1118,11 +1118,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "Stan Smith en cuero blanco con talón negro. Perforaciones en las tres rayas y suela de goma.",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "White / Core Black",
       "includedItems": [
         "Caja"
@@ -1158,11 +1158,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "El Stan Smith de siempre: cuero blanco, talón verde y la cara de Stan en la lengua.",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "White / Green",
       "includedItems": [
         "Caja"
@@ -1198,11 +1198,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "Core Black / White",
       "includedItems": [
         "Caja"
@@ -1238,11 +1238,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "White / Multicolor",
       "includedItems": [
         "Caja"
@@ -1278,11 +1278,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "White / Reflective",
       "includedItems": [
         "Caja"
@@ -1318,11 +1318,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "Triple White",
       "includedItems": [
         "Caja"
@@ -1358,11 +1358,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "La Superstar de toda la vida: puntera de concha, cuero blanco y tres rayas negras.",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "Cloud White / Core Black",
       "includedItems": [
         "Caja"
@@ -1398,11 +1398,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "",
       "includedItems": [
         "Caja"
@@ -1438,11 +1438,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "",
       "includedItems": [
         "Caja"
@@ -1478,11 +1478,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "Primeknit negro con jaula de soporte y mediasuela Boost completa. La más cómoda del catálogo para caminar.",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "Core Black",
       "includedItems": [
         "Caja"
@@ -1518,11 +1518,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "Black / White",
       "includedItems": [
         "Caja"
@@ -1558,11 +1558,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "",
       "includedItems": [
         "Caja"
@@ -1598,11 +1598,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "Jordan 1 Low forrada en cristales, en gris y blanco. Trae cordones blancos de repuesto.",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "Grey / Sail",
       "includedItems": [
         "Caja"
@@ -1638,11 +1638,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "La versión en cristales negros y plateados, con herrajes dorados en los cordones.",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "Black / Silver",
       "includedItems": [
         "Caja"
@@ -1678,11 +1678,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "White / Black",
       "includedItems": [
         "Caja"
@@ -1718,11 +1718,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "Black / White",
       "includedItems": [
         "Caja"
@@ -1758,11 +1758,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "Black / Varsity Red",
       "includedItems": [
         "Caja"
@@ -1798,11 +1798,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "El colorway que abrió la línea: cuero blanco, negro y rojo Chicago. La referencia del Jordan 1.",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "White / Black / Varsity Red",
       "includedItems": [
         "Caja"
@@ -1838,11 +1838,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "White / Gold",
       "includedItems": [
         "Caja"
@@ -1878,11 +1878,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "Obsidian / University Blue",
       "includedItems": [
         "Caja"
@@ -1918,11 +1918,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "Obsidian / Sail / University Blue",
       "includedItems": [
         "Caja"
@@ -1958,11 +1958,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "El Bred en charol: cuero brillante en negro y rojo, con el Swoosh liso.",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "Black / Varsity Red",
       "includedItems": [
         "Caja"
@@ -1998,11 +1998,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "University Blue / Black / White",
       "includedItems": [
         "Caja"
@@ -2038,11 +2038,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "Washed Pink / Sail",
       "includedItems": [
         "Caja"
@@ -2078,11 +2078,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "University Blue / White",
       "includedItems": [
         "Caja"
@@ -2118,11 +2118,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "El Jordan 1 de Cactus Jack con el Swoosh invertido, en negro y hueso.",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "Black / Phantom",
       "includedItems": [
         "Caja"
@@ -2158,11 +2158,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "Light Pink / White",
       "includedItems": [
         "Caja"
@@ -2198,11 +2198,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "Pink / Green / White",
       "includedItems": [
         "Caja"
@@ -2238,11 +2238,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "Grey / White",
       "includedItems": [
         "Caja"
@@ -2278,11 +2278,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "Triple Red",
       "includedItems": [
         "Caja"
@@ -2318,11 +2318,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "Black / Concord",
       "includedItems": [
         "Caja"
@@ -2358,11 +2358,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "El 11 en charol negro sobre cuero blanco, con la suela traslúcida.",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "White / Black / Concord",
       "includedItems": [
         "Caja"
@@ -2398,11 +2398,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "Black / Varsity Red",
       "includedItems": [
         "Caja"
@@ -2438,11 +2438,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "Black / Varsity Red / White",
       "includedItems": [
         "Caja"
@@ -2478,11 +2478,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "El 3 de siempre: negro con el estampado elefante gris y la ventana de aire visible.",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "Black / Cement Grey",
       "includedItems": [
         "Caja"
@@ -2518,11 +2518,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "White / Fire Red / Cement Grey",
       "includedItems": [
         "Caja"
@@ -2558,11 +2558,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "White / Valor Blue",
       "includedItems": [
         "Caja"
@@ -2598,11 +2598,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "White / Black",
       "includedItems": [
         "Caja"
@@ -2638,11 +2638,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "Black / Cement",
       "includedItems": [
         "Caja"
@@ -2678,11 +2678,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "Orange / Black",
       "includedItems": [
         "Caja"
@@ -2718,11 +2718,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "Multicolor",
       "includedItems": [
         "Caja"
@@ -2758,11 +2758,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "El 4 en negro total, en nobuk, con las mallas y la suela del mismo tono.",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "Triple Black",
       "includedItems": [
         "Caja"
@@ -2798,11 +2798,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "Black / Cement Grey / Fire Red",
       "includedItems": [
         "Caja"
@@ -2838,11 +2838,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "Pine Green / White",
       "includedItems": [
         "Caja"
@@ -2878,11 +2878,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "Triple Brown",
       "includedItems": [
         "Caja"
@@ -2918,11 +2918,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "White / Black / Tour Yellow",
       "includedItems": [
         "Caja"
@@ -2958,11 +2958,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "Sail / Muslin",
       "includedItems": [
         "Caja"
@@ -2998,11 +2998,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "Guava Ice / Light Fusion Red",
       "includedItems": [
         "Caja"
@@ -3038,11 +3038,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "White / Infrared",
       "includedItems": [
         "Caja"
@@ -3078,11 +3078,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "",
       "includedItems": [
         "Caja"
@@ -3118,11 +3118,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "Pink / White",
       "includedItems": [
         "Caja"
@@ -3158,11 +3158,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "La Bape Sta en charol, con la estrella negra sobre cuero blanco y suela de goma.",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "White / Black",
       "includedItems": [
         "Caja"
@@ -3198,11 +3198,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "Black / White",
       "includedItems": [
         "Caja"
@@ -3238,11 +3238,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "White",
       "includedItems": [
         "Caja"
@@ -3278,11 +3278,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "bajo_encargo",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": true,
     "description": "",
     "details": {
-      "condition": "Original nuevo en caja",
+      "condition": "En caja",
       "colorway": "",
       "includedItems": [
         "Caja original",
@@ -3319,11 +3319,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "Black",
       "includedItems": [
         "Caja"
@@ -3359,11 +3359,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "bajo_encargo",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": true,
     "description": "",
     "details": {
-      "condition": "Original nuevo en caja",
+      "condition": "En caja",
       "colorway": "Black",
       "includedItems": [
         "Caja original",
@@ -3400,11 +3400,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "bajo_encargo",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": true,
     "description": "",
     "details": {
-      "condition": "Original nuevo en caja",
+      "condition": "En caja",
       "colorway": "White / Oak",
       "includedItems": [
         "Caja original",
@@ -3441,11 +3441,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "Grey",
       "includedItems": [
         "Caja"
@@ -3481,11 +3481,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "bajo_encargo",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": true,
     "description": "",
     "details": {
-      "condition": "Original nuevo en caja",
+      "condition": "En caja",
       "colorway": "Blueberry",
       "includedItems": [
         "Caja original",
@@ -3522,11 +3522,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "bajo_encargo",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": true,
     "description": "",
     "details": {
-      "condition": "Original nuevo en caja",
+      "condition": "En caja",
       "colorway": "White / Oak",
       "includedItems": [
         "Caja original",
@@ -3564,7 +3564,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "isOriginalCertified": false,
     "description": "Perfil bajo del monograma en azul navy con suela blanca y apliques plateados.",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "Navy / Silver",
       "includedItems": [
         "Caja"
@@ -3601,7 +3601,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "isOriginalCertified": false,
     "description": "Perfil bajo con el monograma estampado en todo el cuerpo, cuero negro y detalles dorados en el talón y el costado.",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "Black / Gold",
       "includedItems": [
         "Caja"
@@ -3638,7 +3638,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "isOriginalCertified": false,
     "description": "El mismo perfil bajo del monograma, con los apliques en plata en vez de dorado.",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "Black / Silver",
       "includedItems": [
         "Caja"
@@ -3674,11 +3674,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "bajo_encargo",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": true,
     "description": "La Parkour Run original, con la suela de perfil alto y el logo BOSS en el lateral.",
     "details": {
-      "condition": "Original nuevo en caja",
+      "condition": "En caja",
       "colorway": "Carbon",
       "includedItems": [
         "Caja original",
@@ -3715,11 +3715,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "bajo_encargo",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": true,
     "description": "",
     "details": {
-      "condition": "Original nuevo en caja",
+      "condition": "En caja",
       "colorway": "Onyx",
       "includedItems": [
         "Caja original",
@@ -3756,11 +3756,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "bajo_encargo",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": true,
     "description": "",
     "details": {
-      "condition": "Original nuevo en caja",
+      "condition": "En caja",
       "colorway": "Sky / Navy Blue",
       "includedItems": [
         "Caja original",
@@ -3797,11 +3797,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "bajo_encargo",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": true,
     "description": "",
     "details": {
-      "condition": "Original nuevo en caja",
+      "condition": "En caja",
       "colorway": "Orange",
       "includedItems": [
         "Caja original",
@@ -3838,11 +3838,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "bajo_encargo",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": true,
     "description": "",
     "details": {
-      "condition": "Original nuevo en caja",
+      "condition": "En caja",
       "colorway": "Blue Yankee",
       "includedItems": [
         "Caja original",
@@ -3879,11 +3879,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "bajo_encargo",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": true,
     "description": "Silueta baja en cuero blanco con suela de copa. La más vestidora del lote.",
     "details": {
-      "condition": "Original nuevo en caja",
+      "condition": "En caja",
       "colorway": "White",
       "includedItems": [
         "Caja original",
@@ -3921,7 +3921,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "isOriginalCertified": false,
     "description": "Runner retro en nylon y gamuza gris hielo, con filete negro en el talón. La más neutra de la serie.",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "White / Ice Grey",
       "includedItems": [
         "Caja"
@@ -3958,7 +3958,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "isOriginalCertified": false,
     "description": "Runner retro en nylon y gamuza, con el logo BOSS en el lateral y suela de doble capa. El verde va sobre blanco, así que combina con jean claro y con negro.",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "White / Green",
       "includedItems": [
         "Caja"
@@ -3995,7 +3995,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "isOriginalCertified": false,
     "description": "Runner retro en nylon y gamuza tono taupe, suela crema. Tono tierra para quien no quiere blanco.",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "Taupe",
       "includedItems": [
         "Caja"
@@ -4032,7 +4032,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "isOriginalCertified": false,
     "description": "Runner de suela dentada en gris, con gamuza en la puntera y el talón y el monograma en el costado.",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "Grey",
       "includedItems": [
         "Caja"
@@ -4069,7 +4069,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "isOriginalCertified": false,
     "description": "Runner de suela dentada en nylon y gamuza, con el monograma en el panel del talón. Negro completo.",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "Black",
       "includedItems": [
         "Caja"
@@ -4106,7 +4106,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "isOriginalCertified": false,
     "description": "Runner de suela dentada en negro con piso color caramelo y el logo BOSS en dorado.",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "Black / Gum",
       "includedItems": [
         "Caja"
@@ -4142,11 +4142,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "bajo_encargo",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": true,
     "description": "",
     "details": {
-      "condition": "Original nuevo en caja",
+      "condition": "En caja",
       "colorway": "",
       "includedItems": [
         "Caja original",
@@ -4183,11 +4183,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "bajo_encargo",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": true,
     "description": "",
     "details": {
-      "condition": "Original nuevo en caja",
+      "condition": "En caja",
       "colorway": "Sky / Navy Blue",
       "includedItems": [
         "Caja original",
@@ -4225,7 +4225,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "isOriginalCertified": false,
     "description": "TTNM EVO en azul navy con suela blanca. El contraste la hace la más vestidora del grupo.",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "Navy / White",
       "includedItems": [
         "Caja"
@@ -4262,7 +4262,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "isOriginalCertified": false,
     "description": "TTNM EVO toda en blanco, con el monograma marcado en relieve. La más pedida de la silueta.",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "White",
       "includedItems": [
         "Caja"
@@ -4299,7 +4299,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "isOriginalCertified": false,
     "description": "TTNM EVO en camel con suela blanca y gris. Monograma tejido en todo el empeine.",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "Camel",
       "includedItems": [
         "Caja"
@@ -4332,11 +4332,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "TTNM EVO monocromática en gris, con el monograma en relieve sobre el empeine.",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "Grey",
       "includedItems": [
         "Caja"
@@ -4369,11 +4369,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "TTNM EVO en tejido de punto color crema, con gamuza al tono y logo BOSS dorado.",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "Cream",
       "includedItems": [
         "Caja"
@@ -4406,11 +4406,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "Versión en tejido de punto de la TTNM EVO: entra como una media y lleva el logo BOSS en dorado. Gris hielo con gamuza al tono.",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "Ice Grey",
       "includedItems": [
         "Caja"
@@ -4443,11 +4443,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "TTNM EVO en tejido de punto azul navy, con suela blanca y el nombre de la silueta impreso en el lateral.",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "Navy",
       "includedItems": [
         "Caja"
@@ -4480,11 +4480,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "Silueta TTNM EVO con el monograma tejido en el empeine y suela estriada. Negro completo con piso color caramelo.",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "Black / Gum",
       "includedItems": [
         "Caja"
@@ -4520,11 +4520,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "bajo_encargo",
     "isFeatured": true,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": true,
     "description": "",
     "details": {
-      "condition": "Original nuevo en caja",
+      "condition": "En caja",
       "colorway": "",
       "includedItems": [
         "Caja original",
@@ -4561,11 +4561,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "bajo_encargo",
     "isFeatured": true,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": true,
     "description": "",
     "details": {
-      "condition": "Original nuevo en caja",
+      "condition": "En caja",
       "colorway": "Black / White",
       "includedItems": [
         "Caja original",
@@ -4602,11 +4602,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "bajo_encargo",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": true,
     "description": "",
     "details": {
-      "condition": "Original nuevo en caja",
+      "condition": "En caja",
       "colorway": "Multi",
       "includedItems": [
         "Caja original",
@@ -4642,12 +4642,12 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       44
     ],
     "status": "bajo_encargo",
-    "isFeatured": true,
-    "isNewArrival": false,
+    "isFeatured": false,
+    "isNewArrival": true,
     "isOriginalCertified": true,
     "description": "",
     "details": {
-      "condition": "Original nuevo en caja",
+      "condition": "En caja",
       "colorway": "White",
       "includedItems": [
         "Caja original",
@@ -4682,11 +4682,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "bajo_encargo",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": true,
     "description": "",
     "details": {
-      "condition": "Original nuevo en caja",
+      "condition": "En caja",
       "colorway": "Black",
       "includedItems": [
         "Caja original",
@@ -4721,11 +4721,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "bajo_encargo",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": true,
     "description": "",
     "details": {
-      "condition": "Original nuevo en caja",
+      "condition": "En caja",
       "colorway": "White",
       "includedItems": [
         "Caja original",
@@ -4760,11 +4760,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "bajo_encargo",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": true,
     "description": "",
     "details": {
-      "condition": "Original nuevo en caja",
+      "condition": "En caja",
       "colorway": "",
       "includedItems": [
         "Caja original",
@@ -4799,11 +4799,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "bajo_encargo",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": true,
     "description": "",
     "details": {
-      "condition": "Original nuevo en caja",
+      "condition": "En caja",
       "colorway": "White",
       "includedItems": [
         "Caja original",
@@ -4840,11 +4840,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "bajo_encargo",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": true,
     "description": "",
     "details": {
-      "condition": "Original nuevo en caja",
+      "condition": "En caja",
       "colorway": "Brown Multi",
       "includedItems": [
         "Caja original",
@@ -4879,11 +4879,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "bajo_encargo",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": true,
     "description": "",
     "details": {
-      "condition": "Original nuevo en caja",
+      "condition": "En caja",
       "colorway": "Black",
       "includedItems": [
         "Caja original",
@@ -4920,11 +4920,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "",
       "includedItems": [
         "Caja"
@@ -4960,11 +4960,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "bajo_encargo",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": true,
     "description": "",
     "details": {
-      "condition": "Original nuevo en caja",
+      "condition": "En caja",
       "colorway": "Black / White",
       "includedItems": [
         "Caja original",
@@ -4999,11 +4999,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "bajo_encargo",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": true,
     "description": "",
     "details": {
-      "condition": "Original nuevo en caja",
+      "condition": "En caja",
       "colorway": "Black",
       "includedItems": [
         "Caja original",
@@ -5040,11 +5040,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "bajo_encargo",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": true,
     "description": "",
     "details": {
-      "condition": "Original nuevo en caja",
+      "condition": "En caja",
       "colorway": "Brown Multi",
       "includedItems": [
         "Caja original",
@@ -5079,11 +5079,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "bajo_encargo",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": true,
     "description": "",
     "details": {
-      "condition": "Original nuevo en caja",
+      "condition": "En caja",
       "colorway": "Black",
       "includedItems": [
         "Caja original",
@@ -5118,11 +5118,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "bajo_encargo",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": true,
     "description": "",
     "details": {
-      "condition": "Original nuevo en caja",
+      "condition": "En caja",
       "colorway": "Blue Denim",
       "includedItems": [
         "Caja original",
@@ -5157,11 +5157,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "bajo_encargo",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": true,
     "description": "",
     "details": {
-      "condition": "Original nuevo en caja",
+      "condition": "En caja",
       "colorway": "White",
       "includedItems": [
         "Caja original",
@@ -5196,11 +5196,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "bajo_encargo",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": true,
     "description": "",
     "details": {
-      "condition": "Original nuevo en caja",
+      "condition": "En caja",
       "colorway": "Black",
       "includedItems": [
         "Caja original",
@@ -5235,11 +5235,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "bajo_encargo",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": true,
     "description": "",
     "details": {
-      "condition": "Original nuevo en caja",
+      "condition": "En caja",
       "colorway": "White",
       "includedItems": [
         "Caja original",
@@ -5274,11 +5274,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "bajo_encargo",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": true,
     "description": "",
     "details": {
-      "condition": "Original nuevo en caja",
+      "condition": "En caja",
       "colorway": "",
       "includedItems": [
         "Caja original",
@@ -5315,11 +5315,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "bajo_encargo",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": true,
     "description": "",
     "details": {
-      "condition": "Original nuevo en caja",
+      "condition": "En caja",
       "colorway": "Black",
       "includedItems": [
         "Caja original",
@@ -5356,11 +5356,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "bajo_encargo",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": true,
     "description": "",
     "details": {
-      "condition": "Original nuevo en caja",
+      "condition": "En caja",
       "colorway": "",
       "includedItems": [
         "Caja original",
@@ -5397,11 +5397,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "bajo_encargo",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": true,
     "description": "",
     "details": {
-      "condition": "Original nuevo en caja",
+      "condition": "En caja",
       "colorway": "",
       "includedItems": [
         "Caja original",
@@ -5438,11 +5438,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "bajo_encargo",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": true,
     "description": "",
     "details": {
-      "condition": "Original nuevo en caja",
+      "condition": "En caja",
       "colorway": "Black",
       "includedItems": [
         "Caja original",
@@ -5479,11 +5479,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "bajo_encargo",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": true,
     "description": "",
     "details": {
-      "condition": "Original nuevo en caja",
+      "condition": "En caja",
       "colorway": "Espresso Multi",
       "includedItems": [
         "Caja original",
@@ -5518,11 +5518,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "bajo_encargo",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": true,
     "description": "",
     "details": {
-      "condition": "Original nuevo en caja",
+      "condition": "En caja",
       "colorway": "White",
       "includedItems": [
         "Caja original",
@@ -5559,11 +5559,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "bajo_encargo",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": true,
     "description": "",
     "details": {
-      "condition": "Original nuevo en caja",
+      "condition": "En caja",
       "colorway": "White",
       "includedItems": [
         "Caja original",
@@ -5600,11 +5600,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "Black",
       "includedItems": [
         "Caja"
@@ -5640,11 +5640,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "bajo_encargo",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": true,
     "description": "",
     "details": {
-      "condition": "Original nuevo en caja",
+      "condition": "En caja",
       "colorway": "Black",
       "includedItems": [
         "Caja original",
@@ -5681,11 +5681,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "bajo_encargo",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": true,
     "description": "",
     "details": {
-      "condition": "Original nuevo en caja",
+      "condition": "En caja",
       "colorway": "Blue",
       "includedItems": [
         "Caja original",
@@ -5722,11 +5722,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "bajo_encargo",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": true,
     "description": "",
     "details": {
-      "condition": "Original nuevo en caja",
+      "condition": "En caja",
       "colorway": "Black",
       "includedItems": [
         "Caja original",
@@ -5763,11 +5763,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "bajo_encargo",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": true,
     "description": "",
     "details": {
-      "condition": "Original nuevo en caja",
+      "condition": "En caja",
       "colorway": "Navy Blue",
       "includedItems": [
         "Caja original",
@@ -5804,11 +5804,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "bajo_encargo",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": true,
     "description": "",
     "details": {
-      "condition": "Original nuevo en caja",
+      "condition": "En caja",
       "colorway": "White",
       "includedItems": [
         "Caja original",
@@ -5845,11 +5845,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "bajo_encargo",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": true,
     "description": "",
     "details": {
-      "condition": "Original nuevo en caja",
+      "condition": "En caja",
       "colorway": "Black / White",
       "includedItems": [
         "Caja original",
@@ -5886,11 +5886,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "bajo_encargo",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": true,
     "description": "",
     "details": {
-      "condition": "Original nuevo en caja",
+      "condition": "En caja",
       "colorway": "Black",
       "includedItems": [
         "Caja original",
@@ -5927,11 +5927,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "bajo_encargo",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": true,
     "description": "",
     "details": {
-      "condition": "Original nuevo en caja",
+      "condition": "En caja",
       "colorway": "Grey",
       "includedItems": [
         "Caja original",
@@ -5968,11 +5968,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "bajo_encargo",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": true,
     "description": "",
     "details": {
-      "condition": "Original nuevo en caja",
+      "condition": "En caja",
       "colorway": "White",
       "includedItems": [
         "Caja original",
@@ -6009,11 +6009,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "bajo_encargo",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": true,
     "description": "",
     "details": {
-      "condition": "Original nuevo en caja",
+      "condition": "En caja",
       "colorway": "White Multi",
       "includedItems": [
         "Caja original",
@@ -6050,11 +6050,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "bajo_encargo",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": true,
     "description": "",
     "details": {
-      "condition": "Original nuevo en caja",
+      "condition": "En caja",
       "colorway": "White Multi",
       "includedItems": [
         "Caja original",
@@ -6091,11 +6091,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "bajo_encargo",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": true,
     "description": "",
     "details": {
-      "condition": "Original nuevo en caja",
+      "condition": "En caja",
       "colorway": "",
       "includedItems": [
         "Caja original",
@@ -6132,11 +6132,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "",
       "includedItems": [
         "Caja"
@@ -6172,11 +6172,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "",
       "includedItems": [
         "Caja"
@@ -6212,11 +6212,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "Triple White",
       "includedItems": [
         "Caja"
@@ -6252,11 +6252,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "Silueta baja en cuero blanco con paneles perforados negros. Incluye bolsa de tela.",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "White / Black",
       "includedItems": [
         "Caja"
@@ -6292,11 +6292,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "Grey / Black",
       "includedItems": [
         "Caja"
@@ -6332,11 +6332,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "",
       "includedItems": [
         "Caja"
@@ -6372,11 +6372,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "La misma silueta en tejido de dos tonos, con la correa de cuero sobre el empeine.",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "White / Black",
       "includedItems": [
         "Caja"
@@ -6412,11 +6412,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "Triple Black",
       "includedItems": [
         "Caja"
@@ -6452,11 +6452,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "",
       "includedItems": [
         "Caja"
@@ -6492,11 +6492,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "",
       "includedItems": [
         "Caja"
@@ -6531,12 +6531,12 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       44
     ],
     "status": "bajo_encargo",
-    "isFeatured": true,
-    "isNewArrival": false,
+    "isFeatured": false,
+    "isNewArrival": true,
     "isOriginalCertified": true,
     "description": "",
     "details": {
-      "condition": "Original nuevo en caja",
+      "condition": "En caja",
       "colorway": "",
       "includedItems": [
         "Caja original",
@@ -6572,12 +6572,12 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       44
     ],
     "status": "bajo_encargo",
-    "isFeatured": true,
-    "isNewArrival": false,
+    "isFeatured": false,
+    "isNewArrival": true,
     "isOriginalCertified": true,
     "description": "",
     "details": {
-      "condition": "Original nuevo en caja",
+      "condition": "En caja",
       "colorway": "",
       "includedItems": [
         "Caja original",
@@ -6614,11 +6614,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "bajo_encargo",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": true,
     "description": "",
     "details": {
-      "condition": "Original nuevo en caja",
+      "condition": "En caja",
       "colorway": "",
       "includedItems": [
         "Caja original",
@@ -6655,11 +6655,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "bajo_encargo",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": true,
     "description": "",
     "details": {
-      "condition": "Original nuevo en caja",
+      "condition": "En caja",
       "colorway": "",
       "includedItems": [
         "Caja original",
@@ -6696,11 +6696,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "bajo_encargo",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": true,
     "description": "",
     "details": {
-      "condition": "Original nuevo en caja",
+      "condition": "En caja",
       "colorway": "",
       "includedItems": [
         "Caja original",
@@ -6737,11 +6737,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "bajo_encargo",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": true,
     "description": "",
     "details": {
-      "condition": "Original nuevo en caja",
+      "condition": "En caja",
       "colorway": "",
       "includedItems": [
         "Caja original",
@@ -6778,11 +6778,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "bajo_encargo",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": true,
     "description": "",
     "details": {
-      "condition": "Original nuevo en caja",
+      "condition": "En caja",
       "colorway": "",
       "includedItems": [
         "Caja original",
@@ -6819,11 +6819,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "bajo_encargo",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": true,
     "description": "",
     "details": {
-      "condition": "Original nuevo en caja",
+      "condition": "En caja",
       "colorway": "Black",
       "includedItems": [
         "Caja original",
@@ -6860,11 +6860,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "bajo_encargo",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": true,
     "description": "",
     "details": {
-      "condition": "Original nuevo en caja",
+      "condition": "En caja",
       "colorway": "Light Brown",
       "includedItems": [
         "Caja original",
@@ -6901,11 +6901,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "bajo_encargo",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": true,
     "description": "",
     "details": {
-      "condition": "Original nuevo en caja",
+      "condition": "En caja",
       "colorway": "",
       "includedItems": [
         "Caja original",
@@ -6942,11 +6942,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "bajo_encargo",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": true,
     "description": "",
     "details": {
-      "condition": "Original nuevo en caja",
+      "condition": "En caja",
       "colorway": "",
       "includedItems": [
         "Caja original",
@@ -6983,11 +6983,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "bajo_encargo",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": true,
     "description": "",
     "details": {
-      "condition": "Original nuevo en caja",
+      "condition": "En caja",
       "colorway": "",
       "includedItems": [
         "Caja original",
@@ -7024,11 +7024,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "bajo_encargo",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": true,
     "description": "",
     "details": {
-      "condition": "Original nuevo en caja",
+      "condition": "En caja",
       "colorway": "",
       "includedItems": [
         "Caja original",
@@ -7065,11 +7065,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "bajo_encargo",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": true,
     "description": "",
     "details": {
-      "condition": "Original nuevo en caja",
+      "condition": "En caja",
       "colorway": "",
       "includedItems": [
         "Caja original",
@@ -7106,11 +7106,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "bajo_encargo",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": true,
     "description": "",
     "details": {
-      "condition": "Original nuevo en caja",
+      "condition": "En caja",
       "colorway": "",
       "includedItems": [
         "Caja original",
@@ -7147,11 +7147,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "bajo_encargo",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": true,
     "description": "",
     "details": {
-      "condition": "Original nuevo en caja",
+      "condition": "En caja",
       "colorway": "",
       "includedItems": [
         "Caja original",
@@ -7188,11 +7188,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "bajo_encargo",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": true,
     "description": "",
     "details": {
-      "condition": "Original nuevo en caja",
+      "condition": "En caja",
       "colorway": "Black / White",
       "includedItems": [
         "Caja original",
@@ -7229,11 +7229,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "bajo_encargo",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": true,
     "description": "",
     "details": {
-      "condition": "Original nuevo en caja",
+      "condition": "En caja",
       "colorway": "Black",
       "includedItems": [
         "Caja original",
@@ -7270,11 +7270,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "",
       "includedItems": [
         "Caja"
@@ -7310,11 +7310,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "bajo_encargo",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": true,
     "description": "La Saturn de HUGO, en malla técnica con la suela moldeada de la línea.",
     "details": {
-      "condition": "Original nuevo en caja",
+      "condition": "En caja",
       "colorway": "",
       "includedItems": [
         "Caja original",
@@ -7351,11 +7351,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "La Legacy 312 mezcla piezas del 1, el 3 y el Air Force: correa amarilla, elefante gris y talón azul.",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "White / Pink / Blue / Yellow",
       "includedItems": [
         "Caja"
@@ -7391,11 +7391,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "Skate en azul marino y blanco, con cordones tipo cuerda y suela azul traslúcida.",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "Navy / White",
       "includedItems": [
         "Caja"
@@ -7431,11 +7431,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "White / Sand",
       "includedItems": [
         "Caja"
@@ -7471,11 +7471,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "White / Grey",
       "includedItems": [
         "Caja"
@@ -7511,11 +7511,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "La Skate en cuero granulado negro, con la flor del monograma del mismo tono y puntera texturizada.",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "Triple Black",
       "includedItems": [
         "Caja"
@@ -7551,11 +7551,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "Red / Coral / Pink",
       "includedItems": [
         "Caja"
@@ -7591,11 +7591,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "Silueta Skate en blanco total, con la flor del monograma en relieve y paneles de malla. Suela gruesa dentada.",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "Triple White",
       "includedItems": [
         "Caja"
@@ -7631,11 +7631,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "Skate en negro con malla y la flor del monograma en blanco. Mediasuela alta con los símbolos grabados.",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "Black / White",
       "includedItems": [
         "Caja"
@@ -7671,11 +7671,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "Green / Mint",
       "includedItems": [
         "Caja"
@@ -7711,11 +7711,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "White / Black",
       "includedItems": [
         "Caja"
@@ -7751,11 +7751,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "Trainer en cuero blanco con paneles de denim estampado con el monograma. Correa de la lengüeta y talón en negro.",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "White / Black Denim",
       "includedItems": [
         "Caja"
@@ -7791,11 +7791,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "Trainer en cuero negro con el monograma en relieve y la correa de la lengüeta. Cordones blancos de contraste.",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "Triple Black",
       "includedItems": [
         "Caja"
@@ -7831,11 +7831,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "La 1906R en malla blanca con placas plateadas y amortiguación N-ergy en el talón.",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "Silver / White / Black",
       "includedItems": [
         "Caja"
@@ -7871,11 +7871,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "White / Pink / Silver",
       "includedItems": [
         "Caja"
@@ -7911,11 +7911,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "Gold / Cream",
       "includedItems": [
         "Caja"
@@ -7951,11 +7951,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "Grey / Black / Volt",
       "includedItems": [
         "Caja"
@@ -7991,11 +7991,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "Black / Gold",
       "includedItems": [
         "Caja"
@@ -8031,11 +8031,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "White / Green",
       "includedItems": [
         "Caja"
@@ -8071,11 +8071,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "La 530 en malla blanca con capas plateadas y detalles azul marino. Mediasuela ABZORB.",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "White / Silver / Navy",
       "includedItems": [
         "Caja"
@@ -8111,11 +8111,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "White / Green",
       "includedItems": [
         "Caja"
@@ -8151,11 +8151,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "White / Red",
       "includedItems": [
         "Caja"
@@ -8191,11 +8191,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "White / Silver / Grey",
       "includedItems": [
         "Caja"
@@ -8231,11 +8231,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "Moonrock / Linen",
       "includedItems": [
         "Caja"
@@ -8271,11 +8271,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "La 9060 en gamuza negra con la N blanca y la mediasuela ondulada en crema.",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "Black / Sea Salt",
       "includedItems": [
         "Caja"
@@ -8311,11 +8311,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "Sea Salt / Yellow",
       "includedItems": [
         "Caja"
@@ -8351,11 +8351,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "Triple White",
       "includedItems": [
         "Caja"
@@ -8391,11 +8391,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "White / Green",
       "includedItems": [
         "Caja"
@@ -8431,11 +8431,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "Triple Black",
       "includedItems": [
         "Caja"
@@ -8471,11 +8471,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "White / Gum",
       "includedItems": [
         "Caja"
@@ -8511,11 +8511,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "Air Force 1 en bloques de gris y blanco, con cordones gruesos tipo cuerda.",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "Grey / White",
       "includedItems": [
         "Caja"
@@ -8551,11 +8551,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "Purple / White",
       "includedItems": [
         "Caja"
@@ -8591,11 +8591,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "Orange / White",
       "includedItems": [
         "Caja"
@@ -8631,11 +8631,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "White / Pink",
       "includedItems": [
         "Caja"
@@ -8671,11 +8671,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "La Air Force 1 blanca de siempre, en cuero liso y suela de goma. La base que combina con todo.",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "Triple White",
       "includedItems": [
         "Caja"
@@ -8711,11 +8711,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "Triple Yellow",
       "includedItems": [
         "Caja"
@@ -8751,11 +8751,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "White / University Blue",
       "includedItems": [
         "Caja"
@@ -8791,11 +8791,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "",
       "includedItems": [
         "Caja"
@@ -8831,11 +8831,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "",
       "includedItems": [
         "Caja"
@@ -8871,11 +8871,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "",
       "includedItems": [
         "Caja"
@@ -8911,11 +8911,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "",
       "includedItems": [
         "Caja"
@@ -8951,11 +8951,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "Black / Tiffany Blue",
       "includedItems": [
         "Caja"
@@ -8991,11 +8991,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "",
       "includedItems": [
         "Caja"
@@ -9031,11 +9031,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "Black / Total Orange",
       "includedItems": [
         "Caja"
@@ -9071,11 +9071,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "",
       "includedItems": [
         "Caja"
@@ -9111,11 +9111,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "Green / Yellow",
       "includedItems": [
         "Caja"
@@ -9151,11 +9151,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "Air Max 90 en blanco total con la cámara de aire visible en el talón. Malla y cuero.",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "White / Wolf Grey",
       "includedItems": [
         "Caja"
@@ -9191,11 +9191,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "Triple Black",
       "includedItems": [
         "Caja"
@@ -9231,11 +9231,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "White / Midnight Navy",
       "includedItems": [
         "Caja"
@@ -9271,11 +9271,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "Grey / White / Purple",
       "includedItems": [
         "Caja"
@@ -9311,11 +9311,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "Smoke Grey / Solar Red",
       "includedItems": [
         "Caja"
@@ -9351,11 +9351,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "Grey / Pink Foam",
       "includedItems": [
         "Caja"
@@ -9391,11 +9391,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "Black / Grey / Sail",
       "includedItems": [
         "Caja"
@@ -9431,11 +9431,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "El degradado gris de la 95 con los acentos neón que hicieron famosa la silueta.",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "Black / Neon Yellow",
       "includedItems": [
         "Caja"
@@ -9471,11 +9471,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "Triple Black",
       "includedItems": [
         "Caja"
@@ -9511,11 +9511,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "Navy / Pink / White",
       "includedItems": [
         "Caja"
@@ -9551,11 +9551,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "Taupe / Plum / Sail",
       "includedItems": [
         "Caja"
@@ -9591,11 +9591,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "Burgundy / Pink / White",
       "includedItems": [
         "Caja"
@@ -9631,11 +9631,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "Air Max 97 en café con las ondas en crema y suela gum. Cámara de aire de largo completo.",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "Brown / Sail / Gum",
       "includedItems": [
         "Caja"
@@ -9671,11 +9671,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "",
       "includedItems": [
         "Caja"
@@ -9711,11 +9711,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "Black / Wolf Grey / Volt",
       "includedItems": [
         "Caja"
@@ -9751,11 +9751,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "",
       "includedItems": [
         "Caja"
@@ -9791,11 +9791,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "Silueta Air Max en malla blanca con paneles negros y cámara de aire morada. Modelo por confirmar.",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "White / Black / Purple",
       "includedItems": [
         "Caja"
@@ -9832,11 +9832,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "Grey / Black / Red",
       "includedItems": [
         "Caja"
@@ -9872,11 +9872,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "bajo_encargo",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": true,
     "description": "Air Max DN original con la unidad Dynamic Air de cuatro tubos. Malla técnica negra sobre mediasuela blanca.",
     "details": {
-      "condition": "Original nuevo en caja",
+      "condition": "En caja",
       "colorway": "Black / White",
       "includedItems": [
         "Caja original",
@@ -9913,11 +9913,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "Triple Black",
       "includedItems": [
         "Caja"
@@ -9953,11 +9953,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "bajo_encargo",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": true,
     "description": "",
     "details": {
-      "condition": "Original nuevo en caja",
+      "condition": "En caja",
       "colorway": "Triple Black",
       "includedItems": [
         "Caja original",
@@ -9994,11 +9994,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "Blue / Black",
       "includedItems": [
         "Caja"
@@ -10034,11 +10034,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "White / Silver",
       "includedItems": [
         "Caja"
@@ -10074,11 +10074,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "Mint Grey / Black",
       "includedItems": [
         "Caja"
@@ -10114,11 +10114,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "Sail / Silver",
       "includedItems": [
         "Caja"
@@ -10154,11 +10154,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "Metallic Silver",
       "includedItems": [
         "Caja"
@@ -10194,11 +10194,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "bajo_encargo",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": true,
     "description": "La DN8 en plata y gris, con las ocho cámaras de aire a la vista en toda la suela.",
     "details": {
-      "condition": "Original nuevo en caja",
+      "condition": "En caja",
       "colorway": "Wolf Grey / Metallic Silver",
       "includedItems": [
         "Caja original",
@@ -10235,11 +10235,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "bajo_encargo",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": true,
     "description": "",
     "details": {
-      "condition": "Original nuevo en caja",
+      "condition": "En caja",
       "colorway": "Triple Black",
       "includedItems": [
         "Caja original",
@@ -10276,11 +10276,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "Triple Black",
       "includedItems": [
         "Caja"
@@ -10316,11 +10316,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "White / Navy / Royal",
       "includedItems": [
         "Caja"
@@ -10356,11 +10356,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "Baroque Brown",
       "includedItems": [
         "Caja"
@@ -10396,11 +10396,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "Metallic Silver",
       "includedItems": [
         "Caja"
@@ -10436,11 +10436,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "",
       "includedItems": [
         "Caja"
@@ -10476,11 +10476,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "Phantom / Cacao",
       "includedItems": [
         "Caja"
@@ -10516,11 +10516,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "Hyper Blue",
       "includedItems": [
         "Caja"
@@ -10556,11 +10556,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "White / Navy / Orange",
       "includedItems": [
         "Caja"
@@ -10596,11 +10596,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "Blue Gradient",
       "includedItems": [
         "Caja"
@@ -10636,11 +10636,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "Pink Gradient",
       "includedItems": [
         "Caja"
@@ -10676,11 +10676,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "Triple White",
       "includedItems": [
         "Caja"
@@ -10716,11 +10716,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "Triple Black",
       "includedItems": [
         "Caja"
@@ -10756,11 +10756,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "Voltage Purple",
       "includedItems": [
         "Caja"
@@ -10796,11 +10796,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "bajo_encargo",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": true,
     "description": "TN Plus original en hueso con el degradado azul en las nervaduras y doble cámara visible.",
     "details": {
-      "condition": "Original nuevo en caja",
+      "condition": "En caja",
       "colorway": "Light Bone / Racer Blue",
       "includedItems": [
         "Caja original",
@@ -10837,11 +10837,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "Black / White",
       "includedItems": [
         "Caja"
@@ -10877,11 +10877,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "Vomero 18 con mediasuela ZoomX alta en blanco y upper en negro y gris.",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "Black / White",
       "includedItems": [
         "Caja"
@@ -10917,11 +10917,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "",
       "includedItems": [
         "Caja"
@@ -10957,11 +10957,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "",
       "includedItems": [
         "Caja"
@@ -10997,11 +10997,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "Black / Off Noir",
       "includedItems": [
         "Caja"
@@ -11035,11 +11035,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "",
       "includedItems": [
         "Caja"
@@ -11075,11 +11075,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "Brown / Sail",
       "includedItems": [
         "Caja"
@@ -11115,11 +11115,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "Cortez en cuero blanco con el swoosh y la franja en negro. Suela de goma dentada.",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "White / Black",
       "includedItems": [
         "Caja"
@@ -11156,11 +11156,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "El colorway original de la Cortez: cuero blanco, swoosh rojo y franja azul en la suela.",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "White / Varsity Red / Royal",
       "includedItems": [
         "Caja"
@@ -11196,11 +11196,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "Purple / Sail",
       "includedItems": [
         "Caja"
@@ -11236,11 +11236,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "Pine Green / Sail",
       "includedItems": [
         "Caja"
@@ -11276,11 +11276,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "Dark Red / Sail",
       "includedItems": [
         "Caja"
@@ -11316,11 +11316,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "Green / Sail",
       "includedItems": [
         "Caja"
@@ -11356,11 +11356,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "Cortez en nylon verde con gamuza del mismo tono y swoosh rosado. Mediasuela crema.",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "Pro Green / Pinksicle",
       "includedItems": [
         "Caja"
@@ -11396,11 +11396,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "La Dunk Low en blanco y negro que se volvió el par de entrada para todo el mundo.",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "White / Black",
       "includedItems": [
         "Caja"
@@ -11436,11 +11436,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "Pink Foam / Hyper Pink",
       "includedItems": [
         "Caja"
@@ -11476,11 +11476,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "White / University Blue",
       "includedItems": [
         "Caja"
@@ -11516,11 +11516,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "Grey / Sail",
       "includedItems": [
         "Caja"
@@ -11556,11 +11556,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "Sail / Lilac",
       "includedItems": [
         "Caja"
@@ -11596,11 +11596,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "White / Red",
       "includedItems": [
         "Caja"
@@ -11636,11 +11636,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "White / Pink",
       "includedItems": [
         "Caja"
@@ -11676,11 +11676,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "Purple / White",
       "includedItems": [
         "Caja"
@@ -11716,11 +11716,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "Triple Black",
       "includedItems": [
         "Caja"
@@ -11756,11 +11756,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "Black / Brown",
       "includedItems": [
         "Caja"
@@ -11796,11 +11796,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "Black / White",
       "includedItems": [
         "Caja"
@@ -11836,11 +11836,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "Black / Chrome",
       "includedItems": [
         "Caja"
@@ -11876,11 +11876,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "Black / Volt",
       "includedItems": [
         "Caja"
@@ -11916,11 +11916,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "Sail / Khaki / Lime",
       "includedItems": [
         "Caja"
@@ -11956,11 +11956,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "Initiator en plata metalizada con el swoosh en rojo. Corredora de los 2000 hecha para diario.",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "Metallic Silver / Varsity Red",
       "includedItems": [
         "Caja"
@@ -11996,11 +11996,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "White / Silver / Plum",
       "includedItems": [
         "Caja"
@@ -12036,11 +12036,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "White / Pink / Navy",
       "includedItems": [
         "Caja"
@@ -12076,11 +12076,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "Cool Grey / Metallic Silver",
       "includedItems": [
         "Caja"
@@ -12116,11 +12116,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "Light Bone / Sail",
       "includedItems": [
         "Caja"
@@ -12156,11 +12156,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "Black / White",
       "includedItems": [
         "Caja"
@@ -12196,11 +12196,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "Metallic Silver / Black",
       "includedItems": [
         "Caja"
@@ -12236,11 +12236,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "Metallic Silver / Pink",
       "includedItems": [
         "Caja"
@@ -12276,11 +12276,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "Pink / Plum",
       "includedItems": [
         "Caja"
@@ -12316,11 +12316,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "P-6000 en blanco total, con el entramado de capas y la mediasuela Rideliner.",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "Triple White",
       "includedItems": [
         "Caja"
@@ -12356,11 +12356,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "Skate baja en gamuza gris y lona blanca, con suela vulcanizada.",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "White / Grey",
       "includedItems": [
         "Caja"
@@ -12396,11 +12396,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "Grey / Sail / Brown",
       "includedItems": [
         "Caja"
@@ -12436,11 +12436,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "",
       "includedItems": [
         "Caja"
@@ -12476,11 +12476,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "Brown / Sail",
       "includedItems": [
         "Caja"
@@ -12516,11 +12516,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "Silueta baja de skate en lona negra con suela vulcanizada blanca.",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "Black / White",
       "includedItems": [
         "Caja"
@@ -12556,11 +12556,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "Triple Black",
       "includedItems": [
         "Caja"
@@ -12596,11 +12596,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "White / Olive Green",
       "includedItems": [
         "Caja"
@@ -12636,11 +12636,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "Grey / Volt / Black",
       "includedItems": [
         "Caja"
@@ -12676,11 +12676,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "Black / Red / Yellow",
       "includedItems": [
         "Caja"
@@ -12716,11 +12716,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "Shox TL en blanco con las cuatro columnas visibles en el talón.",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "White / Metallic Silver",
       "includedItems": [
         "Caja"
@@ -12756,11 +12756,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "Triple Black",
       "includedItems": [
         "Caja"
@@ -12796,11 +12796,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "Triple Brown",
       "includedItems": [
         "Caja"
@@ -12836,11 +12836,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "Vomero 5 en crema y beige, con capas de malla y refuerzos en gamuza.",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "Sail / Khaki",
       "includedItems": [
         "Caja"
@@ -12876,11 +12876,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "Metallic Silver / Sail",
       "includedItems": [
         "Caja"
@@ -12916,11 +12916,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "Triple White",
       "includedItems": [
         "Caja"
@@ -12956,11 +12956,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "bajo_encargo",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": true,
     "description": "",
     "details": {
-      "condition": "Original nuevo en caja",
+      "condition": "En caja",
       "colorway": "Sail / Metallic Gold",
       "includedItems": [
         "Caja original",
@@ -12995,11 +12995,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "bajo_encargo",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": true,
     "description": "Vomero 6 en hueso con paneles rosa palo y detalles plateados. Horma de mujer.",
     "details": {
-      "condition": "Original nuevo en caja",
+      "condition": "En caja",
       "colorway": "Sail / Pink Oxford / Metallic Silver",
       "includedItems": [
         "Caja original",
@@ -13036,11 +13036,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "",
       "includedItems": [
         "Caja"
@@ -13076,11 +13076,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "White / Black",
       "includedItems": [
         "Caja"
@@ -13116,11 +13116,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "bajo_encargo",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": true,
     "description": "",
     "details": {
-      "condition": "Original nuevo en caja",
+      "condition": "En caja",
       "colorway": "",
       "includedItems": [
         "Caja original",
@@ -13157,11 +13157,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "bajo_encargo",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": true,
     "description": "La Caven de la línea BMW M Motorsport, con los colores del equipo en el talón.",
     "details": {
-      "condition": "Original nuevo en caja",
+      "condition": "En caja",
       "colorway": "",
       "includedItems": [
         "Caja original",
@@ -13172,6 +13172,459 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "inquiriesCount": 0,
     "createdAt": "2026-08-14T15:26:27.178Z",
     "updatedAt": "2026-08-14T15:26:27.178Z"
+  },
+  {
+    "id": "sneaker-puma-morphic-gris-azul",
+    "name": "Puma Morphic Gris Azul",
+    "brand": "Puma",
+    "model": "Puma Morphic Gris Azul",
+    "sku": "PAPI-1185",
+    "category": "general",
+    "gender": "hombre",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/puma/hombre/puma-morphic-gris-azul.jpg"
+    ],
+    "sizes": [
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": true,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "Runner de los 2000 con malla, capas superpuestas y suela alta. El azul eléctrico sobre gris es el corte más noventero del lote.",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Grey / Blue / Black",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-15T21:25:11.931Z",
+    "updatedAt": "2026-08-15T21:25:11.931Z"
+  },
+  {
+    "id": "sneaker-puma-morphic-negro",
+    "name": "Puma Morphic Negro",
+    "brand": "Puma",
+    "model": "Puma Morphic Negro",
+    "sku": "PAPI-3106",
+    "category": "general",
+    "gender": "hombre",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/puma/hombre/puma-morphic-negro.jpg"
+    ],
+    "sizes": [
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": true,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "El mismo runner de silueta ancha, todo en negro con la suela blanca. Combina con cualquier cosa.",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Black / White",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-15T21:25:11.931Z",
+    "updatedAt": "2026-08-15T21:25:11.931Z"
+  },
+  {
+    "id": "sneaker-puma-palermo-azul-navy",
+    "name": "Puma Palermo Azul Navy",
+    "brand": "Puma",
+    "model": "Puma Palermo Azul Navy",
+    "sku": "PAPI-1570",
+    "category": "general",
+    "gender": "hombre",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/puma/hombre/puma-palermo-azul-navy.jpg"
+    ],
+    "sizes": [
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": true,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "Palermo en gamuza azul oscuro con la franja blanca y suela caramelo.",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Navy / White / Gum",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-15T21:25:11.931Z",
+    "updatedAt": "2026-08-15T21:25:11.931Z"
+  },
+  {
+    "id": "sneaker-puma-palermo-beige",
+    "name": "Puma Palermo Beige",
+    "brand": "Puma",
+    "model": "Puma Palermo Beige",
+    "sku": "PAPI-1289",
+    "category": "general",
+    "gender": "mujer",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/puma/mujer/puma-palermo-beige.jpg"
+    ],
+    "sizes": [
+      35,
+      36,
+      37,
+      38,
+      39
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "Palermo en gamuza beige con el logo dorado y suela al tono. La más suave del lote.",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Beige / Gold",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-15T21:25:11.931Z",
+    "updatedAt": "2026-08-15T21:25:11.931Z"
+  },
+  {
+    "id": "sneaker-puma-palermo-blanco-oro",
+    "name": "Puma Palermo Blanco Oro",
+    "brand": "Puma",
+    "model": "Puma Palermo Blanco Oro",
+    "sku": "PAPI-1512",
+    "category": "general",
+    "gender": "mujer",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/puma/mujer/puma-palermo-blanco-oro.jpg"
+    ],
+    "sizes": [
+      35,
+      36,
+      37,
+      38,
+      39
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "Palermo en blanco entero con el logo dorado y un filete negro en el costado. Suela al tono.",
+    "details": {
+      "condition": "En caja",
+      "colorway": "White / Gold",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-15T21:25:11.931Z",
+    "updatedAt": "2026-08-15T21:25:11.931Z"
+  },
+  {
+    "id": "sneaker-puma-palermo-blanco-verde",
+    "name": "Puma Palermo Blanco Verde",
+    "brand": "Puma",
+    "model": "Puma Palermo Blanco Verde",
+    "sku": "PAPI-1441",
+    "category": "general",
+    "gender": "hombre",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/puma/hombre/puma-palermo-blanco-verde.jpg"
+    ],
+    "sizes": [
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "Palermo en cuero blanco con la franja verde y suela de caucho color caramelo. Silueta baja de cancha.",
+    "details": {
+      "condition": "En caja",
+      "colorway": "White / Green / Gum",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-15T21:25:11.931Z",
+    "updatedAt": "2026-08-15T21:25:11.931Z"
+  },
+  {
+    "id": "sneaker-puma-palermo-cafe",
+    "name": "Puma Palermo Café",
+    "brand": "Puma",
+    "model": "Puma Palermo Café",
+    "sku": "PAPI-1270",
+    "category": "general",
+    "gender": "hombre",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/puma/hombre/puma-palermo-cafe.jpg"
+    ],
+    "sizes": [
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "Palermo en gamuza café entera con suela negra y logo dorado. Tono tierra para quien no quiere blanco.",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Brown",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-15T21:25:11.931Z",
+    "updatedAt": "2026-08-15T21:25:11.931Z"
+  },
+  {
+    "id": "sneaker-puma-palermo-crema-navy",
+    "name": "Puma Palermo Crema Navy",
+    "brand": "Puma",
+    "model": "Puma Palermo Crema Navy",
+    "sku": "PAPI-5172",
+    "category": "general",
+    "gender": "hombre",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/puma/hombre/puma-palermo-crema-navy.jpg"
+    ],
+    "sizes": [
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "Palermo en crema con la franja azul oscuro y suela caramelo. La más sobria de las de cuero.",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Cream / Navy / Gum",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-15T21:25:11.931Z",
+    "updatedAt": "2026-08-15T21:25:11.931Z"
+  },
+  {
+    "id": "sneaker-puma-palermo-gris",
+    "name": "Puma Palermo Gris",
+    "brand": "Puma",
+    "model": "Puma Palermo Gris",
+    "sku": "PAPI-1522",
+    "category": "general",
+    "gender": "hombre",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/puma/hombre/puma-palermo-gris.jpg"
+    ],
+    "sizes": [
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "Palermo en gamuza gris con la franja gris oscuro y suela caramelo.",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Grey / Gum",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-15T21:25:11.931Z",
+    "updatedAt": "2026-08-15T21:25:11.931Z"
+  },
+  {
+    "id": "sneaker-puma-palermo-negro-crema",
+    "name": "Puma Palermo Negro Crema",
+    "brand": "Puma",
+    "model": "Puma Palermo Negro Crema",
+    "sku": "PAPI-1641",
+    "category": "general",
+    "gender": "hombre",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/puma/hombre/puma-palermo-negro-crema.jpg"
+    ],
+    "sizes": [
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "Palermo en gamuza negra con la franja crema y suela caramelo. El contraste clásico de la silueta.",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Black / Cream / Gum",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-15T21:25:11.931Z",
+    "updatedAt": "2026-08-15T21:25:11.931Z"
+  },
+  {
+    "id": "sneaker-puma-palermo-negro-rojo-azul",
+    "name": "Puma Palermo Negro Rojo Azul",
+    "brand": "Puma",
+    "model": "Puma Palermo Negro Rojo Azul",
+    "sku": "PAPI-3969",
+    "category": "general",
+    "gender": "hombre",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/puma/hombre/puma-palermo-negro-rojo-azul.jpg"
+    ],
+    "sizes": [
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "Palermo en gamuza negra con doble franja roja y azul sobre suela blanca.",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Black / Red / Blue",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-15T21:25:11.931Z",
+    "updatedAt": "2026-08-15T21:25:11.931Z"
+  },
+  {
+    "id": "sneaker-puma-palermo-negro-rosado",
+    "name": "Puma Palermo Negro Rosado",
+    "brand": "Puma",
+    "model": "Puma Palermo Negro Rosado",
+    "sku": "PAPI-2586",
+    "category": "general",
+    "gender": "mujer",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/puma/mujer/puma-palermo-negro-rosado.jpg"
+    ],
+    "sizes": [
+      35,
+      36,
+      37,
+      38,
+      39
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "Palermo en gamuza negra con los filetes en rosado neón y suela negra.",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Black / Pink",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-15T21:25:11.931Z",
+    "updatedAt": "2026-08-15T21:25:11.931Z"
   },
   {
     "id": "sneaker-puma-rebound",
@@ -13198,11 +13651,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "bajo_encargo",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": true,
     "description": "",
     "details": {
-      "condition": "Original nuevo en caja",
+      "condition": "En caja",
       "colorway": "",
       "includedItems": [
         "Caja original",
@@ -13239,11 +13692,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "bajo_encargo",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": true,
     "description": "",
     "details": {
-      "condition": "Original nuevo en caja",
+      "condition": "En caja",
       "colorway": "",
       "includedItems": [
         "Caja original",
@@ -13280,11 +13733,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "bajo_encargo",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": true,
     "description": "",
     "details": {
-      "condition": "Original nuevo en caja",
+      "condition": "En caja",
       "colorway": "Black",
       "includedItems": [
         "Caja original",
@@ -13321,11 +13774,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "bajo_encargo",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": true,
     "description": "Silueta de corte bajo en cuero, con la fórmula del Puma clásico y suela de goma.",
     "details": {
-      "condition": "Original nuevo en caja",
+      "condition": "En caja",
       "colorway": "",
       "includedItems": [
         "Caja original",
@@ -13362,11 +13815,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "bajo_encargo",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": true,
     "description": "",
     "details": {
-      "condition": "Original nuevo en caja",
+      "condition": "En caja",
       "colorway": "",
       "includedItems": [
         "Caja original",
@@ -13403,11 +13856,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "bajo_encargo",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": true,
     "description": "",
     "details": {
-      "condition": "Original nuevo en caja",
+      "condition": "En caja",
       "colorway": "",
       "includedItems": [
         "Caja original",
@@ -13444,11 +13897,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "bajo_encargo",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": true,
     "description": "",
     "details": {
-      "condition": "Original nuevo en caja",
+      "condition": "En caja",
       "colorway": "White / Black",
       "includedItems": [
         "Caja original",
@@ -13485,11 +13938,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "bajo_encargo",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": true,
     "description": "La Suede de siempre con la banda y la lengüeta engordadas. Gamuza y suela de goma.",
     "details": {
-      "condition": "Original nuevo en caja",
+      "condition": "En caja",
       "colorway": "",
       "includedItems": [
         "Caja original",
@@ -13500,6 +13953,44 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "inquiriesCount": 0,
     "createdAt": "2026-08-14T15:26:27.178Z",
     "updatedAt": "2026-08-14T15:26:27.178Z"
+  },
+  {
+    "id": "sneaker-puma-suede-xl-bmw-motorsport",
+    "name": "Puma Suede XL BMW Motorsport",
+    "brand": "Puma",
+    "model": "Puma Suede XL BMW Motorsport",
+    "sku": "PAPI-9476",
+    "category": "general",
+    "gender": "hombre",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/puma/hombre/puma-suede-xl-bmw-motorsport.jpg"
+    ],
+    "sizes": [
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "Suede XL de la línea BMW Motorsport: gamuza negra, suela XL blanca y la lengüeta roja con el logo.",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Black / White / Red",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-15T21:25:11.931Z",
+    "updatedAt": "2026-08-15T21:25:11.931Z"
   },
   {
     "id": "sneaker-reebok-x-anuel-aa-rojo",
@@ -13526,11 +14017,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "Red / Black",
       "includedItems": [
         "Caja"
@@ -13566,11 +14057,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "bajo_encargo",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": true,
     "description": "Sandalia de la línea Wiston en negro, con el logo en relieve sobre la tira.",
     "details": {
-      "condition": "Original nuevo en caja",
+      "condition": "En caja",
       "colorway": "Black",
       "includedItems": [
         "Caja original",
@@ -13607,11 +14098,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "Brown / White",
       "includedItems": [
         "Caja"
@@ -13647,11 +14138,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "disponible",
     "isFeatured": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "La Old Skool clásica: lona y gamuza negra, franja lateral blanca y suela de gofre.",
     "details": {
-      "condition": "Nuevo en caja",
+      "condition": "En caja",
       "colorway": "Black / White",
       "includedItems": [
         "Caja"

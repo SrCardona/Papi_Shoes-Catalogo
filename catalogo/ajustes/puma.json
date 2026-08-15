@@ -1,0 +1,81 @@
+{
+  "puma-morphic-gris-azul": {
+    "name": "Puma Morphic Gris Azul",
+    "colorway": "Grey / Blue / Black",
+    "sizes": "39-44",
+    "description": "Runner de los 2000 con malla, capas superpuestas y suela alta. El azul eléctrico sobre gris es el corte más noventero del lote."
+  },
+  "puma-morphic-negro": {
+    "name": "Puma Morphic Negro",
+    "colorway": "Black / White",
+    "sizes": "39-44",
+    "description": "El mismo runner de silueta ancha, todo en negro con la suela blanca. Combina con cualquier cosa."
+  },
+  "puma-palermo-blanco-verde": {
+    "name": "Puma Palermo Blanco Verde",
+    "colorway": "White / Green / Gum",
+    "sizes": "39-44",
+    "description": "Palermo en cuero blanco con la franja verde y suela de caucho color caramelo. Silueta baja de cancha."
+  },
+  "puma-palermo-crema-navy": {
+    "name": "Puma Palermo Crema Navy",
+    "colorway": "Cream / Navy / Gum",
+    "sizes": "39-44",
+    "description": "Palermo en crema con la franja azul oscuro y suela caramelo. La más sobria de las de cuero."
+  },
+  "puma-suede-xl-bmw-motorsport": {
+    "name": "Puma Suede XL BMW Motorsport",
+    "colorway": "Black / White / Red",
+    "sizes": "39-44",
+    "description": "Suede XL de la línea BMW Motorsport: gamuza negra, suela XL blanca y la lengüeta roja con el logo."
+  },
+  "puma-palermo-cafe": {
+    "name": "Puma Palermo Café",
+    "colorway": "Brown",
+    "sizes": "39-44",
+    "description": "Palermo en gamuza café entera con suela negra y logo dorado. Tono tierra para quien no quiere blanco."
+  },
+  "puma-palermo-negro-crema": {
+    "name": "Puma Palermo Negro Crema",
+    "colorway": "Black / Cream / Gum",
+    "sizes": "39-44",
+    "description": "Palermo en gamuza negra con la franja crema y suela caramelo. El contraste clásico de la silueta."
+  },
+  "puma-palermo-negro-rojo-azul": {
+    "name": "Puma Palermo Negro Rojo Azul",
+    "colorway": "Black / Red / Blue",
+    "sizes": "39-44",
+    "description": "Palermo en gamuza negra con doble franja roja y azul sobre suela blanca."
+  },
+  "puma-palermo-gris": {
+    "name": "Puma Palermo Gris",
+    "colorway": "Grey / Gum",
+    "sizes": "39-44",
+    "description": "Palermo en gamuza gris con la franja gris oscuro y suela caramelo."
+  },
+  "puma-palermo-azul-navy": {
+    "name": "Puma Palermo Azul Navy",
+    "colorway": "Navy / White / Gum",
+    "sizes": "39-44",
+    "description": "Palermo en gamuza azul oscuro con la franja blanca y suela caramelo."
+  },
+
+  "puma-palermo-blanco-oro": {
+    "name": "Puma Palermo Blanco Oro",
+    "colorway": "White / Gold",
+    "sizes": "35-39",
+    "description": "Palermo en blanco entero con el logo dorado y un filete negro en el costado. Suela al tono."
+  },
+  "puma-palermo-negro-rosado": {
+    "name": "Puma Palermo Negro Rosado",
+    "colorway": "Black / Pink",
+    "sizes": "35-39",
+    "description": "Palermo en gamuza negra con los filetes en rosado neón y suela negra."
+  },
+  "puma-palermo-beige": {
+    "name": "Puma Palermo Beige",
+    "colorway": "Beige / Gold",
+    "sizes": "35-39",
+    "description": "Palermo en gamuza beige con el logo dorado y suela al tono. La más suave del lote."
+  }
+}

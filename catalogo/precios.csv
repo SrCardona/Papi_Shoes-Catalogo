@@ -10,6 +10,7 @@ marca:Louis Vuitton,190000,230000
 marca:Otras,190000,230000
 marca:Calvin Klein,190000,230000
 marca:Hugo Boss,190000,230000
+marca:Puma,180000,210000
 
 # Línea Originales. Una fila `originales:<Marca>` le gana a la de `marca:`,
 # para que un par verificado no herede el precio de la línea de uso diario.

@@ -422,15 +422,12 @@ const marcaDe = new Map(
   ]),
 );
 
-/* Lo último que entró es lo que va al altar de la portada, y lo que lleva el
-   sello "Nuevo". Con el sello puesto a todo el catálogo dejaba de significar
-   algo, así que se queda en una franja corta de los más recientes.
+/* Lo último que entró es lo que va al altar de la portada.
 
    Con tope por marca: un lote entero llega con la misma fecha, y sin el tope
    el altar —y el orden "Destacados" del catálogo, que sale del mismo flag—
    quedaban con ocho pares de la misma casa. */
 const ALTAR = 8;
-const NOVEDADES = 12;
 const MAX_POR_MARCA = 3;
 const porLlegada = [...groups.keys()].sort((a, b) =>
   registro[a] === registro[b]
@@ -453,8 +450,6 @@ for (const key of porLlegada) {
   if (enElAltar.size === ALTAR) break;
   enElAltar.add(key);
 }
-
-const recienLlegados = new Set(porLlegada.slice(0, NOVEDADES));
 
 const sneakers = [];
 const sinPrecio = [];
@@ -508,11 +503,15 @@ const marcasDudosas = [];
        después toca desdecir por WhatsApp. */
     status: ajuste.status ?? (esOriginal ? 'bajo_encargo' : 'disponible'),
     isFeatured: enElAltar.has(group.key),
-    isNewArrival: recienLlegados.has(group.key),
+    /* Todo el catálogo entra marcado como nuevo, por decisión del dueño. Antes
+       el sello se reservaba a los últimos doce en llegar. */
+    isNewArrival: true,
     isOriginalCertified: esOriginal,
     description: ajuste.description ?? '',
     details: {
-      condition: ajuste.condition ?? (esOriginal ? 'Original nuevo en caja' : 'Nuevo en caja'),
+      // "En caja" para todo el catálogo, también por decisión del dueño: es el
+      // campo que el panel muestra como "Estado".
+      condition: ajuste.condition ?? 'En caja',
       colorway: ajuste.colorway ?? '',
       /* "Caja original" solo donde el par lo es. En la línea Sneakers esa
          frase afirmaba una autenticidad que esos pares no tienen. */
