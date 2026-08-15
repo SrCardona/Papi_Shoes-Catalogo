@@ -12,7 +12,7 @@
  * ────────
  *   --marca=Adidas     Fuerza la marca de todo el lote (útil al cargar marca
  *                      por marca: los archivos "CALIFORNIA.jpg" no la dicen).
- *   --precio=180000    Precio para los pares que no estén en precios.csv.
+ *   --precio=180000    Precio para los pares que no estén en el CSV.
  *   --antes=210000     Precio anterior, el que se muestra tachado.
  *   --linea=originales Fuerza la línea de todo el lote.
  *
@@ -37,20 +37,24 @@
  *
  * AJUSTES MANUALES
  * ────────────────
- * Un archivo por marca en `ajustes/` (por ejemplo `ajustes/adidas.json`), con
- * correcciones por nombre de archivo sin extensión. Se aplican encima de lo que
- * dedujo el script. Se leen todos y se combinan, así que cada marca se corrige
- * en su archivo sin tocar las demás.
+ * Un archivo por marca en `catalogo/ajustes/` (por ejemplo
+ * `catalogo/ajustes/adidas.json`), con correcciones por nombre de archivo sin
+ * extensión. Se aplican encima de lo que dedujo el script. Se leen todos y se
+ * combinan, así que cada marca se corrige en su archivo sin tocar las demás.
  *
  *   {
  *     "adidas-sl-72-brown": { "name": "Adidas SL 72 Brown",
- *                             "colorway": "Brown / Gum" }
+ *                             "colorway": "Brown / Gum",
+ *                             "sizes": "40-44" }
  *   }
+ *
+ * Campos: name, brand, gender, category, status, description, condition,
+ * colorway y sizes. Las tallas aceptan un rango `"40-44"` o una lista
+ * `[40, 42, 44]`; sin ellas se usa la curva de la horma.
  *
  * PRECIOS
  * ───────
- * Opcional: crea `precios.csv` en la raíz del proyecto. Tercera columna
- * opcional para el precio tachado.
+ * En `catalogo/precios.csv`. Tercera columna opcional para el precio tachado.
  *
  *   archivo,precio,antes
  *   marca:Louis Vuitton,190000,230000
@@ -85,11 +89,15 @@ const MARCA_FORZADA = flags.marca ?? null;
 const LINEA_FORZADA = flags.linea === 'originales' ? 'originales' : null;
 const PRECIO_BASE = Number(flags.precio) || 0;
 const PRECIO_ANTES = Number(flags.antes) || 0;
+/* Las fotos que sirve el sitio van en `public/`; lo que se edita a mano para
+   armar el catálogo vive junto en `catalogo/`. Son dos cosas distintas y por eso
+   son dos carpetas. */
 const PHOTO_DIR = join(ROOT, 'public', 'catalogo');
-const PRICES_FILE = join(ROOT, 'precios.csv');
-const ARRIVALS_FILE = join(ROOT, 'llegadas.json');
-const OUTPUT_FILE = join(ROOT, 'catalogo-papishoes.json');
-const OVERRIDES_DIR = join(ROOT, 'ajustes');
+const CATALOG_DIR = join(ROOT, 'catalogo');
+const PRICES_FILE = join(CATALOG_DIR, 'precios.csv');
+const ARRIVALS_FILE = join(CATALOG_DIR, 'llegadas.json');
+const OUTPUT_FILE = join(CATALOG_DIR, 'catalogo-papishoes.json');
+const OVERRIDES_DIR = join(CATALOG_DIR, 'ajustes');
 const TS_OUTPUT_FILE = join(ROOT, 'src', 'data', 'catalogoGenerado.ts');
 
 const IMAGE_EXT = new Set(['.jpg', '.jpeg', '.png', '.webp', '.avif', '.gif']);
@@ -152,6 +160,32 @@ const SIZES_BY_GENDER = {
   hombre: [39, 40, 41, 42, 43, 44, 45],
   unisex: [37, 38, 39, 40, 41, 42, 43, 44],
 };
+
+/**
+ * Tallas de un ajuste: `"sizes": "40-44"` o `"sizes": [40, 42, 44]`.
+ *
+ * Un lote casi nunca llega en la curva completa de su horma, y sin esto la
+ * unica forma de decirlo era par por par desde el panel. Devuelve `null` cuando
+ * el ajuste no trae tallas, para caer en la curva de la horma.
+ */
+function parseTallas(raw) {
+  if (typeof raw === 'string') {
+    const rango = raw.match(/^\s*(\d{2})\s*(?:-|–|a)\s*(\d{2})\s*$/i);
+    if (!rango) return null;
+    const [desde, hasta] = [Number(rango[1]), Number(rango[2])];
+    if (desde > hasta) return null;
+    return Array.from({ length: hasta - desde + 1 }, (_, i) => desde + i);
+  }
+  if (!Array.isArray(raw)) return null;
+  const tallas = [
+    ...new Set(
+      raw
+        .map((t) => (typeof t === 'number' ? t : Number(String(t).trim())))
+        .filter((t) => Number.isFinite(t) && t >= 20 && t <= 55),
+    ),
+  ].sort((a, b) => a - b);
+  return tallas.length ? tallas : null;
+}
 
 /* ── Utilidades ──────────────────────────────────────────────────────────── */
 
@@ -283,7 +317,7 @@ if (!files.length) {
 
 const prices = readPrices();
 
-/* Se combinan todos los ajustes/*.json. Si dos marcas usaran el mismo nombre
+/* Se combinan todos los catalogo/ajustes/*.json. Si dos marcas usaran el mismo nombre
    de archivo el último ganaría, pero eso ya sería un choque de nombres que
    conviene resolver renombrando la foto. */
 const overrides = {};
@@ -353,7 +387,7 @@ for (const file of files) {
    corrida, que es la misma para los 236.
 
    Así que se anota: la primera vez que aparece una clave se le pone la fecha
-   de hoy y queda escrita en llegadas.json. Las siguientes corridas respetan
+   de hoy y queda escrita en catalogo/llegadas.json. Las siguientes corridas respetan
    la que ya tenía. El archivo se versiona con el repo, de modo que el orden
    del altar es el mismo para todos y no depende de qué máquina generó. */
 const llegadas = existsSync(ARRIVALS_FILE)
@@ -467,7 +501,7 @@ const marcasDudosas = [];
     price,
     originalPrice: antes > price ? antes : undefined,
     images: group.images,
-    sizes: SIZES_BY_GENDER[gender],
+    sizes: parseTallas(ajuste.sizes) ?? SIZES_BY_GENDER[gender],
     /* Los originales se traen por pedido, no se tienen en bodega: entran como
        "bajo encargo" salvo que el ajuste del par diga otra cosa. Anunciar
        entrega inmediata de algo que hay que encargar es una promesa que
@@ -592,7 +626,7 @@ if (series.length) {
 }
 
 if (sinPrecio.length) {
-  console.log(`\n⚠ Sin precio (${sinPrecio.length}). Agrégalos a precios.csv:`);
+  console.log(`\n⚠ Sin precio (${sinPrecio.length}). Agrégalos a catalogo/precios.csv:`);
   for (const key of sinPrecio) console.log(`    ${key},`);
 }
 

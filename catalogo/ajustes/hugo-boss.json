@@ -1,0 +1,188 @@
+{
+  "boss-black-pillow": {
+    "name": "Boss Black Pillow",
+    "colorway": "Black"
+  },
+  "boss-master-gris": {
+    "name": "Boss Master Gris",
+    "colorway": "Grey"
+  },
+  "hugo-boss-classic": {
+    "name": "Hugo Boss Classic",
+    "colorway": ""
+  },
+  "hugo-boss-aiden-block": {
+    "name": "BOSS Aiden Block",
+    "colorway": ""
+  },
+  "hugo-boss-kai-retro-black": {
+    "name": "BOSS Kai Retro Black",
+    "colorway": "Black"
+  },
+  "hugo-boss-kye-retro-style-white-oak": {
+    "name": "BOSS Kye Retro White Oak",
+    "colorway": "White / Oak"
+  },
+  "hugo-boss-mesh-blueberry": {
+    "name": "BOSS Mesh Blueberry",
+    "colorway": "Blueberry"
+  },
+  "hugo-boss-mesh-white-oak": {
+    "name": "BOSS Mesh White Oak",
+    "colorway": "White / Oak"
+  },
+  "hugo-boss-parkour-run-carbon": {
+    "name": "BOSS Parkour Run Carbon",
+    "colorway": "Carbon",
+    "description": "La Parkour Run original, con la suela de perfil alto y el logo BOSS en el lateral."
+  },
+  "hugo-boss-parkour-run-sky-navy-blue": {
+    "name": "BOSS Parkour Run Sky Navy Blue",
+    "colorway": "Sky / Navy Blue"
+  },
+  "hugo-boss-parkour-runn-onyx": {
+    "name": "BOSS Parkour Run Onyx",
+    "colorway": "Onyx"
+  },
+  "hugo-boss-parkour-vison-orange": {
+    "name": "BOSS Parkour Vision Orange",
+    "colorway": "Orange"
+  },
+  "hugo-boss-rhys-cupsole-blue-yankee": {
+    "name": "BOSS Rhys Cupsole Blue Yankee",
+    "colorway": "Blue Yankee"
+  },
+  "hugo-boss-rhys-cupsole-white": {
+    "name": "BOSS Rhys Cupsole White",
+    "colorway": "White",
+    "description": "Silueta baja en cuero blanco con suela de copa. La más vestidora del lote."
+  },
+  "hugo-boss-running-mesh": {
+    "name": "BOSS Running Mesh",
+    "colorway": ""
+  },
+  "hugo-boss-running-mesh-sky-navy-blue": {
+    "name": "BOSS Running Mesh Sky Navy Blue",
+    "colorway": "Sky / Navy Blue"
+  },
+  "hugo-boss-hugo-black-white": {
+    "name": "HUGO Black & White",
+    "colorway": "Black / White"
+  },
+  "hugo-boss-hugo-black-storm": {
+    "name": "HUGO Black Storm",
+    "colorway": "Black"
+  },
+  "hugo-boss-saturn": {
+    "name": "HUGO Saturn",
+    "colorway": "",
+    "description": "La Saturn de HUGO, en malla técnica con la suela moldeada de la línea."
+  },
+
+  "hugo-boss-runn-blanco-verde": {
+    "name": "BOSS Runn Blanco Verde",
+    "colorway": "White / Green",
+    "sizes": "40-44",
+    "description": "Runner retro en nylon y gamuza, con el logo BOSS en el lateral y suela de doble capa. El verde va sobre blanco, así que combina con jean claro y con negro."
+  },
+  "hugo-boss-runn-blanco-hielo": {
+    "name": "BOSS Runn Blanco Hielo",
+    "colorway": "White / Ice Grey",
+    "sizes": "40-44",
+    "description": "Runner retro en nylon y gamuza gris hielo, con filete negro en el talón. La más neutra de la serie."
+  },
+  "hugo-boss-runn-taupe": {
+    "name": "BOSS Runn Taupe",
+    "colorway": "Taupe",
+    "sizes": "40-44",
+    "description": "Runner retro en nylon y gamuza tono taupe, suela crema. Tono tierra para quien no quiere blanco."
+  },
+
+  "hugo-boss-ttnm-evo-negro-gum": {
+    "name": "BOSS TTNM EVO Negro Gum",
+    "colorway": "Black / Gum",
+    "sizes": "40-44",
+    "description": "Silueta TTNM EVO con el monograma tejido en el empeine y suela estriada. Negro completo con piso color caramelo."
+  },
+  "hugo-boss-ttnm-evo-gris": {
+    "name": "BOSS TTNM EVO Gris",
+    "colorway": "Grey",
+    "sizes": "40-44",
+    "description": "TTNM EVO monocromática en gris, con el monograma en relieve sobre el empeine."
+  },
+  "hugo-boss-ttnm-evo-azul-navy": {
+    "name": "BOSS TTNM EVO Azul Navy",
+    "colorway": "Navy / White",
+    "sizes": "40-44",
+    "description": "TTNM EVO en azul navy con suela blanca. El contraste la hace la más vestidora del grupo."
+  },
+  "hugo-boss-ttnm-evo-camel": {
+    "name": "BOSS TTNM EVO Camel",
+    "colorway": "Camel",
+    "sizes": "40-44",
+    "description": "TTNM EVO en camel con suela blanca y gris. Monograma tejido en todo el empeine."
+  },
+  "hugo-boss-ttnm-evo-blanco": {
+    "name": "BOSS TTNM EVO Blanco",
+    "colorway": "White",
+    "sizes": "40-44",
+    "description": "TTNM EVO toda en blanco, con el monograma marcado en relieve. La más pedida de la silueta."
+  },
+
+  "hugo-boss-ttnm-evo-knit-gris-hielo": {
+    "name": "BOSS TTNM EVO Knit Gris Hielo",
+    "colorway": "Ice Grey",
+    "sizes": "40-44",
+    "description": "Versión en tejido de punto de la TTNM EVO: entra como una media y lleva el logo BOSS en dorado. Gris hielo con gamuza al tono."
+  },
+  "hugo-boss-ttnm-evo-knit-crema": {
+    "name": "BOSS TTNM EVO Knit Crema",
+    "colorway": "Cream",
+    "sizes": "40-44",
+    "description": "TTNM EVO en tejido de punto color crema, con gamuza al tono y logo BOSS dorado."
+  },
+  "hugo-boss-ttnm-evo-knit-navy": {
+    "name": "BOSS TTNM EVO Knit Navy",
+    "colorway": "Navy",
+    "sizes": "40-44",
+    "description": "TTNM EVO en tejido de punto azul navy, con suela blanca y el nombre de la silueta impreso en el lateral."
+  },
+
+  "hugo-boss-runner-gamuza-negro": {
+    "name": "BOSS Runner Gamuza Negro",
+    "colorway": "Black",
+    "sizes": "40-44",
+    "description": "Runner de suela dentada en nylon y gamuza, con el monograma en el panel del talón. Negro completo."
+  },
+  "hugo-boss-runner-gamuza-gris": {
+    "name": "BOSS Runner Gamuza Gris",
+    "colorway": "Grey",
+    "sizes": "40-44",
+    "description": "Runner de suela dentada en gris, con gamuza en la puntera y el talón y el monograma en el costado."
+  },
+  "hugo-boss-runner-gamuza-negro-gum": {
+    "name": "BOSS Runner Gamuza Negro Gum",
+    "colorway": "Black / Gum",
+    "sizes": "40-44",
+    "description": "Runner de suela dentada en negro con piso color caramelo y el logo BOSS en dorado."
+  },
+
+  "hugo-boss-monograma-negro-oro": {
+    "name": "BOSS Monograma Negro Oro",
+    "colorway": "Black / Gold",
+    "sizes": "40-44",
+    "description": "Perfil bajo con el monograma estampado en todo el cuerpo, cuero negro y detalles dorados en el talón y el costado."
+  },
+  "hugo-boss-monograma-negro-plata": {
+    "name": "BOSS Monograma Negro Plata",
+    "colorway": "Black / Silver",
+    "sizes": "40-44",
+    "description": "El mismo perfil bajo del monograma, con los apliques en plata en vez de dorado."
+  },
+  "hugo-boss-monograma-azul": {
+    "name": "BOSS Monograma Azul",
+    "colorway": "Navy / Silver",
+    "sizes": "40-44",
+    "description": "Perfil bajo del monograma en azul navy con suela blanca y apliques plateados."
+  }
+}

@@ -10,7 +10,7 @@ armado. Todo el texto de cara al usuario va en español de Colombia.
 npm run dev       # servidor local
 npm run build     # tsc --noEmit && vite build
 npm run lint      # tsc --noEmit && eslint src
-npm run catalogo    # precios por marca en precios.csv
+npm run catalogo    # precios por marca en catalogo/precios.csv
 ```
 
 ## Stack
@@ -78,6 +78,10 @@ Ojo: eso significa que `npm run dev` edita los datos de producción.
 ```
 api/                estado.ts (leer/guardar), sesion.ts (PIN + token),
 │                   imagen.ts (fotos), _lib/ (almacén, sesión, intentos, saneado)
+catalogo/           precios.csv, ajustes/<marca>.json, llegadas.json (generado),
+│                   catalogo-papishoes.json (generado)
+lotes/              zips de lotes sin desempacar — no se versiona
+public/catalogo/    las fotos, <linea>/<marca>/[horma/]
 src/
 ├── pages/          HomePage, CatalogPage (+ OriginalsPage, SneakersPage),
 │                   ProductPage, AboutPage (El Templo), FaqPage, AdminPage
@@ -135,17 +139,31 @@ Nunca describir un par de la línea Sneakers como original o auténtico.
 
 ## Cargar fotos al catálogo
 
+Hay dos carpetas y conviene no confundirlas:
+
+- **`public/catalogo/`** — las fotos que sirve el sitio, y solo eso. La ruta es
+  parte de la URL de cada imagen (`/catalogo/...`), así que no se mueve.
+- **`catalogo/`** — lo que se edita a mano para armar el catálogo: `precios.csv`,
+  `ajustes/<marca>.json`, `llegadas.json` (cuándo entró cada par, generado) y
+  `catalogo-papishoes.json` (el respaldo que se importa en el panel, generado).
+
 Las fotos van en `public/catalogo/<linea>/<marca>/[horma/]archivo.jpg`, una
 carpeta por marca. `npm run catalogo` recorre todo, deduce nombre y marca, y
-escribe `src/data/catalogoGenerado.ts` + `catalogo-papishoes.json`. Las
-correcciones manuales (nombre, colorway, horma, descripción) van en
-`ajustes/<marca>.json`, por nombre de archivo sin extensión.
+escribe `src/data/catalogoGenerado.ts` + `catalogo/catalogo-papishoes.json`. Las
+correcciones manuales (nombre, colorway, horma, descripción, tallas) van en
+`catalogo/ajustes/<marca>.json`, por nombre de archivo sin extensión.
+
+Las tallas por defecto salen de la horma (hombre 39–45, mujer 35–40, unisex
+37–44). Un lote que no llegó en la curva completa lo dice en su ajuste, con un
+rango `"sizes": "40-44"` o una lista `"sizes": [40, 42, 44]`.
+
+Los zips de lotes sin desempacar van en `lotes/`, que no se versiona.
 
 Una marca con pocas referencias va en la carpeta `otras`: todas quedan bajo la
 marca `Otras` y comparten un filtro, con la marca real en el nombre del par.
 Solo se abre carpeta propia cuando la marca aguanta su propia sección.
 
-El precio va en `precios.csv`, una fila `marca:<Marca>,precio,antes` por lote.
+El precio va en `catalogo/precios.csv`, una fila `marca:<Marca>,precio,antes`.
 Cada marca conserva el suyo cuando entra la siguiente, así que no uses
 `--precio` para un lote nuevo: pisaría el de todas las demás.
 

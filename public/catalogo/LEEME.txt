@@ -16,7 +16,14 @@ Copia aqui las fotos del catalogo, UNA CARPETA POR MARCA.
 
 Luego, en la raiz del proyecto:
 
-  npm run catalogo -- --precio=180000 --antes=210000
+  npm run catalogo
 
-El script recorre todas las marcas y reescribe el catalogo completo. Las
-correcciones de nombre y colorway van en ajustes/<marca>.json.
+El script recorre todas las marcas y reescribe el catalogo completo.
+
+En la carpeta catalogo/ (la de la raiz, no esta) va lo que se edita a mano:
+
+  catalogo/precios.csv          precio por marca y por par
+  catalogo/ajustes/<marca>.json nombre, colorway, horma, tallas, descripcion
+
+Las tallas salen de la horma (hombre 39-45, mujer 35-40, unisex 37-44). Si el
+lote no llego completo, se dice en el ajuste: "sizes": "40-44" o [40, 42, 44].

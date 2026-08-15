@@ -111,6 +111,17 @@ api/                         Funciones de Vercel: lo único que escribe en la nu
 ├── imagen.ts                Guarda una foto y devuelve su dirección
 └── _lib/                    Almacén, sesión, intentos, saneado del documento
 
+catalogo/                    Lo que editas a mano para armar el catálogo
+├── precios.csv              Precio por marca y por par
+├── ajustes/<marca>.json     Nombre, colorway, horma, tallas, descripción
+├── llegadas.json            Cuándo entró cada par (lo escribe el script)
+└── catalogo-papishoes.json  Respaldo para importar en el panel (generado)
+
+public/catalogo/             Las fotos que sirve el sitio, <linea>/<marca>/
+lotes/                       Zips de lotes sin desempacar — no se versiona
+scripts/
+└── generar-catalogo.mjs     Arma el catálogo desde las fotos
+
 src/
 ├── main.tsx                 Punto de entrada
 ├── App.tsx                  Rutas y proveedores de contexto
@@ -130,9 +141,6 @@ src/
 │   └── utils.ts             Precios, enlaces de WhatsApp, archivos
 │
 ├── data/initialData.ts      Catálogo de ejemplo y ajustes de fábrica
-│
-├── scripts/
-│   └── generar-catalogo.mjs Arma el catálogo desde public/catalogo/
 │
 ├── components/
 │   ├── layout/              Navbar, Footer, Layout
@@ -187,7 +195,7 @@ buena es que las fotos viajen dentro del proyecto.
    para una sección propia: todas quedan bajo la marca **Otras** y comparten un
    solo filtro. El nombre del par sí dice de qué marca es (`Vans Old Skool
    Negro`), así que se encuentran buscando.
-2. Agrega el precio del lote a `precios.csv`, en la raíz:
+2. Agrega el precio del lote a `catalogo/precios.csv`:
 
    ```csv
    archivo,precio,antes
@@ -203,21 +211,31 @@ buena es que las fotos viajen dentro del proyecto.
 
    El script recorre **todas** las marcas y reescribe el catálogo completo, así
    que las marcas ya cargadas se conservan mientras sus fotos sigan en
-   `public/catalogo/` y su fila siga en `precios.csv`. Banderas: `--precio` y
-   `--antes` son el respaldo de lo que no aparezca en el CSV, `--marca=Adidas`
-   fuerza la marca si no usaste carpetas y `--linea=originales` fuerza la línea.
+   `public/catalogo/` y su fila siga en `catalogo/precios.csv`. Banderas:
+   `--precio` y `--antes` son el respaldo de lo que no aparezca en el CSV,
+   `--marca=Adidas` fuerza la marca si no usaste carpetas y `--linea=originales`
+   fuerza la línea.
 
-4. Corrige lo que quedó raro en `ajustes/<marca>.json` (nombre, colorway,
-   horma, descripción, línea, por nombre de archivo sin extensión) y vuelve a
-   correr el script. Hay un archivo por marca y se combinan todos, así que
-   corregir Nike no toca las correcciones de Adidas.
+4. Corrige lo que quedó raro en `catalogo/ajustes/<marca>.json` (nombre,
+   colorway, horma, descripción, línea, tallas, por nombre de archivo sin
+   extensión) y vuelve a correr el script. Hay un archivo por marca y se
+   combinan todos, así que corregir Nike no toca las correcciones de Adidas.
+
+   **Tallas.** Por defecto salen de la horma: hombre 39–45, mujer 35–40, unisex
+   37–44. Casi ningún lote llega completo, así que se dicen en el ajuste, con un
+   rango o con una lista:
+
+   ```json
+   "hugo-boss-ttnm-evo-blanco": { "sizes": "40-44" },
+   "nike-dunk-low-panda":       { "sizes": [40, 42, 44] }
+   ```
 
 El script escribe dos cosas:
 
 | Archivo | Para qué |
 |---|---|
 | `src/data/catalogoGenerado.ts` | **Es el catálogo que ven tus clientes** en el sitio publicado. Se sube con el proyecto. |
-| `catalogo-papishoes.json` | Para importar en **Panel › Ajustes › Restaurar respaldo** y ver el catálogo en tu propio navegador, que ya tiene datos guardados. |
+| `catalogo/catalogo-papishoes.json` | Para importar en **Panel › Ajustes › Restaurar respaldo** y ver el catálogo en tu propio navegador, que ya tiene datos guardados. |
 
 Los dos hacen falta: tu navegador ya tiene un catálogo en `localStorage` y este
 le gana al código, así que sin importar el JSON tú seguirías viendo el catálogo
@@ -228,7 +246,7 @@ informe en la terminal: qué pares quedaron sin precio, cuáles sin marca
 detectada y cuáles podrían ser fotos del mismo par mal nombradas.
 
 **Precios por par.** Si un lote no es todo al mismo precio, pon los que se
-salgan en `precios.csv` con el nombre del archivo sin extensión
+salgan en `catalogo/precios.csv` con el nombre del archivo sin extensión
 (`nike-dunk-low-panda,420000,480000`): esa fila le gana a la de su marca.
 
 **Cada marca es una sección.** El muro de marcas de la portada se arma con las
@@ -310,10 +328,12 @@ Hay tres capas, y en ese orden manda cada una:
    gana a la nube cuando tiene una edición más reciente que lo publicado, y en
    ese caso el panel avisa que hay cambios sin publicar.
 3. **El código** (`src/data/catalogoGenerado.ts`). El catálogo que sale de las
-   fotos con `npm run catalogo`. Es el punto de partida y vuelve a mandar cuando
-   se regenera: el documento de la nube guarda la huella del catálogo con el que
-   se publicó, y si el código trae otra, el inventario del código gana (los
-   ajustes y las entregas se siguen tomando de la nube).
+   fotos con `npm run catalogo`. Es el punto de partida, y al regenerarse no se
+   lleva por delante lo del panel: el documento de la nube guarda la huella del
+   catálogo con el que se publicó y, cuando el código trae otra, se fusiona par
+   por par. Manda el panel en lo suyo —lo que creó, lo que quitó y lo que
+   editó— y el código aporta el resto: sus pares nuevos y las fotos corregidas
+   de los que nadie tocó. Los ajustes y las entregas se toman de la nube.
 
 Cómo se publica:
 

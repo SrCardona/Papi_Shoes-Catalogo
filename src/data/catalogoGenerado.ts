@@ -3277,8 +3277,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       44
     ],
     "status": "bajo_encargo",
-    "isFeatured": true,
-    "isNewArrival": true,
+    "isFeatured": false,
+    "isNewArrival": false,
     "isOriginalCertified": true,
     "description": "",
     "details": {
@@ -3358,8 +3358,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       44
     ],
     "status": "bajo_encargo",
-    "isFeatured": true,
-    "isNewArrival": true,
+    "isFeatured": false,
+    "isNewArrival": false,
     "isOriginalCertified": true,
     "description": "",
     "details": {
@@ -3399,8 +3399,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       44
     ],
     "status": "bajo_encargo",
-    "isFeatured": true,
-    "isNewArrival": true,
+    "isFeatured": false,
+    "isNewArrival": false,
     "isOriginalCertified": true,
     "description": "",
     "details": {
@@ -3481,7 +3481,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "bajo_encargo",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": true,
     "description": "",
     "details": {
@@ -3522,7 +3522,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "bajo_encargo",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": true,
     "description": "",
     "details": {
@@ -3537,6 +3537,117 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "inquiriesCount": 0,
     "createdAt": "2026-08-14T15:29:51.536Z",
     "updatedAt": "2026-08-14T15:29:51.536Z"
+  },
+  {
+    "id": "sneaker-hugo-boss-monograma-azul",
+    "name": "BOSS Monograma Azul",
+    "brand": "Hugo Boss",
+    "model": "BOSS Monograma Azul",
+    "sku": "PAPI-1148",
+    "category": "general",
+    "gender": "hombre",
+    "price": 190000,
+    "originalPrice": 230000,
+    "images": [
+      "/catalogo/sneakers/hugo-boss/hombre/hugo-boss-monograma-azul.jpg"
+    ],
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": true,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "Perfil bajo del monograma en azul navy con suela blanca y apliques plateados.",
+    "details": {
+      "condition": "Nuevo en caja",
+      "colorway": "Navy / Silver",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-15T19:13:41.875Z",
+    "updatedAt": "2026-08-15T19:13:41.875Z"
+  },
+  {
+    "id": "sneaker-hugo-boss-monograma-negro-oro",
+    "name": "BOSS Monograma Negro Oro",
+    "brand": "Hugo Boss",
+    "model": "BOSS Monograma Negro Oro",
+    "sku": "PAPI-8848",
+    "category": "general",
+    "gender": "hombre",
+    "price": 190000,
+    "originalPrice": 230000,
+    "images": [
+      "/catalogo/sneakers/hugo-boss/hombre/hugo-boss-monograma-negro-oro.jpg"
+    ],
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": true,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "Perfil bajo con el monograma estampado en todo el cuerpo, cuero negro y detalles dorados en el talón y el costado.",
+    "details": {
+      "condition": "Nuevo en caja",
+      "colorway": "Black / Gold",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-15T19:13:41.875Z",
+    "updatedAt": "2026-08-15T19:13:41.875Z"
+  },
+  {
+    "id": "sneaker-hugo-boss-monograma-negro-plata",
+    "name": "BOSS Monograma Negro Plata",
+    "brand": "Hugo Boss",
+    "model": "BOSS Monograma Negro Plata",
+    "sku": "PAPI-5446",
+    "category": "general",
+    "gender": "hombre",
+    "price": 190000,
+    "originalPrice": 230000,
+    "images": [
+      "/catalogo/sneakers/hugo-boss/hombre/hugo-boss-monograma-negro-plata.jpg"
+    ],
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": true,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "El mismo perfil bajo del monograma, con los apliques en plata en vez de dorado.",
+    "details": {
+      "condition": "Nuevo en caja",
+      "colorway": "Black / Silver",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-15T19:13:41.875Z",
+    "updatedAt": "2026-08-15T19:13:41.875Z"
   },
   {
     "id": "sneaker-hugo-boss-parkour-run-carbon",
@@ -3563,7 +3674,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "bajo_encargo",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": true,
     "description": "La Parkour Run original, con la suela de perfil alto y el logo BOSS en el lateral.",
     "details": {
@@ -3604,7 +3715,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "bajo_encargo",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": true,
     "description": "",
     "details": {
@@ -3645,7 +3756,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "bajo_encargo",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": true,
     "description": "",
     "details": {
@@ -3686,7 +3797,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "bajo_encargo",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": true,
     "description": "",
     "details": {
@@ -3727,7 +3838,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "bajo_encargo",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": true,
     "description": "",
     "details": {
@@ -3768,7 +3879,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "bajo_encargo",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": true,
     "description": "Silueta baja en cuero blanco con suela de copa. La más vestidora del lote.",
     "details": {
@@ -3783,6 +3894,228 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "inquiriesCount": 0,
     "createdAt": "2026-08-14T15:29:51.536Z",
     "updatedAt": "2026-08-14T15:29:51.536Z"
+  },
+  {
+    "id": "sneaker-hugo-boss-runn-blanco-hielo",
+    "name": "BOSS Runn Blanco Hielo",
+    "brand": "Hugo Boss",
+    "model": "BOSS Runn Blanco Hielo",
+    "sku": "PAPI-8451",
+    "category": "general",
+    "gender": "hombre",
+    "price": 190000,
+    "originalPrice": 230000,
+    "images": [
+      "/catalogo/sneakers/hugo-boss/hombre/hugo-boss-runn-blanco-hielo.jpg"
+    ],
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "Runner retro en nylon y gamuza gris hielo, con filete negro en el talón. La más neutra de la serie.",
+    "details": {
+      "condition": "Nuevo en caja",
+      "colorway": "White / Ice Grey",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-15T19:13:41.875Z",
+    "updatedAt": "2026-08-15T19:13:41.875Z"
+  },
+  {
+    "id": "sneaker-hugo-boss-runn-blanco-verde",
+    "name": "BOSS Runn Blanco Verde",
+    "brand": "Hugo Boss",
+    "model": "BOSS Runn Blanco Verde",
+    "sku": "PAPI-5327",
+    "category": "general",
+    "gender": "hombre",
+    "price": 190000,
+    "originalPrice": 230000,
+    "images": [
+      "/catalogo/sneakers/hugo-boss/hombre/hugo-boss-runn-blanco-verde.jpg"
+    ],
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "Runner retro en nylon y gamuza, con el logo BOSS en el lateral y suela de doble capa. El verde va sobre blanco, así que combina con jean claro y con negro.",
+    "details": {
+      "condition": "Nuevo en caja",
+      "colorway": "White / Green",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-15T19:13:41.875Z",
+    "updatedAt": "2026-08-15T19:13:41.875Z"
+  },
+  {
+    "id": "sneaker-hugo-boss-runn-taupe",
+    "name": "BOSS Runn Taupe",
+    "brand": "Hugo Boss",
+    "model": "BOSS Runn Taupe",
+    "sku": "PAPI-2120",
+    "category": "general",
+    "gender": "hombre",
+    "price": 190000,
+    "originalPrice": 230000,
+    "images": [
+      "/catalogo/sneakers/hugo-boss/hombre/hugo-boss-runn-taupe.jpg"
+    ],
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "Runner retro en nylon y gamuza tono taupe, suela crema. Tono tierra para quien no quiere blanco.",
+    "details": {
+      "condition": "Nuevo en caja",
+      "colorway": "Taupe",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-15T19:13:41.875Z",
+    "updatedAt": "2026-08-15T19:13:41.875Z"
+  },
+  {
+    "id": "sneaker-hugo-boss-runner-gamuza-gris",
+    "name": "BOSS Runner Gamuza Gris",
+    "brand": "Hugo Boss",
+    "model": "BOSS Runner Gamuza Gris",
+    "sku": "PAPI-1113",
+    "category": "general",
+    "gender": "hombre",
+    "price": 190000,
+    "originalPrice": 230000,
+    "images": [
+      "/catalogo/sneakers/hugo-boss/hombre/hugo-boss-runner-gamuza-gris.jpg"
+    ],
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "Runner de suela dentada en gris, con gamuza en la puntera y el talón y el monograma en el costado.",
+    "details": {
+      "condition": "Nuevo en caja",
+      "colorway": "Grey",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-15T19:13:41.875Z",
+    "updatedAt": "2026-08-15T19:13:41.875Z"
+  },
+  {
+    "id": "sneaker-hugo-boss-runner-gamuza-negro",
+    "name": "BOSS Runner Gamuza Negro",
+    "brand": "Hugo Boss",
+    "model": "BOSS Runner Gamuza Negro",
+    "sku": "PAPI-6339",
+    "category": "general",
+    "gender": "hombre",
+    "price": 190000,
+    "originalPrice": 230000,
+    "images": [
+      "/catalogo/sneakers/hugo-boss/hombre/hugo-boss-runner-gamuza-negro.jpg"
+    ],
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "Runner de suela dentada en nylon y gamuza, con el monograma en el panel del talón. Negro completo.",
+    "details": {
+      "condition": "Nuevo en caja",
+      "colorway": "Black",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-15T19:13:41.875Z",
+    "updatedAt": "2026-08-15T19:13:41.875Z"
+  },
+  {
+    "id": "sneaker-hugo-boss-runner-gamuza-negro-gum",
+    "name": "BOSS Runner Gamuza Negro Gum",
+    "brand": "Hugo Boss",
+    "model": "BOSS Runner Gamuza Negro Gum",
+    "sku": "PAPI-4007",
+    "category": "general",
+    "gender": "hombre",
+    "price": 190000,
+    "originalPrice": 230000,
+    "images": [
+      "/catalogo/sneakers/hugo-boss/hombre/hugo-boss-runner-gamuza-negro-gum.jpg"
+    ],
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "Runner de suela dentada en negro con piso color caramelo y el logo BOSS en dorado.",
+    "details": {
+      "condition": "Nuevo en caja",
+      "colorway": "Black / Gum",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-15T19:13:41.875Z",
+    "updatedAt": "2026-08-15T19:13:41.875Z"
   },
   {
     "id": "sneaker-hugo-boss-running-mesh",
@@ -3809,7 +4142,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     ],
     "status": "bajo_encargo",
     "isFeatured": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isOriginalCertified": true,
     "description": "",
     "details": {
@@ -3865,6 +4198,302 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "inquiriesCount": 0,
     "createdAt": "2026-08-14T15:29:51.536Z",
     "updatedAt": "2026-08-14T15:29:51.536Z"
+  },
+  {
+    "id": "sneaker-hugo-boss-ttnm-evo-azul-navy",
+    "name": "BOSS TTNM EVO Azul Navy",
+    "brand": "Hugo Boss",
+    "model": "BOSS TTNM EVO Azul Navy",
+    "sku": "PAPI-1254",
+    "category": "general",
+    "gender": "hombre",
+    "price": 190000,
+    "originalPrice": 230000,
+    "images": [
+      "/catalogo/sneakers/hugo-boss/hombre/hugo-boss-ttnm-evo-azul-navy.jpg"
+    ],
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "TTNM EVO en azul navy con suela blanca. El contraste la hace la más vestidora del grupo.",
+    "details": {
+      "condition": "Nuevo en caja",
+      "colorway": "Navy / White",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-15T19:13:41.875Z",
+    "updatedAt": "2026-08-15T19:13:41.875Z"
+  },
+  {
+    "id": "sneaker-hugo-boss-ttnm-evo-blanco",
+    "name": "BOSS TTNM EVO Blanco",
+    "brand": "Hugo Boss",
+    "model": "BOSS TTNM EVO Blanco",
+    "sku": "PAPI-1145",
+    "category": "general",
+    "gender": "hombre",
+    "price": 190000,
+    "originalPrice": 230000,
+    "images": [
+      "/catalogo/sneakers/hugo-boss/hombre/hugo-boss-ttnm-evo-blanco.jpg"
+    ],
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "TTNM EVO toda en blanco, con el monograma marcado en relieve. La más pedida de la silueta.",
+    "details": {
+      "condition": "Nuevo en caja",
+      "colorway": "White",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-15T19:13:41.875Z",
+    "updatedAt": "2026-08-15T19:13:41.875Z"
+  },
+  {
+    "id": "sneaker-hugo-boss-ttnm-evo-camel",
+    "name": "BOSS TTNM EVO Camel",
+    "brand": "Hugo Boss",
+    "model": "BOSS TTNM EVO Camel",
+    "sku": "PAPI-9005",
+    "category": "general",
+    "gender": "hombre",
+    "price": 190000,
+    "originalPrice": 230000,
+    "images": [
+      "/catalogo/sneakers/hugo-boss/hombre/hugo-boss-ttnm-evo-camel.jpg"
+    ],
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "TTNM EVO en camel con suela blanca y gris. Monograma tejido en todo el empeine.",
+    "details": {
+      "condition": "Nuevo en caja",
+      "colorway": "Camel",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-15T19:13:41.875Z",
+    "updatedAt": "2026-08-15T19:13:41.875Z"
+  },
+  {
+    "id": "sneaker-hugo-boss-ttnm-evo-gris",
+    "name": "BOSS TTNM EVO Gris",
+    "brand": "Hugo Boss",
+    "model": "BOSS TTNM EVO Gris",
+    "sku": "PAPI-1298",
+    "category": "general",
+    "gender": "hombre",
+    "price": 190000,
+    "originalPrice": 230000,
+    "images": [
+      "/catalogo/sneakers/hugo-boss/hombre/hugo-boss-ttnm-evo-gris.jpg"
+    ],
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isOriginalCertified": false,
+    "description": "TTNM EVO monocromática en gris, con el monograma en relieve sobre el empeine.",
+    "details": {
+      "condition": "Nuevo en caja",
+      "colorway": "Grey",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-15T19:13:41.875Z",
+    "updatedAt": "2026-08-15T19:13:41.875Z"
+  },
+  {
+    "id": "sneaker-hugo-boss-ttnm-evo-knit-crema",
+    "name": "BOSS TTNM EVO Knit Crema",
+    "brand": "Hugo Boss",
+    "model": "BOSS TTNM EVO Knit Crema",
+    "sku": "PAPI-3921",
+    "category": "general",
+    "gender": "hombre",
+    "price": 190000,
+    "originalPrice": 230000,
+    "images": [
+      "/catalogo/sneakers/hugo-boss/hombre/hugo-boss-ttnm-evo-knit-crema.jpg"
+    ],
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isOriginalCertified": false,
+    "description": "TTNM EVO en tejido de punto color crema, con gamuza al tono y logo BOSS dorado.",
+    "details": {
+      "condition": "Nuevo en caja",
+      "colorway": "Cream",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-15T19:13:41.875Z",
+    "updatedAt": "2026-08-15T19:13:41.875Z"
+  },
+  {
+    "id": "sneaker-hugo-boss-ttnm-evo-knit-gris-hielo",
+    "name": "BOSS TTNM EVO Knit Gris Hielo",
+    "brand": "Hugo Boss",
+    "model": "BOSS TTNM EVO Knit Gris Hielo",
+    "sku": "PAPI-1134",
+    "category": "general",
+    "gender": "hombre",
+    "price": 190000,
+    "originalPrice": 230000,
+    "images": [
+      "/catalogo/sneakers/hugo-boss/hombre/hugo-boss-ttnm-evo-knit-gris-hielo.jpg"
+    ],
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isOriginalCertified": false,
+    "description": "Versión en tejido de punto de la TTNM EVO: entra como una media y lleva el logo BOSS en dorado. Gris hielo con gamuza al tono.",
+    "details": {
+      "condition": "Nuevo en caja",
+      "colorway": "Ice Grey",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-15T19:13:41.875Z",
+    "updatedAt": "2026-08-15T19:13:41.875Z"
+  },
+  {
+    "id": "sneaker-hugo-boss-ttnm-evo-knit-navy",
+    "name": "BOSS TTNM EVO Knit Navy",
+    "brand": "Hugo Boss",
+    "model": "BOSS TTNM EVO Knit Navy",
+    "sku": "PAPI-3244",
+    "category": "general",
+    "gender": "hombre",
+    "price": 190000,
+    "originalPrice": 230000,
+    "images": [
+      "/catalogo/sneakers/hugo-boss/hombre/hugo-boss-ttnm-evo-knit-navy.jpg"
+    ],
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isOriginalCertified": false,
+    "description": "TTNM EVO en tejido de punto azul navy, con suela blanca y el nombre de la silueta impreso en el lateral.",
+    "details": {
+      "condition": "Nuevo en caja",
+      "colorway": "Navy",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-15T19:13:41.875Z",
+    "updatedAt": "2026-08-15T19:13:41.875Z"
+  },
+  {
+    "id": "sneaker-hugo-boss-ttnm-evo-negro-gum",
+    "name": "BOSS TTNM EVO Negro Gum",
+    "brand": "Hugo Boss",
+    "model": "BOSS TTNM EVO Negro Gum",
+    "sku": "PAPI-1156",
+    "category": "general",
+    "gender": "hombre",
+    "price": 190000,
+    "originalPrice": 230000,
+    "images": [
+      "/catalogo/sneakers/hugo-boss/hombre/hugo-boss-ttnm-evo-negro-gum.jpg"
+    ],
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isOriginalCertified": false,
+    "description": "Silueta TTNM EVO con el monograma tejido en el empeine y suela estriada. Negro completo con piso color caramelo.",
+    "details": {
+      "condition": "Nuevo en caja",
+      "colorway": "Black / Gum",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-15T19:13:41.875Z",
+    "updatedAt": "2026-08-15T19:13:41.875Z"
   },
   {
     "id": "sneaker-calvin-klein-acre",
