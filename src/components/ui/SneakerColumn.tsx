@@ -62,7 +62,13 @@ export function SneakerColumn({ sneaker, index = 0 }: SneakerColumnProps) {
           )}
         </div>
 
-        {/* Fuste: la imagen sobre estriado */}
+        {/* Fuste: la imagen entera sobre estriado.
+            Iba recortada a cuadrado para que la columnata quedara pareja, pero
+            el catálogo se surte de fotos de proveedor muy apaisadas y el
+            recorte se comía el par: en la línea Originales, 80 de 88 fotos
+            perdían un tercio o más y la tarjeta enseñaba media puntera. Un par
+            que no se reconoce no se abre, así que manda verlo completo y el
+            cuadro se rellena con el estriado. */}
         <div
           className={cx(
             'relative aspect-square overflow-hidden bg-obsidian fluted',
@@ -73,7 +79,7 @@ export function SneakerColumn({ sneaker, index = 0 }: SneakerColumnProps) {
             src={sneaker.images[0]}
             alt={sneaker.name}
             sizes="(max-width: 640px) 50vw, (max-width: 1280px) 33vw, 25vw"
-            className="w-full h-full object-cover transition-transform duration-[900ms] ease-out group-hover:scale-[1.07]"
+            className="w-full h-full object-contain transition-transform duration-[900ms] ease-out group-hover:scale-[1.07]"
           />
 
           {/* En móvil el descuento se marca sobre la foto, que es donde queda
