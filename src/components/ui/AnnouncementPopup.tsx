@@ -12,10 +12,33 @@ import { SmartImage } from './SmartImage';
  * volver a la portada desde el catálogo no reaparece: quien ya está adentro
  * navegando no es alguien que esté llegando, y un anuncio que salta cada vez
  * que se toca "Inicio" deja de ser un anuncio y se vuelve un peaje.
+ *
+ * Y solo en el dominio de la tienda: la dirección de Vercel se usa para revisar
+ * el sitio antes de publicarlo, y ahí el flyer estorba.
  */
 
 /** Margen antes de aparecer: primero que cargue la página, y después el flyer. */
 const RETARDO_MS = 1500;
+
+/**
+ * El anuncio es de la tienda, así que solo sale en el dominio de la tienda.
+ *
+ * Van los dos nombres a propósito: `papishoes.shop` redirige a `www`, que es
+ * donde de verdad aterriza el visitante, pero si algún día se quita esa
+ * redirección el anuncio tiene que seguir saliendo.
+ */
+const DOMINIOS_DE_LA_TIENDA = ['papishoes.shop', 'www.papishoes.shop'];
+
+/**
+ * En desarrollo se deja pasar para poder verlo mientras se trabaja. En el sitio
+ * compilado `DEV` es falso, así que ahí solo queda el dominio: ni la dirección
+ * de Vercel ni una copia del sitio en otro lado muestran el flyer.
+ */
+function esElSitioDeLaTienda(): boolean {
+  if (typeof window === 'undefined') return false;
+  if (import.meta.env.DEV) return true;
+  return DOMINIOS_DE_LA_TIENDA.includes(window.location.hostname);
+}
 
 /**
  * Ya se mostró en esta carga del documento.
@@ -68,6 +91,7 @@ export function AnnouncementPopup() {
 
   useEffect(() => {
     if (!activo || yaSeMostro || !esEntradaDirecta) return;
+    if (!esElSitioDeLaTienda()) return;
     const temporizador = setTimeout(() => {
       yaSeMostro = true;
       setAbierto(true);

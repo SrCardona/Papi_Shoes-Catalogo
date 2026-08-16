@@ -198,11 +198,12 @@ function PopupAnnouncementEditor({
       </div>
 
       <p className="text-[10.5px] text-marble/30 leading-relaxed pt-4 border-t border-white/8">
-        El anuncio sale cada vez que alguien abre el sitio: escribiendo la
+        El anuncio sale cada vez que alguien abre{' '}
+        <span className="text-marble/45">papishoes.shop</span>: escribiendo la
         dirección, desde un marcador o desde un enlace de Instagram. No sale al
-        volver a la portada desde el catálogo, ni en las demás páginas. Para
-        cambiar el anuncio basta con cambiar la imagen; para quitarlo, apaga el
-        interruptor de arriba.
+        volver a la portada desde el catálogo, ni en las demás páginas, ni en la
+        dirección de Vercel que usas para revisar. Para cambiar el anuncio basta
+        con cambiar la imagen; para quitarlo, apaga el interruptor de arriba.
       </p>
 
       {error && <p className="text-[11px] text-red-300/80">{error}</p>}
