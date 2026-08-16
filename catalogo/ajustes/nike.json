@@ -459,5 +459,52 @@
   "nike-free-metcon-morado": {
     "name": "Nike Free Metcon Morado",
     "colorway": "Purple / White"
+  },
+
+  "nike-calm-mule-negro": {
+    "name": "Nike Calm Mule Negro",
+    "colorway": "Black",
+    "description": "Mule de espuma de una sola pieza, con la suela ondulada y los pines naranja en el piso. Entra sin manos y se lava con agua."
+  },
+  "nike-calm-mule-blanco": {
+    "name": "Nike Calm Mule Blanco",
+    "colorway": "White",
+    "description": "El Calm Mule en blanco entero, con el swoosh negro en el costado y los pines rojos en la suela."
+  },
+  "nike-calm-mule-crema": {
+    "name": "Nike Calm Mule Crema",
+    "colorway": "Cream",
+    "description": "Calm Mule en crema, con el swoosh gris y el piso de pines naranja. El tono más discreto de la serie."
+  },
+  "nike-calm-mule-gris": {
+    "name": "Nike Calm Mule Gris",
+    "colorway": "Grey",
+    "description": "Calm Mule en gris claro con el swoosh al tono y los pines naranja en la suela."
+  },
+  "nike-calm-mule-verde": {
+    "name": "Nike Calm Mule Verde",
+    "colorway": "Teal",
+    "description": "Calm Mule en verde petróleo, con el swoosh plateado y los pines naranja. El color más fuerte del lote."
+  },
+  "nike-calm-mule-coral": {
+    "name": "Nike Calm Mule Coral",
+    "colorway": "Coral",
+    "description": "Calm Mule en coral encendido, monocromático de la suela al empeine."
+  },
+  "nike-calm-mule-fragment-negro": {
+    "name": "Nike Calm Mule Fragment Negro",
+    "colorway": "Black / Blue",
+    "description": "Calm Mule negro con el empeine en tela de toalla, los pines azules y el rayo de Fragment en el talón."
+  },
+
+  "nike-motiva-gris": {
+    "name": "Nike Motiva Gris",
+    "colorway": "Grey / White",
+    "description": "Zapatilla de caminata con suela mecedora y el piso de pines naranja que reparte la pisada. Empeine de malla gris."
+  },
+  "nike-motiva-crema": {
+    "name": "Nike Motiva Crema",
+    "colorway": "Cream / Beige",
+    "description": "La Motiva en crema, con la misma suela mecedora y el empeine de malla al tono."
   }
 }
