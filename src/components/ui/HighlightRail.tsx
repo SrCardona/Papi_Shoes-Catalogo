@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useCallback, useEffect, useState } from 'react';
 import {
   ChevronLeft,
   ChevronRight,
@@ -107,6 +107,10 @@ export function HighlightRail() {
   const { deliveries, settings } = useStore();
   const [active, setActive] = useState<StoryHighlight | null>(null);
 
+  /* Estable: el visor la usa dentro de sus efectos, y una flecha nueva en cada
+     render de esta lista le reiniciaría el temporizador. */
+  const close = useCallback(() => setActive(null), []);
+
   /**
    * Un solo sitio decide qué hace cada círculo. Los que abren WhatsApp o
    * navegan no montan el visor: sería un paso de más para llegar a algo que
@@ -183,7 +187,7 @@ export function HighlightRail() {
         </div>
       </section>
 
-      {active && <StoryViewer story={active} onClose={() => setActive(null)} />}
+      {active && <StoryViewer story={active} onClose={close} />}
     </>
   );
 }
@@ -211,8 +215,16 @@ function StoryViewerContent({
   const slide = story.slides[index];
   const isLast = index === story.slides.length - 1;
 
-  const next = () => (isLast ? onClose() : setIndex((i) => i + 1));
-  const prev = () => setIndex((i) => Math.max(0, i - 1));
+  /* Estables a propósito: los dos efectos de abajo las usan, y si cambiaran de
+     identidad en cada render el temporizador se reiniciaría solo y la
+     diapositiva no avanzaría nunca. `next` solo se rehace cuando `isLast`
+     cambia de valor, que pasa junto con `index` —que ya reinicia el
+     temporizador—, así que esto no agrega ni una vuelta de más. */
+  const next = useCallback(
+    () => (isLast ? onClose() : setIndex((i) => i + 1)),
+    [isLast, onClose],
+  );
+  const prev = useCallback(() => setIndex((i) => Math.max(0, i - 1)), []);
 
   useEffect(() => {
     if (paused) return;
@@ -227,7 +239,7 @@ function StoryViewerContent({
       }
     }, 50);
     return () => clearInterval(timer);
-  }, [index, paused]);
+  }, [index, paused, next]);
 
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
@@ -241,7 +253,7 @@ function StoryViewerContent({
       window.removeEventListener('keydown', onKey);
       document.body.style.overflow = '';
     };
-  }, [index]);
+  }, [index, next, prev, onClose]);
 
   return (
     <div
