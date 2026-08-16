@@ -16,6 +16,7 @@
 import type {
   CatalogDecisions,
   Delivery,
+  PopupAnnouncement,
   Sneaker,
   SneakerBrand,
   SneakerCategory,
@@ -24,7 +25,12 @@ import type {
   StoreSettings,
   StorySlide,
 } from '../types';
-import { sanitizeImageUrl, sanitizeText, uuid } from './security.js';
+import {
+  sanitizeImageUrl,
+  sanitizeLinkUrl,
+  sanitizeText,
+  uuid,
+} from './security.js';
 
 const BRANDS: SneakerBrand[] = [
   'Nike',
@@ -223,6 +229,26 @@ export function validateSlides(raw: unknown): StorySlide[] {
     .filter((s): s is StorySlide => s !== null);
 }
 
+/* ── Anuncio emergente ───────────────────────────────────────────────────
+   Un anuncio sin imagen válida no se puede mostrar, y uno sin id no se podría
+   recordar como visto —le reaparecería al visitante en cada carga—, así que en
+   los dos casos se devuelve apagado en vez de a medias.                      */
+
+export function validatePopupAnnouncement(raw: unknown): PopupAnnouncement {
+  const p = (raw ?? {}) as Record<string, unknown>;
+  const image = sanitizeImageUrl(p.image);
+  const id = sanitizeText(p.id, 80);
+  const sinImagen = !image || image.startsWith('data:image/svg');
+
+  return {
+    id,
+    enabled: Boolean(p.enabled) && Boolean(id) && !sinImagen,
+    image: sinImagen ? '' : image,
+    link: sanitizeLinkUrl(p.link) || undefined,
+    alt: sanitizeText(p.alt, 160),
+  };
+}
+
 /**
  * Valida ajustes importados. `current` aporta los valores de respaldo, y las
  * credenciales NUNCA se toman del archivo: un respaldo no puede reescribir
@@ -267,6 +293,10 @@ export function validateSettings(
     reviewSlides: Array.isArray(s.reviewSlides)
       ? validateSlides(s.reviewSlides)
       : current.reviewSlides,
+    // Un respaldo sin anuncio no debe apagar el que esté puesto.
+    popupAnnouncement: s.popupAnnouncement
+      ? validatePopupAnnouncement(s.popupAnnouncement)
+      : current.popupAnnouncement,
     // Credenciales preservadas a propósito — ver comentario superior.
     adminUsername: current.adminUsername,
     adminPinHash: current.adminPinHash,

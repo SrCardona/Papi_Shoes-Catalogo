@@ -19,6 +19,7 @@ import type {
 import {
   validateCatalogDecisions,
   validateDeliveries,
+  validatePopupAnnouncement,
   validateSlides,
   validateSneakers,
 } from '../../src/lib/validation.js';
@@ -120,6 +121,10 @@ function saneaAjustes(raw: unknown): AjustesPublicados {
   }
   if (Array.isArray(entrada.reviewSlides)) {
     salida.reviewSlides = validateSlides(entrada.reviewSlides);
+  }
+
+  if (entrada.popupAnnouncement) {
+    salida.popupAnnouncement = validatePopupAnnouncement(entrada.popupAnnouncement);
   }
 
   return salida;

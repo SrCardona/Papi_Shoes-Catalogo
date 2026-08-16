@@ -9,6 +9,7 @@ import { Colonnade } from '../components/ui/SneakerColumn';
 import { SectionHeader } from '../components/ui/SectionHeader';
 import { HighlightRail } from '../components/ui/HighlightRail';
 import { DeliveryWall } from '../components/ui/DeliveryWall';
+import { AnnouncementPopup } from '../components/ui/AnnouncementPopup';
 import { generateDirectWhatsAppContact } from '../lib/utils';
 
 /** Los pares que caben en la columnata del altar sin abrir una segunda fila. */
@@ -68,6 +69,10 @@ export function HomePage() {
 
   return (
     <>
+      {/* Solo aquí: el anuncio recibe a quien llega, no persigue a quien ya
+          está mirando el catálogo. */}
+      <AnnouncementPopup />
+
       {/* ═══ FRONTÓN: la fachada del templo ═══════════════════════════════ */}
       <section className="relative sanctum-glow overflow-hidden">
         {/* Columnata de fondo: cinco fustes de luz tenue */}

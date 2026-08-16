@@ -207,6 +207,31 @@ export function sanitizeImageUrl(url: unknown): string {
 
 export const IMAGE_PLACEHOLDER = PLACEHOLDER;
 
+/**
+ * Saneamiento de un enlace de navegación, que no es lo mismo que el de una
+ * imagen: aquí `data:` no puede pasar —un `data:text/html` navegaría a una
+ * página escrita por quien mandó el enlace— y el marcador de "sin imagen" no
+ * tiene sentido, así que lo que no sirve devuelve cadena vacía y quien llame
+ * decide no pintar el enlace.
+ *
+ * Pasan `https://` y las rutas del propio sitio (`/originales`). Se rechaza
+ * `javascript:`, `data:`, `http://` sin cifrar y `//otro-dominio.com`, que el
+ * navegador leería como protocolo relativo.
+ */
+export function sanitizeLinkUrl(url: unknown): string {
+  if (typeof url !== 'string') return '';
+  const trimmed = url.trim();
+  if (/^https:\/\/[^\s"'<>]+$/i.test(trimmed)) return trimmed;
+  if (
+    !trimmed.startsWith('//') &&
+    !trimmed.includes('..') &&
+    /^\/[a-z0-9._~\-/%()'!*+,&=:@?#\s]*$/i.test(trimmed)
+  ) {
+    return trimmed;
+  }
+  return '';
+}
+
 /** Recorta y limpia texto libre antes de guardarlo. */
 export function sanitizeText(value: unknown, maxLength = 600): string {
   if (typeof value !== 'string') return '';

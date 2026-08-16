@@ -120,6 +120,28 @@ export interface StoryHighlight {
   behavior?: StoryBehavior;
 }
 
+/**
+ * El flyer que se muestra al entrar a la portada.
+ *
+ * Es un anuncio ocasional —una fiesta, un lote que llega— y no una pieza fija
+ * del sitio, así que vive en los ajustes y se prende y apaga desde el panel.
+ */
+export interface PopupAnnouncement {
+  /**
+   * Identificador del anuncio. Quien lo cierra no lo vuelve a ver, y esa
+   * decisión se guarda contra este id: al publicar un flyer nuevo se cambia el
+   * id y el anuncio vuelve a aparecerle a todos, incluso a los que ya cerraron
+   * el anterior.
+   */
+  id: string;
+  enabled: boolean;
+  image: string;
+  /** Opcional: a dónde lleva al tocar el flyer. Se abre en pestaña nueva. */
+  link?: string;
+  /** Qué dice el flyer, para quien no puede verlo. */
+  alt: string;
+}
+
 export interface StoreSettings {
   storeName: string;
   tagline: string;
@@ -148,6 +170,8 @@ export interface StoreSettings {
   shippingSlides: StorySlide[];
   promoSlides: StorySlide[];
   reviewSlides: StorySlide[];
+  /** El flyer de bienvenida. Ver `PopupAnnouncement`. */
+  popupAnnouncement: PopupAnnouncement;
 }
 
 /**
