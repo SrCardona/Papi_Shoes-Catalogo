@@ -5,13 +5,15 @@ import {
   ImagePlus,
   KeyRound,
   Loader2,
+  Megaphone,
   Plus,
   RotateCcw,
   Save,
   Trash2,
   Upload,
+  X,
 } from 'lucide-react';
-import type { StoreSettings, StorySlide } from '../types';
+import type { PopupAnnouncement, StoreSettings, StorySlide } from '../types';
 import { useStore } from '../context/StoreContext';
 import { useAuth } from '../context/AuthContext';
 import {
@@ -19,7 +21,12 @@ import {
   validateSettings,
   validateSneakers,
 } from '../lib/validation';
-import { sanitizeImageUrl, sanitizeText, sha256 } from '../lib/security';
+import {
+  sanitizeImageUrl,
+  sanitizeLinkUrl,
+  sanitizeText,
+  sha256,
+} from '../lib/security';
 import { NubePanel } from './NubeSync';
 import { SmartImage } from '../components/ui/SmartImage';
 import { compressImageFile, cx, formatPhoneDisplay } from '../lib/utils';
@@ -31,6 +38,215 @@ const label =
   'block text-[9px] font-semibold uppercase tracking-[0.2em] text-marble/40 mb-2';
 
 type Notice = { tone: 'ok' | 'error'; text: string } | null;
+
+/** Un id nuevo cada vez: es lo que hace que el anuncio vuelva a mostrarse. */
+const nuevoIdAnuncio = () => `anuncio-${Date.now().toString(36)}`;
+
+/**
+ * Editor del flyer de bienvenida.
+ *
+ * El id es la pieza que cuesta explicar y la que más importa: quien cierra el
+ * anuncio no lo vuelve a ver, y esa decisión queda guardada contra el id. Por
+ * eso cambiar la imagen genera un id nuevo automáticamente —un flyer distinto
+ * es un anuncio distinto y tiene que llegarle también a quien ya cerró el
+ * anterior— y además queda el botón para volver a mostrar el mismo.
+ */
+function PopupAnnouncementEditor({
+  value,
+  onChange,
+}: {
+  value: PopupAnnouncement;
+  onChange: (next: PopupAnnouncement) => void;
+}) {
+  const fileRef = useRef<HTMLInputElement>(null);
+  const [urlImagen, setUrlImagen] = useState('');
+  const [subiendo, setSubiendo] = useState(false);
+  const [error, setError] = useState<string | null>(null);
+
+  const ponerImagen = (image: string) =>
+    onChange({ ...value, image, id: nuevoIdAnuncio() });
+
+  const subirArchivo = async (e: React.ChangeEvent<HTMLInputElement>) => {
+    const file = e.target.files?.[0];
+    if (!file) return;
+    setSubiendo(true);
+    setError(null);
+    try {
+      ponerImagen(await compressImageFile(file));
+    } catch (err) {
+      setError(err instanceof Error ? err.message : 'No se pudo cargar la imagen.');
+    } finally {
+      setSubiendo(false);
+      if (fileRef.current) fileRef.current.value = '';
+    }
+  };
+
+  const pegarUrl = () => {
+    if (!urlImagen.trim()) return;
+    const limpia = sanitizeImageUrl(urlImagen);
+    if (limpia.startsWith('data:image/svg')) {
+      setError('Esa dirección no sirve. Debe empezar por https:// o ser una ruta del sitio, como /anuncios/flyer.jpg');
+      return;
+    }
+    setError(null);
+    ponerImagen(limpia);
+    setUrlImagen('');
+  };
+
+  const enlaceLimpio = sanitizeLinkUrl(value.link);
+  const enlaceRoto = Boolean(value.link) && !enlaceLimpio;
+
+  return (
+    <div className="bg-basalt border border-white/10 p-5 space-y-5">
+      <label className="flex items-center gap-2.5 cursor-pointer">
+        <input
+          type="checkbox"
+          checked={value.enabled}
+          onChange={(e) => onChange({ ...value, enabled: e.target.checked })}
+          className="w-4 h-4 accent-lapis"
+        />
+        <span className="text-[12px] text-marble/70">
+          Mostrar el anuncio al entrar a la portada
+        </span>
+      </label>
+
+      {!value.image && (
+        <p className="text-[11px] text-marble/35 leading-relaxed">
+          Sin imagen el anuncio no se muestra, aunque esté prendido.
+        </p>
+      )}
+
+      <div className="grid sm:grid-cols-2 gap-5">
+        <div className="space-y-2.5">
+          <span className={label}>Imagen del flyer</span>
+          <button
+            type="button"
+            onClick={() => fileRef.current?.click()}
+            disabled={subiendo}
+            className="flex items-center justify-center gap-2 w-full py-3 border border-white/14 text-marble/65 hover:text-marble hover:border-silver/45 text-[10px] font-semibold uppercase tracking-[0.18em] disabled:opacity-50 transition-colors"
+          >
+            {subiendo ? (
+              <Loader2 className="w-4 h-4 animate-spin" />
+            ) : (
+              <Upload className="w-4 h-4" />
+            )}
+            {subiendo ? 'Procesando…' : 'Subir flyer'}
+          </button>
+          <input
+            ref={fileRef}
+            type="file"
+            accept="image/*"
+            onChange={subirArchivo}
+            className="hidden"
+          />
+
+          <div className="flex gap-2">
+            <input
+              value={urlImagen}
+              onChange={(e) => setUrlImagen(e.target.value)}
+              onKeyDown={(e) => {
+                if (e.key === 'Enter') {
+                  e.preventDefault();
+                  pegarUrl();
+                }
+              }}
+              placeholder="o pegar /anuncios/flyer.jpg"
+              className={field}
+            />
+            <button
+              type="button"
+              onClick={pegarUrl}
+              className="px-4 border border-white/14 text-marble/65 hover:text-marble hover:border-silver/45 transition-colors"
+              aria-label="Usar esta dirección"
+            >
+              <Plus className="w-4 h-4" />
+            </button>
+          </div>
+          <p className="text-[10.5px] text-marble/30 leading-relaxed">
+            Vertical, formato historia (9:16). Lo mejor es dejarla en{' '}
+            <code className="text-silver">public/anuncios/</code> y poner aquí su
+            ruta: así no ocupa espacio del navegador.
+          </p>
+        </div>
+
+        <div className="space-y-4">
+          <div>
+            <label className={label} htmlFor="a-link">Enlace al tocar (opcional)</label>
+            <input
+              id="a-link"
+              value={value.link ?? ''}
+              onChange={(e) => onChange({ ...value, link: e.target.value })}
+              placeholder="https://wa.me/… o /catalogo"
+              className={field}
+            />
+            {enlaceRoto && (
+              <p className="text-[10.5px] text-red-300/80 mt-1.5">
+                No se va a guardar: debe empezar por https:// o por /.
+              </p>
+            )}
+          </div>
+
+          <div>
+            <label className={label} htmlFor="a-alt">Qué dice el flyer</label>
+            <textarea
+              id="a-alt"
+              rows={3}
+              value={value.alt}
+              onChange={(e) => onChange({ ...value, alt: e.target.value })}
+              placeholder="Chiva rumbera, 5 de septiembre, cover 40K…"
+              className={cx(field, 'resize-y')}
+            />
+            <p className="text-[10.5px] text-marble/30 mt-1.5 leading-relaxed">
+              Para quien no puede ver la imagen, y para cuando la foto no carga.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div className="flex flex-wrap items-center justify-between gap-3 pt-4 border-t border-white/8">
+        <p className="text-[10.5px] text-marble/30 leading-relaxed max-w-md">
+          Quien cierra el anuncio no lo vuelve a ver. Al cambiar la imagen se
+          renueva solo; usa el botón si quieres volver a mostrar el mismo flyer.
+          <br />
+          <span className="text-marble/45">Id actual: </span>
+          <code className="text-silver">{value.id || '—'}</code>
+        </p>
+        <button
+          type="button"
+          onClick={() => onChange({ ...value, id: nuevoIdAnuncio() })}
+          className="flex items-center gap-2 px-4 py-2.5 border border-white/14 text-marble/65 hover:text-marble hover:border-silver/45 text-[10px] font-semibold uppercase tracking-[0.18em] transition-colors"
+        >
+          <RotateCcw className="w-3.5 h-3.5" />
+          Mostrar de nuevo a todos
+        </button>
+      </div>
+
+      {error && <p className="text-[11px] text-red-300/80">{error}</p>}
+
+      {value.image && (
+        <div>
+          <span className={label}>Vista previa</span>
+          {/* El mismo fondo y el mismo encuadre del anuncio real, en pequeño. */}
+          <div className="relative bg-obsidian/92 border border-white/10 flex items-center justify-center p-6">
+            <div className="relative">
+              <SmartImage
+                src={value.image}
+                alt={value.alt || 'Vista previa del anuncio'}
+                className="max-h-72 w-auto object-contain border border-white/10"
+              />
+              <span
+                aria-hidden
+                className="absolute -top-3 -right-3 w-11 h-11 flex items-center justify-center bg-obsidian border border-silver/40 text-marble"
+              >
+                <X className="w-5 h-5" />
+              </span>
+            </div>
+          </div>
+        </div>
+      )}
+    </div>
+  );
+}
 
 /**
  * Editor de las diapositivas de una historia (Envíos, Promos o Reseñas).
@@ -308,6 +524,13 @@ export function SettingsPanel({
   ) => {
     setSettings({ ...settings, [key]: slides });
     setDraft((prev) => ({ ...prev, [key]: slides }));
+  };
+
+  /* Igual que las historias: se guarda al momento y no al pulsar "Guardar".
+     Subir un flyer y salir del panel no puede perderlo. */
+  const saveAnnouncement = (popupAnnouncement: PopupAnnouncement) => {
+    setSettings({ ...settings, popupAnnouncement });
+    setDraft((prev) => ({ ...prev, popupAnnouncement }));
   };
 
   const saveSettings = () => {
@@ -734,6 +957,25 @@ export function SettingsPanel({
             ? 'El PIN se compara en el servidor y el hash no viaja en el sitio, así que no se puede probar por fuerza bruta sin conexión. Cinco intentos fallidos bloquean quince minutos, también del lado del servidor.'
             : 'Sin las variables del servidor la validación ocurre en el navegador. Sirve para que un visitante casual no entre, pero no frena a alguien con conocimientos técnicos, y los cambios no salen de este equipo. Los pasos para activarla están en el README.'}
         </p>
+      </section>
+
+      {/* Anuncio emergente */}
+      <section className="space-y-5">
+        <div className="pb-4 border-b border-white/10">
+          <h2 className="font-display text-2xl text-marble flex items-center gap-2.5">
+            <Megaphone className="w-5 h-5 text-silver" />
+            Anuncio emergente
+          </h2>
+          <p className="text-[12px] text-marble/40 mt-1">
+            El flyer que aparece al entrar a la portada, segundo y medio después
+            de cargar. Solo ahí: no sale en el catálogo ni en las demás páginas.
+          </p>
+        </div>
+
+        <PopupAnnouncementEditor
+          value={draft.popupAnnouncement}
+          onChange={saveAnnouncement}
+        />
       </section>
 
       {/* Historias */}
