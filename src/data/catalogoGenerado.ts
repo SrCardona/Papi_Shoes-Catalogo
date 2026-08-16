@@ -11051,286 +11051,6 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "updatedAt": "2026-08-13T18:57:45.000Z"
   },
   {
-    "id": "sneaker-nike-calm-mule-blanco",
-    "name": "Nike Calm Mule Blanco",
-    "brand": "Nike",
-    "model": "Nike Calm Mule Blanco",
-    "sku": "PAPI-7370",
-    "category": "general",
-    "gender": "unisex",
-    "price": 180000,
-    "originalPrice": 210000,
-    "images": [
-      "/catalogo/sneakers/nike/nike-calm-mule-blanco.jpg"
-    ],
-    "sizes": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
-    "status": "disponible",
-    "isFeatured": true,
-    "isNewArrival": true,
-    "isOriginalCertified": false,
-    "description": "El Calm Mule en blanco entero, con el swoosh negro en el costado y los pines rojos en la suela.",
-    "details": {
-      "condition": "En caja",
-      "colorway": "White",
-      "includedItems": [
-        "Caja"
-      ]
-    },
-    "viewsCount": 0,
-    "inquiriesCount": 0,
-    "createdAt": "2026-08-16T17:15:52.738Z",
-    "updatedAt": "2026-08-16T17:15:52.738Z"
-  },
-  {
-    "id": "sneaker-nike-calm-mule-coral",
-    "name": "Nike Calm Mule Coral",
-    "brand": "Nike",
-    "model": "Nike Calm Mule Coral",
-    "sku": "PAPI-1285",
-    "category": "general",
-    "gender": "unisex",
-    "price": 180000,
-    "originalPrice": 210000,
-    "images": [
-      "/catalogo/sneakers/nike/nike-calm-mule-coral.jpg"
-    ],
-    "sizes": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
-    "status": "disponible",
-    "isFeatured": true,
-    "isNewArrival": true,
-    "isOriginalCertified": false,
-    "description": "Calm Mule en coral encendido, monocromático de la suela al empeine.",
-    "details": {
-      "condition": "En caja",
-      "colorway": "Coral",
-      "includedItems": [
-        "Caja"
-      ]
-    },
-    "viewsCount": 0,
-    "inquiriesCount": 0,
-    "createdAt": "2026-08-16T17:15:52.738Z",
-    "updatedAt": "2026-08-16T17:15:52.738Z"
-  },
-  {
-    "id": "sneaker-nike-calm-mule-crema",
-    "name": "Nike Calm Mule Crema",
-    "brand": "Nike",
-    "model": "Nike Calm Mule Crema",
-    "sku": "PAPI-4205",
-    "category": "general",
-    "gender": "unisex",
-    "price": 180000,
-    "originalPrice": 210000,
-    "images": [
-      "/catalogo/sneakers/nike/nike-calm-mule-crema.jpg"
-    ],
-    "sizes": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
-    "status": "disponible",
-    "isFeatured": true,
-    "isNewArrival": true,
-    "isOriginalCertified": false,
-    "description": "Calm Mule en crema, con el swoosh gris y el piso de pines naranja. El tono más discreto de la serie.",
-    "details": {
-      "condition": "En caja",
-      "colorway": "Cream",
-      "includedItems": [
-        "Caja"
-      ]
-    },
-    "viewsCount": 0,
-    "inquiriesCount": 0,
-    "createdAt": "2026-08-16T17:15:52.738Z",
-    "updatedAt": "2026-08-16T17:15:52.738Z"
-  },
-  {
-    "id": "sneaker-nike-calm-mule-fragment-negro",
-    "name": "Nike Calm Mule Fragment Negro",
-    "brand": "Nike",
-    "model": "Nike Calm Mule Fragment Negro",
-    "sku": "PAPI-1100",
-    "category": "general",
-    "gender": "unisex",
-    "price": 180000,
-    "originalPrice": 210000,
-    "images": [
-      "/catalogo/sneakers/nike/nike-calm-mule-fragment-negro.jpg"
-    ],
-    "sizes": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
-    "status": "disponible",
-    "isFeatured": false,
-    "isNewArrival": true,
-    "isOriginalCertified": false,
-    "description": "Calm Mule negro con el empeine en tela de toalla, los pines azules y el rayo de Fragment en el talón.",
-    "details": {
-      "condition": "En caja",
-      "colorway": "Black / Blue",
-      "includedItems": [
-        "Caja"
-      ]
-    },
-    "viewsCount": 0,
-    "inquiriesCount": 0,
-    "createdAt": "2026-08-16T17:15:52.738Z",
-    "updatedAt": "2026-08-16T17:15:52.738Z"
-  },
-  {
-    "id": "sneaker-nike-calm-mule-gris",
-    "name": "Nike Calm Mule Gris",
-    "brand": "Nike",
-    "model": "Nike Calm Mule Gris",
-    "sku": "PAPI-1223",
-    "category": "general",
-    "gender": "unisex",
-    "price": 180000,
-    "originalPrice": 210000,
-    "images": [
-      "/catalogo/sneakers/nike/nike-calm-mule-gris.jpg"
-    ],
-    "sizes": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
-    "status": "disponible",
-    "isFeatured": false,
-    "isNewArrival": true,
-    "isOriginalCertified": false,
-    "description": "Calm Mule en gris claro con el swoosh al tono y los pines naranja en la suela.",
-    "details": {
-      "condition": "En caja",
-      "colorway": "Grey",
-      "includedItems": [
-        "Caja"
-      ]
-    },
-    "viewsCount": 0,
-    "inquiriesCount": 0,
-    "createdAt": "2026-08-16T17:15:52.738Z",
-    "updatedAt": "2026-08-16T17:15:52.738Z"
-  },
-  {
-    "id": "sneaker-nike-calm-mule-negro",
-    "name": "Nike Calm Mule Negro",
-    "brand": "Nike",
-    "model": "Nike Calm Mule Negro",
-    "sku": "PAPI-3398",
-    "category": "general",
-    "gender": "unisex",
-    "price": 180000,
-    "originalPrice": 210000,
-    "images": [
-      "/catalogo/sneakers/nike/nike-calm-mule-negro.jpg"
-    ],
-    "sizes": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
-    "status": "disponible",
-    "isFeatured": false,
-    "isNewArrival": true,
-    "isOriginalCertified": false,
-    "description": "Mule de espuma de una sola pieza, con la suela ondulada y los pines naranja en el piso. Entra sin manos y se lava con agua.",
-    "details": {
-      "condition": "En caja",
-      "colorway": "Black",
-      "includedItems": [
-        "Caja"
-      ]
-    },
-    "viewsCount": 0,
-    "inquiriesCount": 0,
-    "createdAt": "2026-08-16T17:15:52.738Z",
-    "updatedAt": "2026-08-16T17:15:52.738Z"
-  },
-  {
-    "id": "sneaker-nike-calm-mule-verde",
-    "name": "Nike Calm Mule Verde",
-    "brand": "Nike",
-    "model": "Nike Calm Mule Verde",
-    "sku": "PAPI-9574",
-    "category": "general",
-    "gender": "unisex",
-    "price": 180000,
-    "originalPrice": 210000,
-    "images": [
-      "/catalogo/sneakers/nike/nike-calm-mule-verde.jpg"
-    ],
-    "sizes": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
-    "status": "disponible",
-    "isFeatured": false,
-    "isNewArrival": true,
-    "isOriginalCertified": false,
-    "description": "Calm Mule en verde petróleo, con el swoosh plateado y los pines naranja. El color más fuerte del lote.",
-    "details": {
-      "condition": "En caja",
-      "colorway": "Teal",
-      "includedItems": [
-        "Caja"
-      ]
-    },
-    "viewsCount": 0,
-    "inquiriesCount": 0,
-    "createdAt": "2026-08-16T17:15:52.738Z",
-    "updatedAt": "2026-08-16T17:15:52.738Z"
-  },
-  {
     "id": "sneaker-nike-cortez-cafe",
     "name": "Nike Cortez Café",
     "brand": "Nike",
@@ -12250,6 +11970,286 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "inquiriesCount": 0,
     "createdAt": "2026-08-13T18:57:45.000Z",
     "updatedAt": "2026-08-13T18:57:45.000Z"
+  },
+  {
+    "id": "sneaker-nike-mind-001-blanco",
+    "name": "NIKE MIND 001 Blanco",
+    "brand": "Nike",
+    "model": "NIKE MIND 001 Blanco",
+    "sku": "PAPI-8862",
+    "category": "general",
+    "gender": "unisex",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/nike/nike-mind-001-blanco.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": true,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "El MIND 001 en blanco entero, con el swoosh negro en el costado y los pines rojos en la suela.",
+    "details": {
+      "condition": "En caja",
+      "colorway": "White",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-16T17:23:21.723Z",
+    "updatedAt": "2026-08-16T17:23:21.723Z"
+  },
+  {
+    "id": "sneaker-nike-mind-001-coral",
+    "name": "NIKE MIND 001 Coral",
+    "brand": "Nike",
+    "model": "NIKE MIND 001 Coral",
+    "sku": "PAPI-1245",
+    "category": "general",
+    "gender": "unisex",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/nike/nike-mind-001-coral.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": true,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "MIND 001 en coral encendido, monocromático de la suela al empeine.",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Coral",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-16T17:23:21.723Z",
+    "updatedAt": "2026-08-16T17:23:21.723Z"
+  },
+  {
+    "id": "sneaker-nike-mind-001-crema",
+    "name": "NIKE MIND 001 Crema",
+    "brand": "Nike",
+    "model": "NIKE MIND 001 Crema",
+    "sku": "PAPI-9494",
+    "category": "general",
+    "gender": "unisex",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/nike/nike-mind-001-crema.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": true,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "MIND 001 en crema, con el swoosh gris y el piso de pines naranja. El tono más discreto de la serie.",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Cream",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-16T17:23:21.723Z",
+    "updatedAt": "2026-08-16T17:23:21.723Z"
+  },
+  {
+    "id": "sneaker-nike-mind-001-fragment-negro",
+    "name": "NIKE MIND 001 Fragment Negro",
+    "brand": "Nike",
+    "model": "NIKE MIND 001 Fragment Negro",
+    "sku": "PAPI-1543",
+    "category": "general",
+    "gender": "unisex",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/nike/nike-mind-001-fragment-negro.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "MIND 001 negro con el empeine en tela de toalla, los pines azules y el rayo de Fragment en el talón.",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Black / Blue",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-16T17:23:21.723Z",
+    "updatedAt": "2026-08-16T17:23:21.723Z"
+  },
+  {
+    "id": "sneaker-nike-mind-001-gris",
+    "name": "NIKE MIND 001 Gris",
+    "brand": "Nike",
+    "model": "NIKE MIND 001 Gris",
+    "sku": "PAPI-1359",
+    "category": "general",
+    "gender": "unisex",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/nike/nike-mind-001-gris.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "MIND 001 en gris claro con el swoosh al tono y los pines naranja en la suela.",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Grey",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-16T17:23:21.723Z",
+    "updatedAt": "2026-08-16T17:23:21.723Z"
+  },
+  {
+    "id": "sneaker-nike-mind-001-negro",
+    "name": "NIKE MIND 001 Negro",
+    "brand": "Nike",
+    "model": "NIKE MIND 001 Negro",
+    "sku": "PAPI-1198",
+    "category": "general",
+    "gender": "unisex",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/nike/nike-mind-001-negro.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "Mule de espuma de una sola pieza, con la suela ondulada y los pines naranja en el piso. Entra sin manos y se lava con agua.",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Black",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-16T17:23:21.723Z",
+    "updatedAt": "2026-08-16T17:23:21.723Z"
+  },
+  {
+    "id": "sneaker-nike-mind-001-verde",
+    "name": "NIKE MIND 001 Verde",
+    "brand": "Nike",
+    "model": "NIKE MIND 001 Verde",
+    "sku": "PAPI-2737",
+    "category": "general",
+    "gender": "unisex",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/nike/nike-mind-001-verde.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "MIND 001 en verde petróleo, con el swoosh plateado y los pines naranja. El color más fuerte del lote.",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Teal",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-16T17:23:21.723Z",
+    "updatedAt": "2026-08-16T17:23:21.723Z"
   },
   {
     "id": "sneaker-nike-motiva-crema",
