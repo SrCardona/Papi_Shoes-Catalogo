@@ -5,6 +5,12 @@
  * que un JSON preparado podía inyectar URLs `javascript:` o cambiar el número
  * de WhatsApp para desviar los pedidos. Ahora cada campo se verifica y se
  * normaliza contra el modelo de datos antes de entrar a la aplicación.
+ *
+ * Lo que llega se lee como `Record<string, unknown>` y nunca como `any`: los
+ * saneadores aceptan cualquier cosa y descartan lo que no sirva, así que no
+ * hace falta apagar el tipado. Con `any` un `s.nombre` en vez de `s.name`
+ * compilaría y devolvería `undefined` en silencio, justo en el archivo donde
+ * eso no se puede permitir.
  */
 
 import type {
@@ -61,7 +67,7 @@ function toIsoDate(value: unknown): string {
 
 export function validateSneaker(raw: unknown): Sneaker | null {
   if (!raw || typeof raw !== 'object') return null;
-  const s = raw as Record<string, any>;
+  const s = raw as Record<string, unknown>;
 
   const name = sanitizeText(s.name, 140);
   if (!name) return null;
@@ -77,7 +83,7 @@ export function validateSneaker(raw: unknown): Sneaker | null {
         .filter(Boolean)
     : [];
 
-  const details = (s.details ?? {}) as Record<string, any>;
+  const details = (s.details ?? {}) as Record<string, unknown>;
   const category = pick(s.category, CATEGORIES, 'general');
 
   return {
@@ -103,7 +109,10 @@ export function validateSneaker(raw: unknown): Sneaker | null {
       includedItems: Array.isArray(details.includedItems)
         ? details.includedItems.slice(0, 12).map((i: unknown) => sanitizeText(i, 120)).filter(Boolean)
         : [],
+      // Único campo que se compara con números en vez de sanearse, así que es
+      // el único que necesita comprobar el tipo antes.
       releaseYear:
+        typeof details.releaseYear === 'number' &&
         Number.isInteger(details.releaseYear) &&
         details.releaseYear > 1970 &&
         details.releaseYear < 2100
@@ -134,7 +143,7 @@ export function validateSneakers(raw: unknown): Sneaker[] {
 
 export function validateDelivery(raw: unknown): Delivery | null {
   if (!raw || typeof raw !== 'object') return null;
-  const d = raw as Record<string, any>;
+  const d = raw as Record<string, unknown>;
 
   const city = sanitizeText(d.city, 60);
   if (!city) return null;
@@ -191,8 +200,6 @@ export function validateCatalogDecisions(raw: unknown): CatalogDecisions {
 
 function validateSlide(raw: unknown): StorySlide | null {
   if (!raw || typeof raw !== 'object') return null;
-  // `unknown` y no `any`: los saneadores ya aceptan lo que sea y descartan lo
-  // que no sea texto, así que no hace falta apagar el tipado aquí.
   const s = raw as Record<string, unknown>;
 
   const image = sanitizeImageUrl(s.image);
@@ -226,7 +233,7 @@ export function validateSettings(
   current: StoreSettings,
 ): StoreSettings {
   if (!raw || typeof raw !== 'object') return current;
-  const s = raw as Record<string, any>;
+  const s = raw as Record<string, unknown>;
 
   const phone = sanitizeText(s.whatsappNumber, 20).replace(/\D/g, '');
   const currency = pick(s.currency, [...CURRENCIES], current.currency);
