@@ -5,6 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="theme-color" content="#0D0D0D" />
 
+    <!--
+      Íconos, de mayor a menor prioridad. El navegador se queda con el primero
+      que entienda: los modernos toman el SVG y lo dibujan nítido a cualquier
+      tamaño; el .ico queda para los viejos y para la carpeta de favoritos.
+      El `?v=` fuerza la recarga: el favicon se cachea con una insistencia que
+      no cede ni recargando la página, y sin cambiar la ruta se seguiría viendo
+      el ícono anterior. Al cambiar el dibujo, sube el número.
+    -->
+    <link rel="icon" href="/favicon.svg?v=1" type="image/svg+xml" />
+    <link rel="icon" href="/favicon.ico?v=1" sizes="32x32" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png?v=1" />
+    <link rel="manifest" href="/site.webmanifest?v=1" />
+
     <title>PAPI SHOES — El Templo de los Tenis</title>
     <meta name="description" content="Sneakers originales con legit check y selección streetwear premium. Asesoría personalizada, referencias y envíos a todo Colombia." />
 

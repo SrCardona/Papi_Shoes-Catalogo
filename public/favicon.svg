@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="PAPI SHOES">
+  <!--
+    El templo de PAPI SHOES para la pestaña del navegador.
+
+    No es el mismo dibujo de src/components/ui/TempleMark.tsx: aquel tiene cinco
+    columnas separadas por 2 unidades, y a 16 px eso es medio pixel, así que la
+    columnata se funde en una mancha. Aquí van tres columnas y cada medida es
+    múltiplo de 4 unidades —un pixel exacto a 16 px—, para que el navegador no
+    tenga que repartir bordes entre dos pixeles.
+
+    La placa obsidiana no es decorativa: la plata sobre una pestaña clara queda
+    en 1,7:1 de contraste y se ve desteñida. Con la placa se lee igual en tema
+    claro y oscuro, y es la identidad de la tienda.
+  -->
+  <rect width="64" height="64" fill="#0D0D0D"/>
+  <g fill="#C0C0C0">
+    <path d="M32 6 L58 22 H6 Z"/>
+    <rect x="8" y="26" width="48" height="8"/>
+    <rect x="10" y="38" width="12" height="14"/>
+    <rect x="26" y="38" width="12" height="14"/>
+    <rect x="42" y="38" width="12" height="14"/>
+    <rect x="4" y="52" width="56" height="6"/>
+  </g>
+</svg>
