@@ -46,9 +46,8 @@ export const INITIAL_SETTINGS: StoreSettings = {
   promoSlides: [],
   reviewSlides: [],
   /* El flyer de bienvenida. Se administra en Panel › Ajustes › Anuncio
-     emergente; el id es lo que decide a quién se le vuelve a mostrar. */
+     emergente, y aparece en cada entrada directa al sitio. */
   popupAnnouncement: {
-    id: 'chiva-rumbera-2026-09-05',
     enabled: true,
     image: '/anuncios/chiva-rumbera-05-septiembre.jpg',
     alt: 'Chiva Rumbera Vuelta Oriente, 5 de septiembre. Cover general 40K, grupo de 3 o más mujeres 35K. Recogida en CAI Playón a las 11:00 p. m.',

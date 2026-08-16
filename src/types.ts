@@ -125,15 +125,10 @@ export interface StoryHighlight {
  *
  * Es un anuncio ocasional —una fiesta, un lote que llega— y no una pieza fija
  * del sitio, así que vive en los ajustes y se prende y apaga desde el panel.
+ * Aparece en cada entrada directa al sitio, así que cambiar la imagen basta
+ * para cambiar el anuncio: no hay nada que recordar por visitante.
  */
 export interface PopupAnnouncement {
-  /**
-   * Identificador del anuncio. Quien lo cierra no lo vuelve a ver, y esa
-   * decisión se guarda contra este id: al publicar un flyer nuevo se cambia el
-   * id y el anuncio vuelve a aparecerle a todos, incluso a los que ya cerraron
-   * el anterior.
-   */
-  id: string;
   enabled: boolean;
   image: string;
   /** Opcional: a dónde lleva al tocar el flyer. Se abre en pestaña nueva. */

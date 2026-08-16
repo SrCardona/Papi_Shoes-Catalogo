@@ -230,19 +230,16 @@ export function validateSlides(raw: unknown): StorySlide[] {
 }
 
 /* ── Anuncio emergente ───────────────────────────────────────────────────
-   Un anuncio sin imagen válida no se puede mostrar, y uno sin id no se podría
-   recordar como visto —le reaparecería al visitante en cada carga—, así que en
-   los dos casos se devuelve apagado en vez de a medias.                      */
+   Un anuncio sin imagen válida no se puede mostrar, así que se devuelve
+   apagado en vez de a medias: si no, el visitante vería un hueco negro.     */
 
 export function validatePopupAnnouncement(raw: unknown): PopupAnnouncement {
   const p = (raw ?? {}) as Record<string, unknown>;
   const image = sanitizeImageUrl(p.image);
-  const id = sanitizeText(p.id, 80);
   const sinImagen = !image || image.startsWith('data:image/svg');
 
   return {
-    id,
-    enabled: Boolean(p.enabled) && Boolean(id) && !sinImagen,
+    enabled: Boolean(p.enabled) && !sinImagen,
     image: sinImagen ? '' : image,
     link: sanitizeLinkUrl(p.link) || undefined,
     alt: sanitizeText(p.alt, 160),

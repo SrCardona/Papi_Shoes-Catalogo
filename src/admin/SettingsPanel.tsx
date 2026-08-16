@@ -39,17 +39,12 @@ const label =
 
 type Notice = { tone: 'ok' | 'error'; text: string } | null;
 
-/** Un id nuevo cada vez: es lo que hace que el anuncio vuelva a mostrarse. */
-const nuevoIdAnuncio = () => `anuncio-${Date.now().toString(36)}`;
-
 /**
  * Editor del flyer de bienvenida.
  *
- * El id es la pieza que cuesta explicar y la que más importa: quien cierra el
- * anuncio no lo vuelve a ver, y esa decisión queda guardada contra el id. Por
- * eso cambiar la imagen genera un id nuevo automáticamente —un flyer distinto
- * es un anuncio distinto y tiene que llegarle también a quien ya cerró el
- * anterior— y además queda el botón para volver a mostrar el mismo.
+ * No hay nada que "reactivar": el anuncio sale en cada entrada directa al
+ * sitio, así que cambiar la imagen aquí es cambiar lo que ve el visitante en su
+ * próxima visita, sin más pasos.
  */
 function PopupAnnouncementEditor({
   value,
@@ -63,8 +58,7 @@ function PopupAnnouncementEditor({
   const [subiendo, setSubiendo] = useState(false);
   const [error, setError] = useState<string | null>(null);
 
-  const ponerImagen = (image: string) =>
-    onChange({ ...value, image, id: nuevoIdAnuncio() });
+  const ponerImagen = (image: string) => onChange({ ...value, image });
 
   const subirArchivo = async (e: React.ChangeEvent<HTMLInputElement>) => {
     const file = e.target.files?.[0];
@@ -203,23 +197,13 @@ function PopupAnnouncementEditor({
         </div>
       </div>
 
-      <div className="flex flex-wrap items-center justify-between gap-3 pt-4 border-t border-white/8">
-        <p className="text-[10.5px] text-marble/30 leading-relaxed max-w-md">
-          Quien cierra el anuncio no lo vuelve a ver. Al cambiar la imagen se
-          renueva solo; usa el botón si quieres volver a mostrar el mismo flyer.
-          <br />
-          <span className="text-marble/45">Id actual: </span>
-          <code className="text-silver">{value.id || '—'}</code>
-        </p>
-        <button
-          type="button"
-          onClick={() => onChange({ ...value, id: nuevoIdAnuncio() })}
-          className="flex items-center gap-2 px-4 py-2.5 border border-white/14 text-marble/65 hover:text-marble hover:border-silver/45 text-[10px] font-semibold uppercase tracking-[0.18em] transition-colors"
-        >
-          <RotateCcw className="w-3.5 h-3.5" />
-          Mostrar de nuevo a todos
-        </button>
-      </div>
+      <p className="text-[10.5px] text-marble/30 leading-relaxed pt-4 border-t border-white/8">
+        El anuncio sale cada vez que alguien abre el sitio: escribiendo la
+        dirección, desde un marcador o desde un enlace de Instagram. No sale al
+        volver a la portada desde el catálogo, ni en las demás páginas. Para
+        cambiar el anuncio basta con cambiar la imagen; para quitarlo, apaga el
+        interruptor de arriba.
+      </p>
 
       {error && <p className="text-[11px] text-red-300/80">{error}</p>}
 
