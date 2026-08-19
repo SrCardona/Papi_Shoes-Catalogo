@@ -1,6 +1,6 @@
 {
   "version": 3,
-  "exportedAt": "2026-08-16T17:23:21.735Z",
+  "exportedAt": "2026-08-19T15:43:08.804Z",
   "sneakers": [
     {
       "id": "sneaker-adidas-adilette-22",
@@ -3548,7 +3548,7 @@
         44
       ],
       "status": "disponible",
-      "isFeatured": true,
+      "isFeatured": false,
       "isNewArrival": true,
       "isOriginalCertified": false,
       "description": "Perfil bajo del monograma en azul navy con suela blanca y apliques plateados.",
@@ -3585,7 +3585,7 @@
         44
       ],
       "status": "disponible",
-      "isFeatured": true,
+      "isFeatured": false,
       "isNewArrival": true,
       "isOriginalCertified": false,
       "description": "Perfil bajo con el monograma estampado en todo el cuerpo, cuero negro y detalles dorados en el talón y el costado.",
@@ -7836,6 +7836,166 @@
       "updatedAt": "2026-08-13T19:36:11.000Z"
     },
     {
+      "id": "sneaker-new-balance-2000-blanco-gris",
+      "name": "New Balance 2000 Blanco / Gris",
+      "brand": "New Balance",
+      "model": "New Balance 2000 Blanco / Gris",
+      "sku": "PAPI-1857",
+      "category": "general",
+      "gender": "unisex",
+      "price": 180000,
+      "originalPrice": 210000,
+      "images": [
+        "/catalogo/sneakers/new-balance/new-balance-2000-blanco-gris.jpg"
+      ],
+      "sizes": [
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "status": "disponible",
+      "isFeatured": true,
+      "isNewArrival": true,
+      "isOriginalCertified": false,
+      "description": "",
+      "details": {
+        "condition": "En caja",
+        "colorway": "White / Grey / Black",
+        "includedItems": [
+          "Caja"
+        ]
+      },
+      "viewsCount": 0,
+      "inquiriesCount": 0,
+      "createdAt": "2026-08-19T15:42:47.370Z",
+      "updatedAt": "2026-08-19T15:42:47.370Z"
+    },
+    {
+      "id": "sneaker-new-balance-2000-blanco-negro",
+      "name": "New Balance 2000 Blanco / Negro",
+      "brand": "New Balance",
+      "model": "New Balance 2000 Blanco / Negro",
+      "sku": "PAPI-1068",
+      "category": "general",
+      "gender": "unisex",
+      "price": 180000,
+      "originalPrice": 210000,
+      "images": [
+        "/catalogo/sneakers/new-balance/new-balance-2000-blanco-negro.jpg"
+      ],
+      "sizes": [
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "status": "disponible",
+      "isFeatured": true,
+      "isNewArrival": true,
+      "isOriginalCertified": false,
+      "description": "",
+      "details": {
+        "condition": "En caja",
+        "colorway": "White / Black / Silver",
+        "includedItems": [
+          "Caja"
+        ]
+      },
+      "viewsCount": 0,
+      "inquiriesCount": 0,
+      "createdAt": "2026-08-19T15:42:47.370Z",
+      "updatedAt": "2026-08-19T15:42:47.370Z"
+    },
+    {
+      "id": "sneaker-new-balance-2000-blanco-plata",
+      "name": "New Balance 2000 Blanco / Plata",
+      "brand": "New Balance",
+      "model": "New Balance 2000 Blanco / Plata",
+      "sku": "PAPI-3871",
+      "category": "general",
+      "gender": "unisex",
+      "price": 180000,
+      "originalPrice": 210000,
+      "images": [
+        "/catalogo/sneakers/new-balance/new-balance-2000-blanco-plata.jpg"
+      ],
+      "sizes": [
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "status": "disponible",
+      "isFeatured": true,
+      "isNewArrival": true,
+      "isOriginalCertified": false,
+      "description": "",
+      "details": {
+        "condition": "En caja",
+        "colorway": "White / Silver / Grey",
+        "includedItems": [
+          "Caja"
+        ]
+      },
+      "viewsCount": 0,
+      "inquiriesCount": 0,
+      "createdAt": "2026-08-19T15:42:47.370Z",
+      "updatedAt": "2026-08-19T15:42:47.370Z"
+    },
+    {
+      "id": "sneaker-new-balance-2000-blanco-rosa-coral",
+      "name": "New Balance 2000 Blanco / Rosa Coral",
+      "brand": "New Balance",
+      "model": "New Balance 2000 Blanco / Rosa Coral",
+      "sku": "PAPI-5736",
+      "category": "general",
+      "gender": "unisex",
+      "price": 180000,
+      "originalPrice": 210000,
+      "images": [
+        "/catalogo/sneakers/new-balance/new-balance-2000-blanco-rosa-coral.jpg"
+      ],
+      "sizes": [
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "status": "disponible",
+      "isFeatured": false,
+      "isNewArrival": true,
+      "isOriginalCertified": false,
+      "description": "",
+      "details": {
+        "condition": "En caja",
+        "colorway": "White / Coral Pink",
+        "includedItems": [
+          "Caja"
+        ]
+      },
+      "viewsCount": 0,
+      "inquiriesCount": 0,
+      "createdAt": "2026-08-19T15:42:47.370Z",
+      "updatedAt": "2026-08-19T15:42:47.370Z"
+    },
+    {
       "id": "sneaker-new-balance-2000-blanco-rosado",
       "name": "New Balance 2000 Blanco / Rosado",
       "brand": "New Balance",
@@ -7876,6 +8036,86 @@
       "updatedAt": "2026-08-13T19:36:11.000Z"
     },
     {
+      "id": "sneaker-new-balance-2000-crema",
+      "name": "New Balance 2000 Crema",
+      "brand": "New Balance",
+      "model": "New Balance 2000 Crema",
+      "sku": "PAPI-7578",
+      "category": "general",
+      "gender": "unisex",
+      "price": 180000,
+      "originalPrice": 210000,
+      "images": [
+        "/catalogo/sneakers/new-balance/new-balance-2000-crema.jpg"
+      ],
+      "sizes": [
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "status": "disponible",
+      "isFeatured": false,
+      "isNewArrival": true,
+      "isOriginalCertified": false,
+      "description": "",
+      "details": {
+        "condition": "En caja",
+        "colorway": "Sea Salt / Silver",
+        "includedItems": [
+          "Caja"
+        ]
+      },
+      "viewsCount": 0,
+      "inquiriesCount": 0,
+      "createdAt": "2026-08-19T15:42:47.370Z",
+      "updatedAt": "2026-08-19T15:42:47.370Z"
+    },
+    {
+      "id": "sneaker-new-balance-2000-crema-azul-hielo",
+      "name": "New Balance 2000 Crema / Azul Hielo",
+      "brand": "New Balance",
+      "model": "New Balance 2000 Crema / Azul Hielo",
+      "sku": "PAPI-3185",
+      "category": "general",
+      "gender": "unisex",
+      "price": 180000,
+      "originalPrice": 210000,
+      "images": [
+        "/catalogo/sneakers/new-balance/new-balance-2000-crema-azul-hielo.jpg"
+      ],
+      "sizes": [
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "status": "disponible",
+      "isFeatured": false,
+      "isNewArrival": true,
+      "isOriginalCertified": false,
+      "description": "La 2000 en crema con las cápsulas de la mediasuela en azul hielo translúcido.",
+      "details": {
+        "condition": "En caja",
+        "colorway": "Sea Salt / Ice Blue",
+        "includedItems": [
+          "Caja"
+        ]
+      },
+      "viewsCount": 0,
+      "inquiriesCount": 0,
+      "createdAt": "2026-08-19T15:42:47.370Z",
+      "updatedAt": "2026-08-19T15:42:47.370Z"
+    },
+    {
       "id": "sneaker-new-balance-2000-dorado-crema",
       "name": "New Balance 2000 Dorado / Crema",
       "brand": "New Balance",
@@ -7914,6 +8154,86 @@
       "inquiriesCount": 0,
       "createdAt": "2026-08-13T19:36:11.000Z",
       "updatedAt": "2026-08-13T19:36:11.000Z"
+    },
+    {
+      "id": "sneaker-new-balance-2000-gris-azul-hielo",
+      "name": "New Balance 2000 Gris / Azul Hielo",
+      "brand": "New Balance",
+      "model": "New Balance 2000 Gris / Azul Hielo",
+      "sku": "PAPI-6486",
+      "category": "general",
+      "gender": "unisex",
+      "price": 180000,
+      "originalPrice": 210000,
+      "images": [
+        "/catalogo/sneakers/new-balance/new-balance-2000-gris-azul-hielo.jpg"
+      ],
+      "sizes": [
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "status": "disponible",
+      "isFeatured": false,
+      "isNewArrival": true,
+      "isOriginalCertified": false,
+      "description": "",
+      "details": {
+        "condition": "En caja",
+        "colorway": "Grey / Silver / Ice Blue",
+        "includedItems": [
+          "Caja"
+        ]
+      },
+      "viewsCount": 0,
+      "inquiriesCount": 0,
+      "createdAt": "2026-08-19T15:42:47.370Z",
+      "updatedAt": "2026-08-19T15:42:47.370Z"
+    },
+    {
+      "id": "sneaker-new-balance-2000-gris-rosado",
+      "name": "New Balance 2000 Gris / Rosado",
+      "brand": "New Balance",
+      "model": "New Balance 2000 Gris / Rosado",
+      "sku": "PAPI-1608",
+      "category": "general",
+      "gender": "unisex",
+      "price": 180000,
+      "originalPrice": 210000,
+      "images": [
+        "/catalogo/sneakers/new-balance/new-balance-2000-gris-rosado.jpg"
+      ],
+      "sizes": [
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "status": "disponible",
+      "isFeatured": false,
+      "isNewArrival": true,
+      "isOriginalCertified": false,
+      "description": "",
+      "details": {
+        "condition": "En caja",
+        "colorway": "Grey / White / Pink",
+        "includedItems": [
+          "Caja"
+        ]
+      },
+      "viewsCount": 0,
+      "inquiriesCount": 0,
+      "createdAt": "2026-08-19T15:42:47.370Z",
+      "updatedAt": "2026-08-19T15:42:47.370Z"
     },
     {
       "id": "sneaker-new-balance-2000-gris-verde-neon",
@@ -7996,6 +8316,126 @@
       "updatedAt": "2026-08-13T19:36:11.000Z"
     },
     {
+      "id": "sneaker-new-balance-2000-negro-gris",
+      "name": "New Balance 2000 Negro / Gris",
+      "brand": "New Balance",
+      "model": "New Balance 2000 Negro / Gris",
+      "sku": "PAPI-1052",
+      "category": "general",
+      "gender": "unisex",
+      "price": 180000,
+      "originalPrice": 210000,
+      "images": [
+        "/catalogo/sneakers/new-balance/new-balance-2000-negro-gris.jpg"
+      ],
+      "sizes": [
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "status": "disponible",
+      "isFeatured": false,
+      "isNewArrival": true,
+      "isOriginalCertified": false,
+      "description": "",
+      "details": {
+        "condition": "En caja",
+        "colorway": "Black / Grey / Silver",
+        "includedItems": [
+          "Caja"
+        ]
+      },
+      "viewsCount": 0,
+      "inquiriesCount": 0,
+      "createdAt": "2026-08-19T15:42:47.370Z",
+      "updatedAt": "2026-08-19T15:42:47.370Z"
+    },
+    {
+      "id": "sneaker-new-balance-2000-negro-plata",
+      "name": "New Balance 2000 Negro / Plata",
+      "brand": "New Balance",
+      "model": "New Balance 2000 Negro / Plata",
+      "sku": "PAPI-3661",
+      "category": "general",
+      "gender": "unisex",
+      "price": 180000,
+      "originalPrice": 210000,
+      "images": [
+        "/catalogo/sneakers/new-balance/new-balance-2000-negro-plata.jpg"
+      ],
+      "sizes": [
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "status": "disponible",
+      "isFeatured": false,
+      "isNewArrival": true,
+      "isOriginalCertified": false,
+      "description": "",
+      "details": {
+        "condition": "En caja",
+        "colorway": "Black / Silver / White",
+        "includedItems": [
+          "Caja"
+        ]
+      },
+      "viewsCount": 0,
+      "inquiriesCount": 0,
+      "createdAt": "2026-08-19T15:42:47.370Z",
+      "updatedAt": "2026-08-19T15:42:47.370Z"
+    },
+    {
+      "id": "sneaker-new-balance-2000-rosado-vino",
+      "name": "New Balance 2000 Rosado / Vino",
+      "brand": "New Balance",
+      "model": "New Balance 2000 Rosado / Vino",
+      "sku": "PAPI-1637",
+      "category": "general",
+      "gender": "unisex",
+      "price": 180000,
+      "originalPrice": 210000,
+      "images": [
+        "/catalogo/sneakers/new-balance/new-balance-2000-rosado-vino.jpg"
+      ],
+      "sizes": [
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "status": "disponible",
+      "isFeatured": false,
+      "isNewArrival": true,
+      "isOriginalCertified": false,
+      "description": "",
+      "details": {
+        "condition": "En caja",
+        "colorway": "Pink / Burgundy",
+        "includedItems": [
+          "Caja"
+        ]
+      },
+      "viewsCount": 0,
+      "inquiriesCount": 0,
+      "createdAt": "2026-08-19T15:42:47.370Z",
+      "updatedAt": "2026-08-19T15:42:47.370Z"
+    },
+    {
       "id": "sneaker-new-balance-530-blanco-verde",
       "name": "New Balance 530 Blanco / Verde",
       "brand": "New Balance",
@@ -8034,6 +8474,166 @@
       "inquiriesCount": 0,
       "createdAt": "2026-08-13T19:36:11.000Z",
       "updatedAt": "2026-08-13T19:36:11.000Z"
+    },
+    {
+      "id": "sneaker-new-balance-530-crema",
+      "name": "New Balance 530 Crema",
+      "brand": "New Balance",
+      "model": "New Balance 530 Crema",
+      "sku": "PAPI-4523",
+      "category": "general",
+      "gender": "unisex",
+      "price": 180000,
+      "originalPrice": 210000,
+      "images": [
+        "/catalogo/sneakers/new-balance/new-balance-530-crema.jpg"
+      ],
+      "sizes": [
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "status": "disponible",
+      "isFeatured": false,
+      "isNewArrival": true,
+      "isOriginalCertified": false,
+      "description": "",
+      "details": {
+        "condition": "En caja",
+        "colorway": "Angora / Cream",
+        "includedItems": [
+          "Caja"
+        ]
+      },
+      "viewsCount": 0,
+      "inquiriesCount": 0,
+      "createdAt": "2026-08-19T15:42:47.370Z",
+      "updatedAt": "2026-08-19T15:42:47.370Z"
+    },
+    {
+      "id": "sneaker-new-balance-530-gris-plata",
+      "name": "New Balance 530 Gris / Plata",
+      "brand": "New Balance",
+      "model": "New Balance 530 Gris / Plata",
+      "sku": "PAPI-1030",
+      "category": "general",
+      "gender": "unisex",
+      "price": 180000,
+      "originalPrice": 210000,
+      "images": [
+        "/catalogo/sneakers/new-balance/new-balance-530-gris-plata.jpg"
+      ],
+      "sizes": [
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "status": "disponible",
+      "isFeatured": false,
+      "isNewArrival": true,
+      "isOriginalCertified": false,
+      "description": "",
+      "details": {
+        "condition": "En caja",
+        "colorway": "Grey / Silver / Cream",
+        "includedItems": [
+          "Caja"
+        ]
+      },
+      "viewsCount": 0,
+      "inquiriesCount": 0,
+      "createdAt": "2026-08-19T15:42:47.370Z",
+      "updatedAt": "2026-08-19T15:42:47.370Z"
+    },
+    {
+      "id": "sneaker-new-balance-530-negro-blanco",
+      "name": "New Balance 530 Negro / Blanco",
+      "brand": "New Balance",
+      "model": "New Balance 530 Negro / Blanco",
+      "sku": "PAPI-1456",
+      "category": "general",
+      "gender": "unisex",
+      "price": 180000,
+      "originalPrice": 210000,
+      "images": [
+        "/catalogo/sneakers/new-balance/new-balance-530-negro-blanco.jpg"
+      ],
+      "sizes": [
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "status": "disponible",
+      "isFeatured": false,
+      "isNewArrival": true,
+      "isOriginalCertified": false,
+      "description": "",
+      "details": {
+        "condition": "En caja",
+        "colorway": "Black / White",
+        "includedItems": [
+          "Caja"
+        ]
+      },
+      "viewsCount": 0,
+      "inquiriesCount": 0,
+      "createdAt": "2026-08-19T15:42:47.370Z",
+      "updatedAt": "2026-08-19T15:42:47.370Z"
+    },
+    {
+      "id": "sneaker-new-balance-530-sea-salt",
+      "name": "New Balance 530 Sea Salt",
+      "brand": "New Balance",
+      "model": "New Balance 530 Sea Salt",
+      "sku": "PAPI-1503",
+      "category": "general",
+      "gender": "unisex",
+      "price": 180000,
+      "originalPrice": 210000,
+      "images": [
+        "/catalogo/sneakers/new-balance/new-balance-530-sea-salt.jpg"
+      ],
+      "sizes": [
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "status": "disponible",
+      "isFeatured": false,
+      "isNewArrival": true,
+      "isOriginalCertified": false,
+      "description": "",
+      "details": {
+        "condition": "En caja",
+        "colorway": "Sea Salt / Ice Blue",
+        "includedItems": [
+          "Caja"
+        ]
+      },
+      "viewsCount": 0,
+      "inquiriesCount": 0,
+      "createdAt": "2026-08-19T15:42:47.370Z",
+      "updatedAt": "2026-08-19T15:42:47.370Z"
     },
     {
       "id": "sneaker-new-balance-530-white-silver-navy",
@@ -8154,6 +8754,166 @@
       "inquiriesCount": 0,
       "createdAt": "2026-08-13T19:36:11.000Z",
       "updatedAt": "2026-08-13T19:36:11.000Z"
+    },
+    {
+      "id": "sneaker-new-balance-730-blanco-azul-rey",
+      "name": "New Balance 730 Blanco / Azul Rey",
+      "brand": "New Balance",
+      "model": "New Balance 730 Blanco / Azul Rey",
+      "sku": "PAPI-1046",
+      "category": "general",
+      "gender": "unisex",
+      "price": 180000,
+      "originalPrice": 210000,
+      "images": [
+        "/catalogo/sneakers/new-balance/new-balance-730-blanco-azul-rey.jpg"
+      ],
+      "sizes": [
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "status": "disponible",
+      "isFeatured": false,
+      "isNewArrival": true,
+      "isOriginalCertified": false,
+      "description": "",
+      "details": {
+        "condition": "En caja",
+        "colorway": "White / Royal Blue / Silver",
+        "includedItems": [
+          "Caja"
+        ]
+      },
+      "viewsCount": 0,
+      "inquiriesCount": 0,
+      "createdAt": "2026-08-19T15:42:47.370Z",
+      "updatedAt": "2026-08-19T15:42:47.370Z"
+    },
+    {
+      "id": "sneaker-new-balance-730-blanco-plata",
+      "name": "New Balance 730 Blanco / Plata",
+      "brand": "New Balance",
+      "model": "New Balance 730 Blanco / Plata",
+      "sku": "PAPI-1521",
+      "category": "general",
+      "gender": "unisex",
+      "price": 180000,
+      "originalPrice": 210000,
+      "images": [
+        "/catalogo/sneakers/new-balance/new-balance-730-blanco-plata.jpg"
+      ],
+      "sizes": [
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "status": "disponible",
+      "isFeatured": false,
+      "isNewArrival": true,
+      "isOriginalCertified": false,
+      "description": "",
+      "details": {
+        "condition": "En caja",
+        "colorway": "White / Silver",
+        "includedItems": [
+          "Caja"
+        ]
+      },
+      "viewsCount": 0,
+      "inquiriesCount": 0,
+      "createdAt": "2026-08-19T15:42:47.370Z",
+      "updatedAt": "2026-08-19T15:42:47.370Z"
+    },
+    {
+      "id": "sneaker-new-balance-730-blanco-plata-azul-marino",
+      "name": "New Balance 730 Blanco / Plata / Azul Marino",
+      "brand": "New Balance",
+      "model": "New Balance 730 Blanco / Plata / Azul Marino",
+      "sku": "PAPI-1499",
+      "category": "general",
+      "gender": "unisex",
+      "price": 180000,
+      "originalPrice": 210000,
+      "images": [
+        "/catalogo/sneakers/new-balance/new-balance-730-blanco-plata-azul-marino.jpg"
+      ],
+      "sizes": [
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "status": "disponible",
+      "isFeatured": false,
+      "isNewArrival": true,
+      "isOriginalCertified": false,
+      "description": "La 730 en malla blanca con capas plateadas y trazos azul marino. Mediasuela ABZORB.",
+      "details": {
+        "condition": "En caja",
+        "colorway": "White / Silver / Navy",
+        "includedItems": [
+          "Caja"
+        ]
+      },
+      "viewsCount": 0,
+      "inquiriesCount": 0,
+      "createdAt": "2026-08-19T15:42:47.370Z",
+      "updatedAt": "2026-08-19T15:42:47.370Z"
+    },
+    {
+      "id": "sneaker-new-balance-730-blanco-verde",
+      "name": "New Balance 730 Blanco / Verde",
+      "brand": "New Balance",
+      "model": "New Balance 730 Blanco / Verde",
+      "sku": "PAPI-8735",
+      "category": "general",
+      "gender": "unisex",
+      "price": 180000,
+      "originalPrice": 210000,
+      "images": [
+        "/catalogo/sneakers/new-balance/new-balance-730-blanco-verde.jpg"
+      ],
+      "sizes": [
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "status": "disponible",
+      "isFeatured": false,
+      "isNewArrival": true,
+      "isOriginalCertified": false,
+      "description": "",
+      "details": {
+        "condition": "En caja",
+        "colorway": "White / Green / Cream",
+        "includedItems": [
+          "Caja"
+        ]
+      },
+      "viewsCount": 0,
+      "inquiriesCount": 0,
+      "createdAt": "2026-08-19T15:42:47.370Z",
+      "updatedAt": "2026-08-19T15:42:47.370Z"
     },
     {
       "id": "sneaker-new-balance-790-blanco-plata",
@@ -13620,7 +14380,7 @@
         44
       ],
       "status": "disponible",
-      "isFeatured": true,
+      "isFeatured": false,
       "isNewArrival": true,
       "isOriginalCertified": false,
       "description": "Palermo en gamuza azul oscuro con la franja blanca y suela caramelo.",
