@@ -12755,7 +12755,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       44
     ],
     "status": "disponible",
-    "isFeatured": true,
+    "isFeatured": false,
     "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "El MIND 001 en blanco entero, con el swoosh negro en el costado y los pines rojos en la suela.",
@@ -12795,7 +12795,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       44
     ],
     "status": "disponible",
-    "isFeatured": true,
+    "isFeatured": false,
     "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "MIND 001 en coral encendido, monocromático de la suela al empeine.",
@@ -12835,7 +12835,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       44
     ],
     "status": "disponible",
-    "isFeatured": true,
+    "isFeatured": false,
     "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "MIND 001 en crema, con el swoosh gris y el piso de pines naranja. El tono más discreto de la serie.",
@@ -13932,6 +13932,44 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "updatedAt": "2026-08-13T18:57:45.000Z"
   },
   {
+    "id": "sneaker-nike-zoom-vomero-5-azul-claro-verde-neon",
+    "name": "Nike Zoom Vomero 5 Azul Claro / Verde Neón",
+    "brand": "Nike",
+    "model": "Nike Zoom Vomero 5 Azul Claro / Verde Neón",
+    "sku": "PAPI-3647",
+    "category": "general",
+    "gender": "mujer",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/nike/mujer/nike-zoom-vomero-5-azul-claro-verde-neon.jpg",
+      "/catalogo/sneakers/nike/mujer/nike-zoom-vomero-5-azul-claro-verde-neon_2.jpg"
+    ],
+    "sizes": [
+      35,
+      36,
+      37,
+      38,
+      39
+    ],
+    "status": "disponible",
+    "isFeatured": true,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Light Blue / Volt",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-19T15:55:44.845Z",
+    "updatedAt": "2026-08-19T15:55:44.845Z"
+  },
+  {
     "id": "sneaker-nike-zoom-vomero-5-crema",
     "name": "Nike Zoom Vomero 5 Crema",
     "brand": "Nike",
@@ -13970,6 +14008,82 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "inquiriesCount": 0,
     "createdAt": "2026-08-13T18:57:45.000Z",
     "updatedAt": "2026-08-13T18:57:45.000Z"
+  },
+  {
+    "id": "sneaker-nike-zoom-vomero-5-crema-coral",
+    "name": "Nike Zoom Vomero 5 Crema / Coral",
+    "brand": "Nike",
+    "model": "Nike Zoom Vomero 5 Crema / Coral",
+    "sku": "PAPI-7068",
+    "category": "general",
+    "gender": "mujer",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/nike/mujer/nike-zoom-vomero-5-crema-coral.jpg",
+      "/catalogo/sneakers/nike/mujer/nike-zoom-vomero-5-crema-coral_2.jpg"
+    ],
+    "sizes": [
+      35,
+      36,
+      37,
+      38,
+      39
+    ],
+    "status": "disponible",
+    "isFeatured": true,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Sail / Coral",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-19T15:55:44.845Z",
+    "updatedAt": "2026-08-19T15:55:44.845Z"
+  },
+  {
+    "id": "sneaker-nike-zoom-vomero-5-malva-rosado",
+    "name": "Nike Zoom Vomero 5 Malva / Rosado",
+    "brand": "Nike",
+    "model": "Nike Zoom Vomero 5 Malva / Rosado",
+    "sku": "PAPI-1489",
+    "category": "general",
+    "gender": "mujer",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/nike/mujer/nike-zoom-vomero-5-malva-rosado.jpg",
+      "/catalogo/sneakers/nike/mujer/nike-zoom-vomero-5-malva-rosado_2.jpg"
+    ],
+    "sizes": [
+      35,
+      36,
+      37,
+      38,
+      39
+    ],
+    "status": "disponible",
+    "isFeatured": true,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Smokey Mauve / Pink Oxford",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-19T15:55:44.845Z",
+    "updatedAt": "2026-08-19T15:55:44.845Z"
   },
   {
     "id": "sneaker-nike-zoom-vomero-5-plata",
@@ -14012,6 +14126,44 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "updatedAt": "2026-08-13T18:57:45.000Z"
   },
   {
+    "id": "sneaker-nike-zoom-vomero-5-rosado-vino",
+    "name": "Nike Zoom Vomero 5 Rosado / Vino",
+    "brand": "Nike",
+    "model": "Nike Zoom Vomero 5 Rosado / Vino",
+    "sku": "PAPI-1902",
+    "category": "general",
+    "gender": "mujer",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/nike/mujer/nike-zoom-vomero-5-rosado-vino.jpg",
+      "/catalogo/sneakers/nike/mujer/nike-zoom-vomero-5-rosado-vino_2.jpg"
+    ],
+    "sizes": [
+      35,
+      36,
+      37,
+      38,
+      39
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Pink Foam / Burgundy",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-19T15:55:44.845Z",
+    "updatedAt": "2026-08-19T15:55:44.845Z"
+  },
+  {
     "id": "sneaker-nike-zoom-vomero-5-triple-blanco",
     "name": "Nike Zoom Vomero 5 Triple Blanco",
     "brand": "Nike",
@@ -14050,6 +14202,44 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "inquiriesCount": 0,
     "createdAt": "2026-08-13T18:57:45.000Z",
     "updatedAt": "2026-08-13T18:57:45.000Z"
+  },
+  {
+    "id": "sneaker-nike-zoom-vomero-5-verde-militar",
+    "name": "Nike Zoom Vomero 5 Verde Militar",
+    "brand": "Nike",
+    "model": "Nike Zoom Vomero 5 Verde Militar",
+    "sku": "PAPI-1407",
+    "category": "general",
+    "gender": "mujer",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/nike/mujer/nike-zoom-vomero-5-verde-militar.jpg",
+      "/catalogo/sneakers/nike/mujer/nike-zoom-vomero-5-verde-militar_2.jpg"
+    ],
+    "sizes": [
+      35,
+      36,
+      37,
+      38,
+      39
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Oil Green / Sail",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-19T15:55:44.845Z",
+    "updatedAt": "2026-08-19T15:55:44.845Z"
   },
   {
     "id": "sneaker-nike-vomero-6-gold",

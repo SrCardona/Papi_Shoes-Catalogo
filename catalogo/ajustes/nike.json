@@ -460,7 +460,6 @@
     "name": "Nike Free Metcon Morado",
     "colorway": "Purple / White"
   },
-
   "nike-mind-001-negro": {
     "name": "NIKE MIND 001 Negro",
     "colorway": "Black",
@@ -496,7 +495,6 @@
     "colorway": "Black / Blue",
     "description": "MIND 001 negro con el empeine en tela de toalla, los pines azules y el rayo de Fragment en el talón."
   },
-
   "nike-motiva-gris": {
     "name": "Nike Motiva Gris",
     "colorway": "Grey / White",
@@ -506,5 +504,30 @@
     "name": "Nike Motiva Crema",
     "colorway": "Cream / Beige",
     "description": "La Motiva en crema, con la misma suela mecedora y el empeine de malla al tono."
+  },
+  "nike-zoom-vomero-5-rosado-vino": {
+    "name": "Nike Zoom Vomero 5 Rosado / Vino",
+    "colorway": "Pink Foam / Burgundy",
+    "sizes": "35-39"
+  },
+  "nike-zoom-vomero-5-malva-rosado": {
+    "name": "Nike Zoom Vomero 5 Malva / Rosado",
+    "colorway": "Smokey Mauve / Pink Oxford",
+    "sizes": "35-39"
+  },
+  "nike-zoom-vomero-5-verde-militar": {
+    "name": "Nike Zoom Vomero 5 Verde Militar",
+    "colorway": "Oil Green / Sail",
+    "sizes": "35-39"
+  },
+  "nike-zoom-vomero-5-crema-coral": {
+    "name": "Nike Zoom Vomero 5 Crema / Coral",
+    "colorway": "Sail / Coral",
+    "sizes": "35-39"
+  },
+  "nike-zoom-vomero-5-azul-claro-verde-neon": {
+    "name": "Nike Zoom Vomero 5 Azul Claro / Verde Neón",
+    "colorway": "Light Blue / Volt",
+    "sizes": "35-39"
   }
 }
