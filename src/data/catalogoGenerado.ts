@@ -1014,6 +1014,120 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "updatedAt": "2026-08-12T21:42:38.000Z"
   },
   {
+    "id": "sneaker-adidas-spezial-crema-azul-claro",
+    "name": "Adidas Spezial Crema / Azul Claro",
+    "brand": "Adidas",
+    "model": "Adidas Spezial Crema / Azul Claro",
+    "sku": "PAPI-1196",
+    "category": "general",
+    "gender": "mujer",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/adidas/mujer/adidas-spezial-crema-azul-claro.jpg",
+      "/catalogo/sneakers/adidas/mujer/adidas-spezial-crema-azul-claro_2.jpg"
+    ],
+    "sizes": [
+      35,
+      36,
+      37,
+      38,
+      39
+    ],
+    "status": "disponible",
+    "isFeatured": true,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Off White / Light Blue / Gum",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-19T16:12:56.325Z",
+    "updatedAt": "2026-08-19T16:12:56.325Z"
+  },
+  {
+    "id": "sneaker-adidas-spezial-lila",
+    "name": "Adidas Spezial Lila",
+    "brand": "Adidas",
+    "model": "Adidas Spezial Lila",
+    "sku": "PAPI-1111",
+    "category": "general",
+    "gender": "mujer",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/adidas/mujer/adidas-spezial-lila.jpg",
+      "/catalogo/sneakers/adidas/mujer/adidas-spezial-lila_2.jpg"
+    ],
+    "sizes": [
+      35,
+      36,
+      37,
+      38,
+      39
+    ],
+    "status": "disponible",
+    "isFeatured": true,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Magic Lilac / Off White",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-19T16:12:56.325Z",
+    "updatedAt": "2026-08-19T16:12:56.325Z"
+  },
+  {
+    "id": "sneaker-adidas-spezial-negro-leopardo",
+    "name": "Adidas Spezial Negro / Leopardo",
+    "brand": "Adidas",
+    "model": "Adidas Spezial Negro / Leopardo",
+    "sku": "PAPI-1513",
+    "category": "general",
+    "gender": "mujer",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/adidas/mujer/adidas-spezial-negro-leopardo.jpg",
+      "/catalogo/sneakers/adidas/mujer/adidas-spezial-negro-leopardo_2.jpg"
+    ],
+    "sizes": [
+      35,
+      36,
+      37,
+      38,
+      39
+    ],
+    "status": "disponible",
+    "isFeatured": true,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "La Handball Spezial en gamuza negra con las tres bandas en estampado de leopardo y suela de goma.",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Core Black / Leopard / Gum",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-19T16:12:56.325Z",
+    "updatedAt": "2026-08-19T16:12:56.325Z"
+  },
+  {
     "id": "sneaker-adidas-spezial-olive-green",
     "name": "Adidas Spezial Olive Green",
     "brand": "Adidas",
@@ -1052,6 +1166,44 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "inquiriesCount": 0,
     "createdAt": "2026-08-12T21:42:38.000Z",
     "updatedAt": "2026-08-12T21:42:38.000Z"
+  },
+  {
+    "id": "sneaker-adidas-spezial-verde-oliva-lila",
+    "name": "Adidas Spezial Verde Oliva / Lila",
+    "brand": "Adidas",
+    "model": "Adidas Spezial Verde Oliva / Lila",
+    "sku": "PAPI-2999",
+    "category": "general",
+    "gender": "mujer",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/adidas/mujer/adidas-spezial-verde-oliva-lila.jpg",
+      "/catalogo/sneakers/adidas/mujer/adidas-spezial-verde-oliva-lila_2.jpg"
+    ],
+    "sizes": [
+      35,
+      36,
+      37,
+      38,
+      39
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "Pana verde oliva con gamuza menta y el talón en lila. Suela café.",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Olive / Lilac",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-19T16:12:56.325Z",
+    "updatedAt": "2026-08-19T16:12:56.325Z"
   },
   {
     "id": "sneaker-adidas-stan-smith-azul",
@@ -7950,7 +8102,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       44
     ],
     "status": "disponible",
-    "isFeatured": true,
+    "isFeatured": false,
     "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
@@ -14505,7 +14657,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       44
     ],
     "status": "disponible",
-    "isFeatured": true,
+    "isFeatured": false,
     "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "Runner de los 2000 con malla, capas superpuestas y suela alta. El azul eléctrico sobre gris es el corte más noventero del lote.",
@@ -14543,7 +14695,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       44
     ],
     "status": "disponible",
-    "isFeatured": true,
+    "isFeatured": false,
     "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "El mismo runner de silueta ancha, todo en negro con la suela blanca. Combina con cualquier cosa.",

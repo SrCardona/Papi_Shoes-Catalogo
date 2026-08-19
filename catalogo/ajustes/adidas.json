@@ -162,5 +162,27 @@
     "name": "Adidas Ultraboost Core Black",
     "colorway": "Core Black",
     "description": "Primeknit negro con jaula de soporte y mediasuela Boost completa. La más cómoda del catálogo para caminar."
+  },
+  "adidas-spezial-negro-leopardo": {
+    "name": "Adidas Spezial Negro / Leopardo",
+    "colorway": "Core Black / Leopard / Gum",
+    "sizes": "35-39",
+    "description": "La Handball Spezial en gamuza negra con las tres bandas en estampado de leopardo y suela de goma."
+  },
+  "adidas-spezial-verde-oliva-lila": {
+    "name": "Adidas Spezial Verde Oliva / Lila",
+    "colorway": "Olive / Lilac",
+    "sizes": "35-39",
+    "description": "Pana verde oliva con gamuza menta y el talón en lila. Suela café."
+  },
+  "adidas-spezial-lila": {
+    "name": "Adidas Spezial Lila",
+    "colorway": "Magic Lilac / Off White",
+    "sizes": "35-39"
+  },
+  "adidas-spezial-crema-azul-claro": {
+    "name": "Adidas Spezial Crema / Azul Claro",
+    "colorway": "Off White / Light Blue / Gum",
+    "sizes": "35-39"
   }
 }
