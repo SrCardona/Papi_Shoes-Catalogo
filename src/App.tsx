@@ -1,5 +1,6 @@
 import { lazy, Suspense } from 'react';
 import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom';
+import { Analytics } from '@vercel/analytics/react';
 import { StoreProvider } from './context/StoreContext';
 import { AuthProvider } from './context/AuthContext';
 import { ErrorBoundary } from './components/ui/ErrorBoundary';
@@ -35,6 +36,10 @@ export default function App() {
       <StoreProvider>
         <AuthProvider>
           <BrowserRouter>
+            {/* Una sola vez en toda la app: inyecta el script de Vercel, que se
+                engancha al historial y cuenta cada cambio de ruta de la SPA
+                como una vista aparte, sin recargar la pagina. */}
+            <Analytics />
             <Suspense fallback={<RouteFallback />}>
               <Routes>
                 <Route element={<Layout />}>
