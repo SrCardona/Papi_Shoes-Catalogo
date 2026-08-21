@@ -184,5 +184,70 @@
     "name": "Adidas Spezial Crema / Azul Claro",
     "colorway": "Off White / Light Blue / Gum",
     "sizes": "35-39"
+  },
+
+  "adidas-samba-cafe-chocolate": {
+    "name": "Adidas Samba Café / Chocolate",
+    "colorway": "Brown / White / Cream",
+    "sizes": "35-39",
+    "description": "Samba en tejido café con la gamuza gris en la punta, las tres rayas blancas y suela crema. Tono tierra para todos los días."
+  },
+  "adidas-samba-beige-rosado": {
+    "name": "Adidas Samba Beige / Rosado",
+    "colorway": "Beige / Pink / Gum",
+    "sizes": "35-39",
+    "description": "Samba en tejido beige con la gamuza rosa palo y suela caramelo. La más clara del lote."
+  },
+  "adidas-samba-crema-taupe": {
+    "name": "Adidas Samba Crema / Taupe",
+    "colorway": "Cream / Taupe",
+    "sizes": "35-39",
+    "description": "Samba en tejido crema con las tres rayas en taupe y la suela traslúcida al tono. Todo en un solo registro de color."
+  },
+  "adidas-superstar-x-andre-saraiva-crema": {
+    "name": "Adidas Superstar x André Saraiva",
+    "colorway": "Off White / Black / Pink",
+    "sizes": "35-39",
+    "description": "Superstar en cuero crema con las rayas negras, los dibujos de André Saraiva en el costado y el forro rosado. Herrajes rosados en los cordones."
+  },
+  "adidas-superstar-blanco-rosado": {
+    "name": "Adidas Superstar Blanco / Rosado",
+    "colorway": "White / Pink / Purple",
+    "sizes": "35-39",
+    "description": "Superstar en cuero blanco con las tres rayas tejidas en rosado, cordones al tono y el cuello morado. Parche redondo en el costado."
+  },
+  "adidas-superstar-blanco-azul": {
+    "name": "Adidas Superstar Blanco / Azul",
+    "colorway": "White / Navy / Light Blue",
+    "sizes": "39-44",
+    "description": "Superstar en cuero blanco con las rayas en azul oscuro y azul claro y el talón navy. Punta de concha en blanco."
+  },
+  "adidas-superstar-gris-estampado": {
+    "name": "Adidas Superstar Gris Estampado",
+    "colorway": "Grey / Black / White",
+    "sizes": "39-44",
+    "description": "Superstar en gris con las tres rayas estampadas y la punta de concha, el borde de la suela y los cordones en negro."
+  },
+  "adidas-superstar-negro-cafe": {
+    "name": "Adidas Superstar Negro / Café",
+    "colorway": "Black / Brown / Gum",
+    "sizes": "39-44",
+    "description": "Superstar en cuero negro con las rayas en café perforado, el cuello mostaza y la suela caramelo. La más cálida del lote."
+  },
+  "adidas-superstar-x-neighborhood-gris": {
+    "name": "Adidas Superstar x Neighborhood Gris",
+    "colorway": "Grey",
+    "sizes": "39-44",
+    "description": "Superstar en gris de punta a suela, con las tres rayas en gamuza y la calavera de Neighborhood impresa en el costado."
+  },
+  "adidas-superstar-blanco-gris-trebol": {
+    "name": "Adidas Superstar Blanco / Gris",
+    "colorway": "White / Grey",
+    "description": "Superstar en cuero blanco con los paneles en gris claro y el trébol grande en el costado en vez de las tres rayas."
+  },
+  "adidas-superstar-triple-black": {
+    "name": "Adidas Superstar Triple Black",
+    "colorway": "Core Black",
+    "description": "Superstar entero en negro, rayas incluidas. Punta de concha y suela al tono."
   }
 }

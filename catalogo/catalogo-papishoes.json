@@ -1,6 +1,6 @@
 {
   "version": 3,
-  "exportedAt": "2026-08-21T12:48:13.716Z",
+  "exportedAt": "2026-08-21T13:03:03.173Z",
   "sneakers": [
     {
       "id": "sneaker-adidas-adilette-22",
@@ -763,6 +763,117 @@
       "updatedAt": "2026-08-12T21:42:38.000Z"
     },
     {
+      "id": "sneaker-adidas-samba-beige-rosado",
+      "name": "Adidas Samba Beige / Rosado",
+      "brand": "Adidas",
+      "model": "Adidas Samba Beige / Rosado",
+      "sku": "PAPI-1099",
+      "category": "general",
+      "gender": "mujer",
+      "price": 180000,
+      "originalPrice": 210000,
+      "images": [
+        "/catalogo/sneakers/adidas/mujer/adidas-samba-beige-rosado.jpg"
+      ],
+      "sizes": [
+        35,
+        36,
+        37,
+        38,
+        39
+      ],
+      "status": "disponible",
+      "isFeatured": true,
+      "isNewArrival": true,
+      "isOriginalCertified": false,
+      "description": "Samba en tejido beige con la gamuza rosa palo y suela caramelo. La más clara del lote.",
+      "details": {
+        "condition": "En caja",
+        "colorway": "Beige / Pink / Gum",
+        "includedItems": [
+          "Caja"
+        ]
+      },
+      "viewsCount": 0,
+      "inquiriesCount": 0,
+      "createdAt": "2026-08-21T13:03:03.159Z",
+      "updatedAt": "2026-08-21T13:03:03.159Z"
+    },
+    {
+      "id": "sneaker-adidas-samba-cafe-chocolate",
+      "name": "Adidas Samba Café / Chocolate",
+      "brand": "Adidas",
+      "model": "Adidas Samba Café / Chocolate",
+      "sku": "PAPI-5380",
+      "category": "general",
+      "gender": "mujer",
+      "price": 180000,
+      "originalPrice": 210000,
+      "images": [
+        "/catalogo/sneakers/adidas/mujer/adidas-samba-cafe-chocolate.jpg"
+      ],
+      "sizes": [
+        35,
+        36,
+        37,
+        38,
+        39
+      ],
+      "status": "disponible",
+      "isFeatured": true,
+      "isNewArrival": true,
+      "isOriginalCertified": false,
+      "description": "Samba en tejido café con la gamuza gris en la punta, las tres rayas blancas y suela crema. Tono tierra para todos los días.",
+      "details": {
+        "condition": "En caja",
+        "colorway": "Brown / White / Cream",
+        "includedItems": [
+          "Caja"
+        ]
+      },
+      "viewsCount": 0,
+      "inquiriesCount": 0,
+      "createdAt": "2026-08-21T13:03:03.159Z",
+      "updatedAt": "2026-08-21T13:03:03.159Z"
+    },
+    {
+      "id": "sneaker-adidas-samba-crema-taupe",
+      "name": "Adidas Samba Crema / Taupe",
+      "brand": "Adidas",
+      "model": "Adidas Samba Crema / Taupe",
+      "sku": "PAPI-1172",
+      "category": "general",
+      "gender": "mujer",
+      "price": 180000,
+      "originalPrice": 210000,
+      "images": [
+        "/catalogo/sneakers/adidas/mujer/adidas-samba-crema-taupe.jpg"
+      ],
+      "sizes": [
+        35,
+        36,
+        37,
+        38,
+        39
+      ],
+      "status": "disponible",
+      "isFeatured": true,
+      "isNewArrival": true,
+      "isOriginalCertified": false,
+      "description": "Samba en tejido crema con las tres rayas en taupe y la suela traslúcida al tono. Todo en un solo registro de color.",
+      "details": {
+        "condition": "En caja",
+        "colorway": "Cream / Taupe",
+        "includedItems": [
+          "Caja"
+        ]
+      },
+      "viewsCount": 0,
+      "inquiriesCount": 0,
+      "createdAt": "2026-08-21T13:03:03.159Z",
+      "updatedAt": "2026-08-21T13:03:03.159Z"
+    },
+    {
       "id": "sneaker-adidas-samba-flower",
       "name": "Adidas Samba Flower",
       "brand": "Adidas",
@@ -1024,7 +1135,7 @@
         39
       ],
       "status": "disponible",
-      "isFeatured": true,
+      "isFeatured": false,
       "isNewArrival": true,
       "isOriginalCertified": false,
       "description": "",
@@ -1062,7 +1173,7 @@
         39
       ],
       "status": "disponible",
-      "isFeatured": true,
+      "isFeatured": false,
       "isNewArrival": true,
       "isOriginalCertified": false,
       "description": "",
@@ -1100,7 +1211,7 @@
         39
       ],
       "status": "disponible",
-      "isFeatured": true,
+      "isFeatured": false,
       "isNewArrival": true,
       "isOriginalCertified": false,
       "description": "La Handball Spezial en gamuza negra con las tres bandas en estampado de leopardo y suela de goma.",
@@ -1315,6 +1426,121 @@
       "updatedAt": "2026-08-12T21:42:38.000Z"
     },
     {
+      "id": "sneaker-adidas-superstar-blanco-azul",
+      "name": "Adidas Superstar Blanco / Azul",
+      "brand": "Adidas",
+      "model": "Adidas Superstar Blanco / Azul",
+      "sku": "PAPI-4535",
+      "category": "general",
+      "gender": "hombre",
+      "price": 180000,
+      "originalPrice": 210000,
+      "images": [
+        "/catalogo/sneakers/adidas/hombre/adidas-superstar-blanco-azul.jpg"
+      ],
+      "sizes": [
+        39,
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "status": "disponible",
+      "isFeatured": false,
+      "isNewArrival": true,
+      "isOriginalCertified": false,
+      "description": "Superstar en cuero blanco con las rayas en azul oscuro y azul claro y el talón navy. Punta de concha en blanco.",
+      "details": {
+        "condition": "En caja",
+        "colorway": "White / Navy / Light Blue",
+        "includedItems": [
+          "Caja"
+        ]
+      },
+      "viewsCount": 0,
+      "inquiriesCount": 0,
+      "createdAt": "2026-08-21T13:03:03.159Z",
+      "updatedAt": "2026-08-21T13:03:03.159Z"
+    },
+    {
+      "id": "sneaker-adidas-superstar-blanco-gris-trebol",
+      "name": "Adidas Superstar Blanco / Gris",
+      "brand": "Adidas",
+      "model": "Adidas Superstar Blanco / Gris",
+      "sku": "PAPI-1019",
+      "category": "general",
+      "gender": "unisex",
+      "price": 180000,
+      "originalPrice": 210000,
+      "images": [
+        "/catalogo/sneakers/adidas/adidas-superstar-blanco-gris-trebol.jpg"
+      ],
+      "sizes": [
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "status": "disponible",
+      "isFeatured": false,
+      "isNewArrival": true,
+      "isOriginalCertified": false,
+      "description": "Superstar en cuero blanco con los paneles en gris claro y el trébol grande en el costado en vez de las tres rayas.",
+      "details": {
+        "condition": "En caja",
+        "colorway": "White / Grey",
+        "includedItems": [
+          "Caja"
+        ]
+      },
+      "viewsCount": 0,
+      "inquiriesCount": 0,
+      "createdAt": "2026-08-21T13:03:03.159Z",
+      "updatedAt": "2026-08-21T13:03:03.159Z"
+    },
+    {
+      "id": "sneaker-adidas-superstar-blanco-rosado",
+      "name": "Adidas Superstar Blanco / Rosado",
+      "brand": "Adidas",
+      "model": "Adidas Superstar Blanco / Rosado",
+      "sku": "PAPI-3680",
+      "category": "general",
+      "gender": "mujer",
+      "price": 180000,
+      "originalPrice": 210000,
+      "images": [
+        "/catalogo/sneakers/adidas/mujer/adidas-superstar-blanco-rosado.jpg"
+      ],
+      "sizes": [
+        35,
+        36,
+        37,
+        38,
+        39
+      ],
+      "status": "disponible",
+      "isFeatured": false,
+      "isNewArrival": true,
+      "isOriginalCertified": false,
+      "description": "Superstar en cuero blanco con las tres rayas tejidas en rosado, cordones al tono y el cuello morado. Parche redondo en el costado.",
+      "details": {
+        "condition": "En caja",
+        "colorway": "White / Pink / Purple",
+        "includedItems": [
+          "Caja"
+        ]
+      },
+      "viewsCount": 0,
+      "inquiriesCount": 0,
+      "createdAt": "2026-08-21T13:03:03.159Z",
+      "updatedAt": "2026-08-21T13:03:03.159Z"
+    },
+    {
       "id": "sneaker-adidas-superstar-core-black",
       "name": "Adidas Superstar Core Black",
       "brand": "Adidas",
@@ -1325,7 +1551,8 @@
       "price": 180000,
       "originalPrice": 210000,
       "images": [
-        "/catalogo/sneakers/adidas/adidas-superstar-core-black.jpg"
+        "/catalogo/sneakers/adidas/adidas-superstar-core-black.jpg",
+        "/catalogo/sneakers/adidas/adidas-superstar-core-black_2.jpg"
       ],
       "sizes": [
         37,
@@ -1353,6 +1580,82 @@
       "inquiriesCount": 0,
       "createdAt": "2026-08-12T21:42:38.000Z",
       "updatedAt": "2026-08-12T21:42:38.000Z"
+    },
+    {
+      "id": "sneaker-adidas-superstar-gris-estampado",
+      "name": "Adidas Superstar Gris Estampado",
+      "brand": "Adidas",
+      "model": "Adidas Superstar Gris Estampado",
+      "sku": "PAPI-6034",
+      "category": "general",
+      "gender": "hombre",
+      "price": 180000,
+      "originalPrice": 210000,
+      "images": [
+        "/catalogo/sneakers/adidas/hombre/adidas-superstar-gris-estampado.jpg"
+      ],
+      "sizes": [
+        39,
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "status": "disponible",
+      "isFeatured": false,
+      "isNewArrival": true,
+      "isOriginalCertified": false,
+      "description": "Superstar en gris con las tres rayas estampadas y la punta de concha, el borde de la suela y los cordones en negro.",
+      "details": {
+        "condition": "En caja",
+        "colorway": "Grey / Black / White",
+        "includedItems": [
+          "Caja"
+        ]
+      },
+      "viewsCount": 0,
+      "inquiriesCount": 0,
+      "createdAt": "2026-08-21T13:03:03.159Z",
+      "updatedAt": "2026-08-21T13:03:03.159Z"
+    },
+    {
+      "id": "sneaker-adidas-superstar-negro-cafe",
+      "name": "Adidas Superstar Negro / Café",
+      "brand": "Adidas",
+      "model": "Adidas Superstar Negro / Café",
+      "sku": "PAPI-1479",
+      "category": "general",
+      "gender": "hombre",
+      "price": 180000,
+      "originalPrice": 210000,
+      "images": [
+        "/catalogo/sneakers/adidas/hombre/adidas-superstar-negro-cafe.jpg"
+      ],
+      "sizes": [
+        39,
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "status": "disponible",
+      "isFeatured": false,
+      "isNewArrival": true,
+      "isOriginalCertified": false,
+      "description": "Superstar en cuero negro con las rayas en café perforado, el cuello mostaza y la suela caramelo. La más cálida del lote.",
+      "details": {
+        "condition": "En caja",
+        "colorway": "Black / Brown / Gum",
+        "includedItems": [
+          "Caja"
+        ]
+      },
+      "viewsCount": 0,
+      "inquiriesCount": 0,
+      "createdAt": "2026-08-21T13:03:03.159Z",
+      "updatedAt": "2026-08-21T13:03:03.159Z"
     },
     {
       "id": "sneaker-adidas-superstar-rainbow",
@@ -1435,6 +1738,46 @@
       "updatedAt": "2026-08-12T21:42:38.000Z"
     },
     {
+      "id": "sneaker-adidas-superstar-triple-black",
+      "name": "Adidas Superstar Triple Black",
+      "brand": "Adidas",
+      "model": "Adidas Superstar Triple Black",
+      "sku": "PAPI-4630",
+      "category": "general",
+      "gender": "unisex",
+      "price": 180000,
+      "originalPrice": 210000,
+      "images": [
+        "/catalogo/sneakers/adidas/adidas-superstar-triple-black.jpg"
+      ],
+      "sizes": [
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "status": "disponible",
+      "isFeatured": false,
+      "isNewArrival": true,
+      "isOriginalCertified": false,
+      "description": "Superstar entero en negro, rayas incluidas. Punta de concha y suela al tono.",
+      "details": {
+        "condition": "En caja",
+        "colorway": "Core Black",
+        "includedItems": [
+          "Caja"
+        ]
+      },
+      "viewsCount": 0,
+      "inquiriesCount": 0,
+      "createdAt": "2026-08-21T13:03:03.159Z",
+      "updatedAt": "2026-08-21T13:03:03.159Z"
+    },
+    {
       "id": "sneaker-adidas-superstar-triple-white",
       "name": "Adidas Superstar Triple White",
       "brand": "Adidas",
@@ -1485,7 +1828,8 @@
       "price": 180000,
       "originalPrice": 210000,
       "images": [
-        "/catalogo/sneakers/adidas/adidas-superstar-white-black.jpg"
+        "/catalogo/sneakers/adidas/adidas-superstar-white-black.jpg",
+        "/catalogo/sneakers/adidas/adidas-superstar-white-black_2.jpg"
       ],
       "sizes": [
         37,
@@ -1513,6 +1857,43 @@
       "inquiriesCount": 0,
       "createdAt": "2026-08-12T21:42:38.000Z",
       "updatedAt": "2026-08-12T21:42:38.000Z"
+    },
+    {
+      "id": "sneaker-adidas-superstar-x-andre-saraiva-crema",
+      "name": "Adidas Superstar x André Saraiva",
+      "brand": "Adidas",
+      "model": "Adidas Superstar x André Saraiva",
+      "sku": "PAPI-2914",
+      "category": "general",
+      "gender": "mujer",
+      "price": 180000,
+      "originalPrice": 210000,
+      "images": [
+        "/catalogo/sneakers/adidas/mujer/adidas-superstar-x-andre-saraiva-crema.jpg"
+      ],
+      "sizes": [
+        35,
+        36,
+        37,
+        38,
+        39
+      ],
+      "status": "disponible",
+      "isFeatured": false,
+      "isNewArrival": true,
+      "isOriginalCertified": false,
+      "description": "Superstar en cuero crema con las rayas negras, los dibujos de André Saraiva en el costado y el forro rosado. Herrajes rosados en los cordones.",
+      "details": {
+        "condition": "En caja",
+        "colorway": "Off White / Black / Pink",
+        "includedItems": [
+          "Caja"
+        ]
+      },
+      "viewsCount": 0,
+      "inquiriesCount": 0,
+      "createdAt": "2026-08-21T13:03:03.159Z",
+      "updatedAt": "2026-08-21T13:03:03.159Z"
     },
     {
       "id": "sneaker-adidas-superstar-x-blessd",
@@ -1553,6 +1934,44 @@
       "inquiriesCount": 0,
       "createdAt": "2026-08-12T21:42:38.000Z",
       "updatedAt": "2026-08-12T21:42:38.000Z"
+    },
+    {
+      "id": "sneaker-adidas-superstar-x-neighborhood-gris",
+      "name": "Adidas Superstar x Neighborhood Gris",
+      "brand": "Adidas",
+      "model": "Adidas Superstar x Neighborhood Gris",
+      "sku": "PAPI-3560",
+      "category": "general",
+      "gender": "hombre",
+      "price": 180000,
+      "originalPrice": 210000,
+      "images": [
+        "/catalogo/sneakers/adidas/hombre/adidas-superstar-x-neighborhood-gris.jpg"
+      ],
+      "sizes": [
+        39,
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "status": "disponible",
+      "isFeatured": false,
+      "isNewArrival": true,
+      "isOriginalCertified": false,
+      "description": "Superstar en gris de punta a suela, con las tres rayas en gamuza y la calavera de Neighborhood impresa en el costado.",
+      "details": {
+        "condition": "En caja",
+        "colorway": "Grey",
+        "includedItems": [
+          "Caja"
+        ]
+      },
+      "viewsCount": 0,
+      "inquiriesCount": 0,
+      "createdAt": "2026-08-21T13:03:03.159Z",
+      "updatedAt": "2026-08-21T13:03:03.159Z"
     },
     {
       "id": "sneaker-adidas-ultraboost",
