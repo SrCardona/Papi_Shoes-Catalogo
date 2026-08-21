@@ -3315,8 +3315,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "price": 180000,
     "originalPrice": 210000,
     "images": [
-      "/catalogo/sneakers/jordan/jordan-4-retro-black-cat_1.jpg",
-      "/catalogo/sneakers/jordan/jordan-4-retro-black-cat_2.jpg"
+      "/catalogo/sneakers/jordan/jordan-4-retro-black-cat_3.jpg",
+      "/catalogo/sneakers/jordan/jordan-4-retro-black-cat_4.jpg"
     ],
     "sizes": [
       37,
