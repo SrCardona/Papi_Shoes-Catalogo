@@ -8022,7 +8022,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       44
     ],
     "status": "disponible",
-    "isFeatured": true,
+    "isFeatured": false,
     "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
@@ -8062,7 +8062,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       44
     ],
     "status": "disponible",
-    "isFeatured": true,
+    "isFeatured": false,
     "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
@@ -14221,7 +14221,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       39
     ],
     "status": "disponible",
-    "isFeatured": true,
+    "isFeatured": false,
     "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
@@ -14634,6 +14634,154 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "inquiriesCount": 0,
     "createdAt": "2026-08-14T15:26:27.178Z",
     "updatedAt": "2026-08-14T15:26:27.178Z"
+  },
+  {
+    "id": "sneaker-puma-club-azura-azul-claro",
+    "name": "Puma Club Azura Azul Claro",
+    "brand": "Puma",
+    "model": "Puma Club Azura Azul Claro",
+    "sku": "PAPI-1584",
+    "category": "general",
+    "gender": "mujer",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/puma/mujer/puma-club-azura-azul-claro.jpg"
+    ],
+    "sizes": [
+      35,
+      36,
+      37,
+      38,
+      39
+    ],
+    "status": "disponible",
+    "isFeatured": true,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "Club Azura en azul claro con la franja blanca, paneles de gamuza en punta y talón y suela caramelo. Silueta baja de cancha.",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Light Blue / White / Gum",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-21T12:48:13.704Z",
+    "updatedAt": "2026-08-21T12:48:13.704Z"
+  },
+  {
+    "id": "sneaker-puma-club-azura-blanco-lila",
+    "name": "Puma Club Azura Blanco Lila",
+    "brand": "Puma",
+    "model": "Puma Club Azura Blanco Lila",
+    "sku": "PAPI-1023",
+    "category": "general",
+    "gender": "mujer",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/puma/mujer/puma-club-azura-blanco-lila.jpg"
+    ],
+    "sizes": [
+      35,
+      36,
+      37,
+      38,
+      39
+    ],
+    "status": "disponible",
+    "isFeatured": true,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "Club Azura en cuero blanco con la franja lila y la gamuza crema en punta y talón. Suela caramelo.",
+    "details": {
+      "condition": "En caja",
+      "colorway": "White / Lilac / Gum",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-21T12:48:13.704Z",
+    "updatedAt": "2026-08-21T12:48:13.704Z"
+  },
+  {
+    "id": "sneaker-puma-club-azura-negro-blanco",
+    "name": "Puma Club Azura Negro Blanco",
+    "brand": "Puma",
+    "model": "Puma Club Azura Negro Blanco",
+    "sku": "PAPI-1623",
+    "category": "general",
+    "gender": "mujer",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/puma/mujer/puma-club-azura-negro-blanco.jpg"
+    ],
+    "sizes": [
+      35,
+      36,
+      37,
+      38,
+      39
+    ],
+    "status": "disponible",
+    "isFeatured": true,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "Club Azura en negro con la franja blanca y la suela caramelo. El contraste clásico de la silueta.",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Black / White / Gum",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-21T12:48:13.704Z",
+    "updatedAt": "2026-08-21T12:48:13.704Z"
+  },
+  {
+    "id": "sneaker-puma-club-azura-rosado",
+    "name": "Puma Club Azura Rosado",
+    "brand": "Puma",
+    "model": "Puma Club Azura Rosado",
+    "sku": "PAPI-7422",
+    "category": "general",
+    "gender": "mujer",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/puma/mujer/puma-club-azura-rosado.jpg"
+    ],
+    "sizes": [
+      35,
+      36,
+      37,
+      38,
+      39
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "Club Azura en rosado palo entero, con el logo dorado y la suela caramelo. Todo al tono, sin contrastes.",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Pink / Gold / Gum",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-21T12:48:13.704Z",
+    "updatedAt": "2026-08-21T12:48:13.704Z"
   },
   {
     "id": "sneaker-puma-morphic-gris-azul",

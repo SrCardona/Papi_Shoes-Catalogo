@@ -77,5 +77,30 @@
     "colorway": "Beige / Gold",
     "sizes": "35-39",
     "description": "Palermo en gamuza beige con el logo dorado y suela al tono. La más suave del lote."
+  },
+
+  "puma-club-azura-azul-claro": {
+    "name": "Puma Club Azura Azul Claro",
+    "colorway": "Light Blue / White / Gum",
+    "sizes": "35-39",
+    "description": "Club Azura en azul claro con la franja blanca, paneles de gamuza en punta y talón y suela caramelo. Silueta baja de cancha."
+  },
+  "puma-club-azura-blanco-lila": {
+    "name": "Puma Club Azura Blanco Lila",
+    "colorway": "White / Lilac / Gum",
+    "sizes": "35-39",
+    "description": "Club Azura en cuero blanco con la franja lila y la gamuza crema en punta y talón. Suela caramelo."
+  },
+  "puma-club-azura-rosado": {
+    "name": "Puma Club Azura Rosado",
+    "colorway": "Pink / Gold / Gum",
+    "sizes": "35-39",
+    "description": "Club Azura en rosado palo entero, con el logo dorado y la suela caramelo. Todo al tono, sin contrastes."
+  },
+  "puma-club-azura-negro-blanco": {
+    "name": "Puma Club Azura Negro Blanco",
+    "colorway": "Black / White / Gum",
+    "sizes": "35-39",
+    "description": "Club Azura en negro con la franja blanca y la suela caramelo. El contraste clásico de la silueta."
   }
 }
