@@ -1,6 +1,6 @@
 {
   "version": 3,
-  "exportedAt": "2026-08-21T13:03:03.173Z",
+  "exportedAt": "2026-08-21T13:22:36.429Z",
   "sneakers": [
     {
       "id": "sneaker-adidas-adilette-22",
@@ -3304,7 +3304,8 @@
       "price": 180000,
       "originalPrice": 210000,
       "images": [
-        "/catalogo/sneakers/jordan/jordan-4-retro-black-cat.jpg"
+        "/catalogo/sneakers/jordan/jordan-4-retro-black-cat.jpg",
+        "/catalogo/sneakers/jordan/jordan-4-retro-black-cat_2.jpg"
       ],
       "sizes": [
         37,
