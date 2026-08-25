@@ -1,6 +1,6 @@
 {
   "version": 3,
-  "exportedAt": "2026-08-25T13:34:51.431Z",
+  "exportedAt": "2026-08-25T15:10:14.258Z",
   "sneakers": [
     {
       "id": "sneaker-adidas-adilette-22",
@@ -173,7 +173,8 @@
       "price": 180000,
       "originalPrice": 210000,
       "images": [
-        "/catalogo/sneakers/adidas/adidas-campus-00s-core-black.jpg"
+        "/catalogo/sneakers/adidas/adidas-campus-00s-core-black.jpg",
+        "/catalogo/sneakers/adidas/adidas-campus-00s-core-black_2.jpg"
       ],
       "sizes": [
         37,
@@ -1552,7 +1553,8 @@
       "originalPrice": 210000,
       "images": [
         "/catalogo/sneakers/adidas/adidas-superstar-core-black.jpg",
-        "/catalogo/sneakers/adidas/adidas-superstar-core-black_2.jpg"
+        "/catalogo/sneakers/adidas/adidas-superstar-core-black_2.jpg",
+        "/catalogo/sneakers/adidas/adidas-superstar-core-black_3.jpg"
       ],
       "sizes": [
         37,
@@ -1829,7 +1831,8 @@
       "originalPrice": 210000,
       "images": [
         "/catalogo/sneakers/adidas/adidas-superstar-white-black.jpg",
-        "/catalogo/sneakers/adidas/adidas-superstar-white-black_2.jpg"
+        "/catalogo/sneakers/adidas/adidas-superstar-white-black_2.jpg",
+        "/catalogo/sneakers/adidas/adidas-superstar-white-black_3.jpg"
       ],
       "sizes": [
         37,
@@ -2092,6 +2095,43 @@
       "inquiriesCount": 0,
       "createdAt": "2026-08-13T19:36:10.000Z",
       "updatedAt": "2026-08-13T19:36:10.000Z"
+    },
+    {
+      "id": "sneaker-jordan-1-low-rosa-mocha",
+      "name": "Air Jordan 1 Low Rosa / Mocha",
+      "brand": "Jordan",
+      "model": "Air Jordan 1 Low Rosa / Mocha",
+      "sku": "PAPI-1189",
+      "category": "general",
+      "gender": "mujer",
+      "price": 180000,
+      "originalPrice": 210000,
+      "images": [
+        "/catalogo/sneakers/jordan/mujer/jordan-1-low-rosa-mocha.jpg"
+      ],
+      "sizes": [
+        35,
+        36,
+        37,
+        38,
+        39
+      ],
+      "status": "disponible",
+      "isFeatured": true,
+      "isNewArrival": true,
+      "isOriginalCertified": false,
+      "description": "La 1 baja en bloques de rosado, durazno y crema, con el swoosh mocha y la suela caramelo.",
+      "details": {
+        "condition": "En caja",
+        "colorway": "Pink / Mocha / Sail",
+        "includedItems": [
+          "Caja"
+        ]
+      },
+      "viewsCount": 0,
+      "inquiriesCount": 0,
+      "createdAt": "2026-08-25T15:10:14.234Z",
+      "updatedAt": "2026-08-25T15:10:14.234Z"
     },
     {
       "id": "sneaker-jordan-1-low-x-stussy-x-supreme",
@@ -2934,6 +2974,196 @@
       "updatedAt": "2026-08-13T19:36:10.000Z"
     },
     {
+      "id": "sneaker-jordan-11-retro-cool-grey",
+      "name": "Air Jordan 11 Retro Cool Grey",
+      "brand": "Jordan",
+      "model": "Air Jordan 11 Retro Cool Grey",
+      "sku": "PAPI-5820",
+      "category": "general",
+      "gender": "hombre",
+      "price": 180000,
+      "originalPrice": 210000,
+      "images": [
+        "/catalogo/sneakers/jordan/hombre/jordan-11-retro-cool-grey.jpg"
+      ],
+      "sizes": [
+        39,
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "status": "disponible",
+      "isFeatured": true,
+      "isNewArrival": true,
+      "isOriginalCertified": false,
+      "description": "La 11 alta en gris medio con el charol gris oscuro, mediasuela blanca y suela hielo.",
+      "details": {
+        "condition": "En caja",
+        "colorway": "Medium Grey / White",
+        "includedItems": [
+          "Caja"
+        ]
+      },
+      "viewsCount": 0,
+      "inquiriesCount": 0,
+      "createdAt": "2026-08-25T15:10:14.234Z",
+      "updatedAt": "2026-08-25T15:10:14.234Z"
+    },
+    {
+      "id": "sneaker-jordan-11-retro-gamma-blue",
+      "name": "Air Jordan 11 Retro Gamma Blue",
+      "brand": "Jordan",
+      "model": "Air Jordan 11 Retro Gamma Blue",
+      "sku": "PAPI-1432",
+      "category": "general",
+      "gender": "hombre",
+      "price": 180000,
+      "originalPrice": 210000,
+      "images": [
+        "/catalogo/sneakers/jordan/hombre/jordan-11-retro-gamma-blue.jpg"
+      ],
+      "sizes": [
+        39,
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "status": "disponible",
+      "isFeatured": true,
+      "isNewArrival": true,
+      "isOriginalCertified": false,
+      "description": "La 11 en malla y charol negro, con el Jumpman en jade, las letras doradas en el cordón y la suela hielo.",
+      "details": {
+        "condition": "En caja",
+        "colorway": "Black / Gamma Blue / Varsity Maize",
+        "includedItems": [
+          "Caja"
+        ]
+      },
+      "viewsCount": 0,
+      "inquiriesCount": 0,
+      "createdAt": "2026-08-25T15:10:14.234Z",
+      "updatedAt": "2026-08-25T15:10:14.234Z"
+    },
+    {
+      "id": "sneaker-jordan-11-retro-low-72-10",
+      "name": "Air Jordan 11 Retro Low 72-10",
+      "brand": "Jordan",
+      "model": "Air Jordan 11 Retro Low 72-10",
+      "sku": "PAPI-1403",
+      "category": "general",
+      "gender": "hombre",
+      "price": 180000,
+      "originalPrice": 210000,
+      "images": [
+        "/catalogo/sneakers/jordan/hombre/jordan-11-retro-low-72-10.jpg"
+      ],
+      "sizes": [
+        39,
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "status": "disponible",
+      "isFeatured": false,
+      "isNewArrival": true,
+      "isOriginalCertified": false,
+      "description": "La 11 baja en charol negro sobre mediasuela blanca, con la suela hielo. Corte bajo del chasis clásico.",
+      "details": {
+        "condition": "En caja",
+        "colorway": "Black / White",
+        "includedItems": [
+          "Caja"
+        ]
+      },
+      "viewsCount": 0,
+      "inquiriesCount": 0,
+      "createdAt": "2026-08-25T15:10:14.234Z",
+      "updatedAt": "2026-08-25T15:10:14.234Z"
+    },
+    {
+      "id": "sneaker-jordan-11-retro-low-bred",
+      "name": "Air Jordan 11 Retro Low Bred",
+      "brand": "Jordan",
+      "model": "Air Jordan 11 Retro Low Bred",
+      "sku": "PAPI-1537",
+      "category": "general",
+      "gender": "hombre",
+      "price": 180000,
+      "originalPrice": 210000,
+      "images": [
+        "/catalogo/sneakers/jordan/hombre/jordan-11-retro-low-bred.jpg"
+      ],
+      "sizes": [
+        39,
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "status": "disponible",
+      "isFeatured": false,
+      "isNewArrival": true,
+      "isOriginalCertified": false,
+      "description": "La 11 baja en charol negro con la mediasuela blanca y la suela roja.",
+      "details": {
+        "condition": "En caja",
+        "colorway": "Black / Varsity Red / White",
+        "includedItems": [
+          "Caja"
+        ]
+      },
+      "viewsCount": 0,
+      "inquiriesCount": 0,
+      "createdAt": "2026-08-25T15:10:14.234Z",
+      "updatedAt": "2026-08-25T15:10:14.234Z"
+    },
+    {
+      "id": "sneaker-jordan-11-retro-low-concord",
+      "name": "Air Jordan 11 Retro Low Concord",
+      "brand": "Jordan",
+      "model": "Air Jordan 11 Retro Low Concord",
+      "sku": "PAPI-6295",
+      "category": "general",
+      "gender": "hombre",
+      "price": 180000,
+      "originalPrice": 210000,
+      "images": [
+        "/catalogo/sneakers/jordan/hombre/jordan-11-retro-low-concord.jpg"
+      ],
+      "sizes": [
+        39,
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "status": "disponible",
+      "isFeatured": false,
+      "isNewArrival": true,
+      "isOriginalCertified": false,
+      "description": "La 11 baja en blanco con el charol negro envolviendo la punta, y la suela hielo.",
+      "details": {
+        "condition": "En caja",
+        "colorway": "White / Black / Concord",
+        "includedItems": [
+          "Caja"
+        ]
+      },
+      "viewsCount": 0,
+      "inquiriesCount": 0,
+      "createdAt": "2026-08-25T15:10:14.234Z",
+      "updatedAt": "2026-08-25T15:10:14.234Z"
+    },
+    {
       "id": "sneaker-jordan-11-retro-low-concord-bred",
       "name": "Air Jordan 11 Retro Low Concord Bred",
       "brand": "Jordan",
@@ -2944,7 +3174,8 @@
       "price": 180000,
       "originalPrice": 210000,
       "images": [
-        "/catalogo/sneakers/jordan/jordan-11-retro-low-concord-bred.jpg"
+        "/catalogo/sneakers/jordan/jordan-11-retro-low-concord-bred.jpg",
+        "/catalogo/sneakers/jordan/jordan-11-retro-low-concord-bred_2.jpg"
       ],
       "sizes": [
         37,
@@ -2974,6 +3205,44 @@
       "updatedAt": "2026-08-13T19:36:10.000Z"
     },
     {
+      "id": "sneaker-jordan-11-retro-low-cool-grey",
+      "name": "Air Jordan 11 Retro Low Cool Grey",
+      "brand": "Jordan",
+      "model": "Air Jordan 11 Retro Low Cool Grey",
+      "sku": "PAPI-7802",
+      "category": "general",
+      "gender": "hombre",
+      "price": 180000,
+      "originalPrice": 210000,
+      "images": [
+        "/catalogo/sneakers/jordan/hombre/jordan-11-retro-low-cool-grey.jpg"
+      ],
+      "sizes": [
+        39,
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "status": "disponible",
+      "isFeatured": false,
+      "isNewArrival": true,
+      "isOriginalCertified": false,
+      "description": "La 11 baja en gris medio con el charol gris oscuro y la suela hielo.",
+      "details": {
+        "condition": "En caja",
+        "colorway": "Medium Grey / White",
+        "includedItems": [
+          "Caja"
+        ]
+      },
+      "viewsCount": 0,
+      "inquiriesCount": 0,
+      "createdAt": "2026-08-25T15:10:14.234Z",
+      "updatedAt": "2026-08-25T15:10:14.234Z"
+    },
+    {
       "id": "sneaker-jordan-11-retro-playoffs-bred",
       "name": "Air Jordan 11 Retro Playoffs Bred",
       "brand": "Jordan",
@@ -2984,7 +3253,8 @@
       "price": 180000,
       "originalPrice": 210000,
       "images": [
-        "/catalogo/sneakers/jordan/jordan-11-retro-playoffs-bred.jpg"
+        "/catalogo/sneakers/jordan/jordan-11-retro-playoffs-bred.jpg",
+        "/catalogo/sneakers/jordan/jordan-11-retro-playoffs-bred_2.jpg"
       ],
       "sizes": [
         37,
@@ -3012,6 +3282,82 @@
       "inquiriesCount": 0,
       "createdAt": "2026-08-13T19:36:10.000Z",
       "updatedAt": "2026-08-13T19:36:10.000Z"
+    },
+    {
+      "id": "sneaker-jordan-11-retro-space-jam",
+      "name": "Air Jordan 11 Retro Space Jam",
+      "brand": "Jordan",
+      "model": "Air Jordan 11 Retro Space Jam",
+      "sku": "PAPI-7420",
+      "category": "general",
+      "gender": "hombre",
+      "price": 180000,
+      "originalPrice": 210000,
+      "images": [
+        "/catalogo/sneakers/jordan/hombre/jordan-11-retro-space-jam.jpg"
+      ],
+      "sizes": [
+        39,
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "status": "disponible",
+      "isFeatured": false,
+      "isNewArrival": true,
+      "isOriginalCertified": false,
+      "description": "La 11 en charol negro con el Jumpman en azul rey, mediasuela blanca y suela hielo.",
+      "details": {
+        "condition": "En caja",
+        "colorway": "Black / Concord / White",
+        "includedItems": [
+          "Caja"
+        ]
+      },
+      "viewsCount": 0,
+      "inquiriesCount": 0,
+      "createdAt": "2026-08-25T15:10:14.234Z",
+      "updatedAt": "2026-08-25T15:10:14.234Z"
+    },
+    {
+      "id": "sneaker-jordan-13-retro-wolf-grey",
+      "name": "Air Jordan 13 Retro Wolf Grey",
+      "brand": "Jordan",
+      "model": "Air Jordan 13 Retro Wolf Grey",
+      "sku": "PAPI-1546",
+      "category": "general",
+      "gender": "hombre",
+      "price": 180000,
+      "originalPrice": 210000,
+      "images": [
+        "/catalogo/sneakers/jordan/hombre/jordan-13-retro-wolf-grey.jpg"
+      ],
+      "sizes": [
+        39,
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "status": "disponible",
+      "isFeatured": false,
+      "isNewArrival": true,
+      "isOriginalCertified": false,
+      "description": "La 13 en cuero blanco con los paneles en gris, el ojo de pantera holográfico y la suela roja.",
+      "details": {
+        "condition": "En caja",
+        "colorway": "White / Wolf Grey / Team Red",
+        "includedItems": [
+          "Caja"
+        ]
+      },
+      "viewsCount": 0,
+      "inquiriesCount": 0,
+      "createdAt": "2026-08-25T15:10:14.234Z",
+      "updatedAt": "2026-08-25T15:10:14.234Z"
     },
     {
       "id": "sneaker-jordan-3-retro-black-cement",
@@ -3375,6 +3721,125 @@
       "updatedAt": "2026-08-13T19:36:10.000Z"
     },
     {
+      "id": "sneaker-jordan-4-retro-court-purple",
+      "name": "Air Jordan 4 Retro Court Purple",
+      "brand": "Jordan",
+      "model": "Air Jordan 4 Retro Court Purple",
+      "sku": "PAPI-9714",
+      "category": "general",
+      "gender": "unisex",
+      "price": 180000,
+      "originalPrice": 210000,
+      "images": [
+        "/catalogo/sneakers/jordan/jordan-4-retro-court-purple.jpg"
+      ],
+      "sizes": [
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "status": "disponible",
+      "isFeatured": false,
+      "isNewArrival": true,
+      "isOriginalCertified": false,
+      "description": "La 4 en nobuk negro con los soportes, la malla y la unidad Air en morado. Suela negra al tono.",
+      "details": {
+        "condition": "En caja",
+        "colorway": "Black / Court Purple",
+        "includedItems": [
+          "Caja"
+        ]
+      },
+      "viewsCount": 0,
+      "inquiriesCount": 0,
+      "createdAt": "2026-08-25T15:10:14.234Z",
+      "updatedAt": "2026-08-25T15:10:14.234Z"
+    },
+    {
+      "id": "sneaker-jordan-4-retro-negro-fucsia",
+      "name": "Air Jordan 4 Retro Negro / Fucsia",
+      "brand": "Jordan",
+      "model": "Air Jordan 4 Retro Negro / Fucsia",
+      "sku": "PAPI-1563",
+      "category": "general",
+      "gender": "mujer",
+      "price": 180000,
+      "originalPrice": 210000,
+      "images": [
+        "/catalogo/sneakers/jordan/mujer/jordan-4-retro-negro-fucsia.jpg"
+      ],
+      "sizes": [
+        35,
+        36,
+        37,
+        38,
+        39
+      ],
+      "status": "disponible",
+      "isFeatured": false,
+      "isNewArrival": true,
+      "isOriginalCertified": false,
+      "description": "La 4 en negro entero con la malla, los soportes y la unidad Air en fucsia. El contraste más fuerte de la silueta.",
+      "details": {
+        "condition": "En caja",
+        "colorway": "Black / Fuchsia",
+        "includedItems": [
+          "Caja"
+        ]
+      },
+      "viewsCount": 0,
+      "inquiriesCount": 0,
+      "createdAt": "2026-08-25T15:10:14.234Z",
+      "updatedAt": "2026-08-25T15:10:14.234Z"
+    },
+    {
+      "id": "sneaker-jordan-4-retro-orchid",
+      "name": "Air Jordan 4 Retro Orchid",
+      "brand": "Jordan",
+      "model": "Air Jordan 4 Retro Orchid",
+      "sku": "PAPI-1606",
+      "category": "general",
+      "gender": "unisex",
+      "price": 180000,
+      "originalPrice": 210000,
+      "images": [
+        "/catalogo/sneakers/jordan/jordan-4-retro-orchid.jpg"
+      ],
+      "sizes": [
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "status": "disponible",
+      "isFeatured": false,
+      "isNewArrival": true,
+      "isOriginalCertified": false,
+      "description": "La 4 en gamuza rosada con los soportes en gris cemento moteado, la malla negra en el costado y la mediasuela blanca.",
+      "details": {
+        "condition": "En caja",
+        "colorway": "White / Orchid / Tech Grey",
+        "includedItems": [
+          "Caja"
+        ]
+      },
+      "viewsCount": 0,
+      "inquiriesCount": 0,
+      "createdAt": "2026-08-25T15:10:14.234Z",
+      "updatedAt": "2026-08-25T15:10:14.234Z"
+    },
+    {
       "id": "sneaker-jordan-4-retro-sb-pine-green",
       "name": "Air Jordan 4 Retro SB Pine Green",
       "brand": "Jordan",
@@ -3453,6 +3918,47 @@
       "inquiriesCount": 0,
       "createdAt": "2026-08-13T19:36:10.000Z",
       "updatedAt": "2026-08-13T19:36:10.000Z"
+    },
+    {
+      "id": "sneaker-jordan-4-retro-white-oreo",
+      "name": "Air Jordan 4 Retro White Oreo",
+      "brand": "Jordan",
+      "model": "Air Jordan 4 Retro White Oreo",
+      "sku": "PAPI-6594",
+      "category": "general",
+      "gender": "unisex",
+      "price": 180000,
+      "originalPrice": 210000,
+      "images": [
+        "/catalogo/sneakers/jordan/jordan-4-retro-white-oreo.jpg"
+      ],
+      "sizes": [
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "status": "disponible",
+      "isFeatured": false,
+      "isNewArrival": true,
+      "isOriginalCertified": false,
+      "description": "La 4 en cuero blanco con los soportes en gris cemento moteado y el Jumpman rojo en la lengüeta.",
+      "details": {
+        "condition": "En caja",
+        "colorway": "White / Tech Grey / Fire Red",
+        "includedItems": [
+          "Caja"
+        ]
+      },
+      "viewsCount": 0,
+      "inquiriesCount": 0,
+      "createdAt": "2026-08-25T15:10:14.234Z",
+      "updatedAt": "2026-08-25T15:10:14.234Z"
     },
     {
       "id": "sneaker-jordan-4-retro-white-thunder",
@@ -3596,7 +4102,7 @@
         44
       ],
       "status": "disponible",
-      "isFeatured": true,
+      "isFeatured": false,
       "isNewArrival": true,
       "isOriginalCertified": false,
       "description": "La 5 en cuero gris claro al tono, con el 23 bordado al talón, los dientes de tiburón blancos y la suela hielo.",
@@ -3634,7 +4140,7 @@
         44
       ],
       "status": "disponible",
-      "isFeatured": true,
+      "isFeatured": false,
       "isNewArrival": true,
       "isOriginalCertified": false,
       "description": "La 5 en nobuk negro con la lengüeta plateada reflectiva, los dientes de tiburón en gris cemento y la suela hielo.",
@@ -3672,7 +4178,7 @@
         44
       ],
       "status": "disponible",
-      "isFeatured": true,
+      "isFeatured": false,
       "isNewArrival": true,
       "isOriginalCertified": false,
       "description": "La 5 en nobuk negro sobre mediasuela blanca moteada, con la lengüeta plateada y la suela hielo.",
@@ -3918,6 +4424,47 @@
       "inquiriesCount": 0,
       "createdAt": "2026-08-13T19:36:12.000Z",
       "updatedAt": "2026-08-13T19:36:12.000Z"
+    },
+    {
+      "id": "sneaker-asics-gel-kayano-14",
+      "name": "Asics Gel-Kayano 14",
+      "brand": "Otras",
+      "model": "Asics Gel-Kayano 14",
+      "sku": "PAPI-1661",
+      "category": "general",
+      "gender": "unisex",
+      "price": 190000,
+      "originalPrice": 230000,
+      "images": [
+        "/catalogo/sneakers/otras/asics-gel-kayano-14.jpg"
+      ],
+      "sizes": [
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "status": "disponible",
+      "isFeatured": true,
+      "isNewArrival": true,
+      "isOriginalCertified": false,
+      "description": "La Gel-Kayano 14 en malla crema con los paneles plateados, las rayas negras y el gel visible en el talón.",
+      "details": {
+        "condition": "En caja",
+        "colorway": "Cream / Silver / Black",
+        "includedItems": [
+          "Caja"
+        ]
+      },
+      "viewsCount": 0,
+      "inquiriesCount": 0,
+      "createdAt": "2026-08-25T15:10:14.234Z",
+      "updatedAt": "2026-08-25T15:10:14.234Z"
     },
     {
       "id": "sneaker-asics-rosado",
@@ -7275,7 +7822,7 @@
         44
       ],
       "status": "disponible",
-      "isFeatured": true,
+      "isFeatured": false,
       "isNewArrival": true,
       "isOriginalCertified": false,
       "description": "Silueta de running ochentera en gamuza gris y ripstop azul, con la D metálica en el costado y los ojales en naranja.",
@@ -7313,7 +7860,7 @@
         44
       ],
       "status": "disponible",
-      "isFeatured": true,
+      "isFeatured": false,
       "isNewArrival": true,
       "isOriginalCertified": false,
       "description": "La misma silueta de running en negro entero, con la D blanca como único contraste y la suela dentada.",
@@ -8730,7 +9277,7 @@
         44
       ],
       "status": "disponible",
-      "isFeatured": true,
+      "isFeatured": false,
       "isNewArrival": true,
       "isOriginalCertified": false,
       "description": "La 1906A en malla crema con las capas en verde militar y gris, y las cápsulas N-ergy verdes a la vista en la mediasuela.",
@@ -8768,7 +9315,7 @@
         44
       ],
       "status": "disponible",
-      "isFeatured": true,
+      "isFeatured": false,
       "isNewArrival": true,
       "isOriginalCertified": false,
       "description": "La 1906R en negro entero: malla, capas de TPU y la N al tono, sobre la mediasuela ABZORB con cápsulas N-ergy.",
@@ -9425,6 +9972,80 @@
       "updatedAt": "2026-08-19T15:42:47.370Z"
     },
     {
+      "id": "sneaker-new-balance-530-blanco-morado",
+      "name": "New Balance 530",
+      "brand": "New Balance",
+      "model": "New Balance 530",
+      "sku": "PAPI-3912",
+      "category": "general",
+      "gender": "mujer",
+      "price": 180000,
+      "originalPrice": 210000,
+      "images": [
+        "/catalogo/sneakers/new-balance/mujer/new-balance-530-blanco-morado.jpg"
+      ],
+      "sizes": [
+        35,
+        36,
+        37,
+        38,
+        39
+      ],
+      "status": "disponible",
+      "isFeatured": true,
+      "isNewArrival": true,
+      "isOriginalCertified": false,
+      "description": "La 530 en malla blanca con las capas en morado iridiscente y la mediasuela ABZORB blanca.",
+      "details": {
+        "condition": "En caja",
+        "colorway": "White / Purple Iridescent",
+        "includedItems": [
+          "Caja"
+        ]
+      },
+      "viewsCount": 0,
+      "inquiriesCount": 0,
+      "createdAt": "2026-08-25T15:10:14.234Z",
+      "updatedAt": "2026-08-25T15:10:14.234Z"
+    },
+    {
+      "id": "sneaker-new-balance-530-rosa-verde",
+      "name": "New Balance 530",
+      "brand": "New Balance",
+      "model": "New Balance 530",
+      "sku": "PAPI-1126",
+      "category": "general",
+      "gender": "mujer",
+      "price": 180000,
+      "originalPrice": 210000,
+      "images": [
+        "/catalogo/sneakers/new-balance/mujer/new-balance-530-rosa-verde.jpg"
+      ],
+      "sizes": [
+        35,
+        36,
+        37,
+        38,
+        39
+      ],
+      "status": "disponible",
+      "isFeatured": true,
+      "isNewArrival": true,
+      "isOriginalCertified": false,
+      "description": "La 530 en bloques de rosado, verde y naranja, con la malla naranja en el talón y la mediasuela crema.",
+      "details": {
+        "condition": "En caja",
+        "colorway": "Pink / Green / Orange",
+        "includedItems": [
+          "Caja"
+        ]
+      },
+      "viewsCount": 0,
+      "inquiriesCount": 0,
+      "createdAt": "2026-08-25T15:10:14.234Z",
+      "updatedAt": "2026-08-25T15:10:14.234Z"
+    },
+    {
       "id": "sneaker-new-balance-530-blanco-verde",
       "name": "New Balance 530 Blanco / Verde",
       "brand": "New Balance",
@@ -9945,6 +10566,125 @@
       "updatedAt": "2026-08-13T19:36:11.000Z"
     },
     {
+      "id": "sneaker-new-balance-9060-crema-rosado",
+      "name": "New Balance 9060",
+      "brand": "New Balance",
+      "model": "New Balance 9060",
+      "sku": "PAPI-8864",
+      "category": "general",
+      "gender": "mujer",
+      "price": 180000,
+      "originalPrice": 210000,
+      "images": [
+        "/catalogo/sneakers/new-balance/mujer/new-balance-9060-crema-rosado.jpg"
+      ],
+      "sizes": [
+        35,
+        36,
+        37,
+        38,
+        39
+      ],
+      "status": "disponible",
+      "isFeatured": false,
+      "isNewArrival": true,
+      "isOriginalCertified": false,
+      "description": "La 9060 en crema entero con la N en rosado palo y el talón al tono.",
+      "details": {
+        "condition": "En caja",
+        "colorway": "Cream / Pink",
+        "includedItems": [
+          "Caja"
+        ]
+      },
+      "viewsCount": 0,
+      "inquiriesCount": 0,
+      "createdAt": "2026-08-25T15:10:14.234Z",
+      "updatedAt": "2026-08-25T15:10:14.234Z"
+    },
+    {
+      "id": "sneaker-new-balance-9060-crema-gris",
+      "name": "New Balance 9060",
+      "brand": "New Balance",
+      "model": "New Balance 9060",
+      "sku": "PAPI-1537",
+      "category": "general",
+      "gender": "unisex",
+      "price": 180000,
+      "originalPrice": 210000,
+      "images": [
+        "/catalogo/sneakers/new-balance/new-balance-9060-crema-gris.jpg"
+      ],
+      "sizes": [
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "status": "disponible",
+      "isFeatured": true,
+      "isNewArrival": true,
+      "isOriginalCertified": false,
+      "description": "La 9060 en gamuza crema y gris, con la N plateada y la mediasuela ondulada en crema.",
+      "details": {
+        "condition": "En caja",
+        "colorway": "Cream / Grey",
+        "includedItems": [
+          "Caja"
+        ]
+      },
+      "viewsCount": 0,
+      "inquiriesCount": 0,
+      "createdAt": "2026-08-25T15:10:14.234Z",
+      "updatedAt": "2026-08-25T15:10:14.234Z"
+    },
+    {
+      "id": "sneaker-new-balance-9060-salvia",
+      "name": "New Balance 9060",
+      "brand": "New Balance",
+      "model": "New Balance 9060",
+      "sku": "PAPI-3017",
+      "category": "general",
+      "gender": "unisex",
+      "price": 180000,
+      "originalPrice": 210000,
+      "images": [
+        "/catalogo/sneakers/new-balance/new-balance-9060-salvia.jpg"
+      ],
+      "sizes": [
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "status": "disponible",
+      "isFeatured": false,
+      "isNewArrival": true,
+      "isOriginalCertified": false,
+      "description": "La 9060 en gamuza verde salvia y malla clara, con la N rosada y la mediasuela ondulada en crema.",
+      "details": {
+        "condition": "En caja",
+        "colorway": "Sage / Cream",
+        "includedItems": [
+          "Caja"
+        ]
+      },
+      "viewsCount": 0,
+      "inquiriesCount": 0,
+      "createdAt": "2026-08-25T15:10:14.234Z",
+      "updatedAt": "2026-08-25T15:10:14.234Z"
+    },
+    {
       "id": "sneaker-new-balance-9060-moonrock-linen",
       "name": "New Balance 9060 Moonrock Linen",
       "brand": "New Balance",
@@ -10105,6 +10845,82 @@
       "updatedAt": "2026-08-13T19:36:11.000Z"
     },
     {
+      "id": "sneaker-new-balance-997-negro-blanco",
+      "name": "New Balance 997",
+      "brand": "New Balance",
+      "model": "New Balance 997",
+      "sku": "PAPI-1439",
+      "category": "general",
+      "gender": "hombre",
+      "price": 180000,
+      "originalPrice": 210000,
+      "images": [
+        "/catalogo/sneakers/new-balance/hombre/new-balance-997-negro-blanco.jpg"
+      ],
+      "sizes": [
+        39,
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "status": "disponible",
+      "isFeatured": false,
+      "isNewArrival": true,
+      "isOriginalCertified": false,
+      "description": "La 997 en negro con la N blanca y la mediasuela ENCAP blanca.",
+      "details": {
+        "condition": "En caja",
+        "colorway": "Black / White",
+        "includedItems": [
+          "Caja"
+        ]
+      },
+      "viewsCount": 0,
+      "inquiriesCount": 0,
+      "createdAt": "2026-08-25T15:10:14.234Z",
+      "updatedAt": "2026-08-25T15:10:14.234Z"
+    },
+    {
+      "id": "sneaker-new-balance-997-triple-negro",
+      "name": "New Balance 997",
+      "brand": "New Balance",
+      "model": "New Balance 997",
+      "sku": "PAPI-4700",
+      "category": "general",
+      "gender": "hombre",
+      "price": 180000,
+      "originalPrice": 210000,
+      "images": [
+        "/catalogo/sneakers/new-balance/hombre/new-balance-997-triple-negro.jpg"
+      ],
+      "sizes": [
+        39,
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "status": "disponible",
+      "isFeatured": false,
+      "isNewArrival": true,
+      "isOriginalCertified": false,
+      "description": "La 997 en negro entero, malla y cuero, con la N al tono y la suela de goma caramelo.",
+      "details": {
+        "condition": "En caja",
+        "colorway": "Triple Black / Gum",
+        "includedItems": [
+          "Caja"
+        ]
+      },
+      "viewsCount": 0,
+      "inquiriesCount": 0,
+      "createdAt": "2026-08-25T15:10:14.234Z",
+      "updatedAt": "2026-08-25T15:10:14.234Z"
+    },
+    {
       "id": "sneaker-nike-air-force-1-blanco-verde",
       "name": "Nike Air Force 1 Blanco / Verde",
       "brand": "Nike",
@@ -10143,6 +10959,44 @@
       "inquiriesCount": 0,
       "createdAt": "2026-08-13T18:57:45.000Z",
       "updatedAt": "2026-08-13T18:57:45.000Z"
+    },
+    {
+      "id": "sneaker-nike-air-force-1-crema-verde",
+      "name": "Nike Air Force 1 Low",
+      "brand": "Nike",
+      "model": "Nike Air Force 1 Low",
+      "sku": "PAPI-5011",
+      "category": "general",
+      "gender": "hombre",
+      "price": 180000,
+      "originalPrice": 210000,
+      "images": [
+        "/catalogo/sneakers/nike/hombre/nike-air-force-1-crema-verde.jpg"
+      ],
+      "sizes": [
+        39,
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "status": "disponible",
+      "isFeatured": true,
+      "isNewArrival": true,
+      "isOriginalCertified": false,
+      "description": "La AF1 en cuero crema con el swoosh verde oscuro, el forro en amarillo mostaza y suela de goma caramelo.",
+      "details": {
+        "condition": "En caja",
+        "colorway": "Sail / Green / Gum",
+        "includedItems": [
+          "Caja"
+        ]
+      },
+      "viewsCount": 0,
+      "inquiriesCount": 0,
+      "createdAt": "2026-08-25T15:10:14.234Z",
+      "updatedAt": "2026-08-25T15:10:14.234Z"
     },
     {
       "id": "sneaker-nike-air-force-1-negro",
@@ -12270,6 +13124,82 @@
       "updatedAt": "2026-08-13T18:57:45.000Z"
     },
     {
+      "id": "sneaker-nike-air-max-plus-tn-blanco-naranja",
+      "name": "Nike Air Max Plus TN",
+      "brand": "Nike",
+      "model": "Nike Air Max Plus TN",
+      "sku": "PAPI-1551",
+      "category": "general",
+      "gender": "hombre",
+      "price": 180000,
+      "originalPrice": 210000,
+      "images": [
+        "/catalogo/sneakers/nike/hombre/nike-air-max-plus-tn-blanco-naranja.jpg"
+      ],
+      "sizes": [
+        39,
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "status": "disponible",
+      "isFeatured": false,
+      "isNewArrival": true,
+      "isOriginalCertified": false,
+      "description": "La TN en blanco con los nervios al tono, el talón negro y los detalles en naranja.",
+      "details": {
+        "condition": "En caja",
+        "colorway": "White / Grey / Orange",
+        "includedItems": [
+          "Caja"
+        ]
+      },
+      "viewsCount": 0,
+      "inquiriesCount": 0,
+      "createdAt": "2026-08-25T15:10:14.234Z",
+      "updatedAt": "2026-08-25T15:10:14.234Z"
+    },
+    {
+      "id": "sneaker-nike-air-max-plus-tn-gris-negro",
+      "name": "Nike Air Max Plus TN",
+      "brand": "Nike",
+      "model": "Nike Air Max Plus TN",
+      "sku": "PAPI-1368",
+      "category": "general",
+      "gender": "hombre",
+      "price": 180000,
+      "originalPrice": 210000,
+      "images": [
+        "/catalogo/sneakers/nike/hombre/nike-air-max-plus-tn-gris-negro.jpg"
+      ],
+      "sizes": [
+        39,
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "status": "disponible",
+      "isFeatured": false,
+      "isNewArrival": true,
+      "isOriginalCertified": false,
+      "description": "La TN con el degradado gris a negro, los nervios plateados y la cámara Air visible en el talón.",
+      "details": {
+        "condition": "En caja",
+        "colorway": "Grey / Black / White",
+        "includedItems": [
+          "Caja"
+        ]
+      },
+      "viewsCount": 0,
+      "inquiriesCount": 0,
+      "createdAt": "2026-08-25T15:10:14.234Z",
+      "updatedAt": "2026-08-25T15:10:14.234Z"
+    },
+    {
       "id": "sneaker-nike-air-max-plus-tn-blanco-azul",
       "name": "Nike Air Max Plus TN Blanco / Azul",
       "brand": "Nike",
@@ -12629,6 +13559,80 @@
       "inquiriesCount": 0,
       "createdAt": "2026-08-13T18:57:45.000Z",
       "updatedAt": "2026-08-13T18:57:45.000Z"
+    },
+    {
+      "id": "sneaker-nike-blazer-low-77-jumbo-blanco-negro",
+      "name": "Nike Blazer Low '77 Jumbo",
+      "brand": "Nike",
+      "model": "Nike Blazer Low '77 Jumbo",
+      "sku": "PAPI-1589",
+      "category": "general",
+      "gender": "mujer",
+      "price": 180000,
+      "originalPrice": 210000,
+      "images": [
+        "/catalogo/sneakers/nike/mujer/nike-blazer-low-77-jumbo-blanco-negro.jpg"
+      ],
+      "sizes": [
+        35,
+        36,
+        37,
+        38,
+        39
+      ],
+      "status": "disponible",
+      "isFeatured": false,
+      "isNewArrival": true,
+      "isOriginalCertified": false,
+      "description": "La Blazer baja con el swoosh gigante en negro sobre cuero blanco, gamuza gris en la punta y suela crema.",
+      "details": {
+        "condition": "En caja",
+        "colorway": "White / Black / Sail",
+        "includedItems": [
+          "Caja"
+        ]
+      },
+      "viewsCount": 0,
+      "inquiriesCount": 0,
+      "createdAt": "2026-08-25T15:10:14.234Z",
+      "updatedAt": "2026-08-25T15:10:14.234Z"
+    },
+    {
+      "id": "sneaker-nike-blazer-low-77-jumbo-blanco-rosado",
+      "name": "Nike Blazer Low '77 Jumbo",
+      "brand": "Nike",
+      "model": "Nike Blazer Low '77 Jumbo",
+      "sku": "PAPI-1366",
+      "category": "general",
+      "gender": "mujer",
+      "price": 180000,
+      "originalPrice": 210000,
+      "images": [
+        "/catalogo/sneakers/nike/mujer/nike-blazer-low-77-jumbo-blanco-rosado.jpg"
+      ],
+      "sizes": [
+        35,
+        36,
+        37,
+        38,
+        39
+      ],
+      "status": "disponible",
+      "isFeatured": false,
+      "isNewArrival": true,
+      "isOriginalCertified": false,
+      "description": "La misma Blazer de swoosh gigante en rosado palo, con el talón en rosa fuerte y la suela crema.",
+      "details": {
+        "condition": "En caja",
+        "colorway": "White / Pink / Sail",
+        "includedItems": [
+          "Caja"
+        ]
+      },
+      "viewsCount": 0,
+      "inquiriesCount": 0,
+      "createdAt": "2026-08-25T15:10:14.234Z",
+      "updatedAt": "2026-08-25T15:10:14.234Z"
     },
     {
       "id": "sneaker-nike-blazer-low-77-vintage",
@@ -13134,7 +14138,7 @@
         44
       ],
       "status": "disponible",
-      "isFeatured": true,
+      "isFeatured": false,
       "isNewArrival": true,
       "isOriginalCertified": false,
       "description": "La Dunk Low en cuero blanco con los paneles en vinotinto y el swoosh al tono. Lengüeta acolchada y suela blanca.",
@@ -13749,6 +14753,119 @@
       "inquiriesCount": 0,
       "createdAt": "2026-08-13T18:57:45.000Z",
       "updatedAt": "2026-08-13T18:57:45.000Z"
+    },
+    {
+      "id": "sneaker-nike-internationalist-negro-rojo",
+      "name": "Nike Internationalist",
+      "brand": "Nike",
+      "model": "Nike Internationalist",
+      "sku": "PAPI-8582",
+      "category": "general",
+      "gender": "hombre",
+      "price": 180000,
+      "originalPrice": 210000,
+      "images": [
+        "/catalogo/sneakers/nike/hombre/nike-internationalist-negro-rojo.jpg"
+      ],
+      "sizes": [
+        39,
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "status": "disponible",
+      "isFeatured": false,
+      "isNewArrival": true,
+      "isOriginalCertified": false,
+      "description": "La Internationalist en negro con el swoosh blanco, el cuello rojo y la mediasuela blanca.",
+      "details": {
+        "condition": "En caja",
+        "colorway": "Black / White / Red",
+        "includedItems": [
+          "Caja"
+        ]
+      },
+      "viewsCount": 0,
+      "inquiriesCount": 0,
+      "createdAt": "2026-08-25T15:10:14.234Z",
+      "updatedAt": "2026-08-25T15:10:14.234Z"
+    },
+    {
+      "id": "sneaker-nike-internationalist-negro",
+      "name": "Nike Internationalist",
+      "brand": "Nike",
+      "model": "Nike Internationalist",
+      "sku": "PAPI-1590",
+      "category": "general",
+      "gender": "hombre",
+      "price": 180000,
+      "originalPrice": 210000,
+      "images": [
+        "/catalogo/sneakers/nike/hombre/nike-internationalist-negro.jpg"
+      ],
+      "sizes": [
+        39,
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "status": "disponible",
+      "isFeatured": false,
+      "isNewArrival": true,
+      "isOriginalCertified": false,
+      "description": "La Internationalist en nylon y gamuza negra con el swoosh gris y la suela de goma caramelo.",
+      "details": {
+        "condition": "En caja",
+        "colorway": "Black / Gum",
+        "includedItems": [
+          "Caja"
+        ]
+      },
+      "viewsCount": 0,
+      "inquiriesCount": 0,
+      "createdAt": "2026-08-25T15:10:14.234Z",
+      "updatedAt": "2026-08-25T15:10:14.234Z"
+    },
+    {
+      "id": "sneaker-nike-internationalist-crema-navy",
+      "name": "Nike Internationalist",
+      "brand": "Nike",
+      "model": "Nike Internationalist",
+      "sku": "PAPI-2431",
+      "category": "general",
+      "gender": "mujer",
+      "price": 180000,
+      "originalPrice": 210000,
+      "images": [
+        "/catalogo/sneakers/nike/mujer/nike-internationalist-crema-navy.jpg"
+      ],
+      "sizes": [
+        35,
+        36,
+        37,
+        38,
+        39
+      ],
+      "status": "disponible",
+      "isFeatured": false,
+      "isNewArrival": true,
+      "isOriginalCertified": false,
+      "description": "La Internationalist en gamuza crema con el swoosh azul navy y la cuña en fucsia.",
+      "details": {
+        "condition": "En caja",
+        "colorway": "Sail / Navy / Fuchsia",
+        "includedItems": [
+          "Caja"
+        ]
+      },
+      "viewsCount": 0,
+      "inquiriesCount": 0,
+      "createdAt": "2026-08-25T15:10:14.234Z",
+      "updatedAt": "2026-08-25T15:10:14.234Z"
     },
     {
       "id": "sneaker-nike-mind-001-blanco",
@@ -14401,7 +15518,8 @@
       "price": 180000,
       "originalPrice": 210000,
       "images": [
-        "/catalogo/sneakers/nike/nike-p-6000-rosa-total.jpeg"
+        "/catalogo/sneakers/nike/nike-p-6000-rosa-total.jpeg",
+        "/catalogo/sneakers/nike/nike-p-6000-rosa-total_2.jpg"
       ],
       "sizes": [
         37,
@@ -15419,6 +16537,47 @@
       "inquiriesCount": 0,
       "createdAt": "2026-08-13T18:57:45.000Z",
       "updatedAt": "2026-08-13T18:57:45.000Z"
+    },
+    {
+      "id": "sneaker-nike-zoomx-negro",
+      "name": "Nike ZoomX Negro",
+      "brand": "Nike",
+      "model": "Nike ZoomX Negro",
+      "sku": "PAPI-9884",
+      "category": "general",
+      "gender": "unisex",
+      "price": 180000,
+      "originalPrice": 210000,
+      "images": [
+        "/catalogo/sneakers/nike/nike-zoomx-negro.jpg"
+      ],
+      "sizes": [
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "status": "disponible",
+      "isFeatured": false,
+      "isNewArrival": true,
+      "isOriginalCertified": false,
+      "description": "Running en malla negra con mediasuela ZoomX blanca y swoosh blanco. Perfil ligero para uso diario.",
+      "details": {
+        "condition": "En caja",
+        "colorway": "Black / White",
+        "includedItems": [
+          "Caja"
+        ]
+      },
+      "viewsCount": 0,
+      "inquiriesCount": 0,
+      "createdAt": "2026-08-25T15:10:14.234Z",
+      "updatedAt": "2026-08-25T15:10:14.234Z"
     },
     {
       "id": "sneaker-puma-caven-2-0",
@@ -16631,6 +17790,44 @@
       "inquiriesCount": 0,
       "createdAt": "2026-08-14T15:26:27.178Z",
       "updatedAt": "2026-08-14T15:26:27.178Z"
+    },
+    {
+      "id": "sneaker-vans-headlyne-gris",
+      "name": "Vans Headlyne",
+      "brand": "Otras",
+      "model": "Vans Headlyne",
+      "sku": "PAPI-8792",
+      "category": "general",
+      "gender": "hombre",
+      "price": 190000,
+      "originalPrice": 230000,
+      "images": [
+        "/catalogo/sneakers/otras/hombre/vans-headlyne-gris.jpg"
+      ],
+      "sizes": [
+        39,
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "status": "disponible",
+      "isFeatured": false,
+      "isNewArrival": true,
+      "isOriginalCertified": false,
+      "description": "Silueta baja de cancha en gamuza gris con el panel en V blanco, mediasuela crema y suela de goma caramelo.",
+      "details": {
+        "condition": "En caja",
+        "colorway": "Grey / White / Gum",
+        "includedItems": [
+          "Caja"
+        ]
+      },
+      "viewsCount": 0,
+      "inquiriesCount": 0,
+      "createdAt": "2026-08-25T15:10:14.234Z",
+      "updatedAt": "2026-08-25T15:10:14.234Z"
     },
     {
       "id": "sneaker-vans-old-skool-cafe",

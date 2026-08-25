@@ -535,5 +535,59 @@
     "colorway": "White / Team Red",
     "sizes": "36-44",
     "description": "La Dunk Low en cuero blanco con los paneles en vinotinto y el swoosh al tono. Lengüeta acolchada y suela blanca."
+  },
+  "nike-blazer-low-77-jumbo-blanco-negro": {
+    "name": "Nike Blazer Low '77 Jumbo",
+    "colorway": "White / Black / Sail",
+    "sizes": "35-39",
+    "description": "La Blazer baja con el swoosh gigante en negro sobre cuero blanco, gamuza gris en la punta y suela crema."
+  },
+  "nike-blazer-low-77-jumbo-blanco-rosado": {
+    "name": "Nike Blazer Low '77 Jumbo",
+    "colorway": "White / Pink / Sail",
+    "sizes": "35-39",
+    "description": "La misma Blazer de swoosh gigante en rosado palo, con el talón en rosa fuerte y la suela crema."
+  },
+  "nike-zoomx-negro": {
+    "name": "Nike ZoomX Negro",
+    "colorway": "Black / White",
+    "sizes": "36-44",
+    "description": "Running en malla negra con mediasuela ZoomX blanca y swoosh blanco. Perfil ligero para uso diario."
+  },
+  "nike-air-force-1-crema-verde": {
+    "name": "Nike Air Force 1 Low",
+    "colorway": "Sail / Green / Gum",
+    "sizes": "39-44",
+    "description": "La AF1 en cuero crema con el swoosh verde oscuro, el forro en amarillo mostaza y suela de goma caramelo."
+  },
+  "nike-air-max-plus-tn-gris-negro": {
+    "name": "Nike Air Max Plus TN",
+    "colorway": "Grey / Black / White",
+    "sizes": "39-44",
+    "description": "La TN con el degradado gris a negro, los nervios plateados y la cámara Air visible en el talón."
+  },
+  "nike-air-max-plus-tn-blanco-naranja": {
+    "name": "Nike Air Max Plus TN",
+    "colorway": "White / Grey / Orange",
+    "sizes": "39-44",
+    "description": "La TN en blanco con los nervios al tono, el talón negro y los detalles en naranja."
+  },
+  "nike-internationalist-negro": {
+    "name": "Nike Internationalist",
+    "colorway": "Black / Gum",
+    "sizes": "39-44",
+    "description": "La Internationalist en nylon y gamuza negra con el swoosh gris y la suela de goma caramelo."
+  },
+  "nike-internationalist-crema-navy": {
+    "name": "Nike Internationalist",
+    "colorway": "Sail / Navy / Fuchsia",
+    "sizes": "35-39",
+    "description": "La Internationalist en gamuza crema con el swoosh azul navy y la cuña en fucsia."
+  },
+  "nike-internationalist-negro-rojo": {
+    "name": "Nike Internationalist",
+    "colorway": "Black / White / Red",
+    "sizes": "39-44",
+    "description": "La Internationalist en negro con el swoosh blanco, el cuello rojo y la mediasuela blanca."
   }
 }

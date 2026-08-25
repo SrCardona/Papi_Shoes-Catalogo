@@ -209,5 +209,83 @@
     "colorway": "University Blue / Black / White",
     "sizes": "39-44",
     "description": "La 5 en azul cielo con la mediasuela negra, los dientes de tiburón blancos y la suela hielo."
+  },
+  "jordan-4-retro-orchid": {
+    "name": "Air Jordan 4 Retro Orchid",
+    "colorway": "White / Orchid / Tech Grey",
+    "sizes": "36-44",
+    "description": "La 4 en gamuza rosada con los soportes en gris cemento moteado, la malla negra en el costado y la mediasuela blanca."
+  },
+  "jordan-4-retro-court-purple": {
+    "name": "Air Jordan 4 Retro Court Purple",
+    "colorway": "Black / Court Purple",
+    "sizes": "36-44",
+    "description": "La 4 en nobuk negro con los soportes, la malla y la unidad Air en morado. Suela negra al tono."
+  },
+  "jordan-4-retro-negro-fucsia": {
+    "name": "Air Jordan 4 Retro Negro / Fucsia",
+    "colorway": "Black / Fuchsia",
+    "sizes": "35-39",
+    "description": "La 4 en negro entero con la malla, los soportes y la unidad Air en fucsia. El contraste más fuerte de la silueta."
+  },
+  "jordan-4-retro-white-oreo": {
+    "name": "Air Jordan 4 Retro White Oreo",
+    "colorway": "White / Tech Grey / Fire Red",
+    "sizes": "36-44",
+    "description": "La 4 en cuero blanco con los soportes en gris cemento moteado y el Jumpman rojo en la lengüeta."
+  },
+  "jordan-11-retro-gamma-blue": {
+    "name": "Air Jordan 11 Retro Gamma Blue",
+    "colorway": "Black / Gamma Blue / Varsity Maize",
+    "sizes": "39-44",
+    "description": "La 11 en malla y charol negro, con el Jumpman en jade, las letras doradas en el cordón y la suela hielo."
+  },
+  "jordan-11-retro-space-jam": {
+    "name": "Air Jordan 11 Retro Space Jam",
+    "colorway": "Black / Concord / White",
+    "sizes": "39-44",
+    "description": "La 11 en charol negro con el Jumpman en azul rey, mediasuela blanca y suela hielo."
+  },
+  "jordan-11-retro-cool-grey": {
+    "name": "Air Jordan 11 Retro Cool Grey",
+    "colorway": "Medium Grey / White",
+    "sizes": "39-44",
+    "description": "La 11 alta en gris medio con el charol gris oscuro, mediasuela blanca y suela hielo."
+  },
+  "jordan-11-retro-low-72-10": {
+    "name": "Air Jordan 11 Retro Low 72-10",
+    "colorway": "Black / White",
+    "sizes": "39-44",
+    "description": "La 11 baja en charol negro sobre mediasuela blanca, con la suela hielo. Corte bajo del chasis clásico."
+  },
+  "jordan-11-retro-low-concord": {
+    "name": "Air Jordan 11 Retro Low Concord",
+    "colorway": "White / Black / Concord",
+    "sizes": "39-44",
+    "description": "La 11 baja en blanco con el charol negro envolviendo la punta, y la suela hielo."
+  },
+  "jordan-11-retro-low-bred": {
+    "name": "Air Jordan 11 Retro Low Bred",
+    "colorway": "Black / Varsity Red / White",
+    "sizes": "39-44",
+    "description": "La 11 baja en charol negro con la mediasuela blanca y la suela roja."
+  },
+  "jordan-11-retro-low-cool-grey": {
+    "name": "Air Jordan 11 Retro Low Cool Grey",
+    "colorway": "Medium Grey / White",
+    "sizes": "39-44",
+    "description": "La 11 baja en gris medio con el charol gris oscuro y la suela hielo."
+  },
+  "jordan-13-retro-wolf-grey": {
+    "name": "Air Jordan 13 Retro Wolf Grey",
+    "colorway": "White / Wolf Grey / Team Red",
+    "sizes": "39-44",
+    "description": "La 13 en cuero blanco con los paneles en gris, el ojo de pantera holográfico y la suela roja."
+  },
+  "jordan-1-low-rosa-mocha": {
+    "name": "Air Jordan 1 Low Rosa / Mocha",
+    "colorway": "Pink / Mocha / Sail",
+    "sizes": "35-39",
+    "description": "La 1 baja en bloques de rosado, durazno y crema, con el swoosh mocha y la suela caramelo."
   }
 }

@@ -147,5 +147,47 @@
     "colorway": "Sea Salt / Dark Olivine",
     "sizes": "39-44",
     "description": "La 1906A en malla crema con las capas en verde militar y gris, y las cápsulas N-ergy verdes a la vista en la mediasuela."
+  },
+  "new-balance-530-blanco-morado": {
+    "name": "New Balance 530",
+    "colorway": "White / Purple Iridescent",
+    "sizes": "35-39",
+    "description": "La 530 en malla blanca con las capas en morado iridiscente y la mediasuela ABZORB blanca."
+  },
+  "new-balance-530-rosa-verde": {
+    "name": "New Balance 530",
+    "colorway": "Pink / Green / Orange",
+    "sizes": "35-39",
+    "description": "La 530 en bloques de rosado, verde y naranja, con la malla naranja en el talón y la mediasuela crema."
+  },
+  "new-balance-9060-salvia": {
+    "name": "New Balance 9060",
+    "colorway": "Sage / Cream",
+    "sizes": "36-44",
+    "description": "La 9060 en gamuza verde salvia y malla clara, con la N rosada y la mediasuela ondulada en crema."
+  },
+  "new-balance-9060-crema-rosado": {
+    "name": "New Balance 9060",
+    "colorway": "Cream / Pink",
+    "sizes": "35-39",
+    "description": "La 9060 en crema entero con la N en rosado palo y el talón al tono."
+  },
+  "new-balance-9060-crema-gris": {
+    "name": "New Balance 9060",
+    "colorway": "Cream / Grey",
+    "sizes": "36-44",
+    "description": "La 9060 en gamuza crema y gris, con la N plateada y la mediasuela ondulada en crema."
+  },
+  "new-balance-997-triple-negro": {
+    "name": "New Balance 997",
+    "colorway": "Triple Black / Gum",
+    "sizes": "39-44",
+    "description": "La 997 en negro entero, malla y cuero, con la N al tono y la suela de goma caramelo."
+  },
+  "new-balance-997-negro-blanco": {
+    "name": "New Balance 997",
+    "colorway": "Black / White",
+    "sizes": "39-44",
+    "description": "La 997 en negro con la N blanca y la mediasuela ENCAP blanca."
   }
 }

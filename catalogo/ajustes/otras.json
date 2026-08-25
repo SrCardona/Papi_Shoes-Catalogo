@@ -86,5 +86,17 @@
     "colorway": "Triple Black",
     "sizes": "39-44",
     "description": "La misma silueta de running en negro entero, con la D blanca como único contraste y la suela dentada."
+  },
+  "asics-gel-kayano-14": {
+    "name": "Asics Gel-Kayano 14",
+    "colorway": "Cream / Silver / Black",
+    "sizes": "36-44",
+    "description": "La Gel-Kayano 14 en malla crema con los paneles plateados, las rayas negras y el gel visible en el talón."
+  },
+  "vans-headlyne-gris": {
+    "name": "Vans Headlyne",
+    "colorway": "Grey / White / Gum",
+    "sizes": "39-44",
+    "description": "Silueta baja de cancha en gamuza gris con el panel en V blanco, mediasuela crema y suela de goma caramelo."
   }
 }
