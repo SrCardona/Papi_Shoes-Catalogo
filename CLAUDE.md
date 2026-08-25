@@ -233,6 +233,18 @@ empiece por `_`, así que lo que esté ahí nunca sale publicado.
 Nunca: inventar la horma, sobrescribir una foto, procesar un duplicado o editar
 `src/data/catalogoGenerado.ts` a mano.
 
+### Recuadro del proveedor
+
+Muchas fotos traen el codigo del proveedor en un recuadro blanco redondeado
+("5031-3", "3382H", "J"). `python scripts/quitar-recuadro.py` lo detecta y lo
+borra copiando un trozo real de fondo de la misma foto; sin `--aplicar` solo
+reporta y no toca nada.
+
+Solo se borra donde el empalme mide limpio. **Borrar es inventar lo que habia
+debajo**, y sobre una hoja, el canto de una caja o el tenis mismo el parche se
+nota mas que el recuadro. Esas se reportan y se dejan quietas: es mejor un
+codigo visible que una mancha. No bajes el umbral para subir el conteo.
+
 ## Reglas de seguridad (no relajar)
 
 - Toda imagen pasa por `sanitizeImageUrl`: solo `https://`, `data:image/...` y
