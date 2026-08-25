@@ -193,8 +193,14 @@ function walk(dir, acc = []) {
   for (const entry of readdirSync(dir)) {
     if (entry.startsWith('.')) continue;
     const full = join(dir, entry);
-    if (statSync(full).isDirectory()) walk(full, acc);
-    else if (IMAGE_EXT.has(extname(entry).toLowerCase())) acc.push(full);
+    if (statSync(full).isDirectory()) {
+      // Las carpetas con guion bajo son bandeja de trabajo, no catalogo:
+      // `_entrada/` guarda las fotos sin clasificar, todavia con el nombre que
+      // traian del proveedor. Si entraran aqui saldrian publicadas como pares
+      // sueltos de marca "Otras".
+      if (entry.startsWith('_')) continue;
+      walk(full, acc);
+    } else if (IMAGE_EXT.has(extname(entry).toLowerCase())) acc.push(full);
   }
   return acc;
 }

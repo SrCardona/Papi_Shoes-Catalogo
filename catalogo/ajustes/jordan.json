@@ -167,5 +167,47 @@
     "name": "Jordan Legacy 312 Blanco / Rosado",
     "colorway": "White / Pink / Blue / Yellow",
     "description": "La Legacy 312 mezcla piezas del 1, el 3 y el Air Force: correa amarilla, elefante gris y talón azul."
+  },
+  "jordan-5-retro-pinksicle": {
+    "name": "Air Jordan 5 Retro Pinksicle",
+    "colorway": "White / Pinksicle / Black",
+    "sizes": "35-39",
+    "description": "La 5 en cuero blanco con el cuello y los dientes de tiburón en rosado, el 23 bordado al talón y la suela hielo."
+  },
+  "jordan-5-retro-metallic-black": {
+    "name": "Air Jordan 5 Retro Metallic Black",
+    "colorway": "Black / Metallic Silver / Fire Red",
+    "sizes": "39-44",
+    "description": "La 5 en nobuk negro con la lengüeta plateada reflectiva, los dientes de tiburón en gris cemento y la suela hielo."
+  },
+  "jordan-5-retro-oreo": {
+    "name": "Air Jordan 5 Retro Oreo",
+    "colorway": "Black / Cool Grey / White",
+    "sizes": "39-44",
+    "description": "La 5 en nobuk negro sobre mediasuela blanca moteada, con la lengüeta plateada y la suela hielo."
+  },
+  "jordan-5-retro-wolf-grey": {
+    "name": "Air Jordan 5 Retro Wolf Grey",
+    "colorway": "Wolf Grey / Reflective Silver",
+    "sizes": "39-44",
+    "description": "La 5 en gamuza gris cálida con la lengüeta plateada reflectiva y la suela hielo."
+  },
+  "jordan-5-retro-light-graphite": {
+    "name": "Air Jordan 5 Retro Light Graphite",
+    "colorway": "Light Graphite / White",
+    "sizes": "39-44",
+    "description": "La 5 en cuero gris claro al tono, con el 23 bordado al talón, los dientes de tiburón blancos y la suela hielo."
+  },
+  "jordan-5-retro-raging-bull": {
+    "name": "Air Jordan 5 Retro Raging Bull",
+    "colorway": "Varsity Red / Black",
+    "sizes": "39-44",
+    "description": "La 5 en gamuza roja con los detalles en negro, el forro blanco y la suela hielo. La del toro."
+  },
+  "jordan-5-retro-unc": {
+    "name": "Air Jordan 5 Retro UNC",
+    "colorway": "University Blue / Black / White",
+    "sizes": "39-44",
+    "description": "La 5 en azul cielo con la mediasuela negra, los dientes de tiburón blancos y la suela hielo."
   }
 }

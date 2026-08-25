@@ -135,5 +135,17 @@
   "new-balance-9060-sea-salt-yellow": {
     "name": "New Balance 9060 Sea Salt Yellow",
     "colorway": "Sea Salt / Yellow"
+  },
+  "new-balance-1906r-negro": {
+    "name": "New Balance 1906R",
+    "colorway": "Triple Black",
+    "sizes": "39-44",
+    "description": "La 1906R en negro entero: malla, capas de TPU y la N al tono, sobre la mediasuela ABZORB con cápsulas N-ergy."
+  },
+  "new-balance-1906a-verde-oliva": {
+    "name": "New Balance 1906A",
+    "colorway": "Sea Salt / Dark Olivine",
+    "sizes": "39-44",
+    "description": "La 1906A en malla crema con las capas en verde militar y gris, y las cápsulas N-ergy verdes a la vista en la mediasuela."
   }
 }

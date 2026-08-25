@@ -529,5 +529,11 @@
     "name": "Nike Zoom Vomero 5 Azul Claro / Verde Neón",
     "colorway": "Light Blue / Volt",
     "sizes": "35-39"
+  },
+  "nike-dunk-low-bordeaux": {
+    "name": "Nike Dunk Low Bordeaux",
+    "colorway": "White / Team Red",
+    "sizes": "36-44",
+    "description": "La Dunk Low en cuero blanco con los paneles en vinotinto y el swoosh al tono. Lengüeta acolchada y suela blanca."
   }
 }

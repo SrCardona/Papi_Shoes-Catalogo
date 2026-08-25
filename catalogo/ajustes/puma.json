@@ -59,7 +59,6 @@
     "sizes": "39-44",
     "description": "Palermo en gamuza azul oscuro con la franja blanca y suela caramelo."
   },
-
   "puma-palermo-blanco-oro": {
     "name": "Puma Palermo Blanco Oro",
     "colorway": "White / Gold",
@@ -78,7 +77,6 @@
     "sizes": "35-39",
     "description": "Palermo en gamuza beige con el logo dorado y suela al tono. La más suave del lote."
   },
-
   "puma-club-azura-azul-claro": {
     "name": "Puma Club Azura Azul Claro",
     "colorway": "Light Blue / White / Gum",
@@ -102,5 +100,17 @@
     "colorway": "Black / White / Gum",
     "sizes": "35-39",
     "description": "Club Azura en negro con la franja blanca y la suela caramelo. El contraste clásico de la silueta."
+  },
+  "puma-roma-bmw-motorsport-negro": {
+    "name": "Puma Roma BMW M Motorsport",
+    "colorway": "Black / White",
+    "sizes": "36-44",
+    "description": "La Roma en cuero negro con la franja blanca, el escudo BMW en el talón y la banda tricolor M Motorsport en la mediasuela."
+  },
+  "puma-roma-bmw-motorsport-blanco": {
+    "name": "Puma Roma BMW M Motorsport",
+    "colorway": "Triple White",
+    "sizes": "36-44",
+    "description": "La Roma en cuero blanco entero, con la franja al tono, el escudo BMW en el talón y la banda tricolor M Motorsport en la mediasuela."
   }
 }

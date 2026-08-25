@@ -74,5 +74,17 @@
   "vans-old-skool-cafe": {
     "name": "Vans Old Skool Café",
     "colorway": "Brown / White"
+  },
+  "diesel-running-gris-navy": {
+    "name": "Diesel Running Gris / Navy",
+    "colorway": "Grey / Navy",
+    "sizes": "39-44",
+    "description": "Silueta de running ochentera en gamuza gris y ripstop azul, con la D metálica en el costado y los ojales en naranja."
+  },
+  "diesel-running-negro": {
+    "name": "Diesel Running Negro",
+    "colorway": "Triple Black",
+    "sizes": "39-44",
+    "description": "La misma silueta de running en negro entero, con la D blanca como único contraste y la suela dentada."
   }
 }

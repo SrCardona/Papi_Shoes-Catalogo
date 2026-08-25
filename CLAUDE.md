@@ -10,7 +10,8 @@ armado. Todo el texto de cara al usuario va en español de Colombia.
 npm run dev       # servidor local
 npm run build     # tsc --noEmit && vite build
 npm run lint      # tsc --noEmit && eslint src
-npm run catalogo    # precios por marca en catalogo/precios.csv
+npm run entrada   # duplicados de public/catalogo/_entrada/ (fotos nuevas)
+npm run catalogo  # precios por marca en catalogo/precios.csv
 ```
 
 ## Stack
@@ -170,6 +171,67 @@ Cada marca conserva el suyo cuando entra la siguiente, así que no uses
 Solo el guion bajo agrupa varias fotos en un par (`modelo_2.jpg`). Un `(1)` o
 un `-2` quedan como pares distintos, porque los catálogos los usan para
 colorways diferentes.
+
+### Cómo se nombra un par
+
+El nombre lleva **la referencia, no el color**. El color vive en `colorway` y
+solo en `colorway`.
+
+- Si el colorway tiene nombre propio, ese nombre *es* la referencia y va
+  completo: "Air Jordan 5 Retro Raging Bull", "Nike Dunk Low Panda".
+- Si el colorway no tiene nombre propio —pasa seguido—, el par se queda con el
+  nombre de la referencia a secas y el color queda solo en `colorway`. Dos
+  colores del mismo modelo comparten nombre y se distinguen por ahí: las dos
+  Roma BMW se llaman "Puma Roma BMW M Motorsport", una con `Black / White` y
+  otra con `Triple White`.
+- El color entra al nombre **únicamente cuando no sabemos la referencia**, que
+  es el caso de las marcas sueltas de `otras`: "Diesel Running Gris / Navy".
+
+### Procesar fotos nuevas — PROCEDIMIENTO OBLIGATORIO
+
+Se dispara cuando el dueño dice **"procesa las fotos nuevas"** (o `/fotos`), y
+también sin que lo pida si aparecen imágenes en `public/catalogo/_entrada/` o
+sueltas en `public/catalogo/`. Los pasos no se saltan ni se reordenan.
+
+`public/catalogo/_entrada/` es la bandeja: ahí caen las fotos como las manda el
+proveedor (`WhatsApp Image...`, `IMG_1234`). No se versiona —solo su
+`.gitkeep`— y `walk()` en `scripts/generar-catalogo.mjs` salta toda carpeta que
+empiece por `_`, así que lo que esté ahí nunca sale publicado.
+
+1. **Recoger.** Mover a `_entrada/` cualquier foto suelta en `public/catalogo/`
+   que no esté dentro de `<linea>/<marca>/`. El dueño las suele dejar en
+   `public/catalogo/sneakers/`, y ahí el generador las publicaría como pares
+   "Otras" con nombre de WhatsApp.
+2. **Duplicados, antes de preguntar nada.** `npm run entrada` compara el
+   SHA-256 de cada foto contra todo `public/catalogo/` y contra la propia
+   bandeja. Las duplicadas **no se procesan**: se quedan en `_entrada/`, se
+   reportan contra qué chocan y las borra el dueño. El hash solo detecta
+   archivos idénticos; no se agrega comparación perceptual sin permiso, porque
+   un falso positivo descartaría un colorway parecido pero distinto.
+3. **Preguntar foto por foto.** Mirar cada imagen y proponer marca, nombre,
+   colorway y línea; si el nombre del archivo ya dice el modelo, usarlo de base.
+   **La horma siempre se pregunta, nunca se deduce de la foto ni del color.** Si
+   la silueta no se reconoce, se dice claro en vez de inventar el modelo. Se
+   aceptan respuestas cortas ("adidas samba, unisex"). Si varias fotos son de la
+   misma marca se agrupan y la marca se pregunta una sola vez; se ofrece
+   responder en lote ("todas unisex"). Con más de 15 fotos se avisa y se ofrece
+   el modo lote antes de empezar.
+4. **Acomodar.** `public/catalogo/<linea>/<marca>/[horma/]nombre.jpg`. Línea
+   `sneakers` por defecto; marca en minúsculas con guiones; subcarpeta de horma
+   solo si no es unisex; nombre en minúsculas, con guiones, sin acentos,
+   espacios ni paréntesis; `.jfif` y `.jpeg` se normalizan a `.jpg`. **Si el
+   destino ya existe no se sobrescribe**: se avisa y se pregunta si es otro
+   colorway. Solo el guion bajo (`_2`) agrupa fotos del mismo par.
+5. **Registrar y generar.** Escribir nombre, colorway y descripción en
+   `catalogo/ajustes/<marca>.json` sin pisar lo que ya está (crearlo si falta).
+   Preguntar precio y precio anterior antes de correr; si la marca ya tiene fila
+   en `precios.csv`, proponer esa y confirmar. Luego `npm run catalogo`.
+6. **Informe.** Cuántos pares nuevos, cuáles quedaron sin colorway y cuáles con
+   marca "Otras" para corregir, y confirmar que `_entrada/` quedó vacía.
+7. **Cerrar.** Un commit con el resumen de lo agregado.
+
+Nunca: inventar la horma, sobrescribir una foto, procesar un duplicado o editar
+`src/data/catalogoGenerado.ts` a mano.
 
 ## Reglas de seguridad (no relajar)
 

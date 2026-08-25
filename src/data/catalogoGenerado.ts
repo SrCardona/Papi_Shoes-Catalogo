@@ -794,7 +794,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       39
     ],
     "status": "disponible",
-    "isFeatured": true,
+    "isFeatured": false,
     "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "Samba en tejido beige con la gamuza rosa palo y suela caramelo. La más clara del lote.",
@@ -831,7 +831,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       39
     ],
     "status": "disponible",
-    "isFeatured": true,
+    "isFeatured": false,
     "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "Samba en tejido café con la gamuza gris en la punta, las tres rayas blancas y suela crema. Tono tierra para todos los días.",
@@ -868,7 +868,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       39
     ],
     "status": "disponible",
-    "isFeatured": true,
+    "isFeatured": false,
     "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "Samba en tejido crema con las tres rayas en taupe y la suela traslúcida al tono. Todo en un solo registro de color.",
@@ -3584,6 +3584,271 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "inquiriesCount": 0,
     "createdAt": "2026-08-13T19:36:10.000Z",
     "updatedAt": "2026-08-13T19:36:10.000Z"
+  },
+  {
+    "id": "sneaker-jordan-5-retro-light-graphite",
+    "name": "Air Jordan 5 Retro Light Graphite",
+    "brand": "Jordan",
+    "model": "Air Jordan 5 Retro Light Graphite",
+    "sku": "PAPI-4411",
+    "category": "general",
+    "gender": "hombre",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/jordan/hombre/jordan-5-retro-light-graphite.jpg"
+    ],
+    "sizes": [
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": true,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "La 5 en cuero gris claro al tono, con el 23 bordado al talón, los dientes de tiburón blancos y la suela hielo.",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Light Graphite / White",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-25T13:34:51.420Z",
+    "updatedAt": "2026-08-25T13:34:51.420Z"
+  },
+  {
+    "id": "sneaker-jordan-5-retro-metallic-black",
+    "name": "Air Jordan 5 Retro Metallic Black",
+    "brand": "Jordan",
+    "model": "Air Jordan 5 Retro Metallic Black",
+    "sku": "PAPI-1361",
+    "category": "general",
+    "gender": "hombre",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/jordan/hombre/jordan-5-retro-metallic-black.jpg"
+    ],
+    "sizes": [
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": true,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "La 5 en nobuk negro con la lengüeta plateada reflectiva, los dientes de tiburón en gris cemento y la suela hielo.",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Black / Metallic Silver / Fire Red",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-25T13:34:51.420Z",
+    "updatedAt": "2026-08-25T13:34:51.420Z"
+  },
+  {
+    "id": "sneaker-jordan-5-retro-oreo",
+    "name": "Air Jordan 5 Retro Oreo",
+    "brand": "Jordan",
+    "model": "Air Jordan 5 Retro Oreo",
+    "sku": "PAPI-1249",
+    "category": "general",
+    "gender": "hombre",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/jordan/hombre/jordan-5-retro-oreo.jpg"
+    ],
+    "sizes": [
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": true,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "La 5 en nobuk negro sobre mediasuela blanca moteada, con la lengüeta plateada y la suela hielo.",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Black / Cool Grey / White",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-25T13:34:51.420Z",
+    "updatedAt": "2026-08-25T13:34:51.420Z"
+  },
+  {
+    "id": "sneaker-jordan-5-retro-pinksicle",
+    "name": "Air Jordan 5 Retro Pinksicle",
+    "brand": "Jordan",
+    "model": "Air Jordan 5 Retro Pinksicle",
+    "sku": "PAPI-1911",
+    "category": "general",
+    "gender": "mujer",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/jordan/mujer/jordan-5-retro-pinksicle.jpg"
+    ],
+    "sizes": [
+      35,
+      36,
+      37,
+      38,
+      39
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "La 5 en cuero blanco con el cuello y los dientes de tiburón en rosado, el 23 bordado al talón y la suela hielo.",
+    "details": {
+      "condition": "En caja",
+      "colorway": "White / Pinksicle / Black",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-25T13:34:51.420Z",
+    "updatedAt": "2026-08-25T13:34:51.420Z"
+  },
+  {
+    "id": "sneaker-jordan-5-retro-raging-bull",
+    "name": "Air Jordan 5 Retro Raging Bull",
+    "brand": "Jordan",
+    "model": "Air Jordan 5 Retro Raging Bull",
+    "sku": "PAPI-1061",
+    "category": "general",
+    "gender": "hombre",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/jordan/hombre/jordan-5-retro-raging-bull.jpg"
+    ],
+    "sizes": [
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "La 5 en gamuza roja con los detalles en negro, el forro blanco y la suela hielo. La del toro.",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Varsity Red / Black",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-25T13:34:51.420Z",
+    "updatedAt": "2026-08-25T13:34:51.420Z"
+  },
+  {
+    "id": "sneaker-jordan-5-retro-unc",
+    "name": "Air Jordan 5 Retro UNC",
+    "brand": "Jordan",
+    "model": "Air Jordan 5 Retro UNC",
+    "sku": "PAPI-1063",
+    "category": "general",
+    "gender": "hombre",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/jordan/hombre/jordan-5-retro-unc.jpg"
+    ],
+    "sizes": [
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "La 5 en azul cielo con la mediasuela negra, los dientes de tiburón blancos y la suela hielo.",
+    "details": {
+      "condition": "En caja",
+      "colorway": "University Blue / Black / White",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-25T13:34:51.420Z",
+    "updatedAt": "2026-08-25T13:34:51.420Z"
+  },
+  {
+    "id": "sneaker-jordan-5-retro-wolf-grey",
+    "name": "Air Jordan 5 Retro Wolf Grey",
+    "brand": "Jordan",
+    "model": "Air Jordan 5 Retro Wolf Grey",
+    "sku": "PAPI-1635",
+    "category": "general",
+    "gender": "hombre",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/jordan/hombre/jordan-5-retro-wolf-grey.jpg"
+    ],
+    "sizes": [
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "La 5 en gamuza gris cálida con la lengüeta plateada reflectiva y la suela hielo.",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Wolf Grey / Reflective Silver",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-25T13:34:51.420Z",
+    "updatedAt": "2026-08-25T13:34:51.420Z"
   },
   {
     "id": "sneaker-jordan-6-retro-infrared-white",
@@ -7000,6 +7265,82 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "updatedAt": "2026-08-13T19:36:12.000Z"
   },
   {
+    "id": "sneaker-diesel-running-gris-navy",
+    "name": "Diesel Running Gris / Navy",
+    "brand": "Otras",
+    "model": "Diesel Running Gris / Navy",
+    "sku": "PAPI-2587",
+    "category": "general",
+    "gender": "hombre",
+    "price": 190000,
+    "originalPrice": 230000,
+    "images": [
+      "/catalogo/sneakers/otras/hombre/diesel-running-gris-navy.jpg"
+    ],
+    "sizes": [
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": true,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "Silueta de running ochentera en gamuza gris y ripstop azul, con la D metálica en el costado y los ojales en naranja.",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Grey / Navy",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-25T13:25:51.184Z",
+    "updatedAt": "2026-08-25T13:25:51.184Z"
+  },
+  {
+    "id": "sneaker-diesel-running-negro",
+    "name": "Diesel Running Negro",
+    "brand": "Otras",
+    "model": "Diesel Running Negro",
+    "sku": "PAPI-6345",
+    "category": "general",
+    "gender": "hombre",
+    "price": 190000,
+    "originalPrice": 230000,
+    "images": [
+      "/catalogo/sneakers/otras/hombre/diesel-running-negro.jpg"
+    ],
+    "sizes": [
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": true,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "La misma silueta de running en negro entero, con la D blanca como único contraste y la suela dentada.",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Triple Black",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-25T13:25:51.184Z",
+    "updatedAt": "2026-08-25T13:25:51.184Z"
+  },
+  {
     "id": "sneaker-dolce-gabbana",
     "name": "Dolce & Gabbana",
     "brand": "Otras",
@@ -8377,6 +8718,82 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "inquiriesCount": 0,
     "createdAt": "2026-08-13T19:13:00.000Z",
     "updatedAt": "2026-08-13T19:13:00.000Z"
+  },
+  {
+    "id": "sneaker-new-balance-1906a-verde-oliva",
+    "name": "New Balance 1906A",
+    "brand": "New Balance",
+    "model": "New Balance 1906A",
+    "sku": "PAPI-2001",
+    "category": "general",
+    "gender": "hombre",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/new-balance/hombre/new-balance-1906a-verde-oliva.jpg"
+    ],
+    "sizes": [
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": true,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "La 1906A en malla crema con las capas en verde militar y gris, y las cápsulas N-ergy verdes a la vista en la mediasuela.",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Sea Salt / Dark Olivine",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-25T13:25:51.184Z",
+    "updatedAt": "2026-08-25T13:25:51.184Z"
+  },
+  {
+    "id": "sneaker-new-balance-1906r-negro",
+    "name": "New Balance 1906R",
+    "brand": "New Balance",
+    "model": "New Balance 1906R",
+    "sku": "PAPI-3930",
+    "category": "general",
+    "gender": "hombre",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/new-balance/hombre/new-balance-1906r-negro.jpg"
+    ],
+    "sizes": [
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": true,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "La 1906R en negro entero: malla, capas de TPU y la N al tono, sobre la mediasuela ABZORB con cápsulas N-ergy.",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Triple Black",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-25T13:25:51.184Z",
+    "updatedAt": "2026-08-25T13:25:51.184Z"
   },
   {
     "id": "sneaker-new-balance-1906r-plata",
@@ -12704,6 +13121,47 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "updatedAt": "2026-08-13T18:57:45.000Z"
   },
   {
+    "id": "sneaker-nike-dunk-low-bordeaux",
+    "name": "Nike Dunk Low Bordeaux",
+    "brand": "Nike",
+    "model": "Nike Dunk Low Bordeaux",
+    "sku": "PAPI-4426",
+    "category": "general",
+    "gender": "unisex",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/nike/nike-dunk-low-bordeaux.jpg"
+    ],
+    "sizes": [
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": true,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "La Dunk Low en cuero blanco con los paneles en vinotinto y el swoosh al tono. Lengüeta acolchada y suela blanca.",
+    "details": {
+      "condition": "En caja",
+      "colorway": "White / Team Red",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-25T13:25:51.184Z",
+    "updatedAt": "2026-08-25T13:25:51.184Z"
+  },
+  {
     "id": "sneaker-nike-dunk-low-panda",
     "name": "Nike Dunk Low Panda",
     "brand": "Nike",
@@ -14525,7 +14983,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       39
     ],
     "status": "disponible",
-    "isFeatured": true,
+    "isFeatured": false,
     "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
@@ -14603,7 +15061,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       39
     ],
     "status": "disponible",
-    "isFeatured": true,
+    "isFeatured": false,
     "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
@@ -15076,7 +15534,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       39
     ],
     "status": "disponible",
-    "isFeatured": true,
+    "isFeatured": false,
     "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "Club Azura en azul claro con la franja blanca, paneles de gamuza en punta y talón y suela caramelo. Silueta baja de cancha.",
@@ -15113,7 +15571,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       39
     ],
     "status": "disponible",
-    "isFeatured": true,
+    "isFeatured": false,
     "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "Club Azura en cuero blanco con la franja lila y la gamuza crema en punta y talón. Suela caramelo.",
@@ -15150,7 +15608,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       39
     ],
     "status": "disponible",
-    "isFeatured": true,
+    "isFeatured": false,
     "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "Club Azura en negro con la franja blanca y la suela caramelo. El contraste clásico de la silueta.",
@@ -15778,6 +16236,88 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "inquiriesCount": 0,
     "createdAt": "2026-08-14T15:26:27.178Z",
     "updatedAt": "2026-08-14T15:26:27.178Z"
+  },
+  {
+    "id": "sneaker-puma-roma-bmw-motorsport-blanco",
+    "name": "Puma Roma BMW M Motorsport",
+    "brand": "Puma",
+    "model": "Puma Roma BMW M Motorsport",
+    "sku": "PAPI-6066",
+    "category": "general",
+    "gender": "unisex",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/puma/puma-roma-bmw-motorsport-blanco.jpg"
+    ],
+    "sizes": [
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "La Roma en cuero blanco entero, con la franja al tono, el escudo BMW en el talón y la banda tricolor M Motorsport en la mediasuela.",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Triple White",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-25T13:25:51.184Z",
+    "updatedAt": "2026-08-25T13:25:51.184Z"
+  },
+  {
+    "id": "sneaker-puma-roma-bmw-motorsport-negro",
+    "name": "Puma Roma BMW M Motorsport",
+    "brand": "Puma",
+    "model": "Puma Roma BMW M Motorsport",
+    "sku": "PAPI-5143",
+    "category": "general",
+    "gender": "unisex",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/puma/puma-roma-bmw-motorsport-negro.jpg"
+    ],
+    "sizes": [
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "La Roma en cuero negro con la franja blanca, el escudo BMW en el talón y la banda tricolor M Motorsport en la mediasuela.",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Black / White",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-25T13:25:51.184Z",
+    "updatedAt": "2026-08-25T13:25:51.184Z"
   },
   {
     "id": "sneaker-puma-shuffle",

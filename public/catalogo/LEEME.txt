@@ -1,3 +1,14 @@
+FOTOS NUEVAS SIN CLASIFICAR -> _entrada/
+
+Si las fotos vienen como las manda el proveedor (WhatsApp Image..., IMG_1234),
+dejalas en public/catalogo/_entrada/ y pide "procesa las fotos nuevas". De ahi
+salen renombradas a su carpeta. Lo que este en _entrada/ no se publica: el
+generador salta toda carpeta que empiece por guion bajo.
+
+Lo de abajo es como quedan DESPUES de clasificarlas.
+
+---
+
 Copia aqui las fotos del catalogo, UNA CARPETA POR MARCA.
 
   public/catalogo/
