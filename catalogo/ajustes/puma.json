@@ -1,24 +1,24 @@
 {
   "puma-morphic-gris-azul": {
-    "name": "Puma Morphic Gris Azul",
+    "name": "Puma Morphic",
     "colorway": "Grey / Blue / Black",
     "sizes": "39-44",
     "description": "Runner de los 2000 con malla, capas superpuestas y suela alta. El azul eléctrico sobre gris es el corte más noventero del lote."
   },
   "puma-morphic-negro": {
-    "name": "Puma Morphic Negro",
+    "name": "Puma Morphic",
     "colorway": "Black / White",
     "sizes": "39-44",
     "description": "El mismo runner de silueta ancha, todo en negro con la suela blanca. Combina con cualquier cosa."
   },
   "puma-palermo-blanco-verde": {
-    "name": "Puma Palermo Blanco Verde",
+    "name": "Puma Palermo",
     "colorway": "White / Green / Gum",
     "sizes": "39-44",
     "description": "Palermo en cuero blanco con la franja verde y suela de caucho color caramelo. Silueta baja de cancha."
   },
   "puma-palermo-crema-navy": {
-    "name": "Puma Palermo Crema Navy",
+    "name": "Puma Palermo",
     "colorway": "Cream / Navy / Gum",
     "sizes": "39-44",
     "description": "Palermo en crema con la franja azul oscuro y suela caramelo. La más sobria de las de cuero."
@@ -30,73 +30,73 @@
     "description": "Suede XL de la línea BMW Motorsport: gamuza negra, suela XL blanca y la lengüeta roja con el logo."
   },
   "puma-palermo-cafe": {
-    "name": "Puma Palermo Café",
+    "name": "Puma Palermo",
     "colorway": "Brown",
     "sizes": "39-44",
     "description": "Palermo en gamuza café entera con suela negra y logo dorado. Tono tierra para quien no quiere blanco."
   },
   "puma-palermo-negro-crema": {
-    "name": "Puma Palermo Negro Crema",
+    "name": "Puma Palermo",
     "colorway": "Black / Cream / Gum",
     "sizes": "39-44",
     "description": "Palermo en gamuza negra con la franja crema y suela caramelo. El contraste clásico de la silueta."
   },
   "puma-palermo-negro-rojo-azul": {
-    "name": "Puma Palermo Negro Rojo Azul",
+    "name": "Puma Palermo",
     "colorway": "Black / Red / Blue",
     "sizes": "39-44",
     "description": "Palermo en gamuza negra con doble franja roja y azul sobre suela blanca."
   },
   "puma-palermo-gris": {
-    "name": "Puma Palermo Gris",
+    "name": "Puma Palermo",
     "colorway": "Grey / Gum",
     "sizes": "39-44",
     "description": "Palermo en gamuza gris con la franja gris oscuro y suela caramelo."
   },
   "puma-palermo-azul-navy": {
-    "name": "Puma Palermo Azul Navy",
+    "name": "Puma Palermo",
     "colorway": "Navy / White / Gum",
     "sizes": "39-44",
     "description": "Palermo en gamuza azul oscuro con la franja blanca y suela caramelo."
   },
   "puma-palermo-blanco-oro": {
-    "name": "Puma Palermo Blanco Oro",
+    "name": "Puma Palermo",
     "colorway": "White / Gold",
     "sizes": "35-39",
     "description": "Palermo en blanco entero con el logo dorado y un filete negro en el costado. Suela al tono."
   },
   "puma-palermo-negro-rosado": {
-    "name": "Puma Palermo Negro Rosado",
+    "name": "Puma Palermo",
     "colorway": "Black / Pink",
     "sizes": "35-39",
     "description": "Palermo en gamuza negra con los filetes en rosado neón y suela negra."
   },
   "puma-palermo-beige": {
-    "name": "Puma Palermo Beige",
+    "name": "Puma Palermo",
     "colorway": "Beige / Gold",
     "sizes": "35-39",
     "description": "Palermo en gamuza beige con el logo dorado y suela al tono. La más suave del lote."
   },
   "puma-club-azura-azul-claro": {
-    "name": "Puma Club Azura Azul Claro",
+    "name": "Puma Club Azura",
     "colorway": "Light Blue / White / Gum",
     "sizes": "35-39",
     "description": "Club Azura en azul claro con la franja blanca, paneles de gamuza en punta y talón y suela caramelo. Silueta baja de cancha."
   },
   "puma-club-azura-blanco-lila": {
-    "name": "Puma Club Azura Blanco Lila",
+    "name": "Puma Club Azura",
     "colorway": "White / Lilac / Gum",
     "sizes": "35-39",
     "description": "Club Azura en cuero blanco con la franja lila y la gamuza crema en punta y talón. Suela caramelo."
   },
   "puma-club-azura-rosado": {
-    "name": "Puma Club Azura Rosado",
+    "name": "Puma Club Azura",
     "colorway": "Pink / Gold / Gum",
     "sizes": "35-39",
     "description": "Club Azura en rosado palo entero, con el logo dorado y la suela caramelo. Todo al tono, sin contrastes."
   },
   "puma-club-azura-negro-blanco": {
-    "name": "Puma Club Azura Negro Blanco",
+    "name": "Puma Club Azura",
     "colorway": "Black / White / Gum",
     "sizes": "35-39",
     "description": "Club Azura en negro con la franja blanca y la suela caramelo. El contraste clásico de la silueta."

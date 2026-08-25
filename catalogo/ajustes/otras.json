@@ -8,16 +8,16 @@
     "colorway": "Pink / White"
   },
   "bape-sta-blanco-negro": {
-    "name": "Bape Sta Blanco / Negro",
+    "name": "Bape Sta",
     "colorway": "White / Black",
     "description": "La Bape Sta en charol, con la estrella negra sobre cuero blanco y suela de goma."
   },
   "bape-sta-negro": {
-    "name": "Bape Sta Negro",
+    "name": "Bape Sta",
     "colorway": "Black / White"
   },
   "bape-sta-wgm-blanco": {
-    "name": "Bape Sta WGM Blanco",
+    "name": "Bape Sta WGM",
     "colorway": "White"
   },
   "coach-platform": {
@@ -37,21 +37,21 @@
     "colorway": ""
   },
   "creative-recreation-blanco-negro": {
-    "name": "Creative Recreation Blanco / Negro",
+    "name": "Creative Recreation",
     "colorway": "White / Black",
     "description": "Silueta baja en cuero blanco con paneles perforados negros. Incluye bolsa de tela."
   },
   "creative-recreation-tejido-blanco-negro": {
-    "name": "Creative Recreation Tejido Blanco / Negro",
+    "name": "Creative Recreation Tejido",
     "colorway": "White / Black",
     "description": "La misma silueta en tejido de dos tonos, con la correa de cuero sobre el empeine."
   },
   "creative-recreation-blanco": {
-    "name": "Creative Recreation Blanco",
+    "name": "Creative Recreation",
     "colorway": "Triple White"
   },
   "creative-recreation-gris-negro": {
-    "name": "Creative Recreation Gris / Negro",
+    "name": "Creative Recreation",
     "colorway": "Grey / Black"
   },
   "creative-recreation-los-angeles": {
@@ -59,30 +59,30 @@
     "colorway": ""
   },
   "creative-recreation-triple-negro": {
-    "name": "Creative Recreation Triple Negro",
+    "name": "Creative Recreation",
     "colorway": "Triple Black"
   },
   "reebok-x-anuel-aa-rojo": {
-    "name": "Reebok x Anuel AA Rojo",
+    "name": "Reebok x Anuel AA",
     "colorway": "Red / Black"
   },
   "vans-old-skool-negro": {
-    "name": "Vans Old Skool Negro",
+    "name": "Vans Old Skool",
     "colorway": "Black / White",
     "description": "La Old Skool clásica: lona y gamuza negra, franja lateral blanca y suela de gofre."
   },
   "vans-old-skool-cafe": {
-    "name": "Vans Old Skool Café",
+    "name": "Vans Old Skool",
     "colorway": "Brown / White"
   },
   "diesel-running-gris-navy": {
-    "name": "Diesel Running Gris / Navy",
+    "name": "Diesel Running",
     "colorway": "Grey / Navy",
     "sizes": "39-44",
     "description": "Silueta de running ochentera en gamuza gris y ripstop azul, con la D metálica en el costado y los ojales en naranja."
   },
   "diesel-running-negro": {
-    "name": "Diesel Running Negro",
+    "name": "Diesel Running",
     "colorway": "Triple Black",
     "sizes": "39-44",
     "description": "La misma silueta de running en negro entero, con la D blanca como único contraste y la suela dentada."

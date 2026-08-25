@@ -5,7 +5,7 @@
     "description": "Sandalia Adilette 22 de silueta ancha y plantilla moldeada. Suela con textura para agarre en piso mojado."
   },
   "adidas-adizero-adios-pro-lila": {
-    "name": "Adidas Adizero Adios Pro Lila",
+    "name": "Adidas Adizero Adios Pro",
     "colorway": "White / Purple / Lime",
     "description": "Adizero de perfil alto con mediasuela Lightstrike Pro y upper de malla ligera. Pensada para ritmo rápido."
   },
@@ -15,15 +15,15 @@
     "description": "El mismo chasis Adizero en amarillo solar con las tres rayas en negro. Mediasuela Lightstrike y corte tipo calcetín."
   },
   "adidas-campus-00s-core-black": {
-    "name": "Adidas Campus 00s Core Black",
+    "name": "Adidas Campus 00s",
     "colorway": "Core Black / Cloud White"
   },
   "adidas-campus-00s-gray": {
-    "name": "Adidas Campus 00s Gray",
+    "name": "Adidas Campus 00s",
     "colorway": "Grey / Cloud White"
   },
   "adidas-california-blanco-negro": {
-    "name": "Adidas California Blanco / Negro",
+    "name": "Adidas California",
     "colorway": "White / Black / Gum",
     "description": "Silueta retro de pista en cuero blanco con refuerzos de gamuza gris y suela gum."
   },
@@ -32,11 +32,11 @@
     "colorway": ""
   },
   "adidas-duramo-sl-blue": {
-    "name": "Adidas Duramo SL Blue",
+    "name": "Adidas Duramo SL",
     "colorway": "Blue / White"
   },
   "adidas-eqt-equipment-beige-naranja": {
-    "name": "Adidas EQT Equipment Beige / Naranja",
+    "name": "Adidas EQT Equipment",
     "colorway": "Cream / Orange / Green",
     "description": "Chasis EQT con Boost completo, gamuza beige, tres rayas naranja y talón verde. Suela gum."
   },
@@ -49,7 +49,7 @@
     "colorway": ""
   },
   "adidas-niteball-black": {
-    "name": "Adidas Niteball Black",
+    "name": "Adidas Niteball",
     "colorway": "Core Black"
   },
   "adidas-niteball-upgrade": {
@@ -71,7 +71,7 @@
     "description": "La Response CL de Bad Bunny en café y rosado, con detalles plateados y azul rey. Lleva el bordado \"Para Bad Bunny\" en la lengua."
   },
   "adidas-response-cl-x-bad-bunny-blanco": {
-    "name": "Adidas Response CL x Bad Bunny Blanco",
+    "name": "Adidas Response CL x Bad Bunny",
     "colorway": "Cloud White / Grey / Cream",
     "description": "Response CL en blanco hueso con capas grises y mediasuela crema. La silueta que popularizó la colaboración."
   },
@@ -80,7 +80,7 @@
     "colorway": ""
   },
   "adidas-running-blanco-azul": {
-    "name": "Adidas Running Blanco / Azul",
+    "name": "Adidas Running",
     "colorway": "White / Blue",
     "description": "Tenis de running en malla blanca con las tres rayas en azul y mediasuela alta. Modelo por confirmar."
   },
@@ -99,11 +99,11 @@
     "description": "Silueta voluminosa en blanco con paneles coral y menta, cordones de contraste y suela dentada."
   },
   "adidas-sl-72-brown": {
-    "name": "Adidas SL 72 Brown",
+    "name": "Adidas SL 72",
     "colorway": "Brown / Gum"
   },
   "adidas-sl-72-red": {
-    "name": "Adidas SL 72 Red",
+    "name": "Adidas SL 72",
     "colorway": "Red / Gum"
   },
   "adidas-spezial": {
@@ -111,26 +111,26 @@
     "colorway": ""
   },
   "adidas-spezial-olive-green": {
-    "name": "Adidas Spezial Olive Green",
+    "name": "Adidas Spezial",
     "colorway": "Olive Green / Gum"
   },
   "adidas-stan-smith-azul": {
-    "name": "Adidas Stan Smith Azul",
+    "name": "Adidas Stan Smith",
     "colorway": "White / Collegiate Navy",
     "description": "Stan Smith en cuero blanco con talón azul marino. Perforaciones en las tres rayas y suela de goma."
   },
   "adidas-stan-smith-negro": {
-    "name": "Adidas Stan Smith Negro",
+    "name": "Adidas Stan Smith",
     "colorway": "White / Core Black",
     "description": "Stan Smith en cuero blanco con talón negro. Perforaciones en las tres rayas y suela de goma."
   },
   "adidas-stan-smith-verde": {
-    "name": "Adidas Stan Smith Verde",
+    "name": "Adidas Stan Smith",
     "colorway": "White / Green",
     "description": "El Stan Smith de siempre: cuero blanco, talón verde y la cara de Stan en la lengua."
   },
   "adidas-superstar-core-black": {
-    "name": "Adidas Superstar Core Black",
+    "name": "Adidas Superstar",
     "colorway": "Core Black / White"
   },
   "adidas-superstar-rainbow": {
@@ -142,11 +142,11 @@
     "colorway": "White / Reflective"
   },
   "adidas-superstar-triple-white": {
-    "name": "Adidas Superstar Triple White",
+    "name": "Adidas Superstar",
     "colorway": "Triple White"
   },
   "adidas-superstar-white-black": {
-    "name": "Adidas Superstar White / Black",
+    "name": "Adidas Superstar",
     "colorway": "Cloud White / Core Black",
     "description": "La Superstar de toda la vida: puntera de concha, cuero blanco y tres rayas negras."
   },
@@ -159,7 +159,7 @@
     "colorway": ""
   },
   "adidas-ultraboost-core-black": {
-    "name": "Adidas Ultraboost Core Black",
+    "name": "Adidas Ultraboost",
     "colorway": "Core Black",
     "description": "Primeknit negro con jaula de soporte y mediasuela Boost completa. La más cómoda del catálogo para caminar."
   },
@@ -170,22 +170,21 @@
     "description": "La Handball Spezial en gamuza negra con las tres bandas en estampado de leopardo y suela de goma."
   },
   "adidas-spezial-verde-oliva-lila": {
-    "name": "Adidas Spezial Verde Oliva / Lila",
+    "name": "Adidas Spezial",
     "colorway": "Olive / Lilac",
     "sizes": "35-39",
     "description": "Pana verde oliva con gamuza menta y el talón en lila. Suela café."
   },
   "adidas-spezial-lila": {
-    "name": "Adidas Spezial Lila",
+    "name": "Adidas Spezial",
     "colorway": "Magic Lilac / Off White",
     "sizes": "35-39"
   },
   "adidas-spezial-crema-azul-claro": {
-    "name": "Adidas Spezial Crema / Azul Claro",
+    "name": "Adidas Spezial",
     "colorway": "Off White / Light Blue / Gum",
     "sizes": "35-39"
   },
-
   "adidas-samba-cafe-chocolate": {
     "name": "Adidas Samba Café / Chocolate",
     "colorway": "Brown / White / Cream",
@@ -193,7 +192,7 @@
     "description": "Samba en tejido café con la gamuza gris en la punta, las tres rayas blancas y suela crema. Tono tierra para todos los días."
   },
   "adidas-samba-beige-rosado": {
-    "name": "Adidas Samba Beige / Rosado",
+    "name": "Adidas Samba",
     "colorway": "Beige / Pink / Gum",
     "sizes": "35-39",
     "description": "Samba en tejido beige con la gamuza rosa palo y suela caramelo. La más clara del lote."
@@ -211,13 +210,13 @@
     "description": "Superstar en cuero crema con las rayas negras, los dibujos de André Saraiva en el costado y el forro rosado. Herrajes rosados en los cordones."
   },
   "adidas-superstar-blanco-rosado": {
-    "name": "Adidas Superstar Blanco / Rosado",
+    "name": "Adidas Superstar",
     "colorway": "White / Pink / Purple",
     "sizes": "35-39",
     "description": "Superstar en cuero blanco con las tres rayas tejidas en rosado, cordones al tono y el cuello morado. Parche redondo en el costado."
   },
   "adidas-superstar-blanco-azul": {
-    "name": "Adidas Superstar Blanco / Azul",
+    "name": "Adidas Superstar",
     "colorway": "White / Navy / Light Blue",
     "sizes": "39-44",
     "description": "Superstar en cuero blanco con las rayas en azul oscuro y azul claro y el talón navy. Punta de concha en blanco."
@@ -229,24 +228,24 @@
     "description": "Superstar en gris con las tres rayas estampadas y la punta de concha, el borde de la suela y los cordones en negro."
   },
   "adidas-superstar-negro-cafe": {
-    "name": "Adidas Superstar Negro / Café",
+    "name": "Adidas Superstar",
     "colorway": "Black / Brown / Gum",
     "sizes": "39-44",
     "description": "Superstar en cuero negro con las rayas en café perforado, el cuello mostaza y la suela caramelo. La más cálida del lote."
   },
   "adidas-superstar-x-neighborhood-gris": {
-    "name": "Adidas Superstar x Neighborhood Gris",
+    "name": "Adidas Superstar x Neighborhood",
     "colorway": "Grey",
     "sizes": "39-44",
     "description": "Superstar en gris de punta a suela, con las tres rayas en gamuza y la calavera de Neighborhood impresa en el costado."
   },
   "adidas-superstar-blanco-gris-trebol": {
-    "name": "Adidas Superstar Blanco / Gris",
+    "name": "Adidas Superstar",
     "colorway": "White / Grey",
     "description": "Superstar en cuero blanco con los paneles en gris claro y el trébol grande en el costado en vez de las tres rayas."
   },
   "adidas-superstar-triple-black": {
-    "name": "Adidas Superstar Triple Black",
+    "name": "Adidas Superstar",
     "colorway": "Core Black",
     "description": "Superstar entero en negro, rayas incluidas. Punta de concha y suela al tono."
   }

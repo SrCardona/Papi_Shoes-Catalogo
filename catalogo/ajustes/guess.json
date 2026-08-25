@@ -1,24 +1,66 @@
 {
-  "guess-caldy": { "name": "Guess Caldy", "colorway": "" },
-  "guess-jeril": { "name": "Guess Jeril", "colorway": "" },
-  "guess-lacket": { "name": "Guess Lacket", "colorway": "" },
-  "guess-larvin": { "name": "Guess Larvin", "colorway": "" },
-  "guess-lensa": { "name": "Guess Lensa", "colorway": "" },
-  "guess-letoro": { "name": "Guess Letoro", "colorway": "" },
-  "guess-lodda": { "name": "Guess Lodda", "colorway": "" },
+  "guess-caldy": {
+    "name": "Guess Caldy",
+    "colorway": ""
+  },
+  "guess-jeril": {
+    "name": "Guess Jeril",
+    "colorway": ""
+  },
+  "guess-lacket": {
+    "name": "Guess Lacket",
+    "colorway": ""
+  },
+  "guess-larvin": {
+    "name": "Guess Larvin",
+    "colorway": ""
+  },
+  "guess-lensa": {
+    "name": "Guess Lensa",
+    "colorway": ""
+  },
+  "guess-letoro": {
+    "name": "Guess Letoro",
+    "colorway": ""
+  },
+  "guess-lodda": {
+    "name": "Guess Lodda",
+    "colorway": ""
+  },
   "guess-lomynz-sneaker-black": {
-    "name": "Guess Lomynz Black",
+    "name": "Guess Lomynz",
     "colorway": "Black"
   },
   "guess-lomynz-sneaker-brown-light": {
     "name": "Guess Lomynz Brown Light",
     "colorway": "Light Brown"
   },
-  "guess-lorzi": { "name": "Guess Lorzi", "colorway": "" },
-  "guess-luccan": { "name": "Guess Luccan", "colorway": "" },
-  "guess-obvio": { "name": "Guess Obvio", "colorway": "" },
-  "guess-tandy": { "name": "Guess Tandy", "colorway": "" },
-  "guess-tirry": { "name": "Guess Tirry", "colorway": "" },
-  "guess-tursan": { "name": "Guess Tursan", "colorway": "" },
-  "guess-walen": { "name": "Guess Walen", "colorway": "" }
+  "guess-lorzi": {
+    "name": "Guess Lorzi",
+    "colorway": ""
+  },
+  "guess-luccan": {
+    "name": "Guess Luccan",
+    "colorway": ""
+  },
+  "guess-obvio": {
+    "name": "Guess Obvio",
+    "colorway": ""
+  },
+  "guess-tandy": {
+    "name": "Guess Tandy",
+    "colorway": ""
+  },
+  "guess-tirry": {
+    "name": "Guess Tirry",
+    "colorway": ""
+  },
+  "guess-tursan": {
+    "name": "Guess Tursan",
+    "colorway": ""
+  },
+  "guess-walen": {
+    "name": "Guess Walen",
+    "colorway": ""
+  }
 }

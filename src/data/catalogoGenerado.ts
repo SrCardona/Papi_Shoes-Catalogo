@@ -55,9 +55,9 @@ export const CATALOGO_GENERADO: Sneaker[] = [
   },
   {
     "id": "sneaker-adidas-adizero-adios-pro-lila",
-    "name": "Adidas Adizero Adios Pro Lila",
+    "name": "Adidas Adizero Adios Pro",
     "brand": "Adidas",
-    "model": "Adidas Adizero Adios Pro Lila",
+    "model": "Adidas Adizero Adios Pro",
     "sku": "PAPI-1344",
     "category": "general",
     "gender": "unisex",
@@ -135,9 +135,9 @@ export const CATALOGO_GENERADO: Sneaker[] = [
   },
   {
     "id": "sneaker-adidas-california-blanco-negro",
-    "name": "Adidas California Blanco / Negro",
+    "name": "Adidas California",
     "brand": "Adidas",
-    "model": "Adidas California Blanco / Negro",
+    "model": "Adidas California",
     "sku": "PAPI-1254",
     "category": "general",
     "gender": "unisex",
@@ -175,9 +175,9 @@ export const CATALOGO_GENERADO: Sneaker[] = [
   },
   {
     "id": "sneaker-adidas-campus-00s-core-black",
-    "name": "Adidas Campus 00s Core Black",
+    "name": "Adidas Campus 00s",
     "brand": "Adidas",
-    "model": "Adidas Campus 00s Core Black",
+    "model": "Adidas Campus 00s",
     "sku": "PAPI-5127",
     "category": "general",
     "gender": "unisex",
@@ -216,9 +216,9 @@ export const CATALOGO_GENERADO: Sneaker[] = [
   },
   {
     "id": "sneaker-adidas-campus-00s-gray",
-    "name": "Adidas Campus 00s Gray",
+    "name": "Adidas Campus 00s",
     "brand": "Adidas",
-    "model": "Adidas Campus 00s Gray",
+    "model": "Adidas Campus 00s",
     "sku": "PAPI-7263",
     "category": "general",
     "gender": "unisex",
@@ -245,6 +245,46 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "details": {
       "condition": "En caja",
       "colorway": "Grey / Cloud White",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-12T21:42:38.000Z",
+    "updatedAt": "2026-08-12T21:42:38.000Z"
+  },
+  {
+    "id": "sneaker-adidas-duramo-sl-blue",
+    "name": "Adidas Duramo SL",
+    "brand": "Adidas",
+    "model": "Adidas Duramo SL",
+    "sku": "PAPI-9493",
+    "category": "general",
+    "gender": "unisex",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/adidas/adidas-duramo-sl-blue.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Blue / White",
       "includedItems": [
         "Caja"
       ]
@@ -295,50 +335,10 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "updatedAt": "2026-08-12T21:42:38.000Z"
   },
   {
-    "id": "sneaker-adidas-duramo-sl-blue",
-    "name": "Adidas Duramo SL Blue",
-    "brand": "Adidas",
-    "model": "Adidas Duramo SL Blue",
-    "sku": "PAPI-9493",
-    "category": "general",
-    "gender": "unisex",
-    "price": 180000,
-    "originalPrice": 210000,
-    "images": [
-      "/catalogo/sneakers/adidas/adidas-duramo-sl-blue.jpg"
-    ],
-    "sizes": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
-    "status": "disponible",
-    "isFeatured": false,
-    "isNewArrival": true,
-    "isOriginalCertified": false,
-    "description": "",
-    "details": {
-      "condition": "En caja",
-      "colorway": "Blue / White",
-      "includedItems": [
-        "Caja"
-      ]
-    },
-    "viewsCount": 0,
-    "inquiriesCount": 0,
-    "createdAt": "2026-08-12T21:42:38.000Z",
-    "updatedAt": "2026-08-12T21:42:38.000Z"
-  },
-  {
     "id": "sneaker-adidas-eqt-equipment-beige-naranja",
-    "name": "Adidas EQT Equipment Beige / Naranja",
+    "name": "Adidas EQT Equipment",
     "brand": "Adidas",
-    "model": "Adidas EQT Equipment Beige / Naranja",
+    "model": "Adidas EQT Equipment",
     "sku": "PAPI-1210",
     "category": "general",
     "gender": "unisex",
@@ -456,9 +456,9 @@ export const CATALOGO_GENERADO: Sneaker[] = [
   },
   {
     "id": "sneaker-adidas-niteball-black",
-    "name": "Adidas Niteball Black",
+    "name": "Adidas Niteball",
     "brand": "Adidas",
-    "model": "Adidas Niteball Black",
+    "model": "Adidas Niteball",
     "sku": "PAPI-5464",
     "category": "general",
     "gender": "unisex",
@@ -615,6 +615,46 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "updatedAt": "2026-08-12T21:42:38.000Z"
   },
   {
+    "id": "sneaker-adidas-response-cl-x-bad-bunny-blanco",
+    "name": "Adidas Response CL x Bad Bunny",
+    "brand": "Adidas",
+    "model": "Adidas Response CL x Bad Bunny",
+    "sku": "PAPI-1087",
+    "category": "general",
+    "gender": "unisex",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/adidas/adidas-response-cl-x-bad-bunny-blanco.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "Response CL en blanco hueso con capas grises y mediasuela crema. La silueta que popularizó la colaboración.",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Cloud White / Grey / Cream",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-12T21:42:38.000Z",
+    "updatedAt": "2026-08-12T21:42:38.000Z"
+  },
+  {
     "id": "sneaker-adidas-response-cl-x-bad-bunny-benito",
     "name": "Adidas Response CL x Bad Bunny \"Benito\"",
     "brand": "Adidas",
@@ -645,46 +685,6 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "details": {
       "condition": "En caja",
       "colorway": "Brown / Pink / Cream",
-      "includedItems": [
-        "Caja"
-      ]
-    },
-    "viewsCount": 0,
-    "inquiriesCount": 0,
-    "createdAt": "2026-08-12T21:42:38.000Z",
-    "updatedAt": "2026-08-12T21:42:38.000Z"
-  },
-  {
-    "id": "sneaker-adidas-response-cl-x-bad-bunny-blanco",
-    "name": "Adidas Response CL x Bad Bunny Blanco",
-    "brand": "Adidas",
-    "model": "Adidas Response CL x Bad Bunny Blanco",
-    "sku": "PAPI-1087",
-    "category": "general",
-    "gender": "unisex",
-    "price": 180000,
-    "originalPrice": 210000,
-    "images": [
-      "/catalogo/sneakers/adidas/adidas-response-cl-x-bad-bunny-blanco.jpg"
-    ],
-    "sizes": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
-    "status": "disponible",
-    "isFeatured": false,
-    "isNewArrival": true,
-    "isOriginalCertified": false,
-    "description": "Response CL en blanco hueso con capas grises y mediasuela crema. La silueta que popularizó la colaboración.",
-    "details": {
-      "condition": "En caja",
-      "colorway": "Cloud White / Grey / Cream",
       "includedItems": [
         "Caja"
       ]
@@ -736,9 +736,9 @@ export const CATALOGO_GENERADO: Sneaker[] = [
   },
   {
     "id": "sneaker-adidas-running-blanco-azul",
-    "name": "Adidas Running Blanco / Azul",
+    "name": "Adidas Running",
     "brand": "Adidas",
-    "model": "Adidas Running Blanco / Azul",
+    "model": "Adidas Running",
     "sku": "PAPI-1268",
     "category": "general",
     "gender": "unisex",
@@ -776,9 +776,9 @@ export const CATALOGO_GENERADO: Sneaker[] = [
   },
   {
     "id": "sneaker-adidas-samba-beige-rosado",
-    "name": "Adidas Samba Beige / Rosado",
+    "name": "Adidas Samba",
     "brand": "Adidas",
-    "model": "Adidas Samba Beige / Rosado",
+    "model": "Adidas Samba",
     "sku": "PAPI-1099",
     "category": "general",
     "gender": "mujer",
@@ -1007,9 +1007,9 @@ export const CATALOGO_GENERADO: Sneaker[] = [
   },
   {
     "id": "sneaker-adidas-sl-72-brown",
-    "name": "Adidas SL 72 Brown",
+    "name": "Adidas SL 72",
     "brand": "Adidas",
-    "model": "Adidas SL 72 Brown",
+    "model": "Adidas SL 72",
     "sku": "PAPI-6242",
     "category": "general",
     "gender": "unisex",
@@ -1047,9 +1047,9 @@ export const CATALOGO_GENERADO: Sneaker[] = [
   },
   {
     "id": "sneaker-adidas-sl-72-red",
-    "name": "Adidas SL 72 Red",
+    "name": "Adidas SL 72",
     "brand": "Adidas",
-    "model": "Adidas SL 72 Red",
+    "model": "Adidas SL 72",
     "sku": "PAPI-4191",
     "category": "general",
     "gender": "unisex",
@@ -1076,6 +1076,46 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "details": {
       "condition": "En caja",
       "colorway": "Red / Gum",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-12T21:42:38.000Z",
+    "updatedAt": "2026-08-12T21:42:38.000Z"
+  },
+  {
+    "id": "sneaker-adidas-spezial-olive-green",
+    "name": "Adidas Spezial",
+    "brand": "Adidas",
+    "model": "Adidas Spezial",
+    "sku": "PAPI-8673",
+    "category": "general",
+    "gender": "unisex",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/adidas/adidas-spezial-olive-green.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Olive Green / Gum",
       "includedItems": [
         "Caja"
       ]
@@ -1127,9 +1167,9 @@ export const CATALOGO_GENERADO: Sneaker[] = [
   },
   {
     "id": "sneaker-adidas-spezial-crema-azul-claro",
-    "name": "Adidas Spezial Crema / Azul Claro",
+    "name": "Adidas Spezial",
     "brand": "Adidas",
-    "model": "Adidas Spezial Crema / Azul Claro",
+    "model": "Adidas Spezial",
     "sku": "PAPI-1196",
     "category": "general",
     "gender": "mujer",
@@ -1165,9 +1205,9 @@ export const CATALOGO_GENERADO: Sneaker[] = [
   },
   {
     "id": "sneaker-adidas-spezial-lila",
-    "name": "Adidas Spezial Lila",
+    "name": "Adidas Spezial",
     "brand": "Adidas",
-    "model": "Adidas Spezial Lila",
+    "model": "Adidas Spezial",
     "sku": "PAPI-1111",
     "category": "general",
     "gender": "mujer",
@@ -1192,6 +1232,44 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "details": {
       "condition": "En caja",
       "colorway": "Magic Lilac / Off White",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-19T16:12:56.325Z",
+    "updatedAt": "2026-08-19T16:12:56.325Z"
+  },
+  {
+    "id": "sneaker-adidas-spezial-verde-oliva-lila",
+    "name": "Adidas Spezial",
+    "brand": "Adidas",
+    "model": "Adidas Spezial",
+    "sku": "PAPI-2999",
+    "category": "general",
+    "gender": "mujer",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/adidas/mujer/adidas-spezial-verde-oliva-lila.jpg",
+      "/catalogo/sneakers/adidas/mujer/adidas-spezial-verde-oliva-lila_2.jpg"
+    ],
+    "sizes": [
+      35,
+      36,
+      37,
+      38,
+      39
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "Pana verde oliva con gamuza menta y el talón en lila. Suela café.",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Olive / Lilac",
       "includedItems": [
         "Caja"
       ]
@@ -1240,88 +1318,10 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "updatedAt": "2026-08-19T16:12:56.325Z"
   },
   {
-    "id": "sneaker-adidas-spezial-olive-green",
-    "name": "Adidas Spezial Olive Green",
-    "brand": "Adidas",
-    "model": "Adidas Spezial Olive Green",
-    "sku": "PAPI-8673",
-    "category": "general",
-    "gender": "unisex",
-    "price": 180000,
-    "originalPrice": 210000,
-    "images": [
-      "/catalogo/sneakers/adidas/adidas-spezial-olive-green.jpg"
-    ],
-    "sizes": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
-    "status": "disponible",
-    "isFeatured": false,
-    "isNewArrival": true,
-    "isOriginalCertified": false,
-    "description": "",
-    "details": {
-      "condition": "En caja",
-      "colorway": "Olive Green / Gum",
-      "includedItems": [
-        "Caja"
-      ]
-    },
-    "viewsCount": 0,
-    "inquiriesCount": 0,
-    "createdAt": "2026-08-12T21:42:38.000Z",
-    "updatedAt": "2026-08-12T21:42:38.000Z"
-  },
-  {
-    "id": "sneaker-adidas-spezial-verde-oliva-lila",
-    "name": "Adidas Spezial Verde Oliva / Lila",
-    "brand": "Adidas",
-    "model": "Adidas Spezial Verde Oliva / Lila",
-    "sku": "PAPI-2999",
-    "category": "general",
-    "gender": "mujer",
-    "price": 180000,
-    "originalPrice": 210000,
-    "images": [
-      "/catalogo/sneakers/adidas/mujer/adidas-spezial-verde-oliva-lila.jpg",
-      "/catalogo/sneakers/adidas/mujer/adidas-spezial-verde-oliva-lila_2.jpg"
-    ],
-    "sizes": [
-      35,
-      36,
-      37,
-      38,
-      39
-    ],
-    "status": "disponible",
-    "isFeatured": false,
-    "isNewArrival": true,
-    "isOriginalCertified": false,
-    "description": "Pana verde oliva con gamuza menta y el talón en lila. Suela café.",
-    "details": {
-      "condition": "En caja",
-      "colorway": "Olive / Lilac",
-      "includedItems": [
-        "Caja"
-      ]
-    },
-    "viewsCount": 0,
-    "inquiriesCount": 0,
-    "createdAt": "2026-08-19T16:12:56.325Z",
-    "updatedAt": "2026-08-19T16:12:56.325Z"
-  },
-  {
     "id": "sneaker-adidas-stan-smith-azul",
-    "name": "Adidas Stan Smith Azul",
+    "name": "Adidas Stan Smith",
     "brand": "Adidas",
-    "model": "Adidas Stan Smith Azul",
+    "model": "Adidas Stan Smith",
     "sku": "PAPI-7895",
     "category": "general",
     "gender": "unisex",
@@ -1359,9 +1359,9 @@ export const CATALOGO_GENERADO: Sneaker[] = [
   },
   {
     "id": "sneaker-adidas-stan-smith-negro",
-    "name": "Adidas Stan Smith Negro",
+    "name": "Adidas Stan Smith",
     "brand": "Adidas",
-    "model": "Adidas Stan Smith Negro",
+    "model": "Adidas Stan Smith",
     "sku": "PAPI-5411",
     "category": "general",
     "gender": "unisex",
@@ -1399,9 +1399,9 @@ export const CATALOGO_GENERADO: Sneaker[] = [
   },
   {
     "id": "sneaker-adidas-stan-smith-verde",
-    "name": "Adidas Stan Smith Verde",
+    "name": "Adidas Stan Smith",
     "brand": "Adidas",
-    "model": "Adidas Stan Smith Verde",
+    "model": "Adidas Stan Smith",
     "sku": "PAPI-6318",
     "category": "general",
     "gender": "unisex",
@@ -1438,48 +1438,10 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "updatedAt": "2026-08-12T21:42:38.000Z"
   },
   {
-    "id": "sneaker-adidas-superstar-blanco-azul",
-    "name": "Adidas Superstar Blanco / Azul",
-    "brand": "Adidas",
-    "model": "Adidas Superstar Blanco / Azul",
-    "sku": "PAPI-4535",
-    "category": "general",
-    "gender": "hombre",
-    "price": 180000,
-    "originalPrice": 210000,
-    "images": [
-      "/catalogo/sneakers/adidas/hombre/adidas-superstar-blanco-azul.jpg"
-    ],
-    "sizes": [
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
-    "status": "disponible",
-    "isFeatured": false,
-    "isNewArrival": true,
-    "isOriginalCertified": false,
-    "description": "Superstar en cuero blanco con las rayas en azul oscuro y azul claro y el talón navy. Punta de concha en blanco.",
-    "details": {
-      "condition": "En caja",
-      "colorway": "White / Navy / Light Blue",
-      "includedItems": [
-        "Caja"
-      ]
-    },
-    "viewsCount": 0,
-    "inquiriesCount": 0,
-    "createdAt": "2026-08-21T13:03:03.159Z",
-    "updatedAt": "2026-08-21T13:03:03.159Z"
-  },
-  {
     "id": "sneaker-adidas-superstar-blanco-gris-trebol",
-    "name": "Adidas Superstar Blanco / Gris",
+    "name": "Adidas Superstar",
     "brand": "Adidas",
-    "model": "Adidas Superstar Blanco / Gris",
+    "model": "Adidas Superstar",
     "sku": "PAPI-1019",
     "category": "general",
     "gender": "unisex",
@@ -1516,47 +1478,10 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "updatedAt": "2026-08-21T13:03:03.159Z"
   },
   {
-    "id": "sneaker-adidas-superstar-blanco-rosado",
-    "name": "Adidas Superstar Blanco / Rosado",
-    "brand": "Adidas",
-    "model": "Adidas Superstar Blanco / Rosado",
-    "sku": "PAPI-3680",
-    "category": "general",
-    "gender": "mujer",
-    "price": 180000,
-    "originalPrice": 210000,
-    "images": [
-      "/catalogo/sneakers/adidas/mujer/adidas-superstar-blanco-rosado.jpg"
-    ],
-    "sizes": [
-      35,
-      36,
-      37,
-      38,
-      39
-    ],
-    "status": "disponible",
-    "isFeatured": false,
-    "isNewArrival": true,
-    "isOriginalCertified": false,
-    "description": "Superstar en cuero blanco con las tres rayas tejidas en rosado, cordones al tono y el cuello morado. Parche redondo en el costado.",
-    "details": {
-      "condition": "En caja",
-      "colorway": "White / Pink / Purple",
-      "includedItems": [
-        "Caja"
-      ]
-    },
-    "viewsCount": 0,
-    "inquiriesCount": 0,
-    "createdAt": "2026-08-21T13:03:03.159Z",
-    "updatedAt": "2026-08-21T13:03:03.159Z"
-  },
-  {
     "id": "sneaker-adidas-superstar-core-black",
-    "name": "Adidas Superstar Core Black",
+    "name": "Adidas Superstar",
     "brand": "Adidas",
-    "model": "Adidas Superstar Core Black",
+    "model": "Adidas Superstar",
     "sku": "PAPI-1476",
     "category": "general",
     "gender": "unisex",
@@ -1595,6 +1520,241 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "updatedAt": "2026-08-12T21:42:38.000Z"
   },
   {
+    "id": "sneaker-adidas-superstar-triple-black",
+    "name": "Adidas Superstar",
+    "brand": "Adidas",
+    "model": "Adidas Superstar",
+    "sku": "PAPI-4630",
+    "category": "general",
+    "gender": "unisex",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/adidas/adidas-superstar-triple-black.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "Superstar entero en negro, rayas incluidas. Punta de concha y suela al tono.",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Core Black",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-21T13:03:03.159Z",
+    "updatedAt": "2026-08-21T13:03:03.159Z"
+  },
+  {
+    "id": "sneaker-adidas-superstar-triple-white",
+    "name": "Adidas Superstar",
+    "brand": "Adidas",
+    "model": "Adidas Superstar",
+    "sku": "PAPI-8914",
+    "category": "general",
+    "gender": "unisex",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/adidas/adidas-superstar-triple-white.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Triple White",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-12T21:42:38.000Z",
+    "updatedAt": "2026-08-12T21:42:38.000Z"
+  },
+  {
+    "id": "sneaker-adidas-superstar-white-black",
+    "name": "Adidas Superstar",
+    "brand": "Adidas",
+    "model": "Adidas Superstar",
+    "sku": "PAPI-3323",
+    "category": "general",
+    "gender": "unisex",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/adidas/adidas-superstar-white-black.jpg",
+      "/catalogo/sneakers/adidas/adidas-superstar-white-black_2.jpg",
+      "/catalogo/sneakers/adidas/adidas-superstar-white-black_3.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "La Superstar de toda la vida: puntera de concha, cuero blanco y tres rayas negras.",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Cloud White / Core Black",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-12T21:42:38.000Z",
+    "updatedAt": "2026-08-12T21:42:38.000Z"
+  },
+  {
+    "id": "sneaker-adidas-superstar-blanco-azul",
+    "name": "Adidas Superstar",
+    "brand": "Adidas",
+    "model": "Adidas Superstar",
+    "sku": "PAPI-4535",
+    "category": "general",
+    "gender": "hombre",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/adidas/hombre/adidas-superstar-blanco-azul.jpg"
+    ],
+    "sizes": [
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "Superstar en cuero blanco con las rayas en azul oscuro y azul claro y el talón navy. Punta de concha en blanco.",
+    "details": {
+      "condition": "En caja",
+      "colorway": "White / Navy / Light Blue",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-21T13:03:03.159Z",
+    "updatedAt": "2026-08-21T13:03:03.159Z"
+  },
+  {
+    "id": "sneaker-adidas-superstar-negro-cafe",
+    "name": "Adidas Superstar",
+    "brand": "Adidas",
+    "model": "Adidas Superstar",
+    "sku": "PAPI-1479",
+    "category": "general",
+    "gender": "hombre",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/adidas/hombre/adidas-superstar-negro-cafe.jpg"
+    ],
+    "sizes": [
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "Superstar en cuero negro con las rayas en café perforado, el cuello mostaza y la suela caramelo. La más cálida del lote.",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Black / Brown / Gum",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-21T13:03:03.159Z",
+    "updatedAt": "2026-08-21T13:03:03.159Z"
+  },
+  {
+    "id": "sneaker-adidas-superstar-blanco-rosado",
+    "name": "Adidas Superstar",
+    "brand": "Adidas",
+    "model": "Adidas Superstar",
+    "sku": "PAPI-3680",
+    "category": "general",
+    "gender": "mujer",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/adidas/mujer/adidas-superstar-blanco-rosado.jpg"
+    ],
+    "sizes": [
+      35,
+      36,
+      37,
+      38,
+      39
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "Superstar en cuero blanco con las tres rayas tejidas en rosado, cordones al tono y el cuello morado. Parche redondo en el costado.",
+    "details": {
+      "condition": "En caja",
+      "colorway": "White / Pink / Purple",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-21T13:03:03.159Z",
+    "updatedAt": "2026-08-21T13:03:03.159Z"
+  },
+  {
     "id": "sneaker-adidas-superstar-gris-estampado",
     "name": "Adidas Superstar Gris Estampado",
     "brand": "Adidas",
@@ -1623,44 +1783,6 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "details": {
       "condition": "En caja",
       "colorway": "Grey / Black / White",
-      "includedItems": [
-        "Caja"
-      ]
-    },
-    "viewsCount": 0,
-    "inquiriesCount": 0,
-    "createdAt": "2026-08-21T13:03:03.159Z",
-    "updatedAt": "2026-08-21T13:03:03.159Z"
-  },
-  {
-    "id": "sneaker-adidas-superstar-negro-cafe",
-    "name": "Adidas Superstar Negro / Café",
-    "brand": "Adidas",
-    "model": "Adidas Superstar Negro / Café",
-    "sku": "PAPI-1479",
-    "category": "general",
-    "gender": "hombre",
-    "price": 180000,
-    "originalPrice": 210000,
-    "images": [
-      "/catalogo/sneakers/adidas/hombre/adidas-superstar-negro-cafe.jpg"
-    ],
-    "sizes": [
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
-    "status": "disponible",
-    "isFeatured": false,
-    "isNewArrival": true,
-    "isOriginalCertified": false,
-    "description": "Superstar en cuero negro con las rayas en café perforado, el cuello mostaza y la suela caramelo. La más cálida del lote.",
-    "details": {
-      "condition": "En caja",
-      "colorway": "Black / Brown / Gum",
       "includedItems": [
         "Caja"
       ]
@@ -1751,128 +1873,6 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "updatedAt": "2026-08-12T21:42:38.000Z"
   },
   {
-    "id": "sneaker-adidas-superstar-triple-black",
-    "name": "Adidas Superstar Triple Black",
-    "brand": "Adidas",
-    "model": "Adidas Superstar Triple Black",
-    "sku": "PAPI-4630",
-    "category": "general",
-    "gender": "unisex",
-    "price": 180000,
-    "originalPrice": 210000,
-    "images": [
-      "/catalogo/sneakers/adidas/adidas-superstar-triple-black.jpg"
-    ],
-    "sizes": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
-    "status": "disponible",
-    "isFeatured": false,
-    "isNewArrival": true,
-    "isOriginalCertified": false,
-    "description": "Superstar entero en negro, rayas incluidas. Punta de concha y suela al tono.",
-    "details": {
-      "condition": "En caja",
-      "colorway": "Core Black",
-      "includedItems": [
-        "Caja"
-      ]
-    },
-    "viewsCount": 0,
-    "inquiriesCount": 0,
-    "createdAt": "2026-08-21T13:03:03.159Z",
-    "updatedAt": "2026-08-21T13:03:03.159Z"
-  },
-  {
-    "id": "sneaker-adidas-superstar-triple-white",
-    "name": "Adidas Superstar Triple White",
-    "brand": "Adidas",
-    "model": "Adidas Superstar Triple White",
-    "sku": "PAPI-8914",
-    "category": "general",
-    "gender": "unisex",
-    "price": 180000,
-    "originalPrice": 210000,
-    "images": [
-      "/catalogo/sneakers/adidas/adidas-superstar-triple-white.jpg"
-    ],
-    "sizes": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
-    "status": "disponible",
-    "isFeatured": false,
-    "isNewArrival": true,
-    "isOriginalCertified": false,
-    "description": "",
-    "details": {
-      "condition": "En caja",
-      "colorway": "Triple White",
-      "includedItems": [
-        "Caja"
-      ]
-    },
-    "viewsCount": 0,
-    "inquiriesCount": 0,
-    "createdAt": "2026-08-12T21:42:38.000Z",
-    "updatedAt": "2026-08-12T21:42:38.000Z"
-  },
-  {
-    "id": "sneaker-adidas-superstar-white-black",
-    "name": "Adidas Superstar White / Black",
-    "brand": "Adidas",
-    "model": "Adidas Superstar White / Black",
-    "sku": "PAPI-3323",
-    "category": "general",
-    "gender": "unisex",
-    "price": 180000,
-    "originalPrice": 210000,
-    "images": [
-      "/catalogo/sneakers/adidas/adidas-superstar-white-black.jpg",
-      "/catalogo/sneakers/adidas/adidas-superstar-white-black_2.jpg",
-      "/catalogo/sneakers/adidas/adidas-superstar-white-black_3.jpg"
-    ],
-    "sizes": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
-    "status": "disponible",
-    "isFeatured": false,
-    "isNewArrival": true,
-    "isOriginalCertified": false,
-    "description": "La Superstar de toda la vida: puntera de concha, cuero blanco y tres rayas negras.",
-    "details": {
-      "condition": "En caja",
-      "colorway": "Cloud White / Core Black",
-      "includedItems": [
-        "Caja"
-      ]
-    },
-    "viewsCount": 0,
-    "inquiriesCount": 0,
-    "createdAt": "2026-08-12T21:42:38.000Z",
-    "updatedAt": "2026-08-12T21:42:38.000Z"
-  },
-  {
     "id": "sneaker-adidas-superstar-x-andre-saraiva-crema",
     "name": "Adidas Superstar x André Saraiva",
     "brand": "Adidas",
@@ -1951,9 +1951,9 @@ export const CATALOGO_GENERADO: Sneaker[] = [
   },
   {
     "id": "sneaker-adidas-superstar-x-neighborhood-gris",
-    "name": "Adidas Superstar x Neighborhood Gris",
+    "name": "Adidas Superstar x Neighborhood",
     "brand": "Adidas",
-    "model": "Adidas Superstar x Neighborhood Gris",
+    "model": "Adidas Superstar x Neighborhood",
     "sku": "PAPI-3560",
     "category": "general",
     "gender": "hombre",
@@ -1986,6 +1986,46 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "inquiriesCount": 0,
     "createdAt": "2026-08-21T13:03:03.159Z",
     "updatedAt": "2026-08-21T13:03:03.159Z"
+  },
+  {
+    "id": "sneaker-adidas-ultraboost-core-black",
+    "name": "Adidas Ultraboost",
+    "brand": "Adidas",
+    "model": "Adidas Ultraboost",
+    "sku": "PAPI-1606",
+    "category": "general",
+    "gender": "unisex",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/adidas/adidas-ultraboost-core-black.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "Primeknit negro con jaula de soporte y mediasuela Boost completa. La más cómoda del catálogo para caminar.",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Core Black",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-12T21:42:38.000Z",
+    "updatedAt": "2026-08-12T21:42:38.000Z"
   },
   {
     "id": "sneaker-adidas-ultraboost",
@@ -2028,17 +2068,17 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "updatedAt": "2026-08-12T21:42:38.000Z"
   },
   {
-    "id": "sneaker-adidas-ultraboost-core-black",
-    "name": "Adidas Ultraboost Core Black",
-    "brand": "Adidas",
-    "model": "Adidas Ultraboost Core Black",
-    "sku": "PAPI-1606",
+    "id": "sneaker-jordan-1-triple-red",
+    "name": "Air Jordan 1",
+    "brand": "Jordan",
+    "model": "Air Jordan 1",
+    "sku": "PAPI-4495",
     "category": "general",
     "gender": "unisex",
     "price": 180000,
     "originalPrice": 210000,
     "images": [
-      "/catalogo/sneakers/adidas/adidas-ultraboost-core-black.jpg"
+      "/catalogo/sneakers/jordan/jordan-1-triple-red.jpeg"
     ],
     "sizes": [
       37,
@@ -2054,24 +2094,24 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "isFeatured": false,
     "isNewArrival": true,
     "isOriginalCertified": false,
-    "description": "Primeknit negro con jaula de soporte y mediasuela Boost completa. La más cómoda del catálogo para caminar.",
+    "description": "",
     "details": {
       "condition": "En caja",
-      "colorway": "Core Black",
+      "colorway": "Triple Red",
       "includedItems": [
         "Caja"
       ]
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-12T21:42:38.000Z",
-    "updatedAt": "2026-08-12T21:42:38.000Z"
+    "createdAt": "2026-08-13T19:36:10.000Z",
+    "updatedAt": "2026-08-13T19:36:10.000Z"
   },
   {
     "id": "sneaker-jordan-1-low-paris-negro",
-    "name": "Air Jordan 1 Low Paris Negro",
+    "name": "Air Jordan 1 Low Paris",
     "brand": "Jordan",
-    "model": "Air Jordan 1 Low Paris Negro",
+    "model": "Air Jordan 1 Low Paris",
     "sku": "PAPI-8322",
     "category": "general",
     "gender": "unisex",
@@ -2186,9 +2226,9 @@ export const CATALOGO_GENERADO: Sneaker[] = [
   },
   {
     "id": "sneaker-jordan-1-low-x-swarovski-gris",
-    "name": "Air Jordan 1 Low x Swarovski Gris",
+    "name": "Air Jordan 1 Low x Swarovski",
     "brand": "Jordan",
-    "model": "Air Jordan 1 Low x Swarovski Gris",
+    "model": "Air Jordan 1 Low x Swarovski",
     "sku": "PAPI-5543",
     "category": "general",
     "gender": "unisex",
@@ -2226,9 +2266,9 @@ export const CATALOGO_GENERADO: Sneaker[] = [
   },
   {
     "id": "sneaker-jordan-1-low-x-swarovski-negro",
-    "name": "Air Jordan 1 Low x Swarovski Negro",
+    "name": "Air Jordan 1 Low x Swarovski",
     "brand": "Jordan",
-    "model": "Air Jordan 1 Low x Swarovski Negro",
+    "model": "Air Jordan 1 Low x Swarovski",
     "sku": "PAPI-3862",
     "category": "general",
     "gender": "unisex",
@@ -2305,10 +2345,50 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "updatedAt": "2026-08-13T19:36:10.000Z"
   },
   {
-    "id": "sneaker-jordan-1-retro-high-85-black-white",
-    "name": "Air Jordan 1 Retro High '85 Black White",
+    "id": "sneaker-jordan-1-retro-light-pink",
+    "name": "Air Jordan 1 Retro",
     "brand": "Jordan",
-    "model": "Air Jordan 1 Retro High '85 Black White",
+    "model": "Air Jordan 1 Retro",
+    "sku": "PAPI-4356",
+    "category": "general",
+    "gender": "unisex",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/jordan/jordan-1-retro-light-pink.jpeg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Light Pink / White",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-13T19:36:10.000Z",
+    "updatedAt": "2026-08-13T19:36:10.000Z"
+  },
+  {
+    "id": "sneaker-jordan-1-retro-high-85-black-white",
+    "name": "Air Jordan 1 Retro High '85",
+    "brand": "Jordan",
+    "model": "Air Jordan 1 Retro High '85",
     "sku": "PAPI-4311",
     "category": "general",
     "gender": "unisex",
@@ -2706,9 +2786,9 @@ export const CATALOGO_GENERADO: Sneaker[] = [
   },
   {
     "id": "sneaker-jordan-1-retro-high-x-travis-scott-negro",
-    "name": "Air Jordan 1 Retro High x Travis Scott Negro",
+    "name": "Air Jordan 1 Retro High x Travis Scott",
     "brand": "Jordan",
-    "model": "Air Jordan 1 Retro High x Travis Scott Negro",
+    "model": "Air Jordan 1 Retro High x Travis Scott",
     "sku": "PAPI-9414",
     "category": "general",
     "gender": "unisex",
@@ -2735,46 +2815,6 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "details": {
       "condition": "En caja",
       "colorway": "Black / Phantom",
-      "includedItems": [
-        "Caja"
-      ]
-    },
-    "viewsCount": 0,
-    "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:36:10.000Z",
-    "updatedAt": "2026-08-13T19:36:10.000Z"
-  },
-  {
-    "id": "sneaker-jordan-1-retro-light-pink",
-    "name": "Air Jordan 1 Retro Light Pink",
-    "brand": "Jordan",
-    "model": "Air Jordan 1 Retro Light Pink",
-    "sku": "PAPI-4356",
-    "category": "general",
-    "gender": "unisex",
-    "price": 180000,
-    "originalPrice": 210000,
-    "images": [
-      "/catalogo/sneakers/jordan/jordan-1-retro-light-pink.jpeg"
-    ],
-    "sizes": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
-    "status": "disponible",
-    "isFeatured": false,
-    "isNewArrival": true,
-    "isOriginalCertified": false,
-    "description": "",
-    "details": {
-      "condition": "En caja",
-      "colorway": "Light Pink / White",
       "includedItems": [
         "Caja"
       ]
@@ -2855,46 +2895,6 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "details": {
       "condition": "En caja",
       "colorway": "Grey / White",
-      "includedItems": [
-        "Caja"
-      ]
-    },
-    "viewsCount": 0,
-    "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:36:10.000Z",
-    "updatedAt": "2026-08-13T19:36:10.000Z"
-  },
-  {
-    "id": "sneaker-jordan-1-triple-red",
-    "name": "Air Jordan 1 Triple Red",
-    "brand": "Jordan",
-    "model": "Air Jordan 1 Triple Red",
-    "sku": "PAPI-4495",
-    "category": "general",
-    "gender": "unisex",
-    "price": 180000,
-    "originalPrice": 210000,
-    "images": [
-      "/catalogo/sneakers/jordan/jordan-1-triple-red.jpeg"
-    ],
-    "sizes": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
-    "status": "disponible",
-    "isFeatured": false,
-    "isNewArrival": true,
-    "isOriginalCertified": false,
-    "description": "",
-    "details": {
-      "condition": "En caja",
-      "colorway": "Triple Red",
       "includedItems": [
         "Caja"
       ]
@@ -3532,9 +3532,9 @@ export const CATALOGO_GENERADO: Sneaker[] = [
   },
   {
     "id": "sneaker-jordan-3-retro-x-travis-scott-negro",
-    "name": "Air Jordan 3 Retro x Travis Scott Negro",
+    "name": "Air Jordan 3 Retro x Travis Scott",
     "brand": "Jordan",
-    "model": "Air Jordan 3 Retro x Travis Scott Negro",
+    "model": "Air Jordan 3 Retro x Travis Scott",
     "sku": "PAPI-5404",
     "category": "general",
     "gender": "unisex",
@@ -3649,6 +3649,83 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "inquiriesCount": 0,
     "createdAt": "2026-08-13T19:36:10.000Z",
     "updatedAt": "2026-08-13T19:36:10.000Z"
+  },
+  {
+    "id": "sneaker-jordan-4-retro-triple-brown",
+    "name": "Air Jordan 4 Retro",
+    "brand": "Jordan",
+    "model": "Air Jordan 4 Retro",
+    "sku": "PAPI-2197",
+    "category": "general",
+    "gender": "unisex",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/jordan/jordan-4-retro-triple-brown.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Triple Brown",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-13T19:36:10.000Z",
+    "updatedAt": "2026-08-13T19:36:10.000Z"
+  },
+  {
+    "id": "sneaker-jordan-4-retro-negro-fucsia",
+    "name": "Air Jordan 4 Retro",
+    "brand": "Jordan",
+    "model": "Air Jordan 4 Retro",
+    "sku": "PAPI-1563",
+    "category": "general",
+    "gender": "mujer",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/jordan/mujer/jordan-4-retro-negro-fucsia.jpg"
+    ],
+    "sizes": [
+      35,
+      36,
+      37,
+      38,
+      39
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "La 4 en negro entero con la malla, los soportes y la unidad Air en fucsia. El contraste más fuerte de la silueta.",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Black / Fuchsia",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-25T15:10:14.234Z",
+    "updatedAt": "2026-08-25T15:10:14.234Z"
   },
   {
     "id": "sneaker-jordan-4-retro-black-cat",
@@ -3773,43 +3850,6 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "updatedAt": "2026-08-25T15:10:14.234Z"
   },
   {
-    "id": "sneaker-jordan-4-retro-negro-fucsia",
-    "name": "Air Jordan 4 Retro Negro / Fucsia",
-    "brand": "Jordan",
-    "model": "Air Jordan 4 Retro Negro / Fucsia",
-    "sku": "PAPI-1563",
-    "category": "general",
-    "gender": "mujer",
-    "price": 180000,
-    "originalPrice": 210000,
-    "images": [
-      "/catalogo/sneakers/jordan/mujer/jordan-4-retro-negro-fucsia.jpg"
-    ],
-    "sizes": [
-      35,
-      36,
-      37,
-      38,
-      39
-    ],
-    "status": "disponible",
-    "isFeatured": false,
-    "isNewArrival": true,
-    "isOriginalCertified": false,
-    "description": "La 4 en negro entero con la malla, los soportes y la unidad Air en fucsia. El contraste más fuerte de la silueta.",
-    "details": {
-      "condition": "En caja",
-      "colorway": "Black / Fuchsia",
-      "includedItems": [
-        "Caja"
-      ]
-    },
-    "viewsCount": 0,
-    "inquiriesCount": 0,
-    "createdAt": "2026-08-25T15:10:14.234Z",
-    "updatedAt": "2026-08-25T15:10:14.234Z"
-  },
-  {
     "id": "sneaker-jordan-4-retro-orchid",
     "name": "Air Jordan 4 Retro Orchid",
     "brand": "Jordan",
@@ -3881,46 +3921,6 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "details": {
       "condition": "En caja",
       "colorway": "Pine Green / White",
-      "includedItems": [
-        "Caja"
-      ]
-    },
-    "viewsCount": 0,
-    "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:36:10.000Z",
-    "updatedAt": "2026-08-13T19:36:10.000Z"
-  },
-  {
-    "id": "sneaker-jordan-4-retro-triple-brown",
-    "name": "Air Jordan 4 Retro Triple Brown",
-    "brand": "Jordan",
-    "model": "Air Jordan 4 Retro Triple Brown",
-    "sku": "PAPI-2197",
-    "category": "general",
-    "gender": "unisex",
-    "price": 180000,
-    "originalPrice": 210000,
-    "images": [
-      "/catalogo/sneakers/jordan/jordan-4-retro-triple-brown.jpg"
-    ],
-    "sizes": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
-    "status": "disponible",
-    "isFeatured": false,
-    "isNewArrival": true,
-    "isOriginalCertified": false,
-    "description": "",
-    "details": {
-      "condition": "En caja",
-      "colorway": "Triple Brown",
       "includedItems": [
         "Caja"
       ]
@@ -4013,9 +4013,9 @@ export const CATALOGO_GENERADO: Sneaker[] = [
   },
   {
     "id": "sneaker-jordan-4-retro-x-off-white-sail",
-    "name": "Air Jordan 4 Retro x Off-White Sail",
+    "name": "Air Jordan 4 Retro x Off-White",
     "brand": "Jordan",
-    "model": "Air Jordan 4 Retro x Off-White Sail",
+    "model": "Air Jordan 4 Retro x Off-White",
     "sku": "PAPI-1207",
     "category": "general",
     "gender": "unisex",
@@ -4519,9 +4519,9 @@ export const CATALOGO_GENERADO: Sneaker[] = [
   },
   {
     "id": "sneaker-bape-sta-blanco-negro",
-    "name": "Bape Sta Blanco / Negro",
+    "name": "Bape Sta",
     "brand": "Otras",
-    "model": "Bape Sta Blanco / Negro",
+    "model": "Bape Sta",
     "sku": "PAPI-1412",
     "category": "general",
     "gender": "unisex",
@@ -4559,9 +4559,9 @@ export const CATALOGO_GENERADO: Sneaker[] = [
   },
   {
     "id": "sneaker-bape-sta-negro",
-    "name": "Bape Sta Negro",
+    "name": "Bape Sta",
     "brand": "Otras",
-    "model": "Bape Sta Negro",
+    "model": "Bape Sta",
     "sku": "PAPI-5435",
     "category": "general",
     "gender": "unisex",
@@ -4599,9 +4599,9 @@ export const CATALOGO_GENERADO: Sneaker[] = [
   },
   {
     "id": "sneaker-bape-sta-wgm-blanco",
-    "name": "Bape Sta WGM Blanco",
+    "name": "Bape Sta WGM",
     "brand": "Otras",
-    "model": "Bape Sta WGM Blanco",
+    "model": "Bape Sta WGM",
     "sku": "PAPI-2916",
     "category": "general",
     "gender": "unisex",
@@ -4720,9 +4720,9 @@ export const CATALOGO_GENERADO: Sneaker[] = [
   },
   {
     "id": "sneaker-hugo-boss-kai-retro-black",
-    "name": "BOSS Kai Retro Black",
+    "name": "BOSS Kai Retro",
     "brand": "Hugo Boss",
-    "model": "BOSS Kai Retro Black",
+    "model": "BOSS Kai Retro",
     "sku": "PAPI-4005",
     "category": "originales",
     "gender": "unisex",
@@ -4802,9 +4802,9 @@ export const CATALOGO_GENERADO: Sneaker[] = [
   },
   {
     "id": "sneaker-boss-master-gris",
-    "name": "Boss Master Gris",
+    "name": "Boss Master",
     "brand": "Hugo Boss",
-    "model": "Boss Master Gris",
+    "model": "Boss Master",
     "sku": "PAPI-3708",
     "category": "general",
     "gender": "unisex",
@@ -4924,9 +4924,9 @@ export const CATALOGO_GENERADO: Sneaker[] = [
   },
   {
     "id": "sneaker-hugo-boss-monograma-azul",
-    "name": "BOSS Monograma Azul",
+    "name": "BOSS Monograma",
     "brand": "Hugo Boss",
-    "model": "BOSS Monograma Azul",
+    "model": "BOSS Monograma",
     "sku": "PAPI-1148",
     "category": "general",
     "gender": "hombre",
@@ -4961,9 +4961,9 @@ export const CATALOGO_GENERADO: Sneaker[] = [
   },
   {
     "id": "sneaker-hugo-boss-monograma-negro-oro",
-    "name": "BOSS Monograma Negro Oro",
+    "name": "BOSS Monograma",
     "brand": "Hugo Boss",
-    "model": "BOSS Monograma Negro Oro",
+    "model": "BOSS Monograma",
     "sku": "PAPI-8848",
     "category": "general",
     "gender": "hombre",
@@ -4998,9 +4998,9 @@ export const CATALOGO_GENERADO: Sneaker[] = [
   },
   {
     "id": "sneaker-hugo-boss-monograma-negro-plata",
-    "name": "BOSS Monograma Negro Plata",
+    "name": "BOSS Monograma",
     "brand": "Hugo Boss",
-    "model": "BOSS Monograma Negro Plata",
+    "model": "BOSS Monograma",
     "sku": "PAPI-5446",
     "category": "general",
     "gender": "hombre",
@@ -5158,9 +5158,9 @@ export const CATALOGO_GENERADO: Sneaker[] = [
   },
   {
     "id": "sneaker-hugo-boss-parkour-vison-orange",
-    "name": "BOSS Parkour Vision Orange",
+    "name": "BOSS Parkour Vision",
     "brand": "Hugo Boss",
-    "model": "BOSS Parkour Vision Orange",
+    "model": "BOSS Parkour Vision",
     "sku": "PAPI-4135",
     "category": "originales",
     "gender": "unisex",
@@ -5187,6 +5187,47 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "details": {
       "condition": "En caja",
       "colorway": "Orange",
+      "includedItems": [
+        "Caja original",
+        "Comprobante de procedencia"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-14T15:29:51.536Z",
+    "updatedAt": "2026-08-14T15:29:51.536Z"
+  },
+  {
+    "id": "sneaker-hugo-boss-rhys-cupsole-white",
+    "name": "BOSS Rhys Cupsole",
+    "brand": "Hugo Boss",
+    "model": "BOSS Rhys Cupsole",
+    "sku": "PAPI-2752",
+    "category": "originales",
+    "gender": "unisex",
+    "price": 450000,
+    "originalPrice": 520000,
+    "images": [
+      "/catalogo/originales/hugo-boss/hugo-boss-rhys-cupsole-white.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "bajo_encargo",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": true,
+    "description": "Silueta baja en cuero blanco con suela de copa. La más vestidora del lote.",
+    "details": {
+      "condition": "En caja",
+      "colorway": "White",
       "includedItems": [
         "Caja original",
         "Comprobante de procedencia"
@@ -5239,45 +5280,41 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "updatedAt": "2026-08-14T15:29:51.536Z"
   },
   {
-    "id": "sneaker-hugo-boss-rhys-cupsole-white",
-    "name": "BOSS Rhys Cupsole White",
+    "id": "sneaker-hugo-boss-runn-blanco-verde",
+    "name": "BOSS Runn",
     "brand": "Hugo Boss",
-    "model": "BOSS Rhys Cupsole White",
-    "sku": "PAPI-2752",
-    "category": "originales",
-    "gender": "unisex",
-    "price": 450000,
-    "originalPrice": 520000,
+    "model": "BOSS Runn",
+    "sku": "PAPI-5327",
+    "category": "general",
+    "gender": "hombre",
+    "price": 190000,
+    "originalPrice": 230000,
     "images": [
-      "/catalogo/originales/hugo-boss/hugo-boss-rhys-cupsole-white.jpg"
+      "/catalogo/sneakers/hugo-boss/hombre/hugo-boss-runn-blanco-verde.jpg"
     ],
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
       43,
       44
     ],
-    "status": "bajo_encargo",
+    "status": "disponible",
     "isFeatured": false,
     "isNewArrival": true,
-    "isOriginalCertified": true,
-    "description": "Silueta baja en cuero blanco con suela de copa. La más vestidora del lote.",
+    "isOriginalCertified": false,
+    "description": "Runner retro en nylon y gamuza, con el logo BOSS en el lateral y suela de doble capa. El verde va sobre blanco, así que combina con jean claro y con negro.",
     "details": {
       "condition": "En caja",
-      "colorway": "White",
+      "colorway": "White / Green",
       "includedItems": [
-        "Caja original",
-        "Comprobante de procedencia"
+        "Caja"
       ]
     },
     "viewsCount": 0,
     "inquiriesCount": 0,
-    "createdAt": "2026-08-14T15:29:51.536Z",
-    "updatedAt": "2026-08-14T15:29:51.536Z"
+    "createdAt": "2026-08-15T19:13:41.875Z",
+    "updatedAt": "2026-08-15T19:13:41.875Z"
   },
   {
     "id": "sneaker-hugo-boss-runn-blanco-hielo",
@@ -5307,43 +5344,6 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "details": {
       "condition": "En caja",
       "colorway": "White / Ice Grey",
-      "includedItems": [
-        "Caja"
-      ]
-    },
-    "viewsCount": 0,
-    "inquiriesCount": 0,
-    "createdAt": "2026-08-15T19:13:41.875Z",
-    "updatedAt": "2026-08-15T19:13:41.875Z"
-  },
-  {
-    "id": "sneaker-hugo-boss-runn-blanco-verde",
-    "name": "BOSS Runn Blanco Verde",
-    "brand": "Hugo Boss",
-    "model": "BOSS Runn Blanco Verde",
-    "sku": "PAPI-5327",
-    "category": "general",
-    "gender": "hombre",
-    "price": 190000,
-    "originalPrice": 230000,
-    "images": [
-      "/catalogo/sneakers/hugo-boss/hombre/hugo-boss-runn-blanco-verde.jpg"
-    ],
-    "sizes": [
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
-    "status": "disponible",
-    "isFeatured": false,
-    "isNewArrival": true,
-    "isOriginalCertified": false,
-    "description": "Runner retro en nylon y gamuza, con el logo BOSS en el lateral y suela de doble capa. El verde va sobre blanco, así que combina con jean claro y con negro.",
-    "details": {
-      "condition": "En caja",
-      "colorway": "White / Green",
       "includedItems": [
         "Caja"
       ]
@@ -5392,9 +5392,9 @@ export const CATALOGO_GENERADO: Sneaker[] = [
   },
   {
     "id": "sneaker-hugo-boss-runner-gamuza-gris",
-    "name": "BOSS Runner Gamuza Gris",
+    "name": "BOSS Runner Gamuza",
     "brand": "Hugo Boss",
-    "model": "BOSS Runner Gamuza Gris",
+    "model": "BOSS Runner Gamuza",
     "sku": "PAPI-1113",
     "category": "general",
     "gender": "hombre",
@@ -5429,9 +5429,9 @@ export const CATALOGO_GENERADO: Sneaker[] = [
   },
   {
     "id": "sneaker-hugo-boss-runner-gamuza-negro",
-    "name": "BOSS Runner Gamuza Negro",
+    "name": "BOSS Runner Gamuza",
     "brand": "Hugo Boss",
-    "model": "BOSS Runner Gamuza Negro",
+    "model": "BOSS Runner Gamuza",
     "sku": "PAPI-6339",
     "category": "general",
     "gender": "hombre",
@@ -5585,9 +5585,9 @@ export const CATALOGO_GENERADO: Sneaker[] = [
   },
   {
     "id": "sneaker-hugo-boss-ttnm-evo-azul-navy",
-    "name": "BOSS TTNM EVO Azul Navy",
+    "name": "BOSS TTNM EVO",
     "brand": "Hugo Boss",
-    "model": "BOSS TTNM EVO Azul Navy",
+    "model": "BOSS TTNM EVO",
     "sku": "PAPI-1254",
     "category": "general",
     "gender": "hombre",
@@ -5622,9 +5622,9 @@ export const CATALOGO_GENERADO: Sneaker[] = [
   },
   {
     "id": "sneaker-hugo-boss-ttnm-evo-blanco",
-    "name": "BOSS TTNM EVO Blanco",
+    "name": "BOSS TTNM EVO",
     "brand": "Hugo Boss",
-    "model": "BOSS TTNM EVO Blanco",
+    "model": "BOSS TTNM EVO",
     "sku": "PAPI-1145",
     "category": "general",
     "gender": "hombre",
@@ -5659,9 +5659,9 @@ export const CATALOGO_GENERADO: Sneaker[] = [
   },
   {
     "id": "sneaker-hugo-boss-ttnm-evo-camel",
-    "name": "BOSS TTNM EVO Camel",
+    "name": "BOSS TTNM EVO",
     "brand": "Hugo Boss",
-    "model": "BOSS TTNM EVO Camel",
+    "model": "BOSS TTNM EVO",
     "sku": "PAPI-9005",
     "category": "general",
     "gender": "hombre",
@@ -5696,9 +5696,9 @@ export const CATALOGO_GENERADO: Sneaker[] = [
   },
   {
     "id": "sneaker-hugo-boss-ttnm-evo-gris",
-    "name": "BOSS TTNM EVO Gris",
+    "name": "BOSS TTNM EVO",
     "brand": "Hugo Boss",
-    "model": "BOSS TTNM EVO Gris",
+    "model": "BOSS TTNM EVO",
     "sku": "PAPI-1298",
     "category": "general",
     "gender": "hombre",
@@ -5733,9 +5733,9 @@ export const CATALOGO_GENERADO: Sneaker[] = [
   },
   {
     "id": "sneaker-hugo-boss-ttnm-evo-knit-crema",
-    "name": "BOSS TTNM EVO Knit Crema",
+    "name": "BOSS TTNM EVO Knit",
     "brand": "Hugo Boss",
-    "model": "BOSS TTNM EVO Knit Crema",
+    "model": "BOSS TTNM EVO Knit",
     "sku": "PAPI-3921",
     "category": "general",
     "gender": "hombre",
@@ -5759,6 +5759,43 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "details": {
       "condition": "En caja",
       "colorway": "Cream",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-15T19:13:41.875Z",
+    "updatedAt": "2026-08-15T19:13:41.875Z"
+  },
+  {
+    "id": "sneaker-hugo-boss-ttnm-evo-knit-navy",
+    "name": "BOSS TTNM EVO Knit",
+    "brand": "Hugo Boss",
+    "model": "BOSS TTNM EVO Knit",
+    "sku": "PAPI-3244",
+    "category": "general",
+    "gender": "hombre",
+    "price": 190000,
+    "originalPrice": 230000,
+    "images": [
+      "/catalogo/sneakers/hugo-boss/hombre/hugo-boss-ttnm-evo-knit-navy.jpg"
+    ],
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "TTNM EVO en tejido de punto azul navy, con suela blanca y el nombre de la silueta impreso en el lateral.",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Navy",
       "includedItems": [
         "Caja"
       ]
@@ -5796,43 +5833,6 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "details": {
       "condition": "En caja",
       "colorway": "Ice Grey",
-      "includedItems": [
-        "Caja"
-      ]
-    },
-    "viewsCount": 0,
-    "inquiriesCount": 0,
-    "createdAt": "2026-08-15T19:13:41.875Z",
-    "updatedAt": "2026-08-15T19:13:41.875Z"
-  },
-  {
-    "id": "sneaker-hugo-boss-ttnm-evo-knit-navy",
-    "name": "BOSS TTNM EVO Knit Navy",
-    "brand": "Hugo Boss",
-    "model": "BOSS TTNM EVO Knit Navy",
-    "sku": "PAPI-3244",
-    "category": "general",
-    "gender": "hombre",
-    "price": 190000,
-    "originalPrice": 230000,
-    "images": [
-      "/catalogo/sneakers/hugo-boss/hombre/hugo-boss-ttnm-evo-knit-navy.jpg"
-    ],
-    "sizes": [
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
-    "status": "disponible",
-    "isFeatured": false,
-    "isNewArrival": true,
-    "isOriginalCertified": false,
-    "description": "TTNM EVO en tejido de punto azul navy, con suela blanca y el nombre de la silueta impreso en el lateral.",
-    "details": {
-      "condition": "En caja",
-      "colorway": "Navy",
       "includedItems": [
         "Caja"
       ]
@@ -6162,9 +6162,9 @@ export const CATALOGO_GENERADO: Sneaker[] = [
   },
   {
     "id": "sneaker-calvin-klein-caden-white",
-    "name": "Calvin Klein Caden White",
+    "name": "Calvin Klein Caden",
     "brand": "Calvin Klein",
-    "model": "Calvin Klein Caden White",
+    "model": "Calvin Klein Caden",
     "sku": "PAPI-1077",
     "category": "originales",
     "gender": "mujer",
@@ -6242,9 +6242,9 @@ export const CATALOGO_GENERADO: Sneaker[] = [
   },
   {
     "id": "sneaker-calvin-klein-camina-black",
-    "name": "Calvin Klein Camina Black",
+    "name": "Calvin Klein Camina",
     "brand": "Calvin Klein",
-    "model": "Calvin Klein Camina Black",
+    "model": "Calvin Klein Camina",
     "sku": "PAPI-5686",
     "category": "originales",
     "gender": "mujer",
@@ -6559,9 +6559,9 @@ export const CATALOGO_GENERADO: Sneaker[] = [
   },
   {
     "id": "sneaker-calvin-klein-ciyan-black",
-    "name": "Calvin Klein Ciyan Black",
+    "name": "Calvin Klein Ciyan",
     "brand": "Calvin Klein",
-    "model": "Calvin Klein Ciyan Black",
+    "model": "Calvin Klein Ciyan",
     "sku": "PAPI-1364",
     "category": "originales",
     "gender": "mujer",
@@ -6881,9 +6881,9 @@ export const CATALOGO_GENERADO: Sneaker[] = [
   },
   {
     "id": "sneaker-calvin-klein-hania-white",
-    "name": "Calvin Klein Hania White",
+    "name": "Calvin Klein Hania",
     "brand": "Calvin Klein",
-    "model": "Calvin Klein Hania White",
+    "model": "Calvin Klein Hania",
     "sku": "PAPI-4355",
     "category": "originales",
     "gender": "mujer",
@@ -6961,9 +6961,9 @@ export const CATALOGO_GENERADO: Sneaker[] = [
   },
   {
     "id": "sneaker-calvin-klein-jeans-negro",
-    "name": "Calvin Klein Jeans Negro",
+    "name": "Calvin Klein Jeans",
     "brand": "Calvin Klein",
-    "model": "Calvin Klein Jeans Negro",
+    "model": "Calvin Klein Jeans",
     "sku": "PAPI-1468",
     "category": "general",
     "gender": "unisex",
@@ -7082,6 +7082,47 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "updatedAt": "2026-08-14T15:26:27.178Z"
   },
   {
+    "id": "sneaker-calvin-klein-lucio-navy-blue",
+    "name": "Calvin Klein Lucio",
+    "brand": "Calvin Klein",
+    "model": "Calvin Klein Lucio",
+    "sku": "PAPI-1214",
+    "category": "originales",
+    "gender": "unisex",
+    "price": 280000,
+    "originalPrice": 340000,
+    "images": [
+      "/catalogo/originales/calvin-klein/calvin-klein-lucio-navy-blue.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "bajo_encargo",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": true,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Navy Blue",
+      "includedItems": [
+        "Caja original",
+        "Comprobante de procedencia"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-14T15:26:27.178Z",
+    "updatedAt": "2026-08-14T15:26:27.178Z"
+  },
+  {
     "id": "sneaker-calvin-klein-lucio-black-002",
     "name": "Calvin Klein Lucio Black 002",
     "brand": "Calvin Klein",
@@ -7112,47 +7153,6 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "details": {
       "condition": "En caja",
       "colorway": "Black",
-      "includedItems": [
-        "Caja original",
-        "Comprobante de procedencia"
-      ]
-    },
-    "viewsCount": 0,
-    "inquiriesCount": 0,
-    "createdAt": "2026-08-14T15:26:27.178Z",
-    "updatedAt": "2026-08-14T15:26:27.178Z"
-  },
-  {
-    "id": "sneaker-calvin-klein-lucio-navy-blue",
-    "name": "Calvin Klein Lucio Navy Blue",
-    "brand": "Calvin Klein",
-    "model": "Calvin Klein Lucio Navy Blue",
-    "sku": "PAPI-1214",
-    "category": "originales",
-    "gender": "unisex",
-    "price": 280000,
-    "originalPrice": 340000,
-    "images": [
-      "/catalogo/originales/calvin-klein/calvin-klein-lucio-navy-blue.jpg"
-    ],
-    "sizes": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
-    "status": "bajo_encargo",
-    "isFeatured": false,
-    "isNewArrival": true,
-    "isOriginalCertified": true,
-    "description": "",
-    "details": {
-      "condition": "En caja",
-      "colorway": "Navy Blue",
       "includedItems": [
         "Caja original",
         "Comprobante de procedencia"
@@ -7572,50 +7572,10 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "updatedAt": "2026-08-13T19:36:12.000Z"
   },
   {
-    "id": "sneaker-creative-recreation-blanco",
-    "name": "Creative Recreation Blanco",
-    "brand": "Otras",
-    "model": "Creative Recreation Blanco",
-    "sku": "PAPI-1632",
-    "category": "general",
-    "gender": "unisex",
-    "price": 190000,
-    "originalPrice": 230000,
-    "images": [
-      "/catalogo/sneakers/otras/creative-recreation-blanco.jpg"
-    ],
-    "sizes": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
-    "status": "disponible",
-    "isFeatured": false,
-    "isNewArrival": true,
-    "isOriginalCertified": false,
-    "description": "",
-    "details": {
-      "condition": "En caja",
-      "colorway": "Triple White",
-      "includedItems": [
-        "Caja"
-      ]
-    },
-    "viewsCount": 0,
-    "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:36:12.000Z",
-    "updatedAt": "2026-08-13T19:36:12.000Z"
-  },
-  {
     "id": "sneaker-creative-recreation-blanco-negro",
-    "name": "Creative Recreation Blanco / Negro",
+    "name": "Creative Recreation",
     "brand": "Otras",
-    "model": "Creative Recreation Blanco / Negro",
+    "model": "Creative Recreation",
     "sku": "PAPI-1112",
     "category": "general",
     "gender": "unisex",
@@ -7652,10 +7612,50 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "updatedAt": "2026-08-13T19:36:12.000Z"
   },
   {
-    "id": "sneaker-creative-recreation-gris-negro",
-    "name": "Creative Recreation Gris / Negro",
+    "id": "sneaker-creative-recreation-blanco",
+    "name": "Creative Recreation",
     "brand": "Otras",
-    "model": "Creative Recreation Gris / Negro",
+    "model": "Creative Recreation",
+    "sku": "PAPI-1632",
+    "category": "general",
+    "gender": "unisex",
+    "price": 190000,
+    "originalPrice": 230000,
+    "images": [
+      "/catalogo/sneakers/otras/creative-recreation-blanco.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Triple White",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-13T19:36:12.000Z",
+    "updatedAt": "2026-08-13T19:36:12.000Z"
+  },
+  {
+    "id": "sneaker-creative-recreation-gris-negro",
+    "name": "Creative Recreation",
+    "brand": "Otras",
+    "model": "Creative Recreation",
     "sku": "PAPI-1245",
     "category": "general",
     "gender": "unisex",
@@ -7682,6 +7682,46 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "details": {
       "condition": "En caja",
       "colorway": "Grey / Black",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-13T19:36:12.000Z",
+    "updatedAt": "2026-08-13T19:36:12.000Z"
+  },
+  {
+    "id": "sneaker-creative-recreation-triple-negro",
+    "name": "Creative Recreation",
+    "brand": "Otras",
+    "model": "Creative Recreation",
+    "sku": "PAPI-1544",
+    "category": "general",
+    "gender": "unisex",
+    "price": 190000,
+    "originalPrice": 230000,
+    "images": [
+      "/catalogo/sneakers/otras/creative-recreation-triple-negro.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Triple Black",
       "includedItems": [
         "Caja"
       ]
@@ -7733,9 +7773,9 @@ export const CATALOGO_GENERADO: Sneaker[] = [
   },
   {
     "id": "sneaker-creative-recreation-tejido-blanco-negro",
-    "name": "Creative Recreation Tejido Blanco / Negro",
+    "name": "Creative Recreation Tejido",
     "brand": "Otras",
-    "model": "Creative Recreation Tejido Blanco / Negro",
+    "model": "Creative Recreation Tejido",
     "sku": "PAPI-1582",
     "category": "general",
     "gender": "unisex",
@@ -7772,50 +7812,10 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "updatedAt": "2026-08-13T19:36:12.000Z"
   },
   {
-    "id": "sneaker-creative-recreation-triple-negro",
-    "name": "Creative Recreation Triple Negro",
-    "brand": "Otras",
-    "model": "Creative Recreation Triple Negro",
-    "sku": "PAPI-1544",
-    "category": "general",
-    "gender": "unisex",
-    "price": 190000,
-    "originalPrice": 230000,
-    "images": [
-      "/catalogo/sneakers/otras/creative-recreation-triple-negro.jpg"
-    ],
-    "sizes": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
-    "status": "disponible",
-    "isFeatured": false,
-    "isNewArrival": true,
-    "isOriginalCertified": false,
-    "description": "",
-    "details": {
-      "condition": "En caja",
-      "colorway": "Triple Black",
-      "includedItems": [
-        "Caja"
-      ]
-    },
-    "viewsCount": 0,
-    "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:36:12.000Z",
-    "updatedAt": "2026-08-13T19:36:12.000Z"
-  },
-  {
     "id": "sneaker-diesel-running-gris-navy",
-    "name": "Diesel Running Gris / Navy",
+    "name": "Diesel Running",
     "brand": "Otras",
-    "model": "Diesel Running Gris / Navy",
+    "model": "Diesel Running",
     "sku": "PAPI-2587",
     "category": "general",
     "gender": "hombre",
@@ -7851,9 +7851,9 @@ export const CATALOGO_GENERADO: Sneaker[] = [
   },
   {
     "id": "sneaker-diesel-running-negro",
-    "name": "Diesel Running Negro",
+    "name": "Diesel Running",
     "brand": "Otras",
-    "model": "Diesel Running Negro",
+    "model": "Diesel Running",
     "sku": "PAPI-6345",
     "category": "general",
     "gender": "hombre",
@@ -8256,9 +8256,9 @@ export const CATALOGO_GENERADO: Sneaker[] = [
   },
   {
     "id": "sneaker-guess-lomynz-sneaker-black",
-    "name": "Guess Lomynz Black",
+    "name": "Guess Lomynz",
     "brand": "Guess",
-    "model": "Guess Lomynz Black",
+    "model": "Guess Lomynz",
     "sku": "PAPI-4350",
     "category": "originales",
     "gender": "unisex",
@@ -8788,9 +8788,9 @@ export const CATALOGO_GENERADO: Sneaker[] = [
   },
   {
     "id": "sneaker-jordan-legacy-312-blanco-rosado",
-    "name": "Jordan Legacy 312 Blanco / Rosado",
+    "name": "Jordan Legacy 312",
     "brand": "Jordan",
-    "model": "Jordan Legacy 312 Blanco / Rosado",
+    "model": "Jordan Legacy 312",
     "sku": "PAPI-1176",
     "category": "general",
     "gender": "unisex",
@@ -8828,9 +8828,9 @@ export const CATALOGO_GENERADO: Sneaker[] = [
   },
   {
     "id": "sneaker-louis-vuitton-skate-azul-blanco",
-    "name": "Louis Vuitton Skate Azul / Blanco",
+    "name": "Louis Vuitton Skate",
     "brand": "Louis Vuitton",
-    "model": "Louis Vuitton Skate Azul / Blanco",
+    "model": "Louis Vuitton Skate",
     "sku": "PAPI-3720",
     "category": "general",
     "gender": "unisex",
@@ -8868,9 +8868,9 @@ export const CATALOGO_GENERADO: Sneaker[] = [
   },
   {
     "id": "sneaker-louis-vuitton-skate-blanco-beige",
-    "name": "Louis Vuitton Skate Blanco / Beige",
+    "name": "Louis Vuitton Skate",
     "brand": "Louis Vuitton",
-    "model": "Louis Vuitton Skate Blanco / Beige",
+    "model": "Louis Vuitton Skate",
     "sku": "PAPI-2596",
     "category": "general",
     "gender": "unisex",
@@ -8908,9 +8908,9 @@ export const CATALOGO_GENERADO: Sneaker[] = [
   },
   {
     "id": "sneaker-louis-vuitton-skate-blanco-gris",
-    "name": "Louis Vuitton Skate Blanco / Gris",
+    "name": "Louis Vuitton Skate",
     "brand": "Louis Vuitton",
-    "model": "Louis Vuitton Skate Blanco / Gris",
+    "model": "Louis Vuitton Skate",
     "sku": "PAPI-4197",
     "category": "general",
     "gender": "unisex",
@@ -8937,6 +8937,166 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "details": {
       "condition": "En caja",
       "colorway": "White / Grey",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-13T19:13:00.000Z",
+    "updatedAt": "2026-08-13T19:13:00.000Z"
+  },
+  {
+    "id": "sneaker-louis-vuitton-skate-rojo",
+    "name": "Louis Vuitton Skate",
+    "brand": "Louis Vuitton",
+    "model": "Louis Vuitton Skate",
+    "sku": "PAPI-1247",
+    "category": "general",
+    "gender": "unisex",
+    "price": 190000,
+    "originalPrice": 230000,
+    "images": [
+      "/catalogo/sneakers/louis-vuitton/louis-vuitton-skate-rojo.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Red / Coral / Pink",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-13T19:13:00.000Z",
+    "updatedAt": "2026-08-13T19:13:00.000Z"
+  },
+  {
+    "id": "sneaker-louis-vuitton-skate-triple-blanco",
+    "name": "Louis Vuitton Skate",
+    "brand": "Louis Vuitton",
+    "model": "Louis Vuitton Skate",
+    "sku": "PAPI-1186",
+    "category": "general",
+    "gender": "unisex",
+    "price": 190000,
+    "originalPrice": 230000,
+    "images": [
+      "/catalogo/sneakers/louis-vuitton/louis-vuitton-skate-triple-blanco.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "Silueta Skate en blanco total, con la flor del monograma en relieve y paneles de malla. Suela gruesa dentada.",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Triple White",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-13T19:13:00.000Z",
+    "updatedAt": "2026-08-13T19:13:00.000Z"
+  },
+  {
+    "id": "sneaker-louis-vuitton-skate-triple-negro",
+    "name": "Louis Vuitton Skate",
+    "brand": "Louis Vuitton",
+    "model": "Louis Vuitton Skate",
+    "sku": "PAPI-2382",
+    "category": "general",
+    "gender": "unisex",
+    "price": 190000,
+    "originalPrice": 230000,
+    "images": [
+      "/catalogo/sneakers/louis-vuitton/louis-vuitton-skate-triple-negro.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "Skate en negro con malla y la flor del monograma en blanco. Mediasuela alta con los símbolos grabados.",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Black / White",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-13T19:13:00.000Z",
+    "updatedAt": "2026-08-13T19:13:00.000Z"
+  },
+  {
+    "id": "sneaker-louis-vuitton-skate-verde",
+    "name": "Louis Vuitton Skate",
+    "brand": "Louis Vuitton",
+    "model": "Louis Vuitton Skate",
+    "sku": "PAPI-8346",
+    "category": "general",
+    "gender": "unisex",
+    "price": 190000,
+    "originalPrice": 230000,
+    "images": [
+      "/catalogo/sneakers/louis-vuitton/louis-vuitton-skate-verde.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Green / Mint",
       "includedItems": [
         "Caja"
       ]
@@ -8987,170 +9147,10 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "updatedAt": "2026-08-13T19:13:00.000Z"
   },
   {
-    "id": "sneaker-louis-vuitton-skate-rojo",
-    "name": "Louis Vuitton Skate Rojo",
-    "brand": "Louis Vuitton",
-    "model": "Louis Vuitton Skate Rojo",
-    "sku": "PAPI-1247",
-    "category": "general",
-    "gender": "unisex",
-    "price": 190000,
-    "originalPrice": 230000,
-    "images": [
-      "/catalogo/sneakers/louis-vuitton/louis-vuitton-skate-rojo.jpg"
-    ],
-    "sizes": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
-    "status": "disponible",
-    "isFeatured": false,
-    "isNewArrival": true,
-    "isOriginalCertified": false,
-    "description": "",
-    "details": {
-      "condition": "En caja",
-      "colorway": "Red / Coral / Pink",
-      "includedItems": [
-        "Caja"
-      ]
-    },
-    "viewsCount": 0,
-    "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:13:00.000Z",
-    "updatedAt": "2026-08-13T19:13:00.000Z"
-  },
-  {
-    "id": "sneaker-louis-vuitton-skate-triple-blanco",
-    "name": "Louis Vuitton Skate Triple Blanco",
-    "brand": "Louis Vuitton",
-    "model": "Louis Vuitton Skate Triple Blanco",
-    "sku": "PAPI-1186",
-    "category": "general",
-    "gender": "unisex",
-    "price": 190000,
-    "originalPrice": 230000,
-    "images": [
-      "/catalogo/sneakers/louis-vuitton/louis-vuitton-skate-triple-blanco.jpg"
-    ],
-    "sizes": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
-    "status": "disponible",
-    "isFeatured": false,
-    "isNewArrival": true,
-    "isOriginalCertified": false,
-    "description": "Silueta Skate en blanco total, con la flor del monograma en relieve y paneles de malla. Suela gruesa dentada.",
-    "details": {
-      "condition": "En caja",
-      "colorway": "Triple White",
-      "includedItems": [
-        "Caja"
-      ]
-    },
-    "viewsCount": 0,
-    "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:13:00.000Z",
-    "updatedAt": "2026-08-13T19:13:00.000Z"
-  },
-  {
-    "id": "sneaker-louis-vuitton-skate-triple-negro",
-    "name": "Louis Vuitton Skate Triple Negro",
-    "brand": "Louis Vuitton",
-    "model": "Louis Vuitton Skate Triple Negro",
-    "sku": "PAPI-2382",
-    "category": "general",
-    "gender": "unisex",
-    "price": 190000,
-    "originalPrice": 230000,
-    "images": [
-      "/catalogo/sneakers/louis-vuitton/louis-vuitton-skate-triple-negro.jpg"
-    ],
-    "sizes": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
-    "status": "disponible",
-    "isFeatured": false,
-    "isNewArrival": true,
-    "isOriginalCertified": false,
-    "description": "Skate en negro con malla y la flor del monograma en blanco. Mediasuela alta con los símbolos grabados.",
-    "details": {
-      "condition": "En caja",
-      "colorway": "Black / White",
-      "includedItems": [
-        "Caja"
-      ]
-    },
-    "viewsCount": 0,
-    "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:13:00.000Z",
-    "updatedAt": "2026-08-13T19:13:00.000Z"
-  },
-  {
-    "id": "sneaker-louis-vuitton-skate-verde",
-    "name": "Louis Vuitton Skate Verde",
-    "brand": "Louis Vuitton",
-    "model": "Louis Vuitton Skate Verde",
-    "sku": "PAPI-8346",
-    "category": "general",
-    "gender": "unisex",
-    "price": 190000,
-    "originalPrice": 230000,
-    "images": [
-      "/catalogo/sneakers/louis-vuitton/louis-vuitton-skate-verde.jpg"
-    ],
-    "sizes": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
-    "status": "disponible",
-    "isFeatured": false,
-    "isNewArrival": true,
-    "isOriginalCertified": false,
-    "description": "",
-    "details": {
-      "condition": "En caja",
-      "colorway": "Green / Mint",
-      "includedItems": [
-        "Caja"
-      ]
-    },
-    "viewsCount": 0,
-    "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:13:00.000Z",
-    "updatedAt": "2026-08-13T19:13:00.000Z"
-  },
-  {
     "id": "sneaker-louis-vuitton-trainer-blanco-negro",
-    "name": "Louis Vuitton Trainer Blanco / Negro",
+    "name": "Louis Vuitton Trainer",
     "brand": "Louis Vuitton",
-    "model": "Louis Vuitton Trainer Blanco / Negro",
+    "model": "Louis Vuitton Trainer",
     "sku": "PAPI-8013",
     "category": "general",
     "gender": "unisex",
@@ -9177,6 +9177,46 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "details": {
       "condition": "En caja",
       "colorway": "White / Black",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-13T19:13:00.000Z",
+    "updatedAt": "2026-08-13T19:13:00.000Z"
+  },
+  {
+    "id": "sneaker-louis-vuitton-trainer-negro",
+    "name": "Louis Vuitton Trainer",
+    "brand": "Louis Vuitton",
+    "model": "Louis Vuitton Trainer",
+    "sku": "PAPI-1585",
+    "category": "general",
+    "gender": "unisex",
+    "price": 190000,
+    "originalPrice": 230000,
+    "images": [
+      "/catalogo/sneakers/louis-vuitton/louis-vuitton-trainer-negro.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "Trainer en cuero negro con el monograma en relieve y la correa de la lengüeta. Cordones blancos de contraste.",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Triple Black",
       "includedItems": [
         "Caja"
       ]
@@ -9217,46 +9257,6 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "details": {
       "condition": "En caja",
       "colorway": "White / Black Denim",
-      "includedItems": [
-        "Caja"
-      ]
-    },
-    "viewsCount": 0,
-    "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:13:00.000Z",
-    "updatedAt": "2026-08-13T19:13:00.000Z"
-  },
-  {
-    "id": "sneaker-louis-vuitton-trainer-negro",
-    "name": "Louis Vuitton Trainer Negro",
-    "brand": "Louis Vuitton",
-    "model": "Louis Vuitton Trainer Negro",
-    "sku": "PAPI-1585",
-    "category": "general",
-    "gender": "unisex",
-    "price": 190000,
-    "originalPrice": 230000,
-    "images": [
-      "/catalogo/sneakers/louis-vuitton/louis-vuitton-trainer-negro.jpg"
-    ],
-    "sizes": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
-    "status": "disponible",
-    "isFeatured": false,
-    "isNewArrival": true,
-    "isOriginalCertified": false,
-    "description": "Trainer en cuero negro con el monograma en relieve y la correa de la lengüeta. Cordones blancos de contraste.",
-    "details": {
-      "condition": "En caja",
-      "colorway": "Triple Black",
       "includedItems": [
         "Caja"
       ]
@@ -9344,9 +9344,9 @@ export const CATALOGO_GENERADO: Sneaker[] = [
   },
   {
     "id": "sneaker-new-balance-1906r-plata",
-    "name": "New Balance 1906R Plata",
+    "name": "New Balance 1906R",
     "brand": "New Balance",
-    "model": "New Balance 1906R Plata",
+    "model": "New Balance 1906R",
     "sku": "PAPI-1250",
     "category": "general",
     "gender": "unisex",
@@ -9384,9 +9384,9 @@ export const CATALOGO_GENERADO: Sneaker[] = [
   },
   {
     "id": "sneaker-new-balance-2000-blanco-gris",
-    "name": "New Balance 2000 Blanco / Gris",
+    "name": "New Balance 2000",
     "brand": "New Balance",
-    "model": "New Balance 2000 Blanco / Gris",
+    "model": "New Balance 2000",
     "sku": "PAPI-1857",
     "category": "general",
     "gender": "unisex",
@@ -9424,9 +9424,9 @@ export const CATALOGO_GENERADO: Sneaker[] = [
   },
   {
     "id": "sneaker-new-balance-2000-blanco-negro",
-    "name": "New Balance 2000 Blanco / Negro",
+    "name": "New Balance 2000",
     "brand": "New Balance",
-    "model": "New Balance 2000 Blanco / Negro",
+    "model": "New Balance 2000",
     "sku": "PAPI-1068",
     "category": "general",
     "gender": "unisex",
@@ -9464,9 +9464,9 @@ export const CATALOGO_GENERADO: Sneaker[] = [
   },
   {
     "id": "sneaker-new-balance-2000-blanco-plata",
-    "name": "New Balance 2000 Blanco / Plata",
+    "name": "New Balance 2000",
     "brand": "New Balance",
-    "model": "New Balance 2000 Blanco / Plata",
+    "model": "New Balance 2000",
     "sku": "PAPI-3871",
     "category": "general",
     "gender": "unisex",
@@ -9504,9 +9504,9 @@ export const CATALOGO_GENERADO: Sneaker[] = [
   },
   {
     "id": "sneaker-new-balance-2000-blanco-rosa-coral",
-    "name": "New Balance 2000 Blanco / Rosa Coral",
+    "name": "New Balance 2000",
     "brand": "New Balance",
-    "model": "New Balance 2000 Blanco / Rosa Coral",
+    "model": "New Balance 2000",
     "sku": "PAPI-5736",
     "category": "general",
     "gender": "unisex",
@@ -9544,9 +9544,9 @@ export const CATALOGO_GENERADO: Sneaker[] = [
   },
   {
     "id": "sneaker-new-balance-2000-blanco-rosado",
-    "name": "New Balance 2000 Blanco / Rosado",
+    "name": "New Balance 2000",
     "brand": "New Balance",
-    "model": "New Balance 2000 Blanco / Rosado",
+    "model": "New Balance 2000",
     "sku": "PAPI-1494",
     "category": "general",
     "gender": "unisex",
@@ -9584,9 +9584,9 @@ export const CATALOGO_GENERADO: Sneaker[] = [
   },
   {
     "id": "sneaker-new-balance-2000-crema",
-    "name": "New Balance 2000 Crema",
+    "name": "New Balance 2000",
     "brand": "New Balance",
-    "model": "New Balance 2000 Crema",
+    "model": "New Balance 2000",
     "sku": "PAPI-7578",
     "category": "general",
     "gender": "unisex",
@@ -9613,6 +9613,206 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "details": {
       "condition": "En caja",
       "colorway": "Sea Salt / Silver",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-19T15:42:47.370Z",
+    "updatedAt": "2026-08-19T15:42:47.370Z"
+  },
+  {
+    "id": "sneaker-new-balance-2000-dorado-crema",
+    "name": "New Balance 2000",
+    "brand": "New Balance",
+    "model": "New Balance 2000",
+    "sku": "PAPI-1414",
+    "category": "general",
+    "gender": "unisex",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/new-balance/new-balance-2000-dorado-crema.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Gold / Cream",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-13T19:36:11.000Z",
+    "updatedAt": "2026-08-13T19:36:11.000Z"
+  },
+  {
+    "id": "sneaker-new-balance-2000-gris-rosado",
+    "name": "New Balance 2000",
+    "brand": "New Balance",
+    "model": "New Balance 2000",
+    "sku": "PAPI-1608",
+    "category": "general",
+    "gender": "unisex",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/new-balance/new-balance-2000-gris-rosado.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Grey / White / Pink",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-19T15:42:47.370Z",
+    "updatedAt": "2026-08-19T15:42:47.370Z"
+  },
+  {
+    "id": "sneaker-new-balance-2000-negro-dorado",
+    "name": "New Balance 2000",
+    "brand": "New Balance",
+    "model": "New Balance 2000",
+    "sku": "PAPI-8481",
+    "category": "general",
+    "gender": "unisex",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/new-balance/new-balance-2000-negro-dorado.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Black / Gold",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-13T19:36:11.000Z",
+    "updatedAt": "2026-08-13T19:36:11.000Z"
+  },
+  {
+    "id": "sneaker-new-balance-2000-negro-gris",
+    "name": "New Balance 2000",
+    "brand": "New Balance",
+    "model": "New Balance 2000",
+    "sku": "PAPI-1052",
+    "category": "general",
+    "gender": "unisex",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/new-balance/new-balance-2000-negro-gris.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Black / Grey / Silver",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-19T15:42:47.370Z",
+    "updatedAt": "2026-08-19T15:42:47.370Z"
+  },
+  {
+    "id": "sneaker-new-balance-2000-negro-plata",
+    "name": "New Balance 2000",
+    "brand": "New Balance",
+    "model": "New Balance 2000",
+    "sku": "PAPI-3661",
+    "category": "general",
+    "gender": "unisex",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/new-balance/new-balance-2000-negro-plata.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Black / Silver / White",
       "includedItems": [
         "Caja"
       ]
@@ -9663,46 +9863,6 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "updatedAt": "2026-08-19T15:42:47.370Z"
   },
   {
-    "id": "sneaker-new-balance-2000-dorado-crema",
-    "name": "New Balance 2000 Dorado / Crema",
-    "brand": "New Balance",
-    "model": "New Balance 2000 Dorado / Crema",
-    "sku": "PAPI-1414",
-    "category": "general",
-    "gender": "unisex",
-    "price": 180000,
-    "originalPrice": 210000,
-    "images": [
-      "/catalogo/sneakers/new-balance/new-balance-2000-dorado-crema.jpg"
-    ],
-    "sizes": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
-    "status": "disponible",
-    "isFeatured": false,
-    "isNewArrival": true,
-    "isOriginalCertified": false,
-    "description": "",
-    "details": {
-      "condition": "En caja",
-      "colorway": "Gold / Cream",
-      "includedItems": [
-        "Caja"
-      ]
-    },
-    "viewsCount": 0,
-    "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:36:11.000Z",
-    "updatedAt": "2026-08-13T19:36:11.000Z"
-  },
-  {
     "id": "sneaker-new-balance-2000-gris-azul-hielo",
     "name": "New Balance 2000 Gris / Azul Hielo",
     "brand": "New Balance",
@@ -9733,46 +9893,6 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "details": {
       "condition": "En caja",
       "colorway": "Grey / Silver / Ice Blue",
-      "includedItems": [
-        "Caja"
-      ]
-    },
-    "viewsCount": 0,
-    "inquiriesCount": 0,
-    "createdAt": "2026-08-19T15:42:47.370Z",
-    "updatedAt": "2026-08-19T15:42:47.370Z"
-  },
-  {
-    "id": "sneaker-new-balance-2000-gris-rosado",
-    "name": "New Balance 2000 Gris / Rosado",
-    "brand": "New Balance",
-    "model": "New Balance 2000 Gris / Rosado",
-    "sku": "PAPI-1608",
-    "category": "general",
-    "gender": "unisex",
-    "price": 180000,
-    "originalPrice": 210000,
-    "images": [
-      "/catalogo/sneakers/new-balance/new-balance-2000-gris-rosado.jpg"
-    ],
-    "sizes": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
-    "status": "disponible",
-    "isFeatured": false,
-    "isNewArrival": true,
-    "isOriginalCertified": false,
-    "description": "",
-    "details": {
-      "condition": "En caja",
-      "colorway": "Grey / White / Pink",
       "includedItems": [
         "Caja"
       ]
@@ -9821,126 +9941,6 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "inquiriesCount": 0,
     "createdAt": "2026-08-13T19:36:11.000Z",
     "updatedAt": "2026-08-13T19:36:11.000Z"
-  },
-  {
-    "id": "sneaker-new-balance-2000-negro-dorado",
-    "name": "New Balance 2000 Negro / Dorado",
-    "brand": "New Balance",
-    "model": "New Balance 2000 Negro / Dorado",
-    "sku": "PAPI-8481",
-    "category": "general",
-    "gender": "unisex",
-    "price": 180000,
-    "originalPrice": 210000,
-    "images": [
-      "/catalogo/sneakers/new-balance/new-balance-2000-negro-dorado.jpg"
-    ],
-    "sizes": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
-    "status": "disponible",
-    "isFeatured": false,
-    "isNewArrival": true,
-    "isOriginalCertified": false,
-    "description": "",
-    "details": {
-      "condition": "En caja",
-      "colorway": "Black / Gold",
-      "includedItems": [
-        "Caja"
-      ]
-    },
-    "viewsCount": 0,
-    "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:36:11.000Z",
-    "updatedAt": "2026-08-13T19:36:11.000Z"
-  },
-  {
-    "id": "sneaker-new-balance-2000-negro-gris",
-    "name": "New Balance 2000 Negro / Gris",
-    "brand": "New Balance",
-    "model": "New Balance 2000 Negro / Gris",
-    "sku": "PAPI-1052",
-    "category": "general",
-    "gender": "unisex",
-    "price": 180000,
-    "originalPrice": 210000,
-    "images": [
-      "/catalogo/sneakers/new-balance/new-balance-2000-negro-gris.jpg"
-    ],
-    "sizes": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
-    "status": "disponible",
-    "isFeatured": false,
-    "isNewArrival": true,
-    "isOriginalCertified": false,
-    "description": "",
-    "details": {
-      "condition": "En caja",
-      "colorway": "Black / Grey / Silver",
-      "includedItems": [
-        "Caja"
-      ]
-    },
-    "viewsCount": 0,
-    "inquiriesCount": 0,
-    "createdAt": "2026-08-19T15:42:47.370Z",
-    "updatedAt": "2026-08-19T15:42:47.370Z"
-  },
-  {
-    "id": "sneaker-new-balance-2000-negro-plata",
-    "name": "New Balance 2000 Negro / Plata",
-    "brand": "New Balance",
-    "model": "New Balance 2000 Negro / Plata",
-    "sku": "PAPI-3661",
-    "category": "general",
-    "gender": "unisex",
-    "price": 180000,
-    "originalPrice": 210000,
-    "images": [
-      "/catalogo/sneakers/new-balance/new-balance-2000-negro-plata.jpg"
-    ],
-    "sizes": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
-    "status": "disponible",
-    "isFeatured": false,
-    "isNewArrival": true,
-    "isOriginalCertified": false,
-    "description": "",
-    "details": {
-      "condition": "En caja",
-      "colorway": "Black / Silver / White",
-      "includedItems": [
-        "Caja"
-      ]
-    },
-    "viewsCount": 0,
-    "inquiriesCount": 0,
-    "createdAt": "2026-08-19T15:42:47.370Z",
-    "updatedAt": "2026-08-19T15:42:47.370Z"
   },
   {
     "id": "sneaker-new-balance-2000-rosado-vino",
@@ -10058,9 +10058,9 @@ export const CATALOGO_GENERADO: Sneaker[] = [
   },
   {
     "id": "sneaker-new-balance-530-blanco-verde",
-    "name": "New Balance 530 Blanco / Verde",
+    "name": "New Balance 530",
     "brand": "New Balance",
-    "model": "New Balance 530 Blanco / Verde",
+    "model": "New Balance 530",
     "sku": "PAPI-1428",
     "category": "general",
     "gender": "unisex",
@@ -10098,9 +10098,9 @@ export const CATALOGO_GENERADO: Sneaker[] = [
   },
   {
     "id": "sneaker-new-balance-530-crema",
-    "name": "New Balance 530 Crema",
+    "name": "New Balance 530",
     "brand": "New Balance",
-    "model": "New Balance 530 Crema",
+    "model": "New Balance 530",
     "sku": "PAPI-4523",
     "category": "general",
     "gender": "unisex",
@@ -10138,9 +10138,9 @@ export const CATALOGO_GENERADO: Sneaker[] = [
   },
   {
     "id": "sneaker-new-balance-530-gris-plata",
-    "name": "New Balance 530 Gris / Plata",
+    "name": "New Balance 530",
     "brand": "New Balance",
-    "model": "New Balance 530 Gris / Plata",
+    "model": "New Balance 530",
     "sku": "PAPI-1030",
     "category": "general",
     "gender": "unisex",
@@ -10178,9 +10178,9 @@ export const CATALOGO_GENERADO: Sneaker[] = [
   },
   {
     "id": "sneaker-new-balance-530-negro-blanco",
-    "name": "New Balance 530 Negro / Blanco",
+    "name": "New Balance 530",
     "brand": "New Balance",
-    "model": "New Balance 530 Negro / Blanco",
+    "model": "New Balance 530",
     "sku": "PAPI-1456",
     "category": "general",
     "gender": "unisex",
@@ -10215,6 +10215,46 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "inquiriesCount": 0,
     "createdAt": "2026-08-19T15:42:47.370Z",
     "updatedAt": "2026-08-19T15:42:47.370Z"
+  },
+  {
+    "id": "sneaker-new-balance-530-white-silver-navy",
+    "name": "New Balance 530",
+    "brand": "New Balance",
+    "model": "New Balance 530",
+    "sku": "PAPI-2218",
+    "category": "general",
+    "gender": "unisex",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/new-balance/new-balance-530-white-silver-navy.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "La 530 en malla blanca con capas plateadas y detalles azul marino. Mediasuela ABZORB.",
+    "details": {
+      "condition": "En caja",
+      "colorway": "White / Silver / Navy",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-13T19:36:11.000Z",
+    "updatedAt": "2026-08-13T19:36:11.000Z"
   },
   {
     "id": "sneaker-new-balance-530-sea-salt",
@@ -10257,50 +10297,10 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "updatedAt": "2026-08-19T15:42:47.370Z"
   },
   {
-    "id": "sneaker-new-balance-530-white-silver-navy",
-    "name": "New Balance 530 White Silver Navy",
-    "brand": "New Balance",
-    "model": "New Balance 530 White Silver Navy",
-    "sku": "PAPI-2218",
-    "category": "general",
-    "gender": "unisex",
-    "price": 180000,
-    "originalPrice": 210000,
-    "images": [
-      "/catalogo/sneakers/new-balance/new-balance-530-white-silver-navy.jpg"
-    ],
-    "sizes": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
-    "status": "disponible",
-    "isFeatured": false,
-    "isNewArrival": true,
-    "isOriginalCertified": false,
-    "description": "La 530 en malla blanca con capas plateadas y detalles azul marino. Mediasuela ABZORB.",
-    "details": {
-      "condition": "En caja",
-      "colorway": "White / Silver / Navy",
-      "includedItems": [
-        "Caja"
-      ]
-    },
-    "viewsCount": 0,
-    "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:36:11.000Z",
-    "updatedAt": "2026-08-13T19:36:11.000Z"
-  },
-  {
     "id": "sneaker-new-balance-550-blanco-verde",
-    "name": "New Balance 550 Blanco / Verde",
+    "name": "New Balance 550",
     "brand": "New Balance",
-    "model": "New Balance 550 Blanco / Verde",
+    "model": "New Balance 550",
     "sku": "PAPI-3905",
     "category": "general",
     "gender": "unisex",
@@ -10338,9 +10338,9 @@ export const CATALOGO_GENERADO: Sneaker[] = [
   },
   {
     "id": "sneaker-new-balance-550-x-aime-leon-dore-blanco-rojo",
-    "name": "New Balance 550 x Aimé Leon Dore Blanco / Rojo",
+    "name": "New Balance 550 x Aimé Leon Dore",
     "brand": "New Balance",
-    "model": "New Balance 550 x Aimé Leon Dore Blanco / Rojo",
+    "model": "New Balance 550 x Aimé Leon Dore",
     "sku": "PAPI-3201",
     "category": "general",
     "gender": "unisex",
@@ -10377,6 +10377,86 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "updatedAt": "2026-08-13T19:36:11.000Z"
   },
   {
+    "id": "sneaker-new-balance-730-blanco-plata",
+    "name": "New Balance 730",
+    "brand": "New Balance",
+    "model": "New Balance 730",
+    "sku": "PAPI-1521",
+    "category": "general",
+    "gender": "unisex",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/new-balance/new-balance-730-blanco-plata.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "White / Silver",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-19T15:42:47.370Z",
+    "updatedAt": "2026-08-19T15:42:47.370Z"
+  },
+  {
+    "id": "sneaker-new-balance-730-blanco-verde",
+    "name": "New Balance 730",
+    "brand": "New Balance",
+    "model": "New Balance 730",
+    "sku": "PAPI-8735",
+    "category": "general",
+    "gender": "unisex",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/new-balance/new-balance-730-blanco-verde.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "White / Green / Cream",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-19T15:42:47.370Z",
+    "updatedAt": "2026-08-19T15:42:47.370Z"
+  },
+  {
     "id": "sneaker-new-balance-730-blanco-azul-rey",
     "name": "New Balance 730 Blanco / Azul Rey",
     "brand": "New Balance",
@@ -10407,46 +10487,6 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "details": {
       "condition": "En caja",
       "colorway": "White / Royal Blue / Silver",
-      "includedItems": [
-        "Caja"
-      ]
-    },
-    "viewsCount": 0,
-    "inquiriesCount": 0,
-    "createdAt": "2026-08-19T15:42:47.370Z",
-    "updatedAt": "2026-08-19T15:42:47.370Z"
-  },
-  {
-    "id": "sneaker-new-balance-730-blanco-plata",
-    "name": "New Balance 730 Blanco / Plata",
-    "brand": "New Balance",
-    "model": "New Balance 730 Blanco / Plata",
-    "sku": "PAPI-1521",
-    "category": "general",
-    "gender": "unisex",
-    "price": 180000,
-    "originalPrice": 210000,
-    "images": [
-      "/catalogo/sneakers/new-balance/new-balance-730-blanco-plata.jpg"
-    ],
-    "sizes": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
-    "status": "disponible",
-    "isFeatured": false,
-    "isNewArrival": true,
-    "isOriginalCertified": false,
-    "description": "",
-    "details": {
-      "condition": "En caja",
-      "colorway": "White / Silver",
       "includedItems": [
         "Caja"
       ]
@@ -10497,50 +10537,10 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "updatedAt": "2026-08-19T15:42:47.370Z"
   },
   {
-    "id": "sneaker-new-balance-730-blanco-verde",
-    "name": "New Balance 730 Blanco / Verde",
-    "brand": "New Balance",
-    "model": "New Balance 730 Blanco / Verde",
-    "sku": "PAPI-8735",
-    "category": "general",
-    "gender": "unisex",
-    "price": 180000,
-    "originalPrice": 210000,
-    "images": [
-      "/catalogo/sneakers/new-balance/new-balance-730-blanco-verde.jpg"
-    ],
-    "sizes": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
-    "status": "disponible",
-    "isFeatured": false,
-    "isNewArrival": true,
-    "isOriginalCertified": false,
-    "description": "",
-    "details": {
-      "condition": "En caja",
-      "colorway": "White / Green / Cream",
-      "includedItems": [
-        "Caja"
-      ]
-    },
-    "viewsCount": 0,
-    "inquiriesCount": 0,
-    "createdAt": "2026-08-19T15:42:47.370Z",
-    "updatedAt": "2026-08-19T15:42:47.370Z"
-  },
-  {
     "id": "sneaker-new-balance-790-blanco-plata",
-    "name": "New Balance 790 Blanco / Plata",
+    "name": "New Balance 790",
     "brand": "New Balance",
-    "model": "New Balance 790 Blanco / Plata",
+    "model": "New Balance 790",
     "sku": "PAPI-3225",
     "category": "general",
     "gender": "unisex",
@@ -10655,6 +10655,46 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "updatedAt": "2026-08-25T15:10:14.234Z"
   },
   {
+    "id": "sneaker-new-balance-9060-negro",
+    "name": "New Balance 9060",
+    "brand": "New Balance",
+    "model": "New Balance 9060",
+    "sku": "PAPI-6877",
+    "category": "general",
+    "gender": "unisex",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/new-balance/new-balance-9060-negro.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "La 9060 en gamuza negra con la N blanca y la mediasuela ondulada en crema.",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Black / Sea Salt",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-13T19:36:11.000Z",
+    "updatedAt": "2026-08-13T19:36:11.000Z"
+  },
+  {
     "id": "sneaker-new-balance-9060-salvia",
     "name": "New Balance 9060",
     "brand": "New Balance",
@@ -10694,6 +10734,46 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "inquiriesCount": 0,
     "createdAt": "2026-08-25T15:10:14.234Z",
     "updatedAt": "2026-08-25T15:10:14.234Z"
+  },
+  {
+    "id": "sneaker-new-balance-9060-triple-blanco",
+    "name": "New Balance 9060",
+    "brand": "New Balance",
+    "model": "New Balance 9060",
+    "sku": "PAPI-1550",
+    "category": "general",
+    "gender": "unisex",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/new-balance/new-balance-9060-triple-blanco.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Triple White",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-13T19:36:11.000Z",
+    "updatedAt": "2026-08-13T19:36:11.000Z"
   },
   {
     "id": "sneaker-new-balance-9060-moonrock-linen",
@@ -10736,46 +10816,6 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "updatedAt": "2026-08-13T19:36:11.000Z"
   },
   {
-    "id": "sneaker-new-balance-9060-negro",
-    "name": "New Balance 9060 Negro",
-    "brand": "New Balance",
-    "model": "New Balance 9060 Negro",
-    "sku": "PAPI-6877",
-    "category": "general",
-    "gender": "unisex",
-    "price": 180000,
-    "originalPrice": 210000,
-    "images": [
-      "/catalogo/sneakers/new-balance/new-balance-9060-negro.jpg"
-    ],
-    "sizes": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
-    "status": "disponible",
-    "isFeatured": false,
-    "isNewArrival": true,
-    "isOriginalCertified": false,
-    "description": "La 9060 en gamuza negra con la N blanca y la mediasuela ondulada en crema.",
-    "details": {
-      "condition": "En caja",
-      "colorway": "Black / Sea Salt",
-      "includedItems": [
-        "Caja"
-      ]
-    },
-    "viewsCount": 0,
-    "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:36:11.000Z",
-    "updatedAt": "2026-08-13T19:36:11.000Z"
-  },
-  {
     "id": "sneaker-new-balance-9060-sea-salt-yellow",
     "name": "New Balance 9060 Sea Salt Yellow",
     "brand": "New Balance",
@@ -10806,46 +10846,6 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "details": {
       "condition": "En caja",
       "colorway": "Sea Salt / Yellow",
-      "includedItems": [
-        "Caja"
-      ]
-    },
-    "viewsCount": 0,
-    "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:36:11.000Z",
-    "updatedAt": "2026-08-13T19:36:11.000Z"
-  },
-  {
-    "id": "sneaker-new-balance-9060-triple-blanco",
-    "name": "New Balance 9060 Triple Blanco",
-    "brand": "New Balance",
-    "model": "New Balance 9060 Triple Blanco",
-    "sku": "PAPI-1550",
-    "category": "general",
-    "gender": "unisex",
-    "price": 180000,
-    "originalPrice": 210000,
-    "images": [
-      "/catalogo/sneakers/new-balance/new-balance-9060-triple-blanco.jpg"
-    ],
-    "sizes": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
-    "status": "disponible",
-    "isFeatured": false,
-    "isNewArrival": true,
-    "isOriginalCertified": false,
-    "description": "",
-    "details": {
-      "condition": "En caja",
-      "colorway": "Triple White",
       "includedItems": [
         "Caja"
       ]
@@ -10933,9 +10933,9 @@ export const CATALOGO_GENERADO: Sneaker[] = [
   },
   {
     "id": "sneaker-nike-air-force-1-blanco-verde",
-    "name": "Nike Air Force 1 Blanco / Verde",
+    "name": "Nike Air Force 1",
     "brand": "Nike",
-    "model": "Nike Air Force 1 Blanco / Verde",
+    "model": "Nike Air Force 1",
     "sku": "PAPI-4521",
     "category": "general",
     "gender": "unisex",
@@ -10962,6 +10962,86 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "details": {
       "condition": "En caja",
       "colorway": "White / Green",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-13T18:57:45.000Z",
+    "updatedAt": "2026-08-13T18:57:45.000Z"
+  },
+  {
+    "id": "sneaker-nike-air-force-1-triple-white",
+    "name": "Nike Air Force 1",
+    "brand": "Nike",
+    "model": "Nike Air Force 1",
+    "sku": "PAPI-8044",
+    "category": "general",
+    "gender": "unisex",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/nike/nike-air-force-1-triple-white.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "La Air Force 1 blanca de siempre, en cuero liso y suela de goma. La base que combina con todo.",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Triple White",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-13T18:57:45.000Z",
+    "updatedAt": "2026-08-13T18:57:45.000Z"
+  },
+  {
+    "id": "sneaker-nike-air-force-1-triple-yellow",
+    "name": "Nike Air Force 1",
+    "brand": "Nike",
+    "model": "Nike Air Force 1",
+    "sku": "PAPI-5139",
+    "category": "general",
+    "gender": "unisex",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/nike/nike-air-force-1-triple-yellow.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Triple Yellow",
       "includedItems": [
         "Caja"
       ]
@@ -11011,9 +11091,9 @@ export const CATALOGO_GENERADO: Sneaker[] = [
   },
   {
     "id": "sneaker-nike-air-force-1-negro",
-    "name": "Nike Air Force 1 Low Negro",
+    "name": "Nike Air Force 1 Low",
     "brand": "Nike",
-    "model": "Nike Air Force 1 Low Negro",
+    "model": "Nike Air Force 1 Low",
     "sku": "PAPI-7470",
     "category": "general",
     "gender": "unisex",
@@ -11091,9 +11171,9 @@ export const CATALOGO_GENERADO: Sneaker[] = [
   },
   {
     "id": "sneaker-nike-air-force-1-super-gris",
-    "name": "Nike Air Force 1 Super Gris",
+    "name": "Nike Air Force 1 Super",
     "brand": "Nike",
-    "model": "Nike Air Force 1 Super Gris",
+    "model": "Nike Air Force 1 Super",
     "sku": "PAPI-1477",
     "category": "general",
     "gender": "unisex",
@@ -11131,9 +11211,9 @@ export const CATALOGO_GENERADO: Sneaker[] = [
   },
   {
     "id": "sneaker-nike-air-force-1-super-morado",
-    "name": "Nike Air Force 1 Super Morado",
+    "name": "Nike Air Force 1 Super",
     "brand": "Nike",
-    "model": "Nike Air Force 1 Super Morado",
+    "model": "Nike Air Force 1 Super",
     "sku": "PAPI-1539",
     "category": "general",
     "gender": "unisex",
@@ -11171,9 +11251,9 @@ export const CATALOGO_GENERADO: Sneaker[] = [
   },
   {
     "id": "sneaker-nike-air-force-1-super-naranja",
-    "name": "Nike Air Force 1 Super Naranja",
+    "name": "Nike Air Force 1 Super",
     "brand": "Nike",
-    "model": "Nike Air Force 1 Super Naranja",
+    "model": "Nike Air Force 1 Super",
     "sku": "PAPI-1676",
     "category": "general",
     "gender": "unisex",
@@ -11240,86 +11320,6 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "details": {
       "condition": "En caja",
       "colorway": "White / Pink",
-      "includedItems": [
-        "Caja"
-      ]
-    },
-    "viewsCount": 0,
-    "inquiriesCount": 0,
-    "createdAt": "2026-08-13T18:57:45.000Z",
-    "updatedAt": "2026-08-13T18:57:45.000Z"
-  },
-  {
-    "id": "sneaker-nike-air-force-1-triple-white",
-    "name": "Nike Air Force 1 Triple White",
-    "brand": "Nike",
-    "model": "Nike Air Force 1 Triple White",
-    "sku": "PAPI-8044",
-    "category": "general",
-    "gender": "unisex",
-    "price": 180000,
-    "originalPrice": 210000,
-    "images": [
-      "/catalogo/sneakers/nike/nike-air-force-1-triple-white.jpg"
-    ],
-    "sizes": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
-    "status": "disponible",
-    "isFeatured": false,
-    "isNewArrival": true,
-    "isOriginalCertified": false,
-    "description": "La Air Force 1 blanca de siempre, en cuero liso y suela de goma. La base que combina con todo.",
-    "details": {
-      "condition": "En caja",
-      "colorway": "Triple White",
-      "includedItems": [
-        "Caja"
-      ]
-    },
-    "viewsCount": 0,
-    "inquiriesCount": 0,
-    "createdAt": "2026-08-13T18:57:45.000Z",
-    "updatedAt": "2026-08-13T18:57:45.000Z"
-  },
-  {
-    "id": "sneaker-nike-air-force-1-triple-yellow",
-    "name": "Nike Air Force 1 Triple Yellow",
-    "brand": "Nike",
-    "model": "Nike Air Force 1 Triple Yellow",
-    "sku": "PAPI-5139",
-    "category": "general",
-    "gender": "unisex",
-    "price": 180000,
-    "originalPrice": 210000,
-    "images": [
-      "/catalogo/sneakers/nike/nike-air-force-1-triple-yellow.jpg"
-    ],
-    "sizes": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
-    "status": "disponible",
-    "isFeatured": false,
-    "isNewArrival": true,
-    "isOriginalCertified": false,
-    "description": "",
-    "details": {
-      "condition": "En caja",
-      "colorway": "Triple Yellow",
       "includedItems": [
         "Caja"
       ]
@@ -11611,9 +11611,9 @@ export const CATALOGO_GENERADO: Sneaker[] = [
   },
   {
     "id": "sneaker-nike-air-max-90-black-orange",
-    "name": "Nike Air Max 90 Black Orange",
+    "name": "Nike Air Max 90",
     "brand": "Nike",
-    "model": "Nike Air Max 90 Black Orange",
+    "model": "Nike Air Max 90",
     "sku": "PAPI-1668",
     "category": "general",
     "gender": "unisex",
@@ -11640,6 +11640,86 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "details": {
       "condition": "En caja",
       "colorway": "Black / Total Orange",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-13T18:57:45.000Z",
+    "updatedAt": "2026-08-13T18:57:45.000Z"
+  },
+  {
+    "id": "sneaker-nike-air-max-90-triple-blanco",
+    "name": "Nike Air Max 90",
+    "brand": "Nike",
+    "model": "Nike Air Max 90",
+    "sku": "PAPI-1144",
+    "category": "general",
+    "gender": "unisex",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/nike/nike-air-max-90-triple-blanco.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "Air Max 90 en blanco total con la cámara de aire visible en el talón. Malla y cuero.",
+    "details": {
+      "condition": "En caja",
+      "colorway": "White / Wolf Grey",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-13T18:57:45.000Z",
+    "updatedAt": "2026-08-13T18:57:45.000Z"
+  },
+  {
+    "id": "sneaker-nike-air-max-90-triple-negro",
+    "name": "Nike Air Max 90",
+    "brand": "Nike",
+    "model": "Nike Air Max 90",
+    "sku": "PAPI-1478",
+    "category": "general",
+    "gender": "unisex",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/nike/nike-air-max-90-triple-negro.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Triple Black",
       "includedItems": [
         "Caja"
       ]
@@ -11730,90 +11810,10 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "updatedAt": "2026-08-13T18:57:45.000Z"
   },
   {
-    "id": "sneaker-nike-air-max-90-triple-blanco",
-    "name": "Nike Air Max 90 Triple Blanco",
-    "brand": "Nike",
-    "model": "Nike Air Max 90 Triple Blanco",
-    "sku": "PAPI-1144",
-    "category": "general",
-    "gender": "unisex",
-    "price": 180000,
-    "originalPrice": 210000,
-    "images": [
-      "/catalogo/sneakers/nike/nike-air-max-90-triple-blanco.jpg"
-    ],
-    "sizes": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
-    "status": "disponible",
-    "isFeatured": false,
-    "isNewArrival": true,
-    "isOriginalCertified": false,
-    "description": "Air Max 90 en blanco total con la cámara de aire visible en el talón. Malla y cuero.",
-    "details": {
-      "condition": "En caja",
-      "colorway": "White / Wolf Grey",
-      "includedItems": [
-        "Caja"
-      ]
-    },
-    "viewsCount": 0,
-    "inquiriesCount": 0,
-    "createdAt": "2026-08-13T18:57:45.000Z",
-    "updatedAt": "2026-08-13T18:57:45.000Z"
-  },
-  {
-    "id": "sneaker-nike-air-max-90-triple-negro",
-    "name": "Nike Air Max 90 Triple Negro",
-    "brand": "Nike",
-    "model": "Nike Air Max 90 Triple Negro",
-    "sku": "PAPI-1478",
-    "category": "general",
-    "gender": "unisex",
-    "price": 180000,
-    "originalPrice": 210000,
-    "images": [
-      "/catalogo/sneakers/nike/nike-air-max-90-triple-negro.jpg"
-    ],
-    "sizes": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
-    "status": "disponible",
-    "isFeatured": false,
-    "isNewArrival": true,
-    "isOriginalCertified": false,
-    "description": "",
-    "details": {
-      "condition": "En caja",
-      "colorway": "Triple Black",
-      "includedItems": [
-        "Caja"
-      ]
-    },
-    "viewsCount": 0,
-    "inquiriesCount": 0,
-    "createdAt": "2026-08-13T18:57:45.000Z",
-    "updatedAt": "2026-08-13T18:57:45.000Z"
-  },
-  {
     "id": "sneaker-nike-air-max-95-blanco-azul",
-    "name": "Nike Air Max 95 Blanco / Azul",
+    "name": "Nike Air Max 95",
     "brand": "Nike",
-    "model": "Nike Air Max 95 Blanco / Azul",
+    "model": "Nike Air Max 95",
     "sku": "PAPI-1274",
     "category": "general",
     "gender": "unisex",
@@ -11851,9 +11851,9 @@ export const CATALOGO_GENERADO: Sneaker[] = [
   },
   {
     "id": "sneaker-nike-air-max-95-gris-morado",
-    "name": "Nike Air Max 95 Gris / Morado",
+    "name": "Nike Air Max 95",
     "brand": "Nike",
-    "model": "Nike Air Max 95 Gris / Morado",
+    "model": "Nike Air Max 95",
     "sku": "PAPI-1505",
     "category": "general",
     "gender": "unisex",
@@ -11891,9 +11891,9 @@ export const CATALOGO_GENERADO: Sneaker[] = [
   },
   {
     "id": "sneaker-nike-air-max-95-gris-rojo",
-    "name": "Nike Air Max 95 Gris / Rojo",
+    "name": "Nike Air Max 95",
     "brand": "Nike",
-    "model": "Nike Air Max 95 Gris / Rojo",
+    "model": "Nike Air Max 95",
     "sku": "PAPI-8716",
     "category": "general",
     "gender": "unisex",
@@ -11931,9 +11931,9 @@ export const CATALOGO_GENERADO: Sneaker[] = [
   },
   {
     "id": "sneaker-nike-air-max-95-gris-rosado",
-    "name": "Nike Air Max 95 Gris / Rosado",
+    "name": "Nike Air Max 95",
     "brand": "Nike",
-    "model": "Nike Air Max 95 Gris / Rosado",
+    "model": "Nike Air Max 95",
     "sku": "PAPI-8206",
     "category": "general",
     "gender": "unisex",
@@ -11971,9 +11971,9 @@ export const CATALOGO_GENERADO: Sneaker[] = [
   },
   {
     "id": "sneaker-nike-air-max-95-negro-gris",
-    "name": "Nike Air Max 95 Negro / Gris",
+    "name": "Nike Air Max 95",
     "brand": "Nike",
-    "model": "Nike Air Max 95 Negro / Gris",
+    "model": "Nike Air Max 95",
     "sku": "PAPI-7595",
     "category": "general",
     "gender": "unisex",
@@ -12000,6 +12000,46 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "details": {
       "condition": "En caja",
       "colorway": "Black / Grey / Sail",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-13T18:57:45.000Z",
+    "updatedAt": "2026-08-13T18:57:45.000Z"
+  },
+  {
+    "id": "sneaker-nike-air-max-95-triple-negro",
+    "name": "Nike Air Max 95",
+    "brand": "Nike",
+    "model": "Nike Air Max 95",
+    "sku": "PAPI-1159",
+    "category": "general",
+    "gender": "unisex",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/nike/nike-air-max-95-triple-negro.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Triple Black",
       "includedItems": [
         "Caja"
       ]
@@ -12050,50 +12090,10 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "updatedAt": "2026-08-13T18:57:45.000Z"
   },
   {
-    "id": "sneaker-nike-air-max-95-triple-negro",
-    "name": "Nike Air Max 95 Triple Negro",
-    "brand": "Nike",
-    "model": "Nike Air Max 95 Triple Negro",
-    "sku": "PAPI-1159",
-    "category": "general",
-    "gender": "unisex",
-    "price": 180000,
-    "originalPrice": 210000,
-    "images": [
-      "/catalogo/sneakers/nike/nike-air-max-95-triple-negro.jpg"
-    ],
-    "sizes": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
-    "status": "disponible",
-    "isFeatured": false,
-    "isNewArrival": true,
-    "isOriginalCertified": false,
-    "description": "",
-    "details": {
-      "condition": "En caja",
-      "colorway": "Triple Black",
-      "includedItems": [
-        "Caja"
-      ]
-    },
-    "viewsCount": 0,
-    "inquiriesCount": 0,
-    "createdAt": "2026-08-13T18:57:45.000Z",
-    "updatedAt": "2026-08-13T18:57:45.000Z"
-  },
-  {
     "id": "sneaker-nike-air-max-95-x-a-ma-maniere-azul",
-    "name": "Nike Air Max 95 x A Ma Manière Azul",
+    "name": "Nike Air Max 95 x A Ma Manière",
     "brand": "Nike",
-    "model": "Nike Air Max 95 x A Ma Manière Azul",
+    "model": "Nike Air Max 95 x A Ma Manière",
     "sku": "PAPI-9043",
     "category": "general",
     "gender": "unisex",
@@ -12211,9 +12211,9 @@ export const CATALOGO_GENERADO: Sneaker[] = [
   },
   {
     "id": "sneaker-nike-air-max-97-cafe",
-    "name": "Nike Air Max 97 Café",
+    "name": "Nike Air Max 97",
     "brand": "Nike",
-    "model": "Nike Air Max 97 Café",
+    "model": "Nike Air Max 97",
     "sku": "PAPI-7680",
     "category": "general",
     "gender": "unisex",
@@ -12411,9 +12411,9 @@ export const CATALOGO_GENERADO: Sneaker[] = [
   },
   {
     "id": "sneaker-nike-air-max-bw-gris-rojo",
-    "name": "Nike Air Max BW Gris / Rojo",
+    "name": "Nike Air Max BW",
     "brand": "Nike",
-    "model": "Nike Air Max BW Gris / Rojo",
+    "model": "Nike Air Max BW",
     "sku": "PAPI-1385",
     "category": "general",
     "gender": "unisex",
@@ -12449,6 +12449,47 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "inquiriesCount": 0,
     "createdAt": "2026-08-13T18:57:45.000Z",
     "updatedAt": "2026-08-13T18:57:45.000Z"
+  },
+  {
+    "id": "sneaker-nike-air-max-dn-triple-black",
+    "name": "Nike Air Max DN",
+    "brand": "Nike",
+    "model": "Nike Air Max DN",
+    "sku": "PAPI-1681",
+    "category": "originales",
+    "gender": "unisex",
+    "price": 380000,
+    "originalPrice": 450000,
+    "images": [
+      "/catalogo/originales/nike/nike-air-max-dn-triple-black.jpeg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "bajo_encargo",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": true,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Triple Black",
+      "includedItems": [
+        "Caja original",
+        "Comprobante de procedencia"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-14T15:26:27.178Z",
+    "updatedAt": "2026-08-14T15:26:27.178Z"
   },
   {
     "id": "sneaker-nike-air-max-dn-black-white",
@@ -12493,9 +12534,9 @@ export const CATALOGO_GENERADO: Sneaker[] = [
   },
   {
     "id": "sneaker-nike-air-max-dn-se-triple-negro",
-    "name": "Nike Air Max DN SE Triple Negro",
+    "name": "Nike Air Max DN SE",
     "brand": "Nike",
-    "model": "Nike Air Max DN SE Triple Negro",
+    "model": "Nike Air Max DN SE",
     "sku": "PAPI-1529",
     "category": "general",
     "gender": "unisex",
@@ -12532,251 +12573,10 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "updatedAt": "2026-08-13T18:57:45.000Z"
   },
   {
-    "id": "sneaker-nike-air-max-dn-triple-black",
-    "name": "Nike Air Max DN Triple Black",
-    "brand": "Nike",
-    "model": "Nike Air Max DN Triple Black",
-    "sku": "PAPI-1681",
-    "category": "originales",
-    "gender": "unisex",
-    "price": 380000,
-    "originalPrice": 450000,
-    "images": [
-      "/catalogo/originales/nike/nike-air-max-dn-triple-black.jpeg"
-    ],
-    "sizes": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
-    "status": "bajo_encargo",
-    "isFeatured": false,
-    "isNewArrival": true,
-    "isOriginalCertified": true,
-    "description": "",
-    "details": {
-      "condition": "En caja",
-      "colorway": "Triple Black",
-      "includedItems": [
-        "Caja original",
-        "Comprobante de procedencia"
-      ]
-    },
-    "viewsCount": 0,
-    "inquiriesCount": 0,
-    "createdAt": "2026-08-14T15:26:27.178Z",
-    "updatedAt": "2026-08-14T15:26:27.178Z"
-  },
-  {
-    "id": "sneaker-nike-air-max-dn8-azul",
-    "name": "Nike Air Max DN8 Azul",
-    "brand": "Nike",
-    "model": "Nike Air Max DN8 Azul",
-    "sku": "PAPI-2725",
-    "category": "general",
-    "gender": "unisex",
-    "price": 180000,
-    "originalPrice": 210000,
-    "images": [
-      "/catalogo/sneakers/nike/nike-air-max-dn8-azul.jpg"
-    ],
-    "sizes": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
-    "status": "disponible",
-    "isFeatured": false,
-    "isNewArrival": true,
-    "isOriginalCertified": false,
-    "description": "",
-    "details": {
-      "condition": "En caja",
-      "colorway": "Blue / Black",
-      "includedItems": [
-        "Caja"
-      ]
-    },
-    "viewsCount": 0,
-    "inquiriesCount": 0,
-    "createdAt": "2026-08-13T18:57:45.000Z",
-    "updatedAt": "2026-08-13T18:57:45.000Z"
-  },
-  {
-    "id": "sneaker-nike-air-max-dn8-blanco",
-    "name": "Nike Air Max DN8 Blanco",
-    "brand": "Nike",
-    "model": "Nike Air Max DN8 Blanco",
-    "sku": "PAPI-5423",
-    "category": "general",
-    "gender": "unisex",
-    "price": 180000,
-    "originalPrice": 210000,
-    "images": [
-      "/catalogo/sneakers/nike/nike-air-max-dn8-blanco.jpg"
-    ],
-    "sizes": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
-    "status": "disponible",
-    "isFeatured": false,
-    "isNewArrival": true,
-    "isOriginalCertified": false,
-    "description": "",
-    "details": {
-      "condition": "En caja",
-      "colorway": "White / Silver",
-      "includedItems": [
-        "Caja"
-      ]
-    },
-    "viewsCount": 0,
-    "inquiriesCount": 0,
-    "createdAt": "2026-08-13T18:57:45.000Z",
-    "updatedAt": "2026-08-13T18:57:45.000Z"
-  },
-  {
-    "id": "sneaker-nike-air-max-dn8-gris-menta",
-    "name": "Nike Air Max DN8 Gris / Menta",
-    "brand": "Nike",
-    "model": "Nike Air Max DN8 Gris / Menta",
-    "sku": "PAPI-4265",
-    "category": "general",
-    "gender": "unisex",
-    "price": 180000,
-    "originalPrice": 210000,
-    "images": [
-      "/catalogo/sneakers/nike/nike-air-max-dn8-gris-menta.jpg"
-    ],
-    "sizes": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
-    "status": "disponible",
-    "isFeatured": false,
-    "isNewArrival": true,
-    "isOriginalCertified": false,
-    "description": "",
-    "details": {
-      "condition": "En caja",
-      "colorway": "Mint Grey / Black",
-      "includedItems": [
-        "Caja"
-      ]
-    },
-    "viewsCount": 0,
-    "inquiriesCount": 0,
-    "createdAt": "2026-08-13T18:57:45.000Z",
-    "updatedAt": "2026-08-13T18:57:45.000Z"
-  },
-  {
-    "id": "sneaker-nike-air-max-dn8-hueso",
-    "name": "Nike Air Max DN8 Hueso",
-    "brand": "Nike",
-    "model": "Nike Air Max DN8 Hueso",
-    "sku": "PAPI-2445",
-    "category": "general",
-    "gender": "unisex",
-    "price": 180000,
-    "originalPrice": 210000,
-    "images": [
-      "/catalogo/sneakers/nike/nike-air-max-dn8-hueso.jpg"
-    ],
-    "sizes": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
-    "status": "disponible",
-    "isFeatured": false,
-    "isNewArrival": true,
-    "isOriginalCertified": false,
-    "description": "",
-    "details": {
-      "condition": "En caja",
-      "colorway": "Sail / Silver",
-      "includedItems": [
-        "Caja"
-      ]
-    },
-    "viewsCount": 0,
-    "inquiriesCount": 0,
-    "createdAt": "2026-08-13T18:57:45.000Z",
-    "updatedAt": "2026-08-13T18:57:45.000Z"
-  },
-  {
-    "id": "sneaker-nike-air-max-dn8-plata",
-    "name": "Nike Air Max DN8 Plata",
-    "brand": "Nike",
-    "model": "Nike Air Max DN8 Plata",
-    "sku": "PAPI-1638",
-    "category": "general",
-    "gender": "unisex",
-    "price": 180000,
-    "originalPrice": 210000,
-    "images": [
-      "/catalogo/sneakers/nike/nike-air-max-dn8-plata.jpg"
-    ],
-    "sizes": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
-    "status": "disponible",
-    "isFeatured": false,
-    "isNewArrival": true,
-    "isOriginalCertified": false,
-    "description": "",
-    "details": {
-      "condition": "En caja",
-      "colorway": "Metallic Silver",
-      "includedItems": [
-        "Caja"
-      ]
-    },
-    "viewsCount": 0,
-    "inquiriesCount": 0,
-    "createdAt": "2026-08-13T18:57:45.000Z",
-    "updatedAt": "2026-08-13T18:57:45.000Z"
-  },
-  {
     "id": "sneaker-nike-air-max-dn8-total-gray",
-    "name": "Nike Air Max DN8 Total Gray",
+    "name": "Nike Air Max DN8",
     "brand": "Nike",
-    "model": "Nike Air Max DN8 Total Gray",
+    "model": "Nike Air Max DN8",
     "sku": "PAPI-9833",
     "category": "originales",
     "gender": "unisex",
@@ -12815,9 +12615,9 @@ export const CATALOGO_GENERADO: Sneaker[] = [
   },
   {
     "id": "sneaker-nike-air-max-dn8-triple-black",
-    "name": "Nike Air Max DN8 Triple Black",
+    "name": "Nike Air Max DN8",
     "brand": "Nike",
-    "model": "Nike Air Max DN8 Triple Black",
+    "model": "Nike Air Max DN8",
     "sku": "PAPI-1215",
     "category": "originales",
     "gender": "unisex",
@@ -12855,10 +12655,210 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "updatedAt": "2026-08-14T15:26:27.178Z"
   },
   {
-    "id": "sneaker-nike-air-max-dn8-triple-negro",
-    "name": "Nike Air Max DN8 Triple Negro",
+    "id": "sneaker-nike-air-max-dn8-azul",
+    "name": "Nike Air Max DN8",
     "brand": "Nike",
-    "model": "Nike Air Max DN8 Triple Negro",
+    "model": "Nike Air Max DN8",
+    "sku": "PAPI-2725",
+    "category": "general",
+    "gender": "unisex",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/nike/nike-air-max-dn8-azul.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Blue / Black",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-13T18:57:45.000Z",
+    "updatedAt": "2026-08-13T18:57:45.000Z"
+  },
+  {
+    "id": "sneaker-nike-air-max-dn8-blanco",
+    "name": "Nike Air Max DN8",
+    "brand": "Nike",
+    "model": "Nike Air Max DN8",
+    "sku": "PAPI-5423",
+    "category": "general",
+    "gender": "unisex",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/nike/nike-air-max-dn8-blanco.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "White / Silver",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-13T18:57:45.000Z",
+    "updatedAt": "2026-08-13T18:57:45.000Z"
+  },
+  {
+    "id": "sneaker-nike-air-max-dn8-gris-menta",
+    "name": "Nike Air Max DN8",
+    "brand": "Nike",
+    "model": "Nike Air Max DN8",
+    "sku": "PAPI-4265",
+    "category": "general",
+    "gender": "unisex",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/nike/nike-air-max-dn8-gris-menta.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Mint Grey / Black",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-13T18:57:45.000Z",
+    "updatedAt": "2026-08-13T18:57:45.000Z"
+  },
+  {
+    "id": "sneaker-nike-air-max-dn8-hueso",
+    "name": "Nike Air Max DN8",
+    "brand": "Nike",
+    "model": "Nike Air Max DN8",
+    "sku": "PAPI-2445",
+    "category": "general",
+    "gender": "unisex",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/nike/nike-air-max-dn8-hueso.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Sail / Silver",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-13T18:57:45.000Z",
+    "updatedAt": "2026-08-13T18:57:45.000Z"
+  },
+  {
+    "id": "sneaker-nike-air-max-dn8-plata",
+    "name": "Nike Air Max DN8",
+    "brand": "Nike",
+    "model": "Nike Air Max DN8",
+    "sku": "PAPI-1638",
+    "category": "general",
+    "gender": "unisex",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/nike/nike-air-max-dn8-plata.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Metallic Silver",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-13T18:57:45.000Z",
+    "updatedAt": "2026-08-13T18:57:45.000Z"
+  },
+  {
+    "id": "sneaker-nike-air-max-dn8-triple-negro",
+    "name": "Nike Air Max DN8",
+    "brand": "Nike",
+    "model": "Nike Air Max DN8",
     "sku": "PAPI-3191",
     "category": "general",
     "gender": "unisex",
@@ -12896,9 +12896,9 @@ export const CATALOGO_GENERADO: Sneaker[] = [
   },
   {
     "id": "sneaker-nike-air-max-ltd-blanco-azul",
-    "name": "Nike Air Max LTD Blanco / Azul",
+    "name": "Nike Air Max LTD",
     "brand": "Nike",
-    "model": "Nike Air Max LTD Blanco / Azul",
+    "model": "Nike Air Max LTD",
     "sku": "PAPI-1077",
     "category": "general",
     "gender": "unisex",
@@ -13212,9 +13212,9 @@ export const CATALOGO_GENERADO: Sneaker[] = [
   },
   {
     "id": "sneaker-nike-air-max-plus-tn-blanco-azul",
-    "name": "Nike Air Max Plus TN Blanco / Azul",
+    "name": "Nike Air Max Plus TN",
     "brand": "Nike",
-    "model": "Nike Air Max Plus TN Blanco / Azul",
+    "model": "Nike Air Max Plus TN",
     "sku": "PAPI-2952",
     "category": "general",
     "gender": "unisex",
@@ -13241,6 +13241,86 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "details": {
       "condition": "En caja",
       "colorway": "White / Navy / Orange",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-13T18:57:45.000Z",
+    "updatedAt": "2026-08-13T18:57:45.000Z"
+  },
+  {
+    "id": "sneaker-nike-air-max-plus-tn-triple-blanco",
+    "name": "Nike Air Max Plus TN",
+    "brand": "Nike",
+    "model": "Nike Air Max Plus TN",
+    "sku": "PAPI-1641",
+    "category": "general",
+    "gender": "unisex",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/nike/nike-air-max-plus-tn-triple-blanco.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Triple White",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-13T18:57:45.000Z",
+    "updatedAt": "2026-08-13T18:57:45.000Z"
+  },
+  {
+    "id": "sneaker-nike-air-max-plus-tn-triple-negro",
+    "name": "Nike Air Max Plus TN",
+    "brand": "Nike",
+    "model": "Nike Air Max Plus TN",
+    "sku": "PAPI-1119",
+    "category": "general",
+    "gender": "unisex",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/nike/nike-air-max-plus-tn-triple-negro.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Triple Black",
       "includedItems": [
         "Caja"
       ]
@@ -13321,86 +13401,6 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "details": {
       "condition": "En caja",
       "colorway": "Pink Gradient",
-      "includedItems": [
-        "Caja"
-      ]
-    },
-    "viewsCount": 0,
-    "inquiriesCount": 0,
-    "createdAt": "2026-08-13T18:57:45.000Z",
-    "updatedAt": "2026-08-13T18:57:45.000Z"
-  },
-  {
-    "id": "sneaker-nike-air-max-plus-tn-triple-blanco",
-    "name": "Nike Air Max Plus TN Triple Blanco",
-    "brand": "Nike",
-    "model": "Nike Air Max Plus TN Triple Blanco",
-    "sku": "PAPI-1641",
-    "category": "general",
-    "gender": "unisex",
-    "price": 180000,
-    "originalPrice": 210000,
-    "images": [
-      "/catalogo/sneakers/nike/nike-air-max-plus-tn-triple-blanco.jpg"
-    ],
-    "sizes": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
-    "status": "disponible",
-    "isFeatured": false,
-    "isNewArrival": true,
-    "isOriginalCertified": false,
-    "description": "",
-    "details": {
-      "condition": "En caja",
-      "colorway": "Triple White",
-      "includedItems": [
-        "Caja"
-      ]
-    },
-    "viewsCount": 0,
-    "inquiriesCount": 0,
-    "createdAt": "2026-08-13T18:57:45.000Z",
-    "updatedAt": "2026-08-13T18:57:45.000Z"
-  },
-  {
-    "id": "sneaker-nike-air-max-plus-tn-triple-negro",
-    "name": "Nike Air Max Plus TN Triple Negro",
-    "brand": "Nike",
-    "model": "Nike Air Max Plus TN Triple Negro",
-    "sku": "PAPI-1119",
-    "category": "general",
-    "gender": "unisex",
-    "price": 180000,
-    "originalPrice": 210000,
-    "images": [
-      "/catalogo/sneakers/nike/nike-air-max-plus-tn-triple-negro.jpg"
-    ],
-    "sizes": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
-    "status": "disponible",
-    "isFeatured": false,
-    "isNewArrival": true,
-    "isOriginalCertified": false,
-    "description": "",
-    "details": {
-      "condition": "En caja",
-      "colorway": "Triple Black",
       "includedItems": [
         "Caja"
       ]
@@ -13493,9 +13493,9 @@ export const CATALOGO_GENERADO: Sneaker[] = [
   },
   {
     "id": "sneaker-nike-air-more-uptempo-96-negro-blanco",
-    "name": "Nike Air More Uptempo 96 Negro / Blanco",
+    "name": "Nike Air More Uptempo 96",
     "brand": "Nike",
-    "model": "Nike Air More Uptempo 96 Negro / Blanco",
+    "model": "Nike Air More Uptempo 96",
     "sku": "PAPI-1349",
     "category": "general",
     "gender": "unisex",
@@ -13533,9 +13533,9 @@ export const CATALOGO_GENERADO: Sneaker[] = [
   },
   {
     "id": "sneaker-nike-air-vomero-18-negro",
-    "name": "Nike Air Vomero 18 Negro",
+    "name": "Nike Air Vomero 18",
     "brand": "Nike",
-    "model": "Nike Air Vomero 18 Negro",
+    "model": "Nike Air Vomero 18",
     "sku": "PAPI-1077",
     "category": "general",
     "gender": "unisex",
@@ -13805,9 +13805,9 @@ export const CATALOGO_GENERADO: Sneaker[] = [
   },
   {
     "id": "sneaker-nike-cortez-cafe",
-    "name": "Nike Cortez Café",
+    "name": "Nike Cortez",
     "brand": "Nike",
-    "model": "Nike Cortez Café",
+    "model": "Nike Cortez",
     "sku": "PAPI-1222",
     "category": "general",
     "gender": "unisex",
@@ -13844,10 +13844,170 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "updatedAt": "2026-08-13T18:57:45.000Z"
   },
   {
-    "id": "sneaker-nike-cortez-classic-blanco-negro",
-    "name": "Nike Cortez Classic Blanco / Negro",
+    "id": "sneaker-nike-cortez-morado",
+    "name": "Nike Cortez",
     "brand": "Nike",
-    "model": "Nike Cortez Classic Blanco / Negro",
+    "model": "Nike Cortez",
+    "sku": "PAPI-1231",
+    "category": "general",
+    "gender": "unisex",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/nike/nike-cortez-morado.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Purple / Sail",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-13T18:57:45.000Z",
+    "updatedAt": "2026-08-13T18:57:45.000Z"
+  },
+  {
+    "id": "sneaker-nike-cortez-rojo-oscuro",
+    "name": "Nike Cortez",
+    "brand": "Nike",
+    "model": "Nike Cortez",
+    "sku": "PAPI-6820",
+    "category": "general",
+    "gender": "unisex",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/nike/nike-cortez-rojo-oscuro.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Dark Red / Sail",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-13T18:57:45.000Z",
+    "updatedAt": "2026-08-13T18:57:45.000Z"
+  },
+  {
+    "id": "sneaker-nike-cortez-verde-rosado",
+    "name": "Nike Cortez",
+    "brand": "Nike",
+    "model": "Nike Cortez",
+    "sku": "PAPI-1128",
+    "category": "general",
+    "gender": "unisex",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/nike/nike-cortez-verde-rosado.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "Cortez en nylon verde con gamuza del mismo tono y swoosh rosado. Mediasuela crema.",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Pro Green / Pinksicle",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-13T18:57:45.000Z",
+    "updatedAt": "2026-08-13T18:57:45.000Z"
+  },
+  {
+    "id": "sneaker-nike-cortez-verde",
+    "name": "Nike Cortez",
+    "brand": "Nike",
+    "model": "Nike Cortez",
+    "sku": "PAPI-8177",
+    "category": "general",
+    "gender": "unisex",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/nike/nike-cortez-verde.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Green / Sail",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-13T18:57:45.000Z",
+    "updatedAt": "2026-08-13T18:57:45.000Z"
+  },
+  {
+    "id": "sneaker-nike-cortez-classic-blanco-negro",
+    "name": "Nike Cortez Classic",
+    "brand": "Nike",
+    "model": "Nike Cortez Classic",
     "sku": "PAPI-1486",
     "category": "general",
     "gender": "unisex",
@@ -13925,46 +14085,6 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "updatedAt": "2026-08-13T18:57:45.000Z"
   },
   {
-    "id": "sneaker-nike-cortez-morado",
-    "name": "Nike Cortez Morado",
-    "brand": "Nike",
-    "model": "Nike Cortez Morado",
-    "sku": "PAPI-1231",
-    "category": "general",
-    "gender": "unisex",
-    "price": 180000,
-    "originalPrice": 210000,
-    "images": [
-      "/catalogo/sneakers/nike/nike-cortez-morado.jpg"
-    ],
-    "sizes": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
-    "status": "disponible",
-    "isFeatured": false,
-    "isNewArrival": true,
-    "isOriginalCertified": false,
-    "description": "",
-    "details": {
-      "condition": "En caja",
-      "colorway": "Purple / Sail",
-      "includedItems": [
-        "Caja"
-      ]
-    },
-    "viewsCount": 0,
-    "inquiriesCount": 0,
-    "createdAt": "2026-08-13T18:57:45.000Z",
-    "updatedAt": "2026-08-13T18:57:45.000Z"
-  },
-  {
     "id": "sneaker-nike-cortez-pine-green",
     "name": "Nike Cortez Pine Green",
     "brand": "Nike",
@@ -14005,17 +14125,17 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "updatedAt": "2026-08-13T18:57:45.000Z"
   },
   {
-    "id": "sneaker-nike-cortez-rojo-oscuro",
-    "name": "Nike Cortez Rojo Oscuro",
+    "id": "sneaker-nike-dunk-low-triple-pink",
+    "name": "Nike Dunk Low",
     "brand": "Nike",
-    "model": "Nike Cortez Rojo Oscuro",
-    "sku": "PAPI-6820",
+    "model": "Nike Dunk Low",
+    "sku": "PAPI-1598",
     "category": "general",
     "gender": "unisex",
     "price": 180000,
     "originalPrice": 210000,
     "images": [
-      "/catalogo/sneakers/nike/nike-cortez-rojo-oscuro.jpg"
+      "/catalogo/sneakers/nike/nike-dunk-low-triple-pink.jpg"
     ],
     "sizes": [
       37,
@@ -14034,87 +14154,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "description": "",
     "details": {
       "condition": "En caja",
-      "colorway": "Dark Red / Sail",
-      "includedItems": [
-        "Caja"
-      ]
-    },
-    "viewsCount": 0,
-    "inquiriesCount": 0,
-    "createdAt": "2026-08-13T18:57:45.000Z",
-    "updatedAt": "2026-08-13T18:57:45.000Z"
-  },
-  {
-    "id": "sneaker-nike-cortez-verde",
-    "name": "Nike Cortez Verde",
-    "brand": "Nike",
-    "model": "Nike Cortez Verde",
-    "sku": "PAPI-8177",
-    "category": "general",
-    "gender": "unisex",
-    "price": 180000,
-    "originalPrice": 210000,
-    "images": [
-      "/catalogo/sneakers/nike/nike-cortez-verde.jpg"
-    ],
-    "sizes": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
-    "status": "disponible",
-    "isFeatured": false,
-    "isNewArrival": true,
-    "isOriginalCertified": false,
-    "description": "",
-    "details": {
-      "condition": "En caja",
-      "colorway": "Green / Sail",
-      "includedItems": [
-        "Caja"
-      ]
-    },
-    "viewsCount": 0,
-    "inquiriesCount": 0,
-    "createdAt": "2026-08-13T18:57:45.000Z",
-    "updatedAt": "2026-08-13T18:57:45.000Z"
-  },
-  {
-    "id": "sneaker-nike-cortez-verde-rosado",
-    "name": "Nike Cortez Verde / Rosado",
-    "brand": "Nike",
-    "model": "Nike Cortez Verde / Rosado",
-    "sku": "PAPI-1128",
-    "category": "general",
-    "gender": "unisex",
-    "price": 180000,
-    "originalPrice": 210000,
-    "images": [
-      "/catalogo/sneakers/nike/nike-cortez-verde-rosado.jpg"
-    ],
-    "sizes": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
-    "status": "disponible",
-    "isFeatured": false,
-    "isNewArrival": true,
-    "isOriginalCertified": false,
-    "description": "Cortez en nylon verde con gamuza del mismo tono y swoosh rosado. Mediasuela crema.",
-    "details": {
-      "condition": "En caja",
-      "colorway": "Pro Green / Pinksicle",
+      "colorway": "Pink Foam / Hyper Pink",
       "includedItems": [
         "Caja"
       ]
@@ -14206,46 +14246,6 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "updatedAt": "2026-08-13T18:57:45.000Z"
   },
   {
-    "id": "sneaker-nike-dunk-low-triple-pink",
-    "name": "Nike Dunk Low Triple Pink",
-    "brand": "Nike",
-    "model": "Nike Dunk Low Triple Pink",
-    "sku": "PAPI-1598",
-    "category": "general",
-    "gender": "unisex",
-    "price": 180000,
-    "originalPrice": 210000,
-    "images": [
-      "/catalogo/sneakers/nike/nike-dunk-low-triple-pink.jpg"
-    ],
-    "sizes": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
-    "status": "disponible",
-    "isFeatured": false,
-    "isNewArrival": true,
-    "isOriginalCertified": false,
-    "description": "",
-    "details": {
-      "condition": "En caja",
-      "colorway": "Pink Foam / Hyper Pink",
-      "includedItems": [
-        "Caja"
-      ]
-    },
-    "viewsCount": 0,
-    "inquiriesCount": 0,
-    "createdAt": "2026-08-13T18:57:45.000Z",
-    "updatedAt": "2026-08-13T18:57:45.000Z"
-  },
-  {
     "id": "sneaker-nike-dunk-low-unc",
     "name": "Nike Dunk Low UNC",
     "brand": "Nike",
@@ -14287,9 +14287,9 @@ export const CATALOGO_GENERADO: Sneaker[] = [
   },
   {
     "id": "sneaker-nike-dunk-x-travis-scott-gray",
-    "name": "Nike Dunk x Travis Scott Gray",
+    "name": "Nike Dunk x Travis Scott",
     "brand": "Nike",
-    "model": "Nike Dunk x Travis Scott Gray",
+    "model": "Nike Dunk x Travis Scott",
     "sku": "PAPI-7533",
     "category": "general",
     "gender": "unisex",
@@ -14327,9 +14327,9 @@ export const CATALOGO_GENERADO: Sneaker[] = [
   },
   {
     "id": "sneaker-nike-free-metcon-blanco-lila",
-    "name": "Nike Free Metcon Blanco / Lila",
+    "name": "Nike Free Metcon",
     "brand": "Nike",
-    "model": "Nike Free Metcon Blanco / Lila",
+    "model": "Nike Free Metcon",
     "sku": "PAPI-1663",
     "category": "general",
     "gender": "unisex",
@@ -14367,9 +14367,9 @@ export const CATALOGO_GENERADO: Sneaker[] = [
   },
   {
     "id": "sneaker-nike-free-metcon-blanco-rojo",
-    "name": "Nike Free Metcon Blanco / Rojo",
+    "name": "Nike Free Metcon",
     "brand": "Nike",
-    "model": "Nike Free Metcon Blanco / Rojo",
+    "model": "Nike Free Metcon",
     "sku": "PAPI-7064",
     "category": "general",
     "gender": "unisex",
@@ -14407,9 +14407,9 @@ export const CATALOGO_GENERADO: Sneaker[] = [
   },
   {
     "id": "sneaker-nike-free-metcon-blanco-rosado",
-    "name": "Nike Free Metcon Blanco / Rosado",
+    "name": "Nike Free Metcon",
     "brand": "Nike",
-    "model": "Nike Free Metcon Blanco / Rosado",
+    "model": "Nike Free Metcon",
     "sku": "PAPI-7158",
     "category": "general",
     "gender": "unisex",
@@ -14447,9 +14447,9 @@ export const CATALOGO_GENERADO: Sneaker[] = [
   },
   {
     "id": "sneaker-nike-free-metcon-morado",
-    "name": "Nike Free Metcon Morado",
+    "name": "Nike Free Metcon",
     "brand": "Nike",
-    "model": "Nike Free Metcon Morado",
+    "model": "Nike Free Metcon",
     "sku": "PAPI-1484",
     "category": "general",
     "gender": "unisex",
@@ -14486,50 +14486,10 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "updatedAt": "2026-08-13T18:57:45.000Z"
   },
   {
-    "id": "sneaker-nike-free-metcon-negro",
-    "name": "Nike Free Metcon Negro",
-    "brand": "Nike",
-    "model": "Nike Free Metcon Negro",
-    "sku": "PAPI-1239",
-    "category": "general",
-    "gender": "unisex",
-    "price": 180000,
-    "originalPrice": 210000,
-    "images": [
-      "/catalogo/sneakers/nike/nike-free-metcon-negro.jpg"
-    ],
-    "sizes": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
-    "status": "disponible",
-    "isFeatured": false,
-    "isNewArrival": true,
-    "isOriginalCertified": false,
-    "description": "",
-    "details": {
-      "condition": "En caja",
-      "colorway": "Triple Black",
-      "includedItems": [
-        "Caja"
-      ]
-    },
-    "viewsCount": 0,
-    "inquiriesCount": 0,
-    "createdAt": "2026-08-13T18:57:45.000Z",
-    "updatedAt": "2026-08-13T18:57:45.000Z"
-  },
-  {
     "id": "sneaker-nike-free-metcon-negro-cafe",
-    "name": "Nike Free Metcon Negro / Café",
+    "name": "Nike Free Metcon",
     "brand": "Nike",
-    "model": "Nike Free Metcon Negro / Café",
+    "model": "Nike Free Metcon",
     "sku": "PAPI-7605",
     "category": "general",
     "gender": "unisex",
@@ -14566,10 +14526,90 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "updatedAt": "2026-08-13T18:57:45.000Z"
   },
   {
-    "id": "sneaker-nike-hyper-bubble-negro",
-    "name": "Nike Hyper Bubble Negro",
+    "id": "sneaker-nike-free-metcon-negro",
+    "name": "Nike Free Metcon",
     "brand": "Nike",
-    "model": "Nike Hyper Bubble Negro",
+    "model": "Nike Free Metcon",
+    "sku": "PAPI-1239",
+    "category": "general",
+    "gender": "unisex",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/nike/nike-free-metcon-negro.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Triple Black",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-13T18:57:45.000Z",
+    "updatedAt": "2026-08-13T18:57:45.000Z"
+  },
+  {
+    "id": "sneaker-nike-hyper-bubble-negro-verde",
+    "name": "Nike Hyper Bubble",
+    "brand": "Nike",
+    "model": "Nike Hyper Bubble",
+    "sku": "PAPI-7467",
+    "category": "general",
+    "gender": "unisex",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/nike/nike-hyper-bubble-negro-verde.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Black / Volt",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-13T18:57:45.000Z",
+    "updatedAt": "2026-08-13T18:57:45.000Z"
+  },
+  {
+    "id": "sneaker-nike-hyper-bubble-negro",
+    "name": "Nike Hyper Bubble",
+    "brand": "Nike",
+    "model": "Nike Hyper Bubble",
     "sku": "PAPI-1048",
     "category": "general",
     "gender": "unisex",
@@ -14646,50 +14686,10 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "updatedAt": "2026-08-13T18:57:45.000Z"
   },
   {
-    "id": "sneaker-nike-hyper-bubble-negro-verde",
-    "name": "Nike Hyper Bubble Negro / Verde",
-    "brand": "Nike",
-    "model": "Nike Hyper Bubble Negro / Verde",
-    "sku": "PAPI-7467",
-    "category": "general",
-    "gender": "unisex",
-    "price": 180000,
-    "originalPrice": 210000,
-    "images": [
-      "/catalogo/sneakers/nike/nike-hyper-bubble-negro-verde.jpg"
-    ],
-    "sizes": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
-    "status": "disponible",
-    "isFeatured": false,
-    "isNewArrival": true,
-    "isOriginalCertified": false,
-    "description": "",
-    "details": {
-      "condition": "En caja",
-      "colorway": "Black / Volt",
-      "includedItems": [
-        "Caja"
-      ]
-    },
-    "viewsCount": 0,
-    "inquiriesCount": 0,
-    "createdAt": "2026-08-13T18:57:45.000Z",
-    "updatedAt": "2026-08-13T18:57:45.000Z"
-  },
-  {
     "id": "sneaker-nike-initiator-hueso-verde",
-    "name": "Nike Initiator Hueso / Verde",
+    "name": "Nike Initiator",
     "brand": "Nike",
-    "model": "Nike Initiator Hueso / Verde",
+    "model": "Nike Initiator",
     "sku": "PAPI-1450",
     "category": "general",
     "gender": "unisex",
@@ -14727,9 +14727,9 @@ export const CATALOGO_GENERADO: Sneaker[] = [
   },
   {
     "id": "sneaker-nike-initiator-plata-rojo",
-    "name": "Nike Initiator Plata / Rojo",
+    "name": "Nike Initiator",
     "brand": "Nike",
-    "model": "Nike Initiator Plata / Rojo",
+    "model": "Nike Initiator",
     "sku": "PAPI-4520",
     "category": "general",
     "gender": "unisex",
@@ -14880,9 +14880,9 @@ export const CATALOGO_GENERADO: Sneaker[] = [
   },
   {
     "id": "sneaker-nike-mind-001-blanco",
-    "name": "NIKE MIND 001 Blanco",
+    "name": "NIKE MIND 001",
     "brand": "Nike",
-    "model": "NIKE MIND 001 Blanco",
+    "model": "NIKE MIND 001",
     "sku": "PAPI-8862",
     "category": "general",
     "gender": "unisex",
@@ -14920,9 +14920,9 @@ export const CATALOGO_GENERADO: Sneaker[] = [
   },
   {
     "id": "sneaker-nike-mind-001-coral",
-    "name": "NIKE MIND 001 Coral",
+    "name": "NIKE MIND 001",
     "brand": "Nike",
-    "model": "NIKE MIND 001 Coral",
+    "model": "NIKE MIND 001",
     "sku": "PAPI-1245",
     "category": "general",
     "gender": "unisex",
@@ -14960,9 +14960,9 @@ export const CATALOGO_GENERADO: Sneaker[] = [
   },
   {
     "id": "sneaker-nike-mind-001-crema",
-    "name": "NIKE MIND 001 Crema",
+    "name": "NIKE MIND 001",
     "brand": "Nike",
-    "model": "NIKE MIND 001 Crema",
+    "model": "NIKE MIND 001",
     "sku": "PAPI-9494",
     "category": "general",
     "gender": "unisex",
@@ -14999,50 +14999,10 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "updatedAt": "2026-08-16T17:23:21.723Z"
   },
   {
-    "id": "sneaker-nike-mind-001-fragment-negro",
-    "name": "NIKE MIND 001 Fragment Negro",
-    "brand": "Nike",
-    "model": "NIKE MIND 001 Fragment Negro",
-    "sku": "PAPI-1543",
-    "category": "general",
-    "gender": "unisex",
-    "price": 180000,
-    "originalPrice": 210000,
-    "images": [
-      "/catalogo/sneakers/nike/nike-mind-001-fragment-negro.jpg"
-    ],
-    "sizes": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
-    "status": "disponible",
-    "isFeatured": false,
-    "isNewArrival": true,
-    "isOriginalCertified": false,
-    "description": "MIND 001 negro con el empeine en tela de toalla, los pines azules y el rayo de Fragment en el talón.",
-    "details": {
-      "condition": "En caja",
-      "colorway": "Black / Blue",
-      "includedItems": [
-        "Caja"
-      ]
-    },
-    "viewsCount": 0,
-    "inquiriesCount": 0,
-    "createdAt": "2026-08-16T17:23:21.723Z",
-    "updatedAt": "2026-08-16T17:23:21.723Z"
-  },
-  {
     "id": "sneaker-nike-mind-001-gris",
-    "name": "NIKE MIND 001 Gris",
+    "name": "NIKE MIND 001",
     "brand": "Nike",
-    "model": "NIKE MIND 001 Gris",
+    "model": "NIKE MIND 001",
     "sku": "PAPI-1359",
     "category": "general",
     "gender": "unisex",
@@ -15080,9 +15040,9 @@ export const CATALOGO_GENERADO: Sneaker[] = [
   },
   {
     "id": "sneaker-nike-mind-001-negro",
-    "name": "NIKE MIND 001 Negro",
+    "name": "NIKE MIND 001",
     "brand": "Nike",
-    "model": "NIKE MIND 001 Negro",
+    "model": "NIKE MIND 001",
     "sku": "PAPI-1198",
     "category": "general",
     "gender": "unisex",
@@ -15120,9 +15080,9 @@ export const CATALOGO_GENERADO: Sneaker[] = [
   },
   {
     "id": "sneaker-nike-mind-001-verde",
-    "name": "NIKE MIND 001 Verde",
+    "name": "NIKE MIND 001",
     "brand": "Nike",
-    "model": "NIKE MIND 001 Verde",
+    "model": "NIKE MIND 001",
     "sku": "PAPI-2737",
     "category": "general",
     "gender": "unisex",
@@ -15159,10 +15119,50 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "updatedAt": "2026-08-16T17:23:21.723Z"
   },
   {
-    "id": "sneaker-nike-motiva-crema",
-    "name": "Nike Motiva Crema",
+    "id": "sneaker-nike-mind-001-fragment-negro",
+    "name": "NIKE MIND 001 Fragment",
     "brand": "Nike",
-    "model": "Nike Motiva Crema",
+    "model": "NIKE MIND 001 Fragment",
+    "sku": "PAPI-1543",
+    "category": "general",
+    "gender": "unisex",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/nike/nike-mind-001-fragment-negro.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "MIND 001 negro con el empeine en tela de toalla, los pines azules y el rayo de Fragment en el talón.",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Black / Blue",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-16T17:23:21.723Z",
+    "updatedAt": "2026-08-16T17:23:21.723Z"
+  },
+  {
+    "id": "sneaker-nike-motiva-crema",
+    "name": "Nike Motiva",
+    "brand": "Nike",
+    "model": "Nike Motiva",
     "sku": "PAPI-3546",
     "category": "general",
     "gender": "unisex",
@@ -15200,9 +15200,9 @@ export const CATALOGO_GENERADO: Sneaker[] = [
   },
   {
     "id": "sneaker-nike-motiva-gris",
-    "name": "Nike Motiva Gris",
+    "name": "Nike Motiva",
     "brand": "Nike",
-    "model": "Nike Motiva Gris",
+    "model": "Nike Motiva",
     "sku": "PAPI-1361",
     "category": "general",
     "gender": "unisex",
@@ -15240,9 +15240,9 @@ export const CATALOGO_GENERADO: Sneaker[] = [
   },
   {
     "id": "sneaker-nike-p-6000-blanco-malva",
-    "name": "Nike P-6000 Blanco / Malva",
+    "name": "Nike P-6000",
     "brand": "Nike",
-    "model": "Nike P-6000 Blanco / Malva",
+    "model": "Nike P-6000",
     "sku": "PAPI-2880",
     "category": "general",
     "gender": "unisex",
@@ -15280,9 +15280,9 @@ export const CATALOGO_GENERADO: Sneaker[] = [
   },
   {
     "id": "sneaker-nike-p-6000-blanco-rosado",
-    "name": "Nike P-6000 Blanco / Rosado",
+    "name": "Nike P-6000",
     "brand": "Nike",
-    "model": "Nike P-6000 Blanco / Rosado",
+    "model": "Nike P-6000",
     "sku": "PAPI-8883",
     "category": "general",
     "gender": "unisex",
@@ -15320,9 +15320,9 @@ export const CATALOGO_GENERADO: Sneaker[] = [
   },
   {
     "id": "sneaker-nike-p-6000-gris",
-    "name": "Nike P-6000 Gris",
+    "name": "Nike P-6000",
     "brand": "Nike",
-    "model": "Nike P-6000 Gris",
+    "model": "Nike P-6000",
     "sku": "PAPI-9707",
     "category": "general",
     "gender": "unisex",
@@ -15360,9 +15360,9 @@ export const CATALOGO_GENERADO: Sneaker[] = [
   },
   {
     "id": "sneaker-nike-p-6000-hueso",
-    "name": "Nike P-6000 Hueso",
+    "name": "Nike P-6000",
     "brand": "Nike",
-    "model": "Nike P-6000 Hueso",
+    "model": "Nike P-6000",
     "sku": "PAPI-6851",
     "category": "general",
     "gender": "unisex",
@@ -15400,9 +15400,9 @@ export const CATALOGO_GENERADO: Sneaker[] = [
   },
   {
     "id": "sneaker-nike-p-6000-negro-blanco",
-    "name": "Nike P-6000 Negro / Blanco",
+    "name": "Nike P-6000",
     "brand": "Nike",
-    "model": "Nike P-6000 Negro / Blanco",
+    "model": "Nike P-6000",
     "sku": "PAPI-9229",
     "category": "general",
     "gender": "unisex",
@@ -15440,9 +15440,9 @@ export const CATALOGO_GENERADO: Sneaker[] = [
   },
   {
     "id": "sneaker-nike-p-6000-plata-negro",
-    "name": "Nike P-6000 Plata / Negro",
+    "name": "Nike P-6000",
     "brand": "Nike",
-    "model": "Nike P-6000 Plata / Negro",
+    "model": "Nike P-6000",
     "sku": "PAPI-5494",
     "category": "general",
     "gender": "unisex",
@@ -15480,9 +15480,9 @@ export const CATALOGO_GENERADO: Sneaker[] = [
   },
   {
     "id": "sneaker-nike-p-6000-plata-rosado",
-    "name": "Nike P-6000 Plata / Rosado",
+    "name": "Nike P-6000",
     "brand": "Nike",
-    "model": "Nike P-6000 Plata / Rosado",
+    "model": "Nike P-6000",
     "sku": "PAPI-1324",
     "category": "general",
     "gender": "unisex",
@@ -15509,6 +15509,46 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "details": {
       "condition": "En caja",
       "colorway": "Metallic Silver / Pink",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-13T18:57:45.000Z",
+    "updatedAt": "2026-08-13T18:57:45.000Z"
+  },
+  {
+    "id": "sneaker-nike-p-6000-triple-blanco",
+    "name": "Nike P-6000",
+    "brand": "Nike",
+    "model": "Nike P-6000",
+    "sku": "PAPI-2137",
+    "category": "general",
+    "gender": "unisex",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/nike/nike-p-6000-triple-blanco.jpeg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "P-6000 en blanco total, con el entramado de capas y la mediasuela Rideliner.",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Triple White",
       "includedItems": [
         "Caja"
       ]
@@ -15550,46 +15590,6 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "details": {
       "condition": "En caja",
       "colorway": "Pink / Plum",
-      "includedItems": [
-        "Caja"
-      ]
-    },
-    "viewsCount": 0,
-    "inquiriesCount": 0,
-    "createdAt": "2026-08-13T18:57:45.000Z",
-    "updatedAt": "2026-08-13T18:57:45.000Z"
-  },
-  {
-    "id": "sneaker-nike-p-6000-triple-blanco",
-    "name": "Nike P-6000 Triple Blanco",
-    "brand": "Nike",
-    "model": "Nike P-6000 Triple Blanco",
-    "sku": "PAPI-2137",
-    "category": "general",
-    "gender": "unisex",
-    "price": 180000,
-    "originalPrice": 210000,
-    "images": [
-      "/catalogo/sneakers/nike/nike-p-6000-triple-blanco.jpeg"
-    ],
-    "sizes": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
-    "status": "disponible",
-    "isFeatured": false,
-    "isNewArrival": true,
-    "isOriginalCertified": false,
-    "description": "P-6000 en blanco total, con el entramado de capas y la mediasuela Rideliner.",
-    "details": {
-      "condition": "En caja",
-      "colorway": "Triple White",
       "includedItems": [
         "Caja"
       ]
@@ -15801,9 +15801,9 @@ export const CATALOGO_GENERADO: Sneaker[] = [
   },
   {
     "id": "sneaker-nike-shox-negro",
-    "name": "Nike Shox Negro",
+    "name": "Nike Shox",
     "brand": "Nike",
-    "model": "Nike Shox Negro",
+    "model": "Nike Shox",
     "sku": "PAPI-9518",
     "category": "general",
     "gender": "unisex",
@@ -15840,10 +15840,50 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "updatedAt": "2026-08-13T18:57:45.000Z"
   },
   {
-    "id": "sneaker-nike-shox-tl-blanco-verde",
-    "name": "Nike Shox TL Blanco / Verde",
+    "id": "sneaker-nike-shox-triple-cafe",
+    "name": "Nike Shox",
     "brand": "Nike",
-    "model": "Nike Shox TL Blanco / Verde",
+    "model": "Nike Shox",
+    "sku": "PAPI-9632",
+    "category": "general",
+    "gender": "unisex",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/nike/nike-shox-triple-cafe.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Triple Brown",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-13T18:57:45.000Z",
+    "updatedAt": "2026-08-13T18:57:45.000Z"
+  },
+  {
+    "id": "sneaker-nike-shox-tl-blanco-verde",
+    "name": "Nike Shox TL",
+    "brand": "Nike",
+    "model": "Nike Shox TL",
     "sku": "PAPI-3631",
     "category": "general",
     "gender": "unisex",
@@ -15881,9 +15921,9 @@ export const CATALOGO_GENERADO: Sneaker[] = [
   },
   {
     "id": "sneaker-nike-shox-tl-gris-verde",
-    "name": "Nike Shox TL Gris / Verde",
+    "name": "Nike Shox TL",
     "brand": "Nike",
-    "model": "Nike Shox TL Gris / Verde",
+    "model": "Nike Shox TL",
     "sku": "PAPI-1267",
     "category": "general",
     "gender": "unisex",
@@ -15921,9 +15961,9 @@ export const CATALOGO_GENERADO: Sneaker[] = [
   },
   {
     "id": "sneaker-nike-shox-tl-negro-rojo",
-    "name": "Nike Shox TL Negro / Rojo",
+    "name": "Nike Shox TL",
     "brand": "Nike",
-    "model": "Nike Shox TL Negro / Rojo",
+    "model": "Nike Shox TL",
     "sku": "PAPI-3282",
     "category": "general",
     "gender": "unisex",
@@ -15961,9 +16001,9 @@ export const CATALOGO_GENERADO: Sneaker[] = [
   },
   {
     "id": "sneaker-nike-shox-tl-triple-blanco",
-    "name": "Nike Shox TL Triple Blanco",
+    "name": "Nike Shox TL",
     "brand": "Nike",
-    "model": "Nike Shox TL Triple Blanco",
+    "model": "Nike Shox TL",
     "sku": "PAPI-1080",
     "category": "general",
     "gender": "unisex",
@@ -16001,9 +16041,9 @@ export const CATALOGO_GENERADO: Sneaker[] = [
   },
   {
     "id": "sneaker-nike-shox-tl-triple-negro",
-    "name": "Nike Shox TL Triple Negro",
+    "name": "Nike Shox TL",
     "brand": "Nike",
-    "model": "Nike Shox TL Triple Negro",
+    "model": "Nike Shox TL",
     "sku": "PAPI-1205",
     "category": "general",
     "gender": "unisex",
@@ -16040,17 +16080,171 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "updatedAt": "2026-08-13T18:57:45.000Z"
   },
   {
-    "id": "sneaker-nike-shox-triple-cafe",
-    "name": "Nike Shox Triple Café",
+    "id": "sneaker-nike-zoom-vomero-5-crema-coral",
+    "name": "Nike Zoom Vomero 5",
     "brand": "Nike",
-    "model": "Nike Shox Triple Café",
-    "sku": "PAPI-9632",
+    "model": "Nike Zoom Vomero 5",
+    "sku": "PAPI-7068",
+    "category": "general",
+    "gender": "mujer",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/nike/mujer/nike-zoom-vomero-5-crema-coral.jpg",
+      "/catalogo/sneakers/nike/mujer/nike-zoom-vomero-5-crema-coral_2.jpg"
+    ],
+    "sizes": [
+      35,
+      36,
+      37,
+      38,
+      39
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Sail / Coral",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-19T15:55:44.845Z",
+    "updatedAt": "2026-08-19T15:55:44.845Z"
+  },
+  {
+    "id": "sneaker-nike-zoom-vomero-5-malva-rosado",
+    "name": "Nike Zoom Vomero 5",
+    "brand": "Nike",
+    "model": "Nike Zoom Vomero 5",
+    "sku": "PAPI-1489",
+    "category": "general",
+    "gender": "mujer",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/nike/mujer/nike-zoom-vomero-5-malva-rosado.jpg",
+      "/catalogo/sneakers/nike/mujer/nike-zoom-vomero-5-malva-rosado_2.jpg"
+    ],
+    "sizes": [
+      35,
+      36,
+      37,
+      38,
+      39
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Smokey Mauve / Pink Oxford",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-19T15:55:44.845Z",
+    "updatedAt": "2026-08-19T15:55:44.845Z"
+  },
+  {
+    "id": "sneaker-nike-zoom-vomero-5-verde-militar",
+    "name": "Nike Zoom Vomero 5",
+    "brand": "Nike",
+    "model": "Nike Zoom Vomero 5",
+    "sku": "PAPI-1407",
+    "category": "general",
+    "gender": "mujer",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/nike/mujer/nike-zoom-vomero-5-verde-militar.jpg",
+      "/catalogo/sneakers/nike/mujer/nike-zoom-vomero-5-verde-militar_2.jpg"
+    ],
+    "sizes": [
+      35,
+      36,
+      37,
+      38,
+      39
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Oil Green / Sail",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-19T15:55:44.845Z",
+    "updatedAt": "2026-08-19T15:55:44.845Z"
+  },
+  {
+    "id": "sneaker-nike-zoom-vomero-5-crema",
+    "name": "Nike Zoom Vomero 5",
+    "brand": "Nike",
+    "model": "Nike Zoom Vomero 5",
+    "sku": "PAPI-5963",
     "category": "general",
     "gender": "unisex",
     "price": 180000,
     "originalPrice": 210000,
     "images": [
-      "/catalogo/sneakers/nike/nike-shox-triple-cafe.jpg"
+      "/catalogo/sneakers/nike/nike-zoom-vomero-5-crema.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "Vomero 5 en crema y beige, con capas de malla y refuerzos en gamuza.",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Sail / Khaki",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-13T18:57:45.000Z",
+    "updatedAt": "2026-08-13T18:57:45.000Z"
+  },
+  {
+    "id": "sneaker-nike-zoom-vomero-5-plata",
+    "name": "Nike Zoom Vomero 5",
+    "brand": "Nike",
+    "model": "Nike Zoom Vomero 5",
+    "sku": "PAPI-1134",
+    "category": "general",
+    "gender": "unisex",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/nike/nike-zoom-vomero-5-plata.jpg"
     ],
     "sizes": [
       37,
@@ -16069,7 +16263,47 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "description": "",
     "details": {
       "condition": "En caja",
-      "colorway": "Triple Brown",
+      "colorway": "Metallic Silver / Sail",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-13T18:57:45.000Z",
+    "updatedAt": "2026-08-13T18:57:45.000Z"
+  },
+  {
+    "id": "sneaker-nike-zoom-vomero-5-triple-blanco",
+    "name": "Nike Zoom Vomero 5",
+    "brand": "Nike",
+    "model": "Nike Zoom Vomero 5",
+    "sku": "PAPI-6694",
+    "category": "general",
+    "gender": "unisex",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/nike/nike-zoom-vomero-5-triple-blanco.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Triple White",
       "includedItems": [
         "Caja"
       ]
@@ -16118,162 +16352,6 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "updatedAt": "2026-08-19T15:55:44.845Z"
   },
   {
-    "id": "sneaker-nike-zoom-vomero-5-crema",
-    "name": "Nike Zoom Vomero 5 Crema",
-    "brand": "Nike",
-    "model": "Nike Zoom Vomero 5 Crema",
-    "sku": "PAPI-5963",
-    "category": "general",
-    "gender": "unisex",
-    "price": 180000,
-    "originalPrice": 210000,
-    "images": [
-      "/catalogo/sneakers/nike/nike-zoom-vomero-5-crema.jpg"
-    ],
-    "sizes": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
-    "status": "disponible",
-    "isFeatured": false,
-    "isNewArrival": true,
-    "isOriginalCertified": false,
-    "description": "Vomero 5 en crema y beige, con capas de malla y refuerzos en gamuza.",
-    "details": {
-      "condition": "En caja",
-      "colorway": "Sail / Khaki",
-      "includedItems": [
-        "Caja"
-      ]
-    },
-    "viewsCount": 0,
-    "inquiriesCount": 0,
-    "createdAt": "2026-08-13T18:57:45.000Z",
-    "updatedAt": "2026-08-13T18:57:45.000Z"
-  },
-  {
-    "id": "sneaker-nike-zoom-vomero-5-crema-coral",
-    "name": "Nike Zoom Vomero 5 Crema / Coral",
-    "brand": "Nike",
-    "model": "Nike Zoom Vomero 5 Crema / Coral",
-    "sku": "PAPI-7068",
-    "category": "general",
-    "gender": "mujer",
-    "price": 180000,
-    "originalPrice": 210000,
-    "images": [
-      "/catalogo/sneakers/nike/mujer/nike-zoom-vomero-5-crema-coral.jpg",
-      "/catalogo/sneakers/nike/mujer/nike-zoom-vomero-5-crema-coral_2.jpg"
-    ],
-    "sizes": [
-      35,
-      36,
-      37,
-      38,
-      39
-    ],
-    "status": "disponible",
-    "isFeatured": false,
-    "isNewArrival": true,
-    "isOriginalCertified": false,
-    "description": "",
-    "details": {
-      "condition": "En caja",
-      "colorway": "Sail / Coral",
-      "includedItems": [
-        "Caja"
-      ]
-    },
-    "viewsCount": 0,
-    "inquiriesCount": 0,
-    "createdAt": "2026-08-19T15:55:44.845Z",
-    "updatedAt": "2026-08-19T15:55:44.845Z"
-  },
-  {
-    "id": "sneaker-nike-zoom-vomero-5-malva-rosado",
-    "name": "Nike Zoom Vomero 5 Malva / Rosado",
-    "brand": "Nike",
-    "model": "Nike Zoom Vomero 5 Malva / Rosado",
-    "sku": "PAPI-1489",
-    "category": "general",
-    "gender": "mujer",
-    "price": 180000,
-    "originalPrice": 210000,
-    "images": [
-      "/catalogo/sneakers/nike/mujer/nike-zoom-vomero-5-malva-rosado.jpg",
-      "/catalogo/sneakers/nike/mujer/nike-zoom-vomero-5-malva-rosado_2.jpg"
-    ],
-    "sizes": [
-      35,
-      36,
-      37,
-      38,
-      39
-    ],
-    "status": "disponible",
-    "isFeatured": false,
-    "isNewArrival": true,
-    "isOriginalCertified": false,
-    "description": "",
-    "details": {
-      "condition": "En caja",
-      "colorway": "Smokey Mauve / Pink Oxford",
-      "includedItems": [
-        "Caja"
-      ]
-    },
-    "viewsCount": 0,
-    "inquiriesCount": 0,
-    "createdAt": "2026-08-19T15:55:44.845Z",
-    "updatedAt": "2026-08-19T15:55:44.845Z"
-  },
-  {
-    "id": "sneaker-nike-zoom-vomero-5-plata",
-    "name": "Nike Zoom Vomero 5 Plata",
-    "brand": "Nike",
-    "model": "Nike Zoom Vomero 5 Plata",
-    "sku": "PAPI-1134",
-    "category": "general",
-    "gender": "unisex",
-    "price": 180000,
-    "originalPrice": 210000,
-    "images": [
-      "/catalogo/sneakers/nike/nike-zoom-vomero-5-plata.jpg"
-    ],
-    "sizes": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
-    "status": "disponible",
-    "isFeatured": false,
-    "isNewArrival": true,
-    "isOriginalCertified": false,
-    "description": "",
-    "details": {
-      "condition": "En caja",
-      "colorway": "Metallic Silver / Sail",
-      "includedItems": [
-        "Caja"
-      ]
-    },
-    "viewsCount": 0,
-    "inquiriesCount": 0,
-    "createdAt": "2026-08-13T18:57:45.000Z",
-    "updatedAt": "2026-08-13T18:57:45.000Z"
-  },
-  {
     "id": "sneaker-nike-zoom-vomero-5-rosado-vino",
     "name": "Nike Zoom Vomero 5 Rosado / Vino",
     "brand": "Nike",
@@ -16312,88 +16390,10 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "updatedAt": "2026-08-19T15:55:44.845Z"
   },
   {
-    "id": "sneaker-nike-zoom-vomero-5-triple-blanco",
-    "name": "Nike Zoom Vomero 5 Triple Blanco",
-    "brand": "Nike",
-    "model": "Nike Zoom Vomero 5 Triple Blanco",
-    "sku": "PAPI-6694",
-    "category": "general",
-    "gender": "unisex",
-    "price": 180000,
-    "originalPrice": 210000,
-    "images": [
-      "/catalogo/sneakers/nike/nike-zoom-vomero-5-triple-blanco.jpg"
-    ],
-    "sizes": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
-    "status": "disponible",
-    "isFeatured": false,
-    "isNewArrival": true,
-    "isOriginalCertified": false,
-    "description": "",
-    "details": {
-      "condition": "En caja",
-      "colorway": "Triple White",
-      "includedItems": [
-        "Caja"
-      ]
-    },
-    "viewsCount": 0,
-    "inquiriesCount": 0,
-    "createdAt": "2026-08-13T18:57:45.000Z",
-    "updatedAt": "2026-08-13T18:57:45.000Z"
-  },
-  {
-    "id": "sneaker-nike-zoom-vomero-5-verde-militar",
-    "name": "Nike Zoom Vomero 5 Verde Militar",
-    "brand": "Nike",
-    "model": "Nike Zoom Vomero 5 Verde Militar",
-    "sku": "PAPI-1407",
-    "category": "general",
-    "gender": "mujer",
-    "price": 180000,
-    "originalPrice": 210000,
-    "images": [
-      "/catalogo/sneakers/nike/mujer/nike-zoom-vomero-5-verde-militar.jpg",
-      "/catalogo/sneakers/nike/mujer/nike-zoom-vomero-5-verde-militar_2.jpg"
-    ],
-    "sizes": [
-      35,
-      36,
-      37,
-      38,
-      39
-    ],
-    "status": "disponible",
-    "isFeatured": false,
-    "isNewArrival": true,
-    "isOriginalCertified": false,
-    "description": "",
-    "details": {
-      "condition": "En caja",
-      "colorway": "Oil Green / Sail",
-      "includedItems": [
-        "Caja"
-      ]
-    },
-    "viewsCount": 0,
-    "inquiriesCount": 0,
-    "createdAt": "2026-08-19T15:55:44.845Z",
-    "updatedAt": "2026-08-19T15:55:44.845Z"
-  },
-  {
     "id": "sneaker-nike-vomero-6-gold",
-    "name": "Nike Zoom Vomero 6 Gold",
+    "name": "Nike Zoom Vomero 6",
     "brand": "Nike",
-    "model": "Nike Zoom Vomero 6 Gold",
+    "model": "Nike Zoom Vomero 6",
     "sku": "PAPI-1520",
     "category": "originales",
     "gender": "unisex",
@@ -16432,9 +16432,9 @@ export const CATALOGO_GENERADO: Sneaker[] = [
   },
   {
     "id": "sneaker-nike-vomero-6-pink",
-    "name": "Nike Zoom Vomero 6 Pink",
+    "name": "Nike Zoom Vomero 6",
     "brand": "Nike",
-    "model": "Nike Zoom Vomero 6 Pink",
+    "model": "Nike Zoom Vomero 6",
     "sku": "PAPI-8677",
     "category": "originales",
     "gender": "mujer",
@@ -16511,9 +16511,9 @@ export const CATALOGO_GENERADO: Sneaker[] = [
   },
   {
     "id": "sneaker-nike-zoomx-blanco",
-    "name": "Nike ZoomX Blanco",
+    "name": "Nike ZoomX",
     "brand": "Nike",
-    "model": "Nike ZoomX Blanco",
+    "model": "Nike ZoomX",
     "sku": "PAPI-1007",
     "category": "general",
     "gender": "unisex",
@@ -16551,9 +16551,9 @@ export const CATALOGO_GENERADO: Sneaker[] = [
   },
   {
     "id": "sneaker-nike-zoomx-negro",
-    "name": "Nike ZoomX Negro",
+    "name": "Nike ZoomX",
     "brand": "Nike",
-    "model": "Nike ZoomX Negro",
+    "model": "Nike ZoomX",
     "sku": "PAPI-9884",
     "category": "general",
     "gender": "unisex",
@@ -16674,9 +16674,9 @@ export const CATALOGO_GENERADO: Sneaker[] = [
   },
   {
     "id": "sneaker-puma-club-azura-azul-claro",
-    "name": "Puma Club Azura Azul Claro",
+    "name": "Puma Club Azura",
     "brand": "Puma",
-    "model": "Puma Club Azura Azul Claro",
+    "model": "Puma Club Azura",
     "sku": "PAPI-1584",
     "category": "general",
     "gender": "mujer",
@@ -16711,9 +16711,9 @@ export const CATALOGO_GENERADO: Sneaker[] = [
   },
   {
     "id": "sneaker-puma-club-azura-blanco-lila",
-    "name": "Puma Club Azura Blanco Lila",
+    "name": "Puma Club Azura",
     "brand": "Puma",
-    "model": "Puma Club Azura Blanco Lila",
+    "model": "Puma Club Azura",
     "sku": "PAPI-1023",
     "category": "general",
     "gender": "mujer",
@@ -16748,9 +16748,9 @@ export const CATALOGO_GENERADO: Sneaker[] = [
   },
   {
     "id": "sneaker-puma-club-azura-negro-blanco",
-    "name": "Puma Club Azura Negro Blanco",
+    "name": "Puma Club Azura",
     "brand": "Puma",
-    "model": "Puma Club Azura Negro Blanco",
+    "model": "Puma Club Azura",
     "sku": "PAPI-1623",
     "category": "general",
     "gender": "mujer",
@@ -16785,9 +16785,9 @@ export const CATALOGO_GENERADO: Sneaker[] = [
   },
   {
     "id": "sneaker-puma-club-azura-rosado",
-    "name": "Puma Club Azura Rosado",
+    "name": "Puma Club Azura",
     "brand": "Puma",
-    "model": "Puma Club Azura Rosado",
+    "model": "Puma Club Azura",
     "sku": "PAPI-7422",
     "category": "general",
     "gender": "mujer",
@@ -16822,9 +16822,9 @@ export const CATALOGO_GENERADO: Sneaker[] = [
   },
   {
     "id": "sneaker-puma-morphic-gris-azul",
-    "name": "Puma Morphic Gris Azul",
+    "name": "Puma Morphic",
     "brand": "Puma",
-    "model": "Puma Morphic Gris Azul",
+    "model": "Puma Morphic",
     "sku": "PAPI-1185",
     "category": "general",
     "gender": "hombre",
@@ -16860,9 +16860,9 @@ export const CATALOGO_GENERADO: Sneaker[] = [
   },
   {
     "id": "sneaker-puma-morphic-negro",
-    "name": "Puma Morphic Negro",
+    "name": "Puma Morphic",
     "brand": "Puma",
-    "model": "Puma Morphic Negro",
+    "model": "Puma Morphic",
     "sku": "PAPI-3106",
     "category": "general",
     "gender": "hombre",
@@ -16898,9 +16898,9 @@ export const CATALOGO_GENERADO: Sneaker[] = [
   },
   {
     "id": "sneaker-puma-palermo-azul-navy",
-    "name": "Puma Palermo Azul Navy",
+    "name": "Puma Palermo",
     "brand": "Puma",
-    "model": "Puma Palermo Azul Navy",
+    "model": "Puma Palermo",
     "sku": "PAPI-1570",
     "category": "general",
     "gender": "hombre",
@@ -16935,84 +16935,10 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "updatedAt": "2026-08-15T21:25:11.931Z"
   },
   {
-    "id": "sneaker-puma-palermo-beige",
-    "name": "Puma Palermo Beige",
-    "brand": "Puma",
-    "model": "Puma Palermo Beige",
-    "sku": "PAPI-1289",
-    "category": "general",
-    "gender": "mujer",
-    "price": 180000,
-    "originalPrice": 210000,
-    "images": [
-      "/catalogo/sneakers/puma/mujer/puma-palermo-beige.jpg"
-    ],
-    "sizes": [
-      35,
-      36,
-      37,
-      38,
-      39
-    ],
-    "status": "disponible",
-    "isFeatured": false,
-    "isNewArrival": true,
-    "isOriginalCertified": false,
-    "description": "Palermo en gamuza beige con el logo dorado y suela al tono. La más suave del lote.",
-    "details": {
-      "condition": "En caja",
-      "colorway": "Beige / Gold",
-      "includedItems": [
-        "Caja"
-      ]
-    },
-    "viewsCount": 0,
-    "inquiriesCount": 0,
-    "createdAt": "2026-08-15T21:25:11.931Z",
-    "updatedAt": "2026-08-15T21:25:11.931Z"
-  },
-  {
-    "id": "sneaker-puma-palermo-blanco-oro",
-    "name": "Puma Palermo Blanco Oro",
-    "brand": "Puma",
-    "model": "Puma Palermo Blanco Oro",
-    "sku": "PAPI-1512",
-    "category": "general",
-    "gender": "mujer",
-    "price": 180000,
-    "originalPrice": 210000,
-    "images": [
-      "/catalogo/sneakers/puma/mujer/puma-palermo-blanco-oro.jpg"
-    ],
-    "sizes": [
-      35,
-      36,
-      37,
-      38,
-      39
-    ],
-    "status": "disponible",
-    "isFeatured": false,
-    "isNewArrival": true,
-    "isOriginalCertified": false,
-    "description": "Palermo en blanco entero con el logo dorado y un filete negro en el costado. Suela al tono.",
-    "details": {
-      "condition": "En caja",
-      "colorway": "White / Gold",
-      "includedItems": [
-        "Caja"
-      ]
-    },
-    "viewsCount": 0,
-    "inquiriesCount": 0,
-    "createdAt": "2026-08-15T21:25:11.931Z",
-    "updatedAt": "2026-08-15T21:25:11.931Z"
-  },
-  {
     "id": "sneaker-puma-palermo-blanco-verde",
-    "name": "Puma Palermo Blanco Verde",
+    "name": "Puma Palermo",
     "brand": "Puma",
-    "model": "Puma Palermo Blanco Verde",
+    "model": "Puma Palermo",
     "sku": "PAPI-1441",
     "category": "general",
     "gender": "hombre",
@@ -17048,9 +16974,9 @@ export const CATALOGO_GENERADO: Sneaker[] = [
   },
   {
     "id": "sneaker-puma-palermo-cafe",
-    "name": "Puma Palermo Café",
+    "name": "Puma Palermo",
     "brand": "Puma",
-    "model": "Puma Palermo Café",
+    "model": "Puma Palermo",
     "sku": "PAPI-1270",
     "category": "general",
     "gender": "hombre",
@@ -17086,9 +17012,9 @@ export const CATALOGO_GENERADO: Sneaker[] = [
   },
   {
     "id": "sneaker-puma-palermo-crema-navy",
-    "name": "Puma Palermo Crema Navy",
+    "name": "Puma Palermo",
     "brand": "Puma",
-    "model": "Puma Palermo Crema Navy",
+    "model": "Puma Palermo",
     "sku": "PAPI-5172",
     "category": "general",
     "gender": "hombre",
@@ -17124,9 +17050,9 @@ export const CATALOGO_GENERADO: Sneaker[] = [
   },
   {
     "id": "sneaker-puma-palermo-gris",
-    "name": "Puma Palermo Gris",
+    "name": "Puma Palermo",
     "brand": "Puma",
-    "model": "Puma Palermo Gris",
+    "model": "Puma Palermo",
     "sku": "PAPI-1522",
     "category": "general",
     "gender": "hombre",
@@ -17162,9 +17088,9 @@ export const CATALOGO_GENERADO: Sneaker[] = [
   },
   {
     "id": "sneaker-puma-palermo-negro-crema",
-    "name": "Puma Palermo Negro Crema",
+    "name": "Puma Palermo",
     "brand": "Puma",
-    "model": "Puma Palermo Negro Crema",
+    "model": "Puma Palermo",
     "sku": "PAPI-1641",
     "category": "general",
     "gender": "hombre",
@@ -17200,9 +17126,9 @@ export const CATALOGO_GENERADO: Sneaker[] = [
   },
   {
     "id": "sneaker-puma-palermo-negro-rojo-azul",
-    "name": "Puma Palermo Negro Rojo Azul",
+    "name": "Puma Palermo",
     "brand": "Puma",
-    "model": "Puma Palermo Negro Rojo Azul",
+    "model": "Puma Palermo",
     "sku": "PAPI-3969",
     "category": "general",
     "gender": "hombre",
@@ -17237,10 +17163,84 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "updatedAt": "2026-08-15T21:25:11.931Z"
   },
   {
-    "id": "sneaker-puma-palermo-negro-rosado",
-    "name": "Puma Palermo Negro Rosado",
+    "id": "sneaker-puma-palermo-beige",
+    "name": "Puma Palermo",
     "brand": "Puma",
-    "model": "Puma Palermo Negro Rosado",
+    "model": "Puma Palermo",
+    "sku": "PAPI-1289",
+    "category": "general",
+    "gender": "mujer",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/puma/mujer/puma-palermo-beige.jpg"
+    ],
+    "sizes": [
+      35,
+      36,
+      37,
+      38,
+      39
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "Palermo en gamuza beige con el logo dorado y suela al tono. La más suave del lote.",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Beige / Gold",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-15T21:25:11.931Z",
+    "updatedAt": "2026-08-15T21:25:11.931Z"
+  },
+  {
+    "id": "sneaker-puma-palermo-blanco-oro",
+    "name": "Puma Palermo",
+    "brand": "Puma",
+    "model": "Puma Palermo",
+    "sku": "PAPI-1512",
+    "category": "general",
+    "gender": "mujer",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/puma/mujer/puma-palermo-blanco-oro.jpg"
+    ],
+    "sizes": [
+      35,
+      36,
+      37,
+      38,
+      39
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "Palermo en blanco entero con el logo dorado y un filete negro en el costado. Suela al tono.",
+    "details": {
+      "condition": "En caja",
+      "colorway": "White / Gold",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-15T21:25:11.931Z",
+    "updatedAt": "2026-08-15T21:25:11.931Z"
+  },
+  {
+    "id": "sneaker-puma-palermo-negro-rosado",
+    "name": "Puma Palermo",
+    "brand": "Puma",
+    "model": "Puma Palermo",
     "sku": "PAPI-2586",
     "category": "general",
     "gender": "mujer",
@@ -17315,6 +17315,47 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "updatedAt": "2026-08-14T15:26:27.178Z"
   },
   {
+    "id": "sneaker-puma-robound-b",
+    "name": "Puma Rebound",
+    "brand": "Puma",
+    "model": "Puma Rebound",
+    "sku": "PAPI-6925",
+    "category": "originales",
+    "gender": "unisex",
+    "price": 280000,
+    "originalPrice": 340000,
+    "images": [
+      "/catalogo/originales/puma/puma-robound-b.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "bajo_encargo",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": true,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Black",
+      "includedItems": [
+        "Caja original",
+        "Comprobante de procedencia"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-14T15:26:27.178Z",
+    "updatedAt": "2026-08-14T15:26:27.178Z"
+  },
+  {
     "id": "sneaker-puma-rebound-low",
     "name": "Puma Rebound Low",
     "brand": "Puma",
@@ -17345,47 +17386,6 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "details": {
       "condition": "En caja",
       "colorway": "",
-      "includedItems": [
-        "Caja original",
-        "Comprobante de procedencia"
-      ]
-    },
-    "viewsCount": 0,
-    "inquiriesCount": 0,
-    "createdAt": "2026-08-14T15:26:27.178Z",
-    "updatedAt": "2026-08-14T15:26:27.178Z"
-  },
-  {
-    "id": "sneaker-puma-robound-b",
-    "name": "Puma Rebound Negro",
-    "brand": "Puma",
-    "model": "Puma Rebound Negro",
-    "sku": "PAPI-6925",
-    "category": "originales",
-    "gender": "unisex",
-    "price": 280000,
-    "originalPrice": 340000,
-    "images": [
-      "/catalogo/originales/puma/puma-robound-b.jpg"
-    ],
-    "sizes": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
-    "status": "bajo_encargo",
-    "isFeatured": false,
-    "isNewArrival": true,
-    "isOriginalCertified": true,
-    "description": "",
-    "details": {
-      "condition": "En caja",
-      "colorway": "Black",
       "includedItems": [
         "Caja original",
         "Comprobante de procedencia"
@@ -17561,6 +17561,47 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "updatedAt": "2026-08-14T15:26:27.178Z"
   },
   {
+    "id": "sneaker-puma-smash-3-0-b-n",
+    "name": "Puma Smash 3.0",
+    "brand": "Puma",
+    "model": "Puma Smash 3.0",
+    "sku": "PAPI-1416",
+    "category": "originales",
+    "gender": "unisex",
+    "price": 280000,
+    "originalPrice": 340000,
+    "images": [
+      "/catalogo/originales/puma/puma-smash-3-0-b-n.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "bajo_encargo",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": true,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "White / Black",
+      "includedItems": [
+        "Caja original",
+        "Comprobante de procedencia"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-08-14T15:26:27.178Z",
+    "updatedAt": "2026-08-14T15:26:27.178Z"
+  },
+  {
     "id": "sneaker-puma-smash-3-0",
     "name": "Puma Smash 3.0",
     "brand": "Puma",
@@ -17591,47 +17632,6 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "details": {
       "condition": "En caja",
       "colorway": "",
-      "includedItems": [
-        "Caja original",
-        "Comprobante de procedencia"
-      ]
-    },
-    "viewsCount": 0,
-    "inquiriesCount": 0,
-    "createdAt": "2026-08-14T15:26:27.178Z",
-    "updatedAt": "2026-08-14T15:26:27.178Z"
-  },
-  {
-    "id": "sneaker-puma-smash-3-0-b-n",
-    "name": "Puma Smash 3.0 Blanco / Negro",
-    "brand": "Puma",
-    "model": "Puma Smash 3.0 Blanco / Negro",
-    "sku": "PAPI-1416",
-    "category": "originales",
-    "gender": "unisex",
-    "price": 280000,
-    "originalPrice": 340000,
-    "images": [
-      "/catalogo/originales/puma/puma-smash-3-0-b-n.jpg"
-    ],
-    "sizes": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
-    "status": "bajo_encargo",
-    "isFeatured": false,
-    "isNewArrival": true,
-    "isOriginalCertified": true,
-    "description": "",
-    "details": {
-      "condition": "En caja",
-      "colorway": "White / Black",
       "includedItems": [
         "Caja original",
         "Comprobante de procedencia"
@@ -17723,9 +17723,9 @@ export const CATALOGO_GENERADO: Sneaker[] = [
   },
   {
     "id": "sneaker-reebok-x-anuel-aa-rojo",
-    "name": "Reebok x Anuel AA Rojo",
+    "name": "Reebok x Anuel AA",
     "brand": "Otras",
-    "model": "Reebok x Anuel AA Rojo",
+    "model": "Reebok x Anuel AA",
     "sku": "PAPI-1301",
     "category": "general",
     "gender": "unisex",
@@ -17763,9 +17763,9 @@ export const CATALOGO_GENERADO: Sneaker[] = [
   },
   {
     "id": "sneaker-calvin-klein-sandalias-ck-wiston-slide-black-002",
-    "name": "Sandalias Calvin Klein Wiston Slide Black",
+    "name": "Sandalias Calvin Klein Wiston Slide",
     "brand": "Calvin Klein",
-    "model": "Sandalias Calvin Klein Wiston Slide Black",
+    "model": "Sandalias Calvin Klein Wiston Slide",
     "sku": "PAPI-9379",
     "category": "originales",
     "gender": "unisex",
@@ -17842,9 +17842,9 @@ export const CATALOGO_GENERADO: Sneaker[] = [
   },
   {
     "id": "sneaker-vans-old-skool-cafe",
-    "name": "Vans Old Skool Café",
+    "name": "Vans Old Skool",
     "brand": "Otras",
-    "model": "Vans Old Skool Café",
+    "model": "Vans Old Skool",
     "sku": "PAPI-5939",
     "category": "general",
     "gender": "unisex",
@@ -17882,9 +17882,9 @@ export const CATALOGO_GENERADO: Sneaker[] = [
   },
   {
     "id": "sneaker-vans-old-skool-negro",
-    "name": "Vans Old Skool Negro",
+    "name": "Vans Old Skool",
     "brand": "Otras",
-    "model": "Vans Old Skool Negro",
+    "model": "Vans Old Skool",
     "sku": "PAPI-1327",
     "category": "general",
     "gender": "unisex",

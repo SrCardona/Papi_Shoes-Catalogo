@@ -4,10 +4,13 @@
     "colorway": ""
   },
   "calvin-klein-jeans-negro": {
-    "name": "Calvin Klein Jeans Negro",
+    "name": "Calvin Klein Jeans",
     "colorway": "Black"
   },
-  "calvin-klein-acre": { "name": "Calvin Klein Acre", "colorway": "" },
+  "calvin-klein-acre": {
+    "name": "Calvin Klein Acre",
+    "colorway": ""
+  },
   "calvin-klein-acre-black-white": {
     "name": "Calvin Klein Acre Black & White",
     "colorway": "Black / White"
@@ -28,9 +31,12 @@
     "name": "Calvin Klein Ashier White 140",
     "colorway": "White"
   },
-  "calvin-klein-caden": { "name": "Calvin Klein Caden", "colorway": "" },
+  "calvin-klein-caden": {
+    "name": "Calvin Klein Caden",
+    "colorway": ""
+  },
   "calvin-klein-caden-white": {
-    "name": "Calvin Klein Caden White",
+    "name": "Calvin Klein Caden",
     "colorway": "White"
   },
   "calvin-klein-calla-brown-multi-211": {
@@ -38,7 +44,7 @@
     "colorway": "Brown Multi"
   },
   "calvin-klein-camina-black": {
-    "name": "Calvin Klein Camina Black",
+    "name": "Calvin Klein Camina",
     "colorway": "Black"
   },
   "calvin-klein-carlla-black-002": {
@@ -66,20 +72,29 @@
     "colorway": "White"
   },
   "calvin-klein-ciyan-black": {
-    "name": "Calvin Klein Ciyan Black",
+    "name": "Calvin Klein Ciyan",
     "colorway": "Black"
   },
   "calvin-klein-ciyan-white-001": {
     "name": "Calvin Klein Ciyan White 001",
     "colorway": "White"
   },
-  "calvin-klein-cylaie": { "name": "Calvin Klein Cylaie", "colorway": "" },
+  "calvin-klein-cylaie": {
+    "name": "Calvin Klein Cylaie",
+    "colorway": ""
+  },
   "calvin-klein-eden-negro-001": {
     "name": "Calvin Klein Eden Negro 001",
     "colorway": "Black"
   },
-  "calvin-klein-falconi": { "name": "Calvin Klein Falconi", "colorway": "" },
-  "calvin-klein-giano": { "name": "Calvin Klein Giano", "colorway": "" },
+  "calvin-klein-falconi": {
+    "name": "Calvin Klein Falconi",
+    "colorway": ""
+  },
+  "calvin-klein-giano": {
+    "name": "Calvin Klein Giano",
+    "colorway": ""
+  },
   "calvin-klein-gules-black-002": {
     "name": "Calvin Klein Gules Black 002",
     "colorway": "Black"
@@ -89,7 +104,7 @@
     "colorway": "Espresso Multi"
   },
   "calvin-klein-hania-white": {
-    "name": "Calvin Klein Hania White",
+    "name": "Calvin Klein Hania",
     "colorway": "White"
   },
   "calvin-klein-horaldo-white-144": {
@@ -109,7 +124,7 @@
     "colorway": "Black"
   },
   "calvin-klein-lucio-navy-blue": {
-    "name": "Calvin Klein Lucio Navy Blue",
+    "name": "Calvin Klein Lucio",
     "colorway": "Navy Blue"
   },
   "calvin-klein-lucio-white-101": {
@@ -140,9 +155,12 @@
     "name": "Calvin Klein Picio White Multi 102",
     "colorway": "White Multi"
   },
-  "calvin-klein-rex": { "name": "Calvin Klein Rex", "colorway": "" },
+  "calvin-klein-rex": {
+    "name": "Calvin Klein Rex",
+    "colorway": ""
+  },
   "calvin-klein-sandalias-ck-wiston-slide-black-002": {
-    "name": "Sandalias Calvin Klein Wiston Slide Black",
+    "name": "Sandalias Calvin Klein Wiston Slide",
     "colorway": "Black",
     "description": "Sandalia de la línea Wiston en negro, con el logo en relieve sobre la tira."
   }
