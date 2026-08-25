@@ -245,6 +245,14 @@ debajo**, y sobre una hoja, el canto de una caja o el tenis mismo el parche se
 nota mas que el recuadro. Esas se reportan y se dejan quietas: es mejor un
 codigo visible que una mancha. No bajes el umbral para subir el conteo.
 
+**Revisa las hojas al 100%, nunca en miniatura.** `--hoja` escribe hojas 1:1
+con el antes y el despues de cada candidato. A tamano reducido un parche malo
+pasa por bueno: en una primera pasada se aprobaron 44 fotos mirando miniaturas
+y al verlas a tamano real 17 tenian mancha visible, asi que hubo que revertir
+las 44 y rehacer el juicio. El numero de empalme ordena bien pero no decide:
+hay parches de 12 que fallan porque el recuadro cae sobre el tenis, y otros de
+20 que quedan perfectos.
+
 ## Reglas de seguridad (no relajar)
 
 - Toda imagen pasa por `sanitizeImageUrl`: solo `https://`, `data:image/...` y

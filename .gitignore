@@ -21,3 +21,4 @@ lotes/
 # <linea>/<marca>/. Lo de adentro no se versiona: es material en transito.
 public/catalogo/_entrada/*
 !public/catalogo/_entrada/.gitkeep
+recuadro-hoja-*.png

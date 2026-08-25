@@ -7,6 +7,7 @@ redondeado ("5031-3", "3382H", "J", "K"), casi siempre en una esquina. Este
 script lo detecta y lo borra reconstruyendo el fondo que tapaba.
 
     python scripts/quitar-recuadro.py            # solo reporta, no toca nada
+    python scripts/quitar-recuadro.py --hoja     # hojas 1:1 antes/despues para revisar
     python scripts/quitar-recuadro.py --aplicar  # borra las que pasan la prueba
     python scripts/quitar-recuadro.py --aplicar --forzar   # borra aunque se note
 
@@ -16,10 +17,15 @@ pixeles que rodea el recuadro, y se pega el ganador con los bordes difuminados.
 Sobre madera de vetas verticales el desplazamiento vertical trae las mismas
 rayas con su grano; sobre marmol, pared o alfombra, igual.
 
-El numero de "empalme" es lo que decide: es la diferencia media entre el borde
-del hueco y el borde del trozo que va a taparlo. Si es bajo, la costura no se
-ve. Si es alto (una hoja, el tenis mismo, el canto de una caja cruzando el
-recuadro) la foto se reporta y NO se toca.
+El numero de "empalme" ordena los candidatos: es la diferencia media entre el
+borde del hueco y el borde del trozo que va a taparlo. Por debajo de ERROR_MAX
+el parche aguanta; por encima (una hoja, el tenis mismo, el canto de una caja
+cruzando el recuadro) la foto se reporta y NO se toca.
+
+REVISA CON --hoja ANTES DE APLICAR ALGO DUDOSO. El empalme ordena bien pero no
+decide: hay parches de 12 que fallan porque el recuadro cae sobre el tenis, y
+otros de 20 que quedan perfectos. Y sobre todo, revisa las hojas al 100%: en
+miniatura un parche malo se ve bien, y asi se cuelan manchas al catalogo.
 
 Necesita Pillow. No modifica nada sin --aplicar.
 """
@@ -35,13 +41,14 @@ FOTOS = RAIZ / "public" / "catalogo"
 EXT = {".jpg", ".jpeg", ".png", ".webp"}
 
 APLICAR = "--aplicar" in sys.argv
+HOJA = "--hoja" in sys.argv
 FORZAR = "--forzar" in sys.argv
 SOLO = next((a for a in sys.argv[1:] if not a.startswith("--")), None)
 
 ANCHO_DET = 260          # ancho al que se reduce para detectar
 UMBRAL_BLANCO = 232      # min(r,g,b) por encima de esto = casi blanco
 UMBRAL_TEXTO = 140       # max(r,g,b) por debajo de esto = texto oscuro
-ERROR_MAX = 11.0         # empalme maximo que todavia se ve limpio (calibrado a ojo)
+ERROR_MAX = 9.5          # solo lo que es seguro sin mirar; por encima, usa --hoja
 
 
 # ── Deteccion ────────────────────────────────────────────────────────────────
@@ -141,15 +148,15 @@ BORDE = 5      # ancho del anillo con el que se mide el empalme
 PLUMA = 6      # pixeles de degradado al pegar, para que no quede costura
 
 
-def _anillo(px, caja, W, H):
+def _anillo(px, caja, W, H, paso=1):
     """Pixeles del anillo exterior de la caja, en orden estable."""
     x0, y0, x1, y1 = caja
     out = []
     for d in range(1, BORDE + 1):
-        for x in range(x0, x1):
+        for x in range(x0, x1, paso):
             out.append(px[x, y0 - d] if y0 - d >= 0 else None)
             out.append(px[x, y1 + d - 1] if y1 + d - 1 < H else None)
-        for y in range(y0, y1):
+        for y in range(y0, y1, paso):
             out.append(px[x0 - d, y] if x0 - d >= 0 else None)
             out.append(px[x1 + d - 1, y] if x1 + d - 1 < W else None)
     return out
@@ -167,59 +174,135 @@ def _costo(a, b):
 
 
 def buscar_fuente(img, caja):
-    """Mejor trozo de fondo que empalma con el hueco. Devuelve (caja, costo)."""
+    """
+    Mejor trozo de fondo que empalma con el hueco. Devuelve (caja, costo).
+
+    Busqueda densa en dos pasadas: primero se barre una ventana amplia con el
+    anillo submuestreado, que es barato, y despues se recalcula el costo exacto
+    solo sobre los mejores candidatos. Probar unas pocas posiciones en cruz
+    dejaba fuera el trozo bueno y condenaba fotos que si tenian arreglo.
+    """
     W, H = img.size
     x0, y0, x1, y1 = caja
     bw, bh = x1 - x0, y1 - y0
     px = img.load()
-    destino = _anillo(px, caja, W, H)
 
+    paso = max(2, min(bw, bh) // 8)
+    destino_grueso = _anillo(px, caja, W, H, paso)
+
+    dx_paso = max(4, bw // 6)
+    dy_paso = max(4, bh // 6)
+    candidatos = []
+    for dy in range(-4 * bh, 4 * bh + 1, dy_paso):
+        for dx in range(-3 * bw, 3 * bw + 1, dx_paso):
+            if dx == 0 and dy == 0:
+                continue
+            c = (x0 + dx, y0 + dy, x1 + dx, y1 + dy)
+            if c[0] - BORDE < 0 or c[1] - BORDE < 0:
+                continue
+            if c[2] + BORDE >= W or c[3] + BORDE >= H:
+                continue
+            # La fuente no puede tocar el recuadro ni su halo.
+            if not (c[2] <= x0 - 2 or c[0] >= x1 + 2 or c[3] <= y0 - 2 or c[1] >= y1 + 2):
+                continue
+            costo = _costo(destino_grueso, _anillo(px, c, W, H, paso))
+            if costo is not None:
+                candidatos.append((costo, c))
+
+    if not candidatos:
+        return (None, None)
+
+    candidatos.sort(key=lambda t: t[0])
+    destino_fino = _anillo(px, caja, W, H, 1)
     mejor = (None, None)
-    pasos = []
-    for k in range(1, 7):
-        pasos += [(0, k * bh), (0, -k * bh), (k * bw, 0), (-k * bw, 0)]
-    for k in range(1, 4):
-        pasos += [(k * bw, k * bh), (-k * bw, k * bh),
-                  (k * bw, -k * bh), (-k * bw, -k * bh)]
-
-    for dx, dy in pasos:
-        c = (x0 + dx, y0 + dy, x1 + dx, y1 + dy)
-        if c[0] - BORDE < 0 or c[1] - BORDE < 0:
+    for _, c in candidatos[:14]:
+        exacto = _costo(destino_fino, _anillo(px, c, W, H, 1))
+        if exacto is None:
             continue
-        if c[2] + BORDE >= W or c[3] + BORDE >= H:
-            continue
-        # La fuente no puede tocar el recuadro que estamos borrando.
-        if not (c[2] <= x0 or c[0] >= x1 or c[3] <= y0 or c[1] >= y1):
-            continue
-        costo = _costo(destino, _anillo(px, c, W, H))
-        if costo is None:
-            continue
-        if mejor[1] is None or costo < mejor[1]:
-            mejor = (c, costo)
+        if mejor[1] is None or exacto < mejor[1]:
+            mejor = (c, exacto)
     return mejor
+
+
+def _borde_dif(px, caja, fuente, W, H):
+    """
+    Diferencia de color entre el borde del hueco y el borde del trozo fuente.
+
+    El trozo casi nunca tiene el brillo exacto del sitio donde va, y esa
+    diferencia constante es lo que se ve como banda. Midiendola en los cuatro
+    lados se puede corregir el trozo entero para que empalme exacto.
+    """
+    x0, y0, x1, y1 = caja
+    fx, fy = fuente[0], fuente[1]
+    bw, bh = x1 - x0, y1 - y0
+
+    def dif(ax, ay, bx, by):
+        if not (0 <= ax < W and 0 <= ay < H and 0 <= bx < W and 0 <= by < H):
+            return None
+        a, b = px[ax, ay][:3], px[bx, by][:3]
+        return (a[0] - b[0], a[1] - b[1], a[2] - b[2])
+
+    arr = [dif(x0 + i, y0 - 1, fx + i, fy - 1) for i in range(bw)]
+    aba = [dif(x0 + i, y1, fx + i, fy + bh) for i in range(bw)]
+    izq = [dif(x0 - 1, y0 + j, fx - 1, fy + j) for j in range(bh)]
+    der = [dif(x1, y0 + j, fx + bw, fy + j) for j in range(bh)]
+    return arr, aba, izq, der
 
 
 def parchar(img, caja, fuente):
     """
-    Pega la fuente sobre la caja.
+    Pega el trozo fuente sobre la caja igualando el borde.
 
-    La mascara vale 255 en TODA la caja y solo se degrada hacia afuera, sobre
-    fondo limpio. Si el degradado cayera dentro de la caja, el borde blanco del
-    recuadro sobreviviria a medias y quedaria un fantasma con su forma.
+    Dos cosas que hubo que aprender: la mascara vale 255 en TODA la caja y solo
+    se degrada hacia afuera (si el degradado cayera dentro, el borde blanco del
+    recuadro sobreviviria a medias y dejaria un fantasma con su forma); y el
+    trozo se corrige con la diferencia medida en los bordes antes de pegarlo,
+    que es lo que hace desaparecer la banda sin tocarle la textura.
     """
     W, H = img.size
     x0, y0, x1, y1 = caja
     bw, bh = x1 - x0, y1 - y0
+    fx, fy = fuente[0], fuente[1]
+    if fx < 1 or fy < 1 or fx + bw >= W or fy + bh >= H:
+        return img
+
+    px = img.load()
+    arr, aba, izq, der = _borde_dif(px, caja, fuente, W, H)
+
+    src = img.crop((fx, fy, fx + bw, fy + bh))
+    sp = src.load()
+    out = Image.new("RGB", (bw, bh))
+    op = out.load()
+
+    for j in range(bh):
+        ty = (j + 1) / (bh + 1)
+        for i in range(bw):
+            tx = (i + 1) / (bw + 1)
+            s = sp[i, j]
+            val = []
+            for c in range(3):
+                partes = []
+                if arr[i] is not None and aba[i] is not None:
+                    partes.append(arr[i][c] * (1 - ty) + aba[i][c] * ty)
+                elif arr[i] is not None:
+                    partes.append(arr[i][c])
+                elif aba[i] is not None:
+                    partes.append(aba[i][c])
+                if izq[j] is not None and der[j] is not None:
+                    partes.append(izq[j][c] * (1 - tx) + der[j][c] * tx)
+                elif izq[j] is not None:
+                    partes.append(izq[j][c])
+                elif der[j] is not None:
+                    partes.append(der[j][c])
+                d = sum(partes) / len(partes) if partes else 0
+                val.append(max(0, min(255, round(s[c] + d))))
+            op[i, j] = tuple(val)
 
     ex0, ey0 = max(0, x0 - PLUMA), max(0, y0 - PLUMA)
     ex1, ey1 = min(W, x1 + PLUMA), min(H, y1 + PLUMA)
     ew, eh = ex1 - ex0, ey1 - ey0
-
-    fx, fy = fuente[0] - (x0 - ex0), fuente[1] - (y0 - ey0)
-    if fx < 0 or fy < 0 or fx + ew > W or fy + eh > H:
-        return img
-
-    trozo = img.crop((fx, fy, fx + ew, fy + eh))
+    lienzo = img.crop((ex0, ey0, ex1, ey1))
+    lienzo.paste(out, (x0 - ex0, y0 - ey0))
 
     ix0, iy0 = x0 - ex0, y0 - ey0
     ix1, iy1 = ix0 + bw, iy0 + bh
@@ -232,7 +315,7 @@ def parchar(img, caja, fuente):
             d = max(dx, dy)
             mp[x, y] = 255 if d == 0 else max(0, round(255 * (1 - d / (PLUMA + 1))))
 
-    img.paste(trozo, (ex0, ey0), mask)
+    img.paste(lienzo, (ex0, ey0), mask)
     return img
 
 
@@ -247,6 +330,47 @@ def fotos():
     for p in sorted(FOTOS.rglob("*")):
         if p.is_file() and p.suffix.lower() in EXT and "_entrada" not in p.parts:
             yield p
+
+
+def _hojas(casos, por_hoja=13, margen=50):
+    """
+    Hojas 1:1 con el antes encima del despues, para revisar con los ojos.
+
+    Al 100% y no en miniatura: a tamano reducido un parche malo pasa por bueno,
+    y una mancha en el catalogo es peor que el codigo del proveedor.
+    """
+    from PIL import ImageDraw
+
+    for h in range((len(casos) + por_hoja - 1) // por_hoja):
+        grupo = casos[h * por_hoja:(h + 1) * por_hoja]
+        recortes = []
+        for costo, ruta, caja in grupo:
+            with Image.open(ruta) as im:
+                img = im.convert("RGB")
+            fuente, _ = evaluar(img, caja)
+            if fuente is None:
+                continue
+            x0, y0, x1, y1 = caja
+            W, H = img.size
+            z = (max(0, x0 - margen), max(0, y0 - margen),
+                 min(W, x1 + margen), min(H, y1 + margen))
+            recortes.append((f"{costo:.1f}  {ruta.name}", img.crop(z),
+                             parchar(img.copy(), caja, fuente).crop(z)))
+        if not recortes:
+            continue
+        ancho = max(max(a.width, b.width) for _, a, b in recortes)
+        alto = sum(max(a.height, b.height) + 24 for _, a, b in recortes)
+        hoja = Image.new("RGB", (ancho * 2 + 12, alto), (20, 20, 20))
+        dr = ImageDraw.Draw(hoja)
+        y = 0
+        for nom, a, b in recortes:
+            dr.text((6, y + 4), nom, fill=(255, 220, 120))
+            hoja.paste(a, (0, y + 18))
+            hoja.paste(b, (ancho + 12, y + 18))
+            y += max(a.height, b.height) + 24
+        destino = RAIZ / f"recuadro-hoja-{h}.png"
+        hoja.save(destino)
+        print(f"  hoja: {destino.name}  ({len(recortes)} casos)")
 
 
 def main():
@@ -275,6 +399,11 @@ def main():
                     parchar(img, caja, fuente).save(p, quality=95, subsampling=0)
         except Exception as e:  # noqa: BLE001
             print(f"  ERROR {p.name}: {e}")
+
+    if HOJA:
+        revisables = [(c, RAIZ / r, cj) for r, cj, c in limpias + dudosas if c is not None]
+        revisables.sort(key=lambda t: t[0])
+        _hojas(revisables)
 
     print(f"\nRevisadas: {len(objetivo)}   sin recuadro: {sin_placa}")
     print(f"\nSE PUEDE BORRAR SIN QUE SE NOTE ({len(limpias)})")
