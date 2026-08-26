@@ -1,6 +1,6 @@
 {
   "version": 3,
-  "exportedAt": "2026-08-25T15:32:56.642Z",
+  "exportedAt": "2026-08-26T15:18:01.956Z",
   "sneakers": [
     {
       "id": "sneaker-adidas-adilette-22",
@@ -121,6 +121,126 @@
       "inquiriesCount": 0,
       "createdAt": "2026-08-12T21:42:38.000Z",
       "updatedAt": "2026-08-12T21:42:38.000Z"
+    },
+    {
+      "id": "sneaker-adidas-badbo-x-bad-bunny-blanco",
+      "name": "Adidas BADBO x Bad Bunny",
+      "brand": "Adidas",
+      "model": "Adidas BADBO x Bad Bunny",
+      "sku": "PAPI-1948",
+      "category": "general",
+      "gender": "unisex",
+      "price": 180000,
+      "originalPrice": 210000,
+      "images": [
+        "/catalogo/sneakers/adidas/adidas-badbo-x-bad-bunny-blanco.jpg"
+      ],
+      "sizes": [
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "status": "disponible",
+      "isFeatured": true,
+      "isNewArrival": true,
+      "isOriginalCertified": false,
+      "description": "BADBO en gamuza blanca con cuello negro y detalles azules, suela color gum.",
+      "details": {
+        "condition": "En caja",
+        "colorway": "Cloud White / Black / Blue",
+        "includedItems": [
+          "Caja"
+        ]
+      },
+      "viewsCount": 0,
+      "inquiriesCount": 0,
+      "createdAt": "2026-08-26T15:18:01.924Z",
+      "updatedAt": "2026-08-26T15:18:01.924Z"
+    },
+    {
+      "id": "sneaker-adidas-badbo-x-bad-bunny-cafe",
+      "name": "Adidas BADBO x Bad Bunny",
+      "brand": "Adidas",
+      "model": "Adidas BADBO x Bad Bunny",
+      "sku": "PAPI-1260",
+      "category": "general",
+      "gender": "unisex",
+      "price": 180000,
+      "originalPrice": 210000,
+      "images": [
+        "/catalogo/sneakers/adidas/adidas-badbo-x-bad-bunny-cafe.jpg"
+      ],
+      "sizes": [
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "status": "disponible",
+      "isFeatured": true,
+      "isNewArrival": true,
+      "isOriginalCertified": false,
+      "description": "BADBO en gamuza café y chocolate sobre crema, con mediasuela ondulada blanca.",
+      "details": {
+        "condition": "En caja",
+        "colorway": "Brown / Chocolate / Cream",
+        "includedItems": [
+          "Caja"
+        ]
+      },
+      "viewsCount": 0,
+      "inquiriesCount": 0,
+      "createdAt": "2026-08-26T15:18:01.924Z",
+      "updatedAt": "2026-08-26T15:18:01.924Z"
+    },
+    {
+      "id": "sneaker-adidas-badbo-x-bad-bunny-negro",
+      "name": "Adidas BADBO x Bad Bunny",
+      "brand": "Adidas",
+      "model": "Adidas BADBO x Bad Bunny",
+      "sku": "PAPI-1065",
+      "category": "general",
+      "gender": "unisex",
+      "price": 180000,
+      "originalPrice": 210000,
+      "images": [
+        "/catalogo/sneakers/adidas/adidas-badbo-x-bad-bunny-negro.jpg"
+      ],
+      "sizes": [
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "status": "disponible",
+      "isFeatured": true,
+      "isNewArrival": true,
+      "isOriginalCertified": false,
+      "description": "La BADBO de Bad Bunny en negro total: gamuza, paneles triangulares y suela ondulada color gum.",
+      "details": {
+        "condition": "En caja",
+        "colorway": "Core Black",
+        "includedItems": [
+          "Caja"
+        ]
+      },
+      "viewsCount": 0,
+      "inquiriesCount": 0,
+      "createdAt": "2026-08-26T15:18:01.924Z",
+      "updatedAt": "2026-08-26T15:18:01.924Z"
     },
     {
       "id": "sneaker-adidas-california-blanco-negro",
@@ -953,6 +1073,46 @@
       "inquiriesCount": 0,
       "createdAt": "2026-08-12T21:42:38.000Z",
       "updatedAt": "2026-08-12T21:42:38.000Z"
+    },
+    {
+      "id": "sneaker-adidas-samba-xl-negro",
+      "name": "Adidas Samba XL",
+      "brand": "Adidas",
+      "model": "Adidas Samba XL",
+      "sku": "PAPI-1290",
+      "category": "general",
+      "gender": "unisex",
+      "price": 180000,
+      "originalPrice": 210000,
+      "images": [
+        "/catalogo/sneakers/adidas/adidas-samba-xl-negro.jpg"
+      ],
+      "sizes": [
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "status": "disponible",
+      "isFeatured": false,
+      "isNewArrival": true,
+      "isOriginalCertified": false,
+      "description": "La Samba montada sobre plataforma XL: mismo cuero negro con las tres bandas, suela gum más alta.",
+      "details": {
+        "condition": "En caja",
+        "colorway": "Core Black / White / Gum",
+        "includedItems": [
+          "Caja"
+        ]
+      },
+      "viewsCount": 0,
+      "inquiriesCount": 0,
+      "createdAt": "2026-08-26T15:18:01.924Z",
+      "updatedAt": "2026-08-26T15:18:01.924Z"
     },
     {
       "id": "sneaker-adidas-sikaige",
@@ -2137,6 +2297,46 @@
       "updatedAt": "2026-08-13T19:36:10.000Z"
     },
     {
+      "id": "sneaker-jordan-1-low-patent-bred",
+      "name": "Air Jordan 1 Low Patent Bred",
+      "brand": "Jordan",
+      "model": "Air Jordan 1 Low Patent Bred",
+      "sku": "PAPI-8731",
+      "category": "general",
+      "gender": "unisex",
+      "price": 180000,
+      "originalPrice": 210000,
+      "images": [
+        "/catalogo/sneakers/jordan/jordan-1-low-patent-bred.jpg"
+      ],
+      "sizes": [
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "status": "disponible",
+      "isFeatured": true,
+      "isNewArrival": true,
+      "isOriginalCertified": false,
+      "description": "El Bred en charol, en corte Low: negro y rojo brillante con suela roja.",
+      "details": {
+        "condition": "En caja",
+        "colorway": "Black / Varsity Red",
+        "includedItems": [
+          "Caja"
+        ]
+      },
+      "viewsCount": 0,
+      "inquiriesCount": 0,
+      "createdAt": "2026-08-26T15:18:01.924Z",
+      "updatedAt": "2026-08-26T15:18:01.924Z"
+    },
+    {
       "id": "sneaker-jordan-1-low-rosa-mocha",
       "name": "Air Jordan 1 Low Rosa / Mocha",
       "brand": "Jordan",
@@ -2157,7 +2357,7 @@
         39
       ],
       "status": "disponible",
-      "isFeatured": true,
+      "isFeatured": false,
       "isNewArrival": true,
       "isOriginalCertified": false,
       "description": "La 1 baja en bloques de rosado, durazno y crema, con el swoosh mocha y la suela caramelo.",
@@ -2172,6 +2372,46 @@
       "inquiriesCount": 0,
       "createdAt": "2026-08-25T15:10:14.234Z",
       "updatedAt": "2026-08-25T15:10:14.234Z"
+    },
+    {
+      "id": "sneaker-jordan-1-low-triple-white",
+      "name": "Air Jordan 1 Low Triple White",
+      "brand": "Jordan",
+      "model": "Air Jordan 1 Low Triple White",
+      "sku": "PAPI-1211",
+      "category": "general",
+      "gender": "unisex",
+      "price": 180000,
+      "originalPrice": 210000,
+      "images": [
+        "/catalogo/sneakers/jordan/jordan-1-low-triple-white.jpg"
+      ],
+      "sizes": [
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "status": "disponible",
+      "isFeatured": true,
+      "isNewArrival": true,
+      "isOriginalCertified": false,
+      "description": "Low en cuero blanco de pared a pared, sin un solo contraste.",
+      "details": {
+        "condition": "En caja",
+        "colorway": "Triple White",
+        "includedItems": [
+          "Caja"
+        ]
+      },
+      "viewsCount": 0,
+      "inquiriesCount": 0,
+      "createdAt": "2026-08-26T15:18:01.924Z",
+      "updatedAt": "2026-08-26T15:18:01.924Z"
     },
     {
       "id": "sneaker-jordan-1-low-x-stussy-x-supreme",
@@ -2294,6 +2534,246 @@
       "updatedAt": "2026-08-13T19:36:10.000Z"
     },
     {
+      "id": "sneaker-jordan-1-mid-azul-rey",
+      "name": "Air Jordan 1 Mid",
+      "brand": "Jordan",
+      "model": "Air Jordan 1 Mid",
+      "sku": "PAPI-1556",
+      "category": "general",
+      "gender": "unisex",
+      "price": 180000,
+      "originalPrice": 210000,
+      "images": [
+        "/catalogo/sneakers/jordan/jordan-1-mid-azul-rey.jpg"
+      ],
+      "sizes": [
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "status": "disponible",
+      "isFeatured": true,
+      "isNewArrival": true,
+      "isOriginalCertified": false,
+      "description": "Mid en azul rey con paneles negros y suela azul.",
+      "details": {
+        "condition": "En caja",
+        "colorway": "Royal Blue / Black",
+        "includedItems": [
+          "Caja"
+        ]
+      },
+      "viewsCount": 0,
+      "inquiriesCount": 0,
+      "createdAt": "2026-08-26T15:18:01.924Z",
+      "updatedAt": "2026-08-26T15:18:01.924Z"
+    },
+    {
+      "id": "sneaker-jordan-1-mid-charol-hielo",
+      "name": "Air Jordan 1 Mid",
+      "brand": "Jordan",
+      "model": "Air Jordan 1 Mid",
+      "sku": "PAPI-1668",
+      "category": "general",
+      "gender": "unisex",
+      "price": 180000,
+      "originalPrice": 210000,
+      "images": [
+        "/catalogo/sneakers/jordan/jordan-1-mid-charol-hielo.jpg"
+      ],
+      "sizes": [
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "status": "disponible",
+      "isFeatured": false,
+      "isNewArrival": true,
+      "isOriginalCertified": false,
+      "description": "Paneles azul hielo con charol negro y las alas bordadas en dorado.",
+      "details": {
+        "condition": "En caja",
+        "colorway": "Ice Blue / Black Patent",
+        "includedItems": [
+          "Caja"
+        ]
+      },
+      "viewsCount": 0,
+      "inquiriesCount": 0,
+      "createdAt": "2026-08-26T15:18:01.924Z",
+      "updatedAt": "2026-08-26T15:18:01.924Z"
+    },
+    {
+      "id": "sneaker-jordan-1-mid-charol-negro",
+      "name": "Air Jordan 1 Mid",
+      "brand": "Jordan",
+      "model": "Air Jordan 1 Mid",
+      "sku": "PAPI-1146",
+      "category": "general",
+      "gender": "unisex",
+      "price": 180000,
+      "originalPrice": 210000,
+      "images": [
+        "/catalogo/sneakers/jordan/jordan-1-mid-charol-negro.jpg"
+      ],
+      "sizes": [
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "status": "disponible",
+      "isFeatured": false,
+      "isNewArrival": true,
+      "isOriginalCertified": false,
+      "description": "Mid en charol negro de pared a pared, con suela translúcida azul hielo.",
+      "details": {
+        "condition": "En caja",
+        "colorway": "Black Patent / Ice Blue",
+        "includedItems": [
+          "Caja"
+        ]
+      },
+      "viewsCount": 0,
+      "inquiriesCount": 0,
+      "createdAt": "2026-08-26T15:18:01.924Z",
+      "updatedAt": "2026-08-26T15:18:01.924Z"
+    },
+    {
+      "id": "sneaker-jordan-1-mid-banned",
+      "name": "Air Jordan 1 Mid Banned",
+      "brand": "Jordan",
+      "model": "Air Jordan 1 Mid Banned",
+      "sku": "PAPI-4576",
+      "category": "general",
+      "gender": "unisex",
+      "price": 180000,
+      "originalPrice": 210000,
+      "images": [
+        "/catalogo/sneakers/jordan/jordan-1-mid-banned.jpg"
+      ],
+      "sizes": [
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "status": "disponible",
+      "isFeatured": false,
+      "isNewArrival": true,
+      "isOriginalCertified": false,
+      "description": "El Banned en Mid: cuero negro, cuello y punta en rojo, cordones rojos.",
+      "details": {
+        "condition": "En caja",
+        "colorway": "Black / Gym Red",
+        "includedItems": [
+          "Caja"
+        ]
+      },
+      "viewsCount": 0,
+      "inquiriesCount": 0,
+      "createdAt": "2026-08-26T15:18:01.924Z",
+      "updatedAt": "2026-08-26T15:18:01.924Z"
+    },
+    {
+      "id": "sneaker-jordan-1-mid-carbon-fiber",
+      "name": "Air Jordan 1 Mid Carbon Fiber",
+      "brand": "Jordan",
+      "model": "Air Jordan 1 Mid Carbon Fiber",
+      "sku": "PAPI-1533",
+      "category": "general",
+      "gender": "unisex",
+      "price": 180000,
+      "originalPrice": 210000,
+      "images": [
+        "/catalogo/sneakers/jordan/jordan-1-mid-carbon-fiber.jpg"
+      ],
+      "sizes": [
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "status": "disponible",
+      "isFeatured": false,
+      "isNewArrival": true,
+      "isOriginalCertified": false,
+      "description": "Charol negro con textura de fibra de carbono sobre paneles color hueso.",
+      "details": {
+        "condition": "En caja",
+        "colorway": "Sail / Black",
+        "includedItems": [
+          "Caja"
+        ]
+      },
+      "viewsCount": 0,
+      "inquiriesCount": 0,
+      "createdAt": "2026-08-26T15:18:01.924Z",
+      "updatedAt": "2026-08-26T15:18:01.924Z"
+    },
+    {
+      "id": "sneaker-jordan-1-mid-multicolor",
+      "name": "Air Jordan 1 Mid Multi-Color",
+      "brand": "Jordan",
+      "model": "Air Jordan 1 Mid Multi-Color",
+      "sku": "PAPI-6614",
+      "category": "general",
+      "gender": "unisex",
+      "price": 180000,
+      "originalPrice": 210000,
+      "images": [
+        "/catalogo/sneakers/jordan/jordan-1-mid-multicolor.jpg"
+      ],
+      "sizes": [
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "status": "disponible",
+      "isFeatured": false,
+      "isNewArrival": true,
+      "isOriginalCertified": false,
+      "description": "Cada panel de un color sobre base negra, con la suela en franjas de colores.",
+      "details": {
+        "condition": "En caja",
+        "colorway": "Black / Multi-Color",
+        "includedItems": [
+          "Caja"
+        ]
+      },
+      "viewsCount": 0,
+      "inquiriesCount": 0,
+      "createdAt": "2026-08-26T15:18:01.924Z",
+      "updatedAt": "2026-08-26T15:18:01.924Z"
+    },
+    {
       "id": "sneaker-jordan-1-mid-panda",
       "name": "Air Jordan 1 Mid Panda",
       "brand": "Jordan",
@@ -2332,6 +2812,86 @@
       "inquiriesCount": 0,
       "createdAt": "2026-08-13T19:36:10.000Z",
       "updatedAt": "2026-08-13T19:36:10.000Z"
+    },
+    {
+      "id": "sneaker-jordan-1-mid-pollen",
+      "name": "Air Jordan 1 Mid Pollen",
+      "brand": "Jordan",
+      "model": "Air Jordan 1 Mid Pollen",
+      "sku": "PAPI-1136",
+      "category": "general",
+      "gender": "unisex",
+      "price": 180000,
+      "originalPrice": 210000,
+      "images": [
+        "/catalogo/sneakers/jordan/jordan-1-mid-pollen.jpg"
+      ],
+      "sizes": [
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "status": "disponible",
+      "isFeatured": false,
+      "isNewArrival": true,
+      "isOriginalCertified": false,
+      "description": "Charol negro y cuero blanco con el Swoosh y las alas en amarillo pollen.",
+      "details": {
+        "condition": "En caja",
+        "colorway": "White / Black / Pollen",
+        "includedItems": [
+          "Caja"
+        ]
+      },
+      "viewsCount": 0,
+      "inquiriesCount": 0,
+      "createdAt": "2026-08-26T15:18:01.924Z",
+      "updatedAt": "2026-08-26T15:18:01.924Z"
+    },
+    {
+      "id": "sneaker-jordan-1-mid-unc",
+      "name": "Air Jordan 1 Mid UNC",
+      "brand": "Jordan",
+      "model": "Air Jordan 1 Mid UNC",
+      "sku": "PAPI-1427",
+      "category": "general",
+      "gender": "unisex",
+      "price": 180000,
+      "originalPrice": 210000,
+      "images": [
+        "/catalogo/sneakers/jordan/jordan-1-mid-unc.jpg"
+      ],
+      "sizes": [
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "status": "disponible",
+      "isFeatured": false,
+      "isNewArrival": true,
+      "isOriginalCertified": false,
+      "description": "Charol azul universitario sobre cuero crema, con suela azul.",
+      "details": {
+        "condition": "En caja",
+        "colorway": "Sail / University Blue",
+        "includedItems": [
+          "Caja"
+        ]
+      },
+      "viewsCount": 0,
+      "inquiriesCount": 0,
+      "createdAt": "2026-08-26T15:18:01.924Z",
+      "updatedAt": "2026-08-26T15:18:01.924Z"
     },
     {
       "id": "sneaker-jordan-1-retro-light-pink",
@@ -2374,6 +2934,46 @@
       "updatedAt": "2026-08-13T19:36:10.000Z"
     },
     {
+      "id": "sneaker-jordan-1-retro-high-charol-negro",
+      "name": "Air Jordan 1 Retro High",
+      "brand": "Jordan",
+      "model": "Air Jordan 1 Retro High",
+      "sku": "PAPI-3139",
+      "category": "general",
+      "gender": "unisex",
+      "price": 180000,
+      "originalPrice": 210000,
+      "images": [
+        "/catalogo/sneakers/jordan/jordan-1-retro-high-charol-negro.jpg"
+      ],
+      "sizes": [
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "status": "disponible",
+      "isFeatured": false,
+      "isNewArrival": true,
+      "isOriginalCertified": false,
+      "description": "High en charol negro con la suela en rojo infrarrojo.",
+      "details": {
+        "condition": "En caja",
+        "colorway": "Black Patent / Infrared",
+        "includedItems": [
+          "Caja"
+        ]
+      },
+      "viewsCount": 0,
+      "inquiriesCount": 0,
+      "createdAt": "2026-08-26T15:18:01.924Z",
+      "updatedAt": "2026-08-26T15:18:01.924Z"
+    },
+    {
       "id": "sneaker-jordan-1-retro-high-85-black-white",
       "name": "Air Jordan 1 Retro High '85",
       "brand": "Jordan",
@@ -2384,7 +2984,8 @@
       "price": 180000,
       "originalPrice": 210000,
       "images": [
-        "/catalogo/sneakers/jordan/jordan-1-retro-high-85-black-white.jpg"
+        "/catalogo/sneakers/jordan/jordan-1-retro-high-85-black-white.jpg",
+        "/catalogo/sneakers/jordan/jordan-1-retro-high-85-black-white_2.jpg"
       ],
       "sizes": [
         37,
@@ -2574,6 +3175,86 @@
       "updatedAt": "2026-08-13T19:36:10.000Z"
     },
     {
+      "id": "sneaker-jordan-1-retro-high-og-blanco-rojo",
+      "name": "Air Jordan 1 Retro High OG",
+      "brand": "Jordan",
+      "model": "Air Jordan 1 Retro High OG",
+      "sku": "PAPI-8510",
+      "category": "general",
+      "gender": "unisex",
+      "price": 180000,
+      "originalPrice": 210000,
+      "images": [
+        "/catalogo/sneakers/jordan/jordan-1-retro-high-og-blanco-rojo.jpg"
+      ],
+      "sizes": [
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "status": "disponible",
+      "isFeatured": false,
+      "isNewArrival": true,
+      "isOriginalCertified": false,
+      "description": "High OG en cuero blanco y rojo, sin negro. La lectura más limpia del Jordan 1.",
+      "details": {
+        "condition": "En caja",
+        "colorway": "White / Varsity Red",
+        "includedItems": [
+          "Caja"
+        ]
+      },
+      "viewsCount": 0,
+      "inquiriesCount": 0,
+      "createdAt": "2026-08-26T15:18:01.924Z",
+      "updatedAt": "2026-08-26T15:18:01.924Z"
+    },
+    {
+      "id": "sneaker-jordan-1-retro-high-og-lucky-green",
+      "name": "Air Jordan 1 Retro High OG Lucky Green",
+      "brand": "Jordan",
+      "model": "Air Jordan 1 Retro High OG Lucky Green",
+      "sku": "PAPI-9861",
+      "category": "general",
+      "gender": "unisex",
+      "price": 180000,
+      "originalPrice": 210000,
+      "images": [
+        "/catalogo/sneakers/jordan/jordan-1-retro-high-og-lucky-green.jpg"
+      ],
+      "sizes": [
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "status": "disponible",
+      "isFeatured": false,
+      "isNewArrival": true,
+      "isOriginalCertified": false,
+      "description": "Verde Celtics con negro y blanco, cordones verdes y suela verde.",
+      "details": {
+        "condition": "En caja",
+        "colorway": "Lucky Green / Black / White",
+        "includedItems": [
+          "Caja"
+        ]
+      },
+      "viewsCount": 0,
+      "inquiriesCount": 0,
+      "createdAt": "2026-08-26T15:18:01.924Z",
+      "updatedAt": "2026-08-26T15:18:01.924Z"
+    },
+    {
       "id": "sneaker-jordan-1-retro-high-og-obsidian-unc",
       "name": "Air Jordan 1 Retro High OG Obsidian UNC",
       "brand": "Jordan",
@@ -2624,7 +3305,8 @@
       "price": 180000,
       "originalPrice": 210000,
       "images": [
-        "/catalogo/sneakers/jordan/jordan-1-retro-high-og-patent-bred.jpg"
+        "/catalogo/sneakers/jordan/jordan-1-retro-high-og-patent-bred.jpg",
+        "/catalogo/sneakers/jordan/jordan-1-retro-high-og-patent-bred_2.jpg"
       ],
       "sizes": [
         37,
@@ -2995,7 +3677,7 @@
         44
       ],
       "status": "disponible",
-      "isFeatured": true,
+      "isFeatured": false,
       "isNewArrival": true,
       "isOriginalCertified": false,
       "description": "La 11 alta en gris medio con el charol gris oscuro, mediasuela blanca y suela hielo.",
@@ -3033,7 +3715,7 @@
         44
       ],
       "status": "disponible",
-      "isFeatured": true,
+      "isFeatured": false,
       "isNewArrival": true,
       "isOriginalCertified": false,
       "description": "La 11 en malla y charol negro, con el Jumpman en jade, las letras doradas en el cordón y la suela hielo.",
@@ -4450,7 +5132,7 @@
         44
       ],
       "status": "disponible",
-      "isFeatured": true,
+      "isFeatured": false,
       "isNewArrival": true,
       "isOriginalCertified": false,
       "description": "La Gel-Kayano 14 en malla crema con los paneles plateados, las rayas negras y el gel visible en el talón.",
@@ -7481,6 +8163,82 @@
       "updatedAt": "2026-08-14T15:26:27.178Z"
     },
     {
+      "id": "sneaker-christian-dior-b30-blanco",
+      "name": "Christian Dior B30",
+      "brand": "Otras",
+      "model": "Christian Dior B30",
+      "sku": "PAPI-1570",
+      "category": "general",
+      "gender": "hombre",
+      "price": 190000,
+      "originalPrice": 230000,
+      "images": [
+        "/catalogo/sneakers/otras/hombre/christian-dior-b30-blanco.jpg"
+      ],
+      "sizes": [
+        39,
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "status": "disponible",
+      "isFeatured": true,
+      "isNewArrival": true,
+      "isOriginalCertified": false,
+      "description": "B30 en blanco y crema con detalles topo y suela acanalada.",
+      "details": {
+        "condition": "En caja",
+        "colorway": "White / Cream",
+        "includedItems": [
+          "Caja"
+        ]
+      },
+      "viewsCount": 0,
+      "inquiriesCount": 0,
+      "createdAt": "2026-08-26T15:18:01.924Z",
+      "updatedAt": "2026-08-26T15:18:01.924Z"
+    },
+    {
+      "id": "sneaker-christian-dior-b30-negro-gris",
+      "name": "Christian Dior B30",
+      "brand": "Otras",
+      "model": "Christian Dior B30",
+      "sku": "PAPI-1220",
+      "category": "general",
+      "gender": "hombre",
+      "price": 190000,
+      "originalPrice": 230000,
+      "images": [
+        "/catalogo/sneakers/otras/hombre/christian-dior-b30-negro-gris.jpg"
+      ],
+      "sizes": [
+        39,
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "status": "disponible",
+      "isFeatured": true,
+      "isNewArrival": true,
+      "isOriginalCertified": false,
+      "description": "La B30 en malla negra con capas grises y mediasuela blanca.",
+      "details": {
+        "condition": "En caja",
+        "colorway": "Black / Grey / White",
+        "includedItems": [
+          "Caja"
+        ]
+      },
+      "viewsCount": 0,
+      "inquiriesCount": 0,
+      "createdAt": "2026-08-26T15:18:01.924Z",
+      "updatedAt": "2026-08-26T15:18:01.924Z"
+    },
+    {
       "id": "sneaker-christian-dior-running",
       "name": "Christian Dior Running",
       "brand": "Otras",
@@ -7491,7 +8249,8 @@
       "price": 190000,
       "originalPrice": 230000,
       "images": [
-        "/catalogo/sneakers/otras/christian-dior-running.jpg"
+        "/catalogo/sneakers/otras/christian-dior-running.jpg",
+        "/catalogo/sneakers/otras/christian-dior-running_2.jpg"
       ],
       "sizes": [
         37,
@@ -9992,7 +10751,7 @@
         39
       ],
       "status": "disponible",
-      "isFeatured": true,
+      "isFeatured": false,
       "isNewArrival": true,
       "isOriginalCertified": false,
       "description": "La 530 en malla blanca con las capas en morado iridiscente y la mediasuela ABZORB blanca.",
@@ -10029,7 +10788,7 @@
         39
       ],
       "status": "disponible",
-      "isFeatured": true,
+      "isFeatured": false,
       "isNewArrival": true,
       "isOriginalCertified": false,
       "description": "La 530 en bloques de rosado, verde y naranja, con la malla naranja en el talón y la mediasuela crema.",
@@ -10627,7 +11386,7 @@
         44
       ],
       "status": "disponible",
-      "isFeatured": true,
+      "isFeatured": false,
       "isNewArrival": true,
       "isOriginalCertified": false,
       "description": "La 9060 en gamuza crema y gris, con la N plateada y la mediasuela ondulada en crema.",
@@ -11062,7 +11821,7 @@
         44
       ],
       "status": "disponible",
-      "isFeatured": true,
+      "isFeatured": false,
       "isNewArrival": true,
       "isOriginalCertified": false,
       "description": "La AF1 en cuero crema con el swoosh verde oscuro, el forro en amarillo mostaza y suela de goma caramelo.",
@@ -14235,6 +14994,46 @@
       "updatedAt": "2026-08-13T18:57:45.000Z"
     },
     {
+      "id": "sneaker-nike-dunk-low-teddy-bear",
+      "name": "Nike Dunk Low Teddy Bear",
+      "brand": "Nike",
+      "model": "Nike Dunk Low Teddy Bear",
+      "sku": "PAPI-3949",
+      "category": "general",
+      "gender": "unisex",
+      "price": 180000,
+      "originalPrice": 210000,
+      "images": [
+        "/catalogo/sneakers/nike/nike-dunk-low-teddy-bear.jpg"
+      ],
+      "sizes": [
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "status": "disponible",
+      "isFeatured": false,
+      "isNewArrival": true,
+      "isOriginalCertified": false,
+      "description": "Dunk en gamuza crema y tan con el parche del osito en el talón y suela moteada.",
+      "details": {
+        "condition": "En caja",
+        "colorway": "Sail / Tan",
+        "includedItems": [
+          "Caja"
+        ]
+      },
+      "viewsCount": 0,
+      "inquiriesCount": 0,
+      "createdAt": "2026-08-26T15:18:01.924Z",
+      "updatedAt": "2026-08-26T15:18:01.924Z"
+    },
+    {
       "id": "sneaker-nike-dunk-low-unc",
       "name": "Nike Dunk Low UNC",
       "brand": "Nike",
@@ -15629,6 +16428,286 @@
       "updatedAt": "2026-08-13T18:57:45.000Z"
     },
     {
+      "id": "sneaker-nike-sb-dunk-low-black-gum",
+      "name": "Nike SB Dunk Low",
+      "brand": "Nike",
+      "model": "Nike SB Dunk Low",
+      "sku": "PAPI-9354",
+      "category": "general",
+      "gender": "unisex",
+      "price": 180000,
+      "originalPrice": 210000,
+      "images": [
+        "/catalogo/sneakers/nike/nike-sb-dunk-low-black-gum.jpg"
+      ],
+      "sizes": [
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "status": "disponible",
+      "isFeatured": false,
+      "isNewArrival": true,
+      "isOriginalCertified": false,
+      "description": "SB en nobuk negro con Swoosh blanco y suela color gum.",
+      "details": {
+        "condition": "En caja",
+        "colorway": "Black / White / Gum",
+        "includedItems": [
+          "Caja"
+        ]
+      },
+      "viewsCount": 0,
+      "inquiriesCount": 0,
+      "createdAt": "2026-08-26T15:18:01.924Z",
+      "updatedAt": "2026-08-26T15:18:01.924Z"
+    },
+    {
+      "id": "sneaker-nike-sb-dunk-low-charol-negro",
+      "name": "Nike SB Dunk Low",
+      "brand": "Nike",
+      "model": "Nike SB Dunk Low",
+      "sku": "PAPI-1309",
+      "category": "general",
+      "gender": "unisex",
+      "price": 180000,
+      "originalPrice": 210000,
+      "images": [
+        "/catalogo/sneakers/nike/nike-sb-dunk-low-charol-negro.jpg"
+      ],
+      "sizes": [
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "status": "disponible",
+      "isFeatured": false,
+      "isNewArrival": true,
+      "isOriginalCertified": false,
+      "description": "SB en charol negro con mediasuela blanca y suela translúcida.",
+      "details": {
+        "condition": "En caja",
+        "colorway": "Black Patent / Ice",
+        "includedItems": [
+          "Caja"
+        ]
+      },
+      "viewsCount": 0,
+      "inquiriesCount": 0,
+      "createdAt": "2026-08-26T15:18:01.924Z",
+      "updatedAt": "2026-08-26T15:18:01.924Z"
+    },
+    {
+      "id": "sneaker-nike-sb-dunk-low-gris-crema",
+      "name": "Nike SB Dunk Low",
+      "brand": "Nike",
+      "model": "Nike SB Dunk Low",
+      "sku": "PAPI-1406",
+      "category": "general",
+      "gender": "unisex",
+      "price": 180000,
+      "originalPrice": 210000,
+      "images": [
+        "/catalogo/sneakers/nike/nike-sb-dunk-low-gris-crema.jpg"
+      ],
+      "sizes": [
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "status": "disponible",
+      "isFeatured": false,
+      "isNewArrival": true,
+      "isOriginalCertified": false,
+      "description": "SB gris y crema con talón en gamuza óxido, cuello rosado y suela café.",
+      "details": {
+        "condition": "En caja",
+        "colorway": "Grey / Sail / Brown",
+        "includedItems": [
+          "Caja"
+        ]
+      },
+      "viewsCount": 0,
+      "inquiriesCount": 0,
+      "createdAt": "2026-08-26T15:18:01.924Z",
+      "updatedAt": "2026-08-26T15:18:01.924Z"
+    },
+    {
+      "id": "sneaker-nike-sb-dunk-low-talon-morado",
+      "name": "Nike SB Dunk Low",
+      "brand": "Nike",
+      "model": "Nike SB Dunk Low",
+      "sku": "PAPI-8014",
+      "category": "general",
+      "gender": "unisex",
+      "price": 180000,
+      "originalPrice": 210000,
+      "images": [
+        "/catalogo/sneakers/nike/nike-sb-dunk-low-talon-morado.jpg"
+      ],
+      "sizes": [
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "status": "disponible",
+      "isFeatured": false,
+      "isNewArrival": true,
+      "isOriginalCertified": false,
+      "description": "Cuero hueso con gamuza negra, talón morado y etiqueta naranja.",
+      "details": {
+        "condition": "En caja",
+        "colorway": "Sail / Black / Purple",
+        "includedItems": [
+          "Caja"
+        ]
+      },
+      "viewsCount": 0,
+      "inquiriesCount": 0,
+      "createdAt": "2026-08-26T15:18:01.924Z",
+      "updatedAt": "2026-08-26T15:18:01.924Z"
+    },
+    {
+      "id": "sneaker-nike-sb-dunk-low-white-gum",
+      "name": "Nike SB Dunk Low",
+      "brand": "Nike",
+      "model": "Nike SB Dunk Low",
+      "sku": "PAPI-1350",
+      "category": "general",
+      "gender": "unisex",
+      "price": 180000,
+      "originalPrice": 210000,
+      "images": [
+        "/catalogo/sneakers/nike/nike-sb-dunk-low-white-gum.jpg"
+      ],
+      "sizes": [
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "status": "disponible",
+      "isFeatured": false,
+      "isNewArrival": true,
+      "isOriginalCertified": false,
+      "description": "SB en cuero blanco con Swoosh negro y suela color gum.",
+      "details": {
+        "condition": "En caja",
+        "colorway": "White / Black / Gum",
+        "includedItems": [
+          "Caja"
+        ]
+      },
+      "viewsCount": 0,
+      "inquiriesCount": 0,
+      "createdAt": "2026-08-26T15:18:01.924Z",
+      "updatedAt": "2026-08-26T15:18:01.924Z"
+    },
+    {
+      "id": "sneaker-nike-sb-dunk-low-bear",
+      "name": "Nike SB Dunk Low Bear",
+      "brand": "Nike",
+      "model": "Nike SB Dunk Low Bear",
+      "sku": "PAPI-2184",
+      "category": "general",
+      "gender": "unisex",
+      "price": 180000,
+      "originalPrice": 210000,
+      "images": [
+        "/catalogo/sneakers/nike/nike-sb-dunk-low-bear.jpg"
+      ],
+      "sizes": [
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "status": "disponible",
+      "isFeatured": false,
+      "isNewArrival": true,
+      "isOriginalCertified": false,
+      "description": "SB en gris hueso y café con la cara del oso dibujada en el talón.",
+      "details": {
+        "condition": "En caja",
+        "colorway": "Light Bone / Brown",
+        "includedItems": [
+          "Caja"
+        ]
+      },
+      "viewsCount": 0,
+      "inquiriesCount": 0,
+      "createdAt": "2026-08-26T15:18:01.924Z",
+      "updatedAt": "2026-08-26T15:18:01.924Z"
+    },
+    {
+      "id": "sneaker-nike-sb-dunk-low-legion-pine",
+      "name": "Nike SB Dunk Low Legion Pine",
+      "brand": "Nike",
+      "model": "Nike SB Dunk Low Legion Pine",
+      "sku": "PAPI-1105",
+      "category": "general",
+      "gender": "unisex",
+      "price": 180000,
+      "originalPrice": 210000,
+      "images": [
+        "/catalogo/sneakers/nike/nike-sb-dunk-low-legion-pine.jpg"
+      ],
+      "sizes": [
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "status": "disponible",
+      "isFeatured": false,
+      "isNewArrival": true,
+      "isOriginalCertified": false,
+      "description": "Gamuza verde pino sobre crema, con el contorno del Swoosh en naranja.",
+      "details": {
+        "condition": "En caja",
+        "colorway": "Pine Green / Sail / Orange",
+        "includedItems": [
+          "Caja"
+        ]
+      },
+      "viewsCount": 0,
+      "inquiriesCount": 0,
+      "createdAt": "2026-08-26T15:18:01.924Z",
+      "updatedAt": "2026-08-26T15:18:01.924Z"
+    },
+    {
       "id": "sneaker-nike-sb-dunk-low-stellar",
       "name": "Nike SB Dunk Low Stellar",
       "brand": "Nike",
@@ -15679,7 +16758,8 @@
       "price": 180000,
       "originalPrice": 210000,
       "images": [
-        "/catalogo/sneakers/nike/nike-sb-dunk-low-x-jarritos.jpg"
+        "/catalogo/sneakers/nike/nike-sb-dunk-low-x-jarritos.jpg",
+        "/catalogo/sneakers/nike/nike-sb-dunk-low-x-jarritos_2.jpg"
       ],
       "sizes": [
         37,
@@ -15707,6 +16787,86 @@
       "inquiriesCount": 0,
       "createdAt": "2026-08-13T18:57:45.000Z",
       "updatedAt": "2026-08-13T18:57:45.000Z"
+    },
+    {
+      "id": "sneaker-nike-sb-dunk-low-x-parra",
+      "name": "Nike SB Dunk Low x Parra",
+      "brand": "Nike",
+      "model": "Nike SB Dunk Low x Parra",
+      "sku": "PAPI-1673",
+      "category": "general",
+      "gender": "unisex",
+      "price": 180000,
+      "originalPrice": 210000,
+      "images": [
+        "/catalogo/sneakers/nike/nike-sb-dunk-low-x-parra.jpg"
+      ],
+      "sizes": [
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "status": "disponible",
+      "isFeatured": false,
+      "isNewArrival": true,
+      "isOriginalCertified": false,
+      "description": "Cuero blanco con el Swoosh en degradado rosado, vino y azul de Parra.",
+      "details": {
+        "condition": "En caja",
+        "colorway": "White / Pink / Blue",
+        "includedItems": [
+          "Caja"
+        ]
+      },
+      "viewsCount": 0,
+      "inquiriesCount": 0,
+      "createdAt": "2026-08-26T15:18:01.924Z",
+      "updatedAt": "2026-08-26T15:18:01.924Z"
+    },
+    {
+      "id": "sneaker-nike-sb-dunk-low-x-tightbooth",
+      "name": "Nike SB Dunk Low x TIGHTBOOTH",
+      "brand": "Nike",
+      "model": "Nike SB Dunk Low x TIGHTBOOTH",
+      "sku": "PAPI-1595",
+      "category": "general",
+      "gender": "unisex",
+      "price": 180000,
+      "originalPrice": 210000,
+      "images": [
+        "/catalogo/sneakers/nike/nike-sb-dunk-low-x-tightbooth.jpg"
+      ],
+      "sizes": [
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "status": "disponible",
+      "isFeatured": false,
+      "isNewArrival": true,
+      "isOriginalCertified": false,
+      "description": "Paneles blancos con relieve sobre gamuza negra, etiqueta naranja y plantilla amarilla de la colaboración.",
+      "details": {
+        "condition": "En caja",
+        "colorway": "White / Black",
+        "includedItems": [
+          "Caja"
+        ]
+      },
+      "viewsCount": 0,
+      "inquiriesCount": 0,
+      "createdAt": "2026-08-26T15:18:01.924Z",
+      "updatedAt": "2026-08-26T15:18:01.924Z"
     },
     {
       "id": "sneaker-nike-sb-dunk-super-brown",

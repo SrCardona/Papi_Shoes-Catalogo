@@ -98,5 +98,17 @@
     "colorway": "Grey / White / Gum",
     "sizes": "39-44",
     "description": "Silueta baja de cancha en gamuza gris con el panel en V blanco, mediasuela crema y suela de goma caramelo."
+  },
+  "christian-dior-b30-negro-gris": {
+    "name": "Christian Dior B30",
+    "colorway": "Black / Grey / White",
+    "description": "La B30 en malla negra con capas grises y mediasuela blanca.",
+    "sizes": "39-44"
+  },
+  "christian-dior-b30-blanco": {
+    "name": "Christian Dior B30",
+    "colorway": "White / Cream",
+    "description": "B30 en blanco y crema con detalles topo y suela acanalada.",
+    "sizes": "39-44"
   }
 }

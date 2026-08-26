@@ -287,5 +287,70 @@
     "colorway": "Pink / Mocha / Sail",
     "sizes": "35-39",
     "description": "La 1 baja en bloques de rosado, durazno y crema, con el swoosh mocha y la suela caramelo."
+  },
+  "jordan-1-mid-charol-negro": {
+    "name": "Air Jordan 1 Mid",
+    "colorway": "Black Patent / Ice Blue",
+    "description": "Mid en charol negro de pared a pared, con suela translúcida azul hielo."
+  },
+  "jordan-1-mid-multicolor": {
+    "name": "Air Jordan 1 Mid Multi-Color",
+    "colorway": "Black / Multi-Color",
+    "description": "Cada panel de un color sobre base negra, con la suela en franjas de colores."
+  },
+  "jordan-1-mid-banned": {
+    "name": "Air Jordan 1 Mid Banned",
+    "colorway": "Black / Gym Red",
+    "description": "El Banned en Mid: cuero negro, cuello y punta en rojo, cordones rojos."
+  },
+  "jordan-1-mid-carbon-fiber": {
+    "name": "Air Jordan 1 Mid Carbon Fiber",
+    "colorway": "Sail / Black",
+    "description": "Charol negro con textura de fibra de carbono sobre paneles color hueso."
+  },
+  "jordan-1-mid-pollen": {
+    "name": "Air Jordan 1 Mid Pollen",
+    "colorway": "White / Black / Pollen",
+    "description": "Charol negro y cuero blanco con el Swoosh y las alas en amarillo pollen."
+  },
+  "jordan-1-retro-high-og-blanco-rojo": {
+    "name": "Air Jordan 1 Retro High OG",
+    "colorway": "White / Varsity Red",
+    "description": "High OG en cuero blanco y rojo, sin negro. La lectura más limpia del Jordan 1."
+  },
+  "jordan-1-retro-high-charol-negro": {
+    "name": "Air Jordan 1 Retro High",
+    "colorway": "Black Patent / Infrared",
+    "description": "High en charol negro con la suela en rojo infrarrojo."
+  },
+  "jordan-1-mid-unc": {
+    "name": "Air Jordan 1 Mid UNC",
+    "colorway": "Sail / University Blue",
+    "description": "Charol azul universitario sobre cuero crema, con suela azul."
+  },
+  "jordan-1-mid-charol-hielo": {
+    "name": "Air Jordan 1 Mid",
+    "colorway": "Ice Blue / Black Patent",
+    "description": "Paneles azul hielo con charol negro y las alas bordadas en dorado."
+  },
+  "jordan-1-mid-azul-rey": {
+    "name": "Air Jordan 1 Mid",
+    "colorway": "Royal Blue / Black",
+    "description": "Mid en azul rey con paneles negros y suela azul."
+  },
+  "jordan-1-retro-high-og-lucky-green": {
+    "name": "Air Jordan 1 Retro High OG Lucky Green",
+    "colorway": "Lucky Green / Black / White",
+    "description": "Verde Celtics con negro y blanco, cordones verdes y suela verde."
+  },
+  "jordan-1-low-patent-bred": {
+    "name": "Air Jordan 1 Low Patent Bred",
+    "colorway": "Black / Varsity Red",
+    "description": "El Bred en charol, en corte Low: negro y rojo brillante con suela roja."
+  },
+  "jordan-1-low-triple-white": {
+    "name": "Air Jordan 1 Low Triple White",
+    "colorway": "Triple White",
+    "description": "Low en cuero blanco de pared a pared, sin un solo contraste."
   }
 }

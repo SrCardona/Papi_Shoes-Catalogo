@@ -202,12 +202,35 @@ empiece por `_`, así que lo que esté ahí nunca sale publicado.
    que no esté dentro de `<linea>/<marca>/`. El dueño las suele dejar en
    `public/catalogo/sneakers/`, y ahí el generador las publicaría como pares
    "Otras" con nombre de WhatsApp.
-2. **Duplicados, antes de preguntar nada.** `npm run entrada` compara el
-   SHA-256 de cada foto contra todo `public/catalogo/` y contra la propia
-   bandeja. Las duplicadas **no se procesan**: se quedan en `_entrada/`, se
-   reportan contra qué chocan y las borra el dueño. El hash solo detecta
-   archivos idénticos; no se agrega comparación perceptual sin permiso, porque
-   un falso positivo descartaría un colorway parecido pero distinto.
+2. **Clasificar antes de preguntar nada: tres casos, no dos.** `npm run entrada`
+   compara el SHA-256 de cada foto contra todo `public/catalogo/` y contra la
+   propia bandeja. Ese hash solo separa el caso A de los otros dos; el resto se
+   decide mirando la foto. No se agrega comparación perceptual sin permiso,
+   porque un falso positivo descartaría un colorway parecido pero distinto.
+
+   - **Caso A — archivo idéntico** (mismo SHA-256 que una foto ya publicada).
+     Es la misma foto, ya está. **No se procesa**: se queda en `_entrada/`, se
+     reporta contra qué choca y la borra el dueño.
+   - **Caso B — foto distinta de un par que ya está en el catálogo.** **No se
+     descarta**, que es el error viejo: entra como foto adicional del par, con
+     sufijo de guion bajo (`nombre_2.jpg`, `_3.jpg`, el siguiente libre). Es el
+     caso más común —otro ángulo, otra luz, en caja, puesto, la suela— y todas
+     suman. Va en la **misma** carpeta que la original (misma línea, marca y
+     horma): no se pregunta marca ni horma, ya las define el par. **No se agrega
+     nada a `ajustes/<marca>.json`**, que el par ya está registrado. La portada
+     es la foto sin sufijo y no se toca: si la nueva se ve mejor de portada, se
+     **pregunta** antes de renumerar.
+   - **Caso C — par que no existe.** Flujo normal: se pregunta marca, nombre y
+     horma, y se crea.
+
+   Para decidir entre B y C se mira la foto, se identifica modelo y colorway y
+   se compara contra `src/data/catalogoGenerado.ts` y las carpetas de
+   `public/catalogo/`. Cuando parezca el mismo par que uno existente, **se
+   muestran los dos y se pregunta antes de agrupar**. Ante la duda van
+   separados y se avisa: dos colorways del mismo modelo se parecen muchísimo
+   —un Stan Smith de talón verde y otro de talón azul son dos pares, no dos
+   fotos— y agrupar mal borra un producto del catálogo. Separar de más solo
+   deja un par repetido, que se une después; agrupar de más pierde inventario.
 3. **Preguntar foto por foto.** Mirar cada imagen y proponer marca, nombre,
    colorway y línea; si el nombre del archivo ya dice el modelo, usarlo de base.
    **La horma siempre se pregunta, nunca se deduce de la foto ni del color.** Si
@@ -230,7 +253,14 @@ empiece por `_`, así que lo que esté ahí nunca sale publicado.
    marca "Otras" para corregir, y confirmar que `_entrada/` quedó vacía.
 7. **Cerrar.** Un commit con el resumen de lo agregado.
 
-Nunca: inventar la horma, sobrescribir una foto, procesar un duplicado o editar
+Después de generar se comprueba la agrupación: que cada par con varias fotos
+sea **un** producto con todas sus fotos en `images`, que el total de productos no
+haya crecido por las fotos adicionales y que toda ruta de imagen exista en disco.
+Si un par quedó partido en dos por un error de nombre, se arregla y se dice qué
+pasó.
+
+Nunca: inventar la horma, sobrescribir una foto, agrupar dos colorways distintos
+como un mismo par, procesar un archivo idéntico o editar
 `src/data/catalogoGenerado.ts` a mano.
 
 ### Recuadro del proveedor

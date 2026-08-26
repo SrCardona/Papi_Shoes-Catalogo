@@ -589,5 +589,55 @@
     "colorway": "Black / White / Red",
     "sizes": "39-44",
     "description": "La Internationalist en negro con el swoosh blanco, el cuello rojo y la mediasuela blanca."
+  },
+  "nike-dunk-low-teddy-bear": {
+    "name": "Nike Dunk Low Teddy Bear",
+    "colorway": "Sail / Tan",
+    "description": "Dunk en gamuza crema y tan con el parche del osito en el talón y suela moteada."
+  },
+  "nike-sb-dunk-low-x-tightbooth": {
+    "name": "Nike SB Dunk Low x TIGHTBOOTH",
+    "colorway": "White / Black",
+    "description": "Paneles blancos con relieve sobre gamuza negra, etiqueta naranja y plantilla amarilla de la colaboración."
+  },
+  "nike-sb-dunk-low-gris-crema": {
+    "name": "Nike SB Dunk Low",
+    "colorway": "Grey / Sail / Brown",
+    "description": "SB gris y crema con talón en gamuza óxido, cuello rosado y suela café."
+  },
+  "nike-sb-dunk-low-black-gum": {
+    "name": "Nike SB Dunk Low",
+    "colorway": "Black / White / Gum",
+    "description": "SB en nobuk negro con Swoosh blanco y suela color gum."
+  },
+  "nike-sb-dunk-low-white-gum": {
+    "name": "Nike SB Dunk Low",
+    "colorway": "White / Black / Gum",
+    "description": "SB en cuero blanco con Swoosh negro y suela color gum."
+  },
+  "nike-sb-dunk-low-bear": {
+    "name": "Nike SB Dunk Low Bear",
+    "colorway": "Light Bone / Brown",
+    "description": "SB en gris hueso y café con la cara del oso dibujada en el talón."
+  },
+  "nike-sb-dunk-low-legion-pine": {
+    "name": "Nike SB Dunk Low Legion Pine",
+    "colorway": "Pine Green / Sail / Orange",
+    "description": "Gamuza verde pino sobre crema, con el contorno del Swoosh en naranja."
+  },
+  "nike-sb-dunk-low-x-parra": {
+    "name": "Nike SB Dunk Low x Parra",
+    "colorway": "White / Pink / Blue",
+    "description": "Cuero blanco con el Swoosh en degradado rosado, vino y azul de Parra."
+  },
+  "nike-sb-dunk-low-charol-negro": {
+    "name": "Nike SB Dunk Low",
+    "colorway": "Black Patent / Ice",
+    "description": "SB en charol negro con mediasuela blanca y suela translúcida."
+  },
+  "nike-sb-dunk-low-talon-morado": {
+    "name": "Nike SB Dunk Low",
+    "colorway": "Sail / Black / Purple",
+    "description": "Cuero hueso con gamuza negra, talón morado y etiqueta naranja."
   }
 }

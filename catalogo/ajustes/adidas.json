@@ -248,5 +248,25 @@
     "name": "Adidas Superstar",
     "colorway": "Core Black",
     "description": "Superstar entero en negro, rayas incluidas. Punta de concha y suela al tono."
+  },
+  "adidas-badbo-x-bad-bunny-negro": {
+    "name": "Adidas BADBO x Bad Bunny",
+    "colorway": "Core Black",
+    "description": "La BADBO de Bad Bunny en negro total: gamuza, paneles triangulares y suela ondulada color gum."
+  },
+  "adidas-badbo-x-bad-bunny-cafe": {
+    "name": "Adidas BADBO x Bad Bunny",
+    "colorway": "Brown / Chocolate / Cream",
+    "description": "BADBO en gamuza café y chocolate sobre crema, con mediasuela ondulada blanca."
+  },
+  "adidas-badbo-x-bad-bunny-blanco": {
+    "name": "Adidas BADBO x Bad Bunny",
+    "colorway": "Cloud White / Black / Blue",
+    "description": "BADBO en gamuza blanca con cuello negro y detalles azules, suela color gum."
+  },
+  "adidas-samba-xl-negro": {
+    "name": "Adidas Samba XL",
+    "colorway": "Core Black / White / Gum",
+    "description": "La Samba montada sobre plataforma XL: mismo cuero negro con las tres bandas, suela gum más alta."
   }
 }
