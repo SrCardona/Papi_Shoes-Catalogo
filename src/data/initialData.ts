@@ -49,8 +49,8 @@ export const INITIAL_SETTINGS: StoreSettings = {
      emergente, y aparece en cada entrada directa al sitio. */
   popupAnnouncement: {
     enabled: true,
-    image: '/anuncios/chiva-rumbera-05-septiembre.jpg',
-    alt: 'Chiva Rumbera Vuelta Oriente, 5 de septiembre. Cover general 40K, grupo de 3 o más mujeres 35K. Recogida en CAI Playón a las 11:00 p. m.',
+    image: '/anuncios/promo-mes-amistad-septiembre.jpg',
+    alt: 'Mes del Amor y la Amistad, septiembre: 22% de descuento en todos los tenis de la página web. Porque el amor también se vive con estilo.',
   },
 };
 
