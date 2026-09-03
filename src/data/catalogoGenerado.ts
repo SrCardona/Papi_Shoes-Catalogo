@@ -157,7 +157,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       44
     ],
     "status": "disponible",
-    "isFeatured": true,
+    "isFeatured": false,
     "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "BADBO en gamuza blanca con cuello negro y detalles azules, suela color gum.",
@@ -197,7 +197,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       44
     ],
     "status": "disponible",
-    "isFeatured": true,
+    "isFeatured": false,
     "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "BADBO en gamuza café y chocolate sobre crema, con mediasuela ondulada blanca.",
@@ -237,7 +237,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       44
     ],
     "status": "disponible",
-    "isFeatured": true,
+    "isFeatured": false,
     "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "La BADBO de Bad Bunny en negro total: gamuza, paneles triangulares y suela ondulada color gum.",
@@ -373,6 +373,194 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "inquiriesCount": 0,
     "createdAt": "2026-08-12T21:42:38.000Z",
     "updatedAt": "2026-08-12T21:42:38.000Z"
+  },
+  {
+    "id": "sneaker-adidas-dreastrike-glow-blanco-negro",
+    "name": "Adidas Dreastrike Glow",
+    "brand": "Adidas",
+    "model": "Adidas Dreastrike Glow",
+    "sku": "PAPI-9057",
+    "category": "general",
+    "gender": "hombre",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/adidas/hombre/adidas-dreastrike-glow-blanco-negro.jpg"
+    ],
+    "sizes": [
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": true,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "Versión en blanco total con las tres rayas negras y refuerzo gris en el talón.",
+    "details": {
+      "condition": "En caja",
+      "colorway": "White / Black",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-09-03T16:52:11.995Z",
+    "updatedAt": "2026-09-03T16:52:11.995Z"
+  },
+  {
+    "id": "sneaker-adidas-dreastrike-glow-negro-blanco-rojo",
+    "name": "Adidas Dreastrike Glow",
+    "brand": "Adidas",
+    "model": "Adidas Dreastrike Glow",
+    "sku": "PAPI-1354",
+    "category": "general",
+    "gender": "hombre",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/adidas/hombre/adidas-dreastrike-glow-negro-blanco-rojo.jpg"
+    ],
+    "sizes": [
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": true,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "La misma base negra y blanca con una línea roja recorriendo el borde de la suela.",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Black / White / Red",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-09-03T16:52:11.995Z",
+    "updatedAt": "2026-09-03T16:52:11.995Z"
+  },
+  {
+    "id": "sneaker-adidas-dreastrike-glow-negro-blanco",
+    "name": "Adidas Dreastrike Glow",
+    "brand": "Adidas",
+    "model": "Adidas Dreastrike Glow",
+    "sku": "PAPI-1738",
+    "category": "general",
+    "gender": "hombre",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/adidas/hombre/adidas-dreastrike-glow-negro-blanco.jpg"
+    ],
+    "sizes": [
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": true,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "Malla negra con las tres rayas blancas y mediasuela blanca de perfil grueso.",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Black / White",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-09-03T16:52:11.995Z",
+    "updatedAt": "2026-09-03T16:52:11.995Z"
+  },
+  {
+    "id": "sneaker-adidas-dreastrike-glow-negro-rosado",
+    "name": "Adidas Dreastrike Glow",
+    "brand": "Adidas",
+    "model": "Adidas Dreastrike Glow",
+    "sku": "PAPI-1486",
+    "category": "general",
+    "gender": "mujer",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/adidas/mujer/adidas-dreastrike-glow-negro-rosado.jpg"
+    ],
+    "sizes": [
+      35,
+      36,
+      37,
+      38,
+      39
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "Malla negra con las tres rayas en rosado metálico y mediasuela alta en crema.",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Black / Pink",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-09-03T16:52:11.995Z",
+    "updatedAt": "2026-09-03T16:52:11.995Z"
+  },
+  {
+    "id": "sneaker-adidas-dreastrike-glow-rosado-blanco",
+    "name": "Adidas Dreastrike Glow",
+    "brand": "Adidas",
+    "model": "Adidas Dreastrike Glow",
+    "sku": "PAPI-1036",
+    "category": "general",
+    "gender": "mujer",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/adidas/mujer/adidas-dreastrike-glow-rosado-blanco.jpg"
+    ],
+    "sizes": [
+      35,
+      36,
+      37,
+      38,
+      39
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "Malla rosada con las tres rayas blancas y mediasuela blanca de perfil grueso.",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Pink / White",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-09-03T16:52:11.995Z",
+    "updatedAt": "2026-09-03T16:52:11.995Z"
   },
   {
     "id": "sneaker-adidas-duramo-sl-blue",
@@ -2268,6 +2456,44 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "updatedAt": "2026-08-13T19:36:10.000Z"
   },
   {
+    "id": "sneaker-jordan-1-low-gris-azul",
+    "name": "Air Jordan 1 Low",
+    "brand": "Jordan",
+    "model": "Air Jordan 1 Low",
+    "sku": "PAPI-7763",
+    "category": "general",
+    "gender": "hombre",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/jordan/hombre/jordan-1-low-gris-azul.jpg"
+    ],
+    "sizes": [
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": true,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "Cuero blanco con paneles gris lobo y gamuza azul claro en el talón, sobre suela blanca.",
+    "details": {
+      "condition": "En caja",
+      "colorway": "White / Wolf Grey / Blue",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-09-03T16:52:11.995Z",
+    "updatedAt": "2026-09-03T16:52:11.995Z"
+  },
+  {
     "id": "sneaker-jordan-1-low-paris-negro",
     "name": "Air Jordan 1 Low Paris",
     "brand": "Jordan",
@@ -2331,7 +2557,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       44
     ],
     "status": "disponible",
-    "isFeatured": true,
+    "isFeatured": false,
     "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "El Bred en charol, en corte Low: negro y rojo brillante con suela roja.",
@@ -2408,7 +2634,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       44
     ],
     "status": "disponible",
-    "isFeatured": true,
+    "isFeatured": false,
     "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "Low en cuero blanco de pared a pared, sin un solo contraste.",
@@ -2568,7 +2794,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       44
     ],
     "status": "disponible",
-    "isFeatured": true,
+    "isFeatured": false,
     "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "Mid en azul rey con paneles negros y suela azul.",
@@ -8195,7 +8421,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       44
     ],
     "status": "disponible",
-    "isFeatured": true,
+    "isFeatured": false,
     "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "B30 en blanco y crema con detalles topo y suela acanalada.",
@@ -8233,7 +8459,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       44
     ],
     "status": "disponible",
-    "isFeatured": true,
+    "isFeatured": false,
     "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "La B30 en malla negra con capas grises y mediasuela blanca.",
@@ -9906,6 +10132,44 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "updatedAt": "2026-08-13T19:13:00.000Z"
   },
   {
+    "id": "sneaker-louis-vuitton-trainer-denim-negro",
+    "name": "Louis Vuitton Trainer",
+    "brand": "Louis Vuitton",
+    "model": "Louis Vuitton Trainer",
+    "sku": "PAPI-9015",
+    "category": "general",
+    "gender": "hombre",
+    "price": 190000,
+    "originalPrice": 230000,
+    "images": [
+      "/catalogo/sneakers/louis-vuitton/hombre/louis-vuitton-trainer-denim-negro.jpg"
+    ],
+    "sizes": [
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": true,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "La Trainer en denim negro con el monograma tejido, pespunte blanco a la vista y suela negra con el logo grabado.",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Black Denim Monogram",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-09-03T16:52:11.995Z",
+    "updatedAt": "2026-09-03T16:52:11.995Z"
+  },
+  {
     "id": "sneaker-louis-vuitton-trainer-blanco-negro",
     "name": "Louis Vuitton Trainer",
     "brand": "Louis Vuitton",
@@ -9996,7 +10260,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "price": 190000,
     "originalPrice": 230000,
     "images": [
-      "/catalogo/sneakers/louis-vuitton/louis-vuitton-trainer-denim-monogram.jpg"
+      "/catalogo/sneakers/louis-vuitton/louis-vuitton-trainer-denim-monogram.jpg",
+      "/catalogo/sneakers/louis-vuitton/louis-vuitton-trainer-denim-monogram_2.jpg"
     ],
     "sizes": [
       37,
@@ -11811,6 +12076,44 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "updatedAt": "2026-08-13T18:57:45.000Z"
   },
   {
+    "id": "sneaker-nike-air-force-1-athletic-club-verde",
+    "name": "Nike Air Force 1 '07 LV8 Athletic Club",
+    "brand": "Nike",
+    "model": "Nike Air Force 1 '07 LV8 Athletic Club",
+    "sku": "PAPI-4490",
+    "category": "general",
+    "gender": "hombre",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/nike/hombre/nike-air-force-1-athletic-club-verde.jpg"
+    ],
+    "sizes": [
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": true,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "Gamuza verde profunda con swoosh blanco, AIR en rojo sobre la mediasuela y etiqueta Athletic Club en la lengüeta.",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Pro Green / White",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-09-03T16:52:11.995Z",
+    "updatedAt": "2026-09-03T16:52:11.995Z"
+  },
+  {
     "id": "sneaker-nike-air-force-1-crema-verde",
     "name": "Nike Air Force 1 Low",
     "brand": "Nike",
@@ -11887,6 +12190,44 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "inquiriesCount": 0,
     "createdAt": "2026-08-13T18:57:45.000Z",
     "updatedAt": "2026-08-13T18:57:45.000Z"
+  },
+  {
+    "id": "sneaker-nike-air-force-1-x-supreme-blanco",
+    "name": "Nike Air Force 1 Low x Supreme",
+    "brand": "Nike",
+    "model": "Nike Air Force 1 Low x Supreme",
+    "sku": "PAPI-8011",
+    "category": "general",
+    "gender": "hombre",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/nike/hombre/nike-air-force-1-x-supreme-blanco.jpg"
+    ],
+    "sizes": [
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": true,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "La Air Force 1 blanca con el box logo de Supreme en el lateral y cordones rojos con la marca repetida.",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Triple White",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-09-03T16:52:11.995Z",
+    "updatedAt": "2026-09-03T16:52:11.995Z"
   },
   {
     "id": "sneaker-nike-air-force-1-mid-07",
@@ -12969,6 +13310,44 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "updatedAt": "2026-08-13T18:57:45.000Z"
   },
   {
+    "id": "sneaker-nike-air-max-95-x-levis-denim-negro",
+    "name": "Nike Air Max 95 x Levi's",
+    "brand": "Nike",
+    "model": "Nike Air Max 95 x Levi's",
+    "sku": "PAPI-3260",
+    "category": "general",
+    "gender": "hombre",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/nike/hombre/nike-air-max-95-x-levis-denim-negro.jpg"
+    ],
+    "sizes": [
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": true,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "La 95 forrada en denim negro, con la etiqueta roja de Levi's en el talón y suela negra.",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Black Denim",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-09-03T16:52:11.995Z",
+    "updatedAt": "2026-09-03T16:52:11.995Z"
+  },
+  {
     "id": "sneaker-nike-air-max-97-cafe",
     "name": "Nike Air Max 97",
     "brand": "Nike",
@@ -13694,6 +14073,158 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "updatedAt": "2026-08-13T18:57:45.000Z"
   },
   {
+    "id": "sneaker-nike-air-max-plus-3-blanco-negro",
+    "name": "Nike Air Max Plus 3",
+    "brand": "Nike",
+    "model": "Nike Air Max Plus 3",
+    "sku": "PAPI-1430",
+    "category": "general",
+    "gender": "hombre",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/nike/hombre/nike-air-max-plus-3-blanco-negro.jpg"
+    ],
+    "sizes": [
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "TN 3 en blanco con el cage negro dibujado encima y puntera en charol.",
+    "details": {
+      "condition": "En caja",
+      "colorway": "White / Black",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-09-03T16:52:11.995Z",
+    "updatedAt": "2026-09-03T16:52:11.995Z"
+  },
+  {
+    "id": "sneaker-nike-air-max-plus-3-negro-plata",
+    "name": "Nike Air Max Plus 3",
+    "brand": "Nike",
+    "model": "Nike Air Max Plus 3",
+    "sku": "PAPI-1579",
+    "category": "general",
+    "gender": "hombre",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/nike/hombre/nike-air-max-plus-3-negro-plata.jpg"
+    ],
+    "sizes": [
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "El chasis TN 3 con degradado de plata a negro, cage nervado y ventana Tuned Air en el talón.",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Black / Metallic Silver",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-09-03T16:52:11.995Z",
+    "updatedAt": "2026-09-03T16:52:11.995Z"
+  },
+  {
+    "id": "sneaker-nike-air-max-plus-3-triple-negro",
+    "name": "Nike Air Max Plus 3",
+    "brand": "Nike",
+    "model": "Nike Air Max Plus 3",
+    "sku": "PAPI-1430",
+    "category": "general",
+    "gender": "hombre",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/nike/hombre/nike-air-max-plus-3-triple-negro.jpg"
+    ],
+    "sizes": [
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "TN 3 en negro total, con el cage en relieve y detalles plateados sobre la malla.",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Triple Black",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-09-03T16:52:11.995Z",
+    "updatedAt": "2026-09-03T16:52:11.995Z"
+  },
+  {
+    "id": "sneaker-nike-air-max-plus-3-volt",
+    "name": "Nike Air Max Plus 3",
+    "brand": "Nike",
+    "model": "Nike Air Max Plus 3",
+    "sku": "PAPI-7964",
+    "category": "general",
+    "gender": "hombre",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/nike/hombre/nike-air-max-plus-3-volt.jpg"
+    ],
+    "sizes": [
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "Degradado de gris a menta con el cage y las flechas en volt, sobre mediasuela blanca.",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Grey / Volt",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-09-03T16:52:11.995Z",
+    "updatedAt": "2026-09-03T16:52:11.995Z"
+  },
+  {
     "id": "sneaker-nike-air-max-plus-drift-baroque-brown",
     "name": "Nike Air Max Plus Drift Baroque Brown",
     "brand": "Nike",
@@ -14249,6 +14780,82 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "inquiriesCount": 0,
     "createdAt": "2026-08-14T15:26:27.178Z",
     "updatedAt": "2026-08-14T15:26:27.178Z"
+  },
+  {
+    "id": "sneaker-nike-air-more-uptempo-96-degradado-azul",
+    "name": "Nike Air More Uptempo 96",
+    "brand": "Nike",
+    "model": "Nike Air More Uptempo 96",
+    "sku": "PAPI-1925",
+    "category": "general",
+    "gender": "hombre",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/nike/hombre/nike-air-more-uptempo-96-degradado-azul.jpg"
+    ],
+    "sizes": [
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "El AIR gigante en degradado de blanco a azul noche, con estrella en el panel y doble cámara visible.",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Black / Grey / Midnight Navy",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-09-03T16:52:11.995Z",
+    "updatedAt": "2026-09-03T16:52:11.995Z"
+  },
+  {
+    "id": "sneaker-nike-air-more-uptempo-96-negro-gum",
+    "name": "Nike Air More Uptempo 96",
+    "brand": "Nike",
+    "model": "Nike Air More Uptempo 96",
+    "sku": "PAPI-5805",
+    "category": "general",
+    "gender": "hombre",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/nike/hombre/nike-air-more-uptempo-96-negro-gum.jpg"
+    ],
+    "sizes": [
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "Uptempo en negro sobre suela de goma color caramelo, con el AIR en relieve del mismo tono.",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Black / Gum",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-09-03T16:52:11.995Z",
+    "updatedAt": "2026-09-03T16:52:11.995Z"
   },
   {
     "id": "sneaker-nike-air-more-uptempo-96-negro-blanco",
@@ -17749,6 +18356,44 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "inquiriesCount": 0,
     "createdAt": "2026-08-25T15:10:14.234Z",
     "updatedAt": "2026-08-25T15:10:14.234Z"
+  },
+  {
+    "id": "sneaker-off-white-out-of-office-blanco-gris",
+    "name": "Off-White Out Of Office",
+    "brand": "Otras",
+    "model": "Off-White Out Of Office",
+    "sku": "PAPI-3320",
+    "category": "general",
+    "gender": "hombre",
+    "price": 190000,
+    "originalPrice": 230000,
+    "images": [
+      "/catalogo/sneakers/otras/hombre/off-white-out-of-office-blanco-gris.jpg"
+    ],
+    "sizes": [
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "Cuero blanco hueso con la flecha gris en el lateral y la mano Off en el talón. Suela translúcida.",
+    "details": {
+      "condition": "En caja",
+      "colorway": "White / Grey",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-09-03T16:52:11.995Z",
+    "updatedAt": "2026-09-03T16:52:11.995Z"
   },
   {
     "id": "sneaker-puma-caven-2-0",

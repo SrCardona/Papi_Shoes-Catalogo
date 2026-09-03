@@ -110,5 +110,11 @@
     "colorway": "White / Cream",
     "description": "B30 en blanco y crema con detalles topo y suela acanalada.",
     "sizes": "39-44"
+  },
+  "off-white-out-of-office-blanco-gris": {
+    "name": "Off-White Out Of Office",
+    "colorway": "White / Grey",
+    "description": "Cuero blanco hueso con la flecha gris en el lateral y la mano Off en el talón. Suela translúcida.",
+    "sizes": "39-44"
   }
 }

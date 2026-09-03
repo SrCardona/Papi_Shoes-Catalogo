@@ -48,5 +48,11 @@
     "name": "Louis Vuitton Trainer Denim Monogram",
     "colorway": "White / Black Denim",
     "description": "Trainer en cuero blanco con paneles de denim estampado con el monograma. Correa de la lengüeta y talón en negro."
+  },
+  "louis-vuitton-trainer-denim-negro": {
+    "name": "Louis Vuitton Trainer",
+    "colorway": "Black Denim Monogram",
+    "description": "La Trainer en denim negro con el monograma tejido, pespunte blanco a la vista y suela negra con el logo grabado.",
+    "sizes": "39-44"
   }
 }

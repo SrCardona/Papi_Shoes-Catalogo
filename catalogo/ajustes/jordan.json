@@ -352,5 +352,11 @@
     "name": "Air Jordan 1 Low Triple White",
     "colorway": "Triple White",
     "description": "Low en cuero blanco de pared a pared, sin un solo contraste."
+  },
+  "jordan-1-low-gris-azul": {
+    "name": "Air Jordan 1 Low",
+    "colorway": "White / Wolf Grey / Blue",
+    "description": "Cuero blanco con paneles gris lobo y gamuza azul claro en el talón, sobre suela blanca.",
+    "sizes": "39-44"
   }
 }

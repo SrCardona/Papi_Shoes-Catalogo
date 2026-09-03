@@ -268,5 +268,35 @@
     "name": "Adidas Samba XL",
     "colorway": "Core Black / White / Gum",
     "description": "La Samba montada sobre plataforma XL: mismo cuero negro con las tres bandas, suela gum más alta."
+  },
+  "adidas-dreastrike-glow-negro-rosado": {
+    "name": "Adidas Dreastrike Glow",
+    "colorway": "Black / Pink",
+    "description": "Malla negra con las tres rayas en rosado metálico y mediasuela alta en crema.",
+    "sizes": "35-39"
+  },
+  "adidas-dreastrike-glow-negro-blanco": {
+    "name": "Adidas Dreastrike Glow",
+    "colorway": "Black / White",
+    "description": "Malla negra con las tres rayas blancas y mediasuela blanca de perfil grueso.",
+    "sizes": "39-44"
+  },
+  "adidas-dreastrike-glow-negro-blanco-rojo": {
+    "name": "Adidas Dreastrike Glow",
+    "colorway": "Black / White / Red",
+    "description": "La misma base negra y blanca con una línea roja recorriendo el borde de la suela.",
+    "sizes": "39-44"
+  },
+  "adidas-dreastrike-glow-blanco-negro": {
+    "name": "Adidas Dreastrike Glow",
+    "colorway": "White / Black",
+    "description": "Versión en blanco total con las tres rayas negras y refuerzo gris en el talón.",
+    "sizes": "39-44"
+  },
+  "adidas-dreastrike-glow-rosado-blanco": {
+    "name": "Adidas Dreastrike Glow",
+    "colorway": "Pink / White",
+    "description": "Malla rosada con las tres rayas blancas y mediasuela blanca de perfil grueso.",
+    "sizes": "35-39"
   }
 }
