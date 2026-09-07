@@ -12097,7 +12097,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       44
     ],
     "status": "disponible",
-    "isFeatured": true,
+    "isFeatured": false,
     "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "Gamuza verde profunda con swoosh blanco, AIR en rojo sobre la mediasuela y etiqueta Athletic Club en la lengüeta.",
@@ -12213,7 +12213,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       44
     ],
     "status": "disponible",
-    "isFeatured": true,
+    "isFeatured": false,
     "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "La Air Force 1 blanca con el box logo de Supreme en el lateral y cordones rojos con la marca repetida.",
@@ -13331,7 +13331,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       44
     ],
     "status": "disponible",
-    "isFeatured": true,
+    "isFeatured": false,
     "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "La 95 forrada en denim negro, con la etiqueta roja de Levi's en el talón y suela negra.",
@@ -14425,6 +14425,82 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "updatedAt": "2026-08-13T18:57:45.000Z"
   },
   {
+    "id": "sneaker-nike-air-max-plus-tn-azul-degradado",
+    "name": "Nike Air Max Plus TN",
+    "brand": "Nike",
+    "model": "Nike Air Max Plus TN",
+    "sku": "PAPI-4584",
+    "category": "general",
+    "gender": "hombre",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/nike/hombre/nike-air-max-plus-tn-azul-degradado.jpg"
+    ],
+    "sizes": [
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": true,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "Degradado de azul con los nervios al tono, cordones crema y mediasuela blanca.",
+    "details": {
+      "condition": "En caja",
+      "colorway": "University Blue Gradient",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-09-07T16:11:19.219Z",
+    "updatedAt": "2026-09-07T16:11:19.219Z"
+  },
+  {
+    "id": "sneaker-nike-air-max-plus-tn-blanco-morado-teal",
+    "name": "Nike Air Max Plus TN",
+    "brand": "Nike",
+    "model": "Nike Air Max Plus TN",
+    "sku": "PAPI-8904",
+    "category": "general",
+    "gender": "hombre",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/nike/hombre/nike-air-max-plus-tn-blanco-morado-teal.jpg"
+    ],
+    "sizes": [
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "Base blanca con el cage morado, el swoosh en verde agua y la camara Air turquesa.",
+    "details": {
+      "condition": "En caja",
+      "colorway": "White / Purple / Teal",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-09-07T16:11:19.219Z",
+    "updatedAt": "2026-09-07T16:11:19.219Z"
+  },
+  {
     "id": "sneaker-nike-air-max-plus-tn-blanco-naranja",
     "name": "Nike Air Max Plus TN",
     "brand": "Nike",
@@ -14435,7 +14511,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "price": 180000,
     "originalPrice": 210000,
     "images": [
-      "/catalogo/sneakers/nike/hombre/nike-air-max-plus-tn-blanco-naranja.jpg"
+      "/catalogo/sneakers/nike/hombre/nike-air-max-plus-tn-blanco-naranja.jpg",
+      "/catalogo/sneakers/nike/hombre/nike-air-max-plus-tn-blanco-naranja_2.jpg"
     ],
     "sizes": [
       39,
@@ -14461,6 +14538,82 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "inquiriesCount": 0,
     "createdAt": "2026-08-25T15:10:14.234Z",
     "updatedAt": "2026-08-25T15:10:14.234Z"
+  },
+  {
+    "id": "sneaker-nike-air-max-plus-tn-blanco-suela-negra",
+    "name": "Nike Air Max Plus TN",
+    "brand": "Nike",
+    "model": "Nike Air Max Plus TN",
+    "sku": "PAPI-2747",
+    "category": "general",
+    "gender": "hombre",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/nike/hombre/nike-air-max-plus-tn-blanco-suela-negra.jpg"
+    ],
+    "sizes": [
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "Upper blanco con los nervios al tono y el outsole negro por debajo de la mediasuela blanca.",
+    "details": {
+      "condition": "En caja",
+      "colorway": "White / Black",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-09-07T16:11:19.219Z",
+    "updatedAt": "2026-09-07T16:11:19.219Z"
+  },
+  {
+    "id": "sneaker-nike-air-max-plus-tn-blanco-verde-pino",
+    "name": "Nike Air Max Plus TN",
+    "brand": "Nike",
+    "model": "Nike Air Max Plus TN",
+    "sku": "PAPI-1222",
+    "category": "general",
+    "gender": "hombre",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/nike/hombre/nike-air-max-plus-tn-blanco-verde-pino.jpg"
+    ],
+    "sizes": [
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "Malla blanca con el cage en verde pino y la ventana Tuned Air verde en el talon.",
+    "details": {
+      "condition": "En caja",
+      "colorway": "White / Pine Green",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-09-07T16:11:19.219Z",
+    "updatedAt": "2026-09-07T16:11:19.219Z"
   },
   {
     "id": "sneaker-nike-air-max-plus-tn-gris-negro",
@@ -14499,6 +14652,379 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "inquiriesCount": 0,
     "createdAt": "2026-08-25T15:10:14.234Z",
     "updatedAt": "2026-08-25T15:10:14.234Z"
+  },
+  {
+    "id": "sneaker-nike-air-max-plus-tn-negro-blanco",
+    "name": "Nike Air Max Plus TN",
+    "brand": "Nike",
+    "model": "Nike Air Max Plus TN",
+    "sku": "PAPI-5646",
+    "category": "general",
+    "gender": "hombre",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/nike/hombre/nike-air-max-plus-tn-negro-blanco.jpg"
+    ],
+    "sizes": [
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "Malla negra con el cage blanco dibujado encima, puntera en charol y mediasuela blanca.",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Black / White",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-09-07T16:11:19.219Z",
+    "updatedAt": "2026-09-07T16:11:19.219Z"
+  },
+  {
+    "id": "sneaker-nike-air-max-plus-tn-rojo-morado-estampado",
+    "name": "Nike Air Max Plus TN",
+    "brand": "Nike",
+    "model": "Nike Air Max Plus TN",
+    "sku": "PAPI-9382",
+    "category": "general",
+    "gender": "hombre",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/nike/hombre/nike-air-max-plus-tn-rojo-morado-estampado.jpg"
+    ],
+    "sizes": [
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "TN en rojo con el estampado amarillo por todo el upper, cage morado metalizado y suela blanca.",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Red / Purple / Yellow",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-09-07T16:11:19.219Z",
+    "updatedAt": "2026-09-07T16:11:19.219Z"
+  },
+  {
+    "id": "sneaker-nike-air-max-plus-tn-triple-rojo",
+    "name": "Nike Air Max Plus TN",
+    "brand": "Nike",
+    "model": "Nike Air Max Plus TN",
+    "sku": "PAPI-1458",
+    "category": "general",
+    "gender": "hombre",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/nike/hombre/nike-air-max-plus-tn-triple-rojo.jpg"
+    ],
+    "sizes": [
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "TN en rojo total, con el cage en charol al tono y la camara Air roja en el talon.",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Triple Red",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-09-07T16:11:19.219Z",
+    "updatedAt": "2026-09-07T16:11:19.219Z"
+  },
+  {
+    "id": "sneaker-nike-air-max-plus-tn-blanco-azul-cielo",
+    "name": "Nike Air Max Plus TN",
+    "brand": "Nike",
+    "model": "Nike Air Max Plus TN",
+    "sku": "PAPI-1089",
+    "category": "general",
+    "gender": "mujer",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/nike/mujer/nike-air-max-plus-tn-blanco-azul-cielo.jpg"
+    ],
+    "sizes": [
+      35,
+      36,
+      37,
+      38,
+      39
+    ],
+    "status": "disponible",
+    "isFeatured": true,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "Base hueso con los nervios en azul cielo y la camara Air en azul, sobre suela blanca.",
+    "details": {
+      "condition": "En caja",
+      "colorway": "White / University Blue",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-09-07T16:11:19.219Z",
+    "updatedAt": "2026-09-07T16:11:19.219Z"
+  },
+  {
+    "id": "sneaker-nike-air-max-plus-tn-blanco-gris-rosado",
+    "name": "Nike Air Max Plus TN",
+    "brand": "Nike",
+    "model": "Nike Air Max Plus TN",
+    "sku": "PAPI-5177",
+    "category": "general",
+    "gender": "mujer",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/nike/mujer/nike-air-max-plus-tn-blanco-gris-rosado.jpg"
+    ],
+    "sizes": [
+      35,
+      36,
+      37,
+      38,
+      39
+    ],
+    "status": "disponible",
+    "isFeatured": true,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "Base blanca con los nervios grises, swoosh rosado y la ventana Tuned Air en rosa.",
+    "details": {
+      "condition": "En caja",
+      "colorway": "White / Grey / Pink",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-09-07T16:11:19.219Z",
+    "updatedAt": "2026-09-07T16:11:19.219Z"
+  },
+  {
+    "id": "sneaker-nike-air-max-plus-tn-blanco-plata",
+    "name": "Nike Air Max Plus TN",
+    "brand": "Nike",
+    "model": "Nike Air Max Plus TN",
+    "sku": "PAPI-1659",
+    "category": "general",
+    "gender": "mujer",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/nike/mujer/nike-air-max-plus-tn-blanco-plata.jpg"
+    ],
+    "sizes": [
+      35,
+      36,
+      37,
+      38,
+      39
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "Blanco total con el cage en plata metalizada y el swoosh al tono, sobre mediasuela blanca.",
+    "details": {
+      "condition": "En caja",
+      "colorway": "White / Metallic Silver",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-09-07T16:11:19.219Z",
+    "updatedAt": "2026-09-07T16:11:19.219Z"
+  },
+  {
+    "id": "sneaker-nike-air-max-plus-tn-crema-dorado",
+    "name": "Nike Air Max Plus TN",
+    "brand": "Nike",
+    "model": "Nike Air Max Plus TN",
+    "sku": "PAPI-5308",
+    "category": "general",
+    "gender": "mujer",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/nike/mujer/nike-air-max-plus-tn-crema-dorado.jpg"
+    ],
+    "sizes": [
+      35,
+      36,
+      37,
+      38,
+      39
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "Malla crema con el cage en dorado metalizado, talon cafe y mediasuela blanca.",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Cream / Metallic Gold",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-09-07T16:11:19.219Z",
+    "updatedAt": "2026-09-07T16:11:19.219Z"
+  },
+  {
+    "id": "sneaker-nike-air-max-plus-tn-degradado-pastel",
+    "name": "Nike Air Max Plus TN",
+    "brand": "Nike",
+    "model": "Nike Air Max Plus TN",
+    "sku": "PAPI-5172",
+    "category": "general",
+    "gender": "mujer",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/nike/mujer/nike-air-max-plus-tn-degradado-pastel.jpg"
+    ],
+    "sizes": [
+      35,
+      36,
+      37,
+      38,
+      39
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "La TN con el degradado de rosa a lila y azul sobre malla blanca, con la camara Air visible en el talon.",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Pink / Violet Gradient",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-09-07T16:11:19.219Z",
+    "updatedAt": "2026-09-07T16:11:19.219Z"
+  },
+  {
+    "id": "sneaker-nike-air-max-plus-tn-gris-lila",
+    "name": "Nike Air Max Plus TN",
+    "brand": "Nike",
+    "model": "Nike Air Max Plus TN",
+    "sku": "PAPI-8457",
+    "category": "general",
+    "gender": "mujer",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/nike/mujer/nike-air-max-plus-tn-gris-lila.jpg"
+    ],
+    "sizes": [
+      35,
+      36,
+      37,
+      38,
+      39
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "Malla gris con el cage y los nervios en lila, swoosh morado y mediasuela blanca.",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Grey / Lilac",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-09-07T16:11:19.219Z",
+    "updatedAt": "2026-09-07T16:11:19.219Z"
+  },
+  {
+    "id": "sneaker-nike-air-max-plus-tn-negro-pedreria",
+    "name": "Nike Air Max Plus TN",
+    "brand": "Nike",
+    "model": "Nike Air Max Plus TN",
+    "sku": "PAPI-1198",
+    "category": "general",
+    "gender": "mujer",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/nike/mujer/nike-air-max-plus-tn-negro-pedreria.jpg"
+    ],
+    "sizes": [
+      35,
+      36,
+      37,
+      38,
+      39
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "TN en negro con los nervios delineados en pedreria plateada, sobre suela negra.",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Black / Rhinestone",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-09-07T16:11:19.219Z",
+    "updatedAt": "2026-09-07T16:11:19.219Z"
   },
   {
     "id": "sneaker-nike-air-max-plus-tn-blanco-azul",
@@ -14551,7 +15077,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "price": 180000,
     "originalPrice": 210000,
     "images": [
-      "/catalogo/sneakers/nike/nike-air-max-plus-tn-triple-blanco.jpg"
+      "/catalogo/sneakers/nike/nike-air-max-plus-tn-triple-blanco.jpg",
+      "/catalogo/sneakers/nike/nike-air-max-plus-tn-triple-blanco_2.jpg"
     ],
     "sizes": [
       37,

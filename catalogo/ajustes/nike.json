@@ -693,5 +693,89 @@
     "colorway": "Triple White",
     "description": "La Air Force 1 blanca con el box logo de Supreme en el lateral y cordones rojos con la marca repetida.",
     "sizes": "39-44"
+  },
+  "nike-air-max-plus-tn-degradado-pastel": {
+    "name": "Nike Air Max Plus TN",
+    "colorway": "Pink / Violet Gradient",
+    "description": "La TN con el degradado de rosa a lila y azul sobre malla blanca, con la camara Air visible en el talon.",
+    "sizes": "35-39"
+  },
+  "nike-air-max-plus-tn-gris-lila": {
+    "name": "Nike Air Max Plus TN",
+    "colorway": "Grey / Lilac",
+    "description": "Malla gris con el cage y los nervios en lila, swoosh morado y mediasuela blanca.",
+    "sizes": "35-39"
+  },
+  "nike-air-max-plus-tn-blanco-gris-rosado": {
+    "name": "Nike Air Max Plus TN",
+    "colorway": "White / Grey / Pink",
+    "description": "Base blanca con los nervios grises, swoosh rosado y la ventana Tuned Air en rosa.",
+    "sizes": "35-39"
+  },
+  "nike-air-max-plus-tn-negro-pedreria": {
+    "name": "Nike Air Max Plus TN",
+    "colorway": "Black / Rhinestone",
+    "description": "TN en negro con los nervios delineados en pedreria plateada, sobre suela negra.",
+    "sizes": "35-39"
+  },
+  "nike-air-max-plus-tn-blanco-plata": {
+    "name": "Nike Air Max Plus TN",
+    "colorway": "White / Metallic Silver",
+    "description": "Blanco total con el cage en plata metalizada y el swoosh al tono, sobre mediasuela blanca.",
+    "sizes": "35-39"
+  },
+  "nike-air-max-plus-tn-crema-dorado": {
+    "name": "Nike Air Max Plus TN",
+    "colorway": "Cream / Metallic Gold",
+    "description": "Malla crema con el cage en dorado metalizado, talon cafe y mediasuela blanca.",
+    "sizes": "35-39"
+  },
+  "nike-air-max-plus-tn-blanco-azul-cielo": {
+    "name": "Nike Air Max Plus TN",
+    "colorway": "White / University Blue",
+    "description": "Base hueso con los nervios en azul cielo y la camara Air en azul, sobre suela blanca.",
+    "sizes": "35-39"
+  },
+  "nike-air-max-plus-tn-blanco-verde-pino": {
+    "name": "Nike Air Max Plus TN",
+    "colorway": "White / Pine Green",
+    "description": "Malla blanca con el cage en verde pino y la ventana Tuned Air verde en el talon.",
+    "sizes": "39-44"
+  },
+  "nike-air-max-plus-tn-rojo-morado-estampado": {
+    "name": "Nike Air Max Plus TN",
+    "colorway": "Red / Purple / Yellow",
+    "description": "TN en rojo con el estampado amarillo por todo el upper, cage morado metalizado y suela blanca.",
+    "sizes": "39-44"
+  },
+  "nike-air-max-plus-tn-blanco-suela-negra": {
+    "name": "Nike Air Max Plus TN",
+    "colorway": "White / Black",
+    "description": "Upper blanco con los nervios al tono y el outsole negro por debajo de la mediasuela blanca.",
+    "sizes": "39-44"
+  },
+  "nike-air-max-plus-tn-triple-rojo": {
+    "name": "Nike Air Max Plus TN",
+    "colorway": "Triple Red",
+    "description": "TN en rojo total, con el cage en charol al tono y la camara Air roja en el talon.",
+    "sizes": "39-44"
+  },
+  "nike-air-max-plus-tn-negro-blanco": {
+    "name": "Nike Air Max Plus TN",
+    "colorway": "Black / White",
+    "description": "Malla negra con el cage blanco dibujado encima, puntera en charol y mediasuela blanca.",
+    "sizes": "39-44"
+  },
+  "nike-air-max-plus-tn-azul-degradado": {
+    "name": "Nike Air Max Plus TN",
+    "colorway": "University Blue Gradient",
+    "description": "Degradado de azul con los nervios al tono, cordones crema y mediasuela blanca.",
+    "sizes": "39-44"
+  },
+  "nike-air-max-plus-tn-blanco-morado-teal": {
+    "name": "Nike Air Max Plus TN",
+    "colorway": "White / Purple / Teal",
+    "description": "Base blanca con el cage morado, el swoosh en verde agua y la camara Air turquesa.",
+    "sizes": "39-44"
   }
 }
