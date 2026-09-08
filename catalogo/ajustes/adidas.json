@@ -298,5 +298,65 @@
     "colorway": "Pink / White",
     "description": "Malla rosada con las tres rayas blancas y mediasuela blanca de perfil grueso.",
     "sizes": "35-39"
+  },
+  "adidas-adistar-cs-negro-verde": {
+    "name": "Adidas Adistar CS",
+    "colorway": "Core Black / Solar Green",
+    "description": "Runner de malla negra con las tres rayas en charol, salpicado gris en la mediasuela y el piso en verde neon.",
+    "sizes": "39-44"
+  },
+  "adidas-superstar-negro-puntera-blanca": {
+    "name": "Adidas Superstar",
+    "colorway": "Core Black / White",
+    "description": "Superstar en cuero negro con las tres rayas al tono en charol y la puntera de goma blanca.",
+    "sizes": "39-44"
+  },
+  "adidas-advantage-triple-blanco": {
+    "name": "Adidas Advantage",
+    "colorway": "Triple White",
+    "description": "Advantage en cuero blanco entero, con las tres rayas perforadas y el logo lineal en el costado.",
+    "sizes": "35-39"
+  },
+  "adidas-campus-00s-beige": {
+    "name": "Adidas Campus 00s",
+    "colorway": "Magic Beige / White",
+    "description": "Campus 00s en gamuza beige con las tres rayas blancas, cordones gruesos al tono y mediasuela crema.",
+    "sizes": "35-39"
+  },
+  "adidas-campus-00s-x-lego": {
+    "name": "Adidas Campus 00s x LEGO",
+    "colorway": "Off White / Gum",
+    "description": "Campus 00s de la colaboracion con LEGO: cuero hueso con las tres rayas en fichas, herraje cafe en la lengua y suela caramelo.",
+    "sizes": "35-39"
+  },
+  "adidas-samba-og-crema-iridiscente": {
+    "name": "Adidas Samba OG",
+    "colorway": "Cream / Iridescent",
+    "description": "Samba OG en tonos crema con las tres rayas al tono y el panel del talon iridiscente.",
+    "sizes": "35-39"
+  },
+  "adidas-samba-og-vino": {
+    "name": "Adidas Samba OG",
+    "colorway": "Burgundy / White",
+    "description": "Samba OG en cuero vino con la puntera en gamuza, las tres rayas blancas y suela caramelo.",
+    "sizes": "35-39"
+  },
+  "adidas-superstar-azul-cielo": {
+    "name": "Adidas Superstar",
+    "colorway": "Sky Blue / Yellow",
+    "description": "Superstar en azul cielo con el trebol estampado en el upper y las tres rayas en blanco y amarillo.",
+    "sizes": "35-39"
+  },
+  "adidas-superstar-crema-negro": {
+    "name": "Adidas Superstar",
+    "colorway": "Cream / Black",
+    "description": "Superstar en cuero crema con las tres rayas negras, forro rosado y puntera de goma al tono.",
+    "sizes": "35-39"
+  },
+  "adidas-tresc-run-blanco-morado": {
+    "name": "Adidas TRESC Run",
+    "colorway": "White / Purple / Teal",
+    "description": "TRESC Run en malla blanca con las tres rayas moradas, gamuza beige en el costado y detalles en verde agua.",
+    "sizes": "35-39"
   }
 }

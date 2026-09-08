@@ -777,5 +777,77 @@
     "colorway": "White / Purple / Teal",
     "description": "Base blanca con el cage morado, el swoosh en verde agua y la camara Air turquesa.",
     "sizes": "39-44"
+  },
+  "nike-air-force-1-gamuza-cafe": {
+    "name": "Nike Air Force 1 Low",
+    "colorway": "Baroque Brown",
+    "description": "AF1 en gamuza cafe entera, con el swoosh al tono y la suela cafe.",
+    "sizes": "39-44"
+  },
+  "nike-air-max-plus-3-blanco-rojo": {
+    "name": "Nike Air Max Plus 3",
+    "colorway": "White / University Red",
+    "description": "La TN 3 en malla blanca con los nervios plateados, lineas rojas en el costado y camara Air a la vista.",
+    "sizes": "39-44"
+  },
+  "nike-cortez-negro-blanco": {
+    "name": "Nike Cortez",
+    "colorway": "Black / White",
+    "description": "Cortez en nylon negro con el swoosh blanco delineado, talon en gamuza y suela blanca.",
+    "sizes": "39-44"
+  },
+  "nike-mind-slide-negro-naranja": {
+    "name": "Nike Mind Slide",
+    "colorway": "Black / Total Orange",
+    "description": "Sandalia Mind Slide en negro, con los nodos naranja en el piso para masaje del pie.",
+    "sizes": "39-44"
+  },
+  "nike-running-blanco-gris-rojo": {
+    "name": "Nike Running",
+    "colorway": "White / Grey / Red",
+    "description": "Runner en malla blanca con paneles grises, salpicado tipo cemento y detalles rojos. Modelo por confirmar.",
+    "sizes": "39-44"
+  },
+  "nike-sb-dunk-low-olive-sail": {
+    "name": "Nike SB Dunk Low",
+    "colorway": "Medium Olive / Sail",
+    "description": "SB Dunk Low en gamuza verde oliva y hueso, con la lengua acolchada y mediasuela blanca.",
+    "sizes": "39-44"
+  },
+  "nike-sb-dunk-low-purple-suede": {
+    "name": "Nike SB Dunk Low Purple Suede",
+    "colorway": "Purple / Black",
+    "description": "SB Dunk Low en gamuza morada con el swoosh negro delineado y suela traslucida azul hielo.",
+    "sizes": "39-44"
+  },
+  "nike-trail-crema-gris-volt": {
+    "name": "Nike Trail",
+    "colorway": "Coconut Milk / Volt",
+    "description": "Tenis de trail en crema y gris con el swoosh volt, detalles fucsia y piso dentado. Modelo por confirmar.",
+    "sizes": "39-44"
+  },
+  "nike-dunk-low-azul-lavanda": {
+    "name": "Nike Dunk Low",
+    "colorway": "Indigo Haze / Sail",
+    "description": "Dunk Low en gamuza azul lavanda sobre cuero hueso, con mediasuela crema.",
+    "sizes": "35-39"
+  },
+  "nike-dunk-low-cacao-wow": {
+    "name": "Nike Dunk Low Cacao Wow",
+    "colorway": "Cacao Wow / White",
+    "description": "Dunk Low en gamuza cafe chocolate sobre cuero blanco, con el mini swoosh dorado en el talon.",
+    "sizes": "35-39"
+  },
+  "nike-dunk-low-lila-blanco": {
+    "name": "Nike Dunk Low",
+    "colorway": "Lilac / White",
+    "description": "Dunk Low en cuero blanco con los paneles en lila y mediasuela al tono.",
+    "sizes": "35-39"
+  },
+  "nike-dunk-low-purple-pulse": {
+    "name": "Nike Dunk Low Purple Pulse",
+    "colorway": "Purple Pulse / White",
+    "description": "Dunk Low con los paneles en morado lavado, swoosh morado y mediasuela lila.",
+    "sizes": "35-39"
   }
 }

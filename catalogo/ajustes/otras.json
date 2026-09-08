@@ -116,5 +116,23 @@
     "colorway": "White / Grey",
     "description": "Cuero blanco hueso con la flecha gris en el lateral y la mano Off en el talón. Suela translúcida.",
     "sizes": "39-44"
+  },
+  "on-running-negro-blanco": {
+    "name": "On Running",
+    "colorway": "Black / White",
+    "description": "Runner de On en malla negra con la suela CloudTec blanca de camaras huecas. Modelo por confirmar.",
+    "sizes": "39-44"
+  },
+  "vans-hylane-blanco-gum": {
+    "name": "Vans Hylane",
+    "colorway": "True White / Gum",
+    "description": "Hylane en cuero blanco con la raya lateral en relieve, mediasuela ancha y piso caramelo.",
+    "sizes": "39-44"
+  },
+  "fila-running-blanco-crema": {
+    "name": "Fila Running",
+    "colorway": "White / Cream",
+    "description": "Runner Fila en malla crema con capas superpuestas y mediasuela alta esculpida. Modelo por confirmar.",
+    "sizes": "35-39"
   }
 }

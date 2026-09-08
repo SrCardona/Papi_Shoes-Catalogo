@@ -2,10 +2,10 @@
 # anteriores conservan el suyo. Una fila con nombre de archivo (sin extension)
 # le gana a la de su marca.
 archivo,precio,antes
-marca:Adidas,180000,210000
-marca:Nike,180000,210000
-marca:Jordan,180000,210000
-marca:New Balance,180000,210000
+marca:Adidas,179900,210000
+marca:Nike,179900,210000
+marca:Jordan,179900,210000
+marca:New Balance,179900,210000
 marca:Louis Vuitton,190000,230000
 marca:Otras,190000,230000
 marca:Calvin Klein,190000,230000

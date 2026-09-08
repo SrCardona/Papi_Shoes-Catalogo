@@ -358,5 +358,11 @@
     "colorway": "White / Wolf Grey / Blue",
     "description": "Cuero blanco con paneles gris lobo y gamuza azul claro en el talón, sobre suela blanca.",
     "sizes": "39-44"
+  },
+  "jordan-11-retro-low-legend-blue": {
+    "name": "Air Jordan 11 Retro Low Legend Blue",
+    "colorway": "White / Legend Blue",
+    "description": "La 11 Low en cuero blanco con el mudguard en charol azul cielo y suela traslucida.",
+    "sizes": "39-44"
   }
 }

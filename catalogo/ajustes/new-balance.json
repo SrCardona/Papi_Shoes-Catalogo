@@ -189,5 +189,17 @@
     "colorway": "Black / White",
     "sizes": "39-44",
     "description": "La 997 en negro con la N blanca y la mediasuela ENCAP blanca."
+  },
+  "new-balance-9060-gris-cafe": {
+    "name": "New Balance 9060",
+    "colorway": "Grey / Brown",
+    "description": "9060 en gamuza gris y malla cafe, con la N en plata sobre mediasuela crema.",
+    "sizes": "39-44"
+  },
+  "new-balance-9060-blanco-navy": {
+    "name": "New Balance 9060",
+    "colorway": "White / Navy",
+    "description": "9060 en gamuza hueso con paneles azul marino, la N delineada en gris y mediasuela blanca.",
+    "sizes": "35-39"
   }
 }
