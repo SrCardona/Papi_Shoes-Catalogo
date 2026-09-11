@@ -849,5 +849,17 @@
     "colorway": "Purple Pulse / White",
     "description": "Dunk Low con los paneles en morado lavado, swoosh morado y mediasuela lila.",
     "sizes": "35-39"
+  },
+  "nike-dunk-low-san-valentin": {
+    "name": "Nike Dunk Low San Valentin",
+    "colorway": "Pink / University Red",
+    "description": "Charol rosado y rojo con corazones en los herretes y la lengueta.",
+    "sizes": "35-39"
+  },
+  "nike-cortez-crema-negro": {
+    "name": "Nike Cortez",
+    "colorway": "Sail / Black",
+    "description": "Cuero crema con el Swoosh delineado en negro y gamuza en punta y talon.",
+    "sizes": "35-39"
   }
 }

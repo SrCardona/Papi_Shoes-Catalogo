@@ -54,5 +54,11 @@
     "colorway": "Black Denim Monogram",
     "description": "La Trainer en denim negro con el monograma tejido, pespunte blanco a la vista y suela negra con el logo grabado.",
     "sizes": "39-44"
+  },
+  "louis-vuitton-trainer-mid-negro": {
+    "name": "Louis Vuitton Trainer Mid",
+    "colorway": "Triple Black",
+    "description": "Corte alto en cuero negro con la flor del monograma en relieve y detalle perforado en la punta.",
+    "sizes": "39-44"
   }
 }

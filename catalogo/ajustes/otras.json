@@ -134,5 +134,111 @@
     "colorway": "White / Cream",
     "description": "Runner Fila en malla crema con capas superpuestas y mediasuela alta esculpida. Modelo por confirmar.",
     "sizes": "35-39"
+  },
+  "tommy-hilfiger-runner-blanco": {
+    "name": "Tommy Hilfiger Runner",
+    "colorway": "White / Navy / Red",
+    "description": "Runner en cuero blanco con la bandera Tommy en la banda lateral.",
+    "sizes": "39-44"
+  },
+  "tommy-hilfiger-runner-negro": {
+    "name": "Tommy Hilfiger Runner",
+    "colorway": "Black / Navy / Red",
+    "sizes": "39-44"
+  },
+  "madhappy-estrella-blanco": {
+    "name": "Madhappy Estrella",
+    "colorway": "White",
+    "description": "Lona blanca de caña alta con la estrella bordada en el costado.",
+    "sizes": "35-39"
+  },
+  "madhappy-estrella-negro": {
+    "name": "Madhappy Estrella",
+    "colorway": "Black",
+    "sizes": "35-39"
+  },
+  "converse-chuck-taylor-lift-bordado-negro": {
+    "name": "Converse Chuck Taylor All Star Lift Bordado",
+    "colorway": "Black / Egret",
+    "description": "Plataforma en lona negra con sol, luna y flores bordadas en hilo de color.",
+    "sizes": "35-39"
+  },
+  "converse-chuck-taylor-lift-bordado-crema": {
+    "name": "Converse Chuck Taylor All Star Lift Bordado",
+    "colorway": "Egret",
+    "sizes": "35-39"
+  },
+  "converse-chuck-70-plataforma-cuero-negro": {
+    "name": "Converse Chuck 70 Plataforma",
+    "colorway": "Black / Egret",
+    "description": "Corte alto en cuero negro con costura contrastada y suela crema elevada.",
+    "sizes": "35-39"
+  },
+  "converse-chuck-70-crema-flor": {
+    "name": "Converse Chuck 70 Flor",
+    "colorway": "Natural Ivory",
+    "description": "Lona color hueso con una flor estampada en el costado y franja azul en la suela.",
+    "sizes": "35-39"
+  },
+  "converse-chuck-taylor-lift-vino": {
+    "name": "Converse Chuck Taylor All Star Lift",
+    "colorway": "Burgundy",
+    "description": "Plataforma en lona vino con cordones trenzados y dije dorado.",
+    "sizes": "35-39"
+  },
+  "converse-chuck-70-lavanda": {
+    "name": "Converse Chuck 70",
+    "colorway": "Washed Denim",
+    "sizes": "35-39"
+  },
+  "converse-chuck-taylor-lift-negro-satin": {
+    "name": "Converse Chuck Taylor All Star Lift",
+    "colorway": "Black / White",
+    "sizes": "35-39"
+  },
+  "converse-chuck-70-crema": {
+    "name": "Converse Chuck 70",
+    "colorway": "Egret",
+    "sizes": "35-39"
+  },
+  "converse-chuck-taylor-lift-negro": {
+    "name": "Converse Chuck Taylor All Star Lift",
+    "colorway": "Black / White",
+    "description": "El clasico de lona negra sobre plataforma, con puntera de goma blanca.",
+    "sizes": "35-39"
+  },
+  "converse-chuck-taylor-lift-blanco": {
+    "name": "Converse Chuck Taylor All Star Lift",
+    "colorway": "White",
+    "sizes": "35-39"
+  },
+  "converse-chuck-taylor-lift-corazones-crema": {
+    "name": "Converse Chuck Taylor All Star Lift Corazones",
+    "colorway": "Egret / Red",
+    "description": "Lona hueso con corazones rojos bordados en el costado.",
+    "sizes": "35-39"
+  },
+  "converse-chuck-taylor-lift-cuero-crema": {
+    "name": "Converse Chuck Taylor All Star Lift Cuero",
+    "colorway": "Egret / Gold",
+    "description": "Cuero color hueso con el parche All Star en dorado.",
+    "sizes": "35-39"
+  },
+  "converse-chuck-70-plataforma-negro": {
+    "name": "Converse Chuck 70 Plataforma",
+    "colorway": "Black / Egret",
+    "sizes": "35-39"
+  },
+  "converse-chuck-70-love-blanco": {
+    "name": "Converse Chuck 70 Love",
+    "colorway": "Egret / Red",
+    "description": "Lona blanca con la palabra love bordada en rojo sobre la franja lateral.",
+    "sizes": "35-39"
+  },
+  "converse-chuck-taylor-lift-corazones-blanco": {
+    "name": "Converse Chuck Taylor All Star Lift Corazones",
+    "colorway": "White / Red",
+    "description": "Plataforma blanca con corazones rojos alrededor de los ojales.",
+    "sizes": "35-39"
   }
 }

@@ -201,5 +201,21 @@
     "colorway": "White / Navy",
     "description": "9060 en gamuza hueso con paneles azul marino, la N delineada en gris y mediasuela blanca.",
     "sizes": "35-39"
+  },
+  "new-balance-9060-blanco-crema": {
+    "name": "New Balance 9060",
+    "colorway": "White / Sea Salt"
+  },
+  "new-balance-9060-blanco-rosado-navy": {
+    "name": "New Balance 9060",
+    "colorway": "White / Pink / Navy"
+  },
+  "new-balance-9060-gris-claro": {
+    "name": "New Balance 9060",
+    "colorway": "Grey Matter"
+  },
+  "new-balance-9060-triple-negro": {
+    "name": "New Balance 9060",
+    "colorway": "Triple Black"
   }
 }

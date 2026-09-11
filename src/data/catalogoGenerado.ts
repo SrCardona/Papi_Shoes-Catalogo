@@ -75,7 +75,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       44
     ],
     "status": "disponible",
-    "isFeatured": true,
+    "isFeatured": false,
     "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "Runner de malla negra con las tres rayas en charol, salpicado gris en la mediasuela y el piso en verde neon.",
@@ -192,7 +192,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       39
     ],
     "status": "disponible",
-    "isFeatured": true,
+    "isFeatured": false,
     "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "Advantage en cuero blanco entero, con las tres rayas perforadas y el logo lineal en el costado.",
@@ -472,7 +472,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       39
     ],
     "status": "disponible",
-    "isFeatured": true,
+    "isFeatured": false,
     "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "Campus 00s en gamuza beige con las tres rayas blancas, cordones gruesos al tono y mediasuela crema.",
@@ -2869,6 +2869,86 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "updatedAt": "2026-09-03T16:52:11.995Z"
   },
   {
+    "id": "sneaker-jordan-1-low-morado-rosado",
+    "name": "Air Jordan 1 Low",
+    "brand": "Jordan",
+    "model": "Air Jordan 1 Low",
+    "sku": "PAPI-1265",
+    "category": "general",
+    "gender": "unisex",
+    "price": 179900,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/jordan/jordan-1-low-morado-rosado.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": true,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Purple / Pink / White",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-09-11T19:42:01.057Z",
+    "updatedAt": "2026-09-11T19:42:01.057Z"
+  },
+  {
+    "id": "sneaker-jordan-1-low-pastel",
+    "name": "Air Jordan 1 Low",
+    "brand": "Jordan",
+    "model": "Air Jordan 1 Low",
+    "sku": "PAPI-7662",
+    "category": "general",
+    "gender": "unisex",
+    "price": 179900,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/jordan/jordan-1-low-pastel.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": true,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "Gamuza en gris, azul hielo y rosa palo sobre cuero blanco.",
+    "details": {
+      "condition": "En caja",
+      "colorway": "White / Grey / Pastel",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-09-11T19:42:01.057Z",
+    "updatedAt": "2026-09-11T19:42:01.057Z"
+  },
+  {
     "id": "sneaker-jordan-1-low-paris-negro",
     "name": "Air Jordan 1 Low Paris",
     "brand": "Jordan",
@@ -3156,7 +3236,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "price": 179900,
     "originalPrice": 210000,
     "images": [
-      "/catalogo/sneakers/jordan/jordan-1-mid-azul-rey.jpg"
+      "/catalogo/sneakers/jordan/jordan-1-mid-azul-rey.jpg",
+      "/catalogo/sneakers/jordan/jordan-1-mid-azul-rey_2.jpg"
     ],
     "sizes": [
       37,
@@ -3186,6 +3267,86 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "updatedAt": "2026-08-26T15:18:01.924Z"
   },
   {
+    "id": "sneaker-jordan-1-mid-blanco-azul-rojo",
+    "name": "Air Jordan 1 Mid",
+    "brand": "Jordan",
+    "model": "Air Jordan 1 Mid",
+    "sku": "PAPI-3431",
+    "category": "general",
+    "gender": "unisex",
+    "price": 179900,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/jordan/jordan-1-mid-blanco-azul-rojo.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": true,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "Cuero blanco con paneles azul rey y talon rojo, sobre entresuela hueso.",
+    "details": {
+      "condition": "En caja",
+      "colorway": "White / Game Royal / University Red",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-09-11T19:42:01.057Z",
+    "updatedAt": "2026-09-11T19:42:01.057Z"
+  },
+  {
+    "id": "sneaker-jordan-1-mid-blanco-negro",
+    "name": "Air Jordan 1 Mid",
+    "brand": "Jordan",
+    "model": "Air Jordan 1 Mid",
+    "sku": "PAPI-1520",
+    "category": "general",
+    "gender": "unisex",
+    "price": 179900,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/jordan/jordan-1-mid-blanco-negro.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "White / Black",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-09-11T19:42:01.057Z",
+    "updatedAt": "2026-09-11T19:42:01.057Z"
+  },
+  {
     "id": "sneaker-jordan-1-mid-charol-hielo",
     "name": "Air Jordan 1 Mid",
     "brand": "Jordan",
@@ -3196,7 +3357,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "price": 179900,
     "originalPrice": 210000,
     "images": [
-      "/catalogo/sneakers/jordan/jordan-1-mid-charol-hielo.jpg"
+      "/catalogo/sneakers/jordan/jordan-1-mid-charol-hielo.jpg",
+      "/catalogo/sneakers/jordan/jordan-1-mid-charol-hielo_2.jpg"
     ],
     "sizes": [
       37,
@@ -3224,6 +3386,46 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "inquiriesCount": 0,
     "createdAt": "2026-08-26T15:18:01.924Z",
     "updatedAt": "2026-08-26T15:18:01.924Z"
+  },
+  {
+    "id": "sneaker-jordan-1-mid-charol-negro-concord",
+    "name": "Air Jordan 1 Mid",
+    "brand": "Jordan",
+    "model": "Air Jordan 1 Mid",
+    "sku": "PAPI-1000",
+    "category": "general",
+    "gender": "unisex",
+    "price": 179900,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/jordan/jordan-1-mid-charol-negro-concord.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "Charol negro de arriba abajo con el Jumpman en morado concord.",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Black / Concord",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-09-11T19:42:01.057Z",
+    "updatedAt": "2026-09-11T19:42:01.057Z"
   },
   {
     "id": "sneaker-jordan-1-mid-charol-negro",
@@ -3266,6 +3468,166 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "updatedAt": "2026-08-26T15:18:01.924Z"
   },
   {
+    "id": "sneaker-jordan-1-mid-multicolor-navy",
+    "name": "Air Jordan 1 Mid",
+    "brand": "Jordan",
+    "model": "Air Jordan 1 Mid",
+    "sku": "PAPI-2120",
+    "category": "general",
+    "gender": "unisex",
+    "price": 179900,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/jordan/jordan-1-mid-multicolor-navy.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "Paneles en azul marino, rojo, verde, naranja y amarillo, cada pie distinto.",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Navy / Multi-Color",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-09-11T19:42:01.057Z",
+    "updatedAt": "2026-09-11T19:42:01.057Z"
+  },
+  {
+    "id": "sneaker-jordan-1-mid-negro-fucsia",
+    "name": "Air Jordan 1 Mid",
+    "brand": "Jordan",
+    "model": "Air Jordan 1 Mid",
+    "sku": "PAPI-1222",
+    "category": "general",
+    "gender": "unisex",
+    "price": 179900,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/jordan/jordan-1-mid-negro-fucsia.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Black / Siren Red",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-09-11T19:42:01.057Z",
+    "updatedAt": "2026-09-11T19:42:01.057Z"
+  },
+  {
+    "id": "sneaker-jordan-1-mid-rojo-metalico",
+    "name": "Air Jordan 1 Mid",
+    "brand": "Jordan",
+    "model": "Air Jordan 1 Mid",
+    "sku": "PAPI-1528",
+    "category": "general",
+    "gender": "unisex",
+    "price": 179900,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/jordan/jordan-1-mid-rojo-metalico.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Metallic Red",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-09-11T19:42:01.057Z",
+    "updatedAt": "2026-09-11T19:42:01.057Z"
+  },
+  {
+    "id": "sneaker-jordan-1-mid-vino-negro",
+    "name": "Air Jordan 1 Mid",
+    "brand": "Jordan",
+    "model": "Air Jordan 1 Mid",
+    "sku": "PAPI-7960",
+    "category": "general",
+    "gender": "unisex",
+    "price": 179900,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/jordan/jordan-1-mid-vino-negro.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Team Red / Black / White",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-09-11T19:42:01.057Z",
+    "updatedAt": "2026-09-11T19:42:01.057Z"
+  },
+  {
     "id": "sneaker-jordan-1-mid-banned",
     "name": "Air Jordan 1 Mid Banned",
     "brand": "Jordan",
@@ -3276,7 +3638,10 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "price": 179900,
     "originalPrice": 210000,
     "images": [
-      "/catalogo/sneakers/jordan/jordan-1-mid-banned.jpg"
+      "/catalogo/sneakers/jordan/jordan-1-mid-banned.jpg",
+      "/catalogo/sneakers/jordan/jordan-1-mid-banned_2.jpg",
+      "/catalogo/sneakers/jordan/jordan-1-mid-banned_3.jpg",
+      "/catalogo/sneakers/jordan/jordan-1-mid-banned_4.jpg"
     ],
     "sizes": [
       37,
@@ -3316,7 +3681,9 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "price": 179900,
     "originalPrice": 210000,
     "images": [
-      "/catalogo/sneakers/jordan/jordan-1-mid-carbon-fiber.jpg"
+      "/catalogo/sneakers/jordan/jordan-1-mid-carbon-fiber.jpg",
+      "/catalogo/sneakers/jordan/jordan-1-mid-carbon-fiber_2.jpg",
+      "/catalogo/sneakers/jordan/jordan-1-mid-carbon-fiber_3.jpg"
     ],
     "sizes": [
       37,
@@ -3344,6 +3711,126 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "inquiriesCount": 0,
     "createdAt": "2026-08-26T15:18:01.924Z",
     "updatedAt": "2026-08-26T15:18:01.924Z"
+  },
+  {
+    "id": "sneaker-jordan-1-mid-chicago-black-toe",
+    "name": "Air Jordan 1 Mid Chicago Black Toe",
+    "brand": "Jordan",
+    "model": "Air Jordan 1 Mid Chicago Black Toe",
+    "sku": "PAPI-1345",
+    "category": "general",
+    "gender": "unisex",
+    "price": 179900,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/jordan/jordan-1-mid-chicago-black-toe.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "La receta Chicago en version Mid: punta negra, cuerpo blanco y rojo en talon y Swoosh.",
+    "details": {
+      "condition": "En caja",
+      "colorway": "White / Gym Red / Black",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-09-11T19:42:01.057Z",
+    "updatedAt": "2026-09-11T19:42:01.057Z"
+  },
+  {
+    "id": "sneaker-jordan-1-mid-gold-toe",
+    "name": "Air Jordan 1 Mid Gold Toe",
+    "brand": "Jordan",
+    "model": "Air Jordan 1 Mid Gold Toe",
+    "sku": "PAPI-1488",
+    "category": "general",
+    "gender": "unisex",
+    "price": 179900,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/jordan/jordan-1-mid-gold-toe.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "Charol negro sobre cuero blanco y el Swoosh en dorado metalico.",
+    "details": {
+      "condition": "En caja",
+      "colorway": "White / Black / Gold",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-09-11T19:42:01.057Z",
+    "updatedAt": "2026-09-11T19:42:01.057Z"
+  },
+  {
+    "id": "sneaker-jordan-1-mid-light-smoke-grey",
+    "name": "Air Jordan 1 Mid Light Smoke Grey",
+    "brand": "Jordan",
+    "model": "Air Jordan 1 Mid Light Smoke Grey",
+    "sku": "PAPI-1568",
+    "category": "general",
+    "gender": "unisex",
+    "price": 179900,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/jordan/jordan-1-mid-light-smoke-grey.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Light Smoke Grey / White / Black",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-09-11T19:42:01.057Z",
+    "updatedAt": "2026-09-11T19:42:01.057Z"
   },
   {
     "id": "sneaker-jordan-1-mid-multicolor",
@@ -3476,7 +3963,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "price": 179900,
     "originalPrice": 210000,
     "images": [
-      "/catalogo/sneakers/jordan/jordan-1-mid-unc.jpg"
+      "/catalogo/sneakers/jordan/jordan-1-mid-unc.jpg",
+      "/catalogo/sneakers/jordan/jordan-1-mid-unc_2.jpg"
     ],
     "sizes": [
       37,
@@ -3546,6 +4034,46 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "updatedAt": "2026-08-13T19:36:10.000Z"
   },
   {
+    "id": "sneaker-jordan-1-retro-high-charol-negro-fucsia",
+    "name": "Air Jordan 1 Retro High",
+    "brand": "Jordan",
+    "model": "Air Jordan 1 Retro High",
+    "sku": "PAPI-4731",
+    "category": "general",
+    "gender": "unisex",
+    "price": 179900,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/jordan/jordan-1-retro-high-charol-negro-fucsia.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "Charol negro con fucsia en talon y Swoosh, y suela roja.",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Black / Fuchsia",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-09-11T19:42:01.057Z",
+    "updatedAt": "2026-09-11T19:42:01.057Z"
+  },
+  {
     "id": "sneaker-jordan-1-retro-high-charol-negro",
     "name": "Air Jordan 1 Retro High",
     "brand": "Jordan",
@@ -3584,6 +4112,86 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "inquiriesCount": 0,
     "createdAt": "2026-08-26T15:18:01.924Z",
     "updatedAt": "2026-08-26T15:18:01.924Z"
+  },
+  {
+    "id": "sneaker-jordan-1-retro-high-denim",
+    "name": "Air Jordan 1 Retro High",
+    "brand": "Jordan",
+    "model": "Air Jordan 1 Retro High",
+    "sku": "PAPI-9479",
+    "category": "general",
+    "gender": "unisex",
+    "price": 179900,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/jordan/jordan-1-retro-high-denim.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "Denim celeste desteñido sobre cuero blanco, con dijes dorados en los cordones.",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Denim / White",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-09-11T19:42:01.057Z",
+    "updatedAt": "2026-09-11T19:42:01.057Z"
+  },
+  {
+    "id": "sneaker-jordan-1-retro-high-rojo-satin",
+    "name": "Air Jordan 1 Retro High",
+    "brand": "Jordan",
+    "model": "Air Jordan 1 Retro High",
+    "sku": "PAPI-7310",
+    "category": "general",
+    "gender": "unisex",
+    "price": 179900,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/jordan/jordan-1-retro-high-rojo-satin.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "Rojo satinado en todo el corte, con entresuela blanca.",
+    "details": {
+      "condition": "En caja",
+      "colorway": "University Red",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-09-11T19:42:01.057Z",
+    "updatedAt": "2026-09-11T19:42:01.057Z"
   },
   {
     "id": "sneaker-jordan-1-retro-high-85-black-white",
@@ -3787,6 +4395,46 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "updatedAt": "2026-08-13T19:36:10.000Z"
   },
   {
+    "id": "sneaker-jordan-1-retro-high-og-black-white",
+    "name": "Air Jordan 1 Retro High OG",
+    "brand": "Jordan",
+    "model": "Air Jordan 1 Retro High OG",
+    "sku": "PAPI-1484",
+    "category": "general",
+    "gender": "unisex",
+    "price": 179900,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/jordan/jordan-1-retro-high-og-black-white.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "Cuero blanco con overlays negros y punta blanca.",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Black / White",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-09-11T19:42:01.057Z",
+    "updatedAt": "2026-09-11T19:42:01.057Z"
+  },
+  {
     "id": "sneaker-jordan-1-retro-high-og-blanco-rojo",
     "name": "Air Jordan 1 Retro High OG",
     "brand": "Jordan",
@@ -3797,7 +4445,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "price": 179900,
     "originalPrice": 210000,
     "images": [
-      "/catalogo/sneakers/jordan/jordan-1-retro-high-og-blanco-rojo.jpg"
+      "/catalogo/sneakers/jordan/jordan-1-retro-high-og-blanco-rojo.jpg",
+      "/catalogo/sneakers/jordan/jordan-1-retro-high-og-blanco-rojo_2.jpg"
     ],
     "sizes": [
       37,
@@ -3827,6 +4476,46 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "updatedAt": "2026-08-26T15:18:01.924Z"
   },
   {
+    "id": "sneaker-jordan-1-retro-high-og-gorge-green",
+    "name": "Air Jordan 1 Retro High OG Gorge Green",
+    "brand": "Jordan",
+    "model": "Air Jordan 1 Retro High OG Gorge Green",
+    "sku": "PAPI-7629",
+    "category": "general",
+    "gender": "unisex",
+    "price": 179900,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/jordan/jordan-1-retro-high-og-gorge-green.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "Verde bosque sobre cuero hueso, con las alas doradas en el tobillo.",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Gorge Green / Sail",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-09-11T19:42:01.057Z",
+    "updatedAt": "2026-09-11T19:42:01.057Z"
+  },
+  {
     "id": "sneaker-jordan-1-retro-high-og-lucky-green",
     "name": "Air Jordan 1 Retro High OG Lucky Green",
     "brand": "Jordan",
@@ -3837,7 +4526,9 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "price": 179900,
     "originalPrice": 210000,
     "images": [
-      "/catalogo/sneakers/jordan/jordan-1-retro-high-og-lucky-green.jpg"
+      "/catalogo/sneakers/jordan/jordan-1-retro-high-og-lucky-green.jpg",
+      "/catalogo/sneakers/jordan/jordan-1-retro-high-og-lucky-green_2.jpg",
+      "/catalogo/sneakers/jordan/jordan-1-retro-high-og-lucky-green_3.jpg"
     ],
     "sizes": [
       37,
@@ -3877,7 +4568,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "price": 179900,
     "originalPrice": 210000,
     "images": [
-      "/catalogo/sneakers/jordan/jordan-1-retro-high-og-obsidian-unc.jpg"
+      "/catalogo/sneakers/jordan/jordan-1-retro-high-og-obsidian-unc.jpg",
+      "/catalogo/sneakers/jordan/jordan-1-retro-high-og-obsidian-unc_2.jpg"
     ],
     "sizes": [
       37,
@@ -4186,6 +4878,41 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "inquiriesCount": 0,
     "createdAt": "2026-08-13T19:36:10.000Z",
     "updatedAt": "2026-08-13T19:36:10.000Z"
+  },
+  {
+    "id": "sneaker-jordan-1-zoom-cmft-pastel",
+    "name": "Air Jordan 1 Zoom CMFT",
+    "brand": "Jordan",
+    "model": "Air Jordan 1 Zoom CMFT",
+    "sku": "PAPI-4686",
+    "category": "general",
+    "gender": "unisex",
+    "price": 179900,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/jordan/jordan-1-zoom-cmft-pastel.jpg"
+    ],
+    "sizes": [
+      36,
+      37,
+      39
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "Version acolchada del Jordan 1, en tonos pastel con suela de goma.",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Sail / Pastel",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-09-11T19:42:01.057Z",
+    "updatedAt": "2026-09-11T19:42:01.057Z"
   },
   {
     "id": "sneaker-jordan-11-retro-black-concord",
@@ -4558,7 +5285,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       44
     ],
     "status": "disponible",
-    "isFeatured": true,
+    "isFeatured": false,
     "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "La 11 Low en cuero blanco con el mudguard en charol azul cielo y suela traslucida.",
@@ -4654,6 +5381,82 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "inquiriesCount": 0,
     "createdAt": "2026-08-25T15:10:14.234Z",
     "updatedAt": "2026-08-25T15:10:14.234Z"
+  },
+  {
+    "id": "sneaker-jordan-13-retro-black-flint",
+    "name": "Air Jordan 13 Retro Black Flint",
+    "brand": "Jordan",
+    "model": "Air Jordan 13 Retro Black Flint",
+    "sku": "PAPI-4481",
+    "category": "general",
+    "gender": "hombre",
+    "price": 179900,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/jordan/hombre/jordan-13-retro-black-flint.jpg"
+    ],
+    "sizes": [
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Black / Flint Grey / White",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-09-11T19:42:01.057Z",
+    "updatedAt": "2026-09-11T19:42:01.057Z"
+  },
+  {
+    "id": "sneaker-jordan-13-retro-flint",
+    "name": "Air Jordan 13 Retro Flint",
+    "brand": "Jordan",
+    "model": "Air Jordan 13 Retro Flint",
+    "sku": "PAPI-4784",
+    "category": "general",
+    "gender": "hombre",
+    "price": 179900,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/jordan/hombre/jordan-13-retro-flint.jpg"
+    ],
+    "sizes": [
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "Nylon azul marino punteado, gris flint y el ojo de pantera en la entresuela.",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Navy / Flint Grey / White",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-09-11T19:42:01.057Z",
+    "updatedAt": "2026-09-11T19:42:01.057Z"
   },
   {
     "id": "sneaker-jordan-13-retro-wolf-grey",
@@ -8972,6 +9775,562 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "updatedAt": "2026-08-13T19:36:12.000Z"
   },
   {
+    "id": "sneaker-converse-chuck-70-crema",
+    "name": "Converse Chuck 70",
+    "brand": "Otras",
+    "model": "Converse Chuck 70",
+    "sku": "PAPI-1622",
+    "category": "general",
+    "gender": "mujer",
+    "price": 190000,
+    "originalPrice": 230000,
+    "images": [
+      "/catalogo/sneakers/otras/mujer/converse-chuck-70-crema.jpg"
+    ],
+    "sizes": [
+      35,
+      36,
+      37,
+      38,
+      39
+    ],
+    "status": "disponible",
+    "isFeatured": true,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Egret",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-09-11T19:42:01.057Z",
+    "updatedAt": "2026-09-11T19:42:01.057Z"
+  },
+  {
+    "id": "sneaker-converse-chuck-70-lavanda",
+    "name": "Converse Chuck 70",
+    "brand": "Otras",
+    "model": "Converse Chuck 70",
+    "sku": "PAPI-9600",
+    "category": "general",
+    "gender": "mujer",
+    "price": 190000,
+    "originalPrice": 230000,
+    "images": [
+      "/catalogo/sneakers/otras/mujer/converse-chuck-70-lavanda.jpg"
+    ],
+    "sizes": [
+      35,
+      36,
+      37,
+      38,
+      39
+    ],
+    "status": "disponible",
+    "isFeatured": true,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Washed Denim",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-09-11T19:42:01.057Z",
+    "updatedAt": "2026-09-11T19:42:01.057Z"
+  },
+  {
+    "id": "sneaker-converse-chuck-70-crema-flor",
+    "name": "Converse Chuck 70 Flor",
+    "brand": "Otras",
+    "model": "Converse Chuck 70 Flor",
+    "sku": "PAPI-1320",
+    "category": "general",
+    "gender": "mujer",
+    "price": 190000,
+    "originalPrice": 230000,
+    "images": [
+      "/catalogo/sneakers/otras/mujer/converse-chuck-70-crema-flor.jpg"
+    ],
+    "sizes": [
+      35,
+      36,
+      37,
+      38,
+      39
+    ],
+    "status": "disponible",
+    "isFeatured": true,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "Lona color hueso con una flor estampada en el costado y franja azul en la suela.",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Natural Ivory",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-09-11T19:42:01.057Z",
+    "updatedAt": "2026-09-11T19:42:01.057Z"
+  },
+  {
+    "id": "sneaker-converse-chuck-70-love-blanco",
+    "name": "Converse Chuck 70 Love",
+    "brand": "Otras",
+    "model": "Converse Chuck 70 Love",
+    "sku": "PAPI-5442",
+    "category": "general",
+    "gender": "mujer",
+    "price": 190000,
+    "originalPrice": 230000,
+    "images": [
+      "/catalogo/sneakers/otras/mujer/converse-chuck-70-love-blanco.jpg",
+      "/catalogo/sneakers/otras/mujer/converse-chuck-70-love-blanco_2.jpg"
+    ],
+    "sizes": [
+      35,
+      36,
+      37,
+      38,
+      39
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "Lona blanca con la palabra love bordada en rojo sobre la franja lateral.",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Egret / Red",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-09-11T19:42:01.057Z",
+    "updatedAt": "2026-09-11T19:42:01.057Z"
+  },
+  {
+    "id": "sneaker-converse-chuck-70-plataforma-cuero-negro",
+    "name": "Converse Chuck 70 Plataforma",
+    "brand": "Otras",
+    "model": "Converse Chuck 70 Plataforma",
+    "sku": "PAPI-1469",
+    "category": "general",
+    "gender": "mujer",
+    "price": 190000,
+    "originalPrice": 230000,
+    "images": [
+      "/catalogo/sneakers/otras/mujer/converse-chuck-70-plataforma-cuero-negro.jpg"
+    ],
+    "sizes": [
+      35,
+      36,
+      37,
+      38,
+      39
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "Corte alto en cuero negro con costura contrastada y suela crema elevada.",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Black / Egret",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-09-11T19:42:01.057Z",
+    "updatedAt": "2026-09-11T19:42:01.057Z"
+  },
+  {
+    "id": "sneaker-converse-chuck-70-plataforma-negro",
+    "name": "Converse Chuck 70 Plataforma",
+    "brand": "Otras",
+    "model": "Converse Chuck 70 Plataforma",
+    "sku": "PAPI-1588",
+    "category": "general",
+    "gender": "mujer",
+    "price": 190000,
+    "originalPrice": 230000,
+    "images": [
+      "/catalogo/sneakers/otras/mujer/converse-chuck-70-plataforma-negro.jpg"
+    ],
+    "sizes": [
+      35,
+      36,
+      37,
+      38,
+      39
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Black / Egret",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-09-11T19:42:01.057Z",
+    "updatedAt": "2026-09-11T19:42:01.057Z"
+  },
+  {
+    "id": "sneaker-converse-chuck-taylor-lift-blanco",
+    "name": "Converse Chuck Taylor All Star Lift",
+    "brand": "Otras",
+    "model": "Converse Chuck Taylor All Star Lift",
+    "sku": "PAPI-9790",
+    "category": "general",
+    "gender": "mujer",
+    "price": 190000,
+    "originalPrice": 230000,
+    "images": [
+      "/catalogo/sneakers/otras/mujer/converse-chuck-taylor-lift-blanco.jpg"
+    ],
+    "sizes": [
+      35,
+      36,
+      37,
+      38,
+      39
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "White",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-09-11T19:42:01.057Z",
+    "updatedAt": "2026-09-11T19:42:01.057Z"
+  },
+  {
+    "id": "sneaker-converse-chuck-taylor-lift-negro-satin",
+    "name": "Converse Chuck Taylor All Star Lift",
+    "brand": "Otras",
+    "model": "Converse Chuck Taylor All Star Lift",
+    "sku": "PAPI-1295",
+    "category": "general",
+    "gender": "mujer",
+    "price": 190000,
+    "originalPrice": 230000,
+    "images": [
+      "/catalogo/sneakers/otras/mujer/converse-chuck-taylor-lift-negro-satin.jpg"
+    ],
+    "sizes": [
+      35,
+      36,
+      37,
+      38,
+      39
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Black / White",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-09-11T19:42:01.057Z",
+    "updatedAt": "2026-09-11T19:42:01.057Z"
+  },
+  {
+    "id": "sneaker-converse-chuck-taylor-lift-negro",
+    "name": "Converse Chuck Taylor All Star Lift",
+    "brand": "Otras",
+    "model": "Converse Chuck Taylor All Star Lift",
+    "sku": "PAPI-7277",
+    "category": "general",
+    "gender": "mujer",
+    "price": 190000,
+    "originalPrice": 230000,
+    "images": [
+      "/catalogo/sneakers/otras/mujer/converse-chuck-taylor-lift-negro.jpg"
+    ],
+    "sizes": [
+      35,
+      36,
+      37,
+      38,
+      39
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "El clasico de lona negra sobre plataforma, con puntera de goma blanca.",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Black / White",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-09-11T19:42:01.057Z",
+    "updatedAt": "2026-09-11T19:42:01.057Z"
+  },
+  {
+    "id": "sneaker-converse-chuck-taylor-lift-vino",
+    "name": "Converse Chuck Taylor All Star Lift",
+    "brand": "Otras",
+    "model": "Converse Chuck Taylor All Star Lift",
+    "sku": "PAPI-5747",
+    "category": "general",
+    "gender": "mujer",
+    "price": 190000,
+    "originalPrice": 230000,
+    "images": [
+      "/catalogo/sneakers/otras/mujer/converse-chuck-taylor-lift-vino.jpg"
+    ],
+    "sizes": [
+      35,
+      36,
+      37,
+      38,
+      39
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "Plataforma en lona vino con cordones trenzados y dije dorado.",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Burgundy",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-09-11T19:42:01.057Z",
+    "updatedAt": "2026-09-11T19:42:01.057Z"
+  },
+  {
+    "id": "sneaker-converse-chuck-taylor-lift-bordado-crema",
+    "name": "Converse Chuck Taylor All Star Lift Bordado",
+    "brand": "Otras",
+    "model": "Converse Chuck Taylor All Star Lift Bordado",
+    "sku": "PAPI-6408",
+    "category": "general",
+    "gender": "mujer",
+    "price": 190000,
+    "originalPrice": 230000,
+    "images": [
+      "/catalogo/sneakers/otras/mujer/converse-chuck-taylor-lift-bordado-crema.jpg"
+    ],
+    "sizes": [
+      35,
+      36,
+      37,
+      38,
+      39
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Egret",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-09-11T19:42:01.057Z",
+    "updatedAt": "2026-09-11T19:42:01.057Z"
+  },
+  {
+    "id": "sneaker-converse-chuck-taylor-lift-bordado-negro",
+    "name": "Converse Chuck Taylor All Star Lift Bordado",
+    "brand": "Otras",
+    "model": "Converse Chuck Taylor All Star Lift Bordado",
+    "sku": "PAPI-1388",
+    "category": "general",
+    "gender": "mujer",
+    "price": 190000,
+    "originalPrice": 230000,
+    "images": [
+      "/catalogo/sneakers/otras/mujer/converse-chuck-taylor-lift-bordado-negro.jpg"
+    ],
+    "sizes": [
+      35,
+      36,
+      37,
+      38,
+      39
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "Plataforma en lona negra con sol, luna y flores bordadas en hilo de color.",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Black / Egret",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-09-11T19:42:01.057Z",
+    "updatedAt": "2026-09-11T19:42:01.057Z"
+  },
+  {
+    "id": "sneaker-converse-chuck-taylor-lift-corazones-blanco",
+    "name": "Converse Chuck Taylor All Star Lift Corazones",
+    "brand": "Otras",
+    "model": "Converse Chuck Taylor All Star Lift Corazones",
+    "sku": "PAPI-3389",
+    "category": "general",
+    "gender": "mujer",
+    "price": 190000,
+    "originalPrice": 230000,
+    "images": [
+      "/catalogo/sneakers/otras/mujer/converse-chuck-taylor-lift-corazones-blanco.jpg"
+    ],
+    "sizes": [
+      35,
+      36,
+      37,
+      38,
+      39
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "Plataforma blanca con corazones rojos alrededor de los ojales.",
+    "details": {
+      "condition": "En caja",
+      "colorway": "White / Red",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-09-11T19:42:01.057Z",
+    "updatedAt": "2026-09-11T19:42:01.057Z"
+  },
+  {
+    "id": "sneaker-converse-chuck-taylor-lift-corazones-crema",
+    "name": "Converse Chuck Taylor All Star Lift Corazones",
+    "brand": "Otras",
+    "model": "Converse Chuck Taylor All Star Lift Corazones",
+    "sku": "PAPI-1626",
+    "category": "general",
+    "gender": "mujer",
+    "price": 190000,
+    "originalPrice": 230000,
+    "images": [
+      "/catalogo/sneakers/otras/mujer/converse-chuck-taylor-lift-corazones-crema.jpg"
+    ],
+    "sizes": [
+      35,
+      36,
+      37,
+      38,
+      39
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "Lona hueso con corazones rojos bordados en el costado.",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Egret / Red",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-09-11T19:42:01.057Z",
+    "updatedAt": "2026-09-11T19:42:01.057Z"
+  },
+  {
+    "id": "sneaker-converse-chuck-taylor-lift-cuero-crema",
+    "name": "Converse Chuck Taylor All Star Lift Cuero",
+    "brand": "Otras",
+    "model": "Converse Chuck Taylor All Star Lift Cuero",
+    "sku": "PAPI-1835",
+    "category": "general",
+    "gender": "mujer",
+    "price": 190000,
+    "originalPrice": 230000,
+    "images": [
+      "/catalogo/sneakers/otras/mujer/converse-chuck-taylor-lift-cuero-crema.jpg"
+    ],
+    "sizes": [
+      35,
+      36,
+      37,
+      38,
+      39
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "Cuero color hueso con el parche All Star en dorado.",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Egret / Gold",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-09-11T19:42:01.057Z",
+    "updatedAt": "2026-09-11T19:42:01.057Z"
+  },
+  {
     "id": "sneaker-creative-recreation-blanco-negro",
     "name": "Creative Recreation",
     "brand": "Otras",
@@ -9348,7 +10707,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       39
     ],
     "status": "disponible",
-    "isFeatured": true,
+    "isFeatured": false,
     "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "Runner Fila en malla crema con capas superpuestas y mediasuela alta esculpida. Modelo por confirmar.",
@@ -10743,6 +12102,118 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "updatedAt": "2026-08-13T19:13:00.000Z"
   },
   {
+    "id": "sneaker-louis-vuitton-trainer-mid-negro",
+    "name": "Louis Vuitton Trainer Mid",
+    "brand": "Louis Vuitton",
+    "model": "Louis Vuitton Trainer Mid",
+    "sku": "PAPI-1061",
+    "category": "general",
+    "gender": "hombre",
+    "price": 190000,
+    "originalPrice": 230000,
+    "images": [
+      "/catalogo/sneakers/louis-vuitton/hombre/louis-vuitton-trainer-mid-negro.jpg"
+    ],
+    "sizes": [
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": true,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "Corte alto en cuero negro con la flor del monograma en relieve y detalle perforado en la punta.",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Triple Black",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-09-11T19:42:01.057Z",
+    "updatedAt": "2026-09-11T19:42:01.057Z"
+  },
+  {
+    "id": "sneaker-madhappy-estrella-blanco",
+    "name": "Madhappy Estrella",
+    "brand": "Otras",
+    "model": "Madhappy Estrella",
+    "sku": "PAPI-6110",
+    "category": "general",
+    "gender": "mujer",
+    "price": 190000,
+    "originalPrice": 230000,
+    "images": [
+      "/catalogo/sneakers/otras/mujer/madhappy-estrella-blanco.jpg"
+    ],
+    "sizes": [
+      35,
+      36,
+      37,
+      38,
+      39
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "Lona blanca de caña alta con la estrella bordada en el costado.",
+    "details": {
+      "condition": "En caja",
+      "colorway": "White",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-09-11T19:42:01.057Z",
+    "updatedAt": "2026-09-11T19:42:01.057Z"
+  },
+  {
+    "id": "sneaker-madhappy-estrella-negro",
+    "name": "Madhappy Estrella",
+    "brand": "Otras",
+    "model": "Madhappy Estrella",
+    "sku": "PAPI-5493",
+    "category": "general",
+    "gender": "mujer",
+    "price": 190000,
+    "originalPrice": 230000,
+    "images": [
+      "/catalogo/sneakers/otras/mujer/madhappy-estrella-negro.jpg"
+    ],
+    "sizes": [
+      35,
+      36,
+      37,
+      38,
+      39
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Black",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-09-11T19:42:01.057Z",
+    "updatedAt": "2026-09-11T19:42:01.057Z"
+  },
+  {
     "id": "sneaker-new-balance-1906a-verde-oliva",
     "name": "New Balance 1906A",
     "brand": "New Balance",
@@ -12075,7 +13546,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       44
     ],
     "status": "disponible",
-    "isFeatured": true,
+    "isFeatured": false,
     "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "9060 en gamuza gris y malla cafe, con la N en plata sobre mediasuela crema.",
@@ -12112,7 +13583,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       39
     ],
     "status": "disponible",
-    "isFeatured": true,
+    "isFeatured": false,
     "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "9060 en gamuza hueso con paneles azul marino, la N delineada en gris y mediasuela blanca.",
@@ -12166,6 +13637,86 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "updatedAt": "2026-08-25T15:10:14.234Z"
   },
   {
+    "id": "sneaker-new-balance-9060-blanco-crema",
+    "name": "New Balance 9060",
+    "brand": "New Balance",
+    "model": "New Balance 9060",
+    "sku": "PAPI-2523",
+    "category": "general",
+    "gender": "unisex",
+    "price": 179900,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/new-balance/new-balance-9060-blanco-crema.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": true,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "White / Sea Salt",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-09-11T19:42:01.057Z",
+    "updatedAt": "2026-09-11T19:42:01.057Z"
+  },
+  {
+    "id": "sneaker-new-balance-9060-blanco-rosado-navy",
+    "name": "New Balance 9060",
+    "brand": "New Balance",
+    "model": "New Balance 9060",
+    "sku": "PAPI-1244",
+    "category": "general",
+    "gender": "unisex",
+    "price": 179900,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/new-balance/new-balance-9060-blanco-rosado-navy.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "White / Pink / Navy",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-09-11T19:42:01.057Z",
+    "updatedAt": "2026-09-11T19:42:01.057Z"
+  },
+  {
     "id": "sneaker-new-balance-9060-crema-gris",
     "name": "New Balance 9060",
     "brand": "New Balance",
@@ -12205,6 +13756,46 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "inquiriesCount": 0,
     "createdAt": "2026-08-25T15:10:14.234Z",
     "updatedAt": "2026-08-25T15:10:14.234Z"
+  },
+  {
+    "id": "sneaker-new-balance-9060-gris-claro",
+    "name": "New Balance 9060",
+    "brand": "New Balance",
+    "model": "New Balance 9060",
+    "sku": "PAPI-5595",
+    "category": "general",
+    "gender": "unisex",
+    "price": 179900,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/new-balance/new-balance-9060-gris-claro.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Grey Matter",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-09-11T19:42:01.057Z",
+    "updatedAt": "2026-09-11T19:42:01.057Z"
   },
   {
     "id": "sneaker-new-balance-9060-negro",
@@ -12326,6 +13917,46 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "inquiriesCount": 0,
     "createdAt": "2026-08-13T19:36:11.000Z",
     "updatedAt": "2026-08-13T19:36:11.000Z"
+  },
+  {
+    "id": "sneaker-new-balance-9060-triple-negro",
+    "name": "New Balance 9060",
+    "brand": "New Balance",
+    "model": "New Balance 9060",
+    "sku": "PAPI-3837",
+    "category": "general",
+    "gender": "unisex",
+    "price": 179900,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/new-balance/new-balance-9060-triple-negro.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Triple Black",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-09-11T19:42:01.057Z",
+    "updatedAt": "2026-09-11T19:42:01.057Z"
   },
   {
     "id": "sneaker-new-balance-9060-moonrock-linen",
@@ -12534,7 +14165,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "price": 179900,
     "originalPrice": 210000,
     "images": [
-      "/catalogo/sneakers/nike/nike-air-force-1-triple-white.jpg"
+      "/catalogo/sneakers/nike/nike-air-force-1-triple-white.jpg",
+      "/catalogo/sneakers/nike/nike-air-force-1-triple-white_2.jpg",
+      "/catalogo/sneakers/nike/nike-air-force-1-triple-white_3.jpg",
+      "/catalogo/sneakers/nike/nike-air-force-1-triple-white_4.jpg",
+      "/catalogo/sneakers/nike/nike-air-force-1-triple-white_5.jpg"
     ],
     "sizes": [
       37,
@@ -12701,7 +14336,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       44
     ],
     "status": "disponible",
-    "isFeatured": true,
+    "isFeatured": false,
     "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "AF1 en gamuza cafe entera, con el swoosh al tono y la suela cafe.",
@@ -16311,7 +17946,10 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "price": 179900,
     "originalPrice": 210000,
     "images": [
-      "/catalogo/sneakers/nike/hombre/nike-cortez-negro-blanco.jpg"
+      "/catalogo/sneakers/nike/hombre/nike-cortez-negro-blanco.jpg",
+      "/catalogo/sneakers/nike/hombre/nike-cortez-negro-blanco_2.jpg",
+      "/catalogo/sneakers/nike/hombre/nike-cortez-negro-blanco_3.jpg",
+      "/catalogo/sneakers/nike/hombre/nike-cortez-negro-blanco_4.jpg"
     ],
     "sizes": [
       39,
@@ -16337,6 +17975,44 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "inquiriesCount": 0,
     "createdAt": "2026-09-08T16:36:16.035Z",
     "updatedAt": "2026-09-08T16:36:16.035Z"
+  },
+  {
+    "id": "sneaker-nike-cortez-crema-negro",
+    "name": "Nike Cortez",
+    "brand": "Nike",
+    "model": "Nike Cortez",
+    "sku": "PAPI-8510",
+    "category": "general",
+    "gender": "mujer",
+    "price": 179900,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/nike/mujer/nike-cortez-crema-negro.jpg",
+      "/catalogo/sneakers/nike/mujer/nike-cortez-crema-negro_2.jpg"
+    ],
+    "sizes": [
+      35,
+      36,
+      37,
+      38,
+      39
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "Cuero crema con el Swoosh delineado en negro y gamuza en punta y talon.",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Sail / Black",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-09-11T19:42:01.057Z",
+    "updatedAt": "2026-09-11T19:42:01.057Z"
   },
   {
     "id": "sneaker-nike-cortez-cafe",
@@ -16862,7 +18538,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "price": 179900,
     "originalPrice": 210000,
     "images": [
-      "/catalogo/sneakers/nike/nike-dunk-low-panda.jpg"
+      "/catalogo/sneakers/nike/nike-dunk-low-panda.jpg",
+      "/catalogo/sneakers/nike/nike-dunk-low-panda_2.jpg"
     ],
     "sizes": [
       37,
@@ -16927,6 +18604,43 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "inquiriesCount": 0,
     "createdAt": "2026-09-08T16:36:16.035Z",
     "updatedAt": "2026-09-08T16:36:16.035Z"
+  },
+  {
+    "id": "sneaker-nike-dunk-low-san-valentin",
+    "name": "Nike Dunk Low San Valentin",
+    "brand": "Nike",
+    "model": "Nike Dunk Low San Valentin",
+    "sku": "PAPI-7951",
+    "category": "general",
+    "gender": "mujer",
+    "price": 179900,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/nike/mujer/nike-dunk-low-san-valentin.jpg"
+    ],
+    "sizes": [
+      35,
+      36,
+      37,
+      38,
+      39
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "Charol rosado y rojo con corazones en los herretes y la lengueta.",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Pink / University Red",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-09-11T19:42:01.057Z",
+    "updatedAt": "2026-09-11T19:42:01.057Z"
   },
   {
     "id": "sneaker-nike-dunk-low-teddy-bear",
@@ -21151,6 +22865,82 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "inquiriesCount": 0,
     "createdAt": "2026-08-14T15:26:27.178Z",
     "updatedAt": "2026-08-14T15:26:27.178Z"
+  },
+  {
+    "id": "sneaker-tommy-hilfiger-runner-blanco",
+    "name": "Tommy Hilfiger Runner",
+    "brand": "Otras",
+    "model": "Tommy Hilfiger Runner",
+    "sku": "PAPI-5742",
+    "category": "general",
+    "gender": "hombre",
+    "price": 190000,
+    "originalPrice": 230000,
+    "images": [
+      "/catalogo/sneakers/otras/hombre/tommy-hilfiger-runner-blanco.jpg"
+    ],
+    "sizes": [
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "Runner en cuero blanco con la bandera Tommy en la banda lateral.",
+    "details": {
+      "condition": "En caja",
+      "colorway": "White / Navy / Red",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-09-11T19:42:01.057Z",
+    "updatedAt": "2026-09-11T19:42:01.057Z"
+  },
+  {
+    "id": "sneaker-tommy-hilfiger-runner-negro",
+    "name": "Tommy Hilfiger Runner",
+    "brand": "Otras",
+    "model": "Tommy Hilfiger Runner",
+    "sku": "PAPI-9469",
+    "category": "general",
+    "gender": "hombre",
+    "price": 190000,
+    "originalPrice": 230000,
+    "images": [
+      "/catalogo/sneakers/otras/hombre/tommy-hilfiger-runner-negro.jpg"
+    ],
+    "sizes": [
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Black / Navy / Red",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-09-11T19:42:01.057Z",
+    "updatedAt": "2026-09-11T19:42:01.057Z"
   },
   {
     "id": "sneaker-vans-headlyne-gris",

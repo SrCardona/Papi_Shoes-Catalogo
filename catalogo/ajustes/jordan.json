@@ -364,5 +364,105 @@
     "colorway": "White / Legend Blue",
     "description": "La 11 Low en cuero blanco con el mudguard en charol azul cielo y suela traslucida.",
     "sizes": "39-44"
+  },
+  "jordan-1-mid-blanco-azul-rojo": {
+    "name": "Air Jordan 1 Mid",
+    "colorway": "White / Game Royal / University Red",
+    "description": "Cuero blanco con paneles azul rey y talon rojo, sobre entresuela hueso."
+  },
+  "jordan-1-retro-high-og-gorge-green": {
+    "name": "Air Jordan 1 Retro High OG Gorge Green",
+    "colorway": "Gorge Green / Sail",
+    "description": "Verde bosque sobre cuero hueso, con las alas doradas en el tobillo."
+  },
+  "jordan-1-mid-chicago-black-toe": {
+    "name": "Air Jordan 1 Mid Chicago Black Toe",
+    "colorway": "White / Gym Red / Black",
+    "description": "La receta Chicago en version Mid: punta negra, cuerpo blanco y rojo en talon y Swoosh."
+  },
+  "jordan-1-retro-high-denim": {
+    "name": "Air Jordan 1 Retro High",
+    "colorway": "Denim / White",
+    "description": "Denim celeste desteñido sobre cuero blanco, con dijes dorados en los cordones."
+  },
+  "jordan-1-low-morado-rosado": {
+    "name": "Air Jordan 1 Low",
+    "colorway": "Purple / Pink / White"
+  },
+  "jordan-1-mid-vino-negro": {
+    "name": "Air Jordan 1 Mid",
+    "colorway": "Team Red / Black / White"
+  },
+  "jordan-1-mid-gold-toe": {
+    "name": "Air Jordan 1 Mid Gold Toe",
+    "colorway": "White / Black / Gold",
+    "description": "Charol negro sobre cuero blanco y el Swoosh en dorado metalico."
+  },
+  "jordan-1-mid-charol-negro-concord": {
+    "name": "Air Jordan 1 Mid",
+    "colorway": "Black / Concord",
+    "description": "Charol negro de arriba abajo con el Jumpman en morado concord."
+  },
+  "jordan-1-retro-high-rojo-satin": {
+    "name": "Air Jordan 1 Retro High",
+    "colorway": "University Red",
+    "description": "Rojo satinado en todo el corte, con entresuela blanca."
+  },
+  "jordan-1-zoom-cmft-pastel": {
+    "name": "Air Jordan 1 Zoom CMFT",
+    "colorway": "Sail / Pastel",
+    "description": "Version acolchada del Jordan 1, en tonos pastel con suela de goma.",
+    "sizes": [
+      36,
+      37,
+      39
+    ]
+  },
+  "jordan-1-retro-high-charol-negro-fucsia": {
+    "name": "Air Jordan 1 Retro High",
+    "colorway": "Black / Fuchsia",
+    "description": "Charol negro con fucsia en talon y Swoosh, y suela roja."
+  },
+  "jordan-1-mid-multicolor-navy": {
+    "name": "Air Jordan 1 Mid",
+    "colorway": "Navy / Multi-Color",
+    "description": "Paneles en azul marino, rojo, verde, naranja y amarillo, cada pie distinto."
+  },
+  "jordan-1-mid-rojo-metalico": {
+    "name": "Air Jordan 1 Mid",
+    "colorway": "Metallic Red"
+  },
+  "jordan-1-mid-negro-fucsia": {
+    "name": "Air Jordan 1 Mid",
+    "colorway": "Black / Siren Red"
+  },
+  "jordan-1-retro-high-og-black-white": {
+    "name": "Air Jordan 1 Retro High OG",
+    "colorway": "Black / White",
+    "description": "Cuero blanco con overlays negros y punta blanca."
+  },
+  "jordan-1-mid-light-smoke-grey": {
+    "name": "Air Jordan 1 Mid Light Smoke Grey",
+    "colorway": "Light Smoke Grey / White / Black"
+  },
+  "jordan-1-mid-blanco-negro": {
+    "name": "Air Jordan 1 Mid",
+    "colorway": "White / Black"
+  },
+  "jordan-1-low-pastel": {
+    "name": "Air Jordan 1 Low",
+    "colorway": "White / Grey / Pastel",
+    "description": "Gamuza en gris, azul hielo y rosa palo sobre cuero blanco."
+  },
+  "jordan-13-retro-flint": {
+    "name": "Air Jordan 13 Retro Flint",
+    "colorway": "Navy / Flint Grey / White",
+    "description": "Nylon azul marino punteado, gris flint y el ojo de pantera en la entresuela.",
+    "sizes": "39-44"
+  },
+  "jordan-13-retro-black-flint": {
+    "name": "Air Jordan 13 Retro Black Flint",
+    "colorway": "Black / Flint Grey / White",
+    "sizes": "39-44"
   }
 }
