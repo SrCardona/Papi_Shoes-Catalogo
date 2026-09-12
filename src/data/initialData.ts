@@ -294,61 +294,6 @@ export const STORY_WHATSAPP_MESSAGES: Record<string, string> = {
 };
 
 
-/* ── Entregas documentadas ───────────────────────────────────────────────
-   Ejemplos para que el muro no aparezca vacío la primera vez. Dejan de usarse
-   solos en cuanto `npm run entregas` encuentre fotos reales.
-   Regla de privacidad: barrio y ciudad, nunca dirección exacta.
-   ──────────────────────────────────────────────────────────────────────── */
-
-const DEMO_DELIVERIES: Delivery[] = [
-  {
-    id: 'entrega-demo-1',
-    image:
-      'https://images.unsplash.com/photo-1512374382149-233c42b6a83b?auto=format&fit=crop&w=900&q=85',
-    city: 'Medellín',
-    neighborhood: 'Laureles',
-    productName: 'Air Jordan 1 High OG "UNC Toe"',
-    note: 'Entrega en mano, talla 42.',
-    deliveredAt: '2026-07-28T00:00:00.000Z',
-    locationInImage: false,
-    createdAt: '2026-07-28T00:00:00.000Z',
-  },
-  {
-    id: 'entrega-demo-2',
-    image:
-      'https://images.unsplash.com/photo-1515955656352-a1fa3ffcd111?auto=format&fit=crop&w=900&q=85',
-    city: 'Bogotá',
-    neighborhood: 'Chapinero',
-    productName: 'Yeezy Boost 350 V2 "Black Reflective"',
-    note: 'Envío recibido en 24 horas.',
-    deliveredAt: '2026-07-19T00:00:00.000Z',
-    locationInImage: false,
-    createdAt: '2026-07-19T00:00:00.000Z',
-  },
-  {
-    id: 'entrega-demo-3',
-    image:
-      'https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?auto=format&fit=crop&w=900&q=85',
-    city: 'Cali',
-    neighborhood: 'Granada',
-    productName: 'New Balance 550',
-    deliveredAt: '2026-06-30T00:00:00.000Z',
-    locationInImage: false,
-    createdAt: '2026-06-30T00:00:00.000Z',
-  },
-  {
-    id: 'entrega-demo-4',
-    image:
-      'https://images.unsplash.com/photo-1552346154-21d32810aba3?auto=format&fit=crop&w=900&q=85',
-    city: 'Barranquilla',
-    neighborhood: 'Alto Prado',
-    productName: 'Air Jordan 1 Low',
-    note: 'Bajo encargo, llegó en 9 días.',
-    deliveredAt: '2026-06-12T00:00:00.000Z',
-    locationInImage: false,
-    createdAt: '2026-06-12T00:00:00.000Z',
-  },
-];
 
 /* Catálogo de ejemplo. Solo se usa si todavía no has generado el tuyo. */
 const DEMO_SNEAKERS: Sneaker[] = [
@@ -682,16 +627,15 @@ export const INITIAL_SNEAKERS: Sneaker[] = CATALOGO_GENERADO.length
   : DEMO_SNEAKERS;
 
 /**
- * Lo mismo para el muro: `npm run entregas` escribe `entregasGeneradas.ts` a
- * partir de las fotos de `public/entregas/`.
+ * El muro de entregas, con el mismo trato que el catálogo: lo escribe
+ * `npm run entregas` en `entregasGeneradas.ts` desde el JSON que exporta el
+ * panel.
  *
- * Que las entregas vivan en el código es lo que hace que se vean en cualquier
- * equipo. Antes solo podían nacer en el panel, y de ahí no salían: quedaban en
- * el `localStorage` de ese navegador, así que el muro de los demás dispositivos
- * mostraba estos ejemplos de Unsplash mientras el dueño creía estar publicando.
- * Las que se creen desde el panel siguen mandando en su propio navegador y en
- * la nube; estas son el piso que ve todo el mundo.
+ * Aquí no hay entregas de ejemplo de respaldo, y es a propósito. Las que había
+ * eran fotos de archivo de Unsplash, y como una entrega creada en el panel no
+ * sale del navegador que la creó, los clientes veían esas cuatro fotos ajenas
+ * creyendo que eran entregas reales de la tienda. Un muro vacío no se muestra
+ * —la portada y El Templo esconden la sección— y eso es preferible a mostrar
+ * algo que no pasó.
  */
-export const INITIAL_DELIVERIES: Delivery[] = ENTREGAS_GENERADAS.length
-  ? ENTREGAS_GENERADAS
-  : DEMO_DELIVERIES;
+export const INITIAL_DELIVERIES: Delivery[] = ENTREGAS_GENERADAS;

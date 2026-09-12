@@ -1,14 +1,14 @@
 /**
  * ARCHIVO GENERADO — no lo edites a mano.
  *
- * Lo escribe scripts/generar-entregas.mjs a partir de las fotos de
- * public/entregas/ y de catalogo/entregas.json. Vuelve a correr:
+ * Lo escribe scripts/generar-entregas.mjs a partir del JSON que baja
+ * Panel › Entregas › "Exportar entregas". Vuelve a correr:
  *
  *   npm run entregas
  *
- * Estas son las entregas que ve cualquier visitante en cualquier equipo, sin
- * pasar por la nube. Las que se agregan desde el panel viven aparte y mandan
- * sobre estas en el navegador donde se crearon.
+ * Estas son las entregas que ve cualquier visitante, en cualquier equipo, sin
+ * pasar por la nube. Las que se creen desde el panel viven en ese navegador y
+ * mandan sobre estas hasta que se exporten y se vuelva a generar.
  */
 
 import type { Delivery } from '../types';
