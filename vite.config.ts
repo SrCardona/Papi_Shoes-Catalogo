@@ -14,7 +14,11 @@ import { defineConfig, loadEnv } from 'vite';
  * escrita acá. La variable `VITE_API_ORIGIN` en un `.env` tiene prioridad, para
  * apuntar a un despliegue de prueba sin tocar el código.
  */
-const ORIGEN_API_POR_DEFECTO = 'https://papi-shoes-catalogo.vercel.app';
+/* Con `www` a propósito: el dominio sin él responde 308 hacia este, y el
+   navegador quita la cabecera `Authorization` al seguir una redirección que
+   cambia de origen. Apuntar al destino final evita que la escritura llegue sin
+   token y muera en un 401. */
+const ORIGEN_API_POR_DEFECTO = 'https://www.papishoes.shop';
 
 export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, process.cwd(), '');

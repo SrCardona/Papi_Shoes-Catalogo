@@ -259,6 +259,18 @@ async function subeFoto(dataUrl: string, token: string): Promise<string> {
   return r.datos.url;
 }
 
+/** Un corte de red a mitad de una tanda larga no debería contar como fallo. */
+async function subeFotoConReintento(
+  dataUrl: string,
+  token: string,
+): Promise<string> {
+  try {
+    return await subeFoto(dataUrl, token);
+  } catch {
+    return subeFoto(dataUrl, token);
+  }
+}
+
 /**
  * Reemplaza por URL todas las fotos incrustadas del borrador.
  *
@@ -269,8 +281,9 @@ async function subeFoto(dataUrl: string, token: string): Promise<string> {
 export async function subirFotos(
   borrador: BorradorNube,
   token: string,
-): Promise<{ borrador: BorradorNube; subidas: number }> {
+): Promise<{ borrador: BorradorNube; subidas: number; fallidas: number }> {
   const subidas = new Map<string, string>();
+  const fallidas = new Set<string>();
 
   /* De una en una a propósito: soltar cincuenta subidas a la vez contra la
      misma función solo consigue que algunas se caigan por tiempo de espera. */
@@ -278,9 +291,22 @@ export async function subirFotos(
     if (!esFotoIncrustada(url)) return url;
     const conocida = subidas.get(url);
     if (conocida) return conocida;
-    const nueva = await subeFoto(url, token);
-    subidas.set(url, nueva);
-    return nueva;
+    if (fallidas.has(url)) return url;
+
+    try {
+      const nueva = await subeFotoConReintento(url, token);
+      subidas.set(url, nueva);
+      return nueva;
+    } catch {
+      /* Una foto que no sube no puede costar la publicación entera. Antes esto
+         lanzaba, y bastaba un solo archivo que el almacén no aceptara —un HEIC
+         del celular, una foto de más de 4 MB— para que no se publicara nunca
+         nada: ni el catálogo, ni las entregas, ni los ajustes. Se deja la foto
+         como estaba, se sigue con las demás y quien publica se entera de
+         cuántas quedaron pendientes. */
+      fallidas.add(url);
+      return url;
+    }
   };
 
   const sneakers: Sneaker[] = [];
@@ -316,5 +342,6 @@ export async function subirFotos(
   return {
     borrador: { ...borrador, sneakers, deliveries, settings },
     subidas: subidas.size,
+    fallidas: fallidas.size,
   };
 }

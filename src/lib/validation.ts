@@ -134,10 +134,23 @@ export function validateSneaker(raw: unknown): Sneaker | null {
   };
 }
 
+/**
+ * El tope tiene que ir por delante del catálogo, no por detrás.
+ *
+ * Estaba en 500 con 585 pares cargados, y cortar aquí no es "guardar de menos":
+ * `decisionesDe` compara contra el código y anota como `hiddenIds` todo par que
+ * no esté presente, así que los 85 recortados quedaban registrados como
+ * "el dueño los quitó" y `fusionaConCodigo` los seguía escondiendo incluso
+ * después de regenerar el catálogo. Un par pesa ~700 bytes y el documento
+ * publicado admite 3,5 MB: en ese margen caben unos 5.000, así que 2.000 sigue
+ * siendo un límite de verdad contra un archivo malicioso.
+ */
+const TOPE_PARES = 2000;
+
 export function validateSneakers(raw: unknown): Sneaker[] {
   if (!Array.isArray(raw)) return [];
   return raw
-    .slice(0, 500)
+    .slice(0, TOPE_PARES)
     .map(validateSneaker)
     .filter((s): s is Sneaker => s !== null);
 }
@@ -183,7 +196,9 @@ export function validateDeliveries(raw: unknown): Delivery[] {
 function validateIds(raw: unknown): string[] {
   if (!Array.isArray(raw)) return [];
   const ids = new Set<string>();
-  for (const value of raw.slice(0, 500)) {
+  // Mismo tope que el catálogo: una lista más corta que los pares perdería
+  // decisiones del panel justo cuando más pares hay.
+  for (const value of raw.slice(0, TOPE_PARES)) {
     const id = sanitizeText(value, 80);
     if (id) ids.add(id);
   }

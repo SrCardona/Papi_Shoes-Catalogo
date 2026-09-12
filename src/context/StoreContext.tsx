@@ -298,7 +298,20 @@ export function StoreProvider({ children }: { children: ReactNode }) {
 
   const publicarAhora = useCallback(async function publicar(): Promise<boolean> {
     const token = leeToken();
-    if (!token) return false;
+    /* Sin token no se puede escribir, y callarlo era el peor de los desenlaces:
+       la sesión de escritura dura dos horas, el panel sigue abierto cuando
+       vence, y todo lo que se editara después se quedaba en el navegador bajo
+       un escueto "cambios sin publicar" que no decía qué hacer. */
+    if (!token) {
+      setNube((prev) => ({
+        ...prev,
+        sincronizando: false,
+        pendiente: true,
+        mensaje:
+          'La sesión de escritura venció. Vuelve a entrar al panel para publicar lo que tienes sin subir.',
+      }));
+      return false;
+    }
 
     /* Si ya hay una subida en curso, esta se anota para el final. Sin esto, un
        cambio hecho mientras subía el anterior se quedaba sin publicar hasta el
@@ -319,10 +332,23 @@ export function StoreProvider({ children }: { children: ReactNode }) {
 
       /* Las fotos subidas desde el dispositivo se guardan aparte y en el
          documento queda su URL: incrustadas no cabrían en una sola petición. */
-      const { borrador, subidas } = await subirFotos(
+      const { borrador, subidas, fallidas } = await subirFotos(
         borradorDe(pares, entregas, ajustes),
         token,
       );
+
+      /* Con las fotos ya en el almacén, el navegador se queda con las URLs en vez
+         de los megas en base64. Es lo que antes llenaba la cuota. Se aplica
+         aunque el guardado falle: esas fotos ya están subidas y perder sus URLs
+         obligaría a resubirlas enteras en cada reintento. Solo cuando hubo
+         subidas, para que un reintento sin fotos nuevas no vuelva a mover el
+         estado y se quede dando vueltas. */
+      const conservaSubidas = () => {
+        if (!subidas) return;
+        setSneakersState(borrador.sneakers);
+        setDeliveriesState(borrador.deliveries);
+        setSettingsState((prev) => ({ ...prev, ...borrador.settings }));
+      };
 
       const serializado = JSON.stringify(borrador);
       if (serializado === ultimoEnviadoRef.current) {
@@ -332,6 +358,7 @@ export function StoreProvider({ children }: { children: ReactNode }) {
 
       const resultado = await guardarEstado(borrador, baseRef.current, token);
       if (!resultado.ok) {
+        conservaSubidas();
         setNube((prev) => ({
           ...prev,
           sincronizando: false,
@@ -351,13 +378,7 @@ export function StoreProvider({ children }: { children: ReactNode }) {
       const editoMientrasSubia = leerSelloLocal() !== selloAlEnviar;
       if (!editoMientrasSubia) escribirSelloLocal(resultado.actualizadoEn);
 
-      /* Con las fotos ya en el almacén, el navegador se queda con las URLs en vez
-         de los megas en base64. Es lo que antes llenaba la cuota. */
-      if (subidas) {
-        setSneakersState(borrador.sneakers);
-        setDeliveriesState(borrador.deliveries);
-        setSettingsState((prev) => ({ ...prev, ...borrador.settings }));
-      }
+      conservaSubidas();
 
       setNube({
         modo: 'lista',
@@ -365,7 +386,11 @@ export function StoreProvider({ children }: { children: ReactNode }) {
         // Si editó mientras subía, sigue pendiente hasta que salga la repetición.
         pendiente: editoMientrasSubia,
         actualizadoEn: resultado.actualizadoEn,
-        mensaje: null,
+        /* Lo demás quedó publicado; estas fotos siguen viviendo solo en este
+           navegador, así que hay que decirlo en vez de dar todo por bueno. */
+        mensaje: fallidas
+          ? `Se publicó todo, pero ${fallidas} foto${fallidas === 1 ? '' : 's'} no se pudo subir al almacén y no se verá en otros equipos. Vuelve a cargarla en formato JPG o PNG.`
+          : null,
       });
       return true;
     } catch (error) {
