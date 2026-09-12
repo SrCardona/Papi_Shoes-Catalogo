@@ -12,8 +12,7 @@ npm run build     # tsc --noEmit && vite build
 npm run lint      # tsc --noEmit && eslint src
 npm run entrada   # duplicados de public/catalogo/_entrada/ (fotos nuevas)
 npm run catalogo  # precios por marca en catalogo/precios.csv
-npm run entregas  # muro de entregas desde public/entregas/
-npm run entregas:importar -- --archivo=<respaldo.json>   # rescata las del panel
+npm run entregas  # muro de entregas desde el JSON que exporta el panel
 ```
 
 ## Stack
@@ -55,6 +54,11 @@ Tres fuentes, y en este orden manda cada una:
    pasar por la nube. Es el piso del muro; lo guardado le gana en el navegador
    donde se editó.
 
+   Lo mismo vale para los ajustes de la tienda, las historias y el anuncio
+   emergente: todo eso sale de `INITIAL_SETTINGS` salvo que la nube traiga otra
+   cosa. Un número de WhatsApp cambiado solo en el panel no lo ve ningún
+   cliente.
+
 Si un cambio en los datos "no se ve", casi siempre es esto. Para volver al
 catálogo del código: `localStorage.clear()` en la consola — pero ojo, si la nube
 está configurada la próxima carga vuelve a traer lo publicado, y lo que hay que
@@ -88,11 +92,11 @@ Ojo: eso significa que `npm run dev` edita los datos de producción.
 ```
 api/                estado.ts (leer/guardar), sesion.ts (PIN + token),
 │                   imagen.ts (fotos), _lib/ (almacén, sesión, intentos, saneado)
-catalogo/           precios.csv, ajustes/<marca>.json, entregas.json,
-│                   llegadas.json (generado), catalogo-papishoes.json (generado)
+catalogo/           precios.csv, ajustes/<marca>.json, llegadas.json (generado),
+│                   catalogo-papishoes.json (generado)
 lotes/              zips de lotes sin desempacar — no se versiona
 public/catalogo/    las fotos, <linea>/<marca>/[horma/]
-public/entregas/    las fotos del muro, con _entrada/ de bandeja
+public/entregas/    las fotos del muro (generadas, con hash en el nombre)
 src/
 ├── pages/          HomePage, CatalogPage (+ OriginalsPage, SneakersPage),
 │                   ProductPage, AboutPage (El Templo), FaqPage, AdminPage
@@ -296,53 +300,35 @@ hay parches de 12 que fallan porque el recuadro cae sobre el tenis, y otros de
 
 ## Cargar entregas al muro
 
-El muro "Ya están en la calle" (`DeliveryWall`) tiene dos orígenes, y conviene
-saber cuál usar:
+El muro "Ya están en la calle" (`DeliveryWall`) sale de
+`src/data/entregasGeneradas.ts`, que escribe `npm run entregas`. El camino
+completo:
 
-- **`public/entregas/` + `catalogo/entregas.json` → `npm run entregas`.** Es la
-  vía normal. Las entregas quedan en el repositorio, viajan dentro del sitio y
-  **se ven en cualquier dispositivo** sin depender de la nube, del panel ni de
-  una sesión abierta. Mismo trato que el catálogo: bandeja en
-  `public/entregas/_entrada/` (no se versiona, salvo su `.gitkeep`), fotos
-  clasificadas en `public/entregas/` con nombre en minúsculas y con guiones, y
-  los datos por nombre de archivo sin extensión en `catalogo/entregas.json`.
-- **El panel (Panel › Entregas).** Sigue funcionando y manda sobre lo anterior,
-  pero solo en el navegador donde se creó y en la nube si se publica. Sirve para
-  una entrega suelta; no para el muro de base.
+1. Panel › Entregas › **Exportar entregas** baja un JSON con las entregas y sus
+   fotos en base64.
+2. Se deja en `catalogo/entregas-exportadas.json` (o se pasa con `--archivo=`).
+   Ese JSON **no se versiona**: pesa y duplica lo que ya queda en `public/`.
+3. `npm run entregas` extrae cada foto a `public/entregas/`, con el nombre
+   `<ciudad>-<barrio>-<mes>-<hash>.jpg`, y escribe el `.ts` con las rutas.
+4. Commit de `public/entregas/` y de `src/data/entregasGeneradas.ts`.
 
-Las claves del JSON son las del tipo `Delivery`, para no traducir nada:
+El hash del contenido va en el nombre porque una foto reemplazada bajo la misma
+ruta se queda cacheada en el navegador durante una hora larga; con el hash, otra
+foto es otra URL. `npm run entregas -- --limpiar` borra las fotos que ya no usa
+ninguna entrega.
 
-```json
-{
-  "medellin-laureles-aj1": {
-    "city": "Medellín",
-    "neighborhood": "Laureles",
-    "productName": "Air Jordan 1 High OG UNC Toe",
-    "note": "Entrega en mano, talla 42.",
-    "deliveredAt": "2026-07-28",
-    "locationInImage": false
-  }
-}
-```
+**Por qué existe este camino y no basta el panel:** una entrega creada en el
+panel vive en el `localStorage` de ese navegador, y de ahí solo sale publicando
+en la nube. Mientras la nube esté vacía, los visitantes ven lo que traiga el
+código. Por eso las entregas de verdad tienen que acabar en el repositorio, como
+el catálogo.
 
-`city` es lo único obligatorio: sin ciudad el validador descarta la entrega, así
-que el generador avisa y no la escribe en vez de inventarse una. Sin
-`deliveredAt` usa la fecha del archivo y lo reporta. `locationInImage` en `true`
-cuando la foto ya trae la ubicación escrita encima, para que el sitio no dibuje
-su rótulo dos veces. Regla de privacidad: barrio y ciudad, **nunca dirección
-exacta**.
+No hay entregas de ejemplo de respaldo, y es a propósito: las que había eran
+fotos de archivo de Unsplash que los clientes veían como si fueran entregas
+reales. Sin entregas, la sección simplemente no se muestra.
 
-Para rescatar las entregas que ya viven en el `localStorage` de un navegador:
-Panel › Ajustes › Exportar respaldo, y luego
-
-```bash
-npm run entregas:importar -- --archivo=ruta/al/papi-shoes-2026-09-12.json
-npm run entregas
-```
-
-El importador escribe cada foto incrustada como archivo y arma el JSON; del
-respaldo **solo lee `deliveries`**, nunca los ajustes, porque ese bloque solía
-llevar el usuario y el hash del PIN y este repositorio es público.
+Regla de privacidad: barrio y ciudad, **nunca dirección exacta**, y permiso del
+cliente si sale su cara.
 
 ## Reglas de seguridad (no relajar)
 

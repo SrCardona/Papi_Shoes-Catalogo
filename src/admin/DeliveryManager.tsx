@@ -1,5 +1,6 @@
 import { useMemo, useRef, useState } from 'react';
 import {
+  Download,
   ImagePlus,
   Loader2,
   MapPin,
@@ -108,6 +109,39 @@ export function DeliveryManager() {
     patch({ image: clean });
     setImageUrl('');
     setError(null);
+  };
+
+  /**
+   * Baja las entregas tal como están guardadas, con las fotos en base64.
+   *
+   * Es la única salida que tienen: una entrega creada en el panel vive en el
+   * `localStorage` de este navegador y en ningún otro lado, así que hasta que
+   * este archivo exista no hay copia de nada. De aquí las toma
+   * `npm run entregas` para convertirlas en archivos del repositorio y que las
+   * vean todos los visitantes.
+   */
+  const exportDeliveries = () => {
+    const payload = JSON.stringify(
+      {
+        version: 1,
+        exportedAt: new Date().toISOString(),
+        deliveries,
+      },
+      null,
+      2,
+    );
+    const url = URL.createObjectURL(new Blob([payload], { type: 'application/json' }));
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = `papi-shoes-entregas-${new Date().toISOString().slice(0, 10)}.json`;
+    /* El enlace se mete en el documento y la URL se libera después, no en la
+       misma vuelta: es una descarga de varios megas y hay navegadores que la
+       cancelan si el objeto desaparece mientras aún la están leyendo. Aquí eso
+       significaría perder las entregas. */
+    document.body.appendChild(a);
+    a.click();
+    a.remove();
+    setTimeout(() => URL.revokeObjectURL(url), 60_000);
   };
 
   const startEdit = (delivery: Delivery) => {
@@ -414,10 +448,29 @@ export function DeliveryManager() {
           <h3 className="font-display text-xl text-marble">
             Entregas publicadas
           </h3>
-          <span className="text-[10px] uppercase tracking-[0.2em] text-marble/35 tabular-nums">
-            {deliveries.length} en el muro
-          </span>
+          <div className="flex items-center gap-4">
+            <span className="text-[10px] uppercase tracking-[0.2em] text-marble/35 tabular-nums">
+              {deliveries.length} en el muro
+            </span>
+            <button
+              type="button"
+              onClick={exportDeliveries}
+              disabled={!deliveries.length}
+              title="Baja un JSON con las entregas y sus fotos, para llevarlas al repositorio"
+              className="flex items-center gap-2 px-4 py-2.5 border border-white/14 text-marble/70 hover:text-marble hover:border-silver/45 disabled:opacity-40 disabled:hover:text-marble/70 disabled:hover:border-white/14 text-[10px] font-bold uppercase tracking-[0.18em] transition-colors"
+            >
+              <Download className="w-3.5 h-3.5" />
+              Exportar entregas
+            </button>
+          </div>
         </div>
+
+        <p className="text-[11.5px] text-marble/40 leading-relaxed border-l-2 border-silver/40 pl-5 py-1 max-w-2xl">
+          Estas entregas viven solo en este navegador hasta que se lleven al
+          repositorio. Expórtalas y pásale el archivo a quien mantiene el sitio:
+          es lo que las convierte en fotos publicadas que ven todos los
+          visitantes, en cualquier equipo.
+        </p>
 
         {sorted.length === 0 ? (
           <p className="text-[12.5px] text-marble/40 py-8 text-center border border-dashed border-white/12">

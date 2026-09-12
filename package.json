@@ -10,8 +10,7 @@
     "lint": "tsc --noEmit && eslint src api",
     "entrada": "node scripts/revisar-entrada.mjs",
     "catalogo": "node scripts/generar-catalogo.mjs",
-    "entregas": "node scripts/generar-entregas.mjs",
-    "entregas:importar": "node scripts/importar-entregas.mjs"
+    "entregas": "node scripts/generar-entregas.mjs"
   },
   "dependencies": {
     "@vercel/analytics": "^2.0.1",

@@ -23,7 +23,9 @@ public/catalogo/_entrada/*
 !public/catalogo/_entrada/.gitkeep
 recuadro-hoja-*.png
 
-# Bandeja de fotos de entregas, mismo trato que la del catalogo: entran como
-# las manda el cliente y salen renombradas a public/entregas/.
-public/entregas/_entrada/*
-!public/entregas/_entrada/.gitkeep
+# El JSON que baja Panel > Entregas > Exportar entregas. Trae las fotos en
+# base64, asi que pesa y duplica lo que ya esta en public/entregas/. Es
+# material en transito: de el salen las fotos y src/data/entregasGeneradas.ts,
+# y eso si se versiona.
+catalogo/entregas-exportadas.json
+papi-shoes-entregas-*.json
