@@ -542,13 +542,18 @@ export function SettingsPanel({
   };
 
   const exportBackup = () => {
+    /* El usuario y el hash del PIN se quedan fuera. Un respaldo se manda por
+       WhatsApp, se guarda en Descargas y termina en el repositorio, que es
+       público; el hash de un PIN de pocos dígitos se revierte en un segundo.
+       Restaurar tampoco los lee, así que no se pierde nada al no escribirlos. */
+    const { adminUsername: _usuario, adminPinHash: _hash, ...publicos } = settings;
     const payload = JSON.stringify(
       {
         version: 3,
         exportedAt: new Date().toISOString(),
         sneakers,
         deliveries,
-        settings,
+        settings: publicos,
       },
       null,
       2,

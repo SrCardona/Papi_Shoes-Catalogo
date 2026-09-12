@@ -12,6 +12,8 @@ npm run build     # tsc --noEmit && vite build
 npm run lint      # tsc --noEmit && eslint src
 npm run entrada   # duplicados de public/catalogo/_entrada/ (fotos nuevas)
 npm run catalogo  # precios por marca en catalogo/precios.csv
+npm run entregas  # muro de entregas desde public/entregas/
+npm run entregas:importar -- --archivo=<respaldo.json>   # rescata las del panel
 ```
 
 ## Stack
@@ -46,6 +48,13 @@ Tres fuentes, y en este orden manda cada una:
    y "distinto" dejaría de significar "lo editó el dueño". Por eso se guardan y
    se publican en vez de recalcularse al cargar.
 
+   El muro de entregas tiene su equivalente en `src/data/entregasGeneradas.ts`
+   (`npm run entregas`), y ahí está la diferencia que importa: una entrega
+   creada en el panel no existe fuera de ese navegador hasta que se publique,
+   mientras que una entrega del código se ve en todos los dispositivos sin
+   pasar por la nube. Es el piso del muro; lo guardado le gana en el navegador
+   donde se editó.
+
 Si un cambio en los datos "no se ve", casi siempre es esto. Para volver al
 catálogo del código: `localStorage.clear()` en la consola — pero ojo, si la nube
 está configurada la próxima carga vuelve a traer lo publicado, y lo que hay que
@@ -79,10 +88,11 @@ Ojo: eso significa que `npm run dev` edita los datos de producción.
 ```
 api/                estado.ts (leer/guardar), sesion.ts (PIN + token),
 │                   imagen.ts (fotos), _lib/ (almacén, sesión, intentos, saneado)
-catalogo/           precios.csv, ajustes/<marca>.json, llegadas.json (generado),
-│                   catalogo-papishoes.json (generado)
+catalogo/           precios.csv, ajustes/<marca>.json, entregas.json,
+│                   llegadas.json (generado), catalogo-papishoes.json (generado)
 lotes/              zips de lotes sin desempacar — no se versiona
 public/catalogo/    las fotos, <linea>/<marca>/[horma/]
+public/entregas/    las fotos del muro, con _entrada/ de bandeja
 src/
 ├── pages/          HomePage, CatalogPage (+ OriginalsPage, SneakersPage),
 │                   ProductPage, AboutPage (El Templo), FaqPage, AdminPage
@@ -96,7 +106,8 @@ src/
 ├── hooks/          useCatalogFilters (todo el filtrado y orden)
 ├── lib/            nube.ts (cliente de /api), security.ts (saneamiento),
 │                   validation.ts, catalogo.ts (huella y fusión), utils.ts
-└── data/           initialData.ts, catalogoGenerado.ts (GENERADO, no editar)
+└── data/           initialData.ts, catalogoGenerado.ts y entregasGeneradas.ts
+                    (GENERADOS, no editar)
 ```
 
 Las carpetas y archivos de `api/` que empiezan por `_` no se convierten en rutas:
@@ -282,6 +293,56 @@ y al verlas a tamano real 17 tenian mancha visible, asi que hubo que revertir
 las 44 y rehacer el juicio. El numero de empalme ordena bien pero no decide:
 hay parches de 12 que fallan porque el recuadro cae sobre el tenis, y otros de
 20 que quedan perfectos.
+
+## Cargar entregas al muro
+
+El muro "Ya están en la calle" (`DeliveryWall`) tiene dos orígenes, y conviene
+saber cuál usar:
+
+- **`public/entregas/` + `catalogo/entregas.json` → `npm run entregas`.** Es la
+  vía normal. Las entregas quedan en el repositorio, viajan dentro del sitio y
+  **se ven en cualquier dispositivo** sin depender de la nube, del panel ni de
+  una sesión abierta. Mismo trato que el catálogo: bandeja en
+  `public/entregas/_entrada/` (no se versiona, salvo su `.gitkeep`), fotos
+  clasificadas en `public/entregas/` con nombre en minúsculas y con guiones, y
+  los datos por nombre de archivo sin extensión en `catalogo/entregas.json`.
+- **El panel (Panel › Entregas).** Sigue funcionando y manda sobre lo anterior,
+  pero solo en el navegador donde se creó y en la nube si se publica. Sirve para
+  una entrega suelta; no para el muro de base.
+
+Las claves del JSON son las del tipo `Delivery`, para no traducir nada:
+
+```json
+{
+  "medellin-laureles-aj1": {
+    "city": "Medellín",
+    "neighborhood": "Laureles",
+    "productName": "Air Jordan 1 High OG UNC Toe",
+    "note": "Entrega en mano, talla 42.",
+    "deliveredAt": "2026-07-28",
+    "locationInImage": false
+  }
+}
+```
+
+`city` es lo único obligatorio: sin ciudad el validador descarta la entrega, así
+que el generador avisa y no la escribe en vez de inventarse una. Sin
+`deliveredAt` usa la fecha del archivo y lo reporta. `locationInImage` en `true`
+cuando la foto ya trae la ubicación escrita encima, para que el sitio no dibuje
+su rótulo dos veces. Regla de privacidad: barrio y ciudad, **nunca dirección
+exacta**.
+
+Para rescatar las entregas que ya viven en el `localStorage` de un navegador:
+Panel › Ajustes › Exportar respaldo, y luego
+
+```bash
+npm run entregas:importar -- --archivo=ruta/al/papi-shoes-2026-09-12.json
+npm run entregas
+```
+
+El importador escribe cada foto incrustada como archivo y arma el JSON; del
+respaldo **solo lee `deliveries`**, nunca los ajustes, porque ese bloque solía
+llevar el usuario y el hash del PIN y este repositorio es público.
 
 ## Reglas de seguridad (no relajar)
 

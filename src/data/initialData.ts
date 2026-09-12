@@ -1,5 +1,6 @@
 import type { Delivery, Sneaker, StoreSettings, StoryHighlight } from '../types';
 import { CATALOGO_GENERADO } from './catalogoGenerado';
+import { ENTREGAS_GENERADAS } from './entregasGeneradas';
 
 /* ═══════════════════════════════════════════════════════════════════════
    AJUSTES DE FÁBRICA
@@ -294,12 +295,12 @@ export const STORY_WHATSAPP_MESSAGES: Record<string, string> = {
 
 
 /* ── Entregas documentadas ───────────────────────────────────────────────
-   Ejemplos para que el muro no aparezca vacío la primera vez. Bórralos
-   desde Panel › Entregas cuando subas las fotos reales.
+   Ejemplos para que el muro no aparezca vacío la primera vez. Dejan de usarse
+   solos en cuanto `npm run entregas` encuentre fotos reales.
    Regla de privacidad: barrio y ciudad, nunca dirección exacta.
    ──────────────────────────────────────────────────────────────────────── */
 
-export const INITIAL_DELIVERIES: Delivery[] = [
+const DEMO_DELIVERIES: Delivery[] = [
   {
     id: 'entrega-demo-1',
     image:
@@ -679,3 +680,18 @@ const DEMO_SNEAKERS: Sneaker[] = [
 export const INITIAL_SNEAKERS: Sneaker[] = CATALOGO_GENERADO.length
   ? CATALOGO_GENERADO
   : DEMO_SNEAKERS;
+
+/**
+ * Lo mismo para el muro: `npm run entregas` escribe `entregasGeneradas.ts` a
+ * partir de las fotos de `public/entregas/`.
+ *
+ * Que las entregas vivan en el código es lo que hace que se vean en cualquier
+ * equipo. Antes solo podían nacer en el panel, y de ahí no salían: quedaban en
+ * el `localStorage` de ese navegador, así que el muro de los demás dispositivos
+ * mostraba estos ejemplos de Unsplash mientras el dueño creía estar publicando.
+ * Las que se creen desde el panel siguen mandando en su propio navegador y en
+ * la nube; estas son el piso que ve todo el mundo.
+ */
+export const INITIAL_DELIVERIES: Delivery[] = ENTREGAS_GENERADAS.length
+  ? ENTREGAS_GENERADAS
+  : DEMO_DELIVERIES;
