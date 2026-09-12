@@ -358,5 +358,59 @@
     "colorway": "White / Purple / Teal",
     "description": "TRESC Run en malla blanca con las tres rayas moradas, gamuza beige en el costado y detalles en verde agua.",
     "sizes": "35-39"
+  },
+  "adidas-supernova-rise-3-negro": {
+    "name": "Adidas Supernova Rise 3",
+    "colorway": "Core Black / Cloud White",
+    "sizes": "39-44",
+    "description": "Running de amortiguacion alta con mediasuela Dreamstrike+ y upper de malla tejida. Negro entero con las tres rayas en degradado blanco y detalle reflectivo en la puntera."
+  },
+  "adidas-supernova-rise-3-blanco-dorado": {
+    "name": "Adidas Supernova Rise 3",
+    "colorway": "Off White / Gold / Red",
+    "sizes": "39-44",
+    "description": "Supernova Rise 3 en blanco hueso con las tres rayas en degradado dorado y acentos rojos en el cuello y la suela. Mediasuela Dreamstrike+."
+  },
+  "adidas-supernova-rise-3-blanco-talon-negro": {
+    "name": "Adidas Supernova Rise 3",
+    "colorway": "Cloud White / Core Black",
+    "sizes": "39-44",
+    "description": "Supernova Rise 3 blanca con talon y cuello negros, rayas en gris degradado y linea roja en la suela. Mediasuela Dreamstrike+ de perfil alto."
+  },
+  "adidas-supernova-rise-3-blanco-crema": {
+    "name": "Adidas Supernova Rise 3",
+    "colorway": "Cloud White / Cream / Core Black",
+    "sizes": "39-44",
+    "description": "Supernova Rise 3 blanca con las tres rayas en negro solido y mediasuela Dreamstrike+ en color crema. Upper de malla perforada."
+  },
+  "adidas-supernova-rise-3-blanco-azul": {
+    "name": "Adidas Supernova Rise 3",
+    "colorway": "Cloud White / Royal Blue",
+    "sizes": "39-44",
+    "description": "Supernova Rise 3 blanca con las tres rayas en azul royal y mediasuela Dreamstrike+ blanca. La version mas limpia de la silueta."
+  },
+  "adidas-supernova-rise-3-blanco-degradado": {
+    "name": "Adidas Supernova Rise 3",
+    "colorway": "Cloud White / Black Fade",
+    "sizes": "39-44",
+    "description": "Supernova Rise 3 en blanco total con las tres rayas en degradado de negro a blanco. Mediasuela Dreamstrike+ y suela con tacos de agarre."
+  },
+  "adidas-supernova-ease-2-blanco-azul": {
+    "name": "Adidas Supernova Ease 2",
+    "colorway": "Cloud White / Navy / Red",
+    "sizes": "39-44",
+    "description": "Supernova Ease 2 de entrada facil, con mediasuela Dreamstrike y talon envolvente. Blanca con las tres rayas en azul marino y acentos rojos."
+  },
+  "adidas-supernova-ease-2-negro-blanco": {
+    "name": "Adidas Supernova Ease 2",
+    "colorway": "Core Black / Cloud White / Red",
+    "sizes": "39-44",
+    "description": "Supernova Ease 2 negra con las tres rayas blancas, mediasuela Dreamstrike blanca y linea roja en la suela. Upper de malla con puntera reforzada."
+  },
+  "adidas-supernova-ease-2-negro-coral": {
+    "name": "Adidas Supernova Ease 2",
+    "colorway": "Core Black / Coral",
+    "sizes": "39-44",
+    "description": "Supernova Ease 2 negra con las tres rayas en coral y mediasuela Dreamstrike blanca. Cuello acolchado y lengueta con jalador trasero."
   }
 }

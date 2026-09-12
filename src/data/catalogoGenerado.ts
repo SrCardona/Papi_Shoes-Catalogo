@@ -2012,6 +2012,348 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "updatedAt": "2026-08-12T21:42:38.000Z"
   },
   {
+    "id": "sneaker-adidas-supernova-ease-2-blanco-azul",
+    "name": "Adidas Supernova Ease 2",
+    "brand": "Adidas",
+    "model": "Adidas Supernova Ease 2",
+    "sku": "PAPI-2553",
+    "category": "general",
+    "gender": "hombre",
+    "price": 179900,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/adidas/hombre/adidas-supernova-ease-2-blanco-azul.jpg"
+    ],
+    "sizes": [
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": true,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "Supernova Ease 2 de entrada facil, con mediasuela Dreamstrike y talon envolvente. Blanca con las tres rayas en azul marino y acentos rojos.",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Cloud White / Navy / Red",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-09-12T17:03:55.580Z",
+    "updatedAt": "2026-09-12T17:03:55.580Z"
+  },
+  {
+    "id": "sneaker-adidas-supernova-ease-2-negro-blanco",
+    "name": "Adidas Supernova Ease 2",
+    "brand": "Adidas",
+    "model": "Adidas Supernova Ease 2",
+    "sku": "PAPI-1520",
+    "category": "general",
+    "gender": "hombre",
+    "price": 179900,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/adidas/hombre/adidas-supernova-ease-2-negro-blanco.jpg"
+    ],
+    "sizes": [
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": true,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "Supernova Ease 2 negra con las tres rayas blancas, mediasuela Dreamstrike blanca y linea roja en la suela. Upper de malla con puntera reforzada.",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Core Black / Cloud White / Red",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-09-12T17:03:55.580Z",
+    "updatedAt": "2026-09-12T17:03:55.580Z"
+  },
+  {
+    "id": "sneaker-adidas-supernova-ease-2-negro-coral",
+    "name": "Adidas Supernova Ease 2",
+    "brand": "Adidas",
+    "model": "Adidas Supernova Ease 2",
+    "sku": "PAPI-1507",
+    "category": "general",
+    "gender": "hombre",
+    "price": 179900,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/adidas/hombre/adidas-supernova-ease-2-negro-coral.jpg"
+    ],
+    "sizes": [
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": true,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "Supernova Ease 2 negra con las tres rayas en coral y mediasuela Dreamstrike blanca. Cuello acolchado y lengueta con jalador trasero.",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Core Black / Coral",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-09-12T17:03:55.580Z",
+    "updatedAt": "2026-09-12T17:03:55.580Z"
+  },
+  {
+    "id": "sneaker-adidas-supernova-rise-3-blanco-azul",
+    "name": "Adidas Supernova Rise 3",
+    "brand": "Adidas",
+    "model": "Adidas Supernova Rise 3",
+    "sku": "PAPI-4511",
+    "category": "general",
+    "gender": "hombre",
+    "price": 179900,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/adidas/hombre/adidas-supernova-rise-3-blanco-azul.jpg"
+    ],
+    "sizes": [
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "Supernova Rise 3 blanca con las tres rayas en azul royal y mediasuela Dreamstrike+ blanca. La version mas limpia de la silueta.",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Cloud White / Royal Blue",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-09-12T17:03:55.580Z",
+    "updatedAt": "2026-09-12T17:03:55.580Z"
+  },
+  {
+    "id": "sneaker-adidas-supernova-rise-3-blanco-crema",
+    "name": "Adidas Supernova Rise 3",
+    "brand": "Adidas",
+    "model": "Adidas Supernova Rise 3",
+    "sku": "PAPI-9773",
+    "category": "general",
+    "gender": "hombre",
+    "price": 179900,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/adidas/hombre/adidas-supernova-rise-3-blanco-crema.jpg"
+    ],
+    "sizes": [
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "Supernova Rise 3 blanca con las tres rayas en negro solido y mediasuela Dreamstrike+ en color crema. Upper de malla perforada.",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Cloud White / Cream / Core Black",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-09-12T17:03:55.580Z",
+    "updatedAt": "2026-09-12T17:03:55.580Z"
+  },
+  {
+    "id": "sneaker-adidas-supernova-rise-3-blanco-degradado",
+    "name": "Adidas Supernova Rise 3",
+    "brand": "Adidas",
+    "model": "Adidas Supernova Rise 3",
+    "sku": "PAPI-1291",
+    "category": "general",
+    "gender": "hombre",
+    "price": 179900,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/adidas/hombre/adidas-supernova-rise-3-blanco-degradado.jpg"
+    ],
+    "sizes": [
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "Supernova Rise 3 en blanco total con las tres rayas en degradado de negro a blanco. Mediasuela Dreamstrike+ y suela con tacos de agarre.",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Cloud White / Black Fade",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-09-12T17:03:55.580Z",
+    "updatedAt": "2026-09-12T17:03:55.580Z"
+  },
+  {
+    "id": "sneaker-adidas-supernova-rise-3-blanco-dorado",
+    "name": "Adidas Supernova Rise 3",
+    "brand": "Adidas",
+    "model": "Adidas Supernova Rise 3",
+    "sku": "PAPI-1609",
+    "category": "general",
+    "gender": "hombre",
+    "price": 179900,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/adidas/hombre/adidas-supernova-rise-3-blanco-dorado.jpg"
+    ],
+    "sizes": [
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "Supernova Rise 3 en blanco hueso con las tres rayas en degradado dorado y acentos rojos en el cuello y la suela. Mediasuela Dreamstrike+.",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Off White / Gold / Red",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-09-12T17:03:55.580Z",
+    "updatedAt": "2026-09-12T17:03:55.580Z"
+  },
+  {
+    "id": "sneaker-adidas-supernova-rise-3-blanco-talon-negro",
+    "name": "Adidas Supernova Rise 3",
+    "brand": "Adidas",
+    "model": "Adidas Supernova Rise 3",
+    "sku": "PAPI-1100",
+    "category": "general",
+    "gender": "hombre",
+    "price": 179900,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/adidas/hombre/adidas-supernova-rise-3-blanco-talon-negro.jpg"
+    ],
+    "sizes": [
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "Supernova Rise 3 blanca con talon y cuello negros, rayas en gris degradado y linea roja en la suela. Mediasuela Dreamstrike+ de perfil alto.",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Cloud White / Core Black",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-09-12T17:03:55.580Z",
+    "updatedAt": "2026-09-12T17:03:55.580Z"
+  },
+  {
+    "id": "sneaker-adidas-supernova-rise-3-negro",
+    "name": "Adidas Supernova Rise 3",
+    "brand": "Adidas",
+    "model": "Adidas Supernova Rise 3",
+    "sku": "PAPI-9918",
+    "category": "general",
+    "gender": "hombre",
+    "price": 179900,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/adidas/hombre/adidas-supernova-rise-3-negro.jpg"
+    ],
+    "sizes": [
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "Running de amortiguacion alta con mediasuela Dreamstrike+ y upper de malla tejida. Negro entero con las tres rayas en degradado blanco y detalle reflectivo en la puntera.",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Core Black / Cloud White",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-09-12T17:03:55.580Z",
+    "updatedAt": "2026-09-12T17:03:55.580Z"
+  },
+  {
     "id": "sneaker-adidas-superstar-blanco-gris-trebol",
     "name": "Adidas Superstar",
     "brand": "Adidas",
@@ -3290,7 +3632,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       44
     ],
     "status": "disponible",
-    "isFeatured": true,
+    "isFeatured": false,
     "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "Cuero blanco con paneles azul rey y talon rojo, sobre entresuela hueso.",
@@ -12123,7 +12465,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       44
     ],
     "status": "disponible",
-    "isFeatured": true,
+    "isFeatured": false,
     "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "Corte alto en cuero negro con la flor del monograma en relieve y detalle perforado en la punta.",
@@ -13660,7 +14002,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       44
     ],
     "status": "disponible",
-    "isFeatured": true,
+    "isFeatured": false,
     "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
