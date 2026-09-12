@@ -138,6 +138,27 @@ export function FilterRail({
           </button>
         </div>
 
+        {/* La marca filtrada, a la vista y con salida.
+            Llegando desde el menú de marcas, el filtro se aplica sin que el
+            visitante haya tocado nada: sin esto vería una fracción del catálogo
+            y el único rastro sería un (1) junto a "Filtros", que hay que abrir
+            para entender. */}
+        {filters.brand && (
+          <div className="flex items-center gap-2 pb-3 -mt-0.5">
+            <span className="text-[9px] font-semibold uppercase tracking-[0.2em] text-marble/35">
+              Marca
+            </span>
+            <button
+              onClick={() => onChange({ brand: '' })}
+              className="group flex items-center gap-2 pl-3 pr-2 py-1.5 border border-silver/35 bg-silver/10 text-[11px] text-marble hover:border-silver/60 transition-colors"
+              aria-label={`Quitar el filtro de marca ${filters.brand}`}
+            >
+              {filters.brand}
+              <X className="w-3 h-3 text-marble/45 group-hover:text-marble transition-colors" />
+            </button>
+          </div>
+        )}
+
         {/* Panel desplegable.
             La barra va pegada arriba (`sticky`), así que el panel no puede
             crecer más que la pantalla: en un teléfono bajito el pie con

@@ -21,17 +21,29 @@ export function useCatalogFilters(sneakers: Sneaker[], seed?: Partial<FilterStat
     setFilters({ ...DEFAULT_FILTERS, ...seed });
   }, [seed]);
 
+  /* Las opciones se calculan sobre la línea que se está viendo, no sobre el
+     catálogo entero. En /originales ofrecer Adidas —que solo tiene pares de uso
+     diario— llevaba a un filtro sin resultados, y hacía que el conteo del menú
+     de marcas no cuadrara con lo que se ve al llegar. */
+  const enLinea = useMemo(
+    () =>
+      filters.category === 'all'
+        ? sneakers
+        : sneakers.filter((s) => s.category === filters.category),
+    [sneakers, filters.category],
+  );
+
   const availableBrands = useMemo(
-    () => [...new Set(sneakers.map((s) => s.brand))].sort(),
-    [sneakers],
+    () => [...new Set(enLinea.map((s) => s.brand))].sort(),
+    [enLinea],
   );
 
   const availableSizes = useMemo(
     () =>
-      [...new Set(sneakers.flatMap((s) => s.sizes ?? []))].sort(
+      [...new Set(enLinea.flatMap((s) => s.sizes ?? []))].sort(
         (a, b) => Number(a) - Number(b),
       ),
-    [sneakers],
+    [enLinea],
   );
 
   const results = useMemo(() => {

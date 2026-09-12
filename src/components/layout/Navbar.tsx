@@ -2,12 +2,24 @@ import { useEffect, useState } from 'react';
 import { Link, NavLink, useLocation, useNavigate } from 'react-router-dom';
 import { Instagram, Menu, MessageCircle, Search, Shield, X } from 'lucide-react';
 import { useStore } from '../../context/StoreContext';
+import { useMarcasPorLinea } from '../../hooks/useMarcasPorLinea';
 import { TempleMark } from '../ui/TempleMark';
+import { BrandAccordion, BrandDropdown } from './BrandDropdown';
 import { cx, generateDirectWhatsAppContact, instagramUrl } from '../../lib/utils';
 
+/**
+ * Las dos líneas llevan desplegable de marcas; el resto son enlaces secos.
+ *
+ * Catálogo se queda sin menú a propósito: es la vista que mezcla las dos
+ * líneas, y colgarle marcas sería ofrecer justo el atajo que no queremos —una
+ * marca sin línea, con los pares verificados revueltos con los de uso diario—.
+ */
+const LINEAS = [
+  { to: '/originales', label: 'Originales', linea: 'originales' },
+  { to: '/sneakers', label: 'Sneakers', linea: 'general' },
+] as const;
+
 const NAV_LINKS = [
-  { to: '/originales', label: 'Originales' },
-  { to: '/sneakers', label: 'Sneakers' },
   { to: '/catalogo', label: 'Catálogo' },
   { to: '/nosotros', label: 'El Templo' },
   { to: '/preguntas', label: 'Preguntas' },
@@ -15,6 +27,7 @@ const NAV_LINKS = [
 
 export function Navbar() {
   const { settings, sneakers } = useStore();
+  const marcas = useMarcasPorLinea();
   const location = useLocation();
   const navigate = useNavigate();
 
@@ -101,6 +114,14 @@ export function Navbar() {
 
             {/* Navegación de escritorio */}
             <nav className="hidden lg:flex items-center gap-8">
+              {LINEAS.map((linea) => (
+                <BrandDropdown
+                  key={linea.to}
+                  to={linea.to}
+                  label={linea.label}
+                  marcas={marcas[linea.linea]}
+                />
+              ))}
               {NAV_LINKS.map((link) => (
                 <NavLink
                   key={link.to}
@@ -200,14 +221,32 @@ export function Navbar() {
             </button>
           </div>
 
-          {/* `overflow-y-auto` para que en un teléfono bajito los cinco enlaces
-              y el pie del menú no se corten sin poder alcanzarlos. */}
-          <nav className="flex-1 flex flex-col justify-center px-7 sm:px-8 gap-1 overflow-y-auto">
+          {/* El centrado lo hace el hijo con `min-h-full`, no el contenedor con
+              `justify-center`. Con `justify-center` sobre el que desborda, un
+              acordeón abierto empuja la lista fuera por arriba y el scroll no
+              llega hasta ella: "Originales" quedaba inalcanzable y los títulos
+              de arriba y abajo, cortados por la mitad. Así, mientras quepa se
+              centra, y cuando no, crece y se desplaza entero. */}
+          <nav className="flex-1 overflow-y-auto">
+            <div className="min-h-full flex flex-col justify-center px-7 sm:px-8 gap-1 py-6">
+            {LINEAS.map((linea, i) => (
+              <BrandAccordion
+                key={linea.to}
+                to={linea.to}
+                label={linea.label}
+                marcas={marcas[linea.linea]}
+                delay={i * 55}
+                /* Elegir una marca no cambia el pathname —solo la
+                   querystring—, así que el cierre por cambio de ruta no se
+                   dispara y el menú se quedaría abierto encima del catálogo. */
+                onNavigate={() => setIsMenuOpen(false)}
+              />
+            ))}
             {NAV_LINKS.map((link, i) => (
               <NavLink
                 key={link.to}
                 to={link.to}
-                style={{ animationDelay: `${i * 55}ms` }}
+                style={{ animationDelay: `${(i + LINEAS.length) * 55}ms` }}
                 className={({ isActive }) =>
                   cx(
                     'font-display text-3xl py-3.5 border-b border-white/6 animate-rise transition-colors',
@@ -218,6 +257,7 @@ export function Navbar() {
                 {link.label}
               </NavLink>
             ))}
+            </div>
           </nav>
 
           <div className="px-7 sm:px-8 pt-6 pb-safe space-y-3">

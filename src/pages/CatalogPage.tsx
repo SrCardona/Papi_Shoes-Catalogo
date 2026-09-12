@@ -41,23 +41,43 @@ export function CatalogPage({
   // que al recargar no se vuelva a aplicar un filtro que el usuario ya quitó.
   const queryParam = searchParams.get('q') ?? '';
   const brandParam = searchParams.get('marca') ?? '';
+  /* `?marca=` vacío es el "Ver todos" del menú, y significa quitar el filtro.
+     Hay que distinguirlo de que no venga el parámetro: estando ya en la línea,
+     un enlace a la ruta pelada no cambiaría la URL, React Router no navegaría
+     y la marca se quedaría filtrada. */
+  const limpiaMarca = searchParams.has('marca') && !brandParam;
   useEffect(() => {
-    if (!queryParam && !brandParam) return;
+    if (!queryParam && !brandParam && !limpiaMarca) return;
     updateFilters({
       ...(queryParam ? { searchQuery: queryParam } : {}),
-      ...(brandParam ? { brand: brandParam } : {}),
+      ...(brandParam || limpiaMarca ? { brand: brandParam } : {}),
     });
     setSearchParams({}, { replace: true });
-  }, [queryParam, brandParam, updateFilters, setSearchParams]);
+  }, [queryParam, brandParam, limpiaMarca, updateFilters, setSearchParams]);
 
   const scopedTotal = category
     ? sneakers.filter((s) => s.category === category).length
     : sneakers.length;
 
+  /* Con una marca filtrada el encabezado lo dice, para que ver 37 pares donde
+     antes había 497 no parezca que se perdió medio catálogo. */
+  const marcaActiva = filters.brand;
+  const encabezado = marcaActiva
+    ? {
+        eyebrow,
+        title: `${title} · ${marcaActiva}`,
+        description: `${results.length} ${results.length === 1 ? 'par' : 'pares'} de ${marcaActiva} en ${category ? `la línea ${title}` : 'todo el catálogo'}. Quita el filtro de marca para ver los ${scopedTotal}.`,
+      }
+    : { eyebrow, title, description };
+
   return (
     <>
       <section className="max-w-[1400px] mx-auto px-5 lg:px-8 pt-14 pb-9">
-        <SectionHeader eyebrow={eyebrow} title={title} description={description} />
+        <SectionHeader
+          eyebrow={encabezado.eyebrow}
+          title={encabezado.title}
+          description={encabezado.description}
+        />
       </section>
 
       <FilterRail

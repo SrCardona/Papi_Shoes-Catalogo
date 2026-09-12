@@ -101,15 +101,17 @@ src/
 ├── pages/          HomePage, CatalogPage (+ OriginalsPage, SneakersPage),
 │                   ProductPage, AboutPage (El Templo), FaqPage, AdminPage
 ├── components/
-│   ├── layout/     Navbar, Footer, Layout
+│   ├── layout/     Navbar, BrandDropdown (menús de marca), Footer, Layout
 │   └── ui/         SneakerColumn, Colonnade, FilterRail, SmartImage,
 │                   DeliveryWall, HighlightRail, SectionHeader, TempleMark
 ├── admin/          SneakerForm, QuickEditor, DeliveryManager, SettingsPanel,
 │                   NubeSync (estado de la nube y publicación manual)
 ├── context/        StoreContext (estado global + nube + localStorage)
-├── hooks/          useCatalogFilters (todo el filtrado y orden)
+├── hooks/          useCatalogFilters (todo el filtrado y orden),
+│                   useMarcasPorLinea (las marcas del menú de navegación)
 ├── lib/            nube.ts (cliente de /api), security.ts (saneamiento),
-│                   validation.ts, catalogo.ts (huella y fusión), utils.ts
+│                   validation.ts, catalogo.ts (huella y fusión),
+│                   marcas.ts (marcas por línea), utils.ts
 └── data/           initialData.ts, catalogoGenerado.ts y entregasGeneradas.ts
                     (GENERADOS, no editar)
 ```
@@ -152,6 +154,15 @@ Para ver el estado del servidor publicado, sin exponer nada:
   `/streetwear` redirige a `/sneakers`.
 
 Nunca describir un par de la línea Sneakers como original o auténtico.
+
+La línea va **siempre por delante de la marca**, y por eso ningún atajo lleva a
+una marca suelta: los menús de la barra apuntan a `/originales?marca=X` o
+`/sneakers?marca=X`, y el muro de marcas de la portada manda cada una a la línea
+donde tenga más pares (empate: Originales, que es lo prudente). Un enlace a
+`/catalogo?marca=X` mezclaría las dos y el cliente daría por verificado un par
+de uso diario. Las marcas de esos menús salen del catálogo con
+`lib/marcas.ts` —nunca escritas a mano— y dejan fuera `Otras`, que es una
+etiqueta del generador y no una marca.
 
 ## Cargar fotos al catálogo
 

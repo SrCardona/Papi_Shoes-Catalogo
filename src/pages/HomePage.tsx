@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom';
 import { ArrowRight, MessageCircle } from 'lucide-react';
 import type { Sneaker } from '../types';
 import { useStore } from '../context/StoreContext';
+import { useMarcasPorLinea } from '../hooks/useMarcasPorLinea';
+import { lineaDeMarca } from '../lib/marcas';
 import { BRAND_PILLARS, BRAND_WALL } from '../data/initialData';
 import { BrandLockup, TempleMark } from '../components/ui/TempleMark';
 import { Colonnade } from '../components/ui/SneakerColumn';
@@ -17,6 +19,7 @@ const ALTAR_SIZE = 8;
 
 export function HomePage() {
   const { sneakers, settings, deliveries } = useStore();
+  const marcas = useMarcasPorLinea();
 
   /* El altar muestra lo último que entró al catálogo, venga del script o del
      panel. Se ordena por fecha de alta en vez de confiar solo en `isFeatured`:
@@ -53,11 +56,24 @@ export function HomePage() {
   }, [sneakers]);
 
   /* Muro de marcas: se arma con las marcas que de verdad hay en el catálogo,
-     para que cada una lleve a su sección y no a un filtro vacío. */
-  const brands = useMemo(
-    () => [...new Set(sneakers.map((s) => s.brand))].sort(),
-    [sneakers],
-  );
+     para que cada una lleve a su sección y no a un filtro vacío.
+
+     Cada una entra por la línea donde tiene más surtido, nunca por `/catalogo`:
+     ahí las dos se mezclan y un par de uso diario aparece junto a uno con legit
+     check. Calvin Klein es el caso que lo justifica —39 pares verificados
+     contra 2 de uso diario—: mandarla al catálogo mezclado sería enseñar
+     primero lo que menos la representa. */
+  const brands = useMemo(() => {
+    const vistas = new Set<string>();
+    const lista: { brand: string; to: string }[] = [];
+    for (const s of sneakers) {
+      if (s.brand === 'Otras' || vistas.has(s.brand)) continue;
+      vistas.add(s.brand);
+      const { to } = lineaDeMarca(marcas, s.brand);
+      lista.push({ brand: s.brand, to: `${to}?marca=${encodeURIComponent(s.brand)}` });
+    }
+    return lista.sort((a, b) => a.brand.localeCompare(b.brand, 'es'));
+  }, [sneakers, marcas]);
 
   const counts = useMemo(
     () => ({
@@ -261,10 +277,10 @@ export function HomePage() {
         <p className="eyebrow text-center mb-8">Trabajamos con</p>
         <div className="flex flex-wrap items-center justify-center gap-x-12 gap-y-5 px-5">
           {brands.length > 0
-            ? brands.map((brand) => (
+            ? brands.map(({ brand, to }) => (
                 <Link
                   key={brand}
-                  to={`/catalogo?marca=${encodeURIComponent(brand)}`}
+                  to={to}
                   className="font-display text-xl sm:text-2xl text-marble/35 hover:text-silver transition-colors duration-300"
                 >
                   {brand.toUpperCase()}
