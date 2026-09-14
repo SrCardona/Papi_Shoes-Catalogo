@@ -13,6 +13,7 @@ npm run lint      # tsc --noEmit && eslint src
 npm run entrada   # duplicados de public/catalogo/_entrada/ (fotos nuevas)
 npm run catalogo  # precios por marca en catalogo/precios.csv
 npm run entregas  # muro de entregas desde el JSON que exporta el panel
+npm run marcas    # comprueba que el conteo del menu cuadre con el catalogo
 ```
 
 ## Stack
@@ -161,8 +162,33 @@ una marca suelta: los menús de la barra apuntan a `/originales?marca=X` o
 donde tenga más pares (empate: Originales, que es lo prudente). Un enlace a
 `/catalogo?marca=X` mezclaría las dos y el cliente daría por verificado un par
 de uso diario. Las marcas de esos menús salen del catálogo con
-`lib/marcas.ts` —nunca escritas a mano— y dejan fuera `Otras`, que es una
-etiqueta del generador y no una marca.
+`lib/marcas.ts` —nunca escritas a mano—.
+
+### Marcas con pocas referencias: "Otras marcas"
+
+Una marca necesita **al menos `MINIMO_PARA_APARTADO_PROPIO` pares (hoy 5) en esa
+línea** para tener su propia entrada en el desplegable. Las que no llegan caen en
+"Otras marcas", junto con los pares que el generador etiquetó `Otras` por no
+reconocer la marca. El umbral se evalúa **por línea**: la misma marca puede tener
+apartado propio en Sneakers y caer en el grupo dentro de Originales.
+
+`agruparMarcas()` en `lib/marcas.ts` es la **única** fuente de ese reparto, y la
+usan el menú, el catálogo y el muro de la portada. No lo recalcules en una
+pantalla: si el menú promete 49 pares y al llegar se ven otros, se rompe lo único
+que el visitante puede comprobar de un vistazo. `npm run marcas` verifica que los
+conteos del desplegable sumen el total de cada línea y que ningún par quede
+inalcanzable.
+
+El enlace del grupo es `?marca=otras`, y **no** es una marca: `CatalogPage` lo
+traduce a un filtro por el conjunto (`filters.brandGroup`). Es un campo aparte de
+`filters.brand` a propósito, porque `Otras` es además el nombre literal de una
+marca del catálogo y la comparación de `brand` no distingue mayúsculas: un
+centinela ahí dentro chocaría con ella.
+
+El agrupamiento es **solo para navegar**. La barra de filtros del catálogo sigue
+ofreciendo todas las marcas por separado, incluidas las pequeñas: quien ya está
+filtrando quiere precisión. El muro de la portada, en cambio, solo muestra las
+que tienen apartado propio.
 
 ## Cargar fotos al catálogo
 

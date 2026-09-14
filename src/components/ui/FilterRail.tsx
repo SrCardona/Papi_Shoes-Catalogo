@@ -143,17 +143,21 @@ export function FilterRail({
             visitante haya tocado nada: sin esto vería una fracción del catálogo
             y el único rastro sería un (1) junto a "Filtros", que hay que abrir
             para entender. */}
-        {filters.brand && (
+        {(filters.brand || filters.brandGroup.length > 0) && (
           <div className="flex items-center gap-2 pb-3 -mt-0.5">
             <span className="text-[9px] font-semibold uppercase tracking-[0.2em] text-marble/35">
               Marca
             </span>
             <button
-              onClick={() => onChange({ brand: '' })}
+              onClick={() => onChange({ brand: '', brandGroup: [] })}
               className="group flex items-center gap-2 pl-3 pr-2 py-1.5 border border-silver/35 bg-silver/10 text-[11px] text-marble hover:border-silver/60 transition-colors"
-              aria-label={`Quitar el filtro de marca ${filters.brand}`}
+              aria-label={
+                filters.brand
+                  ? `Quitar el filtro de marca ${filters.brand}`
+                  : 'Quitar el filtro de otras marcas'
+              }
             >
-              {filters.brand}
+              {filters.brand || 'Otras marcas'}
               <X className="w-3 h-3 text-marble/45 group-hover:text-marble transition-colors" />
             </button>
           </div>
@@ -199,7 +203,14 @@ export function FilterRail({
                 <select
                   id="f-brand"
                   value={filters.brand}
-                  onChange={(e) => applyAndClose({ brand: e.target.value })}
+                  onChange={(e) =>
+                    /* Elegir una marca suelta abandona el grupo. La lista sigue
+                       completa a propósito —quien ya está filtrando quiere
+                       precisión—, pero las dos cosas a la vez no tienen
+                       sentido: filtrar por Vans dentro de un grupo que no la
+                       contiene daría cero pares sin decir por qué. */
+                    applyAndClose({ brand: e.target.value, brandGroup: [] })
+                  }
                   className={cx(fieldClass, 'cursor-pointer')}
                 >
                   <option value="" className="bg-obsidian">

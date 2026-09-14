@@ -13,8 +13,17 @@ export function useCatalogFilters(sneakers: Sneaker[], seed?: Partial<FilterStat
     ...seed,
   });
 
+  /* La marca suelta y el grupo "Otras marcas" se excluyen, y la regla vive solo
+     aquí: si cada pantalla tuviera que acordarse de limpiar el otro campo,
+     bastaría un olvido para filtrar por una marca dentro de un grupo que no la
+     contiene y dejar el catálogo en cero sin que se entienda por qué. */
   const updateFilters = useCallback((patch: Partial<FilterState>) => {
-    setFilters((prev) => ({ ...prev, ...patch }));
+    setFilters((prev) => {
+      const next = { ...prev, ...patch };
+      if (patch.brand) next.brandGroup = [];
+      if (patch.brandGroup?.length) next.brand = '';
+      return next;
+    });
   }, []);
 
   const resetFilters = useCallback(() => {
@@ -53,6 +62,11 @@ export function useCatalogFilters(sneakers: Sneaker[], seed?: Partial<FilterStat
       if (filters.category !== 'all' && s.category !== filters.category) return false;
       if (filters.gender !== 'all' && s.gender !== filters.gender) return false;
       if (filters.brand && s.brand.toLowerCase() !== filters.brand.toLowerCase())
+        return false;
+      if (
+        filters.brandGroup.length &&
+        !filters.brandGroup.some((b) => b.toLowerCase() === s.brand.toLowerCase())
+      )
         return false;
       if (filters.status !== 'all' && s.status !== filters.status) return false;
 
@@ -109,6 +123,7 @@ export function useCatalogFilters(sneakers: Sneaker[], seed?: Partial<FilterStat
     let n = 0;
     if (filters.searchQuery.trim()) n++;
     if (filters.brand) n++;
+    if (filters.brandGroup.length) n++;
     if (filters.size) n++;
     if (filters.gender !== 'all') n++;
     if (filters.status !== 'all') n++;

@@ -190,6 +190,15 @@ export interface FilterState {
   category: 'all' | SneakerCategory;
   gender: 'all' | SneakerGender;
   brand: string;
+  /**
+   * Filtro por conjunto de marcas, para "Otras marcas" del menú.
+   *
+   * Es un campo aparte y no un valor especial de `brand` porque `Otras` es
+   * además el nombre literal de una marca del catálogo —la etiqueta que pone el
+   * generador—, y la comparación de `brand` no distingue mayúsculas: un
+   * centinela ahí dentro chocaría con ella. Vacío significa sin filtro de grupo.
+   */
+  brandGroup: string[];
   size: string;
   status: 'all' | SneakerStatus;
   minPrice: number;
@@ -202,6 +211,7 @@ export const DEFAULT_FILTERS: FilterState = {
   category: 'all',
   gender: 'all',
   brand: '',
+  brandGroup: [],
   size: '',
   status: 'all',
   minPrice: 0,

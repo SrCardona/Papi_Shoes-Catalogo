@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { ArrowRight, MessageCircle } from 'lucide-react';
 import type { Sneaker } from '../types';
 import { useStore } from '../context/StoreContext';
-import { useMarcasPorLinea } from '../hooks/useMarcasPorLinea';
+import { useMarcasAgrupadas, useMarcasPorLinea } from '../hooks/useMarcasPorLinea';
 import { lineaDeMarca } from '../lib/marcas';
 import { BRAND_PILLARS, BRAND_WALL } from '../data/initialData';
 import { BrandLockup, TempleMark } from '../components/ui/TempleMark';
@@ -20,6 +20,7 @@ const ALTAR_SIZE = 8;
 export function HomePage() {
   const { sneakers, settings, deliveries } = useStore();
   const marcas = useMarcasPorLinea();
+  const agrupadas = useMarcasAgrupadas();
 
   /* El altar muestra lo último que entró al catálogo, venga del script o del
      panel. Se ordena por fecha de alta en vez de confiar solo en `isFeatured`:
@@ -70,10 +71,19 @@ export function HomePage() {
       if (s.brand === 'Otras' || vistas.has(s.brand)) continue;
       vistas.add(s.brand);
       const { to } = lineaDeMarca(marcas, s.brand);
+      /* Solo las que tienen apartado propio en la línea a la que van a parar.
+         Una marca de dos pares no sostiene un renglón en el muro, y además su
+         enlace caería en una sección que ya no existe: en el menú vive dentro
+         de "Otras marcas", no suelta. */
+      const linea = to === '/originales' ? 'originales' : 'general';
+      const tieneApartado = agrupadas[linea].principales.some(
+        (m) => m.brand === s.brand,
+      );
+      if (!tieneApartado) continue;
       lista.push({ brand: s.brand, to: `${to}?marca=${encodeURIComponent(s.brand)}` });
     }
     return lista.sort((a, b) => a.brand.localeCompare(b.brand, 'es'));
-  }, [sneakers, marcas]);
+  }, [sneakers, marcas, agrupadas]);
 
   const counts = useMemo(
     () => ({

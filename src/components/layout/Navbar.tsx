@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { Link, NavLink, useLocation, useNavigate } from 'react-router-dom';
 import { Instagram, Menu, MessageCircle, Search, Shield, X } from 'lucide-react';
 import { useStore } from '../../context/StoreContext';
-import { useMarcasPorLinea } from '../../hooks/useMarcasPorLinea';
+import { useMarcasAgrupadas } from '../../hooks/useMarcasPorLinea';
 import { TempleMark } from '../ui/TempleMark';
 import { BrandAccordion, BrandDropdown } from './BrandDropdown';
 import { cx, generateDirectWhatsAppContact, instagramUrl } from '../../lib/utils';
@@ -27,7 +27,7 @@ const NAV_LINKS = [
 
 export function Navbar() {
   const { settings, sneakers } = useStore();
-  const marcas = useMarcasPorLinea();
+  const marcas = useMarcasAgrupadas();
   const location = useLocation();
   const navigate = useNavigate();
 
@@ -119,7 +119,8 @@ export function Navbar() {
                   key={linea.to}
                   to={linea.to}
                   label={linea.label}
-                  marcas={marcas[linea.linea]}
+                  marcas={marcas[linea.linea].principales}
+                  otras={marcas[linea.linea].otras}
                 />
               ))}
               {NAV_LINKS.map((link) => (
@@ -234,7 +235,8 @@ export function Navbar() {
                 key={linea.to}
                 to={linea.to}
                 label={linea.label}
-                marcas={marcas[linea.linea]}
+                marcas={marcas[linea.linea].principales}
+                otras={marcas[linea.linea].otras}
                 delay={i * 55}
                 /* Elegir una marca no cambia el pathname —solo la
                    querystring—, así que el cierre por cambio de ruta no se

@@ -1,15 +1,68 @@
 import { useCallback, useEffect, useRef, useState } from 'react';
 import { NavLink, useLocation } from 'react-router-dom';
 import { ChevronDown } from 'lucide-react';
-import type { MarcaConteo } from '../../lib/marcas';
+import {
+  MARCA_OTRAS,
+  type GrupoOtras,
+  type MarcaConteo,
+} from '../../lib/marcas';
 import { cx } from '../../lib/utils';
 
 interface BrandDropdownProps {
   /** Ruta de la línea: `/originales` o `/sneakers`. */
   to: string;
   label: string;
-  /** Las marcas de esa línea, ya ordenadas y sin "Otras". */
+  /** Las marcas con apartado propio, ya ordenadas por cantidad. */
   marcas: MarcaConteo[];
+  /** Las marcas agrupadas de esa línea. Si suman cero, no se muestra nada. */
+  otras: GrupoOtras;
+}
+
+/** Una entrada del desplegable: marca, "Ver todos" o el grupo "Otras marcas". */
+interface OpcionMarca {
+  to: string;
+  label: string;
+  count: number | null;
+  /** Separa el grupo del bloque de marcas con una línea, como el resto del sitio. */
+  separada?: boolean;
+}
+
+/**
+ * Las entradas del menú de una línea, en el orden en que se ven.
+ *
+ * "Otras marcas" va siempre de última y fuera del orden por cantidad: no compite
+ * con las marcas, es el cajón donde caen las que no alcanzan apartado propio. Y
+ * solo aparece si tiene algo dentro, porque una entrada vacía que promete pares
+ * y no lleva a ninguno es peor que no ofrecerla.
+ */
+function construyeOpciones(
+  to: string,
+  marcas: MarcaConteo[],
+  otras: GrupoOtras,
+): OpcionMarca[] {
+  const opciones: OpcionMarca[] = [
+    /* "Ver todos" manda la marca vacía a propósito. Si solo apuntara a la ruta,
+       estando ya en la línea con una marca filtrada no cambiaría la URL, React
+       Router no navegaría y el filtro se quedaría puesto: el enlace no haría
+       nada justo cuando más se necesita. */
+    { to: `${to}?marca=`, label: 'Ver todos', count: null },
+    ...marcas.map((m) => ({
+      to: `${to}?marca=${encodeURIComponent(m.brand)}`,
+      label: m.brand,
+      count: m.count,
+    })),
+  ];
+
+  if (otras.count > 0) {
+    opciones.push({
+      to: `${to}?marca=${MARCA_OTRAS}`,
+      label: 'Otras marcas',
+      count: otras.count,
+      separada: true,
+    });
+  }
+
+  return opciones;
 }
 
 /** Margen para que rozar el borde al bajar el cursor no cierre el menú. */
@@ -26,7 +79,7 @@ const RETRASO_CIERRE_MS = 150;
  * Se abre con el cursor y también con clic, porque son dos gestos que la gente
  * usa indistintamente y el hover solo deja fuera a quien navega con teclado.
  */
-export function BrandDropdown({ to, label, marcas }: BrandDropdownProps) {
+export function BrandDropdown({ to, label, marcas, otras }: BrandDropdownProps) {
   const location = useLocation();
   const [abierto, setAbierto] = useState(false);
   const contenedorRef = useRef<HTMLDivElement>(null);
@@ -85,7 +138,8 @@ export function BrandDropdown({ to, label, marcas }: BrandDropdownProps) {
     requestAnimationFrame(() => opcionesRef.current[indice]?.focus());
   };
 
-  const total = marcas.length + 1; // "Ver todos" ocupa la primera posición
+  const opciones = construyeOpciones(to, marcas, otras);
+  const total = opciones.length;
 
   const alTeclearEnBoton = (e: React.KeyboardEvent) => {
     if (e.key === 'ArrowDown' || e.key === 'Enter' || e.key === ' ') {
@@ -117,8 +171,9 @@ export function BrandDropdown({ to, label, marcas }: BrandDropdownProps) {
   };
 
   /* Una línea sin pares no tiene nada que desplegar: el elemento se comporta
-     como el enlace simple que era antes. */
-  if (!marcas.length) {
+     como el enlace simple que era antes. El grupo cuenta como contenido, así que
+     una línea cuyas marcas fueran todas pequeñas sigue teniendo su menú. */
+  if (opciones.length <= 1) {
     return (
       <NavLink to={to} className={enlaceDeBarra}>
         {({ isActive }) => (
@@ -133,19 +188,6 @@ export function BrandDropdown({ to, label, marcas }: BrandDropdownProps) {
 
   /* El subrayado de "estás aquí" lo pone el botón, que no es un NavLink. */
   const enLaLinea = location.pathname === to;
-
-  const opciones = [
-    /* "Ver todos" manda la marca vacía a propósito. Si solo apuntara a la ruta,
-       estando ya en la línea con una marca filtrada no cambiaría la URL, React
-       Router no navegaría y el filtro se quedaría puesto: el enlace no haría
-       nada justo cuando más se necesita. */
-    { to: `${to}?marca=`, label: 'Ver todos', count: null as number | null },
-    ...marcas.map((m) => ({
-      to: `${to}?marca=${encodeURIComponent(m.brand)}`,
-      label: m.brand,
-      count: m.count,
-    })),
-  ];
 
   return (
     <div
@@ -205,6 +247,11 @@ export function BrandDropdown({ to, label, marcas }: BrandDropdownProps) {
                   'text-[11.5px] text-marble/65 hover:text-marble hover:bg-white/5',
                   'focus:outline-none focus:text-marble focus:bg-white/8',
                   opcion.count === null && 'text-marble/90',
+                  /* El grupo no es una marca más: una línea lo separa del
+                     bloque. El `-mt-px` la monta encima del borde inferior de
+                     la marca anterior, porque si no quedan dos hairlines
+                     seguidas de distinta opacidad y se ve como un error. */
+                  opcion.separada && '-mt-px border-t border-white/12',
                 )}
               >
                 <span className="truncate">{opcion.label}</span>
@@ -244,12 +291,14 @@ export function BrandAccordion({
   to,
   label,
   marcas,
+  otras,
   onNavigate,
   delay,
 }: BrandAccordionProps) {
   const [abierto, setAbierto] = useState(false);
+  const opciones = construyeOpciones(to, marcas, otras);
 
-  if (!marcas.length) {
+  if (opciones.length <= 1) {
     return (
       <NavLink
         to={to}
@@ -290,14 +339,7 @@ export function BrandAccordion({
 
       {abierto && (
         <div className="pb-2 animate-drop">
-          {[
-            { to: `${to}?marca=`, label: 'Ver todos', count: null as number | null },
-            ...marcas.map((m) => ({
-              to: `${to}?marca=${encodeURIComponent(m.brand)}`,
-              label: m.brand,
-              count: m.count,
-            })),
-          ].map((opcion) => (
+          {opciones.map((opcion) => (
             <NavLink
               key={opcion.label}
               to={opcion.to}
@@ -305,7 +347,12 @@ export function BrandAccordion({
               /* 44 px de alto mínimo: es lo que necesita un pulgar para no
                  fallar entre dos marcas seguidas. La sangría deja claro que
                  cuelgan de la línea de arriba. */
-              className="flex items-center justify-between gap-4 min-h-[44px] pl-5 pr-1 py-2 text-marble/55 active:text-marble"
+              className={cx(
+                'flex items-center justify-between gap-4 min-h-[44px] pl-5 pr-1 py-2 text-marble/55 active:text-marble',
+                /* Mismo corte que en escritorio: el acordeón no puede contar
+                   otra historia que el menú de la barra. */
+                opcion.separada && 'mt-1.5 border-t border-white/12 pt-3',
+              )}
             >
               <span className="text-[14px] truncate">{opcion.label}</span>
               {opcion.count !== null && (
