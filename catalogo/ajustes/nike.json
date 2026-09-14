@@ -861,5 +861,65 @@
     "colorway": "Sail / Black",
     "description": "Cuero crema con el Swoosh delineado en negro y gamuza en punta y talon.",
     "sizes": "35-39"
+  },
+  "nike-air-max-plus-tn-blanco-azul-teal": {
+    "name": "Nike Air Max Plus TN",
+    "colorway": "White / Blue Gradient / Teal",
+    "sizes": "39-44",
+    "description": "TN en base blanca con el degradado azul a turquesa en la malla, el swoosh verde menta y las camaras de aire turquesa. Suela blanca."
+  },
+  "nike-air-max-plus-tn-blanco-naranja-plata": {
+    "name": "Nike Air Max Plus TN",
+    "colorway": "White / Orange / Silver",
+    "sizes": "39-44",
+    "description": "TN en blanco entero con el swoosh plata y naranja, la brocha naranja en la mediasuela y las camaras de aire naranja."
+  },
+  "nike-air-max-plus-tn-negro-blanco-cromado": {
+    "name": "Nike Air Max Plus TN",
+    "colorway": "Black / White / Chrome",
+    "sizes": "39-44",
+    "description": "TN en malla negra sobre base blanca, con el swoosh cromado y la mediasuela blanca de camaras transparentes."
+  },
+  "nike-air-max-plus-tn-negro-volt": {
+    "name": "Nike Air Max Plus TN",
+    "colorway": "Black / Volt",
+    "sizes": "39-44",
+    "description": "TN en malla negra con las nervaduras en verde volt, el swoosh tornasolado y la mediasuela blanca con las camaras volt."
+  },
+  "nike-air-max-plus-tn-negro-navy-metalico": {
+    "name": "Nike Air Max Plus TN",
+    "colorway": "Black / Navy / Metallic Silver",
+    "sizes": "39-44",
+    "description": "TN en negro con las nervaduras en azul navy metalizado, el swoosh blanco y el panel plata en el talon."
+  },
+  "nike-air-max-plus-tn-negro-rojo": {
+    "name": "Nike Air Max Plus TN",
+    "colorway": "Black / Red",
+    "sizes": "39-44",
+    "description": "TN en malla negra con las nervaduras rojas, el swoosh rojo tornasolado y la suela roja."
+  },
+  "nike-air-max-plus-tn-navy-blanco": {
+    "name": "Nike Air Max Plus TN",
+    "colorway": "Navy / White",
+    "sizes": "39-44",
+    "description": "TN en azul navy entero con las nervaduras al tono, el swoosh azul metalizado y la mediasuela blanca."
+  },
+  "nike-air-max-plus-tn-negro-arcoiris": {
+    "name": "Nike Air Max Plus TN",
+    "colorway": "Black / Rainbow Gradient",
+    "sizes": "39-44",
+    "description": "TN en negro con el degradado rojo, amarillo y azul recorriendo la malla, el swoosh blanco y las camaras de aire al tono."
+  },
+  "nike-air-max-plus-tn-negro-azul-electrico": {
+    "name": "Nike Air Max Plus TN",
+    "colorway": "Black / Photo Blue",
+    "sizes": "39-44",
+    "description": "TN en negro con textura de panal, el swoosh azul electrico y las camaras de aire azules."
+  },
+  "nike-air-max-plus-tn-negro-galaxia-naranja": {
+    "name": "Nike Air Max Plus TN",
+    "colorway": "Black / Galaxy / Orange",
+    "sizes": "39-44",
+    "description": "TN en negro con el estampado de estrellas en la malla, el swoosh naranja, la lengueta naranja y la mediasuela blanca."
   }
 }

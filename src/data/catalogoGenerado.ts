@@ -10253,7 +10253,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       39
     ],
     "status": "disponible",
-    "isFeatured": true,
+    "isFeatured": false,
     "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
@@ -10327,7 +10327,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       39
     ],
     "status": "disponible",
-    "isFeatured": true,
+    "isFeatured": false,
     "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "Lona color hueso con una flor estampada en el costado y franja azul en la suela.",
@@ -17160,6 +17160,44 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "updatedAt": "2026-09-07T16:11:19.219Z"
   },
   {
+    "id": "sneaker-nike-air-max-plus-tn-blanco-azul-teal",
+    "name": "Nike Air Max Plus TN",
+    "brand": "Nike",
+    "model": "Nike Air Max Plus TN",
+    "sku": "PAPI-8026",
+    "category": "general",
+    "gender": "hombre",
+    "price": 179900,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/nike/hombre/nike-air-max-plus-tn-blanco-azul-teal.jpg"
+    ],
+    "sizes": [
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": true,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "TN en base blanca con el degradado azul a turquesa en la malla, el swoosh verde menta y las camaras de aire turquesa. Suela blanca.",
+    "details": {
+      "condition": "En caja",
+      "colorway": "White / Blue Gradient / Teal",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-09-14T17:05:35.943Z",
+    "updatedAt": "2026-09-14T17:05:35.943Z"
+  },
+  {
     "id": "sneaker-nike-air-max-plus-tn-blanco-morado-teal",
     "name": "Nike Air Max Plus TN",
     "brand": "Nike",
@@ -17196,6 +17234,44 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "inquiriesCount": 0,
     "createdAt": "2026-09-07T16:11:19.219Z",
     "updatedAt": "2026-09-07T16:11:19.219Z"
+  },
+  {
+    "id": "sneaker-nike-air-max-plus-tn-blanco-naranja-plata",
+    "name": "Nike Air Max Plus TN",
+    "brand": "Nike",
+    "model": "Nike Air Max Plus TN",
+    "sku": "PAPI-1210",
+    "category": "general",
+    "gender": "hombre",
+    "price": 179900,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/nike/hombre/nike-air-max-plus-tn-blanco-naranja-plata.jpg"
+    ],
+    "sizes": [
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": true,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "TN en blanco entero con el swoosh plata y naranja, la brocha naranja en la mediasuela y las camaras de aire naranja.",
+    "details": {
+      "condition": "En caja",
+      "colorway": "White / Orange / Silver",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-09-14T17:05:35.943Z",
+    "updatedAt": "2026-09-14T17:05:35.943Z"
   },
   {
     "id": "sneaker-nike-air-max-plus-tn-blanco-naranja",
@@ -17351,6 +17427,158 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "updatedAt": "2026-08-25T15:10:14.234Z"
   },
   {
+    "id": "sneaker-nike-air-max-plus-tn-navy-blanco",
+    "name": "Nike Air Max Plus TN",
+    "brand": "Nike",
+    "model": "Nike Air Max Plus TN",
+    "sku": "PAPI-6953",
+    "category": "general",
+    "gender": "hombre",
+    "price": 179900,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/nike/hombre/nike-air-max-plus-tn-navy-blanco.jpg"
+    ],
+    "sizes": [
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": true,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "TN en azul navy entero con las nervaduras al tono, el swoosh azul metalizado y la mediasuela blanca.",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Navy / White",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-09-14T17:05:35.943Z",
+    "updatedAt": "2026-09-14T17:05:35.943Z"
+  },
+  {
+    "id": "sneaker-nike-air-max-plus-tn-negro-arcoiris",
+    "name": "Nike Air Max Plus TN",
+    "brand": "Nike",
+    "model": "Nike Air Max Plus TN",
+    "sku": "PAPI-1067",
+    "category": "general",
+    "gender": "hombre",
+    "price": 179900,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/nike/hombre/nike-air-max-plus-tn-negro-arcoiris.jpg"
+    ],
+    "sizes": [
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "TN en negro con el degradado rojo, amarillo y azul recorriendo la malla, el swoosh blanco y las camaras de aire al tono.",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Black / Rainbow Gradient",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-09-14T17:05:35.943Z",
+    "updatedAt": "2026-09-14T17:05:35.943Z"
+  },
+  {
+    "id": "sneaker-nike-air-max-plus-tn-negro-azul-electrico",
+    "name": "Nike Air Max Plus TN",
+    "brand": "Nike",
+    "model": "Nike Air Max Plus TN",
+    "sku": "PAPI-1103",
+    "category": "general",
+    "gender": "hombre",
+    "price": 179900,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/nike/hombre/nike-air-max-plus-tn-negro-azul-electrico.jpg"
+    ],
+    "sizes": [
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "TN en negro con textura de panal, el swoosh azul electrico y las camaras de aire azules.",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Black / Photo Blue",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-09-14T17:05:35.943Z",
+    "updatedAt": "2026-09-14T17:05:35.943Z"
+  },
+  {
+    "id": "sneaker-nike-air-max-plus-tn-negro-blanco-cromado",
+    "name": "Nike Air Max Plus TN",
+    "brand": "Nike",
+    "model": "Nike Air Max Plus TN",
+    "sku": "PAPI-1410",
+    "category": "general",
+    "gender": "hombre",
+    "price": 179900,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/nike/hombre/nike-air-max-plus-tn-negro-blanco-cromado.jpg"
+    ],
+    "sizes": [
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "TN en malla negra sobre base blanca, con el swoosh cromado y la mediasuela blanca de camaras transparentes.",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Black / White / Chrome",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-09-14T17:05:35.943Z",
+    "updatedAt": "2026-09-14T17:05:35.943Z"
+  },
+  {
     "id": "sneaker-nike-air-max-plus-tn-negro-blanco",
     "name": "Nike Air Max Plus TN",
     "brand": "Nike",
@@ -17387,6 +17615,158 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "inquiriesCount": 0,
     "createdAt": "2026-09-07T16:11:19.219Z",
     "updatedAt": "2026-09-07T16:11:19.219Z"
+  },
+  {
+    "id": "sneaker-nike-air-max-plus-tn-negro-galaxia-naranja",
+    "name": "Nike Air Max Plus TN",
+    "brand": "Nike",
+    "model": "Nike Air Max Plus TN",
+    "sku": "PAPI-1611",
+    "category": "general",
+    "gender": "hombre",
+    "price": 179900,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/nike/hombre/nike-air-max-plus-tn-negro-galaxia-naranja.jpg"
+    ],
+    "sizes": [
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "TN en negro con el estampado de estrellas en la malla, el swoosh naranja, la lengueta naranja y la mediasuela blanca.",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Black / Galaxy / Orange",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-09-14T17:05:35.943Z",
+    "updatedAt": "2026-09-14T17:05:35.943Z"
+  },
+  {
+    "id": "sneaker-nike-air-max-plus-tn-negro-navy-metalico",
+    "name": "Nike Air Max Plus TN",
+    "brand": "Nike",
+    "model": "Nike Air Max Plus TN",
+    "sku": "PAPI-6874",
+    "category": "general",
+    "gender": "hombre",
+    "price": 179900,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/nike/hombre/nike-air-max-plus-tn-negro-navy-metalico.jpg"
+    ],
+    "sizes": [
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "TN en negro con las nervaduras en azul navy metalizado, el swoosh blanco y el panel plata en el talon.",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Black / Navy / Metallic Silver",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-09-14T17:05:35.943Z",
+    "updatedAt": "2026-09-14T17:05:35.943Z"
+  },
+  {
+    "id": "sneaker-nike-air-max-plus-tn-negro-rojo",
+    "name": "Nike Air Max Plus TN",
+    "brand": "Nike",
+    "model": "Nike Air Max Plus TN",
+    "sku": "PAPI-7957",
+    "category": "general",
+    "gender": "hombre",
+    "price": 179900,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/nike/hombre/nike-air-max-plus-tn-negro-rojo.jpg"
+    ],
+    "sizes": [
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "TN en malla negra con las nervaduras rojas, el swoosh rojo tornasolado y la suela roja.",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Black / Red",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-09-14T17:05:35.943Z",
+    "updatedAt": "2026-09-14T17:05:35.943Z"
+  },
+  {
+    "id": "sneaker-nike-air-max-plus-tn-negro-volt",
+    "name": "Nike Air Max Plus TN",
+    "brand": "Nike",
+    "model": "Nike Air Max Plus TN",
+    "sku": "PAPI-1235",
+    "category": "general",
+    "gender": "hombre",
+    "price": 179900,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/nike/hombre/nike-air-max-plus-tn-negro-volt.jpg"
+    ],
+    "sizes": [
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "TN en malla negra con las nervaduras en verde volt, el swoosh tornasolado y la mediasuela blanca con las camaras volt.",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Black / Volt",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-09-14T17:05:35.943Z",
+    "updatedAt": "2026-09-14T17:05:35.943Z"
   },
   {
     "id": "sneaker-nike-air-max-plus-tn-rojo-morado-estampado",
@@ -22437,7 +22817,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       39
     ],
     "status": "disponible",
-    "isFeatured": true,
+    "isFeatured": false,
     "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "Cruise Rider en blanco con la punta y el talon en plata metalizada. Plataforma blanca con la franja rosada y el detalle menta en el talon.",
