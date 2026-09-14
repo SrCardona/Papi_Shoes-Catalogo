@@ -10,7 +10,7 @@
     "description": "Skate en negro con malla y la flor del monograma en blanco. Mediasuela alta con los símbolos grabados."
   },
   "louis-vuitton-skate-negro-monogram": {
-    "name": "Louis Vuitton Skate Negro Monogram",
+    "name": "Louis Vuitton Skate Cuero",
     "colorway": "Triple Black",
     "description": "La Skate en cuero granulado negro, con la flor del monograma del mismo tono y puntera texturizada."
   },
@@ -60,5 +60,23 @@
     "colorway": "Triple Black",
     "description": "Corte alto en cuero negro con la flor del monograma en relieve y detalle perforado en la punta.",
     "sizes": "39-44"
+  },
+  "louis-vuitton-skate-cuero-azul-royal": {
+    "name": "Louis Vuitton Skate Cuero",
+    "colorway": "Royal Blue / White",
+    "sizes": "39-44",
+    "description": "Skate de cuero en azul royal entero, con las costuras blancas a la vista, la flor del monograma en relieve al tono y los paneles texturizados en punta y talon. Suela blanca."
+  },
+  "louis-vuitton-skate-cuero-crema": {
+    "name": "Louis Vuitton Skate Cuero",
+    "colorway": "Cream / Black",
+    "sizes": "39-44",
+    "description": "Skate de cuero en crema, con las costuras negras perfilando cada panel y la flor del monograma en relieve del mismo tono. Bloque negro en el talon."
+  },
+  "louis-vuitton-skate-cuero-blanco-gris": {
+    "name": "Louis Vuitton Skate Cuero",
+    "colorway": "White / Grey",
+    "sizes": "39-44",
+    "description": "Skate de cuero en blanco con la mediasuela gris y las costuras negras a la vista. La flor del monograma en relieve, blanca sobre blanco."
   }
 }

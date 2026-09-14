@@ -661,7 +661,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       44
     ],
     "status": "disponible",
-    "isFeatured": true,
+    "isFeatured": false,
     "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "Malla azul navy con las tres rayas blancas y el refuerzo azul rey en el talon. Mediasuela blanca de perfil grueso.",
@@ -12361,17 +12361,132 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "updatedAt": "2026-08-13T19:13:00.000Z"
   },
   {
-    "id": "sneaker-louis-vuitton-skate-negro-monogram",
-    "name": "Louis Vuitton Skate Negro Monogram",
+    "id": "sneaker-louis-vuitton-skate-cuero-azul-royal",
+    "name": "Louis Vuitton Skate Cuero",
     "brand": "Louis Vuitton",
-    "model": "Louis Vuitton Skate Negro Monogram",
+    "model": "Louis Vuitton Skate Cuero",
+    "sku": "PAPI-1642",
+    "category": "general",
+    "gender": "hombre",
+    "price": 190000,
+    "originalPrice": 230000,
+    "images": [
+      "/catalogo/sneakers/louis-vuitton/hombre/louis-vuitton-skate-cuero-azul-royal.jpg"
+    ],
+    "sizes": [
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": true,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "Skate de cuero en azul royal entero, con las costuras blancas a la vista, la flor del monograma en relieve al tono y los paneles texturizados en punta y talon. Suela blanca.",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Royal Blue / White",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-09-14T19:25:44.633Z",
+    "updatedAt": "2026-09-14T19:25:44.633Z"
+  },
+  {
+    "id": "sneaker-louis-vuitton-skate-cuero-blanco-gris",
+    "name": "Louis Vuitton Skate Cuero",
+    "brand": "Louis Vuitton",
+    "model": "Louis Vuitton Skate Cuero",
+    "sku": "PAPI-4491",
+    "category": "general",
+    "gender": "hombre",
+    "price": 190000,
+    "originalPrice": 230000,
+    "images": [
+      "/catalogo/sneakers/louis-vuitton/hombre/louis-vuitton-skate-cuero-blanco-gris.jpg"
+    ],
+    "sizes": [
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": true,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "Skate de cuero en blanco con la mediasuela gris y las costuras negras a la vista. La flor del monograma en relieve, blanca sobre blanco.",
+    "details": {
+      "condition": "En caja",
+      "colorway": "White / Grey",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-09-14T19:25:44.633Z",
+    "updatedAt": "2026-09-14T19:25:44.633Z"
+  },
+  {
+    "id": "sneaker-louis-vuitton-skate-cuero-crema",
+    "name": "Louis Vuitton Skate Cuero",
+    "brand": "Louis Vuitton",
+    "model": "Louis Vuitton Skate Cuero",
+    "sku": "PAPI-3389",
+    "category": "general",
+    "gender": "hombre",
+    "price": 190000,
+    "originalPrice": 230000,
+    "images": [
+      "/catalogo/sneakers/louis-vuitton/hombre/louis-vuitton-skate-cuero-crema.jpg"
+    ],
+    "sizes": [
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": true,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "Skate de cuero en crema, con las costuras negras perfilando cada panel y la flor del monograma en relieve del mismo tono. Bloque negro en el talon.",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Cream / Black",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-09-14T19:25:44.633Z",
+    "updatedAt": "2026-09-14T19:25:44.633Z"
+  },
+  {
+    "id": "sneaker-louis-vuitton-skate-negro-monogram",
+    "name": "Louis Vuitton Skate Cuero",
+    "brand": "Louis Vuitton",
+    "model": "Louis Vuitton Skate Cuero",
     "sku": "PAPI-2704",
     "category": "general",
     "gender": "unisex",
     "price": 190000,
     "originalPrice": 230000,
     "images": [
-      "/catalogo/sneakers/louis-vuitton/louis-vuitton-skate-negro-monogram.jpg"
+      "/catalogo/sneakers/louis-vuitton/louis-vuitton-skate-negro-monogram.jpg",
+      "/catalogo/sneakers/louis-vuitton/louis-vuitton-skate-negro-monogram_2.jpg"
     ],
     "sizes": [
       37,
@@ -22743,7 +22858,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       39
     ],
     "status": "disponible",
-    "isFeatured": true,
+    "isFeatured": false,
     "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "Cruise Rider en malla lila y blanco, con la punta y el talon en gamuza negra y el panel fucsia bajo la franja. Plataforma blanca con la entresuela menta y la suela fucsia.",
@@ -22780,7 +22895,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       39
     ],
     "status": "disponible",
-    "isFeatured": true,
+    "isFeatured": false,
     "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "Cruise Rider en blanco con la punta, el talon y la lengueta en oro rosa metalizado. Plataforma blanca con la franja rosada al tono.",
