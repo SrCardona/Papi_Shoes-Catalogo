@@ -3,6 +3,7 @@ import { Search, SlidersHorizontal, X } from 'lucide-react';
 import type { FilterState, SneakerGender, SneakerStatus } from '../../types';
 import { DEFAULT_FILTERS } from '../../types';
 import { useStore } from '../../context/StoreContext';
+import { useOcultarAlBajar } from '../../hooks/useOcultarAlBajar';
 import { cx, formatPrice } from '../../lib/utils';
 
 interface FilterRailProps {
@@ -66,6 +67,21 @@ export function FilterRail({
 }: FilterRailProps) {
   const { settings } = useStore();
   const [isPanelOpen, setIsPanelOpen] = useState(false);
+  const [buscadorEnfocado, setBuscadorEnfocado] = useState(false);
+  const [ordenEnfocado, setOrdenEnfocado] = useState(false);
+
+  /* La barra se aparta al bajar para que el catálogo empiece antes, pero hay
+     tres momentos en los que no se puede mover: con el panel abierto, con el
+     cursor en el buscador o con el selector de orden desplegado. En los tres el
+     visitante está usando la barra, y llevársela de la pantalla mientras la
+     usa cancela el gesto a medias.
+
+     El selector de orden se detecta por el foco, que es lo que hay: un `select`
+     nativo no avisa cuándo abre su lista. Mientras está desplegado conserva el
+     foco, así que alcanza. */
+  const oculta = useOcultarAlBajar(
+    isPanelOpen || buscadorEnfocado || ordenEnfocado,
+  );
 
   /**
    * Elegir un filtro cierra el panel y devuelve la vista al catálogo, que es
@@ -81,7 +97,20 @@ export function FilterRail({
   };
 
   return (
-    <div className="border-y border-white/8 bg-basalt/40 sticky top-[68px] z-30 backdrop-blur-lg">
+    /* `translateY(-100%)` la mete detrás de la barra de navegación, que va en
+       z-40 y ocupa justo los 68 px de arriba. No se usa `display` ni altura
+       cero a propósito: al ser `sticky` no reserva espacio donde está pegada,
+       así que moverla no recoloca nada y el catálogo no salta bajo el dedo. */
+    <div
+      className={cx(
+        'border-y border-white/8 bg-basalt/40 sticky top-[68px] z-30 backdrop-blur-lg',
+        'transition-transform duration-200 ease-out will-change-transform',
+        oculta && '-translate-y-full',
+      )}
+      /* Escondida no debe recibir ni el tabulador ni un toque perdido: está
+         fuera de la vista y el foco saltaría a un control invisible. */
+      inert={oculta || undefined}
+    >
       <div className="max-w-[1400px] mx-auto px-5 lg:px-8">
         {/* Fila principal */}
         <div className="flex items-center gap-2.5 sm:gap-3 py-3 sm:py-3.5">
@@ -92,6 +121,8 @@ export function FilterRail({
               onChange={(e) => onChange({ searchQuery: e.target.value })}
               placeholder="Buscar modelo o marca"
               aria-label="Buscar"
+              onFocus={() => setBuscadorEnfocado(true)}
+              onBlur={() => setBuscadorEnfocado(false)}
               className={cx(fieldClass, 'pl-9')}
             />
             {filters.searchQuery && (
@@ -111,6 +142,8 @@ export function FilterRail({
               onChange({ sortBy: e.target.value as FilterState['sortBy'] })
             }
             aria-label="Ordenar por"
+            onFocus={() => setOrdenEnfocado(true)}
+            onBlur={() => setOrdenEnfocado(false)}
             className={cx(fieldBase, 'hidden sm:block w-44 shrink-0 cursor-pointer')}
           >
             {SORT_OPTIONS.map((o) => (
