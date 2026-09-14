@@ -412,5 +412,23 @@
     "colorway": "Core Black / Coral",
     "sizes": "39-44",
     "description": "Supernova Ease 2 negra con las tres rayas en coral y mediasuela Dreamstrike blanca. Cuello acolchado y lengueta con jalador trasero."
+  },
+  "adidas-dreastrike-glow-blanco-navy-rojo": {
+    "name": "Adidas Dreastrike Glow",
+    "colorway": "White / Navy / Red",
+    "description": "Malla blanca con las tres rayas en azul navy y los detalles rojos en los ojales. Mediasuela blanca de perfil grueso.",
+    "sizes": "39-44"
+  },
+  "adidas-dreastrike-glow-navy-blanco": {
+    "name": "Adidas Dreastrike Glow",
+    "colorway": "Navy / White",
+    "description": "Malla azul navy con las tres rayas blancas y el refuerzo azul rey en el talon. Mediasuela blanca de perfil grueso.",
+    "sizes": "39-44"
+  },
+  "adidas-dreastrike-glow-crema-negro-rojo": {
+    "name": "Adidas Dreastrike Glow",
+    "colorway": "Cream / Black / Red",
+    "description": "Malla crema con las tres rayas negras, el logo y los ojales en rojo. Mediasuela blanca de perfil grueso.",
+    "sizes": "39-44"
   }
 }

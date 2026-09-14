@@ -112,5 +112,29 @@
     "colorway": "Triple White",
     "sizes": "36-44",
     "description": "La Roma en cuero blanco entero, con la franja al tono, el escudo BMW en el talón y la banda tricolor M Motorsport en la mediasuela."
+  },
+  "puma-cruise-rider-blanco-lila-fucsia": {
+    "name": "Puma Cruise Rider",
+    "colorway": "White / Lilac / Pink",
+    "sizes": "35-39",
+    "description": "Cruise Rider en malla lila y blanco, con la punta y el talon en gamuza negra y el panel fucsia bajo la franja. Plataforma blanca con la entresuela menta y la suela fucsia."
+  },
+  "puma-cruise-rider-blanco-plata-rosado": {
+    "name": "Puma Cruise Rider",
+    "colorway": "White / Silver / Pink",
+    "sizes": "35-39",
+    "description": "Cruise Rider en blanco con la punta y el talon en plata metalizada. Plataforma blanca con la franja rosada y el detalle menta en el talon."
+  },
+  "puma-cruise-rider-blanco-oro-rosa": {
+    "name": "Puma Cruise Rider",
+    "colorway": "White / Rose Gold / Pink",
+    "sizes": "35-39",
+    "description": "Cruise Rider en blanco con la punta, el talon y la lengueta en oro rosa metalizado. Plataforma blanca con la franja rosada al tono."
+  },
+  "puma-cruise-rider-crema-oro-rosa": {
+    "name": "Puma Cruise Rider",
+    "colorway": "Cream / Rose Gold",
+    "sizes": "35-39",
+    "description": "Cruise Rider en crema y beige entero, con los apliques en oro rosa metalizado y los cordones durazno. Plataforma blanca, todo al tono."
   }
 }

@@ -1,6 +1,6 @@
 {
   "version": 3,
-  "exportedAt": "2026-09-12T17:03:56.751Z",
+  "exportedAt": "2026-09-14T16:54:20.966Z",
   "sneakers": [
     {
       "id": "sneaker-adidas-adilette-22",
@@ -515,6 +515,44 @@
       "updatedAt": "2026-09-08T16:36:16.035Z"
     },
     {
+      "id": "sneaker-adidas-dreastrike-glow-blanco-navy-rojo",
+      "name": "Adidas Dreastrike Glow",
+      "brand": "Adidas",
+      "model": "Adidas Dreastrike Glow",
+      "sku": "PAPI-1281",
+      "category": "general",
+      "gender": "hombre",
+      "price": 179900,
+      "originalPrice": 210000,
+      "images": [
+        "/catalogo/sneakers/adidas/hombre/adidas-dreastrike-glow-blanco-navy-rojo.jpg"
+      ],
+      "sizes": [
+        39,
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "status": "disponible",
+      "isFeatured": true,
+      "isNewArrival": true,
+      "isOriginalCertified": false,
+      "description": "Malla blanca con las tres rayas en azul navy y los detalles rojos en los ojales. Mediasuela blanca de perfil grueso.",
+      "details": {
+        "condition": "En caja",
+        "colorway": "White / Navy / Red",
+        "includedItems": [
+          "Caja"
+        ]
+      },
+      "viewsCount": 0,
+      "inquiriesCount": 0,
+      "createdAt": "2026-09-14T16:54:20.918Z",
+      "updatedAt": "2026-09-14T16:54:20.918Z"
+    },
+    {
       "id": "sneaker-adidas-dreastrike-glow-blanco-negro",
       "name": "Adidas Dreastrike Glow",
       "brand": "Adidas",
@@ -553,6 +591,82 @@
       "updatedAt": "2026-09-03T16:52:11.995Z"
     },
     {
+      "id": "sneaker-adidas-dreastrike-glow-crema-negro-rojo",
+      "name": "Adidas Dreastrike Glow",
+      "brand": "Adidas",
+      "model": "Adidas Dreastrike Glow",
+      "sku": "PAPI-1551",
+      "category": "general",
+      "gender": "hombre",
+      "price": 179900,
+      "originalPrice": 210000,
+      "images": [
+        "/catalogo/sneakers/adidas/hombre/adidas-dreastrike-glow-crema-negro-rojo.jpg"
+      ],
+      "sizes": [
+        39,
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "status": "disponible",
+      "isFeatured": true,
+      "isNewArrival": true,
+      "isOriginalCertified": false,
+      "description": "Malla crema con las tres rayas negras, el logo y los ojales en rojo. Mediasuela blanca de perfil grueso.",
+      "details": {
+        "condition": "En caja",
+        "colorway": "Cream / Black / Red",
+        "includedItems": [
+          "Caja"
+        ]
+      },
+      "viewsCount": 0,
+      "inquiriesCount": 0,
+      "createdAt": "2026-09-14T16:54:20.918Z",
+      "updatedAt": "2026-09-14T16:54:20.918Z"
+    },
+    {
+      "id": "sneaker-adidas-dreastrike-glow-navy-blanco",
+      "name": "Adidas Dreastrike Glow",
+      "brand": "Adidas",
+      "model": "Adidas Dreastrike Glow",
+      "sku": "PAPI-1636",
+      "category": "general",
+      "gender": "hombre",
+      "price": 179900,
+      "originalPrice": 210000,
+      "images": [
+        "/catalogo/sneakers/adidas/hombre/adidas-dreastrike-glow-navy-blanco.jpg"
+      ],
+      "sizes": [
+        39,
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "status": "disponible",
+      "isFeatured": true,
+      "isNewArrival": true,
+      "isOriginalCertified": false,
+      "description": "Malla azul navy con las tres rayas blancas y el refuerzo azul rey en el talon. Mediasuela blanca de perfil grueso.",
+      "details": {
+        "condition": "En caja",
+        "colorway": "Navy / White",
+        "includedItems": [
+          "Caja"
+        ]
+      },
+      "viewsCount": 0,
+      "inquiriesCount": 0,
+      "createdAt": "2026-09-14T16:54:20.918Z",
+      "updatedAt": "2026-09-14T16:54:20.918Z"
+    },
+    {
       "id": "sneaker-adidas-dreastrike-glow-negro-blanco-rojo",
       "name": "Adidas Dreastrike Glow",
       "brand": "Adidas",
@@ -563,7 +677,8 @@
       "price": 179900,
       "originalPrice": 210000,
       "images": [
-        "/catalogo/sneakers/adidas/hombre/adidas-dreastrike-glow-negro-blanco-rojo.jpg"
+        "/catalogo/sneakers/adidas/hombre/adidas-dreastrike-glow-negro-blanco-rojo.jpg",
+        "/catalogo/sneakers/adidas/hombre/adidas-dreastrike-glow-negro-blanco-rojo_2.jpg"
       ],
       "sizes": [
         39,
@@ -601,7 +716,8 @@
       "price": 179900,
       "originalPrice": 210000,
       "images": [
-        "/catalogo/sneakers/adidas/hombre/adidas-dreastrike-glow-negro-blanco.jpg"
+        "/catalogo/sneakers/adidas/hombre/adidas-dreastrike-glow-negro-blanco.jpg",
+        "/catalogo/sneakers/adidas/hombre/adidas-dreastrike-glow-negro-blanco_2.jpg"
       ],
       "sizes": [
         39,
@@ -2022,7 +2138,7 @@
         44
       ],
       "status": "disponible",
-      "isFeatured": true,
+      "isFeatured": false,
       "isNewArrival": true,
       "isOriginalCertified": false,
       "description": "Supernova Ease 2 de entrada facil, con mediasuela Dreamstrike y talon envolvente. Blanca con las tres rayas en azul marino y acentos rojos.",
@@ -2060,7 +2176,7 @@
         44
       ],
       "status": "disponible",
-      "isFeatured": true,
+      "isFeatured": false,
       "isNewArrival": true,
       "isOriginalCertified": false,
       "description": "Supernova Ease 2 negra con las tres rayas blancas, mediasuela Dreamstrike blanca y linea roja en la suela. Upper de malla con puntera reforzada.",
@@ -2098,7 +2214,7 @@
         44
       ],
       "status": "disponible",
-      "isFeatured": true,
+      "isFeatured": false,
       "isNewArrival": true,
       "isOriginalCertified": false,
       "description": "Supernova Ease 2 negra con las tres rayas en coral y mediasuela Dreamstrike blanca. Cuello acolchado y lengueta con jalador trasero.",
@@ -3223,7 +3339,7 @@
         44
       ],
       "status": "disponible",
-      "isFeatured": true,
+      "isFeatured": false,
       "isNewArrival": true,
       "isOriginalCertified": false,
       "description": "",
@@ -3263,7 +3379,7 @@
         44
       ],
       "status": "disponible",
-      "isFeatured": true,
+      "isFeatured": false,
       "isNewArrival": true,
       "isOriginalCertified": false,
       "description": "Gamuza en gris, azul hielo y rosa palo sobre cuero blanco.",
@@ -10163,7 +10279,7 @@
         39
       ],
       "status": "disponible",
-      "isFeatured": true,
+      "isFeatured": false,
       "isNewArrival": true,
       "isOriginalCertified": false,
       "description": "",
@@ -22214,6 +22330,154 @@
       "inquiriesCount": 0,
       "createdAt": "2026-08-21T12:48:13.704Z",
       "updatedAt": "2026-08-21T12:48:13.704Z"
+    },
+    {
+      "id": "sneaker-puma-cruise-rider-blanco-lila-fucsia",
+      "name": "Puma Cruise Rider",
+      "brand": "Puma",
+      "model": "Puma Cruise Rider",
+      "sku": "PAPI-1009",
+      "category": "general",
+      "gender": "mujer",
+      "price": 180000,
+      "originalPrice": 210000,
+      "images": [
+        "/catalogo/sneakers/puma/mujer/puma-cruise-rider-blanco-lila-fucsia.jpg"
+      ],
+      "sizes": [
+        35,
+        36,
+        37,
+        38,
+        39
+      ],
+      "status": "disponible",
+      "isFeatured": true,
+      "isNewArrival": true,
+      "isOriginalCertified": false,
+      "description": "Cruise Rider en malla lila y blanco, con la punta y el talon en gamuza negra y el panel fucsia bajo la franja. Plataforma blanca con la entresuela menta y la suela fucsia.",
+      "details": {
+        "condition": "En caja",
+        "colorway": "White / Lilac / Pink",
+        "includedItems": [
+          "Caja"
+        ]
+      },
+      "viewsCount": 0,
+      "inquiriesCount": 0,
+      "createdAt": "2026-09-14T16:54:20.918Z",
+      "updatedAt": "2026-09-14T16:54:20.918Z"
+    },
+    {
+      "id": "sneaker-puma-cruise-rider-blanco-oro-rosa",
+      "name": "Puma Cruise Rider",
+      "brand": "Puma",
+      "model": "Puma Cruise Rider",
+      "sku": "PAPI-1169",
+      "category": "general",
+      "gender": "mujer",
+      "price": 180000,
+      "originalPrice": 210000,
+      "images": [
+        "/catalogo/sneakers/puma/mujer/puma-cruise-rider-blanco-oro-rosa.jpg"
+      ],
+      "sizes": [
+        35,
+        36,
+        37,
+        38,
+        39
+      ],
+      "status": "disponible",
+      "isFeatured": true,
+      "isNewArrival": true,
+      "isOriginalCertified": false,
+      "description": "Cruise Rider en blanco con la punta, el talon y la lengueta en oro rosa metalizado. Plataforma blanca con la franja rosada al tono.",
+      "details": {
+        "condition": "En caja",
+        "colorway": "White / Rose Gold / Pink",
+        "includedItems": [
+          "Caja"
+        ]
+      },
+      "viewsCount": 0,
+      "inquiriesCount": 0,
+      "createdAt": "2026-09-14T16:54:20.918Z",
+      "updatedAt": "2026-09-14T16:54:20.918Z"
+    },
+    {
+      "id": "sneaker-puma-cruise-rider-blanco-plata-rosado",
+      "name": "Puma Cruise Rider",
+      "brand": "Puma",
+      "model": "Puma Cruise Rider",
+      "sku": "PAPI-7663",
+      "category": "general",
+      "gender": "mujer",
+      "price": 180000,
+      "originalPrice": 210000,
+      "images": [
+        "/catalogo/sneakers/puma/mujer/puma-cruise-rider-blanco-plata-rosado.jpg"
+      ],
+      "sizes": [
+        35,
+        36,
+        37,
+        38,
+        39
+      ],
+      "status": "disponible",
+      "isFeatured": true,
+      "isNewArrival": true,
+      "isOriginalCertified": false,
+      "description": "Cruise Rider en blanco con la punta y el talon en plata metalizada. Plataforma blanca con la franja rosada y el detalle menta en el talon.",
+      "details": {
+        "condition": "En caja",
+        "colorway": "White / Silver / Pink",
+        "includedItems": [
+          "Caja"
+        ]
+      },
+      "viewsCount": 0,
+      "inquiriesCount": 0,
+      "createdAt": "2026-09-14T16:54:20.918Z",
+      "updatedAt": "2026-09-14T16:54:20.918Z"
+    },
+    {
+      "id": "sneaker-puma-cruise-rider-crema-oro-rosa",
+      "name": "Puma Cruise Rider",
+      "brand": "Puma",
+      "model": "Puma Cruise Rider",
+      "sku": "PAPI-4099",
+      "category": "general",
+      "gender": "mujer",
+      "price": 180000,
+      "originalPrice": 210000,
+      "images": [
+        "/catalogo/sneakers/puma/mujer/puma-cruise-rider-crema-oro-rosa.jpg"
+      ],
+      "sizes": [
+        35,
+        36,
+        37,
+        38,
+        39
+      ],
+      "status": "disponible",
+      "isFeatured": false,
+      "isNewArrival": true,
+      "isOriginalCertified": false,
+      "description": "Cruise Rider en crema y beige entero, con los apliques en oro rosa metalizado y los cordones durazno. Plataforma blanca, todo al tono.",
+      "details": {
+        "condition": "En caja",
+        "colorway": "Cream / Rose Gold",
+        "includedItems": [
+          "Caja"
+        ]
+      },
+      "viewsCount": 0,
+      "inquiriesCount": 0,
+      "createdAt": "2026-09-14T16:54:20.918Z",
+      "updatedAt": "2026-09-14T16:54:20.918Z"
     },
     {
       "id": "sneaker-puma-morphic-gris-azul",
