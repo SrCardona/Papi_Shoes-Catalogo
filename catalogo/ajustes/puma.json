@@ -136,5 +136,11 @@
     "colorway": "Cream / Rose Gold",
     "sizes": "35-39",
     "description": "Cruise Rider en crema y beige entero, con los apliques en oro rosa metalizado y los cordones durazno. Plataforma blanca, todo al tono."
+  },
+  "puma-suede-xl-rojo": {
+    "name": "Puma Suede XL",
+    "colorway": "Red / White",
+    "sizes": "36-44",
+    "description": "La Suede XL en gamuza roja con la banda y la suela engordadas en blanco, cordones gruesos al tono y el PUMA SUEDE XL dorado en el costado."
   }
 }

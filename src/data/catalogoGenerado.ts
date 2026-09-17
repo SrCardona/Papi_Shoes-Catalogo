@@ -623,7 +623,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       44
     ],
     "status": "disponible",
-    "isFeatured": true,
+    "isFeatured": false,
     "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "Malla crema con las tres rayas negras, el logo y los ojales en rojo. Mediasuela blanca de perfil grueso.",
@@ -23837,7 +23837,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "description": "La Suede de siempre con la banda y la lengüeta engordadas. Gamuza y suela de goma.",
     "details": {
       "condition": "En caja",
-      "colorway": "",
+      "colorway": "Black / White",
       "includedItems": [
         "Caja original",
         "Comprobante de procedencia"
@@ -23847,6 +23847,47 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "inquiriesCount": 0,
     "createdAt": "2026-08-14T15:26:27.178Z",
     "updatedAt": "2026-08-14T15:26:27.178Z"
+  },
+  {
+    "id": "sneaker-puma-suede-xl-rojo",
+    "name": "Puma Suede XL",
+    "brand": "Puma",
+    "model": "Puma Suede XL",
+    "sku": "PAPI-2104",
+    "category": "general",
+    "gender": "unisex",
+    "price": 180000,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/puma/puma-suede-xl-rojo.jpg"
+    ],
+    "sizes": [
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": true,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "La Suede XL en gamuza roja con la banda y la suela engordadas en blanco, cordones gruesos al tono y el PUMA SUEDE XL dorado en el costado.",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Red / White",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-09-17T16:52:34.435Z",
+    "updatedAt": "2026-09-17T16:52:34.435Z"
   },
   {
     "id": "sneaker-puma-suede-xl-bmw-motorsport",
