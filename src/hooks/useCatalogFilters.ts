@@ -55,6 +55,21 @@ export function useCatalogFilters(sneakers: Sneaker[], seed?: Partial<FilterStat
     [enLinea],
   );
 
+  /* Los topes del precio salen de la línea que se está viendo, por lo mismo que
+     las marcas y las tallas. Estaban fijos en el modelo —de 100.000 a
+     3.000.000— y el par más caro del catálogo vale 450.000: de las cincuenta y
+     nueve posiciones del deslizador, cincuenta y dos mostraban lo mismo y las
+     dos primeras dejaban el catálogo en cero. Se redondea a la decena de mil
+     para que los extremos no queden en una cifra rota. */
+  const priceBounds = useMemo(() => {
+    const precios = enLinea.map((s) => s.price);
+    if (!precios.length) return { min: 0, max: DEFAULT_FILTERS.maxPrice };
+    return {
+      min: Math.floor(Math.min(...precios) / 10_000) * 10_000,
+      max: Math.ceil(Math.max(...precios) / 10_000) * 10_000,
+    };
+  }, [enLinea]);
+
   const results = useMemo(() => {
     const query = filters.searchQuery.trim().toLowerCase();
 
@@ -127,9 +142,10 @@ export function useCatalogFilters(sneakers: Sneaker[], seed?: Partial<FilterStat
     if (filters.size) n++;
     if (filters.gender !== 'all') n++;
     if (filters.status !== 'all') n++;
-    if (filters.minPrice > 0 || filters.maxPrice < DEFAULT_FILTERS.maxPrice) n++;
+    if (filters.minPrice > priceBounds.min || filters.maxPrice < priceBounds.max)
+      n++;
     return n;
-  }, [filters]);
+  }, [filters, priceBounds]);
 
   return {
     filters,
@@ -138,6 +154,7 @@ export function useCatalogFilters(sneakers: Sneaker[], seed?: Partial<FilterStat
     results,
     availableBrands,
     availableSizes,
+    priceBounds,
     activeFilterCount,
   };
 }

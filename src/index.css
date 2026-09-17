@@ -156,6 +156,17 @@
       transform 420ms cubic-bezier(0.16, 1, 0.3, 1),
       border-color 420ms ease,
       box-shadow 420ms ease;
+
+    /* El catálogo sin filtros monta 615 columnas de una vez, y casi todas
+       están fuera de pantalla. Con esto el navegador se salta el cálculo y la
+       pintura de las que no se ven, y las atiende cuando se acercan. Buscar
+       con Ctrl+F las sigue encontrando, a diferencia de esconderlas.
+
+       El `auto` del tamaño estimado es lo que evita que la barra de scroll dé
+       saltos: los 480 px son la primera suposición y, en cuanto una columna se
+       pinta de verdad, el navegador se queda con su medida real. */
+    content-visibility: auto;
+    contain-intrinsic-size: auto 480px;
   }
 
   .column-card::before {

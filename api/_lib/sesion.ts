@@ -83,12 +83,20 @@ export function tokenValido(cabecera: string | null): boolean {
   }
 }
 
-/** Identifica quién intenta entrar sin guardar su IP en claro. */
+/**
+ * Identifica quién intenta entrar sin guardar su IP en claro.
+ *
+ * Manda `x-vercel-forwarded-for`, que la pone la plataforma y el cliente no
+ * puede falsificar. Las otras dos quedan de respaldo y van después a propósito:
+ * si una de ellas llegara a pasar tal como la mandó quien llama, bastaría
+ * cambiarla en cada intento para estrenar huella y el freno por IP no existiría.
+ */
 export function huellaDeIp(request: Request): string {
   const cabeceras = request.headers;
   const cruda =
-    cabeceras.get('x-real-ip') ??
-    cabeceras.get('x-forwarded-for')?.split(',')[0]?.trim() ??
+    cabeceras.get('x-vercel-forwarded-for')?.split(',')[0]?.trim() ||
+    cabeceras.get('x-real-ip') ||
+    cabeceras.get('x-forwarded-for')?.split(',')[0]?.trim() ||
     'desconocida';
   return createHmac('sha256', SECRETO || 'sin-secreto')
     .update(cruda)

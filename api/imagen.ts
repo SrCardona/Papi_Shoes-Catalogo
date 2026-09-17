@@ -27,6 +27,31 @@ const EXTENSIONES: Record<string, string> = {
   'image/gif': 'gif',
 };
 
+/**
+ * Los primeros bytes de cada formato, que es lo único que de verdad dice qué
+ * hay dentro del archivo.
+ *
+ * La cabecera `content-type` la escribe quien llama y puede decir cualquier
+ * cosa: sin esta comprobación, lo que se guardaba como `.png` podía no ser un
+ * PNG. El almacén sirve desde otro dominio y el SVG ya está excluido, así que
+ * el daño posible era corto, pero un archivo que miente sobre lo que es no
+ * tiene por qué entrar.
+ */
+const FIRMAS: Record<string, (b: Uint8Array) => boolean> = {
+  jpg: (b) => b[0] === 0xff && b[1] === 0xd8 && b[2] === 0xff,
+  png: (b) =>
+    b[0] === 0x89 && b[1] === 0x50 && b[2] === 0x4e && b[3] === 0x47,
+  gif: (b) => b[0] === 0x47 && b[1] === 0x49 && b[2] === 0x46,
+  /* WEBP y AVIF son contenedores: la marca está más adentro, no al principio.
+     WEBP es `RIFF....WEBP` y AVIF lleva `ftyp` en el segundo bloque. */
+  webp: (b) => leeTexto(b, 0, 4) === 'RIFF' && leeTexto(b, 8, 12) === 'WEBP',
+  avif: (b) => leeTexto(b, 4, 8) === 'ftyp',
+};
+
+function leeTexto(bytes: Uint8Array, desde: number, hasta: number): string {
+  return String.fromCharCode(...bytes.slice(desde, hasta));
+}
+
 /* Un método por exportación, y nunca `export default`: ver la nota en
    `api/estado.ts`. */
 export async function POST(request: Request): Promise<Response> {
@@ -62,6 +87,18 @@ export async function POST(request: Request): Promise<Response> {
     return json(
       { error: 'La foto pesa más de 4 MB. Redúcela antes de subirla.' },
       { status: 413 },
+    );
+  }
+
+  /* Lo que diga la cabecera tiene que coincidir con lo que traen los bytes. */
+  const reconoce = FIRMAS[extension];
+  if (!reconoce || !reconoce(new Uint8Array(bytes.slice(0, 16)))) {
+    return json(
+      {
+        error:
+          'El archivo no parece una imagen del formato que dice ser. Vuelve a exportarla como JPG o PNG.',
+      },
+      { status: 415 },
     );
   }
 

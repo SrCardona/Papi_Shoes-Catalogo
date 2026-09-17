@@ -23,9 +23,6 @@ import {
   usuarioCorrecto,
 } from './_lib/sesion.js';
 
-/** Freno a la fuerza bruta: cada fallo cuesta tiempo de reloj al que insiste. */
-const CASTIGO_MS = 400;
-
 /* Un método por exportación, y nunca `export default`: ver la nota en
    `api/estado.ts`. Con el handler por defecto Vercel usa la firma antigua y la
    respuesta se pierde. */
@@ -87,8 +84,11 @@ export async function POST(request: Request): Promise<Response> {
   /* Se comprueban los dos y se responde igual falle cualquiera: decir cuál de
      los dos estuvo mal le regalaría media credencial al que prueba. */
   if (!usuarioCorrecto(usuario) || !pinCorrecto(pin)) {
-    const restantes = await registraFallo(huella);
-    await new Promise((listo) => setTimeout(listo, CASTIGO_MS));
+    /* Cada fallo cuesta tiempo de reloj al que insiste, y la espera crece con
+       los fallos recientes de todo el sitio: es el freno que sigue funcionando
+       cuando el atacante cambia de IP en cada intento. */
+    const { restantes, esperaMs } = await registraFallo(huella);
+    await new Promise((listo) => setTimeout(listo, esperaMs));
     return json(
       {
         disponible: true,

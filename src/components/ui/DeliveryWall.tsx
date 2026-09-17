@@ -264,7 +264,8 @@ export function DeliveryWall({
               <SmartImage
                 src={active.image}
                 alt={active.productName ?? `Entrega en ${active.city}`}
-                loading="eager"
+                priority
+                sizes="(max-width: 1024px) 96vw, 768px"
                 className="max-h-[62vh] w-auto object-contain border border-white/8"
               />
               <div className="mt-6 text-center space-y-2 max-w-md">

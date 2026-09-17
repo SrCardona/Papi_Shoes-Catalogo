@@ -2,12 +2,48 @@ import { useState } from 'react';
 import { IMAGE_PLACEHOLDER, sanitizeImageUrl } from '../../lib/security';
 import { cx } from '../../lib/utils';
 
+/**
+ * Anchos que el optimizador de Vercel tiene permitido servir.
+ *
+ * Tiene que ser el mismo conjunto que `images.sizes` en `vercel.json`: pedir un
+ * ancho que no esté en esa lista devuelve 400 y la foto no se ve. Si se toca
+ * uno, se tocan los dos.
+ */
+const ANCHOS = [256, 384, 512, 768, 1024, 1536] as const;
+
+/** Calidad de recompresión. 75 es el punto donde la gamuza todavía se lee. */
+const CALIDAD = 75;
+
+/**
+ * Las fotos del catálogo se sirven redimensionadas y en formato moderno.
+ *
+ * Los archivos de `public/catalogo/` son de proveedor: 156 KB de promedio y
+ * hasta 646 KB, para una tarjeta que en un teléfono mide 175 px. Vercel las
+ * encoge y las convierte a AVIF o WebP al vuelo según lo que acepte el
+ * navegador, así que no hay copias que versionar ni originales que tocar.
+ *
+ * Solo se optimiza lo que sirve este mismo sitio. Una foto que el dueño subió
+ * desde el panel vive en el almacén con otro dominio y pasa tal cual: para
+ * optimizarla habría que declarar ese dominio, y una lista mal escrita deja sin
+ * foto justo a los pares que él mismo cargó.
+ */
+function esLocal(url: string): boolean {
+  return url.startsWith('/') && !url.startsWith('//');
+}
+
+function urlOptimizada(url: string, ancho: number): string {
+  return `/_vercel/image?url=${encodeURIComponent(url)}&w=${ancho}&q=${CALIDAD}`;
+}
+
 interface SmartImageProps {
   src: string;
   alt: string;
   className?: string;
-  /** `eager` solo para la imagen principal por encima del pliegue. */
-  loading?: 'lazy' | 'eager';
+  /**
+   * La foto que decide el LCP: entra sin diferir, con prioridad alta y sin el
+   * fundido de entrada. Para lo que se ve al llegar, nada más.
+   */
+  priority?: boolean;
   sizes?: string;
 }
 
@@ -20,26 +56,41 @@ export function SmartImage({
   src,
   alt,
   className,
-  loading = 'lazy',
+  priority = false,
   sizes,
 }: SmartImageProps) {
   const [failed, setFailed] = useState(false);
   const [loaded, setLoaded] = useState(false);
   const safe = failed ? IMAGE_PLACEHOLDER : sanitizeImageUrl(src);
 
+  /* En desarrollo no existe el optimizador —es un servicio de Vercel, no de
+     Vite—, así que ahí se sirve el archivo tal cual. Es la misma foto, solo que
+     sin encoger. */
+  const optimizable = !import.meta.env.DEV && !failed && esLocal(safe);
+  const srcSet = optimizable
+    ? ANCHOS.map((a) => `${urlOptimizada(safe, a)} ${a}w`).join(', ')
+    : undefined;
+
+  /* El fundido tapa el salto de la carga diferida, pero sobre la foto de
+     arriba del pliegue se paga caro: el navegador no cuenta como pintado lo
+     que está en opacidad cero, así que el fundido se le suma al LCP. */
+  const conFundido = !priority;
+
   return (
     <img
-      src={safe}
+      src={optimizable ? urlOptimizada(safe, 1024) : safe}
+      srcSet={srcSet}
       alt={alt}
-      loading={loading}
-      decoding="async"
+      loading={priority ? 'eager' : 'lazy'}
+      fetchPriority={priority ? 'high' : 'auto'}
+      decoding={priority ? 'sync' : 'async'}
       sizes={sizes}
       onError={() => setFailed(true)}
       onLoad={() => setLoaded(true)}
       className={cx(
         className,
-        'transition-opacity duration-700',
-        loaded ? 'opacity-100' : 'opacity-0',
+        conFundido && 'transition-opacity duration-700',
+        conFundido && !loaded ? 'opacity-0' : 'opacity-100',
       )}
     />
   );

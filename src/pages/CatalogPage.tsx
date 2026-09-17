@@ -1,4 +1,4 @@
-import { useEffect } from 'react';
+import { useEffect, useMemo } from 'react';
 import { useSearchParams } from 'react-router-dom';
 import type { SneakerCategory } from '../types';
 import { useStore } from '../context/StoreContext';
@@ -32,6 +32,14 @@ export function CatalogPage({
      del menú y el del catálogo dejaran de coincidir. */
   const grupoOtras = useGrupoOtras(category);
 
+  /* Memorizado porque `useCatalogFilters` lo usa de dependencia: un objeto
+     nuevo en cada render dejaba a `resetFilters` cambiando de identidad todo el
+     tiempo, y el `useCallback` que lo envuelve no memorizaba nada. */
+  const seed = useMemo(
+    () => (category ? { category } : undefined),
+    [category],
+  );
+
   const {
     filters,
     updateFilters,
@@ -39,8 +47,9 @@ export function CatalogPage({
     results,
     availableBrands,
     availableSizes,
+    priceBounds,
     activeFilterCount,
-  } = useCatalogFilters(sneakers, category ? { category } : undefined);
+  } = useCatalogFilters(sneakers, seed);
 
   // La búsqueda del encabezado llega por querystring: /catalogo?q=jordan.
   // También se acepta /catalogo?marca=Adidas, que es el enlace directo a la
@@ -151,6 +160,7 @@ export function CatalogPage({
         sizes={availableSizes}
         resultCount={results.length}
         totalCount={scopedTotal}
+        priceBounds={priceBounds}
         activeCount={activeFilterCount}
         lockCategory={Boolean(category)}
       />

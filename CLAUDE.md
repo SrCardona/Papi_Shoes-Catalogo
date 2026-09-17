@@ -14,7 +14,11 @@ npm run entrada   # duplicados de public/catalogo/_entrada/ (fotos nuevas)
 npm run catalogo  # precios por marca en catalogo/precios.csv
 npm run entregas  # muro de entregas desde el JSON que exporta el panel
 npm run marcas    # comprueba que el conteo del menu cuadre con el catalogo
+npm run og        # redibuja public/og.jpg, la tarjeta de los enlaces
 ```
+
+`npm run build` corre ademas `scripts/generar-fichas.mjs`, que escribe dentro de
+`dist/` una ficha HTML por par y el `sitemap.xml`. No se versiona nada de eso.
 
 ## Stack
 
@@ -88,6 +92,45 @@ En desarrollo no hay funciones: `vite.config.ts` reenvía `/api` al sitio
 publicado (`VITE_API_ORIGIN`, o `ORIGEN_API_POR_DEFECTO` en ese mismo archivo).
 Ojo: eso significa que `npm run dev` edita los datos de producción.
 
+## Las fotos se sirven encogidas
+
+`SmartImage` no pide el archivo de `public/catalogo/` tal cual: lo pide a traves
+de `/_vercel/image`, que lo redimensiona y lo convierte a AVIF o WebP segun lo
+que acepte el navegador. Las fotos de proveedor pesan 156 KB de promedio y la
+tarjeta mide 175 px en un telefono; sin esto, llenar la primera pantalla del
+catalogo costaba 1,5 MB.
+
+**La lista `ANCHOS` de `SmartImage.tsx` tiene que ser identica a `images.sizes`
+de `vercel.json`.** Pedir un ancho que no este declarado alli devuelve 400 y la
+foto no aparece. Si se toca una, se toca la otra.
+
+Solo se optimiza lo que sirve este mismo sitio (rutas que empiezan por `/`).
+Una foto subida desde el panel vive en el almacen, con otro dominio, y pasa tal
+cual: declararla mal dejaria sin foto justo a los pares que cargo el dueno.
+
+En `npm run dev` no hay optimizador —es un servicio de Vercel, no de Vite— y se
+sirve el archivo original. Es la misma foto, sin encoger.
+
+La primera fila de la columnata lleva `priority`: carga sin diferir, con
+prioridad alta y sin el fundido de entrada, porque es la que mide el LCP.
+
+## Lo que ve WhatsApp al pegar un enlace
+
+Todo el negocio termina en un mensaje de WhatsApp, y su robot no ejecuta
+JavaScript: lee el HTML tal como sale del servidor. Por eso las 615 fichas se
+escriben como archivos estaticos al compilar (`scripts/generar-fichas.mjs`):
+`dist/producto/<id>/index.html`, cada una con su titulo, su descripcion, su foto
+y sus datos estructurados. Vercel sirve el archivo antes de mirar la reescritura
+hacia `index.html`, asi que el robot recibe la ficha y el visitante recibe la
+misma aplicacion de siempre.
+
+Cambiar `document.title` desde React sigue sirviendo para la pestana del
+navegador, pero nunca le llega al robot. No lo quites pensando que lo reemplaza
+el script: cubren cosas distintas.
+
+Si se editan las etiquetas `<meta>` de `index.html`, hay que revisar ese script:
+busca cada una por nombre y falla si no la encuentra, a proposito.
+
 ## Estructura
 
 ```
@@ -115,6 +158,9 @@ src/
 │                   marcas.ts (marcas por línea), utils.ts
 └── data/           initialData.ts, catalogoGenerado.ts y entregasGeneradas.ts
                     (GENERADOS, no editar)
+scripts/            generar-catalogo, generar-entregas, revisar-entrada,
+                    verificar-marcas, generar-fichas (fichas + sitemap, corre
+                    dentro del build), generar-og.py, quitar-recuadro.py
 ```
 
 Las carpetas y archivos de `api/` que empiezan por `_` no se convierten en rutas:

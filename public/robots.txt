@@ -1,0 +1,13 @@
+# PAPI SHOES — https://www.papishoes.shop
+#
+# El mapa del sitio lo escribe scripts/generar-fichas.mjs en cada compilacion,
+# con una entrada por par del catalogo. Es la unica via por la que un buscador
+# va a encontrar las fichas: nadie las enlaza desde afuera.
+
+User-agent: *
+Allow: /
+
+# El panel no es para visitantes.
+Disallow: /admin
+
+Sitemap: https://www.papishoes.shop/sitemap.xml

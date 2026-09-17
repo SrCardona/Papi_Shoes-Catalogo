@@ -15,6 +15,8 @@ interface SneakerColumnProps {
   sneaker: Sneaker;
   /** Retardo escalonado para la entrada de la columnata. */
   index?: number;
+  /** Las de la primera fila cargan sin diferir: son las que miden el LCP. */
+  priority?: boolean;
 }
 
 /**
@@ -27,7 +29,11 @@ interface SneakerColumnProps {
  * único que sobrevive en móvil es lo que cambia la decisión: el descuento y
  * un estado que no sea el normal (bajo encargo o agotado).
  */
-export function SneakerColumn({ sneaker, index = 0 }: SneakerColumnProps) {
+export function SneakerColumn({
+  sneaker,
+  index = 0,
+  priority = false,
+}: SneakerColumnProps) {
   const { settings } = useStore();
   const discount = discountPercent(sneaker);
   const status = STATUS_META[sneaker.status];
@@ -78,6 +84,7 @@ export function SneakerColumn({ sneaker, index = 0 }: SneakerColumnProps) {
           <SmartImage
             src={sneaker.images[0]}
             alt={sneaker.name}
+            priority={priority}
             sizes="(max-width: 640px) 50vw, (max-width: 1280px) 33vw, 25vw"
             className="w-full h-full object-contain transition-transform duration-[900ms] ease-out group-hover:scale-[1.07]"
           />
@@ -160,7 +167,15 @@ export function Colonnade({ sneakers }: { sneakers: Sneaker[] }) {
     <div>
       <div className="grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-px bg-white/6 border border-white/6">
         {sneakers.map((sneaker, i) => (
-          <SneakerColumn key={sneaker.id} sneaker={sneaker} index={i} />
+          <SneakerColumn
+            key={sneaker.id}
+            sneaker={sneaker}
+            index={i}
+            /* La primera fila de escritorio, que en móvil son las dos
+               primeras: es lo que se ve sin desplazar y lo que el navegador
+               cronometra como primera pintada grande. */
+            priority={i < 4}
+          />
         ))}
       </div>
       <div className="h-px stylobate mt-px" />

@@ -5,13 +5,14 @@
   "type": "module",
   "scripts": {
     "dev": "vite --port=3000 --host",
-    "build": "tsc --noEmit && vite build",
+    "build": "tsc --noEmit && vite build && node scripts/generar-fichas.mjs",
     "preview": "vite preview --port=4173",
     "lint": "tsc --noEmit && eslint src api",
     "entrada": "node scripts/revisar-entrada.mjs",
     "catalogo": "node scripts/generar-catalogo.mjs",
     "entregas": "node scripts/generar-entregas.mjs",
-    "marcas": "node --experimental-strip-types scripts/verificar-marcas.mjs"
+    "marcas": "node --experimental-strip-types scripts/verificar-marcas.mjs",
+    "og": "python scripts/generar-og.py"
   },
   "dependencies": {
     "@vercel/analytics": "^2.0.1",

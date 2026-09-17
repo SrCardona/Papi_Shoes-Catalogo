@@ -152,7 +152,8 @@ function ProductView({ id }: { id?: string }) {
               <SmartImage
                 src={sneaker.images[imageIndex]}
                 alt={`${sneaker.name} — vista ${imageIndex + 1}`}
-                loading="eager"
+                priority
+                sizes="(max-width: 1024px) 100vw, 640px"
                 className="w-full h-full object-contain"
               />
 
@@ -213,6 +214,7 @@ function ProductView({ id }: { id?: string }) {
                     <SmartImage
                       src={img}
                       alt=""
+                      sizes="96px"
                       className="w-full h-full object-cover"
                     />
                   </button>

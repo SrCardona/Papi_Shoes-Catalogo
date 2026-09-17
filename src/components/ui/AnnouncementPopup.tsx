@@ -131,7 +131,7 @@ export function AnnouncementPopup() {
     <SmartImage
       src={anuncio.image}
       alt={descripcion}
-      loading="lazy"
+      sizes="(max-width: 640px) 92vw, 520px"
       /* Vertical de historia: manda el alto, y el ancho lo sigue. `contain` y
          `max-w-full` son lo que evita que en un celular angosto se recorte. */
       className="max-h-[85vh] max-w-full w-auto h-auto object-contain border border-white/10"

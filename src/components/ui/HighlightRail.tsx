@@ -294,7 +294,8 @@ function StoryViewerContent({
         <SmartImage
           src={slide.image}
           alt={slide.title ?? story.title}
-          loading="eager"
+          priority
+          sizes="(max-width: 1024px) 100vw, 900px"
           className="absolute inset-0 w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-obsidian via-obsidian/25 to-obsidian/55" />

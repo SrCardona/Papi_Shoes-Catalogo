@@ -1,7 +1,6 @@
 import { useState } from 'react';
 import { Search, SlidersHorizontal, X } from 'lucide-react';
 import type { FilterState, SneakerGender, SneakerStatus } from '../../types';
-import { DEFAULT_FILTERS } from '../../types';
 import { useStore } from '../../context/StoreContext';
 import { useOcultarAlBajar } from '../../hooks/useOcultarAlBajar';
 import { cx, formatPrice } from '../../lib/utils';
@@ -14,6 +13,8 @@ interface FilterRailProps {
   sizes: (number | string)[];
   resultCount: number;
   totalCount: number;
+  /** Precio del par más barato y del más caro de la línea que se está viendo. */
+  priceBounds: { min: number; max: number };
   activeCount: number;
   /** Oculta el selector de línea en las vistas que ya fijan una. */
   lockCategory?: boolean;
@@ -62,6 +63,7 @@ export function FilterRail({
   sizes,
   resultCount,
   totalCount,
+  priceBounds,
   activeCount,
   lockCategory = false,
 }: FilterRailProps) {
@@ -95,6 +97,14 @@ export function FilterRail({
     onChange(patch);
     setIsPanelOpen(false);
   };
+
+  /* El modelo arranca con un máximo muy por encima de cualquier par —es su
+     forma de decir "sin filtro"—, así que para la barra se recorta al tope real
+     y se muestra pegada a la derecha. */
+  const precioMostrado = Math.min(
+    Math.max(filters.maxPrice, priceBounds.min),
+    priceBounds.max,
+  );
 
   return (
     /* `translateY(-100%)` la mete detrás de la barra de navegación, que va en
@@ -322,25 +332,30 @@ export function FilterRail({
                 </select>
               </div>
 
-              {/* Rango de precio — declarado en el modelo anterior pero nunca usado */}
+              {/* Precio máximo. Los extremos salen del catálogo que se está
+                  viendo: con topes fijos, casi todo el recorrido de la barra
+                  no cambiaba nada y el primer tramo lo dejaba en cero. */}
               <div className="col-span-2">
                 <label className={labelClass} htmlFor="f-price">
                   Precio máximo ·{' '}
                   <span className="text-silver tabular-nums">
                     {formatPrice(
-                      filters.maxPrice,
+                      precioMostrado,
                       settings.currency,
                       settings.currencySymbol,
                     )}
                   </span>
+                  {precioMostrado >= priceBounds.max && (
+                    <span className="text-marble/30"> · todos</span>
+                  )}
                 </label>
                 <input
                   id="f-price"
                   type="range"
-                  min={100_000}
-                  max={DEFAULT_FILTERS.maxPrice}
-                  step={50_000}
-                  value={filters.maxPrice}
+                  min={priceBounds.min}
+                  max={priceBounds.max}
+                  step={10_000}
+                  value={precioMostrado}
                   onChange={(e) => onChange({ maxPrice: Number(e.target.value) })}
                   onPointerUp={() => setIsPanelOpen(false)}
                   onKeyUp={(e) => {
