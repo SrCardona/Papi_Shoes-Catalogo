@@ -49,9 +49,9 @@ export const INITIAL_SETTINGS: StoreSettings = {
   /* El flyer de bienvenida. Se administra en Panel › Ajustes › Anuncio
      emergente, y aparece en cada entrada directa al sitio. */
   popupAnnouncement: {
-    enabled: true,
-    image: '/anuncios/promo-mes-amistad-septiembre.jpg',
-    alt: 'Mes del Amor y la Amistad, septiembre: 22% de descuento en todos los tenis de la página web. Porque el amor también se vive con estilo.',
+    enabled: false,
+    image: '',
+    alt: '',
   },
 };
 

@@ -139,7 +139,13 @@ function loadSettings(): StoreSettings {
     const raw = localStorage.getItem(SETTINGS_KEY);
     if (!raw) return INITIAL_SETTINGS;
     const stored = JSON.parse(raw);
-    const merged = validateSettings(stored, INITIAL_SETTINGS);
+    /* Sin sello, este navegador nunca editó ni trajo nada de la nube: lo
+       guardado es solo la copia del código de su primera visita. Si se usara,
+       apagar el anuncio o cambiar el WhatsApp en el código no le llegaría a
+       nadie que ya hubiera entrado mientras la nube siga vacía. */
+    const merged = leerSelloLocal()
+      ? validateSettings(stored, INITIAL_SETTINGS)
+      : INITIAL_SETTINGS;
     // Las credenciales sí se conservan desde el almacenamiento local del dueño.
     return {
       ...merged,
