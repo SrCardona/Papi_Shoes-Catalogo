@@ -1,6 +1,7 @@
 import { useMemo, useState, useCallback } from 'react';
 import type { FilterState, Sneaker } from '../types';
 import { DEFAULT_FILTERS } from '../types';
+import { coincideBusqueda } from '../lib/busqueda';
 
 /**
  * Toda la lógica de filtrado y orden del catálogo, fuera de la vista.
@@ -91,20 +92,7 @@ export function useCatalogFilters(sneakers: Sneaker[], seed?: Partial<FilterStat
       // Filtro de precio — antes declarado pero nunca aplicado.
       if (s.price < filters.minPrice || s.price > filters.maxPrice) return false;
 
-      if (query) {
-        const haystack = [
-          s.name,
-          s.brand,
-          s.model,
-          s.sku,
-          s.details.colorway,
-          s.description,
-          ...(s.sizes ?? []).map(String),
-        ]
-          .join(' ')
-          .toLowerCase();
-        if (!haystack.includes(query)) return false;
-      }
+      if (!coincideBusqueda(s, query)) return false;
 
       return true;
     });

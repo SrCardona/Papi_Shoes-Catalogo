@@ -20,24 +20,25 @@ export function FloatingWhatsApp() {
   if (pathname.startsWith('/admin')) return null;
 
   // En la ficha de producto el botón de WhatsApp ya ocupa el ancho de la
-  // pantalla y es la acción de la página. En un teléfono este flotante sería
-  // un segundo botón verde tapando la foto para hacer lo mismo, así que ahí
-  // se retira y vuelve desde sm, donde no estorba.
-  const isProductPage = pathname.startsWith('/producto/');
+  // pantalla y es la acción de la página: este flotante sería un segundo
+  // botón tapando la foto para hacer lo mismo.
+  if (pathname.startsWith('/producto/')) return null;
 
+  /* Solo en el celular. Desde sm el encabezado ya lleva su botón de WhatsApp
+     a la vista; en el teléfono ese botón queda arriba, lejos del pulgar, y
+     este es el que se alcanza con una mano. */
   return (
     <div
       className={cx(
-        'fixed right-4 sm:right-5 z-40 flex-col items-end gap-3',
-        'bottom-[max(1rem,env(safe-area-inset-bottom))] sm:bottom-5',
-        isProductPage ? 'hidden sm:flex' : 'flex',
+        'fixed right-4 z-40 flex sm:hidden flex-col items-end gap-3',
+        'bottom-[max(1rem,env(safe-area-inset-bottom))]',
       )}
     >
       {/* En el ancho: los guiones bajos son los espacios de la resta.
           `calc(100vw-2rem)` sin ellos es CSS inválido y el panel se sale de
           la pantalla en un teléfono angosto. */}
       {isOpen && (
-        <div className="w-[min(19rem,calc(100vw_-_2rem))] bg-basalt border border-silver/20 shadow-2xl animate-rise">
+        <div className="w-[min(19rem,calc(100vw_-_2rem))] bg-basalt border border-silver/20 animate-rise">
           <div className="px-4 py-3.5 border-b border-white/8 flex items-center justify-between">
             <div>
               <p className="text-[11px] font-bold uppercase tracking-[0.18em] text-marble">
@@ -79,7 +80,7 @@ export function FloatingWhatsApp() {
         onClick={() => setIsOpen((v) => !v)}
         aria-label={isOpen ? 'Cerrar asesor' : 'Abrir asesor de WhatsApp'}
         aria-expanded={isOpen}
-        className="w-14 h-14 bg-marble text-obsidian flex items-center justify-center shadow-2xl hover:bg-silver transition-colors"
+        className="w-14 h-14 bg-lapis text-marble flex items-center justify-center border border-lapis-lit hover:bg-lapis-lit transition-colors"
       >
         {isOpen ? <X className="w-5 h-5" /> : <MessageCircle className="w-6 h-6" />}
       </button>

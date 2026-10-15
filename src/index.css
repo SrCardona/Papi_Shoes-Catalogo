@@ -21,6 +21,13 @@
 }
 
 @layer base {
+  /* Lo que mide el encabezado pegado arriba. Lo leen él y la barra de filtros
+     del catálogo, que se pega justo debajo: con el número escrito en los dos
+     sitios, cambiar uno dejaba la barra montada encima o con un hueco. */
+  :root {
+    --alto-encabezado: 56px;
+  }
+
   * {
     border-color: rgb(255 255 255 / 0.08);
   }

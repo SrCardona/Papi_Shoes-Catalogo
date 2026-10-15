@@ -108,12 +108,12 @@ export function FilterRail({
 
   return (
     /* `translateY(-100%)` la mete detrás de la barra de navegación, que va en
-       z-40 y ocupa justo los 68 px de arriba. No se usa `display` ni altura
+       z-40 y ocupa justo `--alto-encabezado` arriba. No se usa `display` ni altura
        cero a propósito: al ser `sticky` no reserva espacio donde está pegada,
        así que moverla no recoloca nada y el catálogo no salta bajo el dedo. */
     <div
       className={cx(
-        'border-y border-white/8 bg-basalt/40 sticky top-[68px] z-30 backdrop-blur-lg',
+        'border-y border-white/8 bg-basalt/40 sticky top-[var(--alto-encabezado)] z-30 backdrop-blur-lg',
         'transition-transform duration-200 ease-out will-change-transform',
         oculta && '-translate-y-full',
       )}
