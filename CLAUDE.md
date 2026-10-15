@@ -21,6 +21,47 @@ npm run og        # redibuja public/og.jpg, la tarjeta de los enlaces
 `npm run build` corre ademas `scripts/generar-fichas.mjs`, que escribe dentro de
 `dist/` una ficha HTML por par y el `sitemap.xml`. No se versiona nada de eso.
 
+## Cómo volver a la página base
+
+El rediseño inspirado en Zellerfeld se trabaja en la rama `rediseno-zellerfeld`.
+Antes de empezarlo se marcó el sitio tal como estaba publicado con el tag
+`base-antes-rediseno` (commit `8170a99`). Mientras la rama no se una a `main`,
+producción no cambia y no hay nada que deshacer: cada push a la rama solo genera
+una vista previa en Vercel.
+
+**Si el rediseño ya llegó a producción y hay que volver YA** (no toca git, tarda
+segundos):
+
+1. Vercel › el proyecto › **Deployments**.
+2. Buscar el despliegue de producción anterior al rediseño (el del commit
+   `8170a99` o el último antes del merge).
+3. Menú `…` › **Instant Rollback** (o desde la terminal: `vercel rollback`).
+
+Ojo con dos cosas. Después de un rollback, Vercel deja de publicar solo los
+nuevos push a `main` hasta que se promueva otro despliegue a mano (botón
+**Promote** o *Undo Rollback*): es a propósito, para que nada pise el rollback
+sin querer. Y en el plan gratuito solo se puede volver al despliegue de
+producción inmediatamente anterior; si se publicó algo más después del
+rediseño, hay que volver por git.
+
+**Para dejar el código como estaba** (lo definitivo, después del rollback):
+
+```bash
+git switch main
+git pull
+git revert -m 1 <commit-del-merge>   # deshace el merge sin reescribir historia
+git push origin main
+```
+
+`git revert` deja constancia y no borra nada. Si no hubo merge sino commits
+sueltos en `main`, se revierten uno por uno, del más nuevo al más viejo. Para
+mirar o comparar la base sin tocar nada: `git switch --detach base-antes-rediseno`.
+
+Lo que no cubre ni el tag ni el rollback: las fotos y pares cargados en `main`
+después del tag siguen ahí al revertir el merge (son otros commits), y los datos
+de la nube y del `localStorage` no viven en git. El rediseño no toca ninguno de
+los dos.
+
 ## Stack
 
 React 19 + TypeScript + Vite + Tailwind v4 (sin archivo de config: los tokens
