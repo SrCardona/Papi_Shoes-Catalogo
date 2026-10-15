@@ -21,6 +21,10 @@ const FaqPage = lazy(() =>
 const AdminPage = lazy(() =>
   import('./pages/AdminPage').then((m) => ({ default: m.AdminPage })),
 );
+// Solo mientras dura el rediseño: se borra con la página.
+const VitrinaMuestraPage = lazy(() =>
+  import('./pages/VitrinaMuestraPage').then((m) => ({ default: m.VitrinaMuestraPage })),
+);
 
 function RouteFallback() {
   return (
@@ -57,6 +61,7 @@ export default function App() {
                   <Route path="nosotros" element={<AboutPage />} />
                   <Route path="preguntas" element={<FaqPage />} />
                   <Route path="admin" element={<AdminPage />} />
+                  <Route path="vitrina-muestra" element={<VitrinaMuestraPage />} />
                   <Route path="*" element={<NotFoundPage />} />
                 </Route>
               </Routes>
