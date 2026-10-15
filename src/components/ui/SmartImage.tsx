@@ -59,6 +59,11 @@ export function SmartImage({
   priority = false,
   sizes,
 }: SmartImageProps) {
+  /* Dos tropiezos posibles, en orden: primero cae el optimizador y se pide el
+     archivo tal cual; solo si también cae el archivo se pone el respaldo. Sin
+     el paso intermedio, un 402 del optimizador por cuota agotada dejaba el
+     catálogo entero sin una sola foto, aunque los archivos estaban ahí. */
+  const [sinOptimizar, setSinOptimizar] = useState(false);
   const [failed, setFailed] = useState(false);
   const [loaded, setLoaded] = useState(false);
   const safe = failed ? IMAGE_PLACEHOLDER : sanitizeImageUrl(src);
@@ -66,7 +71,8 @@ export function SmartImage({
   /* En desarrollo no existe el optimizador —es un servicio de Vercel, no de
      Vite—, así que ahí se sirve el archivo tal cual. Es la misma foto, solo que
      sin encoger. */
-  const optimizable = !import.meta.env.DEV && !failed && esLocal(safe);
+  const optimizable =
+    !import.meta.env.DEV && !failed && !sinOptimizar && esLocal(safe);
   const srcSet = optimizable
     ? ANCHOS.map((a) => `${urlOptimizada(safe, a)} ${a}w`).join(', ')
     : undefined;
@@ -85,7 +91,7 @@ export function SmartImage({
       fetchPriority={priority ? 'high' : 'auto'}
       decoding={priority ? 'sync' : 'async'}
       sizes={sizes}
-      onError={() => setFailed(true)}
+      onError={() => (optimizable ? setSinOptimizar(true) : setFailed(true))}
       onLoad={() => setLoaded(true)}
       className={cx(
         className,
