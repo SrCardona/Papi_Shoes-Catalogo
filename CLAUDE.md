@@ -7,9 +7,10 @@ armado. Todo el texto de cara al usuario va en español de Colombia.
 ## Comandos
 
 ```bash
-npm run dev       # servidor local
-npm run build     # tsc --noEmit && vite build
-npm run lint      # tsc --noEmit && eslint src
+npm run dev       # servidor local (puerto 3000)
+npm run build     # tsc --noEmit && vite build && fichas
+npm run preview   # sirve dist/ en el puerto 4173
+npm run lint      # tsc --noEmit && eslint src api
 npm run entrada   # duplicados de public/catalogo/_entrada/ (fotos nuevas)
 npm run catalogo  # precios por marca en catalogo/precios.csv
 npm run entregas  # muro de entregas desde el JSON que exporta el panel
@@ -35,7 +36,9 @@ Tres fuentes, y en este orden manda cada una:
    copia compartida: lo que publica el panel y lo que ven todos los visitantes y
    todos los equipos. Si está configurada, gana.
 2. **`localStorage`** — llaves `papi_shoes_inventory`, `papi_shoes_settings`,
-   `papi_shoes_deliveries`, `papi_shoes_editado`. Copia local: primer pintado y
+   `papi_shoes_deliveries`, `papi_shoes_editado`, más `papi_shoes_catalogo`
+   (lo que quitó y editó el panel) y `papi_shoes_catalog_version` (la huella
+   del catálogo del código). Copia local: primer pintado y
    respaldo sin conexión. Solo le gana a la nube si `papi_shoes_editado` es
    posterior a lo publicado (y entonces el panel marca "cambios sin publicar").
 3. **`src/data/catalogoGenerado.ts`** — lo genera el script desde las fotos.
@@ -135,29 +138,38 @@ busca cada una por nombre y falla si no la encuentra, a proposito.
 
 ```
 api/                estado.ts (leer/guardar), sesion.ts (PIN + token),
-│                   imagen.ts (fotos), _lib/ (almacén, sesión, intentos, saneado)
+│                   imagen.ts (fotos), _lib/ (almacén, sesión, intentos,
+│                   saneado del estado, respuestas)
 catalogo/           precios.csv, ajustes/<marca>.json, llegadas.json (generado),
 │                   catalogo-papishoes.json (generado)
 lotes/              zips de lotes sin desempacar — no se versiona
 public/catalogo/    las fotos, <linea>/<marca>/[horma/]
 public/entregas/    las fotos del muro (generadas, con hash en el nombre)
+public/anuncios/    las imágenes del anuncio emergente
 src/
 ├── pages/          HomePage, CatalogPage (+ OriginalsPage, SneakersPage),
-│                   ProductPage, AboutPage (El Templo), FaqPage, AdminPage
+│                   ProductPage, AboutPage (El Templo), FaqPage, AdminPage,
+│                   NotFoundPage
 ├── components/
 │   ├── layout/     Navbar, BrandDropdown (menús de marca), Footer, Layout
-│   └── ui/         SneakerColumn, Colonnade, FilterRail, SmartImage,
-│                   DeliveryWall, HighlightRail, SectionHeader, TempleMark
-├── admin/          SneakerForm, QuickEditor, DeliveryManager, SettingsPanel,
-│                   NubeSync (estado de la nube y publicación manual)
-├── context/        StoreContext (estado global + nube + localStorage)
+│   └── ui/         SneakerColumn (+ Colonnade), FilterRail, SmartImage,
+│                   DeliveryWall, HighlightRail, SectionHeader, TempleMark,
+│                   AnnouncementPopup, FloatingWhatsApp, SizeGuide,
+│                   EmptyState, ErrorBoundary
+├── admin/          AdminLogin, SneakerForm, QuickEditor, DeliveryManager,
+│                   SettingsPanel, NubeSync (estado de la nube y publicación
+│                   manual)
+├── context/        StoreContext (estado global + nube + localStorage),
+│                   AuthContext (sesión del panel)
 ├── hooks/          useCatalogFilters (todo el filtrado y orden),
-│                   useMarcasPorLinea (las marcas del menú de navegación)
+│                   useMarcasPorLinea (las marcas del menú de navegación),
+│                   useOcultarAlBajar (la barra de filtros al hacer scroll)
 ├── lib/            nube.ts (cliente de /api), security.ts (saneamiento),
 │                   validation.ts, catalogo.ts (huella y fusión),
 │                   marcas.ts (marcas por línea), utils.ts
-└── data/           initialData.ts, catalogoGenerado.ts y entregasGeneradas.ts
-                    (GENERADOS, no editar)
+└── data/           initialData.ts (INITIAL_SETTINGS, se edita a mano),
+                    catalogoGenerado.ts y entregasGeneradas.ts
+                    (estos dos GENERADOS, no editar)
 scripts/            generar-catalogo, generar-entregas, revisar-entrada,
                     verificar-marcas, generar-fichas (fichas + sitemap, corre
                     dentro del build), generar-og.py, quitar-recuadro.py
@@ -184,12 +196,12 @@ al sitio publicado.
    `./security.js`). Vercel no empaqueta: compila archivo por archivo y lo corre
    con Node en modo ESM, que exige la extensión. TypeScript y Vite resuelven ese
    `.js` al `.ts` sin quejarse, así que la extensión no molesta a nadie.
-3. `vercel.json` deja `/api` fuera del reenvío al `index.html`
-   (`"source": "/((?!api/).*)"`). Sin eso, las rutas de la aplicación se comen a
-   las funciones.
+3. `vercel.json` deja `/api` y `/_vercel` fuera del reenvío al `index.html`
+   (`"source": "/((?!api/|_vercel/)[^.]*)"`). Sin eso, las rutas de la
+   aplicación se comen a las funciones y al optimizador de fotos.
 
 Para ver el estado del servidor publicado, sin exponer nada:
-`curl https://papi-shoes-catalogo.vercel.app/api/sesion` responde qué falta
+`curl https://www.papishoes.shop/api/sesion` responde qué falta
 (`faltaPin`, `faltaSecreto`, `nube`).
 
 ## Las dos líneas del catálogo
