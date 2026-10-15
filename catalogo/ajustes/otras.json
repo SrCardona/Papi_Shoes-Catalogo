@@ -240,5 +240,10 @@
     "colorway": "White / Red",
     "description": "Plataforma blanca con corazones rojos alrededor de los ojales.",
     "sizes": "35-39"
+  },
+  "timberland-6-inch-premium": {
+    "name": "Timberland 6-Inch Premium",
+    "colorway": "Wheat Nubuck",
+    "description": "La bota clásica de Timberland en nobuk color trigo, con cuello acolchado negro, costuras triples y suela de goma con taches."
   }
 }

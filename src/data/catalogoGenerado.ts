@@ -547,7 +547,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       44
     ],
     "status": "disponible",
-    "isFeatured": true,
+    "isFeatured": false,
     "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "Malla blanca con las tres rayas en azul navy y los detalles rojos en los ojales. Mediasuela blanca de perfil grueso.",
@@ -24007,6 +24007,48 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "inquiriesCount": 0,
     "createdAt": "2026-08-14T15:26:27.178Z",
     "updatedAt": "2026-08-14T15:26:27.178Z"
+  },
+  {
+    "id": "sneaker-timberland-6-inch-premium",
+    "name": "Timberland 6-Inch Premium",
+    "brand": "Otras",
+    "model": "Timberland 6-Inch Premium",
+    "sku": "PAPI-1008",
+    "category": "general",
+    "gender": "unisex",
+    "price": 189900,
+    "originalPrice": 230000,
+    "images": [
+      "/catalogo/sneakers/otras/timberland-6-inch-premium.jpg",
+      "/catalogo/sneakers/otras/timberland-6-inch-premium_2.jpg",
+      "/catalogo/sneakers/otras/timberland-6-inch-premium_3.jpg"
+    ],
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": true,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "La bota clásica de Timberland en nobuk color trigo, con cuello acolchado negro, costuras triples y suela de goma con taches.",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Wheat Nubuck",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-10-15T17:09:34.501Z",
+    "updatedAt": "2026-10-15T17:09:34.501Z"
   },
   {
     "id": "sneaker-tommy-hilfiger-runner-blanco",
