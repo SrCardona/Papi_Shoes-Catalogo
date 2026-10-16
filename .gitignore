@@ -29,3 +29,10 @@ recuadro-hoja-*.png
 # y eso si se versiona.
 catalogo/entregas-exportadas.json
 papi-shoes-entregas-*.json
+
+# Pruebas y entornos de scripts/recortar-fondos.py. Los recortes aprobados si
+# se versionan: viven en public/recortes/ con su manifiesto en src/data/.
+recortes-prueba/
+.venv-recortes/
+
+__pycache__/

@@ -1,0 +1,8 @@
+# Para scripts/recortar-fondos.py. Conviene en un entorno aparte:
+#   python -m venv .venv-recortes
+#   .venv-recortes\Scripts\pip install -r scripts/requirements-recortes.txt
+# El modelo (birefnet-general, ~1 GB) se descarga solo la primera vez.
+rembg[cpu]>=2.0.85
+pillow>=11
+numpy>=2
+scipy>=1.14

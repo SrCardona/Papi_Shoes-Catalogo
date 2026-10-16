@@ -158,6 +158,41 @@ sirve el archivo original. Es la misma foto, sin encoger.
 La primera fila de la columnata lleva `priority`: carga sin diferir, con
 prioridad alta y sin el fundido de entrada, porque es la que mide el LCP.
 
+## Tenis sin fondo (recortes)
+
+Las vitrinas del rediseño (rankings, carruseles) muestran el tenis recortado,
+flotando sobre el negro. Los recortes viven en `public/recortes/`, con la misma
+ruta que su portada pero en `.webp`, y `src/data/recortesGenerados.ts` (GENERADO,
+no editar) dice qué portada tiene recorte. `fotoDeVitrina()` en
+`lib/vitrina.ts` es el único sitio que elige: un par sin recorte sale con su
+foto de siempre. La ficha del producto sigue mostrando las fotos reales.
+
+```bash
+python scripts/recortar-fondos.py --muestra 20 --hoja   # prueba, no toca el sitio
+python scripts/recortar-fondos.py --aplicar --hoja       # todo el catálogo
+```
+
+Necesita su propio entorno (`scripts/requirements-recortes.txt`); el modelo,
+BiRefNet, pesa casi 1 GB y se baja la primera vez. Con el modelo liviano
+(`isnet`) las partes blancas de un tenis sobre fondo blanco desaparecían.
+
+Lo que el script acepta: un tenis de perfil, o el par completo, entero, sin
+caja. Lo que descarta solo: figuras que tocan el borde en un tramo largo,
+cajas, y lo que no tiene proporción de tenis de lado. Lo que **no** sabe ver,
+y por eso existe la revisión: la mordida que queda en la suela cuando el tenis
+estaba en una mano (al quitar la mano se va el pedazo que tapaban los dedos), o
+un recorte que no convence. Esos se anotan en
+`catalogo/recortes-descartados.txt`, una ruta `/catalogo/...` por línea, y no
+vuelven a salir. `--hoja` arma láminas numeradas de 50 para revisarlos.
+
+Si una portada es ilustración o montaje, la foto real va en
+`catalogo/fuentes-recorte/` con la misma ruta y el recorte sale de ahí.
+
+**Al reemplazar una portada hay que volver a correr el script.** El manifiesto
+guarda la huella de la foto de origen y la siguiente corrida rehace lo que
+cambió, pero hasta entonces el sitio sigue mostrando el recorte de la foto
+vieja.
+
 ## Lo que ve WhatsApp al pegar un enlace
 
 Todo el negocio termina en un mensaje de WhatsApp, y su robot no ejecuta
