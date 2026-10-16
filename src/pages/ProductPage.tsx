@@ -12,11 +12,11 @@ import {
   ShieldCheck,
   Truck,
 } from 'lucide-react';
+import type { Sneaker } from '../types';
 import { useStore } from '../context/StoreContext';
 import { SmartImage } from '../components/ui/SmartImage';
 import { SizeGuide } from '../components/ui/SizeGuide';
-import { Colonnade } from '../components/ui/SneakerColumn';
-import { SectionHeader } from '../components/ui/SectionHeader';
+import { Carrusel } from '../components/vitrina/Carrusel';
 import {
   cx,
   discountPercent,
@@ -31,6 +31,9 @@ import {
  * Se hace con `key` en lugar de un efecto: React desmonta y vuelve a montar el
  * componente, y el estado nace limpio sin renders en cascada.
  */
+/** Pares del carrusel "También en esta línea". */
+const RELACIONADOS = 10;
+
 export function ProductPage() {
   const { id } = useParams<{ id: string }>();
   return <ProductView key={id} id={id} />;
@@ -58,11 +61,19 @@ function ProductView({ id }: { id?: string }) {
     };
   }, [sneaker, settings.storeName]);
 
+  /* Primero la misma marca y después lo más reciente, siempre dentro de la
+     misma línea: desde la ficha de un par de uso diario no se ofrece uno
+     verificado, ni al revés. */
   const related = useMemo(() => {
     if (!sneaker) return [];
+    const mismaMarca = (s: Sneaker) => (s.brand === sneaker.brand ? 0 : 1);
     return sneakers
-      .filter((s) => s.id !== sneaker.id && s.category === sneaker.category)
-      .slice(0, 4);
+      .filter(
+        (s) =>
+          s.id !== sneaker.id && s.category === sneaker.category && s.status !== 'agotado',
+      )
+      .sort((a, b) => mismaMarca(a) - mismaMarca(b) || b.createdAt.localeCompare(a.createdAt))
+      .slice(0, RELACIONADOS);
   }, [sneakers, sneaker]);
 
   if (!sneaker) {
@@ -145,10 +156,10 @@ function ProductView({ id }: { id?: string }) {
                 decide la compra y el catálogo trae fotos muy apaisadas —hay de
                 430x211, que en un cuadro cuadrado perdían la mitad—. El marco
                 sigue siendo cuadrado para que la página no salte al cambiar de
-                foto, y lo que sobra queda sobre el estriado, como el paspartú
-                de un cuadro. En la rejilla se siguen recortando a propósito:
-                ahí lo que importa es que la columnata quede pareja. */}
-            <div className="relative aspect-square bg-basalt fluted overflow-hidden border border-white/8">
+                foto, y lo que sobra queda sobre basalto liso, el mismo fondo
+                de las tarjetas de vitrina. Aquí van las fotos reales y no el
+                recorte sin fondo: el cliente decide mirando el par de verdad. */}
+            <div className="relative aspect-square bg-basalt overflow-hidden border border-white/8">
               <SmartImage
                 src={sneaker.images[imageIndex]}
                 alt={`${sneaker.name} — vista ${imageIndex + 1}`}
@@ -336,7 +347,7 @@ function ProductView({ id }: { id?: string }) {
                   href={generateWhatsAppLink(sneaker, selectedSize, settings)}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center justify-center gap-3 w-full py-5 bg-marble text-obsidian text-[11px] font-bold uppercase tracking-[0.22em] hover:bg-silver transition-colors"
+                  className="flex items-center justify-center gap-3 w-full py-5 bg-lapis text-marble text-[11px] font-bold uppercase tracking-[0.22em] hover:bg-lapis-lit transition-colors"
                 >
                   <MessageCircle className="w-4 h-4" />
                   {sneaker.status === 'bajo_encargo'
@@ -382,7 +393,7 @@ function ProductView({ id }: { id?: string }) {
             {/* Descripción */}
             {sneaker.description && (
               <div className="space-y-3 pt-2">
-                <h2 className="text-[10px] font-semibold uppercase tracking-[0.22em] text-marble/50">
+                <h2 className="font-body text-[10px] font-semibold uppercase tracking-[0.22em] text-marble/50">
                   Sobre este par
                 </h2>
                 <p className="text-[13px] leading-relaxed text-marble/55">
@@ -424,7 +435,7 @@ function ProductView({ id }: { id?: string }) {
             {/* Qué incluye */}
             {sneaker.details.includedItems.length > 0 && (
               <div className="space-y-3">
-                <h2 className="text-[10px] font-semibold uppercase tracking-[0.22em] text-marble/50">
+                <h2 className="font-body text-[10px] font-semibold uppercase tracking-[0.22em] text-marble/50">
                   Incluye
                 </h2>
                 <ul className="space-y-2">
@@ -452,12 +463,10 @@ function ProductView({ id }: { id?: string }) {
         {/* Relacionados */}
         {related.length > 0 && (
           <section className="mt-16 sm:mt-24">
-            <SectionHeader
-              eyebrow="También en esta línea"
-              title="Pares parecidos"
-              className="mb-7 sm:mb-9"
+            <Carrusel
+              titulo={`También en ${isOriginal ? 'Originales' : 'Sneakers'}`}
+              pares={related}
             />
-            <Colonnade sneakers={related} />
           </section>
         )}
 
@@ -501,7 +510,7 @@ function ProductView({ id }: { id?: string }) {
               'flex flex-1 items-center justify-center gap-2 py-4 text-[11px] font-bold uppercase tracking-[0.18em] transition-colors',
               isSoldOut
                 ? 'border border-white/20 text-marble/70'
-                : 'bg-marble text-obsidian',
+                : 'bg-lapis text-marble',
             )}
           >
             <MessageCircle className="w-4 h-4 shrink-0" />
