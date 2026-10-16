@@ -29,7 +29,7 @@ export function RankingLinea({ titulo, linea, pares }: RankingLineaProps) {
   const [primero, ...resto] = propios;
 
   return (
-    <section aria-label={titulo} className="flex flex-col">
+    <section aria-label={titulo} className="flex flex-col min-w-0">
       <header className="flex items-baseline justify-between gap-3 mb-3">
         <h2 className="font-display text-2xl sm:text-[28px] text-marble">{titulo}</h2>
         <span className="eyebrow">{NOMBRE_DE_LINEA[linea]}</span>
@@ -97,11 +97,15 @@ function PrimerPuesto({ sneaker }: { sneaker: Sneaker }) {
           </span>
         )}
       </div>
-      <div className="aspect-[16/10] px-6 py-2">
-        <TenisFlotante
-          sneaker={sneaker}
-          sizes="(max-width: 1024px) 90vw, 30vw"
-        />
+      {/* En posición absoluta por lo mismo que en TarjetaPar: una foto
+          vertical no debe estirar el recuadro. */}
+      <div className="relative aspect-[16/10]">
+        <div className="absolute inset-x-6 inset-y-2">
+          <TenisFlotante
+            sneaker={sneaker}
+            sizes="(max-width: 1024px) 90vw, 30vw"
+          />
+        </div>
       </div>
       <div className="flex items-end justify-between gap-3 px-3.5 pb-3.5 pt-1 border-t border-obsidian/10">
         <Identidad sneaker={sneaker} claro />

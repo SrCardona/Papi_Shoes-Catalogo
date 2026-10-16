@@ -316,6 +316,11 @@ def main():
     p.add_argument("--salida", type=Path, default=RAIZ / "recortes-prueba")
     p.add_argument("--hoja", action="store_true", help="escribe hojas numeradas en --salida")
     p.add_argument("--aplicar", action="store_true", help="escribe public/recortes/ y el manifiesto")
+    # El proceso pierde memoria foto a foto (llego a 6 GB con la reserva de ONNX
+    # apagada), asi que el lote completo se corre en tandas, cada una en un
+    # proceso nuevo: con --aplicar, lo hecho queda guardado y la siguiente
+    # tanda sigue donde termino la anterior.
+    p.add_argument("--maximo", type=int, help="procesa a lo sumo N fotos nuevas y termina")
     a = p.parse_args()
 
     urls = portadas()
@@ -340,7 +345,15 @@ def main():
 
     from rembg import new_session
 
-    sesion = new_session(MODELO)
+    import onnxruntime as ort
+
+    # Sin estas dos, ONNX Runtime guarda una reserva de memoria que crece con
+    # cada foto: BiRefNet llego a 7,5 GB y Windows mato el lote dos veces en un
+    # equipo de 16 GB. Cuesta algo de velocidad; terminar es lo que importa.
+    opciones = ort.SessionOptions()
+    opciones.enable_cpu_mem_arena = False
+    opciones.enable_mem_pattern = False
+    sesion = new_session(MODELO, sess_opts=opciones)
     fuera = descartados()
     filas = []
     for n, url in enumerate(urls, 1):
@@ -357,6 +370,8 @@ def main():
             # Misma foto que la vez pasada: ni el recorte ni el rechazo cambian.
             if hecho or not visto["recorte"]:
                 continue
+        if a.maximo is not None and len(filas) >= a.maximo:
+            break
         lienzo, motivo, estado = recortar(sesion, origen)
         destino = None
         if lienzo is not None:

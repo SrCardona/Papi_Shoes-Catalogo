@@ -5,7 +5,7 @@ import { useStore } from '../context/StoreContext';
 import { useCatalogFilters } from '../hooks/useCatalogFilters';
 import { useGrupoOtras } from '../hooks/useMarcasPorLinea';
 import { NO_ES_MARCA, esGrupoOtras, marcasVisiblesDelGrupo } from '../lib/marcas';
-import { Colonnade } from '../components/ui/SneakerColumn';
+import { GrillaVitrina } from '../components/vitrina/TarjetaPar';
 import { FilterRail } from '../components/ui/FilterRail';
 import { EmptyState } from '../components/ui/EmptyState';
 import { SectionHeader } from '../components/ui/SectionHeader';
@@ -136,7 +136,7 @@ export function CatalogPage({
 
   return (
     <>
-      <section className="max-w-[1400px] mx-auto px-5 lg:px-8 pt-14 pb-9">
+      <section className="max-w-[1400px] mx-auto px-5 lg:px-8 pt-9 sm:pt-11 pb-7">
         <SectionHeader
           eyebrow={encabezado.eyebrow}
           title={encabezado.title}
@@ -171,7 +171,7 @@ export function CatalogPage({
             <p className="text-[10px] uppercase tracking-[0.22em] text-marble/35 mb-5 tabular-nums">
               {results.length} {results.length === 1 ? 'par' : 'pares'}
             </p>
-            <Colonnade sneakers={results} />
+            <GrillaVitrina sneakers={results} />
           </>
         ) : (
           <EmptyState query={filters.searchQuery} onReset={resetFilters} />
