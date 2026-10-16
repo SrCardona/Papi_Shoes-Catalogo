@@ -114,7 +114,7 @@ export function HomePage() {
 
       {/* ═══ RANKINGS ═════════════════════════════════════════════════════ */}
       <section className="max-w-[1400px] mx-auto px-5 lg:px-8 pt-10 sm:pt-14 grid grid-cols-1 gap-10 md:grid-cols-2 md:gap-6">
-        <RankingLinea titulo="Top Originales" linea="originales" pares={topOriginales} />
+        <RankingLinea titulo="Top Originales" linea="originales" pares={topOriginales} prioridad />
         <RankingLinea titulo="Top Sneakers" linea="general" pares={topSneakers} />
       </section>
 

@@ -11,6 +11,11 @@ interface RankingLineaProps {
   linea: SneakerCategory;
   /** Ya en orden: el primero es el número 1. */
   pares: Sneaker[];
+  /**
+   * El número 1 carga sin diferir. Va en el primer ranking de la portada: en el
+   * celular es la primera foto grande y la que el navegador cronometra (LCP).
+   */
+  prioridad?: boolean;
 }
 
 /**
@@ -22,7 +27,7 @@ interface RankingLineaProps {
  * rótulo que no es el suyo. Un par de uso diario bajo "Originales" es
  * justamente lo que no puede pasar.
  */
-export function RankingLinea({ titulo, linea, pares }: RankingLineaProps) {
+export function RankingLinea({ titulo, linea, pares, prioridad = false }: RankingLineaProps) {
   const propios = pares.filter((s) => s.category === linea);
   if (propios.length === 0) return null;
 
@@ -37,7 +42,7 @@ export function RankingLinea({ titulo, linea, pares }: RankingLineaProps) {
 
       <ol className="flex flex-col gap-px bg-white/8 border border-white/8">
         <li>
-          <PrimerPuesto sneaker={primero} />
+          <PrimerPuesto sneaker={primero} prioridad={prioridad} />
         </li>
         {resto.map((s, i) => (
           <li key={s.id}>
@@ -83,7 +88,7 @@ function Precio({ sneaker, claro = false }: { sneaker: Sneaker; claro?: boolean 
  * puesto en la referencia, hecho con los colores de la casa en vez de blanco
  * puro.
  */
-function PrimerPuesto({ sneaker }: { sneaker: Sneaker }) {
+function PrimerPuesto({ sneaker, prioridad }: { sneaker: Sneaker; prioridad: boolean }) {
   return (
     <Link
       to={`/producto/${sneaker.id}`}
@@ -104,6 +109,7 @@ function PrimerPuesto({ sneaker }: { sneaker: Sneaker }) {
           <TenisFlotante
             sneaker={sneaker}
             sizes="(max-width: 1024px) 90vw, 30vw"
+            priority={prioridad}
           />
         </div>
       </div>

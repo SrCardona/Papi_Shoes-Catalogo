@@ -155,8 +155,10 @@ cual: declararla mal dejaria sin foto justo a los pares que cargo el dueno.
 En `npm run dev` no hay optimizador —es un servicio de Vercel, no de Vite— y se
 sirve el archivo original. Es la misma foto, sin encoger.
 
-La primera fila de la columnata lleva `priority`: carga sin diferir, con
-prioridad alta y sin el fundido de entrada, porque es la que mide el LCP.
+Lo que mide el LCP lleva `priority`: carga sin diferir, con prioridad alta y
+sin el fundido de entrada. En la portada es el número 1 de Top Originales (en
+el celular es la primera foto grande); en el catálogo, la primera fila de la
+cuadrícula; en la ficha, la foto principal.
 
 ## Tenis sin fondo (recortes)
 
@@ -227,9 +229,13 @@ src/
 │                   ProductPage, AboutPage (El Templo), FaqPage, AdminPage,
 │                   NotFoundPage
 ├── components/
-│   ├── layout/     Navbar, BrandDropdown (menús de marca), Footer, Layout
-│   └── ui/         SneakerColumn (+ Colonnade), FilterRail, SmartImage,
-│                   DeliveryWall, HighlightRail, SectionHeader, TempleMark,
+│   ├── layout/     Navbar, BuscadorEncabezado, BrandDropdown (menús de
+│   │               marca), Footer, Layout
+│   ├── vitrina/    TarjetaPar (+ GrillaVitrina), RankingLinea, Carrusel,
+│   │               TenisFlotante: las piezas del rediseño
+│   └── ui/         FilterRail, SmartImage, DeliveryWall, SectionHeader,
+│                   TempleMark, HighlightRail (sin uso en la portada; las
+│                   historias se siguen editando en el panel),
 │                   AnnouncementPopup, FloatingWhatsApp, SizeGuide,
 │                   EmptyState, ErrorBoundary
 ├── admin/          AdminLogin, SneakerForm, QuickEditor, DeliveryManager,
@@ -239,16 +245,21 @@ src/
 │                   AuthContext (sesión del panel)
 ├── hooks/          useCatalogFilters (todo el filtrado y orden),
 │                   useMarcasPorLinea (las marcas del menú de navegación),
-│                   useOcultarAlBajar (la barra de filtros al hacer scroll)
+│                   useOcultarAlBajar (la barra de filtros al hacer scroll),
+│                   useWhatsAppDePantalla (el mensaje del encabezado)
 ├── lib/            nube.ts (cliente de /api), security.ts (saneamiento),
 │                   validation.ts, catalogo.ts (huella y fusión),
-│                   marcas.ts (marcas por línea), utils.ts
-└── data/           initialData.ts (INITIAL_SETTINGS, se edita a mano),
-                    catalogoGenerado.ts y entregasGeneradas.ts
-                    (estos dos GENERADOS, no editar)
+│                   marcas.ts (marcas por línea), busqueda.ts (la única regla
+│                   de búsqueda), vitrina.ts (foto de vitrina, rankings y
+│                   recién llegados), utils.ts
+└── data/           initialData.ts (INITIAL_SETTINGS) y vitrina.ts (los Top de
+                    la portada), los dos se editan a mano;
+                    catalogoGenerado.ts, entregasGeneradas.ts y
+                    recortesGenerados.ts (GENERADOS, no editar)
 scripts/            generar-catalogo, generar-entregas, revisar-entrada,
                     verificar-marcas, generar-fichas (fichas + sitemap, corre
-                    dentro del build), generar-og.py, quitar-recuadro.py
+                    dentro del build), generar-og.py, quitar-recuadro.py,
+                    recortar-fondos.py (tenis sin fondo)
 ```
 
 Las carpetas y archivos de `api/` que empiezan por `_` no se convierten en rutas:
@@ -533,6 +544,26 @@ cliente si sale su cara.
   debe escribir sin pasar por `tokenValido`.
 
 ## Diseño
+
+### Las vitrinas (portada, catálogo, ficha)
+
+La estructura viene de Zellerfeld; los colores, las letras y las reglas, de
+abajo. Encabezado de una franja (`--alto-encabezado` en `index.css`, que lee
+también la barra de filtros). Portada: bienvenida corta con las dos puertas,
+Top Originales y Top Sneakers, Recién llegados, entregas, marcas, pilares y el
+llamado a WhatsApp. El número 1 de cada ranking va sobre mármol y el resto
+sobre basalto; donde Zellerfeld usa naranja, aquí va lapislázuli.
+
+Los Top salen de `src/data/vitrina.ts`, una lista de ids por línea que edita
+el dueño. `armarRanking()` salta lo agotado, lo que ya no existe y lo de la
+otra línea, y llena los puestos libres con lo más reciente de la línea.
+
+Toda tarjeta de par (`TarjetaPar`) dice su línea, también en el celular: en
+una fila que junta las dos es lo único que impide leer un par de uso diario
+como verificado. El buscador del encabezado separa los resultados en dos
+bloques y su "ver todos" lleva a la línea, nunca a `/catalogo`. "Nuevo" sale
+solo en lo que entró hace 21 días o menos: el generador marca `isNewArrival`
+en todos los pares.
 
 Museo / templo: negro obsidiana, gris basalto, plata, azul lapislázuli, blanco
 mármol. Tokens en `src/index.css` (`obsidian`, `basalt`, `marble`, `silver`,
