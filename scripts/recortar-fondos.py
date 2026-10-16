@@ -321,6 +321,7 @@ def main():
     # proceso nuevo: con --aplicar, lo hecho queda guardado y la siguiente
     # tanda sigue donde termino la anterior.
     p.add_argument("--maximo", type=int, help="procesa a lo sumo N fotos nuevas y termina")
+    p.add_argument("--poca-memoria", action="store_true", help="apaga la reserva de ONNX (mas lento)")
     a = p.parse_args()
 
     urls = portadas()
@@ -347,12 +348,15 @@ def main():
 
     import onnxruntime as ort
 
-    # Sin estas dos, ONNX Runtime guarda una reserva de memoria que crece con
-    # cada foto: BiRefNet llego a 7,5 GB y Windows mato el lote dos veces en un
-    # equipo de 16 GB. Cuesta algo de velocidad; terminar es lo que importa.
+    # ONNX Runtime guarda una reserva de memoria que crece con cada foto:
+    # BiRefNet llego a 7,5 GB en un lote corrido y Windows lo mato. Apagarla no
+    # basta (siguio creciendo, mas despacio) y triplica el tiempo, asi que lo
+    # que de verdad lo resuelve es correr en tandas cortas con --maximo, cada una
+    # en un proceso nuevo. --poca-memoria queda para un equipo muy justo.
     opciones = ort.SessionOptions()
-    opciones.enable_cpu_mem_arena = False
-    opciones.enable_mem_pattern = False
+    if a.poca_memoria:
+        opciones.enable_cpu_mem_arena = False
+        opciones.enable_mem_pattern = False
     sesion = new_session(MODELO, sess_opts=opciones)
     fuera = descartados()
     filas = []

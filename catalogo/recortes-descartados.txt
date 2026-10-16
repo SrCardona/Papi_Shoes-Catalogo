@@ -1,0 +1,47 @@
+# Recortes que no salen en la vitrina: una ruta /catalogo/... por linea.
+# Casi todos son tenis sostenidos en la mano (al quitar la mano se va el
+# pedazo de suela que tapaban los dedos); el resto, restos de caja, pierna
+# o etiqueta, o un par que no se lee.
+/catalogo/sneakers/adidas/hombre/adidas-dreastrike-glow-crema-negro-rojo.jpg
+/catalogo/sneakers/adidas/hombre/adidas-supernova-ease-2-blanco-azul.jpg
+/catalogo/sneakers/adidas/hombre/adidas-supernova-ease-2-negro-blanco.jpg
+/catalogo/sneakers/adidas/hombre/adidas-supernova-ease-2-negro-coral.jpg
+/catalogo/sneakers/adidas/hombre/adidas-supernova-rise-3-blanco-degradado.jpg
+/catalogo/sneakers/adidas/hombre/adidas-supernova-rise-3-blanco-dorado.jpg
+/catalogo/sneakers/adidas/hombre/adidas-supernova-rise-3-negro.jpg
+/catalogo/sneakers/hugo-boss/hombre/hugo-boss-ttnm-evo-azul-navy.jpg
+/catalogo/sneakers/hugo-boss/hombre/hugo-boss-ttnm-evo-blanco.jpg
+/catalogo/sneakers/hugo-boss/hombre/hugo-boss-ttnm-evo-camel.jpg
+/catalogo/sneakers/hugo-boss/hombre/hugo-boss-ttnm-evo-gris.jpg
+/catalogo/sneakers/hugo-boss/hombre/hugo-boss-ttnm-evo-knit-crema.jpg
+/catalogo/sneakers/hugo-boss/hombre/hugo-boss-ttnm-evo-knit-gris-hielo.jpg
+/catalogo/sneakers/hugo-boss/hombre/hugo-boss-ttnm-evo-knit-navy.jpg
+/catalogo/sneakers/hugo-boss/hombre/hugo-boss-ttnm-evo-negro-gum.jpg
+/catalogo/sneakers/jordan/hombre/jordan-11-retro-cool-grey.jpg
+/catalogo/sneakers/jordan/jordan-1-low-pastel.jpg
+/catalogo/sneakers/jordan/jordan-1-low-patent-bred.jpg
+/catalogo/sneakers/jordan/jordan-1-low-triple-white.jpg
+/catalogo/sneakers/jordan/jordan-1-mid-charol-hielo.jpg
+/catalogo/sneakers/new-balance/new-balance-9060-blanco-crema.jpg
+/catalogo/sneakers/nike/hombre/nike-air-max-plus-tn-blanco-suela-negra.jpg
+/catalogo/sneakers/nike/hombre/nike-air-max-plus-tn-blanco-verde-pino.jpg
+/catalogo/sneakers/nike/hombre/nike-air-max-plus-tn-triple-rojo.jpg
+/catalogo/sneakers/nike/mujer/nike-air-max-plus-tn-blanco-gris-rosado.jpg
+/catalogo/sneakers/nike/mujer/nike-air-max-plus-tn-degradado-pastel.jpg
+/catalogo/sneakers/nike/mujer/nike-air-max-plus-tn-gris-lila.jpg
+/catalogo/sneakers/nike/mujer/nike-blazer-low-77-jumbo-blanco-rosado.jpg
+/catalogo/sneakers/nike/nike-cortez-classic-blanco-negro.jpg
+/catalogo/sneakers/nike/nike-dunk-low-teddy-bear.jpg
+/catalogo/sneakers/nike/nike-motiva-crema.jpg
+/catalogo/sneakers/nike/nike-sb-dunk-low-bear.jpg
+/catalogo/sneakers/nike/nike-sb-dunk-low-black-gum.jpg
+/catalogo/sneakers/nike/nike-sb-dunk-low-charol-negro.jpg
+/catalogo/sneakers/nike/nike-sb-dunk-low-gris-crema.jpg
+/catalogo/sneakers/nike/nike-sb-dunk-low-legion-pine.jpg
+/catalogo/sneakers/nike/nike-sb-dunk-low-white-gum.jpg
+/catalogo/sneakers/nike/nike-sb-dunk-low-x-parra.jpg
+/catalogo/sneakers/nike/nike-sb-dunk-low-x-tightbooth.jpg
+/catalogo/sneakers/nike/nike-shox-negro.jpg
+/catalogo/sneakers/otras/asics-comfort.jpg
+/catalogo/sneakers/otras/hombre/christian-dior-b30-negro-gris.jpg
+/catalogo/sneakers/otras/reebok-x-anuel-aa-rojo.jpg

@@ -1,0 +1,3082 @@
+{
+ "/catalogo/originales/calvin-klein/calvin-klein-acre-black-white.jpg": {
+  "huella": "75901737b445e94e",
+  "motivo": "perfil 1.85",
+  "recorte": true
+ },
+ "/catalogo/originales/calvin-klein/calvin-klein-acre.jpg": {
+  "huella": "115b2e40139bd746",
+  "motivo": "cortado por el borde",
+  "recorte": false
+ },
+ "/catalogo/originales/calvin-klein/calvin-klein-alondra-white-142.jpg": {
+  "huella": "2d6ea202a1516346",
+  "motivo": "perfil 1.53",
+  "recorte": true
+ },
+ "/catalogo/originales/calvin-klein/calvin-klein-ashier-black-001-mujer.jpg": {
+  "huella": "2343a23108990c83",
+  "motivo": "perfil 1.88",
+  "recorte": true
+ },
+ "/catalogo/originales/calvin-klein/calvin-klein-ashier-white-140-mujer.jpg": {
+  "huella": "ca9a4d7cb21e681c",
+  "motivo": "cortado por el borde",
+  "recorte": false
+ },
+ "/catalogo/originales/calvin-klein/calvin-klein-caden-mujer.jpg": {
+  "huella": "b04dfca1bbb2eece",
+  "motivo": "cortado por el borde",
+  "recorte": false
+ },
+ "/catalogo/originales/calvin-klein/calvin-klein-caden-white-mujer.jpg": {
+  "huella": "5e53646ac3e9da10",
+  "motivo": "perfil 1.95",
+  "recorte": true
+ },
+ "/catalogo/originales/calvin-klein/calvin-klein-calla-brown-multi-211.jpg": {
+  "huella": "9a6bffea391947af",
+  "motivo": "perfil 1.78",
+  "recorte": true
+ },
+ "/catalogo/originales/calvin-klein/calvin-klein-calvin-acre-multi-142.jpg": {
+  "huella": "3c37b449f75f29da",
+  "motivo": "cortado por el borde",
+  "recorte": false
+ },
+ "/catalogo/originales/calvin-klein/calvin-klein-camina-black-mujer.jpg": {
+  "huella": "7453b734b62da841",
+  "motivo": "perfil 1.76",
+  "recorte": true
+ },
+ "/catalogo/originales/calvin-klein/calvin-klein-carlla-black-002-mujer.jpg": {
+  "huella": "f1c460c2eb19a92e",
+  "motivo": "perfil 1.81",
+  "recorte": true
+ },
+ "/catalogo/originales/calvin-klein/calvin-klein-carlla-black-white.jpg": {
+  "huella": "e36aa064f6cd6c1d",
+  "motivo": "perfil 1.57",
+  "recorte": true
+ },
+ "/catalogo/originales/calvin-klein/calvin-klein-carlla-brown-brown-multi-200.jpg": {
+  "huella": "5a34bebcbbbcd36b",
+  "motivo": "perfil 1.86",
+  "recorte": true
+ },
+ "/catalogo/originales/calvin-klein/calvin-klein-cayle-black-962-mujer.jpg": {
+  "huella": "e1e1558b98703854",
+  "motivo": "perfil 1.84",
+  "recorte": true
+ },
+ "/catalogo/originales/calvin-klein/calvin-klein-cayle-blue-denim-450-mujer.jpg": {
+  "huella": "19cd116265de669a",
+  "motivo": "perfil 1.87",
+  "recorte": true
+ },
+ "/catalogo/originales/calvin-klein/calvin-klein-cayle-white-143-mujer.jpg": {
+  "huella": "eca47ad5b95a7a06",
+  "motivo": "perfil 1.83",
+  "recorte": true
+ },
+ "/catalogo/originales/calvin-klein/calvin-klein-ciyan-black-mujer.jpg": {
+  "huella": "97aad2c3dc6c484a",
+  "motivo": "cortado por el borde",
+  "recorte": false
+ },
+ "/catalogo/originales/calvin-klein/calvin-klein-ciyan-white-001-mujer.jpg": {
+  "huella": "294375b340faef30",
+  "motivo": "perfil 2.03",
+  "recorte": true
+ },
+ "/catalogo/originales/calvin-klein/calvin-klein-cylaie-mujer.jpg": {
+  "huella": "b4c895018cbaed46",
+  "motivo": "perfil 2.09",
+  "recorte": true
+ },
+ "/catalogo/originales/calvin-klein/calvin-klein-eden-negro-001.jpg": {
+  "huella": "3e3795c1fcbc15b3",
+  "motivo": "perfil 1.79",
+  "recorte": true
+ },
+ "/catalogo/originales/calvin-klein/calvin-klein-falconi.jpg": {
+  "huella": "46d92ecde22ca904",
+  "motivo": "perfil 2.14",
+  "recorte": true
+ },
+ "/catalogo/originales/calvin-klein/calvin-klein-giano.jpg": {
+  "huella": "e83d0b9830e76c7f",
+  "motivo": "cortado por el borde",
+  "recorte": false
+ },
+ "/catalogo/originales/calvin-klein/calvin-klein-gules-black-002.jpg": {
+  "huella": "3270c85442d15c73",
+  "motivo": "perfil 1.97",
+  "recorte": true
+ },
+ "/catalogo/originales/calvin-klein/calvin-klein-gules-espresso-multi-200.jpg": {
+  "huella": "dc728540ad11a72c",
+  "motivo": "perfil 2.16",
+  "recorte": true
+ },
+ "/catalogo/originales/calvin-klein/calvin-klein-hania-white-mujer.jpg": {
+  "huella": "8fc133bfb686e749",
+  "motivo": "perfil 2.07",
+  "recorte": true
+ },
+ "/catalogo/originales/calvin-klein/calvin-klein-horaldo-white-144.jpg": {
+  "huella": "a0c7dc2a5c4620fe",
+  "motivo": "perfil 1.98",
+  "recorte": true
+ },
+ "/catalogo/originales/calvin-klein/calvin-klein-landy-black-001.jpg": {
+  "huella": "c305eab20b3328ac",
+  "motivo": "cortado por el borde",
+  "recorte": false
+ },
+ "/catalogo/originales/calvin-klein/calvin-klein-landy-blue-450.jpg": {
+  "huella": "25b0b87057be198f",
+  "motivo": "cortado por el borde",
+  "recorte": false
+ },
+ "/catalogo/originales/calvin-klein/calvin-klein-lucio-black-002.jpg": {
+  "huella": "c24f4ebc6d7193f9",
+  "motivo": "perfil 2.14",
+  "recorte": true
+ },
+ "/catalogo/originales/calvin-klein/calvin-klein-lucio-navy-blue.jpg": {
+  "huella": "243e699df4f45412",
+  "motivo": "cortado por el borde",
+  "recorte": false
+ },
+ "/catalogo/originales/calvin-klein/calvin-klein-lucio-white-101.jpg": {
+  "huella": "1bc393f7727eceba",
+  "motivo": "perfil 1.74",
+  "recorte": true
+ },
+ "/catalogo/originales/calvin-klein/calvin-klein-pezrand-black-white-001.jpg": {
+  "huella": "c425fb50d9e30022",
+  "motivo": "perfil 2.02",
+  "recorte": true
+ },
+ "/catalogo/originales/calvin-klein/calvin-klein-picio-black-002.jpg": {
+  "huella": "1fefa31b426ac9af",
+  "motivo": "perfil 2.18",
+  "recorte": true
+ },
+ "/catalogo/originales/calvin-klein/calvin-klein-picio-gray-mid-032.jpg": {
+  "huella": "892da22e9e4ded6f",
+  "motivo": "perfil 2.25",
+  "recorte": true
+ },
+ "/catalogo/originales/calvin-klein/calvin-klein-picio-white-050.jpg": {
+  "huella": "002d83d8101bcc5a",
+  "motivo": "perfil 2.21",
+  "recorte": true
+ },
+ "/catalogo/originales/calvin-klein/calvin-klein-picio-white-multi-052.jpg": {
+  "huella": "3cc15f6c00441d2d",
+  "motivo": "perfil 2.33",
+  "recorte": true
+ },
+ "/catalogo/originales/calvin-klein/calvin-klein-picio-white-multi-102.jpg": {
+  "huella": "c5529ae0cb301fc2",
+  "motivo": "perfil 2.17",
+  "recorte": true
+ },
+ "/catalogo/originales/calvin-klein/calvin-klein-rex.jpg": {
+  "huella": "c55005a518f2f6ef",
+  "motivo": "perfil 2.08",
+  "recorte": true
+ },
+ "/catalogo/originales/calvin-klein/calvin-klein-sandalias-ck-wiston-slide-black-002.jpg": {
+  "huella": "a73d752b1c91d6c1",
+  "motivo": "perfil 2.27",
+  "recorte": true
+ },
+ "/catalogo/originales/guess/guess-caldy.jpg": {
+  "huella": "37250898ac6fbf4e",
+  "motivo": "perfil 2.09",
+  "recorte": true
+ },
+ "/catalogo/originales/guess/guess-jeril.jpg": {
+  "huella": "43aa1dab8cb782f7",
+  "motivo": "perfil 2.20",
+  "recorte": true
+ },
+ "/catalogo/originales/guess/guess-lacket.jpg": {
+  "huella": "aa73023a44471d4b",
+  "motivo": "perfil 2.27",
+  "recorte": true
+ },
+ "/catalogo/originales/guess/guess-larvin.jpg": {
+  "huella": "08943b106535e09b",
+  "motivo": "cortado por el borde",
+  "recorte": false
+ },
+ "/catalogo/originales/guess/guess-lensa.jpg": {
+  "huella": "1aec06438cdae655",
+  "motivo": "perfil 2.13",
+  "recorte": true
+ },
+ "/catalogo/originales/guess/guess-letoro.jpg": {
+  "huella": "696e64a95e058aa7",
+  "motivo": "perfil 2.21",
+  "recorte": true
+ },
+ "/catalogo/originales/guess/guess-lodda.jpg": {
+  "huella": "743e218c7007b02b",
+  "motivo": "cortado por el borde",
+  "recorte": false
+ },
+ "/catalogo/originales/guess/guess-lomynz-sneaker-black.jpg": {
+  "huella": "6406d8d4382e4bfd",
+  "motivo": "cortado por el borde",
+  "recorte": false
+ },
+ "/catalogo/originales/guess/guess-lomynz-sneaker-brown-light.jpg": {
+  "huella": "9fa76bc0dc0d9cab",
+  "motivo": "cortado por el borde",
+  "recorte": false
+ },
+ "/catalogo/originales/guess/guess-lorzi.jpg": {
+  "huella": "21b7e31f64b9491d",
+  "motivo": "cortado por el borde",
+  "recorte": false
+ },
+ "/catalogo/originales/guess/guess-luccan.jpg": {
+  "huella": "7109885867f5f6b3",
+  "motivo": "perfil 2.18",
+  "recorte": true
+ },
+ "/catalogo/originales/guess/guess-obvio.jpg": {
+  "huella": "e8322ab0c4c8722c",
+  "motivo": "perfil 1.59",
+  "recorte": true
+ },
+ "/catalogo/originales/guess/guess-tandy.jpg": {
+  "huella": "db0c60af18a498b3",
+  "motivo": "perfil 2.25",
+  "recorte": true
+ },
+ "/catalogo/originales/guess/guess-tirry.jpg": {
+  "huella": "dbb4b5c20c89f5b6",
+  "motivo": "perfil 2.13",
+  "recorte": true
+ },
+ "/catalogo/originales/guess/guess-tursan.jpg": {
+  "huella": "566ea4c8eecff5d6",
+  "motivo": "cortado por el borde",
+  "recorte": false
+ },
+ "/catalogo/originales/guess/guess-walen.jpg": {
+  "huella": "b2041643c9152752",
+  "motivo": "perfil 1.78",
+  "recorte": true
+ },
+ "/catalogo/originales/hugo-boss/hugo-boss-aiden-block.jpg": {
+  "huella": "52b1cad4b3ce6381",
+  "motivo": "cortado por el borde",
+  "recorte": false
+ },
+ "/catalogo/originales/hugo-boss/hugo-boss-hugo-black-storm.jpg": {
+  "huella": "932c27b0b6dcde09",
+  "motivo": "cortado por el borde",
+  "recorte": false
+ },
+ "/catalogo/originales/hugo-boss/hugo-boss-hugo-black-white.jpg": {
+  "huella": "70b9ed1b33b6f538",
+  "motivo": "perfil 1.90",
+  "recorte": true
+ },
+ "/catalogo/originales/hugo-boss/hugo-boss-kai-retro-black.jpg": {
+  "huella": "1ec7b081bc2f408f",
+  "motivo": "perfil 1.77",
+  "recorte": true
+ },
+ "/catalogo/originales/hugo-boss/hugo-boss-kye-retro-style-white-oak.jpg": {
+  "huella": "0edfcb9c138db3e1",
+  "motivo": "perfil 2.10",
+  "recorte": true
+ },
+ "/catalogo/originales/hugo-boss/hugo-boss-mesh-blueberry.jpg": {
+  "huella": "20126de4fb2661af",
+  "motivo": "perfil 1.91",
+  "recorte": true
+ },
+ "/catalogo/originales/hugo-boss/hugo-boss-mesh-white-oak.jpg": {
+  "huella": "870b02fd033bd43d",
+  "motivo": "perfil 2.07",
+  "recorte": true
+ },
+ "/catalogo/originales/hugo-boss/hugo-boss-parkour-run-carbon.jpg": {
+  "huella": "47c7bc353521361c",
+  "motivo": "perfil 1.78",
+  "recorte": true
+ },
+ "/catalogo/originales/hugo-boss/hugo-boss-parkour-run-sky-navy-blue.jpg": {
+  "huella": "1c71c389297c4eaf",
+  "motivo": "perfil 1.75",
+  "recorte": true
+ },
+ "/catalogo/originales/hugo-boss/hugo-boss-parkour-runn-onyx.jpg": {
+  "huella": "1b874bd98622fcbf",
+  "motivo": "perfil 1.75",
+  "recorte": true
+ },
+ "/catalogo/originales/hugo-boss/hugo-boss-parkour-vison-orange.jpg": {
+  "huella": "9b77dc715fd45f4e",
+  "motivo": "perfil 2.01",
+  "recorte": true
+ },
+ "/catalogo/originales/hugo-boss/hugo-boss-rhys-cupsole-blue-yankee.jpg": {
+  "huella": "c639e60939d80d1a",
+  "motivo": "perfil 1.68",
+  "recorte": true
+ },
+ "/catalogo/originales/hugo-boss/hugo-boss-rhys-cupsole-white.jpg": {
+  "huella": "2ce1fb97c8ee178f",
+  "motivo": "cortado por el borde",
+  "recorte": false
+ },
+ "/catalogo/originales/hugo-boss/hugo-boss-running-mesh-sky-navy-blue.jpg": {
+  "huella": "3095743898127313",
+  "motivo": "perfil 1.62",
+  "recorte": true
+ },
+ "/catalogo/originales/hugo-boss/hugo-boss-running-mesh.jpg": {
+  "huella": "11f3a05c98731081",
+  "motivo": "perfil 1.49",
+  "recorte": true
+ },
+ "/catalogo/originales/hugo-boss/hugo-boss-saturn.jpg": {
+  "huella": "5964a67aef12a5eb",
+  "motivo": "perfil 1.79",
+  "recorte": true
+ },
+ "/catalogo/originales/nike/nike-air-max-dn-black-white.jpeg": {
+  "huella": "aa526de9db39e861",
+  "motivo": "perfil 2.13",
+  "recorte": true
+ },
+ "/catalogo/originales/nike/nike-air-max-dn-triple-black.jpeg": {
+  "huella": "89bb8ebb3297fd8f",
+  "motivo": "perfil 2.26",
+  "recorte": true
+ },
+ "/catalogo/originales/nike/nike-air-max-dn8-total-gray.jpeg": {
+  "huella": "54070233f3e0c7ae",
+  "motivo": "perfil 1.53",
+  "recorte": true
+ },
+ "/catalogo/originales/nike/nike-air-max-dn8-triple-black.jpeg": {
+  "huella": "466478106843d186",
+  "motivo": "perfil 2.27",
+  "recorte": true
+ },
+ "/catalogo/originales/nike/nike-air-max-tn-plus-blue-gray.jpeg": {
+  "huella": "40271649ac6bbf23",
+  "motivo": "perfil 2.17",
+  "recorte": true
+ },
+ "/catalogo/originales/nike/nike-vomero-6-gold.jpeg": {
+  "huella": "5a692ab2afcd65d4",
+  "motivo": "perfil 2.17",
+  "recorte": true
+ },
+ "/catalogo/originales/nike/nike-vomero-6-pink.jpeg": {
+  "huella": "885cbe5d4e64d36f",
+  "motivo": "perfil 1.56",
+  "recorte": true
+ },
+ "/catalogo/originales/puma/puma-caven-2-0.jpg": {
+  "huella": "20c7f9346185f3a8",
+  "motivo": "perfil 1.96",
+  "recorte": true
+ },
+ "/catalogo/originales/puma/puma-caven-bmw.jpg": {
+  "huella": "2c42efdcaf068776",
+  "motivo": "perfil 2.12",
+  "recorte": true
+ },
+ "/catalogo/originales/puma/puma-rebound-low.jpg": {
+  "huella": "7536b135614c9d74",
+  "motivo": "perfil 2.01",
+  "recorte": true
+ },
+ "/catalogo/originales/puma/puma-rebound.jpg": {
+  "huella": "9bf7c4143b1bd860",
+  "motivo": "perfil 1.74",
+  "recorte": true
+ },
+ "/catalogo/originales/puma/puma-robound-b.jpg": {
+  "huella": "24e9c2d2ccf8d55c",
+  "motivo": "perfil 1.73",
+  "recorte": true
+ },
+ "/catalogo/originales/puma/puma-shuffle.jpg": {
+  "huella": "d1909cb2e4e7406e",
+  "motivo": "no es perfil (1.39)",
+  "recorte": false
+ },
+ "/catalogo/originales/puma/puma-smash-3-0-b-n.jpg": {
+  "huella": "2499399d7dfffc4f",
+  "motivo": "perfil 2.19",
+  "recorte": true
+ },
+ "/catalogo/originales/puma/puma-smash-3-0.jpg": {
+  "huella": "786a431c4d7ff5cc",
+  "motivo": "perfil 2.18",
+  "recorte": true
+ },
+ "/catalogo/originales/puma/puma-smash.jpg": {
+  "huella": "bbcf8ba49a549993",
+  "motivo": "perfil 2.21",
+  "recorte": true
+ },
+ "/catalogo/originales/puma/puma-suede-xl.jpg": {
+  "huella": "facbf755203430a2",
+  "motivo": "perfil 2.11",
+  "recorte": true
+ },
+ "/catalogo/sneakers/adidas/adidas-adilette-22.jpg": {
+  "huella": "e85b965c72729bad",
+  "motivo": "perfil 2.52",
+  "recorte": true
+ },
+ "/catalogo/sneakers/adidas/adidas-adizero-adios-pro-lila.jpg": {
+  "huella": "b4b69cd4fc48944e",
+  "motivo": "perfil 1.59",
+  "recorte": true
+ },
+ "/catalogo/sneakers/adidas/adidas-adizero-adios-pro-volt.jpg": {
+  "huella": "6a23b61f31d194eb",
+  "motivo": "no es perfil (1.10)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/adidas/adidas-badbo-x-bad-bunny-blanco.jpg": {
+  "huella": "e274bfa7449bcbf3",
+  "motivo": "no es perfil (1.14)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/adidas/adidas-badbo-x-bad-bunny-cafe.jpg": {
+  "huella": "913e41ebca046e4f",
+  "motivo": "no es perfil (1.06)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/adidas/adidas-badbo-x-bad-bunny-negro.jpg": {
+  "huella": "ecca72dbb87d73f4",
+  "motivo": "no es perfil (1.11)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/adidas/adidas-california-blanco-negro.jpg": {
+  "huella": "faced4ca64e2a23b",
+  "motivo": "cortado por el borde",
+  "recorte": false
+ },
+ "/catalogo/sneakers/adidas/adidas-campus-00s-core-black.jpg": {
+  "huella": "9c2485b2fa0f9648",
+  "motivo": "perfil 1.97",
+  "recorte": true
+ },
+ "/catalogo/sneakers/adidas/adidas-campus-00s-gray.jpg": {
+  "huella": "f1d636ed8ad87257",
+  "motivo": "no es perfil (1.24)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/adidas/adidas-duramo-sl-blue.jpg": {
+  "huella": "3bf315566ac2e183",
+  "motivo": "cortado por el borde",
+  "recorte": false
+ },
+ "/catalogo/sneakers/adidas/adidas-duramo-sl.jpg": {
+  "huella": "3be6420d38428f0a",
+  "motivo": "cortado por el borde",
+  "recorte": false
+ },
+ "/catalogo/sneakers/adidas/adidas-eqt-equipment-beige-naranja.jpg": {
+  "huella": "2f1c5a5ddae0f685",
+  "motivo": "no es perfil (1.32)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/adidas/adidas-forum-x-bad-bunny.jpg": {
+  "huella": "4cbf7dde94f61020",
+  "motivo": "no es perfil (1.19)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/adidas/adidas-gazelle-x-bad-bunny.jpg": {
+  "huella": "3aa766e18a5e2108",
+  "motivo": "no es perfil (1.00)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/adidas/adidas-niteball-black.jpg": {
+  "huella": "0a84984ff20078d2",
+  "motivo": "no es perfil (0.80)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/adidas/adidas-niteball-upgrade.jpg": {
+  "huella": "d7e944b8b349a788",
+  "motivo": "no es perfil (0.88)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/adidas/adidas-nizza-hi-fi.jpg": {
+  "huella": "52233395ea274238",
+  "motivo": "cortado por el borde",
+  "recorte": false
+ },
+ "/catalogo/sneakers/adidas/adidas-pureboost.jpg": {
+  "huella": "d9d7a8102af52256",
+  "motivo": "no es perfil (0.93)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/adidas/adidas-response-cl-x-bad-bunny-benito.jpg": {
+  "huella": "7b63596f6e1d640d",
+  "motivo": "no es perfil (1.02)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/adidas/adidas-response-cl-x-bad-bunny-blanco.jpg": {
+  "huella": "c50b9ba85972ed72",
+  "motivo": "no es perfil (1.19)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/adidas/adidas-response-super.jpg": {
+  "huella": "17069043a2fcdd85",
+  "motivo": "no es perfil (1.02)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/adidas/adidas-running-blanco-azul.jpg": {
+  "huella": "aac0c9f667caea02",
+  "motivo": "perfil 1.51",
+  "recorte": true
+ },
+ "/catalogo/sneakers/adidas/adidas-samba-flower.jpg": {
+  "huella": "f6dbfa4c2b6858f3",
+  "motivo": "no es perfil (0.76), no es perfil (0.79)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/adidas/adidas-samba-og.webp": {
+  "huella": "acfff9a967999c9b",
+  "motivo": "par separado",
+  "recorte": true
+ },
+ "/catalogo/sneakers/adidas/adidas-samba-xl-negro.jpg": {
+  "huella": "e37487ac602f7701",
+  "motivo": "cortado por el borde",
+  "recorte": false
+ },
+ "/catalogo/sneakers/adidas/adidas-sikaige.jpg": {
+  "huella": "11fd8950455e78d7",
+  "motivo": "no es perfil (1.24)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/adidas/adidas-sl-72-brown.jpg": {
+  "huella": "b41ed0ebb3a6067c",
+  "motivo": "cortado por el borde",
+  "recorte": false
+ },
+ "/catalogo/sneakers/adidas/adidas-sl-72-red.jpg": {
+  "huella": "f8506dc118fb9dc4",
+  "motivo": "cortado por el borde",
+  "recorte": false
+ },
+ "/catalogo/sneakers/adidas/adidas-spezial-olive-green.jpg": {
+  "huella": "b45996958a41446c",
+  "motivo": "perfil 1.83",
+  "recorte": true
+ },
+ "/catalogo/sneakers/adidas/adidas-spezial.jpg": {
+  "huella": "ed5949798062e470",
+  "motivo": "no es perfil (0.84)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/adidas/adidas-stan-smith-azul.jpg": {
+  "huella": "d5f941161fb2dde0",
+  "motivo": "cortado por el borde",
+  "recorte": false
+ },
+ "/catalogo/sneakers/adidas/adidas-stan-smith-negro.jpg": {
+  "huella": "24da84a8e68c87b1",
+  "motivo": "cortado por el borde",
+  "recorte": false
+ },
+ "/catalogo/sneakers/adidas/adidas-stan-smith-verde.jpg": {
+  "huella": "b32ff3a6b16f08b3",
+  "motivo": "cortado por el borde",
+  "recorte": false
+ },
+ "/catalogo/sneakers/adidas/adidas-superstar-blanco-gris-trebol.jpg": {
+  "huella": "f9aa8c26772494f7",
+  "motivo": "no es perfil (0.94)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/adidas/adidas-superstar-core-black.jpg": {
+  "huella": "4146f0a35b54dbf3",
+  "motivo": "perfil 1.91",
+  "recorte": true
+ },
+ "/catalogo/sneakers/adidas/adidas-superstar-rainbow.jpg": {
+  "huella": "f3cc694265a9de6a",
+  "motivo": "cortado por el borde",
+  "recorte": false
+ },
+ "/catalogo/sneakers/adidas/adidas-superstar-reflectivo.jpg": {
+  "huella": "08ff770b4001e55a",
+  "motivo": "no es perfil (1.10)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/adidas/adidas-superstar-triple-black.jpg": {
+  "huella": "9b777a97a0d28d9d",
+  "motivo": "cortado por el borde",
+  "recorte": false
+ },
+ "/catalogo/sneakers/adidas/adidas-superstar-triple-white.jpg": {
+  "huella": "e1ccad0d6996a5da",
+  "motivo": "cortado por el borde",
+  "recorte": false
+ },
+ "/catalogo/sneakers/adidas/adidas-superstar-white-black.jpg": {
+  "huella": "7864ae4052686e58",
+  "motivo": "no es perfil (0.85)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/adidas/adidas-superstar-x-blessd.jpg": {
+  "huella": "7ca50c73f74ffd65",
+  "motivo": "no es perfil (1.21)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/adidas/adidas-ultraboost-core-black.jpg": {
+  "huella": "0c66ce5f31c9929e",
+  "motivo": "perfil 1.86",
+  "recorte": true
+ },
+ "/catalogo/sneakers/adidas/adidas-ultraboost.jpg": {
+  "huella": "c5804265f59e2fdd",
+  "motivo": "no es perfil (0.81), no es perfil (1.20)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/adidas/hombre/adidas-adistar-cs-negro-verde.jpg": {
+  "huella": "e37cb3d4b7c15943",
+  "motivo": "par separado",
+  "recorte": true
+ },
+ "/catalogo/sneakers/adidas/hombre/adidas-dreastrike-glow-blanco-navy-rojo.jpg": {
+  "huella": "d04a0eafd72437b8",
+  "motivo": "no es perfil (1.09)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/adidas/hombre/adidas-dreastrike-glow-blanco-negro.jpg": {
+  "huella": "5592b00f8367a144",
+  "motivo": "no es perfil (1.29)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/adidas/hombre/adidas-dreastrike-glow-crema-negro-rojo.jpg": {
+  "huella": "1acef6f0a0593197",
+  "motivo": "perfil 1.70",
+  "recorte": true
+ },
+ "/catalogo/sneakers/adidas/hombre/adidas-dreastrike-glow-navy-blanco.jpg": {
+  "huella": "d286cabd2dbcb187",
+  "motivo": "no es perfil (1.07)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/adidas/hombre/adidas-dreastrike-glow-negro-blanco-rojo.jpg": {
+  "huella": "f762046d44708718",
+  "motivo": "no es perfil (1.35)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/adidas/hombre/adidas-dreastrike-glow-negro-blanco.jpg": {
+  "huella": "8dfbbfb135a355df",
+  "motivo": "no es perfil (1.28)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/adidas/hombre/adidas-supernova-ease-2-blanco-azul.jpg": {
+  "huella": "d173677f634c867e",
+  "motivo": "perfil 1.62",
+  "recorte": true
+ },
+ "/catalogo/sneakers/adidas/hombre/adidas-supernova-ease-2-negro-blanco.jpg": {
+  "huella": "3f08d7e6e769178f",
+  "motivo": "perfil 1.76",
+  "recorte": true
+ },
+ "/catalogo/sneakers/adidas/hombre/adidas-supernova-ease-2-negro-coral.jpg": {
+  "huella": "4d268303858e25a5",
+  "motivo": "perfil 1.70",
+  "recorte": true
+ },
+ "/catalogo/sneakers/adidas/hombre/adidas-supernova-rise-3-blanco-azul.jpg": {
+  "huella": "a6bcddcd1fd72424",
+  "motivo": "cortado por el borde, no es perfil (1.02)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/adidas/hombre/adidas-supernova-rise-3-blanco-crema.jpg": {
+  "huella": "7af34b038f05db81",
+  "motivo": "no es perfil (1.36)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/adidas/hombre/adidas-supernova-rise-3-blanco-degradado.jpg": {
+  "huella": "fae4688edba79f5c",
+  "motivo": "perfil 1.50",
+  "recorte": true
+ },
+ "/catalogo/sneakers/adidas/hombre/adidas-supernova-rise-3-blanco-dorado.jpg": {
+  "huella": "b57bacfd5cf359aa",
+  "motivo": "perfil 1.62",
+  "recorte": true
+ },
+ "/catalogo/sneakers/adidas/hombre/adidas-supernova-rise-3-blanco-talon-negro.jpg": {
+  "huella": "24deb4396ddb6088",
+  "motivo": "cortado por el borde",
+  "recorte": false
+ },
+ "/catalogo/sneakers/adidas/hombre/adidas-supernova-rise-3-negro.jpg": {
+  "huella": "3fba77905fdf0ede",
+  "motivo": "perfil 1.57",
+  "recorte": true
+ },
+ "/catalogo/sneakers/adidas/hombre/adidas-superstar-blanco-azul.jpg": {
+  "huella": "20615c7e68b4778b",
+  "motivo": "no es perfil (0.93)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/adidas/hombre/adidas-superstar-gris-estampado.jpg": {
+  "huella": "0028be2541abfa3f",
+  "motivo": "no es perfil (0.81)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/adidas/hombre/adidas-superstar-negro-cafe.jpg": {
+  "huella": "1d12d4ffcce98fce",
+  "motivo": "no es perfil (1.02)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/adidas/hombre/adidas-superstar-negro-puntera-blanca.jpg": {
+  "huella": "443d152bfadf6254",
+  "motivo": "cortado por el borde",
+  "recorte": false
+ },
+ "/catalogo/sneakers/adidas/hombre/adidas-superstar-x-neighborhood-gris.jpg": {
+  "huella": "79fe4f3ba2291c2a",
+  "motivo": "no es perfil (0.98)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/adidas/mujer/adidas-advantage-triple-blanco.jpg": {
+  "huella": "3844febdb895e964",
+  "motivo": "cortado por el borde, no es perfil (1.13)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/adidas/mujer/adidas-campus-00s-beige.jpg": {
+  "huella": "7b5a84e58c393a84",
+  "motivo": "no es perfil (0.67)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/adidas/mujer/adidas-campus-00s-x-lego.jpg": {
+  "huella": "682eb0e239357ee9",
+  "motivo": "cortado por el borde",
+  "recorte": false
+ },
+ "/catalogo/sneakers/adidas/mujer/adidas-dreastrike-glow-negro-rosado.jpg": {
+  "huella": "0239672d759be0c3",
+  "motivo": "no es perfil (1.31)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/adidas/mujer/adidas-dreastrike-glow-rosado-blanco.jpg": {
+  "huella": "5842c3a324115f13",
+  "motivo": "no es perfil (1.37)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/adidas/mujer/adidas-samba-beige-rosado.jpg": {
+  "huella": "335a88acb00a3314",
+  "motivo": "perfil 1.62",
+  "recorte": true
+ },
+ "/catalogo/sneakers/adidas/mujer/adidas-samba-cafe-chocolate.jpg": {
+  "huella": "d4930d4061a0401f",
+  "motivo": "perfil 1.60",
+  "recorte": true
+ },
+ "/catalogo/sneakers/adidas/mujer/adidas-samba-crema-taupe.jpg": {
+  "huella": "e3957768840082d7",
+  "motivo": "perfil 1.58",
+  "recorte": true
+ },
+ "/catalogo/sneakers/adidas/mujer/adidas-samba-og-crema-iridiscente.jpg": {
+  "huella": "ea81b71af5fbeca0",
+  "motivo": "cortado por el borde",
+  "recorte": false
+ },
+ "/catalogo/sneakers/adidas/mujer/adidas-samba-og-vino.jpg": {
+  "huella": "8db9e186cb5b6c17",
+  "motivo": "perfil 1.60",
+  "recorte": true
+ },
+ "/catalogo/sneakers/adidas/mujer/adidas-spezial-crema-azul-claro.jpg": {
+  "huella": "ce18b420d651bd2f",
+  "motivo": "cortado por el borde",
+  "recorte": false
+ },
+ "/catalogo/sneakers/adidas/mujer/adidas-spezial-lila.jpg": {
+  "huella": "129f07f54d8bf0f5",
+  "motivo": "cortado por el borde",
+  "recorte": false
+ },
+ "/catalogo/sneakers/adidas/mujer/adidas-spezial-negro-leopardo.jpg": {
+  "huella": "0e99d19ab0207cca",
+  "motivo": "cortado por el borde",
+  "recorte": false
+ },
+ "/catalogo/sneakers/adidas/mujer/adidas-spezial-verde-oliva-lila.jpg": {
+  "huella": "167c7c00af7d7683",
+  "motivo": "cortado por el borde",
+  "recorte": false
+ },
+ "/catalogo/sneakers/adidas/mujer/adidas-superstar-azul-cielo.jpg": {
+  "huella": "7c99e1482fe2fd4b",
+  "motivo": "perfil 1.57",
+  "recorte": true
+ },
+ "/catalogo/sneakers/adidas/mujer/adidas-superstar-blanco-rosado.jpg": {
+  "huella": "aa46d70b301e1b49",
+  "motivo": "no es perfil (0.48), no es perfil (1.26)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/adidas/mujer/adidas-superstar-crema-negro.jpg": {
+  "huella": "04225e3edaec5999",
+  "motivo": "no es perfil (1.14)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/adidas/mujer/adidas-superstar-x-andre-saraiva-crema.jpg": {
+  "huella": "008232523e91097b",
+  "motivo": "no es perfil (0.83)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/adidas/mujer/adidas-tresc-run-blanco-morado.jpg": {
+  "huella": "8d2e5f88c40884ee",
+  "motivo": "cortado por el borde",
+  "recorte": false
+ },
+ "/catalogo/sneakers/calvin-klein/calvin-klein-carlla.jpg": {
+  "huella": "e1ab941213aad578",
+  "motivo": "perfil 1.55",
+  "recorte": true
+ },
+ "/catalogo/sneakers/calvin-klein/calvin-klein-jeans-negro.jpg": {
+  "huella": "18e2218b3b5beaee",
+  "motivo": "no es perfil (1.16)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/hugo-boss/boss-black-pillow.jpg": {
+  "huella": "4d81752f05a7dfd7",
+  "motivo": "no es perfil (0.63)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/hugo-boss/boss-master-gris.jpg": {
+  "huella": "6ae9144ce540a4ff",
+  "motivo": "no es perfil (1.28)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/hugo-boss/hombre/hugo-boss-monograma-azul.jpg": {
+  "huella": "2018e6be74332cf3",
+  "motivo": "no es perfil (0.88)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/hugo-boss/hombre/hugo-boss-monograma-negro-oro.jpg": {
+  "huella": "049cb36857f50a78",
+  "motivo": "no es perfil (0.93)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/hugo-boss/hombre/hugo-boss-monograma-negro-plata.jpg": {
+  "huella": "47c87b3ec8ee313f",
+  "motivo": "no es perfil (0.92)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/hugo-boss/hombre/hugo-boss-runn-blanco-hielo.jpg": {
+  "huella": "c2e5feb965d25b7d",
+  "motivo": "cortado por el borde, no es perfil (1.26)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/hugo-boss/hombre/hugo-boss-runn-blanco-verde.jpg": {
+  "huella": "4898ae656f0e4a9b",
+  "motivo": "no es perfil (1.27)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/hugo-boss/hombre/hugo-boss-runn-taupe.jpg": {
+  "huella": "18e990b37178444e",
+  "motivo": "cortado por el borde, no es perfil (1.41)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/hugo-boss/hombre/hugo-boss-runner-gamuza-gris.jpg": {
+  "huella": "45932f3c6c6ebc09",
+  "motivo": "no es perfil (1.43)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/hugo-boss/hombre/hugo-boss-runner-gamuza-negro-gum.jpg": {
+  "huella": "4f54104c4050c93b",
+  "motivo": "no es perfil (0.92)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/hugo-boss/hombre/hugo-boss-runner-gamuza-negro.jpg": {
+  "huella": "460a6c4059df6331",
+  "motivo": "no es perfil (1.07)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/hugo-boss/hombre/hugo-boss-ttnm-evo-azul-navy.jpg": {
+  "huella": "ff350e1f44116caa",
+  "motivo": "perfil 1.67",
+  "recorte": true
+ },
+ "/catalogo/sneakers/hugo-boss/hombre/hugo-boss-ttnm-evo-blanco.jpg": {
+  "huella": "e6c6dc6692153d3a",
+  "motivo": "perfil 1.57",
+  "recorte": true
+ },
+ "/catalogo/sneakers/hugo-boss/hombre/hugo-boss-ttnm-evo-camel.jpg": {
+  "huella": "97aa6843dee9d937",
+  "motivo": "perfil 1.54",
+  "recorte": true
+ },
+ "/catalogo/sneakers/hugo-boss/hombre/hugo-boss-ttnm-evo-gris.jpg": {
+  "huella": "f7b48b0b8ae0fe5c",
+  "motivo": "perfil 1.71",
+  "recorte": true
+ },
+ "/catalogo/sneakers/hugo-boss/hombre/hugo-boss-ttnm-evo-knit-crema.jpg": {
+  "huella": "d5d66fb3f422f1bb",
+  "motivo": "perfil 1.84",
+  "recorte": true
+ },
+ "/catalogo/sneakers/hugo-boss/hombre/hugo-boss-ttnm-evo-knit-gris-hielo.jpg": {
+  "huella": "873a9f9e86910941",
+  "motivo": "perfil 1.83",
+  "recorte": true
+ },
+ "/catalogo/sneakers/hugo-boss/hombre/hugo-boss-ttnm-evo-knit-navy.jpg": {
+  "huella": "c6c4772b445ee578",
+  "motivo": "perfil 1.89",
+  "recorte": true
+ },
+ "/catalogo/sneakers/hugo-boss/hombre/hugo-boss-ttnm-evo-negro-gum.jpg": {
+  "huella": "e3c3ea7c628d3311",
+  "motivo": "perfil 1.58",
+  "recorte": true
+ },
+ "/catalogo/sneakers/hugo-boss/hugo-boss-classic.jpg": {
+  "huella": "871f3612637b2bdc",
+  "motivo": "no es perfil (0.83)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/jordan/hombre/jordan-1-low-gris-azul.jpg": {
+  "huella": "58b46c3e5d85a0a5",
+  "motivo": "no es perfil (1.39)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/jordan/hombre/jordan-11-retro-cool-grey.jpg": {
+  "huella": "bd849f08354037df",
+  "motivo": "par separado",
+  "recorte": true
+ },
+ "/catalogo/sneakers/jordan/hombre/jordan-11-retro-gamma-blue.jpg": {
+  "huella": "e174eba6f6ea3482",
+  "motivo": "no es perfil (0.96)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/jordan/hombre/jordan-11-retro-low-72-10.jpg": {
+  "huella": "c407a4a77b921d9f",
+  "motivo": "no es perfil (1.13)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/jordan/hombre/jordan-11-retro-low-bred.jpg": {
+  "huella": "c3788098ee60f8e8",
+  "motivo": "no es perfil (0.56), no es perfil (0.59)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/jordan/hombre/jordan-11-retro-low-concord.jpg": {
+  "huella": "0eac09cfa95ed929",
+  "motivo": "no es perfil (1.11)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/jordan/hombre/jordan-11-retro-low-cool-grey.jpg": {
+  "huella": "cc17f85cfef256b3",
+  "motivo": "no es perfil (1.03)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/jordan/hombre/jordan-11-retro-low-legend-blue.jpg": {
+  "huella": "56910c21257da78e",
+  "motivo": "cortado por el borde",
+  "recorte": false
+ },
+ "/catalogo/sneakers/jordan/hombre/jordan-11-retro-space-jam.jpg": {
+  "huella": "234c20f1a88163fc",
+  "motivo": "no es perfil (0.74), no es perfil (0.98)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/jordan/hombre/jordan-13-retro-black-flint.jpg": {
+  "huella": "193a0bf091b88182",
+  "motivo": "no es perfil (1.41)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/jordan/hombre/jordan-13-retro-flint.jpg": {
+  "huella": "04bf87cfadacb10f",
+  "motivo": "no es perfil (1.39)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/jordan/hombre/jordan-13-retro-wolf-grey.jpg": {
+  "huella": "1421eda29b070d0c",
+  "motivo": "no es perfil (0.95), no es perfil (1.14)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/jordan/hombre/jordan-5-retro-light-graphite.jpg": {
+  "huella": "2c76d4ed5ec19d7b",
+  "motivo": "no es perfil (1.01)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/jordan/hombre/jordan-5-retro-metallic-black.jpg": {
+  "huella": "b836566f0ce08b40",
+  "motivo": "no es perfil (0.99), no es perfil (1.01)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/jordan/hombre/jordan-5-retro-oreo.jpg": {
+  "huella": "10056e3619f1df27",
+  "motivo": "perfil 1.47",
+  "recorte": true
+ },
+ "/catalogo/sneakers/jordan/hombre/jordan-5-retro-raging-bull.jpg": {
+  "huella": "7bbe256a9e1d0e85",
+  "motivo": "no es perfil (1.06)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/jordan/hombre/jordan-5-retro-unc.jpg": {
+  "huella": "8b890364192df1a5",
+  "motivo": "no es perfil (1.09)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/jordan/hombre/jordan-5-retro-wolf-grey.jpg": {
+  "huella": "99680e75ca80dfe4",
+  "motivo": "no es perfil (0.47), no es perfil (0.64)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/jordan/jordan-1-low-morado-rosado.jpg": {
+  "huella": "ec126a80d06bc4a6",
+  "motivo": "cortado por el borde",
+  "recorte": false
+ },
+ "/catalogo/sneakers/jordan/jordan-1-low-paris-negro.jpeg": {
+  "huella": "e4b012e1bf8f898d",
+  "motivo": "no es perfil (1.13)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/jordan/jordan-1-low-pastel.jpg": {
+  "huella": "65052a2c789c39fc",
+  "motivo": "perfil 1.73",
+  "recorte": true
+ },
+ "/catalogo/sneakers/jordan/jordan-1-low-patent-bred.jpg": {
+  "huella": "b3435e6179d24bd1",
+  "motivo": "perfil 1.65",
+  "recorte": true
+ },
+ "/catalogo/sneakers/jordan/jordan-1-low-triple-white.jpg": {
+  "huella": "d409af169a34761a",
+  "motivo": "perfil 1.50",
+  "recorte": true
+ },
+ "/catalogo/sneakers/jordan/jordan-1-low-x-stussy-x-supreme.jpg": {
+  "huella": "49ee37567261a84f",
+  "motivo": "no es perfil (1.15)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/jordan/jordan-1-low-x-swarovski-gris.jpg": {
+  "huella": "7c1f8dc304eee68b",
+  "motivo": "no es perfil (1.13)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/jordan/jordan-1-low-x-swarovski-negro.jpg": {
+  "huella": "6b0b9b5c89e6c391",
+  "motivo": "no es perfil (1.09)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/jordan/jordan-1-mid-azul-rey.jpg": {
+  "huella": "786e5e2e904cf0fd",
+  "motivo": "cortado por el borde, no es perfil (1.40)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/jordan/jordan-1-mid-banned.jpg": {
+  "huella": "5e0c71808bbde5cd",
+  "motivo": "cortado por el borde",
+  "recorte": false
+ },
+ "/catalogo/sneakers/jordan/jordan-1-mid-blanco-azul-rojo.jpg": {
+  "huella": "d6561bd7f0634536",
+  "motivo": "no es perfil (1.18)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/jordan/jordan-1-mid-blanco-negro.jpg": {
+  "huella": "43efbcf23675c813",
+  "motivo": "cortado por el borde",
+  "recorte": false
+ },
+ "/catalogo/sneakers/jordan/jordan-1-mid-carbon-fiber.jpg": {
+  "huella": "1b46394a7c577d0d",
+  "motivo": "no es perfil (1.20), no es perfil (1.30)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/jordan/jordan-1-mid-charol-hielo.jpg": {
+  "huella": "de2fb20684c80605",
+  "motivo": "perfil 1.45",
+  "recorte": true
+ },
+ "/catalogo/sneakers/jordan/jordan-1-mid-charol-negro-concord.jpg": {
+  "huella": "246dd8c367acb040",
+  "motivo": "no es perfil (1.05)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/jordan/jordan-1-mid-charol-negro.jpg": {
+  "huella": "de344a813e1519cb",
+  "motivo": "cortado por el borde, no es perfil (1.35)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/jordan/jordan-1-mid-chicago-black-toe.jpg": {
+  "huella": "54ce4e6bac47beb8",
+  "motivo": "perfil 1.60",
+  "recorte": true
+ },
+ "/catalogo/sneakers/jordan/jordan-1-mid-gold-toe.jpg": {
+  "huella": "3f1731ffdd456aa9",
+  "motivo": "no es perfil (1.06)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/jordan/jordan-1-mid-light-smoke-grey.jpg": {
+  "huella": "634d129edae907ad",
+  "motivo": "cortado por el borde",
+  "recorte": false
+ },
+ "/catalogo/sneakers/jordan/jordan-1-mid-multicolor-navy.jpg": {
+  "huella": "93f28fc3544731f6",
+  "motivo": "perfil 1.54",
+  "recorte": true
+ },
+ "/catalogo/sneakers/jordan/jordan-1-mid-multicolor.jpg": {
+  "huella": "2a3e1d718fe4dd1b",
+  "motivo": "cortado por el borde, no es perfil (1.40)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/jordan/jordan-1-mid-negro-fucsia.jpg": {
+  "huella": "9b52996b5ecbb471",
+  "motivo": "perfil 1.50",
+  "recorte": true
+ },
+ "/catalogo/sneakers/jordan/jordan-1-mid-panda.jpg": {
+  "huella": "05bd472f3bd93a43",
+  "motivo": "no es perfil (1.36)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/jordan/jordan-1-mid-pollen.jpg": {
+  "huella": "142ae589cbcdd623",
+  "motivo": "cortado por el borde, no es perfil (1.29)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/jordan/jordan-1-mid-rojo-metalico.jpg": {
+  "huella": "edaec18c76c20570",
+  "motivo": "no es perfil (0.96)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/jordan/jordan-1-mid-unc.jpg": {
+  "huella": "49f6d6e09d0ba2d7",
+  "motivo": "cortado por el borde, no es perfil (1.33)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/jordan/jordan-1-mid-vino-negro.jpg": {
+  "huella": "2a81a60eac16496c",
+  "motivo": "no es perfil (1.10)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/jordan/jordan-1-retro-high-85-black-white.jpg": {
+  "huella": "b7b624c04b37e1a4",
+  "motivo": "perfil 1.56",
+  "recorte": true
+ },
+ "/catalogo/sneakers/jordan/jordan-1-retro-high-85-og-satin-bred.jpg": {
+  "huella": "ec30b69e80d90bcf",
+  "motivo": "perfil 1.77",
+  "recorte": true
+ },
+ "/catalogo/sneakers/jordan/jordan-1-retro-high-charol-negro-fucsia.jpg": {
+  "huella": "ec58c11bacf529bf",
+  "motivo": "no es perfil (1.12)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/jordan/jordan-1-retro-high-charol-negro.jpg": {
+  "huella": "f06df74d08c6225e",
+  "motivo": "cortado por el borde, no es perfil (1.31)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/jordan/jordan-1-retro-high-chicago.jpg": {
+  "huella": "90f806753daece89",
+  "motivo": "no es perfil (1.25), no es perfil (1.39)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/jordan/jordan-1-retro-high-denim.jpg": {
+  "huella": "aca840835246df23",
+  "motivo": "no es perfil (1.27)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/jordan/jordan-1-retro-high-golden-swoosh.jpg": {
+  "huella": "980d5a2bd3873d91",
+  "motivo": "no es perfil (0.85)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/jordan/jordan-1-retro-high-obsidian.jpg": {
+  "huella": "66b6fcbfc74f3423",
+  "motivo": "no es perfil (0.79)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/jordan/jordan-1-retro-high-og-black-white.jpg": {
+  "huella": "8b16a146815288db",
+  "motivo": "cortado por el borde",
+  "recorte": false
+ },
+ "/catalogo/sneakers/jordan/jordan-1-retro-high-og-blanco-rojo.jpg": {
+  "huella": "8a5d6793258eff6b",
+  "motivo": "no es perfil (0.87)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/jordan/jordan-1-retro-high-og-gorge-green.jpg": {
+  "huella": "2e2eddc4397b1fdb",
+  "motivo": "cortado por el borde",
+  "recorte": false
+ },
+ "/catalogo/sneakers/jordan/jordan-1-retro-high-og-lucky-green.jpg": {
+  "huella": "6e8ec20d5fba13a3",
+  "motivo": "cortado por el borde, no es perfil (1.27)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/jordan/jordan-1-retro-high-og-obsidian-unc.jpg": {
+  "huella": "4467d64cdd2efa18",
+  "motivo": "perfil 1.71",
+  "recorte": true
+ },
+ "/catalogo/sneakers/jordan/jordan-1-retro-high-og-patent-bred.jpg": {
+  "huella": "9d61986e44d521ba",
+  "motivo": "perfil 1.73",
+  "recorte": true
+ },
+ "/catalogo/sneakers/jordan/jordan-1-retro-high-og-unc-toe.jpg": {
+  "huella": "3770a1c604767404",
+  "motivo": "perfil 1.93",
+  "recorte": true
+ },
+ "/catalogo/sneakers/jordan/jordan-1-retro-high-og-washed-pink.jpg": {
+  "huella": "8d766d6ef1dc3eea",
+  "motivo": "perfil 1.55",
+  "recorte": true
+ },
+ "/catalogo/sneakers/jordan/jordan-1-retro-high-rojo-satin.jpg": {
+  "huella": "d4c731012bc62443",
+  "motivo": "no es perfil (1.07)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/jordan/jordan-1-retro-high-university-blue.jpg": {
+  "huella": "358ca3aa3ef1f2e3",
+  "motivo": "perfil 1.83",
+  "recorte": true
+ },
+ "/catalogo/sneakers/jordan/jordan-1-retro-high-x-travis-scott-negro.jpg": {
+  "huella": "872675b2ed50f55e",
+  "motivo": "no es perfil (0.88)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/jordan/jordan-1-retro-light-pink.jpeg": {
+  "huella": "598bf5050105f2d1",
+  "motivo": "cortado por el borde",
+  "recorte": false
+ },
+ "/catalogo/sneakers/jordan/jordan-1-retro-watermelon.jpeg": {
+  "huella": "fcd5a2ae010e6b65",
+  "motivo": "cortado por el borde",
+  "recorte": false
+ },
+ "/catalogo/sneakers/jordan/jordan-1-retro-x-dior.jpg": {
+  "huella": "612e1fa07c67f44c",
+  "motivo": "no es perfil (0.82)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/jordan/jordan-1-triple-red.jpeg": {
+  "huella": "3693b0cd4523bef9",
+  "motivo": "cortado por el borde",
+  "recorte": false
+ },
+ "/catalogo/sneakers/jordan/jordan-1-zoom-cmft-pastel.jpg": {
+  "huella": "f79b4b2597175b9b",
+  "motivo": "no es perfil (0.76), no es perfil (1.45)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/jordan/jordan-11-retro-black-concord.jpg": {
+  "huella": "2ec080006877d6c7",
+  "motivo": "no es perfil (0.78)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/jordan/jordan-11-retro-concord.jpg": {
+  "huella": "a108998aefd418ac",
+  "motivo": "perfil 1.72",
+  "recorte": true
+ },
+ "/catalogo/sneakers/jordan/jordan-11-retro-low-concord-bred.jpg": {
+  "huella": "86674b96eababb40",
+  "motivo": "perfil 1.96",
+  "recorte": true
+ },
+ "/catalogo/sneakers/jordan/jordan-11-retro-playoffs-bred.jpg": {
+  "huella": "b095c8024a945fe8",
+  "motivo": "perfil 1.85",
+  "recorte": true
+ },
+ "/catalogo/sneakers/jordan/jordan-3-retro-black-cement.jpg": {
+  "huella": "787b5c51c00f62ca",
+  "motivo": "perfil 1.85",
+  "recorte": true
+ },
+ "/catalogo/sneakers/jordan/jordan-3-retro-fire-red.jpg": {
+  "huella": "75ae13d65036f902",
+  "motivo": "perfil 1.86",
+  "recorte": true
+ },
+ "/catalogo/sneakers/jordan/jordan-3-retro-unc.jpg": {
+  "huella": "2f1644e2218a3509",
+  "motivo": "perfil 1.87",
+  "recorte": true
+ },
+ "/catalogo/sneakers/jordan/jordan-3-retro-x-fragment.jpg": {
+  "huella": "e7728ebae881ddbe",
+  "motivo": "perfil 1.86",
+  "recorte": true
+ },
+ "/catalogo/sneakers/jordan/jordan-3-retro-x-travis-scott-negro.jpg": {
+  "huella": "c5e2ba3eea9df0eb",
+  "motivo": "no es perfil (0.95)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/jordan/jordan-3-retro-year-of-the-tiger.jpg": {
+  "huella": "b2dde3542e13c39f",
+  "motivo": "perfil 1.73",
+  "recorte": true
+ },
+ "/catalogo/sneakers/jordan/jordan-3-x-j-balvin-rio.jpg": {
+  "huella": "0032890d35dea919",
+  "motivo": "perfil 1.89",
+  "recorte": true
+ },
+ "/catalogo/sneakers/jordan/jordan-4-retro-black-cat_3.jpg": {
+  "huella": "889219c5a2a3d2c9",
+  "motivo": "no es perfil (1.23)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/jordan/jordan-4-retro-bred.jpg": {
+  "huella": "8e6949c364a8f1e3",
+  "motivo": "perfil 1.73",
+  "recorte": true
+ },
+ "/catalogo/sneakers/jordan/jordan-4-retro-court-purple.jpg": {
+  "huella": "c7d0603bbe350ccc",
+  "motivo": "cortado por el borde",
+  "recorte": false
+ },
+ "/catalogo/sneakers/jordan/jordan-4-retro-orchid.jpg": {
+  "huella": "f6ce9816eba4d3f6",
+  "motivo": "cortado por el borde, no es perfil (1.38)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/jordan/jordan-4-retro-sb-pine-green.jpg": {
+  "huella": "a28c65a6bb5c0150",
+  "motivo": "perfil 1.96",
+  "recorte": true
+ },
+ "/catalogo/sneakers/jordan/jordan-4-retro-triple-brown.jpg": {
+  "huella": "e94025fc1a11179a",
+  "motivo": "no es perfil (1.12)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/jordan/jordan-4-retro-white-oreo.jpg": {
+  "huella": "98b5ececbfbb3607",
+  "motivo": "cortado por el borde, no es perfil (1.38)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/jordan/jordan-4-retro-white-thunder.jpg": {
+  "huella": "1a92b8bd9950e99d",
+  "motivo": "perfil 1.54",
+  "recorte": true
+ },
+ "/catalogo/sneakers/jordan/jordan-4-retro-x-off-white-sail.jpg": {
+  "huella": "fafcc7238000f8b0",
+  "motivo": "perfil 1.83",
+  "recorte": true
+ },
+ "/catalogo/sneakers/jordan/jordan-4-retro-x-union-guava-ice.jpg": {
+  "huella": "a8b5e2b4d1ab4aa4",
+  "motivo": "perfil 2.06",
+  "recorte": true
+ },
+ "/catalogo/sneakers/jordan/jordan-6-retro-infrared-white.jpg": {
+  "huella": "438e8a2e7b702bb7",
+  "motivo": "perfil 1.54",
+  "recorte": true
+ },
+ "/catalogo/sneakers/jordan/jordan-legacy-312-blanco-rosado.jpeg": {
+  "huella": "ec2e5dbfee91dcde",
+  "motivo": "cortado por el borde",
+  "recorte": false
+ },
+ "/catalogo/sneakers/jordan/mujer/jordan-1-low-rosa-mocha.jpg": {
+  "huella": "d1d99baacb008c8b",
+  "motivo": "cortado por el borde",
+  "recorte": false
+ },
+ "/catalogo/sneakers/jordan/mujer/jordan-4-retro-negro-fucsia.jpg": {
+  "huella": "535ecd7c1dbd4a49",
+  "motivo": "cortado por el borde",
+  "recorte": false
+ },
+ "/catalogo/sneakers/jordan/mujer/jordan-5-retro-pinksicle.jpg": {
+  "huella": "41db759a2117eb67",
+  "motivo": "no es perfil (1.32)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/louis-vuitton/hombre/louis-vuitton-skate-cuero-azul-royal.jpg": {
+  "huella": "3e0a5a892b19dcca",
+  "motivo": "no es perfil (1.30)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/louis-vuitton/hombre/louis-vuitton-skate-cuero-blanco-gris.jpg": {
+  "huella": "ce7d26ba877194ba",
+  "motivo": "no es perfil (1.32)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/louis-vuitton/hombre/louis-vuitton-skate-cuero-crema.jpg": {
+  "huella": "e6eab31069e44456",
+  "motivo": "no es perfil (1.29)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/louis-vuitton/hombre/louis-vuitton-trainer-denim-negro.jpg": {
+  "huella": "54db1e8c044b196d",
+  "motivo": "no es perfil (1.08)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/louis-vuitton/hombre/louis-vuitton-trainer-mid-negro.jpg": {
+  "huella": "f37ba94c0b0255e7",
+  "motivo": "cortado por el borde",
+  "recorte": false
+ },
+ "/catalogo/sneakers/louis-vuitton/louis-vuitton-skate-azul-blanco.jpg": {
+  "huella": "403398e9c52b013d",
+  "motivo": "no es perfil (1.27)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/louis-vuitton/louis-vuitton-skate-blanco-beige.jpg": {
+  "huella": "4cf6a51e08c81ce9",
+  "motivo": "no es perfil (1.30)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/louis-vuitton/louis-vuitton-skate-blanco-gris.jpg": {
+  "huella": "c1c43af789087dc7",
+  "motivo": "perfil 1.89",
+  "recorte": true
+ },
+ "/catalogo/sneakers/louis-vuitton/louis-vuitton-skate-negro-monogram.jpg": {
+  "huella": "0291350863705f40",
+  "motivo": "no es perfil (1.42)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/louis-vuitton/louis-vuitton-skate-rojo.jpg": {
+  "huella": "ebcbc5c766688dda",
+  "motivo": "perfil 1.96",
+  "recorte": true
+ },
+ "/catalogo/sneakers/louis-vuitton/louis-vuitton-skate-triple-blanco.jpg": {
+  "huella": "38f99ef90dab7335",
+  "motivo": "no es perfil (1.03)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/louis-vuitton/louis-vuitton-skate-triple-negro.jpg": {
+  "huella": "390107a2164ee6dc",
+  "motivo": "no es perfil (1.43)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/louis-vuitton/louis-vuitton-skate-verde.jpg": {
+  "huella": "a5d3cd70d6d2efa7",
+  "motivo": "perfil 1.84",
+  "recorte": true
+ },
+ "/catalogo/sneakers/louis-vuitton/louis-vuitton-trainer-blanco-negro.jpg": {
+  "huella": "e287ad51fb599f8b",
+  "motivo": "no es perfil (0.93)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/louis-vuitton/louis-vuitton-trainer-denim-monogram.jpg": {
+  "huella": "4c17f185cf8f3d7e",
+  "motivo": "perfil 2.09",
+  "recorte": true
+ },
+ "/catalogo/sneakers/louis-vuitton/louis-vuitton-trainer-negro.jpg": {
+  "huella": "66570d584d9507a0",
+  "motivo": "no es perfil (0.85)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/new-balance/hombre/new-balance-1906a-verde-oliva.jpg": {
+  "huella": "0c8544aacf54db92",
+  "motivo": "no es perfil (1.29)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/new-balance/hombre/new-balance-1906r-negro.jpg": {
+  "huella": "bd53674a3be51ce2",
+  "motivo": "no es perfil (0.81)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/new-balance/hombre/new-balance-9060-gris-cafe.jpg": {
+  "huella": "37db1ae653e59805",
+  "motivo": "perfil 1.63",
+  "recorte": true
+ },
+ "/catalogo/sneakers/new-balance/hombre/new-balance-997-negro-blanco.jpg": {
+  "huella": "417b0fd99411b984",
+  "motivo": "no es perfil (1.41)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/new-balance/hombre/new-balance-997-triple-negro.jpg": {
+  "huella": "a8d03426938d7bbf",
+  "motivo": "perfil 1.52",
+  "recorte": true
+ },
+ "/catalogo/sneakers/new-balance/mujer/new-balance-530-blanco-morado.jpg": {
+  "huella": "d81fd3536cf9ee75",
+  "motivo": "cortado por el borde",
+  "recorte": false
+ },
+ "/catalogo/sneakers/new-balance/mujer/new-balance-530-rosa-verde.jpg": {
+  "huella": "34e01f13dda17981",
+  "motivo": "cortado por el borde, no es perfil (1.40)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/new-balance/mujer/new-balance-9060-blanco-navy.jpg": {
+  "huella": "8a3de3d2337eb1b5",
+  "motivo": "no es perfil (1.13)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/new-balance/mujer/new-balance-9060-crema-rosado.jpg": {
+  "huella": "8baaebaede686547",
+  "motivo": "no es perfil (1.32)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/new-balance/new-balance-1906r-plata.jpg": {
+  "huella": "fb234780be8c6ab5",
+  "motivo": "perfil 1.84",
+  "recorte": true
+ },
+ "/catalogo/sneakers/new-balance/new-balance-2000-blanco-gris.jpg": {
+  "huella": "2ed72586b397cd0b",
+  "motivo": "perfil 1.59",
+  "recorte": true
+ },
+ "/catalogo/sneakers/new-balance/new-balance-2000-blanco-negro.jpg": {
+  "huella": "9aef610d9d72ce3e",
+  "motivo": "perfil 1.50",
+  "recorte": true
+ },
+ "/catalogo/sneakers/new-balance/new-balance-2000-blanco-plata.jpg": {
+  "huella": "e6dd23b88f6de6b0",
+  "motivo": "perfil 1.55",
+  "recorte": true
+ },
+ "/catalogo/sneakers/new-balance/new-balance-2000-blanco-rosa-coral.jpg": {
+  "huella": "2af6290184198912",
+  "motivo": "perfil 1.63",
+  "recorte": true
+ },
+ "/catalogo/sneakers/new-balance/new-balance-2000-blanco-rosado.jpg": {
+  "huella": "078cc7ac2b6bd32d",
+  "motivo": "no es perfil (0.70), no es perfil (0.78)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/new-balance/new-balance-2000-crema-azul-hielo.jpg": {
+  "huella": "514fde34f7cb6551",
+  "motivo": "no es perfil (1.22)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/new-balance/new-balance-2000-crema.jpg": {
+  "huella": "bb78c3810e64484c",
+  "motivo": "no es perfil (1.42), no es perfil (1.44)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/new-balance/new-balance-2000-dorado-crema.jpg": {
+  "huella": "dda13c1cd1c37265",
+  "motivo": "no es perfil (0.67), no es perfil (0.71)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/new-balance/new-balance-2000-gris-azul-hielo.jpg": {
+  "huella": "a3236b972dfeff45",
+  "motivo": "par separado",
+  "recorte": true
+ },
+ "/catalogo/sneakers/new-balance/new-balance-2000-gris-rosado.jpg": {
+  "huella": "c8126f3c7ec99a96",
+  "motivo": "perfil 1.48",
+  "recorte": true
+ },
+ "/catalogo/sneakers/new-balance/new-balance-2000-gris-verde-neon.jpg": {
+  "huella": "b889901b11ca0430",
+  "motivo": "no es perfil (0.63), no es perfil (0.67)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/new-balance/new-balance-2000-negro-dorado.jpg": {
+  "huella": "bdfc26a8a084f563",
+  "motivo": "no es perfil (0.68), no es perfil (0.75)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/new-balance/new-balance-2000-negro-gris.jpg": {
+  "huella": "2fdb0a031be4e586",
+  "motivo": "perfil 1.64",
+  "recorte": true
+ },
+ "/catalogo/sneakers/new-balance/new-balance-2000-negro-plata.jpg": {
+  "huella": "e4e70430c5f97359",
+  "motivo": "perfil 1.60",
+  "recorte": true
+ },
+ "/catalogo/sneakers/new-balance/new-balance-2000-rosado-vino.jpg": {
+  "huella": "4506e4213685df59",
+  "motivo": "cortado por el borde",
+  "recorte": false
+ },
+ "/catalogo/sneakers/new-balance/new-balance-530-blanco-verde.jpg": {
+  "huella": "ab809c0fdd33e6fd",
+  "motivo": "cortado por el borde",
+  "recorte": false
+ },
+ "/catalogo/sneakers/new-balance/new-balance-530-crema.jpg": {
+  "huella": "81c80ddfc077804f",
+  "motivo": "cortado por el borde",
+  "recorte": false
+ },
+ "/catalogo/sneakers/new-balance/new-balance-530-gris-plata.jpg": {
+  "huella": "e73bf8084b8242ca",
+  "motivo": "cortado por el borde",
+  "recorte": false
+ },
+ "/catalogo/sneakers/new-balance/new-balance-530-negro-blanco.jpg": {
+  "huella": "aa785ce6bf1f8d5e",
+  "motivo": "perfil 1.54",
+  "recorte": true
+ },
+ "/catalogo/sneakers/new-balance/new-balance-530-sea-salt.jpg": {
+  "huella": "588f31867407da97",
+  "motivo": "no es perfil (1.36), no es perfil (1.41)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/new-balance/new-balance-530-white-silver-navy.jpg": {
+  "huella": "c11efd07c6e86f06",
+  "motivo": "perfil 2.03",
+  "recorte": true
+ },
+ "/catalogo/sneakers/new-balance/new-balance-550-blanco-verde.jpg": {
+  "huella": "28dde7aba78ef43b",
+  "motivo": "perfil 2.03",
+  "recorte": true
+ },
+ "/catalogo/sneakers/new-balance/new-balance-550-x-aime-leon-dore-blanco-rojo.jpg": {
+  "huella": "c05ac3fcaf628d9e",
+  "motivo": "perfil 1.89",
+  "recorte": true
+ },
+ "/catalogo/sneakers/new-balance/new-balance-730-blanco-azul-rey.jpg": {
+  "huella": "7a06d8cada0063a1",
+  "motivo": "perfil 1.46",
+  "recorte": true
+ },
+ "/catalogo/sneakers/new-balance/new-balance-730-blanco-plata-azul-marino.jpg": {
+  "huella": "47b0c7c9a390de54",
+  "motivo": "perfil 1.59",
+  "recorte": true
+ },
+ "/catalogo/sneakers/new-balance/new-balance-730-blanco-plata.jpg": {
+  "huella": "5898b99fe3ec57de",
+  "motivo": "no es perfil (1.32)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/new-balance/new-balance-730-blanco-verde.jpg": {
+  "huella": "712473f2dabe7e3c",
+  "motivo": "perfil 1.47",
+  "recorte": true
+ },
+ "/catalogo/sneakers/new-balance/new-balance-790-blanco-plata.jpg": {
+  "huella": "02562777194e0339",
+  "motivo": "no es perfil (1.26)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/new-balance/new-balance-9060-blanco-crema.jpg": {
+  "huella": "517b46fe02ee6e54",
+  "motivo": "perfil 1.83",
+  "recorte": true
+ },
+ "/catalogo/sneakers/new-balance/new-balance-9060-blanco-rosado-navy.jpg": {
+  "huella": "a1a7a2e0830b63d8",
+  "motivo": "cortado por el borde",
+  "recorte": false
+ },
+ "/catalogo/sneakers/new-balance/new-balance-9060-crema-gris.jpg": {
+  "huella": "3b445a94ea48840b",
+  "motivo": "no es perfil (1.24)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/new-balance/new-balance-9060-gris-claro.jpg": {
+  "huella": "89b40f25d86a3771",
+  "motivo": "no es perfil (1.13)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/new-balance/new-balance-9060-moonrock-linen.jpg": {
+  "huella": "5975b0cebc6b05c7",
+  "motivo": "perfil 1.91",
+  "recorte": true
+ },
+ "/catalogo/sneakers/new-balance/new-balance-9060-negro.jpg": {
+  "huella": "4e576bd4a5bec045",
+  "motivo": "no es perfil (1.38)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/new-balance/new-balance-9060-salvia.jpg": {
+  "huella": "e53619a1ff14b721",
+  "motivo": "no es perfil (1.16)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/new-balance/new-balance-9060-sea-salt-yellow.jpg": {
+  "huella": "91ecdaaf8d3a39a9",
+  "motivo": "perfil 1.87",
+  "recorte": true
+ },
+ "/catalogo/sneakers/new-balance/new-balance-9060-triple-blanco.jpg": {
+  "huella": "3d1bca0109e8b0de",
+  "motivo": "perfil 1.95",
+  "recorte": true
+ },
+ "/catalogo/sneakers/new-balance/new-balance-9060-triple-negro.jpg": {
+  "huella": "321f6737f7639d9c",
+  "motivo": "perfil 1.77",
+  "recorte": true
+ },
+ "/catalogo/sneakers/nike/hombre/nike-air-force-1-athletic-club-verde.jpg": {
+  "huella": "1f22b5854ff307ec",
+  "motivo": "perfil 1.69",
+  "recorte": true
+ },
+ "/catalogo/sneakers/nike/hombre/nike-air-force-1-crema-verde.jpg": {
+  "huella": "564c08d4b3ed5b73",
+  "motivo": "no es perfil (1.32)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/nike/hombre/nike-air-force-1-gamuza-cafe.jpg": {
+  "huella": "9b6f6110fc6b0a72",
+  "motivo": "perfil 1.85",
+  "recorte": true
+ },
+ "/catalogo/sneakers/nike/hombre/nike-air-force-1-x-supreme-blanco.jpg": {
+  "huella": "bbde7ead301cc859",
+  "motivo": "no es perfil (1.22)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/nike/hombre/nike-air-max-95-x-levis-denim-negro.jpg": {
+  "huella": "31f3c79bcb446a9e",
+  "motivo": "perfil 1.53",
+  "recorte": true
+ },
+ "/catalogo/sneakers/nike/hombre/nike-air-max-plus-3-blanco-negro.jpg": {
+  "huella": "dfd97a10dd30802b",
+  "motivo": "perfil 1.62",
+  "recorte": true
+ },
+ "/catalogo/sneakers/nike/hombre/nike-air-max-plus-3-blanco-rojo.jpg": {
+  "huella": "5ff9680e518e7299",
+  "motivo": "cortado por el borde",
+  "recorte": false
+ },
+ "/catalogo/sneakers/nike/hombre/nike-air-max-plus-3-negro-plata.jpg": {
+  "huella": "dbdc9dc20ffaf7a7",
+  "motivo": "perfil 1.55",
+  "recorte": true
+ },
+ "/catalogo/sneakers/nike/hombre/nike-air-max-plus-3-triple-negro.jpg": {
+  "huella": "3214284e32136028",
+  "motivo": "perfil 1.57",
+  "recorte": true
+ },
+ "/catalogo/sneakers/nike/hombre/nike-air-max-plus-3-volt.jpg": {
+  "huella": "609ff7f9eea4af9c",
+  "motivo": "perfil 1.58",
+  "recorte": true
+ },
+ "/catalogo/sneakers/nike/hombre/nike-air-max-plus-tn-azul-degradado.jpg": {
+  "huella": "440005e42726aa0f",
+  "motivo": "no es perfil (1.12)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/nike/hombre/nike-air-max-plus-tn-blanco-azul-teal.jpg": {
+  "huella": "569e8f12c8716ddf",
+  "motivo": "no es perfil (0.81), no es perfil (0.91), no es perfil (1.23)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/nike/hombre/nike-air-max-plus-tn-blanco-morado-teal.jpg": {
+  "huella": "96ee07296774b227",
+  "motivo": "no es perfil (1.07)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/nike/hombre/nike-air-max-plus-tn-blanco-naranja-plata.jpg": {
+  "huella": "add9f141e6accf92",
+  "motivo": "no es perfil (0.78)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/nike/hombre/nike-air-max-plus-tn-blanco-naranja.jpg": {
+  "huella": "8b4f46e917d8ec18",
+  "motivo": "no es perfil (0.97)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/nike/hombre/nike-air-max-plus-tn-blanco-suela-negra.jpg": {
+  "huella": "98635dffc67841ab",
+  "motivo": "perfil 1.65",
+  "recorte": true
+ },
+ "/catalogo/sneakers/nike/hombre/nike-air-max-plus-tn-blanco-verde-pino.jpg": {
+  "huella": "7fc74b5446b2bc43",
+  "motivo": "perfil 1.58",
+  "recorte": true
+ },
+ "/catalogo/sneakers/nike/hombre/nike-air-max-plus-tn-gris-negro.jpg": {
+  "huella": "151ad7dfe91bba5f",
+  "motivo": "no es perfil (1.08)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/nike/hombre/nike-air-max-plus-tn-navy-blanco.jpg": {
+  "huella": "0057e119b861be3b",
+  "motivo": "cortado por el borde",
+  "recorte": false
+ },
+ "/catalogo/sneakers/nike/hombre/nike-air-max-plus-tn-negro-arcoiris.jpg": {
+  "huella": "74735dfd2a8b1c53",
+  "motivo": "no es perfil (0.76)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/nike/hombre/nike-air-max-plus-tn-negro-azul-electrico.jpg": {
+  "huella": "4f52069ae8220c0b",
+  "motivo": "no es perfil (0.69)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/nike/hombre/nike-air-max-plus-tn-negro-blanco-cromado.jpg": {
+  "huella": "fb4e4b392ecf7787",
+  "motivo": "no es perfil (0.97)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/nike/hombre/nike-air-max-plus-tn-negro-blanco.jpg": {
+  "huella": "172444691680b017",
+  "motivo": "cortado por el borde, no es perfil (1.43)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/nike/hombre/nike-air-max-plus-tn-negro-galaxia-naranja.jpg": {
+  "huella": "887f6008320f160d",
+  "motivo": "cortado por el borde",
+  "recorte": false
+ },
+ "/catalogo/sneakers/nike/hombre/nike-air-max-plus-tn-negro-navy-metalico.jpg": {
+  "huella": "86f029ed9662f639",
+  "motivo": "no es perfil (0.88), no es perfil (0.91), no es perfil (1.18)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/nike/hombre/nike-air-max-plus-tn-negro-rojo.jpg": {
+  "huella": "82c3efa2f782799c",
+  "motivo": "no es perfil (0.87), no es perfil (0.91), no es perfil (1.10)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/nike/hombre/nike-air-max-plus-tn-negro-volt.jpg": {
+  "huella": "823660259451e182",
+  "motivo": "cortado por el borde, no es perfil (0.91)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/nike/hombre/nike-air-max-plus-tn-rojo-morado-estampado.jpg": {
+  "huella": "5d6ec6a1e8e72d87",
+  "motivo": "perfil 1.78",
+  "recorte": true
+ },
+ "/catalogo/sneakers/nike/hombre/nike-air-max-plus-tn-triple-rojo.jpg": {
+  "huella": "4f1d3213d6b83bce",
+  "motivo": "perfil 1.48",
+  "recorte": true
+ },
+ "/catalogo/sneakers/nike/hombre/nike-air-more-uptempo-96-degradado-azul.jpg": {
+  "huella": "b871a28daed60b2b",
+  "motivo": "no es perfil (1.08)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/nike/hombre/nike-air-more-uptempo-96-negro-gum.jpg": {
+  "huella": "dbebf5d6dc5ded7f",
+  "motivo": "no es perfil (1.02)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/nike/hombre/nike-cortez-negro-blanco.jpg": {
+  "huella": "ac816d7c050fd8bb",
+  "motivo": "perfil 1.68",
+  "recorte": true
+ },
+ "/catalogo/sneakers/nike/hombre/nike-internationalist-negro-rojo.jpg": {
+  "huella": "4de3eaadc8673140",
+  "motivo": "no es perfil (0.84)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/nike/hombre/nike-internationalist-negro.jpg": {
+  "huella": "f124a3d86b3fdc47",
+  "motivo": "cortado por el borde",
+  "recorte": false
+ },
+ "/catalogo/sneakers/nike/hombre/nike-mind-slide-negro-naranja.jpg": {
+  "huella": "50cbbe1d180a8fe5",
+  "motivo": "no es perfil (1.12)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/nike/hombre/nike-running-blanco-gris-rojo.jpg": {
+  "huella": "eac57c3151eb024c",
+  "motivo": "no es perfil (1.23)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/nike/hombre/nike-sb-dunk-low-olive-sail.jpg": {
+  "huella": "1f75bfad27ade9b7",
+  "motivo": "perfil 1.82",
+  "recorte": true
+ },
+ "/catalogo/sneakers/nike/hombre/nike-sb-dunk-low-purple-suede.jpg": {
+  "huella": "6f0fdf695f801249",
+  "motivo": "perfil 1.92",
+  "recorte": true
+ },
+ "/catalogo/sneakers/nike/hombre/nike-trail-crema-gris-volt.jpg": {
+  "huella": "986970811aeb62e8",
+  "motivo": "no es perfil (0.66), no es perfil (1.09)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/nike/mujer/nike-air-max-plus-tn-blanco-azul-cielo.jpg": {
+  "huella": "a540dc6a8c6b5977",
+  "motivo": "no es perfil (1.42)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/nike/mujer/nike-air-max-plus-tn-blanco-gris-rosado.jpg": {
+  "huella": "40bc8cbe028febc1",
+  "motivo": "perfil 1.56",
+  "recorte": true
+ },
+ "/catalogo/sneakers/nike/mujer/nike-air-max-plus-tn-blanco-plata.jpg": {
+  "huella": "087a72c21f0bfd75",
+  "motivo": "perfil 1.54",
+  "recorte": true
+ },
+ "/catalogo/sneakers/nike/mujer/nike-air-max-plus-tn-crema-dorado.jpg": {
+  "huella": "f2df8e11437385fc",
+  "motivo": "perfil 1.63",
+  "recorte": true
+ },
+ "/catalogo/sneakers/nike/mujer/nike-air-max-plus-tn-degradado-pastel.jpg": {
+  "huella": "1de5486bce2ee5d1",
+  "motivo": "perfil 1.55",
+  "recorte": true
+ },
+ "/catalogo/sneakers/nike/mujer/nike-air-max-plus-tn-gris-lila.jpg": {
+  "huella": "ad630b17ed988aab",
+  "motivo": "perfil 1.53",
+  "recorte": true
+ },
+ "/catalogo/sneakers/nike/mujer/nike-air-max-plus-tn-negro-pedreria.jpg": {
+  "huella": "7501731de718ee66",
+  "motivo": "perfil 1.69",
+  "recorte": true
+ },
+ "/catalogo/sneakers/nike/mujer/nike-blazer-low-77-jumbo-blanco-negro.jpg": {
+  "huella": "5f2d1decc9467aa5",
+  "motivo": "cortado por el borde",
+  "recorte": false
+ },
+ "/catalogo/sneakers/nike/mujer/nike-blazer-low-77-jumbo-blanco-rosado.jpg": {
+  "huella": "87f3be210ed12a00",
+  "motivo": "perfil 1.62",
+  "recorte": true
+ },
+ "/catalogo/sneakers/nike/mujer/nike-cortez-crema-negro.jpg": {
+  "huella": "27f3062e0a856d5b",
+  "motivo": "no es perfil (0.75)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/nike/mujer/nike-dunk-low-azul-lavanda.jpg": {
+  "huella": "a890ba3ba10637b9",
+  "motivo": "perfil 1.56",
+  "recorte": true
+ },
+ "/catalogo/sneakers/nike/mujer/nike-dunk-low-cacao-wow.jpg": {
+  "huella": "cc03c0382ca7174e",
+  "motivo": "cortado por el borde",
+  "recorte": false
+ },
+ "/catalogo/sneakers/nike/mujer/nike-dunk-low-lila-blanco.jpg": {
+  "huella": "010e6f264cbc3a9f",
+  "motivo": "cortado por el borde",
+  "recorte": false
+ },
+ "/catalogo/sneakers/nike/mujer/nike-dunk-low-purple-pulse.jpg": {
+  "huella": "a2a33bf87588a53b",
+  "motivo": "cortado por el borde",
+  "recorte": false
+ },
+ "/catalogo/sneakers/nike/mujer/nike-dunk-low-san-valentin.jpg": {
+  "huella": "75464fa29867a654",
+  "motivo": "no es perfil (1.02)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/nike/mujer/nike-internationalist-crema-navy.jpg": {
+  "huella": "29a8f116d5dd5449",
+  "motivo": "cortado por el borde",
+  "recorte": false
+ },
+ "/catalogo/sneakers/nike/mujer/nike-zoom-vomero-5-azul-claro-verde-neon.jpg": {
+  "huella": "1f2e070c1b513d4f",
+  "motivo": "cortado por el borde",
+  "recorte": false
+ },
+ "/catalogo/sneakers/nike/mujer/nike-zoom-vomero-5-crema-coral.jpg": {
+  "huella": "dd5acd64fe69f031",
+  "motivo": "cortado por el borde",
+  "recorte": false
+ },
+ "/catalogo/sneakers/nike/mujer/nike-zoom-vomero-5-malva-rosado.jpg": {
+  "huella": "a04754049f3f45b9",
+  "motivo": "cortado por el borde",
+  "recorte": false
+ },
+ "/catalogo/sneakers/nike/mujer/nike-zoom-vomero-5-rosado-vino.jpg": {
+  "huella": "4ac4db4a1cb5a4f6",
+  "motivo": "cortado por el borde",
+  "recorte": false
+ },
+ "/catalogo/sneakers/nike/mujer/nike-zoom-vomero-5-verde-militar.jpg": {
+  "huella": "5c819c90200e6c9a",
+  "motivo": "cortado por el borde",
+  "recorte": false
+ },
+ "/catalogo/sneakers/nike/nike-air-force-1-blanco-verde.jpg": {
+  "huella": "47c16ea9df0d53e6",
+  "motivo": "no es perfil (1.36)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/nike/nike-air-force-1-mid-07.jpg": {
+  "huella": "c3fedb2e57bf36a0",
+  "motivo": "perfil 1.93",
+  "recorte": true
+ },
+ "/catalogo/sneakers/nike/nike-air-force-1-negro.jpg": {
+  "huella": "721ee831f7909c73",
+  "motivo": "perfil 2.09",
+  "recorte": true
+ },
+ "/catalogo/sneakers/nike/nike-air-force-1-super-gris.jpg": {
+  "huella": "95bc8ac7091b6ed1",
+  "motivo": "no es perfil (1.03)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/nike/nike-air-force-1-super-morado.jpg": {
+  "huella": "f80e724504e494cb",
+  "motivo": "no es perfil (1.08)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/nike/nike-air-force-1-super-naranja.jpg": {
+  "huella": "b56ba276714cb2a5",
+  "motivo": "no es perfil (1.00)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/nike/nike-air-force-1-swoosh-pink.jpg": {
+  "huella": "c1cfe9e14df4cee5",
+  "motivo": "cortado por el borde",
+  "recorte": false
+ },
+ "/catalogo/sneakers/nike/nike-air-force-1-triple-white.jpg": {
+  "huella": "f03b620f34ae4e6a",
+  "motivo": "no es perfil (1.42)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/nike/nike-air-force-1-triple-yellow.jpg": {
+  "huella": "0e799f8dc45bc1fa",
+  "motivo": "no es perfil (1.11)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/nike/nike-air-force-1-university-blue.jpg": {
+  "huella": "9fcd1aa59e4f16dc",
+  "motivo": "perfil 2.33",
+  "recorte": true
+ },
+ "/catalogo/sneakers/nike/nike-air-force-1-x-louis-vuitton.jpg": {
+  "huella": "e189a19981d9f149",
+  "motivo": "perfil 1.93",
+  "recorte": true
+ },
+ "/catalogo/sneakers/nike/nike-air-force-1-x-noah.jpg": {
+  "huella": "4e3793334fc7c304",
+  "motivo": "perfil 2.12",
+  "recorte": true
+ },
+ "/catalogo/sneakers/nike/nike-air-force-1-x-north-face.jpg": {
+  "huella": "4b624430050a037b",
+  "motivo": "no es perfil (1.14)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/nike/nike-air-force-1-x-stussy.jpg": {
+  "huella": "c173e07a076f83d1",
+  "motivo": "no es perfil (1.26)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/nike/nike-air-force-1-x-tiffany.jpg": {
+  "huella": "b9e8629ea6de286f",
+  "motivo": "no es perfil (0.88)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/nike/nike-air-force-1-x-travis-scott.jpg": {
+  "huella": "815538835918d3cb",
+  "motivo": "no es perfil (1.21)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/nike/nike-air-max-90-black-orange.jpg": {
+  "huella": "7ae5e3c89a85856a",
+  "motivo": "no es perfil (1.05)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/nike/nike-air-max-90-lucha-libre.jpg": {
+  "huella": "de21fc047515f5a9",
+  "motivo": "cortado por el borde",
+  "recorte": false
+ },
+ "/catalogo/sneakers/nike/nike-air-max-90-oregon.jpg": {
+  "huella": "18ebf367e2229ea1",
+  "motivo": "no es perfil (0.87)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/nike/nike-air-max-90-triple-blanco.jpg": {
+  "huella": "34f6cf38dd8ad7bc",
+  "motivo": "no es perfil (1.44)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/nike/nike-air-max-90-triple-negro.jpg": {
+  "huella": "374212d3ec471788",
+  "motivo": "cortado por el borde",
+  "recorte": false
+ },
+ "/catalogo/sneakers/nike/nike-air-max-95-blanco-azul.jpg": {
+  "huella": "cfea3809c1c7a858",
+  "motivo": "no es perfil (1.34)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/nike/nike-air-max-95-gris-morado.jpg": {
+  "huella": "27f691cbedfec653",
+  "motivo": "no es perfil (0.81)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/nike/nike-air-max-95-gris-rojo.jpg": {
+  "huella": "1b7e959aab0f2497",
+  "motivo": "no es perfil (0.68)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/nike/nike-air-max-95-gris-rosado.jpg": {
+  "huella": "a118add73be57628",
+  "motivo": "cortado por el borde",
+  "recorte": false
+ },
+ "/catalogo/sneakers/nike/nike-air-max-95-negro-gris.jpg": {
+  "huella": "b492d7b419e754f6",
+  "motivo": "no es perfil (1.08)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/nike/nike-air-max-95-neon.jpg": {
+  "huella": "9303419062610ffc",
+  "motivo": "no es perfil (0.88)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/nike/nike-air-max-95-triple-negro.jpg": {
+  "huella": "14ed5e143221ac0d",
+  "motivo": "no es perfil (1.31)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/nike/nike-air-max-95-x-a-ma-maniere-azul.jpg": {
+  "huella": "52a80f6fcdbd61f3",
+  "motivo": "perfil 1.63",
+  "recorte": true
+ },
+ "/catalogo/sneakers/nike/nike-air-max-95-x-a-ma-maniere-taupe.jpg": {
+  "huella": "e61b512d9859ac5b",
+  "motivo": "no es perfil (1.42)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/nike/nike-air-max-95-x-a-ma-maniere-vino.jpg": {
+  "huella": "7f32d584ae2abd44",
+  "motivo": "no es perfil (1.21)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/nike/nike-air-max-97-cafe.jpg": {
+  "huella": "4250145220b1258d",
+  "motivo": "no es perfil (1.20)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/nike/nike-air-max-97-nebulous.jpg": {
+  "huella": "f36c104e0635c856",
+  "motivo": "perfil 1.75",
+  "recorte": true
+ },
+ "/catalogo/sneakers/nike/nike-air-max-97-negro-volt.jpg": {
+  "huella": "9e38029fc358c0af",
+  "motivo": "no es perfil (0.90)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/nike/nike-air-max-97-nightmare.jpg": {
+  "huella": "7a0788161cbb9064",
+  "motivo": "perfil 1.61",
+  "recorte": true
+ },
+ "/catalogo/sneakers/nike/nike-air-max-blanco-morado.jpg": {
+  "huella": "15164d6d485a8943",
+  "motivo": "perfil 1.75",
+  "recorte": true
+ },
+ "/catalogo/sneakers/nike/nike-air-max-bw-gris-rojo.jpg": {
+  "huella": "eb49d289c4989b0e",
+  "motivo": "no es perfil (0.59), no es perfil (0.62)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/nike/nike-air-max-dn-se-triple-negro.jpg": {
+  "huella": "97dfbd9489f51974",
+  "motivo": "perfil 2.14",
+  "recorte": true
+ },
+ "/catalogo/sneakers/nike/nike-air-max-dn8-azul.jpg": {
+  "huella": "050f68ee851dc988",
+  "motivo": "no es perfil (0.66), no es perfil (0.67)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/nike/nike-air-max-dn8-blanco.jpg": {
+  "huella": "fccdd4e3e275bad0",
+  "motivo": "no es perfil (0.71), no es perfil (0.72)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/nike/nike-air-max-dn8-gris-menta.jpg": {
+  "huella": "5daf507208c2dda3",
+  "motivo": "no es perfil (0.68), no es perfil (0.72)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/nike/nike-air-max-dn8-hueso.jpg": {
+  "huella": "79f0a2f68e0d11dc",
+  "motivo": "no es perfil (0.67), no es perfil (0.71)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/nike/nike-air-max-dn8-plata.jpg": {
+  "huella": "d23205f428919db9",
+  "motivo": "no es perfil (0.71), no es perfil (0.75)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/nike/nike-air-max-dn8-triple-negro.jpg": {
+  "huella": "8928304add66e86f",
+  "motivo": "no es perfil (0.66), no es perfil (0.68)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/nike/nike-air-max-ltd-blanco-azul.jpg": {
+  "huella": "e06565a06538e4eb",
+  "motivo": "no es perfil (1.09), no es perfil (1.38)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/nike/nike-air-max-plus-drift-baroque-brown.jpg": {
+  "huella": "223a22bd50b0ad1d",
+  "motivo": "perfil 2.20",
+  "recorte": true
+ },
+ "/catalogo/sneakers/nike/nike-air-max-plus-drift-metallic-silver.jpg": {
+  "huella": "1cf52ecc30b4cf22",
+  "motivo": "perfil 2.31",
+  "recorte": true
+ },
+ "/catalogo/sneakers/nike/nike-air-max-plus-drift-tn-all-day.jpg": {
+  "huella": "dc284a4096c0b002",
+  "motivo": "cortado por el borde",
+  "recorte": false
+ },
+ "/catalogo/sneakers/nike/nike-air-max-plus-drift-tn-phantom-cacao.jpg": {
+  "huella": "970977cc733a3b1e",
+  "motivo": "par separado",
+  "recorte": true
+ },
+ "/catalogo/sneakers/nike/nike-air-max-plus-og-hyper-blue.jpg": {
+  "huella": "06137a732dda88d8",
+  "motivo": "perfil 2.27",
+  "recorte": true
+ },
+ "/catalogo/sneakers/nike/nike-air-max-plus-tn-blanco-azul.jpg": {
+  "huella": "ac4757b7c5aed4a1",
+  "motivo": "perfil 1.51",
+  "recorte": true
+ },
+ "/catalogo/sneakers/nike/nike-air-max-plus-tn-blue-gradient.jpg": {
+  "huella": "9dece717791a549b",
+  "motivo": "perfil 2.40",
+  "recorte": true
+ },
+ "/catalogo/sneakers/nike/nike-air-max-plus-tn-pink-gradient.jpg": {
+  "huella": "349fa65216205860",
+  "motivo": "no es perfil (1.10)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/nike/nike-air-max-plus-tn-triple-blanco.jpg": {
+  "huella": "b8c07a266e1d76d6",
+  "motivo": "no es perfil (0.88)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/nike/nike-air-max-plus-tn-triple-negro.jpg": {
+  "huella": "0bc9f5c6cee208be",
+  "motivo": "perfil 2.12",
+  "recorte": true
+ },
+ "/catalogo/sneakers/nike/nike-air-max-plus-tn-voltage-purple.jpg": {
+  "huella": "c86f960cc75af7a3",
+  "motivo": "perfil 2.32",
+  "recorte": true
+ },
+ "/catalogo/sneakers/nike/nike-air-more-uptempo-96-negro-blanco.jpg": {
+  "huella": "575bfa7e43df22d0",
+  "motivo": "perfil 1.94",
+  "recorte": true
+ },
+ "/catalogo/sneakers/nike/nike-air-vomero-18-negro.jpeg": {
+  "huella": "c2d550b36109a3fc",
+  "motivo": "cortado por el borde",
+  "recorte": false
+ },
+ "/catalogo/sneakers/nike/nike-blazer-low-77-vintage.jpg": {
+  "huella": "3d90babf803ed731",
+  "motivo": "perfil 1.97",
+  "recorte": true
+ },
+ "/catalogo/sneakers/nike/nike-blazer-mid-77-vintage.jpg": {
+  "huella": "e0db471389a546c2",
+  "motivo": "perfil 1.94",
+  "recorte": true
+ },
+ "/catalogo/sneakers/nike/nike-blazer-mid-victory-off-noir.jpg": {
+  "huella": "3ab3bc648694af26",
+  "motivo": "perfil 1.75",
+  "recorte": true
+ },
+ "/catalogo/sneakers/nike/nike-blazer-mid-victory-phantom-mujer.jpg": {
+  "huella": "aaa03a0b264999ae",
+  "motivo": "perfil 1.54",
+  "recorte": true
+ },
+ "/catalogo/sneakers/nike/nike-cortez-cafe.jpg": {
+  "huella": "070443bd9c9f3aef",
+  "motivo": "no es perfil (0.88)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/nike/nike-cortez-classic-blanco-negro.jpg": {
+  "huella": "32ca8f237c2c1fb7",
+  "motivo": "par separado",
+  "recorte": true
+ },
+ "/catalogo/sneakers/nike/nike-cortez-forrest-gump.jpg": {
+  "huella": "c28c6bce2d150827",
+  "motivo": "perfil 2.37",
+  "recorte": true
+ },
+ "/catalogo/sneakers/nike/nike-cortez-morado.jpg": {
+  "huella": "8bce7d2b13654369",
+  "motivo": "cortado por el borde, no es perfil (1.40)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/nike/nike-cortez-pine-green.jpg": {
+  "huella": "96566c7db86a8007",
+  "motivo": "no es perfil (1.13)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/nike/nike-cortez-rojo-oscuro.jpg": {
+  "huella": "170ebd98ff1e43b5",
+  "motivo": "no es perfil (0.97)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/nike/nike-cortez-verde-rosado.jpg": {
+  "huella": "2e55470bc4b91a11",
+  "motivo": "no es perfil (0.91)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/nike/nike-cortez-verde.jpg": {
+  "huella": "8f62a11d6328f7e1",
+  "motivo": "cortado por el borde",
+  "recorte": false
+ },
+ "/catalogo/sneakers/nike/nike-dunk-low-bordeaux.jpg": {
+  "huella": "b96b5bffd53d653d",
+  "motivo": "cortado por el borde",
+  "recorte": false
+ },
+ "/catalogo/sneakers/nike/nike-dunk-low-panda.jpg": {
+  "huella": "dd527c6879e61bd2",
+  "motivo": "perfil 2.28",
+  "recorte": true
+ },
+ "/catalogo/sneakers/nike/nike-dunk-low-teddy-bear.jpg": {
+  "huella": "b36b556a563fad01",
+  "motivo": "perfil 1.85",
+  "recorte": true
+ },
+ "/catalogo/sneakers/nike/nike-dunk-low-triple-pink.jpg": {
+  "huella": "498e68fa1b4b3cf4",
+  "motivo": "no es perfil (1.45)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/nike/nike-dunk-low-unc.jpg": {
+  "huella": "bb834861f3d5d0c9",
+  "motivo": "perfil 2.42",
+  "recorte": true
+ },
+ "/catalogo/sneakers/nike/nike-dunk-x-travis-scott-gray.jpeg": {
+  "huella": "be451233ef186c8b",
+  "motivo": "perfil 1.64",
+  "recorte": true
+ },
+ "/catalogo/sneakers/nike/nike-free-metcon-blanco-lila.jpg": {
+  "huella": "a38f728785ced34f",
+  "motivo": "no es perfil (1.23)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/nike/nike-free-metcon-blanco-rojo.jpg": {
+  "huella": "1c89fdac9b32530a",
+  "motivo": "no es perfil (1.25)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/nike/nike-free-metcon-blanco-rosado.jpg": {
+  "huella": "15c2eae0ae029f31",
+  "motivo": "cortado por el borde, no es perfil (1.09)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/nike/nike-free-metcon-morado.jpg": {
+  "huella": "8c955651ea0cae33",
+  "motivo": "perfil 1.85",
+  "recorte": true
+ },
+ "/catalogo/sneakers/nike/nike-free-metcon-negro-cafe.jpg": {
+  "huella": "ef142444dc07b608",
+  "motivo": "perfil 2.04",
+  "recorte": true
+ },
+ "/catalogo/sneakers/nike/nike-free-metcon-negro.jpg": {
+  "huella": "3e10eba13e4ecbdd",
+  "motivo": "cortado por el borde",
+  "recorte": false
+ },
+ "/catalogo/sneakers/nike/nike-hyper-bubble-negro-cromo.jpg": {
+  "huella": "d1b23ebf1b4ece88",
+  "motivo": "cortado por el borde",
+  "recorte": false
+ },
+ "/catalogo/sneakers/nike/nike-hyper-bubble-negro-verde.jpg": {
+  "huella": "dcfe25833444170a",
+  "motivo": "no es perfil (1.16)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/nike/nike-hyper-bubble-negro.jpg": {
+  "huella": "0f0105d38194d8b7",
+  "motivo": "no es perfil (1.10)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/nike/nike-initiator-hueso-verde.jpg": {
+  "huella": "cb9df5e519f0b7df",
+  "motivo": "no es perfil (1.01)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/nike/nike-initiator-plata-rojo.jpg": {
+  "huella": "3b2fadf1bf9862f1",
+  "motivo": "perfil 1.55",
+  "recorte": true
+ },
+ "/catalogo/sneakers/nike/nike-mind-001-blanco.jpg": {
+  "huella": "14950ac62f510bcc",
+  "motivo": "no es perfil (1.36)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/nike/nike-mind-001-coral.jpg": {
+  "huella": "4199bb37bd837bb0",
+  "motivo": "perfil 1.48",
+  "recorte": true
+ },
+ "/catalogo/sneakers/nike/nike-mind-001-crema.jpg": {
+  "huella": "acfc2048a26d8d92",
+  "motivo": "perfil 1.51",
+  "recorte": true
+ },
+ "/catalogo/sneakers/nike/nike-mind-001-fragment-negro.jpg": {
+  "huella": "b76d5d20f34187b0",
+  "motivo": "no es perfil (1.43)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/nike/nike-mind-001-gris.jpg": {
+  "huella": "121017aafa13a32f",
+  "motivo": "no es perfil (1.39)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/nike/nike-mind-001-negro.jpg": {
+  "huella": "29d859b199afcab2",
+  "motivo": "no es perfil (1.40)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/nike/nike-mind-001-verde.jpg": {
+  "huella": "895c8e7d16692f86",
+  "motivo": "perfil 1.53",
+  "recorte": true
+ },
+ "/catalogo/sneakers/nike/nike-motiva-crema.jpg": {
+  "huella": "27aac8e0253560b8",
+  "motivo": "perfil 1.58",
+  "recorte": true
+ },
+ "/catalogo/sneakers/nike/nike-motiva-gris.jpg": {
+  "huella": "ef72b614b7049ab2",
+  "motivo": "no es perfil (1.13)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/nike/nike-p-6000-blanco-malva.jpeg": {
+  "huella": "54c6116ff352eada",
+  "motivo": "perfil 1.47",
+  "recorte": true
+ },
+ "/catalogo/sneakers/nike/nike-p-6000-blanco-rosado.jpeg": {
+  "huella": "841b43c594033c09",
+  "motivo": "no es perfil (1.41)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/nike/nike-p-6000-gris.jpeg": {
+  "huella": "9ffb9f1f325158e6",
+  "motivo": "perfil 1.45",
+  "recorte": true
+ },
+ "/catalogo/sneakers/nike/nike-p-6000-hueso.jpeg": {
+  "huella": "0f35df8f81abe1c8",
+  "motivo": "perfil 1.47",
+  "recorte": true
+ },
+ "/catalogo/sneakers/nike/nike-p-6000-negro-blanco.jpeg": {
+  "huella": "684813e0d641b49c",
+  "motivo": "cortado por el borde",
+  "recorte": false
+ },
+ "/catalogo/sneakers/nike/nike-p-6000-plata-negro.jpeg": {
+  "huella": "4adcdb3054066813",
+  "motivo": "perfil 1.52",
+  "recorte": true
+ },
+ "/catalogo/sneakers/nike/nike-p-6000-plata-rosado.jpeg": {
+  "huella": "9fde7d5ef32cca03",
+  "motivo": "no es perfil (1.39)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/nike/nike-p-6000-rosa-total.jpeg": {
+  "huella": "c2dccd631ac34b7e",
+  "motivo": "no es perfil (1.35)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/nike/nike-p-6000-triple-blanco.jpeg": {
+  "huella": "4ba5c676fd7668ee",
+  "motivo": "cortado por el borde",
+  "recorte": false
+ },
+ "/catalogo/sneakers/nike/nike-sb-dunk-low-bear.jpg": {
+  "huella": "c88b7ea667647177",
+  "motivo": "perfil 1.61",
+  "recorte": true
+ },
+ "/catalogo/sneakers/nike/nike-sb-dunk-low-black-gum.jpg": {
+  "huella": "f110a23db6727249",
+  "motivo": "perfil 1.72",
+  "recorte": true
+ },
+ "/catalogo/sneakers/nike/nike-sb-dunk-low-charol-negro.jpg": {
+  "huella": "a6e2ab2bfa57118a",
+  "motivo": "perfil 1.64",
+  "recorte": true
+ },
+ "/catalogo/sneakers/nike/nike-sb-dunk-low-gris-crema.jpg": {
+  "huella": "4c1a88b5f0a4fbd7",
+  "motivo": "perfil 1.69",
+  "recorte": true
+ },
+ "/catalogo/sneakers/nike/nike-sb-dunk-low-legion-pine.jpg": {
+  "huella": "636361e85de269c3",
+  "motivo": "perfil 1.69",
+  "recorte": true
+ },
+ "/catalogo/sneakers/nike/nike-sb-dunk-low-stellar.jpg": {
+  "huella": "03c37cfe029d8fb0",
+  "motivo": "no es perfil (1.02)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/nike/nike-sb-dunk-low-talon-morado.jpg": {
+  "huella": "9441ce33e62a2be7",
+  "motivo": "no es perfil (0.91)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/nike/nike-sb-dunk-low-white-gum.jpg": {
+  "huella": "cf06f2a6597c41a5",
+  "motivo": "perfil 1.80",
+  "recorte": true
+ },
+ "/catalogo/sneakers/nike/nike-sb-dunk-low-x-jarritos.jpg": {
+  "huella": "6bdca555ca411c4f",
+  "motivo": "no es perfil (1.14)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/nike/nike-sb-dunk-low-x-parra.jpg": {
+  "huella": "ea333ad0d3bac42f",
+  "motivo": "perfil 1.79",
+  "recorte": true
+ },
+ "/catalogo/sneakers/nike/nike-sb-dunk-low-x-tightbooth.jpg": {
+  "huella": "cddae532bf0cd27a",
+  "motivo": "perfil 1.69",
+  "recorte": true
+ },
+ "/catalogo/sneakers/nike/nike-sb-dunk-super-brown.jpg": {
+  "huella": "d87859de4a61485b",
+  "motivo": "perfil 1.63",
+  "recorte": true
+ },
+ "/catalogo/sneakers/nike/nike-sb-skate-blanco-gris.jpg": {
+  "huella": "36a853786710ef2a",
+  "motivo": "perfil 1.86",
+  "recorte": true
+ },
+ "/catalogo/sneakers/nike/nike-sb-skate-negro.jpg": {
+  "huella": "2c5ff32d4565cda1",
+  "motivo": "perfil 1.51",
+  "recorte": true
+ },
+ "/catalogo/sneakers/nike/nike-shox-negro.jpg": {
+  "huella": "d59f0bf1578f792d",
+  "motivo": "perfil 1.64",
+  "recorte": true
+ },
+ "/catalogo/sneakers/nike/nike-shox-tl-blanco-verde.jpg": {
+  "huella": "5abd4e913693499d",
+  "motivo": "no es perfil (0.73), no es perfil (0.77)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/nike/nike-shox-tl-gris-verde.jpg": {
+  "huella": "66ef666bd8eb1dc5",
+  "motivo": "no es perfil (0.70), no es perfil (0.75)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/nike/nike-shox-tl-negro-rojo.jpg": {
+  "huella": "02571f7c6151f907",
+  "motivo": "no es perfil (0.68), no es perfil (0.74)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/nike/nike-shox-tl-triple-blanco.jpg": {
+  "huella": "f5ce1ecd2565cf14",
+  "motivo": "cortado por el borde",
+  "recorte": false
+ },
+ "/catalogo/sneakers/nike/nike-shox-tl-triple-negro.jpg": {
+  "huella": "f58740a5f4ec8f93",
+  "motivo": "perfil 1.65",
+  "recorte": true
+ },
+ "/catalogo/sneakers/nike/nike-shox-triple-cafe.jpg": {
+  "huella": "123e6588c0d8e3cd",
+  "motivo": "no es perfil (1.01)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/nike/nike-zoom-vomero-5-crema.jpg": {
+  "huella": "1dca1da8a5c05b5c",
+  "motivo": "no es perfil (1.39)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/nike/nike-zoom-vomero-5-plata.jpg": {
+  "huella": "4eae22a81e4a784c",
+  "motivo": "no es perfil (1.41)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/nike/nike-zoom-vomero-5-triple-blanco.jpg": {
+  "huella": "5a64979a8f06b63d",
+  "motivo": "no es perfil (1.35)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/nike/nike-zoom-vomero-san-valentin.jpg": {
+  "huella": "36ac4d77d8e0e13a",
+  "motivo": "cortado por el borde",
+  "recorte": false
+ },
+ "/catalogo/sneakers/nike/nike-zoomx-blanco.jpg": {
+  "huella": "4ce9a30f616ecc88",
+  "motivo": "no es perfil (1.42)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/nike/nike-zoomx-negro.jpg": {
+  "huella": "21dff6fa48412f07",
+  "motivo": "no es perfil (1.28)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/otras/asics-comfort.jpg": {
+  "huella": "a451ffdabd33a2af",
+  "motivo": "perfil 1.76",
+  "recorte": true
+ },
+ "/catalogo/sneakers/otras/asics-gel-kayano-14.jpg": {
+  "huella": "760eca791865dfe5",
+  "motivo": "no es perfil (1.43)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/otras/asics-rosado.jpg": {
+  "huella": "b663a086163d3bf9",
+  "motivo": "par separado",
+  "recorte": true
+ },
+ "/catalogo/sneakers/otras/bape-sta-blanco-negro.jpeg": {
+  "huella": "ac6bf1dd8d0294f8",
+  "motivo": "cortado por el borde",
+  "recorte": false
+ },
+ "/catalogo/sneakers/otras/bape-sta-negro.jpg": {
+  "huella": "fdcec0ad7f9d4450",
+  "motivo": "perfil 1.63",
+  "recorte": true
+ },
+ "/catalogo/sneakers/otras/bape-sta-wgm-blanco.jpg": {
+  "huella": "0f745918459715e8",
+  "motivo": "no es perfil (1.40)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/otras/christian-dior-running.jpg": {
+  "huella": "6158b21e7df578fe",
+  "motivo": "no es perfil (0.85)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/otras/coach-platform.jpg": {
+  "huella": "c897578150cdf79c",
+  "motivo": "perfil 1.64",
+  "recorte": true
+ },
+ "/catalogo/sneakers/otras/creative-recreation-blanco-negro.jpeg": {
+  "huella": "375f41682b90c9b0",
+  "motivo": "cortado por el borde",
+  "recorte": false
+ },
+ "/catalogo/sneakers/otras/creative-recreation-blanco.jpg": {
+  "huella": "d72004a7a6162539",
+  "motivo": "perfil 1.52",
+  "recorte": true
+ },
+ "/catalogo/sneakers/otras/creative-recreation-gris-negro.jpg": {
+  "huella": "0502fd55d42a8866",
+  "motivo": "no es perfil (0.82)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/otras/creative-recreation-los-angeles.jpg": {
+  "huella": "0e839af8e51be8df",
+  "motivo": "no es perfil (1.04)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/otras/creative-recreation-tejido-blanco-negro.jpg": {
+  "huella": "5db6abf38772e704",
+  "motivo": "no es perfil (1.45)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/otras/creative-recreation-triple-negro.jpg": {
+  "huella": "a33ec4dd493cfafc",
+  "motivo": "no es perfil (0.88)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/otras/dolce-gabbana.jpg": {
+  "huella": "0718dc3ba71a8c51",
+  "motivo": "cortado por el borde",
+  "recorte": false
+ },
+ "/catalogo/sneakers/otras/gucci-platform.jpg": {
+  "huella": "15ad4988fe9a267d",
+  "motivo": "no es perfil (0.83), no es perfil (1.22)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/otras/hombre/christian-dior-b30-blanco.jpg": {
+  "huella": "82b1f7a5f56c87c5",
+  "motivo": "no es perfil (1.05)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/otras/hombre/christian-dior-b30-negro-gris.jpg": {
+  "huella": "b8edfdf8e90f436a",
+  "motivo": "perfil 1.65",
+  "recorte": true
+ },
+ "/catalogo/sneakers/otras/hombre/diesel-running-gris-navy.jpg": {
+  "huella": "efdec455a49eaa81",
+  "motivo": "perfil 1.52",
+  "recorte": true
+ },
+ "/catalogo/sneakers/otras/hombre/diesel-running-negro.jpg": {
+  "huella": "6b95174748918ca5",
+  "motivo": "perfil 1.60",
+  "recorte": true
+ },
+ "/catalogo/sneakers/otras/hombre/off-white-out-of-office-blanco-gris.jpg": {
+  "huella": "254cd1b2e4efcbd5",
+  "motivo": "no es perfil (1.14)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/otras/hombre/on-running-negro-blanco.jpg": {
+  "huella": "427de11cd9846b75",
+  "motivo": "no es perfil (1.38)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/otras/hombre/tommy-hilfiger-runner-blanco.jpg": {
+  "huella": "150d1827e855d0b1",
+  "motivo": "perfil 1.81",
+  "recorte": true
+ },
+ "/catalogo/sneakers/otras/hombre/tommy-hilfiger-runner-negro.jpg": {
+  "huella": "a2cbac3e5d308274",
+  "motivo": "perfil 1.78",
+  "recorte": true
+ },
+ "/catalogo/sneakers/otras/hombre/vans-headlyne-gris.jpg": {
+  "huella": "aaa1e92c61bf03de",
+  "motivo": "perfil 1.55",
+  "recorte": true
+ },
+ "/catalogo/sneakers/otras/hombre/vans-hylane-blanco-gum.jpg": {
+  "huella": "4725a77968330812",
+  "motivo": "cortado por el borde",
+  "recorte": false
+ },
+ "/catalogo/sneakers/otras/mujer/converse-chuck-70-crema-flor.jpg": {
+  "huella": "04ec778ebd79e492",
+  "motivo": "cortado por el borde",
+  "recorte": false
+ },
+ "/catalogo/sneakers/otras/mujer/converse-chuck-70-crema.jpg": {
+  "huella": "c145a42ffaa11ed8",
+  "motivo": "cortado por el borde",
+  "recorte": false
+ },
+ "/catalogo/sneakers/otras/mujer/converse-chuck-70-lavanda.jpg": {
+  "huella": "8a8bd44a985aa62c",
+  "motivo": "cortado por el borde",
+  "recorte": false
+ },
+ "/catalogo/sneakers/otras/mujer/converse-chuck-70-love-blanco.jpg": {
+  "huella": "6e3fc0bcb3530d8e",
+  "motivo": "cortado por el borde",
+  "recorte": false
+ },
+ "/catalogo/sneakers/otras/mujer/converse-chuck-70-plataforma-cuero-negro.jpg": {
+  "huella": "2e3a1d5c93a69c55",
+  "motivo": "cortado por el borde, no es perfil (0.84)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/otras/mujer/converse-chuck-70-plataforma-negro.jpg": {
+  "huella": "4312f17f76b3a6f1",
+  "motivo": "cortado por el borde",
+  "recorte": false
+ },
+ "/catalogo/sneakers/otras/mujer/converse-chuck-taylor-lift-blanco.jpg": {
+  "huella": "6a059670b38cbb33",
+  "motivo": "perfil 1.59",
+  "recorte": true
+ },
+ "/catalogo/sneakers/otras/mujer/converse-chuck-taylor-lift-bordado-crema.jpg": {
+  "huella": "15545448d0e0e6bf",
+  "motivo": "cortado por el borde",
+  "recorte": false
+ },
+ "/catalogo/sneakers/otras/mujer/converse-chuck-taylor-lift-bordado-negro.jpg": {
+  "huella": "5446dd028053672f",
+  "motivo": "cortado por el borde",
+  "recorte": false
+ },
+ "/catalogo/sneakers/otras/mujer/converse-chuck-taylor-lift-corazones-blanco.jpg": {
+  "huella": "27a7003356139d45",
+  "motivo": "no es perfil (1.03)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/otras/mujer/converse-chuck-taylor-lift-corazones-crema.jpg": {
+  "huella": "9b1005dc813cffd8",
+  "motivo": "cortado por el borde",
+  "recorte": false
+ },
+ "/catalogo/sneakers/otras/mujer/converse-chuck-taylor-lift-cuero-crema.jpg": {
+  "huella": "8c1b70362f160fa8",
+  "motivo": "cortado por el borde",
+  "recorte": false
+ },
+ "/catalogo/sneakers/otras/mujer/converse-chuck-taylor-lift-negro-satin.jpg": {
+  "huella": "5ebc66a4c490f2fd",
+  "motivo": "cortado por el borde",
+  "recorte": false
+ },
+ "/catalogo/sneakers/otras/mujer/converse-chuck-taylor-lift-negro.jpg": {
+  "huella": "e1a06de861a85547",
+  "motivo": "cortado por el borde, no es perfil (0.97)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/otras/mujer/converse-chuck-taylor-lift-vino.jpg": {
+  "huella": "59897f8b15a16879",
+  "motivo": "perfil 1.61",
+  "recorte": true
+ },
+ "/catalogo/sneakers/otras/mujer/fila-running-blanco-crema.jpg": {
+  "huella": "40852ae37956a633",
+  "motivo": "no es perfil (0.99)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/otras/mujer/madhappy-estrella-blanco.jpg": {
+  "huella": "c4f12a7c6d344a78",
+  "motivo": "no es perfil (1.02), no es perfil (1.08)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/otras/mujer/madhappy-estrella-negro.jpg": {
+  "huella": "d5ab034b69285b42",
+  "motivo": "cortado por el borde, no es perfil (1.19)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/otras/reebok-x-anuel-aa-rojo.jpg": {
+  "huella": "3b24ae004c2ffb5d",
+  "motivo": "perfil 2.08",
+  "recorte": true
+ },
+ "/catalogo/sneakers/otras/timberland-6-inch-premium.jpg": {
+  "huella": "51edbc8b3bf93c38",
+  "motivo": "no es perfil (1.34)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/otras/vans-old-skool-cafe.jpg": {
+  "huella": "a428c36f10e65ba2",
+  "motivo": "cortado por el borde",
+  "recorte": false
+ },
+ "/catalogo/sneakers/otras/vans-old-skool-negro.jpg": {
+  "huella": "1391657ba0bd5e7d",
+  "motivo": "cortado por el borde, no es perfil (0.90)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/puma/hombre/puma-morphic-gris-azul.jpg": {
+  "huella": "23f341277826001e",
+  "motivo": "no es perfil (1.25)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/puma/hombre/puma-morphic-negro.jpg": {
+  "huella": "702ac3298a321d21",
+  "motivo": "no es perfil (1.37)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/puma/hombre/puma-palermo-azul-navy.jpg": {
+  "huella": "79962d0638f17c7f",
+  "motivo": "no es perfil (0.87)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/puma/hombre/puma-palermo-blanco-verde.jpg": {
+  "huella": "cad4e34854743d8a",
+  "motivo": "perfil 1.50",
+  "recorte": true
+ },
+ "/catalogo/sneakers/puma/hombre/puma-palermo-cafe.jpg": {
+  "huella": "d044a6072db48196",
+  "motivo": "no es perfil (0.83)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/puma/hombre/puma-palermo-crema-navy.jpg": {
+  "huella": "526b9ae846cb2b83",
+  "motivo": "perfil 1.50",
+  "recorte": true
+ },
+ "/catalogo/sneakers/puma/hombre/puma-palermo-gris.jpg": {
+  "huella": "af09ee4af18e4b9c",
+  "motivo": "no es perfil (0.82)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/puma/hombre/puma-palermo-negro-crema.jpg": {
+  "huella": "43028a324486cb9f",
+  "motivo": "no es perfil (0.78)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/puma/hombre/puma-palermo-negro-rojo-azul.jpg": {
+  "huella": "5480ac935f0f3964",
+  "motivo": "no es perfil (0.81)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/puma/hombre/puma-suede-xl-bmw-motorsport.jpg": {
+  "huella": "0bfaf66a8eabe75e",
+  "motivo": "no es perfil (0.91)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/puma/mujer/puma-club-azura-azul-claro.jpg": {
+  "huella": "5c9f8d23afa0da8b",
+  "motivo": "cortado por el borde, no es perfil (1.34)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/puma/mujer/puma-club-azura-blanco-lila.jpg": {
+  "huella": "c8a46016ac932d07",
+  "motivo": "cortado por el borde, no es perfil (1.06)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/puma/mujer/puma-club-azura-negro-blanco.jpg": {
+  "huella": "5e2e5dd3a7f1004b",
+  "motivo": "cortado por el borde, no es perfil (1.33)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/puma/mujer/puma-club-azura-rosado.jpg": {
+  "huella": "ad7b97c3abeb8c7a",
+  "motivo": "cortado por el borde",
+  "recorte": false
+ },
+ "/catalogo/sneakers/puma/mujer/puma-cruise-rider-blanco-lila-fucsia.jpg": {
+  "huella": "36b82dbab5f138c2",
+  "motivo": "cortado por el borde",
+  "recorte": false
+ },
+ "/catalogo/sneakers/puma/mujer/puma-cruise-rider-blanco-oro-rosa.jpg": {
+  "huella": "7e6fa4f30e08da0f",
+  "motivo": "cortado por el borde",
+  "recorte": false
+ },
+ "/catalogo/sneakers/puma/mujer/puma-cruise-rider-blanco-plata-rosado.jpg": {
+  "huella": "29867eb9efc36893",
+  "motivo": "cortado por el borde",
+  "recorte": false
+ },
+ "/catalogo/sneakers/puma/mujer/puma-cruise-rider-crema-oro-rosa.jpg": {
+  "huella": "dcec66507718c674",
+  "motivo": "cortado por el borde",
+  "recorte": false
+ },
+ "/catalogo/sneakers/puma/mujer/puma-palermo-beige.jpg": {
+  "huella": "2029491ee93e6bf0",
+  "motivo": "no es perfil (0.86)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/puma/mujer/puma-palermo-blanco-oro.jpg": {
+  "huella": "f16e21d4c415b5e1",
+  "motivo": "no es perfil (0.89)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/puma/mujer/puma-palermo-negro-rosado.jpg": {
+  "huella": "e4b74698a4317c84",
+  "motivo": "no es perfil (0.88)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/puma/puma-roma-bmw-motorsport-blanco.jpg": {
+  "huella": "57b5f51568354bc6",
+  "motivo": "no es perfil (1.34)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/puma/puma-roma-bmw-motorsport-negro.jpg": {
+  "huella": "2cf24ccd9ae5285e",
+  "motivo": "no es perfil (1.23)",
+  "recorte": false
+ },
+ "/catalogo/sneakers/puma/puma-suede-xl-rojo.jpg": {
+  "huella": "cce947392f16e4e7",
+  "motivo": "perfil 1.79",
+  "recorte": true
+ }
+}
