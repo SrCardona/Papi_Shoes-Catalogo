@@ -284,7 +284,7 @@ export function HomePage() {
 
       {/* ═══ MURO DE MARCAS ═══════════════════════════════════════════════ */}
       <section className="border-y border-white/8 bg-marble-navy/50 overflow-hidden py-10">
-        <p className="eyebrow text-center mb-8">Trabajamos con</p>
+        <p className="eyebrow text-center mb-8">Marcas que manejamos</p>
         <div className="flex flex-wrap items-center justify-center gap-x-12 gap-y-5 px-5">
           {brands.length > 0
             ? brands.map(({ brand, to }) => (
