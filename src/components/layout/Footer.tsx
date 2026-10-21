@@ -22,7 +22,12 @@ export function Footer() {
           <ul className="grid grid-cols-2 md:grid-cols-5 divide-x divide-white/8">
             {BRAND_PILLARS.map((pillar) => (
               <li key={pillar.id} className="py-6 px-4 text-center">
-                <span className="eyebrow block text-silver/80">{pillar.title}</span>
+                {/* Las mismas letras que `eyebrow`, con menos tracking: en una celda
+                    angosta "Global Sneaker Culture" se partía en tres líneas,
+                    y `.eyebrow` le gana a cualquier clase de tracking. */}
+                <span className="block text-rotulo font-semibold uppercase tracking-[0.16em] sm:tracking-[0.24em] text-silver/80">
+                  {pillar.title}
+                </span>
               </li>
             ))}
           </ul>
@@ -40,13 +45,13 @@ export function Footer() {
                   {settings.storeName}
                 </p>
                 {settings.tagline && (
-                  <p className="text-[8px] font-semibold uppercase tracking-[0.34em] text-silver/55 mt-1.5">
+                  <p className="text-rotulo font-semibold uppercase tracking-[0.34em] text-secundario mt-1.5">
                     {settings.tagline}
                   </p>
                 )}
               </div>
             </div>
-            <p className="text-[13px] text-marble/45 leading-relaxed max-w-sm">
+            <p className="text-lectura text-secundario leading-relaxed max-w-sm">
               {settings.guaranteeText} Atendemos desde {settings.locationCity}.
             </p>
             <div className="flex items-center gap-3 pt-1">
@@ -76,7 +81,7 @@ export function Footer() {
           {/* Navegación */}
           <nav className="lg:col-span-3">
             <p className="eyebrow mb-5">Catálogo</p>
-            <ul className="space-y-3 text-[13px]">
+            <ul className="space-y-3 text-lectura">
               {[
                 { to: '/originales', label: 'Originales' },
                 { to: '/sneakers', label: 'Sneakers' },
@@ -88,7 +93,7 @@ export function Footer() {
                 <li key={l.to}>
                   <Link
                     to={l.to}
-                    className="text-marble/45 hover:text-marble transition-colors"
+                    className="text-secundario hover:text-marble transition-colors"
                   >
                     {l.label}
                   </Link>
@@ -100,7 +105,7 @@ export function Footer() {
           {/* Contacto — la "firma de WhatsApp" del manual */}
           <div className="lg:col-span-4">
             <p className="eyebrow mb-5">Escríbenos</p>
-            <ul className="space-y-2.5 text-[13px] text-marble/45 mb-6">
+            <ul className="space-y-2.5 text-lectura text-secundario mb-6">
               <li>Asesoría personalizada</li>
               <li>Referencias y lanzamientos</li>
               <li>Originales bajo encargo</li>
@@ -110,7 +115,7 @@ export function Footer() {
               href={generateDirectWhatsAppContact(settings)}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2.5 px-5 py-3.5 bg-marble text-obsidian text-[11px] font-bold tracking-[0.12em] hover:bg-silver transition-colors"
+              className="inline-flex items-center gap-2.5 px-5 py-3.5 bg-marble text-obsidian text-lectura font-bold tracking-[0.12em] hover:bg-silver transition-colors"
             >
               <MessageCircle className="w-4 h-4" />
               {formatPhoneDisplay(settings.whatsappNumber)}
@@ -121,10 +126,10 @@ export function Footer() {
 
       <div className="border-t border-white/8">
         <div className="max-w-[1400px] mx-auto px-5 lg:px-8 py-6 flex flex-col sm:flex-row items-center justify-between gap-3">
-          <p className="text-[10px] text-marble/30 uppercase tracking-[0.2em]">
+          <p className="text-rotulo text-terciario uppercase tracking-[0.2em]">
             © {year} {settings.storeName} · {settings.slogan}
           </p>
-          <p className="text-[10px] text-marble/25 uppercase tracking-[0.2em]">
+          <p className="text-rotulo text-terciario uppercase tracking-[0.2em]">
             Más que tenis, es cultura
           </p>
         </div>

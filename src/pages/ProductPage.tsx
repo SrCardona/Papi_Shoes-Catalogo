@@ -69,14 +69,14 @@ function ProductView({ id }: { id?: string }) {
     return (
       <div className="max-w-md mx-auto px-6 py-32 text-center space-y-6">
         <h1 className="font-display text-4xl text-marble">Este par ya no está</h1>
-        <p className="text-[13px] text-marble/45 leading-relaxed">
+        <p className="text-lectura text-secundario leading-relaxed">
           Puede que se haya vendido o que el enlace esté desactualizado. Mira el
           catálogo completo o pídelo bajo encargo.
         </p>
         <div className="flex flex-wrap justify-center gap-3 pt-1">
           <button
             onClick={() => navigate('/catalogo')}
-            className="px-6 py-3.5 bg-marble text-obsidian text-[10px] font-bold uppercase tracking-[0.22em] hover:bg-silver transition-colors"
+            className="px-6 py-3.5 bg-marble text-obsidian text-rotulo font-bold uppercase tracking-[0.22em] hover:bg-silver transition-colors"
           >
             Ver catálogo
           </button>
@@ -84,7 +84,7 @@ function ProductView({ id }: { id?: string }) {
             href={generateDirectWhatsAppContact(settings, 'Un par que ya no aparece en el sitio')}
             target="_blank"
             rel="noopener noreferrer"
-            className="px-6 py-3.5 border border-white/15 text-marble/70 text-[10px] font-bold uppercase tracking-[0.22em] hover:text-marble transition-colors"
+            className="px-6 py-3.5 border border-white/15 text-marble/70 text-rotulo font-bold uppercase tracking-[0.22em] hover:text-marble transition-colors"
           >
             Preguntar
           </a>
@@ -119,7 +119,7 @@ function ProductView({ id }: { id?: string }) {
         aria-label="Ruta de navegación"
         className="max-w-[1400px] mx-auto px-5 lg:px-8 pt-7 pb-5"
       >
-        <div className="flex items-center gap-2 text-[10px] uppercase tracking-[0.18em] text-marble/35">
+        <div className="flex items-center gap-2 text-rotulo uppercase tracking-[0.18em] text-terciario">
           <Link to="/" className="hover:text-marble transition-colors">
             Inicio
           </Link>
@@ -131,7 +131,7 @@ function ProductView({ id }: { id?: string }) {
             {isOriginal ? 'Originales' : 'Sneakers'}
           </Link>
           <span>/</span>
-          <span className="text-marble/60 truncate max-w-[45vw]">{sneaker.brand}</span>
+          <span className="text-secundario truncate max-w-[45vw]">{sneaker.brand}</span>
         </div>
       </nav>
 
@@ -182,14 +182,14 @@ function ProductView({ id }: { id?: string }) {
 
                   {/* En el teléfono las flechas quedan sobre la foto y no se
                       ve cuántas hay: el contador lo dice sin ocupar sitio. */}
-                  <span className="sm:hidden absolute bottom-3 right-3 bg-obsidian/80 px-2 py-1 text-[10px] tabular-nums text-marble/80">
+                  <span className="sm:hidden absolute bottom-3 right-3 bg-obsidian/80 px-2 py-1 text-rotulo tabular-nums text-marble/80">
                     {imageIndex + 1} / {sneaker.images.length}
                   </span>
                 </>
               )}
 
               {discount && (
-                <span className="absolute top-4 left-4 bg-lapis text-marble text-[10px] font-bold uppercase tracking-[0.16em] px-2.5 py-1.5">
+                <span className="absolute top-4 left-4 bg-lapis text-marble text-rotulo font-bold uppercase tracking-[0.16em] px-2.5 py-1.5">
                   −{discount}%
                 </span>
               )}
@@ -229,7 +229,7 @@ function ProductView({ id }: { id?: string }) {
               <div className="flex items-center gap-3">
                 <span
                   className={cx(
-                    'text-[9px] font-bold uppercase tracking-[0.28em]',
+                    'text-rotulo font-bold uppercase tracking-[0.28em]',
                     isOriginal ? 'text-silver' : 'text-lapis-lit',
                   )}
                 >
@@ -239,7 +239,7 @@ function ProductView({ id }: { id?: string }) {
                 <button
                   onClick={share}
                   aria-label="Compartir este par"
-                  className="tap p-1.5 text-marble/40 hover:text-marble transition-colors"
+                  className="tap p-1.5 text-terciario hover:text-marble transition-colors"
                 >
                   {copied ? (
                     <Check className="w-4 h-4 text-emerald-300" />
@@ -249,13 +249,13 @@ function ProductView({ id }: { id?: string }) {
                 </button>
               </div>
 
-              <p className="text-[11px] uppercase tracking-[0.24em] text-marble/40">
+              <p className="text-rotulo uppercase tracking-[0.24em] text-terciario">
                 {sneaker.brand}
               </p>
               <h1 className="font-display text-4xl sm:text-5xl text-marble leading-[0.92] normal-case">
                 {sneaker.name}
               </h1>
-              <p className="text-[11px] text-marble/30 font-mono">
+              <p className="text-lectura text-terciario font-mono">
                 Ref. {sneaker.sku}
               </p>
             </header>
@@ -266,7 +266,7 @@ function ProductView({ id }: { id?: string }) {
                 {formatPrice(sneaker.price, settings.currency, settings.currencySymbol)}
               </span>
               {sneaker.originalPrice && sneaker.originalPrice > sneaker.price && (
-                <span className="text-[14px] text-marble/30 line-through mb-1">
+                <span className="text-[14px] text-terciario line-through mb-1">
                   {formatPrice(
                     sneaker.originalPrice,
                     settings.currency,
@@ -279,12 +279,12 @@ function ProductView({ id }: { id?: string }) {
             {/* Tallas */}
             <div className="space-y-3.5">
               <div className="flex items-center justify-between">
-                <span className="text-[10px] font-semibold uppercase tracking-[0.2em] text-marble/50">
+                <span className="text-rotulo font-semibold uppercase tracking-[0.2em] text-secundario">
                   Talla EU
                 </span>
                 <button
                   onClick={() => setIsGuideOpen(true)}
-                  className="flex items-center gap-1.5 text-[10px] uppercase tracking-[0.16em] text-marble/45 hover:text-marble transition-colors"
+                  className="flex items-center gap-1.5 text-rotulo uppercase tracking-[0.16em] text-secundario hover:text-marble transition-colors"
                 >
                   <Ruler className="w-3.5 h-3.5" />
                   Guía de tallas
@@ -298,10 +298,10 @@ function ProductView({ id }: { id?: string }) {
                     onClick={() => setSelectedSize(size)}
                     disabled={isSoldOut}
                     className={cx(
-                      'w-14 h-12 text-[12px] font-semibold border transition-all disabled:opacity-30 disabled:cursor-not-allowed',
+                      'w-14 h-12 text-lectura font-semibold border transition-all disabled:opacity-30 disabled:cursor-not-allowed',
                       selectedSize === size
                         ? 'bg-marble text-obsidian border-marble'
-                        : 'border-white/14 text-marble/65 hover:border-silver/50 hover:text-marble',
+                        : 'border-white/14 text-secundario hover:border-silver/50 hover:text-marble',
                     )}
                   >
                     {size}
@@ -310,7 +310,7 @@ function ProductView({ id }: { id?: string }) {
               </div>
 
               {!selectedSize && !isSoldOut && (
-                <p className="text-[11px] text-marble/35">
+                <p className="text-lectura text-terciario">
                   Elige tu talla y el mensaje de WhatsApp se arma solo.
                 </p>
               )}
@@ -326,7 +326,7 @@ function ProductView({ id }: { id?: string }) {
                   )}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center justify-center gap-3 w-full py-5 border border-white/18 text-marble/70 text-[11px] font-bold uppercase tracking-[0.22em] hover:text-marble hover:border-silver/45 transition-colors"
+                  className="flex items-center justify-center gap-3 w-full py-5 border border-white/18 text-marble/70 text-rotulo font-bold uppercase tracking-[0.22em] hover:text-marble hover:border-silver/45 transition-colors"
                 >
                   <MessageCircle className="w-4 h-4" />
                   Avísame cuando vuelva
@@ -336,7 +336,7 @@ function ProductView({ id }: { id?: string }) {
                   href={generateWhatsAppLink(sneaker, selectedSize, settings)}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center justify-center gap-3 w-full py-5 bg-marble text-obsidian text-[11px] font-bold uppercase tracking-[0.22em] hover:bg-silver transition-colors"
+                  className="flex items-center justify-center gap-3 w-full py-5 bg-marble text-obsidian text-rotulo font-bold uppercase tracking-[0.22em] hover:bg-silver transition-colors"
                 >
                   <MessageCircle className="w-4 h-4" />
                   {sneaker.status === 'bajo_encargo'
@@ -353,7 +353,7 @@ function ProductView({ id }: { id?: string }) {
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label={`Ver ${settings.storeName} en Instagram`}
-                  className="flex items-center justify-center gap-2 text-[11px] text-marble/35 hover:text-marble/70 transition-colors"
+                  className="flex items-center justify-center gap-2 text-lectura text-terciario hover:text-marble/70 transition-colors"
                 >
                   <Instagram className="w-3.5 h-3.5" />
                   Míralo en Instagram
@@ -368,10 +368,10 @@ function ProductView({ id }: { id?: string }) {
                 ].map(({ Icon, label }) => (
                   <div
                     key={label}
-                    className="bg-basalt py-4 px-2 flex flex-col items-center gap-2 text-center"
+                    className="bg-basalt py-4 px-1 flex flex-col items-center gap-2 text-center"
                   >
                     <Icon className="w-4 h-4 text-silver/60" />
-                    <span className="text-[9px] uppercase tracking-[0.14em] text-marble/45 leading-tight">
+                    <span className="text-rotulo uppercase tracking-[0.04em] text-secundario leading-tight">
                       {label}
                     </span>
                   </div>
@@ -382,10 +382,10 @@ function ProductView({ id }: { id?: string }) {
             {/* Descripción */}
             {sneaker.description && (
               <div className="space-y-3 pt-2">
-                <h2 className="text-[10px] font-semibold uppercase tracking-[0.22em] text-marble/50">
+                <h2 className="text-rotulo font-semibold uppercase tracking-[0.22em] text-secundario">
                   Sobre este par
                 </h2>
-                <p className="text-[13px] leading-relaxed text-marble/55">
+                <p className="text-lectura leading-relaxed text-secundario">
                   {sneaker.description}
                 </p>
               </div>
@@ -412,10 +412,10 @@ function ProductView({ id }: { id?: string }) {
                   if (!value) return null;
                   return (
                     <div key={term} className="flex justify-between gap-6 py-3.5">
-                      <dt className="text-[11px] uppercase tracking-[0.16em] text-marble/35 shrink-0">
+                      <dt className="text-rotulo uppercase tracking-[0.16em] text-terciario shrink-0">
                         {term}
                       </dt>
-                      <dd className="text-[12px] text-marble/70 text-right">{value}</dd>
+                      <dd className="text-lectura text-marble/70 text-right">{value}</dd>
                     </div>
                   );
                 })}
@@ -424,14 +424,14 @@ function ProductView({ id }: { id?: string }) {
             {/* Qué incluye */}
             {sneaker.details.includedItems.length > 0 && (
               <div className="space-y-3">
-                <h2 className="text-[10px] font-semibold uppercase tracking-[0.22em] text-marble/50">
+                <h2 className="text-rotulo font-semibold uppercase tracking-[0.22em] text-secundario">
                   Incluye
                 </h2>
                 <ul className="space-y-2">
                   {sneaker.details.includedItems.map((item) => (
                     <li
                       key={item}
-                      className="flex items-start gap-2.5 text-[12px] text-marble/55"
+                      className="flex items-start gap-2.5 text-lectura text-secundario"
                     >
                       <Check className="w-3.5 h-3.5 text-silver/60 mt-0.5 shrink-0" />
                       {item}
@@ -442,7 +442,7 @@ function ProductView({ id }: { id?: string }) {
             )}
 
             {sneaker.details.authenticityNotes && (
-              <p className="text-[12px] leading-relaxed text-marble/45 border-l-2 border-silver/40 pl-4 py-1">
+              <p className="text-lectura leading-relaxed text-secundario border-l-2 border-silver/40 pl-4 py-1">
                 {sneaker.details.authenticityNotes}
               </p>
             )}
@@ -463,7 +463,7 @@ function ProductView({ id }: { id?: string }) {
 
         <Link
           to={isOriginal ? '/originales' : '/sneakers'}
-          className="inline-flex items-center gap-2.5 mt-14 text-[10px] font-semibold uppercase tracking-[0.22em] text-marble/45 hover:text-marble transition-colors"
+          className="inline-flex items-center gap-2.5 mt-14 text-rotulo font-semibold uppercase tracking-[0.22em] text-secundario hover:text-marble transition-colors"
         >
           <ArrowLeft className="w-3.5 h-3.5" />
           Volver a {isOriginal ? 'Originales' : 'Sneakers'}
@@ -481,7 +481,7 @@ function ProductView({ id }: { id?: string }) {
             <p className="font-display text-xl text-marble">
               {formatPrice(sneaker.price, settings.currency, settings.currencySymbol)}
             </p>
-            <p className="mt-1 text-[10px] uppercase tracking-[0.16em] text-marble/40 truncate">
+            <p className="mt-1 text-rotulo uppercase tracking-[0.16em] text-terciario truncate">
               {selectedSize ? `Talla ${selectedSize}` : 'Elige tu talla'}
             </p>
           </div>
@@ -498,7 +498,7 @@ function ProductView({ id }: { id?: string }) {
             target="_blank"
             rel="noopener noreferrer"
             className={cx(
-              'flex flex-1 items-center justify-center gap-2 py-4 text-[11px] font-bold uppercase tracking-[0.18em] transition-colors',
+              'flex flex-1 items-center justify-center gap-2 py-4 text-rotulo font-bold uppercase tracking-[0.18em] transition-colors',
               isSoldOut
                 ? 'border border-white/20 text-marble/70'
                 : 'bg-marble text-obsidian',

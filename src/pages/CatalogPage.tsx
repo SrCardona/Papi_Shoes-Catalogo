@@ -143,8 +143,8 @@ export function CatalogPage({
           description={encabezado.description}
         />
         {grupoActivo && incluye && (
-          <p className="mt-4 text-[11px] text-marble/40 max-w-xl">
-            <span className="uppercase tracking-[0.2em] text-marble/30">
+          <p className="mt-4 text-lectura text-terciario max-w-xl">
+            <span className="uppercase tracking-[0.2em] text-terciario">
               Incluye
             </span>{' '}
             {incluye}
@@ -168,7 +168,7 @@ export function CatalogPage({
       <section className="max-w-[1400px] mx-auto px-5 lg:px-8 py-10">
         {results.length > 0 ? (
           <>
-            <p className="text-[10px] uppercase tracking-[0.22em] text-marble/35 mb-5 tabular-nums">
+            <p className="text-rotulo uppercase tracking-[0.22em] text-terciario mb-5 tabular-nums">
               {results.length} {results.length === 1 ? 'par' : 'pares'}
             </p>
             <Colonnade sneakers={results} />

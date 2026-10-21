@@ -119,7 +119,7 @@ export function HomePage() {
             <BrandLockup size="xl" className="animate-rise" />
 
             <p
-              className="mt-6 text-[10px] sm:text-[11px] font-semibold uppercase tracking-[0.42em] text-silver/70 animate-rise"
+              className="mt-6 text-rotulo font-semibold uppercase tracking-[0.2em] sm:tracking-[0.42em] text-silver/70 animate-rise"
               style={{ animationDelay: '120ms' }}
             >
               {settings.slogan}
@@ -135,7 +135,7 @@ export function HomePage() {
             </h1>
 
             <p
-              className="mt-6 max-w-lg text-[14px] leading-relaxed text-marble/50 animate-rise"
+              className="mt-6 max-w-lg text-[14px] leading-relaxed text-secundario animate-rise"
               style={{ animationDelay: '280ms' }}
             >
               Sneakers que hablan por ti. Originales con legit check documentado
@@ -151,14 +151,14 @@ export function HomePage() {
             >
               <Link
                 to="/originales"
-                className="group flex items-center justify-center gap-3 px-8 py-4 bg-marble text-obsidian text-[11px] font-bold uppercase tracking-[0.22em] hover:bg-silver transition-colors"
+                className="group flex items-center justify-center gap-3 px-8 py-4 bg-marble text-obsidian text-rotulo font-bold uppercase tracking-[0.12em] sm:tracking-[0.22em] hover:bg-silver transition-colors"
               >
                 Ver Originales
                 <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
               </Link>
               <Link
                 to="/sneakers"
-                className="flex items-center justify-center px-8 py-4 border border-white/18 text-marble/75 text-[11px] font-bold uppercase tracking-[0.22em] hover:text-marble hover:border-silver/45 transition-colors"
+                className="flex items-center justify-center px-8 py-4 border border-white/18 text-marble/75 text-rotulo font-bold uppercase tracking-[0.22em] hover:text-marble hover:border-silver/45 transition-colors"
               >
                 Ver Sneakers
               </Link>
@@ -209,7 +209,7 @@ export function HomePage() {
             >
               <div className="flex items-start justify-between mb-6 sm:mb-8">
                 <span
-                  className={`text-[9px] font-bold uppercase tracking-[0.3em] ${room.accent}`}
+                  className={`text-rotulo font-bold uppercase tracking-[0.3em] ${room.accent}`}
                 >
                   {room.room}
                 </span>
@@ -222,12 +222,12 @@ export function HomePage() {
               <h3 className="font-display text-[2.75rem] sm:text-6xl text-marble mb-3 sm:mb-4">
                 {room.title}
               </h3>
-              <p className="text-[13px] leading-relaxed text-marble/45 max-w-sm mb-7 sm:mb-9">
+              <p className="text-lectura leading-relaxed text-secundario max-w-sm mb-7 sm:mb-9">
                 {room.text}
               </p>
 
               <div className="flex items-center justify-between pt-5 border-t border-white/8">
-                <span className="text-[10px] uppercase tracking-[0.2em] text-marble/35 tabular-nums">
+                <span className="text-rotulo uppercase tracking-[0.2em] text-terciario tabular-nums">
                   {room.count} pares
                 </span>
                 <ArrowRight className="w-4 h-4 text-marble/40 transition-transform duration-500 group-hover:translate-x-2 group-hover:text-marble" />
@@ -249,7 +249,7 @@ export function HomePage() {
             action={
               <Link
                 to="/catalogo"
-                className="group flex items-center justify-center gap-2 text-[10px] font-semibold uppercase tracking-[0.22em] text-marble/55 hover:text-marble transition-colors"
+                className="group flex items-center justify-center gap-2 text-rotulo font-semibold uppercase tracking-[0.22em] text-secundario hover:text-marble transition-colors"
               >
                 Ver los {sneakers.length} pares
                 <ArrowRight className="w-3.5 h-3.5 transition-transform group-hover:translate-x-1" />
@@ -271,7 +271,7 @@ export function HomePage() {
             action={
               <Link
                 to="/nosotros#entregas"
-                className="group flex items-center gap-2 text-[10px] font-semibold uppercase tracking-[0.22em] text-marble/55 hover:text-marble transition-colors"
+                className="group flex items-center gap-2 text-rotulo font-semibold uppercase tracking-[0.22em] text-secundario hover:text-marble transition-colors"
               >
                 Ver las {deliveries.length} entregas
                 <ArrowRight className="w-3.5 h-3.5 transition-transform group-hover:translate-x-1" />
@@ -291,7 +291,7 @@ export function HomePage() {
                 <Link
                   key={brand}
                   to={to}
-                  className="font-display text-xl sm:text-2xl text-marble/35 hover:text-silver transition-colors duration-300"
+                  className="font-display text-xl sm:text-2xl text-terciario hover:text-silver transition-colors duration-300"
                 >
                   {brand.toUpperCase()}
                 </Link>
@@ -299,7 +299,7 @@ export function HomePage() {
             : BRAND_WALL.map((brand) => (
                 <span
                   key={brand}
-                  className="font-display text-xl sm:text-2xl text-marble/22"
+                  className="font-display text-xl sm:text-2xl text-terciario"
                 >
                   {brand}
                 </span>
@@ -318,13 +318,13 @@ export function HomePage() {
         <div className="grid sm:grid-cols-2 lg:grid-cols-5 gap-px bg-white/8 border border-white/8">
           {BRAND_PILLARS.map((pillar, i) => (
             <div key={pillar.id} className="bg-basalt p-6 sm:p-7 space-y-3 sm:space-y-4">
-              <span className="block font-display text-3xl text-silver/25 tabular-nums">
+              <span className="block font-display text-3xl text-terciario tabular-nums">
                 {String(i + 1).padStart(2, '0')}
               </span>
-              <h3 className="font-body font-bold text-[12px] uppercase tracking-[0.18em] text-marble">
+              <h3 className="font-body font-bold text-rotulo uppercase tracking-[0.1em] text-marble">
                 {pillar.title}
               </h3>
-              <p className="text-[12px] leading-relaxed text-marble/45">
+              <p className="text-lectura leading-relaxed text-secundario">
                 {pillar.text}
               </p>
             </div>
@@ -339,7 +339,7 @@ export function HomePage() {
           <h2 className="font-display text-[2.15rem] sm:text-5xl text-marble max-w-2xl mx-auto leading-[0.95]">
             ¿No encuentras el par que buscas?
           </h2>
-          <p className="mt-5 text-[13px] text-marble/50 max-w-md mx-auto leading-relaxed">
+          <p className="mt-5 text-lectura text-secundario max-w-md mx-auto leading-relaxed">
             Traemos cualquier referencia y talla bajo encargo en 8 a 14 días
             hábiles, con abono del 50%.
           </p>
@@ -350,7 +350,7 @@ export function HomePage() {
             )}
             target="_blank"
             rel="noopener noreferrer"
-            className="mt-8 sm:mt-9 inline-flex w-full max-w-sm sm:w-auto items-center justify-center gap-3 px-8 py-4 bg-marble text-obsidian text-[11px] font-bold uppercase tracking-[0.22em] hover:bg-silver transition-colors"
+            className="mt-8 sm:mt-9 inline-flex w-full max-w-sm sm:w-auto items-center justify-center gap-3 px-8 py-4 bg-marble text-obsidian text-rotulo font-bold uppercase tracking-[0.12em] sm:tracking-[0.22em] hover:bg-silver transition-colors"
           >
             <MessageCircle className="w-4 h-4" />
             Cotizar por WhatsApp

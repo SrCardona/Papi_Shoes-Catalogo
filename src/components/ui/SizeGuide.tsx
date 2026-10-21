@@ -51,23 +51,23 @@ export function SizeGuide({
         <div className="flex items-center justify-between px-6 py-5 border-b border-white/8">
           <div>
             <h2 className="font-display text-2xl text-marble">Guía de tallas</h2>
-            <p className="text-[11px] text-marble/40 mt-1">
+            <p className="text-lectura text-terciario mt-1">
               Mide tu pie por la tarde, de talón a dedo más largo.
             </p>
           </div>
           <button
             onClick={onClose}
             aria-label="Cerrar"
-            className="p-2 text-marble/50 hover:text-marble"
+            className="p-2 text-secundario hover:text-marble"
           >
             <X className="w-5 h-5" />
           </button>
         </div>
 
         <div className="max-h-[55vh] overflow-y-auto">
-          <table className="w-full text-[12px]">
+          <table className="w-full text-lectura">
             <thead className="sticky top-0 bg-obsidian">
-              <tr className="text-[9px] uppercase tracking-[0.18em] text-marble/40">
+              <tr className="text-rotulo uppercase tracking-[0.18em] text-terciario">
                 <th scope="col" className="text-left py-3 px-5 font-semibold">EU</th>
                 <th scope="col" className="text-left py-3 px-3 font-semibold">US H</th>
                 <th scope="col" className="text-left py-3 px-3 font-semibold">US M</th>
@@ -78,16 +78,16 @@ export function SizeGuide({
               {SIZE_CHART.map((row) => (
                 <tr key={row.eu} className="hover:bg-white/[0.03] transition-colors">
                   <td className="py-3 px-5 font-bold text-marble tabular-nums">{row.eu}</td>
-                  <td className="py-3 px-3 text-marble/55 tabular-nums">{row.usMen}</td>
-                  <td className="py-3 px-3 text-marble/55 tabular-nums">{row.usWomen}</td>
-                  <td className="py-3 px-5 text-marble/55 tabular-nums">{row.cm}</td>
+                  <td className="py-3 px-3 text-secundario tabular-nums">{row.usMen}</td>
+                  <td className="py-3 px-3 text-secundario tabular-nums">{row.usWomen}</td>
+                  <td className="py-3 px-5 text-secundario tabular-nums">{row.cm}</td>
                 </tr>
               ))}
             </tbody>
           </table>
         </div>
 
-        <p className="px-6 py-4 text-[11px] leading-relaxed text-marble/40 border-t border-white/8">
+        <p className="px-6 py-4 text-lectura leading-relaxed text-terciario border-t border-white/8">
           Jordan y Nike suelen tallar justo; en Yeezy y New Balance conviene subir
           media talla. Si dudas, escríbenos con tu medida en centímetros.
         </p>

@@ -74,7 +74,7 @@ export function Navbar() {
     <>
       {settings.showAnnouncement && (
         <div className="bg-lapis text-marble overflow-hidden">
-          <p className="py-2 text-center text-[9px] sm:text-[10px] font-semibold uppercase tracking-[0.28em] px-4 truncate">
+          <p className="py-2 text-center text-rotulo font-semibold uppercase tracking-[0.12em] sm:tracking-[0.28em] px-4 sm:truncate">
             {settings.announcement}
           </p>
         </div>
@@ -105,7 +105,7 @@ export function Navbar() {
                   {settings.storeName}
                 </span>
                 {settings.tagline && (
-                  <span className="hidden sm:block text-[6.5px] font-semibold uppercase tracking-[0.34em] text-silver/55 mt-1">
+                  <span className="hidden sm:block whitespace-nowrap text-rotulo font-semibold uppercase tracking-[0.2em] text-secundario mt-1">
                     {settings.tagline}
                   </span>
                 )}
@@ -129,10 +129,10 @@ export function Navbar() {
                   to={link.to}
                   className={({ isActive }) =>
                     cx(
-                      'relative text-[10px] font-semibold uppercase tracking-[0.22em] transition-colors py-2',
+                      'relative whitespace-nowrap text-rotulo font-semibold uppercase tracking-[0.14em] transition-colors py-2',
                       isActive
                         ? 'text-marble'
-                        : 'text-marble/45 hover:text-marble/85',
+                        : 'text-secundario hover:text-marble/85',
                     )
                   }
                 >
@@ -157,7 +157,7 @@ export function Navbar() {
                   onChange={(e) => setQuery(e.target.value)}
                   placeholder={`Buscar entre ${sneakers.length} pares`}
                   aria-label="Buscar en el catálogo"
-                  className="w-52 bg-basalt/70 border border-white/10 py-2 pl-9 pr-3 text-[11px] text-marble placeholder:text-marble/30 focus:outline-none focus:border-silver/40 transition-colors"
+                  className="w-52 bg-basalt/70 border border-white/10 py-2 pl-9 pr-3 text-lectura text-marble placeholder:text-terciario focus:outline-none focus:border-silver/40 transition-colors"
                 />
               </form>
 
@@ -165,7 +165,7 @@ export function Navbar() {
                 href={generateDirectWhatsAppContact(settings, 'Asesoría de tallas y disponibilidad')}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="hidden sm:flex items-center gap-2 px-4 py-2.5 bg-marble text-obsidian text-[10px] font-bold uppercase tracking-[0.18em] hover:bg-silver transition-colors"
+                className="hidden sm:flex items-center gap-2 px-4 py-2.5 bg-marble text-obsidian text-rotulo font-bold uppercase tracking-[0.18em] hover:bg-silver transition-colors"
               >
                 <MessageCircle className="w-3.5 h-3.5" />
                 Asesoría
@@ -179,7 +179,7 @@ export function Navbar() {
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label={`${settings.storeName} en Instagram`}
-                  className="hidden sm:inline-flex p-2.5 text-marble/40 hover:text-silver transition-colors"
+                  className="hidden sm:inline-flex p-2.5 text-terciario hover:text-silver transition-colors"
                 >
                   <Instagram className="w-4 h-4" />
                 </a>
@@ -244,7 +244,7 @@ export function Navbar() {
                 className={({ isActive }) =>
                   cx(
                     'font-display text-3xl py-3.5 border-b border-white/6 animate-rise transition-colors',
-                    isActive ? 'text-marble' : 'text-marble/45',
+                    isActive ? 'text-marble' : 'text-secundario',
                   )
                 }
               >
@@ -259,7 +259,7 @@ export function Navbar() {
               href={generateDirectWhatsAppContact(settings)}
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center justify-center gap-2 w-full py-4 bg-marble text-obsidian text-[11px] font-bold uppercase tracking-[0.22em]"
+              className="flex items-center justify-center gap-2 w-full py-4 bg-marble text-obsidian text-rotulo font-bold uppercase tracking-[0.22em]"
             >
               <MessageCircle className="w-4 h-4" />
               Hablar con un asesor
@@ -270,7 +270,7 @@ export function Navbar() {
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label={`${settings.storeName} en Instagram`}
-                className="flex items-center justify-center gap-2 w-full py-3 text-marble/40 hover:text-marble text-[10px] font-semibold uppercase tracking-[0.22em] transition-colors"
+                className="flex items-center justify-center gap-2 w-full py-3 text-terciario hover:text-marble text-rotulo font-semibold uppercase tracking-[0.22em] transition-colors"
               >
                 <Instagram className="w-3.5 h-3.5" />
                 Instagram

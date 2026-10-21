@@ -130,7 +130,7 @@ export function FaqPage() {
             onChange={(e) => setQuery(e.target.value)}
             placeholder="Buscar una pregunta"
             aria-label="Buscar en las preguntas frecuentes"
-            className="w-full bg-basalt border border-white/12 py-3.5 pl-11 pr-4 text-[13px] text-marble placeholder:text-marble/30 focus:outline-none focus:border-silver/45 transition-colors"
+            className="w-full bg-basalt border border-white/12 py-3.5 pl-11 pr-4 text-lectura text-marble placeholder:text-terciario focus:outline-none focus:border-silver/45 transition-colors"
           />
         </div>
 
@@ -141,10 +141,10 @@ export function FaqPage() {
               key={key}
               onClick={() => setCategory(key)}
               className={cx(
-                'flex-1 min-w-[80px] py-3 text-[9px] font-semibold uppercase tracking-[0.16em] transition-colors',
+                'flex-1 min-w-[80px] py-3 text-rotulo font-semibold uppercase tracking-[0.16em] transition-colors',
                 category === key
                   ? 'bg-marble text-obsidian'
-                  : 'text-marble/45 hover:text-marble',
+                  : 'text-secundario hover:text-marble',
               )}
             >
               {CATEGORY_LABELS[key]}
@@ -167,7 +167,7 @@ export function FaqPage() {
                     >
                       <span
                         className={cx(
-                          'font-body font-semibold text-[13.5px] leading-snug normal-case tracking-normal transition-colors',
+                          'font-body font-semibold text-lectura leading-snug normal-case tracking-normal transition-colors',
                           isOpen ? 'text-marble' : 'text-marble/70 group-hover:text-marble',
                         )}
                       >
@@ -182,7 +182,7 @@ export function FaqPage() {
                     </button>
                   </h3>
                   {isOpen && (
-                    <p className="pb-6 pr-9 text-[13px] leading-relaxed text-marble/50 animate-fade">
+                    <p className="pb-6 pr-9 text-lectura leading-relaxed text-secundario animate-fade">
                       {item.answer}
                     </p>
                   )}
@@ -192,7 +192,7 @@ export function FaqPage() {
           </ul>
         ) : (
           <div className="py-16 text-center space-y-4">
-            <p className="text-[13px] text-marble/45">
+            <p className="text-lectura text-secundario">
               No encontramos esa pregunta. Escríbenos y te respondemos directo.
             </p>
           </div>
@@ -203,14 +203,14 @@ export function FaqPage() {
           <h2 className="font-display text-3xl text-marble">
             ¿Tu pregunta no está aquí?
           </h2>
-          <p className="mt-3 text-[13px] text-marble/50 max-w-sm mx-auto leading-relaxed">
+          <p className="mt-3 text-lectura text-secundario max-w-sm mx-auto leading-relaxed">
             Respondemos en menos de 5 minutos en horario laboral.
           </p>
           <a
             href={generateDirectWhatsAppContact(settings, 'Tengo una pregunta')}
             target="_blank"
             rel="noopener noreferrer"
-            className="mt-7 inline-flex items-center gap-3 px-7 py-4 bg-marble text-obsidian text-[11px] font-bold uppercase tracking-[0.22em] hover:bg-silver transition-colors"
+            className="mt-7 inline-flex items-center gap-3 px-7 py-4 bg-marble text-obsidian text-rotulo font-bold uppercase tracking-[0.22em] hover:bg-silver transition-colors"
           >
             <MessageCircle className="w-4 h-4" />
             Preguntar por WhatsApp

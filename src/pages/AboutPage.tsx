@@ -41,7 +41,7 @@ export function AboutPage() {
             <br />
             <span className="text-engraved">de los Tenis</span>
           </h1>
-          <p className="mt-7 max-w-xl mx-auto text-[14px] leading-relaxed text-marble/50">
+          <p className="mt-7 max-w-xl mx-auto text-[14px] leading-relaxed text-secundario">
             Empezamos vendiendo pares entre amigos en {settings.locationCity.split('·')[0].trim()}.
             Hoy despachamos a todo el país, pero la regla no cambió: si un par no nos
             lo pondríamos nosotros, no te lo vendemos.
@@ -61,7 +61,7 @@ export function AboutPage() {
             ].map(([value, label]) => (
               <div key={label} className="py-10 px-5 text-center">
                 <dt className="font-display text-4xl text-marble">{value}</dt>
-                <dd className="mt-2 text-[9px] uppercase tracking-[0.2em] text-marble/40">
+                <dd className="mt-2 text-rotulo uppercase tracking-[0.2em] text-terciario">
                   {label}
                 </dd>
               </div>
@@ -82,18 +82,18 @@ export function AboutPage() {
         <ol className="grid sm:grid-cols-2 lg:grid-cols-4 gap-px bg-white/8 border border-white/8">
           {VERIFICATION_STEPS.map((step, i) => (
             <li key={step.title} className="bg-basalt p-7 space-y-4">
-              <span className="block font-display text-3xl text-silver/25 tabular-nums">
+              <span className="block font-display text-3xl text-terciario tabular-nums">
                 {String(i + 1).padStart(2, '0')}
               </span>
-              <h3 className="font-body font-bold text-[12px] uppercase tracking-[0.18em] text-marble">
+              <h3 className="font-body font-bold text-rotulo uppercase tracking-[0.18em] text-marble">
                 {step.title}
               </h3>
-              <p className="text-[12px] leading-relaxed text-marble/45">{step.text}</p>
+              <p className="text-lectura leading-relaxed text-secundario">{step.text}</p>
             </li>
           ))}
         </ol>
 
-        <p className="mt-8 text-[12px] text-marble/40 leading-relaxed max-w-2xl border-l-2 border-silver/40 pl-5 py-1">
+        <p className="mt-8 text-lectura text-terciario leading-relaxed max-w-2xl border-l-2 border-silver/40 pl-5 py-1">
           La línea Sneakers no pasa por legit check y no se vende como original.
           Son pares de buena factura para uso diario, y lo decimos de frente: preferimos
           perder una venta antes que venderte algo con una etiqueta que no le corresponde.
@@ -117,7 +117,7 @@ export function AboutPage() {
 
             <DeliveryWall deliveries={deliveries} />
 
-            <p className="text-[11.5px] text-marble/35 leading-relaxed max-w-xl">
+            <p className="text-lectura text-terciario leading-relaxed max-w-xl">
               Publicamos estas fotos con permiso de cada cliente y solo mostramos
               barrio y ciudad, nunca la dirección.
             </p>
@@ -138,10 +138,10 @@ export function AboutPage() {
             {BRAND_PILLARS.map((pillar) => (
               <div key={pillar.id} className="bg-obsidian p-7 space-y-4">
                 <TempleMark variant="line" className="w-6 h-6 text-silver/40" />
-                <h3 className="font-body font-bold text-[12px] uppercase tracking-[0.18em] text-marble">
+                <h3 className="font-body font-bold text-rotulo uppercase tracking-[0.18em] text-marble">
                   {pillar.title}
                 </h3>
-                <p className="text-[12px] leading-relaxed text-marble/45">
+                <p className="text-lectura leading-relaxed text-secundario">
                   {pillar.text}
                 </p>
               </div>
@@ -158,7 +158,7 @@ export function AboutPage() {
         <div className="mt-9 flex flex-col sm:flex-row items-center justify-center gap-3">
           <Link
             to="/catalogo"
-            className="group flex items-center gap-3 px-8 py-4 bg-marble text-obsidian text-[11px] font-bold uppercase tracking-[0.22em] hover:bg-silver transition-colors"
+            className="group flex items-center gap-3 px-8 py-4 bg-marble text-obsidian text-rotulo font-bold uppercase tracking-[0.22em] hover:bg-silver transition-colors"
           >
             Ver el catálogo
             <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
@@ -167,7 +167,7 @@ export function AboutPage() {
             href={generateDirectWhatsAppContact(settings, 'Asesoría personalizada')}
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center gap-3 px-8 py-4 border border-white/18 text-marble/75 text-[11px] font-bold uppercase tracking-[0.22em] hover:text-marble hover:border-silver/45 transition-colors"
+            className="flex items-center gap-3 px-8 py-4 border border-white/18 text-marble/75 text-rotulo font-bold uppercase tracking-[0.22em] hover:text-marble hover:border-silver/45 transition-colors"
           >
             <MessageCircle className="w-4 h-4" />
             Hablar con un asesor

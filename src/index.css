@@ -15,6 +15,19 @@
   --color-silver: #c0c0c0; /* Metálico */
   --color-marble: #f2f2f2; /* Texto principal */
 
+  /* Grises de texto. Son sólidos y no `text-marble/40` a propósito: con
+     transparencia el contraste depende del fondo y por debajo de /50 quedaba
+     en 1,7–4,2:1. Estos dos dan al menos 4,5:1 sobre obsidiana, basalto y las
+     superficies de hasta #2a2a2a. El secundario queda justo debajo de
+     `text-marble/70` para que la jerarquía no se invierta. */
+  --color-secundario: #a8a8a8;
+  --color-terciario: #9a9a9a;
+
+  /* Tamaños mínimos. Ningún texto de lectura baja de 14px; un rótulo en
+     mayúsculas con tracking amplio, de 12px. */
+  --text-lectura: 0.875rem;
+  --text-rotulo: 0.75rem;
+
   /* Tipografía */
   --font-display: 'Anton', 'Impact', sans-serif;
   --font-body: 'Montserrat', system-ui, sans-serif;
@@ -109,7 +122,7 @@
   .eyebrow {
     font-family: var(--font-body);
     font-weight: 600;
-    font-size: 0.625rem;
+    font-size: var(--text-rotulo);
     letter-spacing: 0.42em;
     text-transform: uppercase;
     color: var(--color-silver);

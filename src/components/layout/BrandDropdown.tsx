@@ -207,8 +207,8 @@ export function BrandDropdown({ to, label, marcas, otras }: BrandDropdownProps) 
         onClick={() => (abierto ? cierra() : setAbierto(true))}
         onKeyDown={alTeclearEnBoton}
         className={cx(
-          'relative flex items-center gap-1.5 text-[10px] font-semibold uppercase tracking-[0.22em] transition-colors py-2',
-          enLaLinea ? 'text-marble' : 'text-marble/45 hover:text-marble/85',
+          'relative flex items-center gap-1.5 whitespace-nowrap text-rotulo font-semibold uppercase tracking-[0.14em] transition-colors py-2',
+          enLaLinea ? 'text-marble' : 'text-secundario hover:text-marble/85',
         )}
       >
         {label}
@@ -244,7 +244,7 @@ export function BrandDropdown({ to, label, marcas, otras }: BrandDropdownProps) 
                 onKeyDown={(e) => alTeclearEnOpcion(e, i)}
                 className={cx(
                   'flex items-center justify-between gap-4 px-4 py-3 border-b border-white/6 last:border-b-0 transition-colors',
-                  'text-[11.5px] text-marble/65 hover:text-marble hover:bg-white/5',
+                  'text-lectura text-secundario hover:text-marble hover:bg-white/5',
                   'focus:outline-none focus:text-marble focus:bg-white/8',
                   opcion.count === null && 'text-marble/90',
                   /* El grupo no es una marca más: una línea lo separa del
@@ -256,7 +256,7 @@ export function BrandDropdown({ to, label, marcas, otras }: BrandDropdownProps) 
               >
                 <span className="truncate">{opcion.label}</span>
                 {opcion.count !== null && (
-                  <span className="text-[10px] text-marble/30 tabular-nums shrink-0">
+                  <span className="text-lectura text-terciario tabular-nums shrink-0">
                     {opcion.count}
                   </span>
                 )}
@@ -307,7 +307,7 @@ export function BrandAccordion({
         className={({ isActive }) =>
           cx(
             'font-display text-3xl py-3.5 border-b border-white/6 animate-rise transition-colors',
-            isActive ? 'text-marble' : 'text-marble/45',
+            isActive ? 'text-marble' : 'text-secundario',
           )
         }
       >
@@ -327,7 +327,7 @@ export function BrandAccordion({
         onClick={() => setAbierto((v) => !v)}
         className="w-full flex items-center justify-between gap-4 py-3.5 text-left"
       >
-        <span className="font-display text-3xl text-marble/45">{label}</span>
+        <span className="font-display text-3xl text-secundario">{label}</span>
         <ChevronDown
           className={cx(
             'w-5 h-5 shrink-0 text-marble/35 transition-transform duration-200',
@@ -348,7 +348,7 @@ export function BrandAccordion({
                  fallar entre dos marcas seguidas. La sangría deja claro que
                  cuelgan de la línea de arriba. */
               className={cx(
-                'flex items-center justify-between gap-4 min-h-[44px] pl-5 pr-1 py-2 text-marble/55 active:text-marble',
+                'flex items-center justify-between gap-4 min-h-[44px] pl-5 pr-1 py-2 text-secundario active:text-marble',
                 /* Mismo corte que en escritorio: el acordeón no puede contar
                    otra historia que el menú de la barra. */
                 opcion.separada && 'mt-1.5 border-t border-white/12 pt-3',
@@ -356,7 +356,7 @@ export function BrandAccordion({
             >
               <span className="text-[14px] truncate">{opcion.label}</span>
               {opcion.count !== null && (
-                <span className="text-[11px] text-marble/30 tabular-nums shrink-0">
+                <span className="text-lectura text-terciario tabular-nums shrink-0">
                   {opcion.count}
                 </span>
               )}
@@ -370,7 +370,7 @@ export function BrandAccordion({
 
 function enlaceDeBarra({ isActive }: { isActive: boolean }) {
   return cx(
-    'relative text-[10px] font-semibold uppercase tracking-[0.22em] transition-colors py-2',
-    isActive ? 'text-marble' : 'text-marble/45 hover:text-marble/85',
+    'relative whitespace-nowrap text-rotulo font-semibold uppercase tracking-[0.14em] transition-colors py-2',
+    isActive ? 'text-marble' : 'text-secundario hover:text-marble/85',
   );
 }

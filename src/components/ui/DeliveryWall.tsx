@@ -116,10 +116,10 @@ export function DeliveryWall({
           <button
             onClick={() => setCity('all')}
             className={cx(
-              'px-4 py-2 text-[10px] font-semibold uppercase tracking-[0.18em] border transition-colors',
+              'px-4 py-2 text-rotulo font-semibold uppercase tracking-[0.18em] border transition-colors',
               city === 'all'
                 ? 'bg-marble text-obsidian border-marble'
-                : 'border-white/12 text-marble/50 hover:text-marble hover:border-silver/40',
+                : 'border-white/12 text-secundario hover:text-marble hover:border-silver/40',
             )}
           >
             Todas · {deliveries.length}
@@ -129,10 +129,10 @@ export function DeliveryWall({
               key={name}
               onClick={() => setCity(name)}
               className={cx(
-                'px-4 py-2 text-[10px] font-semibold uppercase tracking-[0.18em] border transition-colors',
+                'px-4 py-2 text-rotulo font-semibold uppercase tracking-[0.18em] border transition-colors',
                 city === name
                   ? 'bg-marble text-obsidian border-marble'
-                  : 'border-white/12 text-marble/50 hover:text-marble hover:border-silver/40',
+                  : 'border-white/12 text-secundario hover:text-marble hover:border-silver/40',
               )}
             >
               {name} · {count}
@@ -179,16 +179,18 @@ export function DeliveryWall({
                 {/* Placa: la ubicación grabada sobre la foto */}
                 <div className="absolute inset-x-0 bottom-0 p-3.5">
                   {!delivery.locationInImage && (
-                    <p className="flex items-center gap-1.5 text-[11px] font-semibold text-marble leading-tight">
+                    <p className="flex items-center gap-1.5 text-lectura font-semibold text-marble leading-tight">
                       <MapPin className="w-3.5 h-3.5 text-silver shrink-0" />
-                      <span className="truncate">
+                      {/* A 14px un barrio largo ya no cabe en una línea, y
+                          cortarlo con puntos suspensivos borraba el dato. */}
+                      <span className="line-clamp-2">
                         {delivery.neighborhood
                           ? `${delivery.neighborhood} · ${delivery.city}`
                           : delivery.city}
                       </span>
                     </p>
                   )}
-                  <p className="mt-1 text-[9px] uppercase tracking-[0.2em] text-marble/45 truncate">
+                  <p className="mt-1 text-rotulo uppercase tracking-[0.2em] text-secundario truncate">
                     {formatMonthYear(delivery.deliveredAt)}
                   </p>
                 </div>
@@ -239,7 +241,7 @@ export function DeliveryWall({
             <button
               onClick={() => setOpenIndex(null)}
               aria-label="Cerrar"
-              className="p-2 text-marble/60 hover:text-marble transition-colors"
+              className="p-2 text-secundario hover:text-marble transition-colors"
             >
               <X className="w-5 h-5" />
             </button>
@@ -278,14 +280,14 @@ export function DeliveryWall({
                   </p>
                 )}
                 {active.productName && (
-                  <p className="text-[13px] text-marble/70">{active.productName}</p>
+                  <p className="text-lectura text-marble/70">{active.productName}</p>
                 )}
                 {active.note && (
-                  <p className="text-[12px] text-marble/40 leading-relaxed">
+                  <p className="text-lectura text-terciario leading-relaxed">
                     {active.note}
                   </p>
                 )}
-                <p className="text-[9px] uppercase tracking-[0.24em] text-marble/30">
+                <p className="text-rotulo uppercase tracking-[0.24em] text-terciario">
                   {formatMonthYear(active.deliveredAt)}
                 </p>
               </div>
@@ -323,7 +325,7 @@ export function DeliveryLedger({ deliveries }: { deliveries: Delivery[] }) {
     <ul className="grid grid-cols-2 sm:grid-cols-4 gap-px bg-white/8 border border-white/8">
       {cities.map(([name, count]) => (
         <li key={name} className="bg-basalt px-5 py-4">
-          <p className="text-[9px] uppercase tracking-[0.2em] text-marble/40 truncate">
+          <p className="text-rotulo uppercase tracking-[0.2em] text-terciario truncate">
             {name}
           </p>
           <p className="font-display text-2xl text-marble mt-1.5 tabular-nums">

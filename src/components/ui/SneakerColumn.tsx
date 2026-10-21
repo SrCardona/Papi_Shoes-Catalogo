@@ -8,7 +8,7 @@ import { cx, discountPercent, formatPrice } from '../../lib/utils';
 const STATUS_META = {
   disponible: { label: 'Entrega inmediata', Icon: ShieldCheck, tone: 'text-emerald-300' },
   bajo_encargo: { label: 'Bajo encargo', Icon: Clock, tone: 'text-silver' },
-  agotado: { label: 'Agotado', Icon: XCircle, tone: 'text-marble/35' },
+  agotado: { label: 'Agotado', Icon: XCircle, tone: 'text-terciario' },
 } as const;
 
 interface SneakerColumnProps {
@@ -55,14 +55,14 @@ export function SneakerColumn({
         <div className="hidden sm:flex items-center justify-between px-3.5 py-2.5 border-b border-white/6">
           <span
             className={cx(
-              'text-[8px] font-bold uppercase tracking-[0.24em]',
+              'text-rotulo font-bold uppercase tracking-[0.24em]',
               isOriginal ? 'text-silver' : 'text-lapis-lit',
             )}
           >
             {isOriginal ? 'Original · Legit' : 'Sneakers'}
           </span>
           {discount && (
-            <span className="text-[9px] font-bold text-marble bg-lapis px-1.5 py-0.5">
+            <span className="text-rotulo font-bold text-marble bg-lapis px-1.5 py-0.5">
               −{discount}%
             </span>
           )}
@@ -92,13 +92,13 @@ export function SneakerColumn({
           {/* En móvil el descuento se marca sobre la foto, que es donde queda
               el sitio libre al no haber capitel. */}
           {discount && (
-            <span className="sm:hidden absolute top-0 right-0 bg-lapis text-marble text-[9px] font-bold px-1.5 py-1">
+            <span className="sm:hidden absolute top-0 right-0 bg-lapis text-marble text-rotulo font-bold px-1.5 py-1">
               −{discount}%
             </span>
           )}
 
           {sneaker.isNewArrival && !isSoldOut && (
-            <span className="absolute top-3 left-3 bg-marble text-obsidian text-[8px] font-bold uppercase tracking-[0.2em] px-2 py-1">
+            <span className="absolute top-3 left-3 bg-marble text-obsidian text-rotulo font-bold uppercase tracking-[0.2em] px-2 py-1">
               Nuevo
             </span>
           )}
@@ -113,10 +113,10 @@ export function SneakerColumn({
         {/* Basa: identidad y precio */}
         <div className="p-3 sm:p-3.5 space-y-2 sm:space-y-2.5">
           <div className="min-h-[2.4rem] sm:min-h-[2.6rem]">
-            <p className="text-[9px] uppercase tracking-[0.18em] sm:tracking-[0.22em] text-marble/35 mb-1">
+            <p className="text-rotulo uppercase tracking-[0.18em] sm:tracking-[0.22em] text-terciario mb-1">
               {sneaker.brand}
             </p>
-            <h3 className="font-body font-semibold text-[12px] sm:text-[13px] leading-snug text-marble line-clamp-2 normal-case tracking-normal">
+            <h3 className="font-body font-semibold text-lectura leading-snug text-marble line-clamp-2 normal-case tracking-normal">
               {sneaker.name}
             </h3>
           </div>
@@ -127,7 +127,7 @@ export function SneakerColumn({
                 {formatPrice(sneaker.price, settings.currency, settings.currencySymbol)}
               </p>
               {sneaker.originalPrice && sneaker.originalPrice > sneaker.price && (
-                <p className="text-[10px] text-marble/30 line-through mt-1">
+                <p className="text-lectura text-terciario line-through mt-1">
                   {formatPrice(
                     sneaker.originalPrice,
                     settings.currency,
@@ -136,7 +136,7 @@ export function SneakerColumn({
                 </p>
               )}
             </div>
-            <span className="hidden sm:inline text-[9px] text-marble/30 tabular-nums">
+            <span className="hidden sm:inline text-lectura text-terciario tabular-nums">
               {sneaker.sizes.length} tallas
             </span>
           </div>
@@ -151,7 +151,7 @@ export function SneakerColumn({
             )}
           >
             <status.Icon className="w-3 h-3 shrink-0" />
-            <span className="text-[9px] font-semibold uppercase tracking-[0.16em]">
+            <span className="text-rotulo font-semibold uppercase tracking-[0.16em]">
               {status.label}
             </span>
           </div>

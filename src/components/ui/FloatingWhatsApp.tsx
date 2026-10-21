@@ -40,24 +40,24 @@ export function FloatingWhatsApp() {
         <div className="w-[min(19rem,calc(100vw_-_2rem))] bg-basalt border border-silver/20 shadow-2xl animate-rise">
           <div className="px-4 py-3.5 border-b border-white/8 flex items-center justify-between">
             <div>
-              <p className="text-[11px] font-bold uppercase tracking-[0.18em] text-marble">
+              <p className="text-rotulo font-bold uppercase tracking-[0.18em] text-marble">
                 Asesor {settings.storeName}
               </p>
-              <p className="text-[10px] text-marble/40 mt-0.5">
+              <p className="text-lectura text-terciario mt-0.5">
                 {formatPhoneDisplay(settings.whatsappNumber)}
               </p>
             </div>
             <button
               onClick={() => setIsOpen(false)}
               aria-label="Cerrar"
-              className="p-1 text-marble/40 hover:text-marble"
+              className="p-1 text-terciario hover:text-marble"
             >
               <X className="w-4 h-4" />
             </button>
           </div>
 
           <div className="p-3 space-y-1.5">
-            <p className="text-[10px] uppercase tracking-[0.2em] text-marble/35 px-1 pb-1.5">
+            <p className="text-rotulo uppercase tracking-[0.2em] text-terciario px-1 pb-1.5">
               ¿Con qué te ayudamos?
             </p>
             {QUICK_TOPICS.map((topic) => (
@@ -66,7 +66,7 @@ export function FloatingWhatsApp() {
                 href={generateDirectWhatsAppContact(settings, topic)}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="block px-3 py-2.5 text-[12px] text-marble/70 hover:text-marble bg-obsidian/60 hover:bg-lapis/25 border border-white/6 transition-colors"
+                className="block px-3 py-2.5 text-lectura text-marble/70 hover:text-marble bg-obsidian/60 hover:bg-lapis/25 border border-white/6 transition-colors"
               >
                 {topic}
               </a>

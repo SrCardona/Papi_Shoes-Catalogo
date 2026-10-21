@@ -10,7 +10,7 @@ export function NotFoundPage() {
         <h1 className="font-display text-5xl sm:text-6xl text-marble">
           Esta página no existe
         </h1>
-        <p className="text-[13px] text-marble/45 max-w-sm mx-auto leading-relaxed">
+        <p className="text-lectura text-secundario max-w-sm mx-auto leading-relaxed">
           El enlace que seguiste no lleva a ninguna parte. Vuelve a la entrada o
           mira el catálogo completo.
         </p>
@@ -18,13 +18,13 @@ export function NotFoundPage() {
       <div className="flex flex-wrap justify-center gap-3">
         <Link
           to="/"
-          className="px-7 py-3.5 bg-marble text-obsidian text-[10px] font-bold uppercase tracking-[0.22em] hover:bg-silver transition-colors"
+          className="px-7 py-3.5 bg-marble text-obsidian text-rotulo font-bold uppercase tracking-[0.22em] hover:bg-silver transition-colors"
         >
           Ir a la entrada
         </Link>
         <Link
           to="/catalogo"
-          className="px-7 py-3.5 border border-white/15 text-marble/70 text-[10px] font-bold uppercase tracking-[0.22em] hover:text-marble hover:border-silver/40 transition-colors"
+          className="px-7 py-3.5 border border-white/15 text-marble/70 text-rotulo font-bold uppercase tracking-[0.22em] hover:text-marble hover:border-silver/40 transition-colors"
         >
           Ver catálogo
         </Link>

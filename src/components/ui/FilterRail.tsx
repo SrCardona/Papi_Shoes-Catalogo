@@ -47,13 +47,13 @@ const STATUSES: { value: 'all' | SneakerStatus; label: string }[] = [
  * y con scroll horizontal. Desde `sm` vuelve a los 11px del diseño.
  */
 const fieldBase =
-  'bg-obsidian border border-white/12 py-2.5 px-3 text-[16px] sm:text-[11px] text-marble focus:outline-none focus:border-silver/45 transition-colors';
+  'bg-obsidian border border-white/12 py-2.5 px-3 text-[16px] sm:text-lectura text-marble focus:outline-none focus:border-silver/45 transition-colors';
 
 /** Campos del panel: ocupan el ancho de su columna. */
 const fieldClass = `${fieldBase} w-full`;
 
 const labelClass =
-  'block text-[9px] font-semibold uppercase tracking-[0.2em] text-marble/40 mb-2';
+  'block text-rotulo font-semibold uppercase tracking-[0.2em] text-terciario mb-2';
 
 export function FilterRail({
   filters,
@@ -139,7 +139,7 @@ export function FilterRail({
               <button
                 onClick={() => onChange({ searchQuery: '' })}
                 aria-label="Limpiar búsqueda"
-                className="absolute right-2.5 top-1/2 -translate-y-1/2 text-marble/40 hover:text-marble"
+                className="absolute right-2.5 top-1/2 -translate-y-1/2 text-terciario hover:text-marble"
               >
                 <X className="w-3.5 h-3.5" />
               </button>
@@ -167,10 +167,10 @@ export function FilterRail({
             onClick={() => setIsPanelOpen((v) => !v)}
             aria-expanded={isPanelOpen}
             className={cx(
-              'flex items-center gap-2 px-4 py-2.5 border text-[10px] font-semibold uppercase tracking-[0.18em] shrink-0 transition-colors',
+              'flex items-center gap-2 px-4 py-2.5 border text-rotulo font-semibold uppercase tracking-[0.18em] shrink-0 transition-colors',
               isPanelOpen || activeCount > 0
                 ? 'bg-marble text-obsidian border-marble'
-                : 'border-white/12 text-marble/60 hover:text-marble hover:border-silver/35',
+                : 'border-white/12 text-secundario hover:text-marble hover:border-silver/35',
             )}
           >
             <SlidersHorizontal className="w-3.5 h-3.5" />
@@ -188,12 +188,12 @@ export function FilterRail({
             para entender. */}
         {(filters.brand || filters.brandGroup.length > 0) && (
           <div className="flex items-center gap-2 pb-3 -mt-0.5">
-            <span className="text-[9px] font-semibold uppercase tracking-[0.2em] text-marble/35">
+            <span className="text-rotulo font-semibold uppercase tracking-[0.2em] text-terciario">
               Marca
             </span>
             <button
               onClick={() => onChange({ brand: '', brandGroup: [] })}
-              className="group flex items-center gap-2 pl-3 pr-2 py-1.5 border border-silver/35 bg-silver/10 text-[11px] text-marble hover:border-silver/60 transition-colors"
+              className="group flex items-center gap-2 pl-3 pr-2 py-1.5 border border-silver/35 bg-silver/10 text-lectura text-marble hover:border-silver/60 transition-colors"
               aria-label={
                 filters.brand
                   ? `Quitar el filtro de marca ${filters.brand}`
@@ -346,7 +346,7 @@ export function FilterRail({
                     )}
                   </span>
                   {precioMostrado >= priceBounds.max && (
-                    <span className="text-marble/30"> · todos</span>
+                    <span className="text-terciario"> · todos</span>
                   )}
                 </label>
                 <input
@@ -380,10 +380,10 @@ export function FilterRail({
                         key={c.value}
                         onClick={() => applyAndClose({ category: c.value })}
                         className={cx(
-                          'flex-1 py-2.5 text-[10px] font-semibold uppercase tracking-[0.14em] transition-colors',
+                          'flex-1 py-2.5 text-rotulo font-semibold uppercase tracking-[0.14em] transition-colors',
                           filters.category === c.value
                             ? 'bg-marble text-obsidian'
-                            : 'text-marble/50 hover:text-marble',
+                            : 'text-secundario hover:text-marble',
                         )}
                       >
                         {c.label}
@@ -395,7 +395,7 @@ export function FilterRail({
             </div>
 
             <div className="flex items-center justify-between gap-4 mt-6 pt-4 border-t border-white/8">
-              <p className="text-[10px] uppercase tracking-[0.18em] text-marble/40 tabular-nums">
+              <p className="text-rotulo uppercase tracking-[0.18em] text-terciario tabular-nums">
                 {resultCount} de {totalCount} pares
               </p>
               <button
@@ -403,7 +403,7 @@ export function FilterRail({
                   onReset();
                   setIsPanelOpen(false);
                 }}
-                className="text-[10px] font-semibold uppercase tracking-[0.2em] text-marble/45 hover:text-marble transition-colors"
+                className="text-rotulo font-semibold uppercase tracking-[0.2em] text-secundario hover:text-marble transition-colors"
               >
                 Restablecer
               </button>

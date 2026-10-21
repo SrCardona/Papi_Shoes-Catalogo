@@ -83,7 +83,7 @@ export class ErrorBoundary extends Component<Props, State> {
             <TempleMark className="w-14 h-14 opacity-55" />
             <div className="space-y-2.5">
               <h1 className="font-display text-4xl text-marble">Algo se rompió</h1>
-              <p className="text-[13px] text-marble/50 leading-relaxed max-w-sm mx-auto">
+              <p className="text-lectura text-secundario leading-relaxed max-w-sm mx-auto">
                 La página no pudo cargarse. Abajo está el detalle técnico del fallo.
               </p>
             </div>
@@ -92,28 +92,28 @@ export class ErrorBoundary extends Component<Props, State> {
           {/* El error real, visible */}
           <div className="bg-basalt border border-red-500/30">
             <div className="px-4 py-3 border-b border-white/8 flex items-center justify-between gap-3">
-              <span className="text-[9px] font-semibold uppercase tracking-[0.2em] text-red-300">
+              <span className="text-rotulo font-semibold uppercase tracking-[0.2em] text-red-300">
                 Detalle del error
               </span>
               <button
                 onClick={this.copyReport}
-                className="text-[9px] font-semibold uppercase tracking-[0.16em] text-marble/50 hover:text-marble transition-colors"
+                className="text-rotulo font-semibold uppercase tracking-[0.16em] text-secundario hover:text-marble transition-colors"
               >
                 {copied ? 'Copiado' : 'Copiar'}
               </button>
             </div>
 
             <div className="px-4 py-3.5 space-y-3">
-              <p className="font-mono text-[12px] text-red-200 break-words leading-relaxed">
+              <p className="font-mono text-lectura text-red-200 break-words leading-relaxed">
                 {error.message || 'Error sin mensaje'}
               </p>
 
               {(error.stack || componentStack) && (
                 <details>
-                  <summary className="cursor-pointer text-[10px] uppercase tracking-[0.16em] text-marble/40 hover:text-marble/70 transition-colors">
+                  <summary className="cursor-pointer text-rotulo uppercase tracking-[0.16em] text-terciario hover:text-marble/70 transition-colors">
                     Ver traza completa
                   </summary>
-                  <pre className="mt-3 max-h-56 overflow-auto text-[10.5px] leading-relaxed text-marble/45 whitespace-pre-wrap break-words">
+                  <pre className="mt-3 max-h-56 overflow-auto text-lectura leading-relaxed text-secundario whitespace-pre-wrap break-words">
                     {error.stack}
                     {componentStack}
                   </pre>
@@ -126,19 +126,19 @@ export class ErrorBoundary extends Component<Props, State> {
           <div className="space-y-3">
             <button
               onClick={() => window.location.reload()}
-              className="w-full py-4 bg-marble text-obsidian text-[10px] font-bold uppercase tracking-[0.22em] hover:bg-silver transition-colors"
+              className="w-full py-4 bg-marble text-obsidian text-rotulo font-bold uppercase tracking-[0.22em] hover:bg-silver transition-colors"
             >
               Recargar la página
             </button>
 
             <button
               onClick={this.resetStoredData}
-              className="w-full py-3.5 border border-white/15 text-marble/60 text-[10px] font-bold uppercase tracking-[0.22em] hover:text-marble hover:border-silver/40 transition-colors"
+              className="w-full py-3.5 border border-white/15 text-secundario text-rotulo font-bold uppercase tracking-[0.22em] hover:text-marble hover:border-silver/40 transition-colors"
             >
               Borrar datos guardados y empezar de cero
             </button>
 
-            <p className="text-[11px] text-marble/35 leading-relaxed text-center pt-1">
+            <p className="text-lectura text-terciario leading-relaxed text-center pt-1">
               Si el error vuelve después de recargar, casi siempre se debe a un
               catálogo guardado por una versión anterior. El segundo botón lo borra.
             </p>

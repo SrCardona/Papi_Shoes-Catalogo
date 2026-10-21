@@ -177,7 +177,7 @@ export function HighlightRail() {
                       />
                     )}
                   </span>
-                  <span className="text-[8px] font-semibold uppercase tracking-[0.14em] text-marble/45 group-hover:text-marble/85 text-center leading-tight transition-colors">
+                  <span className="text-rotulo font-semibold uppercase tracking-[0.02em] text-secundario group-hover:text-marble/85 text-center leading-tight transition-colors">
                     {story.label ?? story.title}
                   </span>
                 </button>
@@ -265,7 +265,7 @@ function StoryViewerContent({
       <button
         onClick={onClose}
         aria-label="Cerrar historia"
-        className="absolute top-5 right-5 p-2.5 text-marble/60 hover:text-marble z-10"
+        className="absolute top-5 right-5 p-2.5 text-secundario hover:text-marble z-10"
       >
         <X className="w-5 h-5" />
       </button>
@@ -319,7 +319,7 @@ function StoryViewerContent({
         {/* Contenido */}
         <div className="absolute inset-x-0 bottom-0 p-6 space-y-3 z-10">
           {slide.badge && (
-            <span className="inline-block bg-marble text-obsidian text-[8px] font-bold uppercase tracking-[0.2em] px-2.5 py-1">
+            <span className="inline-block bg-marble text-obsidian text-rotulo font-bold uppercase tracking-[0.2em] px-2.5 py-1">
               {slide.badge}
             </span>
           )}
@@ -328,13 +328,13 @@ function StoryViewerContent({
               {slide.title}
             </h3>
           )}
-          <p className="text-[13px] text-marble/70 leading-relaxed">{slide.caption}</p>
+          <p className="text-lectura text-marble/70 leading-relaxed">{slide.caption}</p>
           {slide.ctaText && (
             <a
               href={generateDirectWhatsAppContact(settings, story.title)}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-block mt-2 px-5 py-3 bg-marble text-obsidian text-[10px] font-bold uppercase tracking-[0.2em]"
+              className="inline-block mt-2 px-5 py-3 bg-marble text-obsidian text-rotulo font-bold uppercase tracking-[0.2em]"
             >
               {slide.ctaText}
             </a>

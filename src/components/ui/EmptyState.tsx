@@ -18,7 +18,7 @@ export function EmptyState({ query, onReset }: EmptyStateProps) {
         <h3 className="font-display text-2xl text-marble">
           Ningún par coincide
         </h3>
-        <p className="text-[13px] text-marble/45 leading-relaxed">
+        <p className="text-lectura text-secundario leading-relaxed">
           Ajusta los filtros para ver más resultados. Si buscas una referencia
           puntual, la conseguimos bajo encargo en 8 a 14 días.
         </p>
@@ -27,7 +27,7 @@ export function EmptyState({ query, onReset }: EmptyStateProps) {
         {onReset && (
           <button
             onClick={onReset}
-            className="px-5 py-3 border border-white/15 text-marble/70 hover:text-marble hover:border-silver/40 text-[10px] font-semibold uppercase tracking-[0.22em] transition-colors"
+            className="px-5 py-3 border border-white/15 text-marble/70 hover:text-marble hover:border-silver/40 text-rotulo font-semibold uppercase tracking-[0.22em] transition-colors"
           >
             Quitar filtros
           </button>
@@ -39,7 +39,7 @@ export function EmptyState({ query, onReset }: EmptyStateProps) {
           )}
           target="_blank"
           rel="noopener noreferrer"
-          className="px-5 py-3 bg-marble text-obsidian text-[10px] font-bold uppercase tracking-[0.22em] hover:bg-silver transition-colors"
+          className="px-5 py-3 bg-marble text-obsidian text-rotulo font-bold uppercase tracking-[0.22em] hover:bg-silver transition-colors"
         >
           Pedirlo bajo encargo
         </a>

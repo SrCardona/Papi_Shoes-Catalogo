@@ -44,7 +44,7 @@ export function SectionHeader({
         {description && (
           <p
             className={cx(
-              'text-[13px] leading-relaxed text-marble/45 max-w-xl',
+              'text-lectura leading-relaxed text-secundario max-w-xl',
               centered && 'mx-auto',
             )}
           >
