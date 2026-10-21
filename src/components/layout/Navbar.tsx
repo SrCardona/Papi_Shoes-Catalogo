@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { Link, NavLink, useLocation, useNavigate } from 'react-router-dom';
-import { Instagram, Menu, MessageCircle, Search, Shield, X } from 'lucide-react';
+import { Instagram, Menu, MessageCircle, Search, X } from 'lucide-react';
 import { useStore } from '../../context/StoreContext';
 import { useMarcasAgrupadas } from '../../hooks/useMarcasPorLinea';
 import { TempleMark } from '../ui/TempleMark';
@@ -185,17 +185,9 @@ export function Navbar() {
                 </a>
               )}
 
-              {/* El acceso al panel es para la tienda, no para el cliente: en
-                  móvil vive solo dentro del menú, donde ya estaba, y así la
-                  barra queda con una sola acción. */}
-              <Link
-                to="/admin"
-                aria-label="Panel de administración"
-                className="hidden sm:block p-2.5 text-marble/40 hover:text-silver transition-colors"
-              >
-                <Shield className="w-4 h-4" />
-              </Link>
-
+              {/* Sin acceso al panel: es para la tienda, no para el cliente, y
+                  se entra escribiendo /admin. La puerta sigue siendo el
+                  servidor, esconder el enlace no protege nada. */}
               <button
                 onClick={openMenu}
                 aria-label="Abrir menú"
@@ -272,13 +264,6 @@ export function Navbar() {
               <MessageCircle className="w-4 h-4" />
               Hablar con un asesor
             </a>
-            <Link
-              to="/admin"
-              className="flex items-center justify-center gap-2 w-full py-3.5 border border-white/12 text-marble/55 text-[10px] font-semibold uppercase tracking-[0.22em]"
-            >
-              <Shield className="w-3.5 h-3.5" />
-              Panel de administración
-            </Link>
             {igUrl && (
               <a
                 href={igUrl}
