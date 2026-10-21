@@ -457,7 +457,7 @@ function ProductView({ id }: { id?: string }) {
               title="Pares parecidos"
               className="mb-7 sm:mb-9"
             />
-            <Colonnade sneakers={related} />
+            <Colonnade sneakers={related} lineaUnica />
           </section>
         )}
 

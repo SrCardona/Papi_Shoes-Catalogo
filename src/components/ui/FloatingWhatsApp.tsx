@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { useLocation } from 'react-router-dom';
 import { MessageCircle, X } from 'lucide-react';
 import { useStore } from '../../context/StoreContext';
+import { useOcultarAlBajar } from '../../hooks/useOcultarAlBajar';
 import { cx, formatPhoneDisplay, generateDirectWhatsAppContact } from '../../lib/utils';
 
 const QUICK_TOPICS = [
@@ -15,6 +16,10 @@ export function FloatingWhatsApp() {
   const { settings } = useStore();
   const [isOpen, setIsOpen] = useState(false);
   const { pathname } = useLocation();
+  // En el celular el botón tapaba el nombre y el precio de las tarjetas de la
+  // columna derecha. Se aparta mientras se baja y vuelve apenas se sube, como
+  // la barra de filtros; abierto no se mueve, porque se llevaría el menú.
+  const oculto = useOcultarAlBajar(isOpen);
 
   // El panel de administración no necesita el botón de ventas.
   if (pathname.startsWith('/admin')) return null;
@@ -28,9 +33,13 @@ export function FloatingWhatsApp() {
   return (
     <div
       className={cx(
-        'fixed right-4 sm:right-5 z-40 flex-col items-end gap-3',
-        'bottom-[max(1rem,env(safe-area-inset-bottom))] sm:bottom-5',
+        'fixed z-40 flex-col items-end gap-3 transition-transform duration-300 ease-out',
+        // El margen se suma al área segura, no compite con ella: con `max()`
+        // el botón quedaba pegado a la barra de gestos del iPhone.
+        'right-[calc(1rem+env(safe-area-inset-right))] bottom-[calc(1rem+env(safe-area-inset-bottom))]',
+        'sm:right-5 sm:bottom-5 sm:translate-y-0',
         isProductPage ? 'hidden sm:flex' : 'flex',
+        oculto && 'translate-y-[calc(100%+2rem+env(safe-area-inset-bottom))]',
       )}
     >
       {/* En el ancho: los guiones bajos son los espacios de la resta.

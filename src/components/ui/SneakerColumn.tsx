@@ -1,15 +1,28 @@
 import { Link } from 'react-router-dom';
-import { ShieldCheck, Clock, XCircle } from 'lucide-react';
 import type { Sneaker } from '../../types';
 import { useStore } from '../../context/StoreContext';
 import { SmartImage } from './SmartImage';
 import { cx, discountPercent, formatPrice } from '../../lib/utils';
 
-const STATUS_META = {
-  disponible: { label: 'Entrega inmediata', Icon: ShieldCheck, tone: 'text-emerald-300' },
-  bajo_encargo: { label: 'Bajo encargo', Icon: Clock, tone: 'text-silver' },
-  agotado: { label: 'Agotado', Icon: XCircle, tone: 'text-terciario' },
+const STATUS_LABEL = {
+  disponible: 'Entrega inmediata',
+  bajo_encargo: 'Bajo encargo',
+  agotado: 'Agotado',
 } as const;
+
+const LINEA_LABEL = { originales: 'Originales', general: 'Sneakers' } as const;
+
+/* El generador marca `isNewArrival` en todos los pares, así que por sí solo no
+   dice nada: "Nuevo" en las 616 tarjetas es ruido. Lo que separa un par recién
+   llegado es la fecha de `catalogo/llegadas.json`, que viaja en `createdAt`. */
+const DIAS_DE_NUEVO = 21;
+const MS_POR_DIA = 86_400_000;
+
+function esNuevo(s: Sneaker): boolean {
+  if (!s.isNewArrival) return false;
+  const llegada = Date.parse(s.createdAt);
+  return Number.isFinite(llegada) && Date.now() - llegada <= DIAS_DE_NUEVO * MS_POR_DIA;
+}
 
 interface SneakerColumnProps {
   sneaker: Sneaker;
@@ -17,29 +30,38 @@ interface SneakerColumnProps {
   index?: number;
   /** Las de la primera fila cargan sin diferir: son las que miden el LCP. */
   priority?: boolean;
+  /** Todas las tarjetas de la cuadrícula son de la misma línea (las páginas
+      de Originales y Sneakers, los pares parecidos de una ficha). */
+  lineaUnica?: boolean;
 }
 
 /**
- * Cada producto es una columna del templo: fuste estriado, capitel con la
- * línea a la que pertenece y basa con el precio. El hover la ilumina.
+ * Cada producto es su propia celda: la foto sola arriba y todo lo que la
+ * describe debajo, como la cartela de una pieza de museo.
  *
- * En un teléfono la columna mide unos 175 px de ancho y ahí no caben ocho
- * datos sin volverse ruido, así que la ficha se reduce a lo que decide la
- * compra —foto, marca, nombre y precio— y el resto aparece desde `sm`. Lo
- * único que sobrevive en móvil es lo que cambia la decisión: el descuento y
- * un estado que no sea el normal (bajo encargo o agotado).
+ * Nada va encima de la foto. Las etiquetas sobre la imagen tapaban justo la
+ * puntera o el talón, que es lo que se mira para reconocer el par, y en un
+ * teléfono de 175 px de tarjeta se comían un cuarto del tenis.
+ *
+ * Donde se mezclan las dos líneas (portada, catálogo completo, búsqueda) la
+ * línea sale en toda tarjeta, también en el celular: es lo único que impide
+ * leer un par de uso diario como verificado. En una cuadrícula de una sola
+ * línea el encabezado de la página ya la dice, y en un celular la fila
+ * "Louis Vuitton · Sneakers" no cabe: ahí queda solo la marca. Por lo mismo,
+ * "Verificado" solo existe en Originales.
  */
 export function SneakerColumn({
   sneaker,
   index = 0,
   priority = false,
+  lineaUnica = false,
 }: SneakerColumnProps) {
   const { settings } = useStore();
   const discount = discountPercent(sneaker);
-  const status = STATUS_META[sneaker.status];
   const isOriginal = sneaker.category === 'originales';
+  const isVerified = isOriginal && sneaker.isOriginalCertified;
   const isSoldOut = sneaker.status === 'agotado';
-  const needsStatusNote = sneaker.status !== 'disponible';
+  const colorway = sneaker.details.colorway.trim();
 
   return (
     <article
@@ -48,27 +70,9 @@ export function SneakerColumn({
     >
       <Link
         to={`/producto/${sneaker.id}`}
-        className="block focus:outline-none focus-visible:ring-1 focus-visible:ring-silver"
+        className="flex flex-col h-full focus:outline-none focus-visible:ring-1 focus-visible:ring-silver"
       >
-        {/* Capitel: rótulo de la línea. Desde sm, para no partir en dos la
-            cabecera de una tarjeta que en móvil ya es estrecha. */}
-        <div className="hidden sm:flex items-center justify-between px-3.5 py-2.5 border-b border-white/6">
-          <span
-            className={cx(
-              'text-rotulo font-bold uppercase tracking-[0.24em]',
-              isOriginal ? 'text-silver' : 'text-lapis-lit',
-            )}
-          >
-            {isOriginal ? 'Original · Legit' : 'Sneakers'}
-          </span>
-          {discount && (
-            <span className="text-rotulo font-bold text-marble bg-lapis px-1.5 py-0.5">
-              −{discount}%
-            </span>
-          )}
-        </div>
-
-        {/* Fuste: la imagen entera sobre estriado.
+        {/* La foto entera sobre estriado.
             Iba recortada a cuadrado para que la columnata quedara pareja, pero
             el catálogo se surte de fotos de proveedor muy apaisadas y el
             recorte se comía el par: en la línea Originales, 80 de 88 fotos
@@ -81,79 +85,74 @@ export function SneakerColumn({
             isSoldOut && 'opacity-45',
           )}
         >
+          {/* Al pasar el cursor el tenis sube, nada más. `hover:` ya solo
+              existe donde hay cursor, y `motion-safe:` deja quieto el par a
+              quien pidió menos movimiento. */}
           <SmartImage
             src={sneaker.images[0]}
             alt={sneaker.name}
             priority={priority}
             sizes="(max-width: 640px) 50vw, (max-width: 1280px) 33vw, 25vw"
-            className="w-full h-full object-contain transition-transform duration-[900ms] ease-out group-hover:scale-[1.07]"
+            className="w-full h-full object-contain motion-safe:transition-transform motion-safe:duration-500 motion-safe:ease-out motion-safe:group-hover:-translate-y-1.5"
           />
-
-          {/* En móvil el descuento se marca sobre la foto, que es donde queda
-              el sitio libre al no haber capitel. */}
-          {discount && (
-            <span className="sm:hidden absolute top-0 right-0 bg-lapis text-marble text-rotulo font-bold px-1.5 py-1">
-              −{discount}%
-            </span>
-          )}
-
-          {sneaker.isNewArrival && !isSoldOut && (
-            <span className="absolute top-3 left-3 bg-marble text-obsidian text-rotulo font-bold uppercase tracking-[0.2em] px-2 py-1">
-              Nuevo
-            </span>
-          )}
-
-          {isSoldOut && (
-            <div className="absolute inset-0 flex items-center justify-center bg-obsidian/55">
-              <span className="font-display text-xl text-marble/70">Agotado</span>
-            </div>
-          )}
         </div>
 
-        {/* Basa: identidad y precio */}
-        <div className="p-3 sm:p-3.5 space-y-2 sm:space-y-2.5">
-          <div className="min-h-[2.4rem] sm:min-h-[2.6rem]">
-            <p className="text-rotulo uppercase tracking-[0.18em] sm:tracking-[0.22em] text-terciario mb-1">
-              {sneaker.brand}
-            </p>
+        <div className="flex flex-1 flex-col gap-2 p-3 sm:p-4 border-t border-white/8">
+          <p className="flex flex-wrap gap-x-2 text-rotulo uppercase tracking-[0.1em] sm:tracking-[0.18em] text-terciario">
+            <span>{sneaker.brand}</span>
+            <span aria-hidden className={cx(lineaUnica && 'hidden sm:inline')}>·</span>
+            <span className={cx(lineaUnica && 'hidden sm:inline')}>
+              {LINEA_LABEL[sneaker.category]}
+            </span>
+          </p>
+
+          <div>
+            {/* Sin alto reservado: el colorway va pegado al nombre, y el precio
+                cae a la misma altura en toda la fila porque baja con `mt-auto`. */}
             <h3 className="font-body font-semibold text-lectura leading-snug text-marble line-clamp-2 normal-case tracking-normal">
               {sneaker.name}
             </h3>
-          </div>
-
-          <div className="flex items-end justify-between gap-2 pt-0.5 sm:pt-1">
-            <div className="leading-none">
-              <p className="font-display text-[17px] sm:text-lg text-marble">
-                {formatPrice(sneaker.price, settings.currency, settings.currencySymbol)}
+            {/* Hasta dos líneas: a 14 px en una tarjeta de celular casi ningún
+                colorway cabe en una, y cortarlo con puntos suspensivos se comía
+                justo el color que distingue el par. El precio no se descuadra
+                porque baja con `mt-auto`. */}
+            {colorway && (
+              <p className="text-lectura leading-snug text-secundario line-clamp-2">
+                {colorway}
               </p>
-              {sneaker.originalPrice && sneaker.originalPrice > sneaker.price && (
-                <p className="text-lectura text-terciario line-through mt-1">
-                  {formatPrice(
-                    sneaker.originalPrice,
-                    settings.currency,
-                    settings.currencySymbol,
-                  )}
-                </p>
-              )}
-            </div>
-            <span className="hidden sm:inline text-lectura text-terciario tabular-nums">
-              {sneaker.sizes.length} tallas
-            </span>
+            )}
           </div>
 
-          {/* "Entrega inmediata" es el caso normal: en móvil se da por sentado
-              y solo se dice cuando la respuesta es otra. */}
-          <div
-            className={cx(
-              'items-center gap-1.5 pt-2 border-t border-white/6',
-              needsStatusNote ? 'flex' : 'hidden sm:flex',
-              status.tone,
-            )}
-          >
-            <status.Icon className="w-3 h-3 shrink-0" />
-            <span className="text-rotulo font-semibold uppercase tracking-[0.16em]">
-              {status.label}
-            </span>
+          {/* Precio y disponibilidad van juntos al fondo de la tarjeta. Para
+              que en una fila los precios queden a la misma altura, la
+              disponibilidad reserva en el celular sus dos líneas aunque use
+              una: "Nuevo" y "Entrega inmediata" no caben lado a lado y, si no,
+              la tarjeta que dice "Nuevo" subiría su precio. */}
+          <div className="mt-auto flex flex-col gap-2 pt-1">
+            {/* En una sola fila. En el celular las tres cifras miden unos 170 px
+                y la tarjeta deja 141, así que ahí se queda sin el precio
+                anterior: el descuento ya dice cuánto se ahorra, y el tachado
+                sigue en escritorio y en la ficha. La letra no se achica. */}
+            <p className="flex flex-nowrap items-baseline gap-x-2 whitespace-nowrap">
+              <span className="font-display text-[17px] sm:text-lg text-marble">
+                {formatPrice(sneaker.price, settings.currency, settings.currencySymbol)}
+              </span>
+              {discount && sneaker.originalPrice && (
+                <>
+                  <span className="hidden sm:inline text-lectura text-terciario line-through">
+                    {formatPrice(sneaker.originalPrice, settings.currency, settings.currencySymbol)}
+                  </span>
+                  <span className="text-lectura text-secundario tabular-nums">−{discount}%</span>
+                </>
+              )}
+            </p>
+
+            {/* Cada dato entero o a la línea siguiente, nunca partido. */}
+            <p className="flex flex-wrap content-start gap-x-3 gap-y-1 min-h-[calc(3em+0.25rem)] sm:min-h-0 whitespace-nowrap text-rotulo uppercase tracking-[0.04em] sm:tracking-[0.14em] text-terciario">
+              {esNuevo(sneaker) && !isSoldOut && <span className="text-secundario">Nuevo</span>}
+              <span>{STATUS_LABEL[sneaker.status]}</span>
+              {isVerified && <span>Verificado</span>}
+            </p>
           </div>
         </div>
       </Link>
@@ -161,24 +160,28 @@ export function SneakerColumn({
   );
 }
 
-/** La columnata: cuadrícula de productos asentada sobre el estilóbato. */
-export function Colonnade({ sneakers }: { sneakers: Sneaker[] }) {
+/** La columnata: cuadrícula de productos, una celda por par. */
+export function Colonnade({
+  sneakers,
+  lineaUnica = false,
+}: {
+  sneakers: Sneaker[];
+  lineaUnica?: boolean;
+}) {
   return (
-    <div>
-      <div className="grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-px bg-white/6 border border-white/6">
-        {sneakers.map((sneaker, i) => (
-          <SneakerColumn
-            key={sneaker.id}
-            sneaker={sneaker}
-            index={i}
-            /* La primera fila de escritorio, que en móvil son las dos
-               primeras: es lo que se ve sin desplazar y lo que el navegador
-               cronometra como primera pintada grande. */
-            priority={i < 4}
-          />
-        ))}
-      </div>
-      <div className="h-px stylobate mt-px" />
+    <div className="grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 lg:gap-6">
+      {sneakers.map((sneaker, i) => (
+        <SneakerColumn
+          key={sneaker.id}
+          sneaker={sneaker}
+          index={i}
+          lineaUnica={lineaUnica}
+          /* La primera fila de escritorio, que en móvil son las dos
+             primeras: es lo que se ve sin desplazar y lo que el navegador
+             cronometra como primera pintada grande. */
+          priority={i < 4}
+        />
+      ))}
     </div>
   );
 }

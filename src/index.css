@@ -161,14 +161,14 @@
   }
 
   /* ── Columna: la unidad del catálogo ────────────────────── */
+  /* Una celda por par, separada de las demás por espacio y no por la rejilla
+     de 1 px: borde fino, esquinas rectas y sin sombra. El realce al pasar el
+     cursor ya no es de la tarjeta sino del tenis (ver SneakerColumn). */
   .column-card {
     position: relative;
-    background: linear-gradient(180deg, #1a1a1a 0%, #121212 100%);
-    border: 1px solid rgb(255 255 255 / 0.07);
-    transition:
-      transform 420ms cubic-bezier(0.16, 1, 0.3, 1),
-      border-color 420ms ease,
-      box-shadow 420ms ease;
+    background: var(--color-basalt);
+    border: 1px solid rgb(255 255 255 / 0.08);
+    transition: transform 160ms ease-out;
 
     /* El catálogo sin filtros monta 615 columnas de una vez, y casi todas
        están fuera de pantalla. Con esto el navegador se salta el cálculo y la
@@ -180,38 +180,6 @@
        pinta de verdad, el navegador se queda con su medida real. */
     content-visibility: auto;
     contain-intrinsic-size: auto 480px;
-  }
-
-  .column-card::before {
-    content: '';
-    position: absolute;
-    inset-inline: 0;
-    top: 0;
-    height: 2px;
-    background: linear-gradient(
-      90deg,
-      transparent,
-      rgb(192 192 192 / 0.55),
-      transparent
-    );
-    opacity: 0;
-    transition: opacity 420ms ease;
-  }
-
-  /* El realce va solo donde hay cursor: en una pantalla táctil el `:hover` se
-     queda pegado después de tocar y la tarjeta se ve levantada sin motivo. */
-  @media (hover: hover) and (pointer: fine) {
-    .column-card:hover {
-      transform: translateY(-6px);
-      border-color: rgb(192 192 192 / 0.24);
-      box-shadow:
-        0 24px 48px -20px rgb(0 0 0 / 0.9),
-        0 0 0 1px rgb(30 58 138 / 0.18);
-    }
-
-    .column-card:hover::before {
-      opacity: 1;
-    }
   }
 
   /* Al tocar, la columna responde hundiéndose apenas: es la señal táctil que

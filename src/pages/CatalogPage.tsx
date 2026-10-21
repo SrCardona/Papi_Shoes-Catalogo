@@ -171,7 +171,7 @@ export function CatalogPage({
             <p className="text-rotulo uppercase tracking-[0.22em] text-terciario mb-5 tabular-nums">
               {results.length} {results.length === 1 ? 'par' : 'pares'}
             </p>
-            <Colonnade sneakers={results} />
+            <Colonnade sneakers={results} lineaUnica={Boolean(category)} />
           </>
         ) : (
           <EmptyState query={filters.searchQuery} onReset={resetFilters} />

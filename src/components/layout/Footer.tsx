@@ -125,7 +125,10 @@ export function Footer() {
       </div>
 
       <div className="border-t border-white/8">
-        <div className="max-w-[1400px] mx-auto px-5 lg:px-8 py-6 flex flex-col sm:flex-row items-center justify-between gap-3">
+        {/* En el celular, al final de la página el botón flotante de WhatsApp
+            ya no tiene a dónde apartarse y quedaba encima de esta línea. Se le
+            deja su alto (56 px), su margen y el área segura del teléfono. */}
+        <div className="max-w-[1400px] mx-auto px-5 lg:px-8 pt-6 pb-[calc(1.5rem+5rem+env(safe-area-inset-bottom))] sm:pb-6 flex flex-col sm:flex-row items-center justify-between gap-3">
           <p className="text-rotulo text-terciario uppercase tracking-[0.2em]">
             © {year} {settings.storeName} · {settings.slogan}
           </p>

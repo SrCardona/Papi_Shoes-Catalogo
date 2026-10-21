@@ -449,9 +449,26 @@ cliente si sale su cara.
 Museo / templo: negro obsidiana, gris basalto, plata, azul lapislázuli, blanco
 mármol. Tokens en `src/index.css` (`obsidian`, `basalt`, `marble`, `silver`,
 `lapis`, `lapis-lit`). Títulos en Anton (`font-display`), texto en Montserrat.
-Bordes finos `border-white/8`, rejillas con `gap-px`, mayúsculas con
-`tracking` amplio para los rótulos. Sin sombras difusas ni bordes redondeados
-grandes: la estética es de placa grabada, no de tarjeta de app.
+Bordes finos `border-white/8`, mayúsculas con `tracking` amplio para los
+rótulos. Sin sombras difusas ni bordes redondeados grandes: la estética es de
+placa grabada, no de tarjeta de app.
+
+**Las tarjetas de producto van separadas con espacio, ya no con `gap-px`**:
+`gap-4` en el celular y `lg:gap-6` en escritorio, cada una su propia celda con
+borde de 1 px (`.column-card`), esquinas rectas y sin sombra. La rejilla de
+`gap-px` sigue valiendo para los bloques que no son tarjetas de par (pilares,
+salas, rótulos de la ficha, pie). Sobre la foto de la tarjeta no va nada:
+marca y línea, nombre, colorway, precio con el anterior y el descuento en
+texto, y "Nuevo" / disponibilidad / "Verificado" van debajo. "Verificado"
+solo en Originales, nunca en Sneakers. "Nuevo" sale por la fecha de llegada
+(21 días), no por `isNewArrival`, que el generador pone en todos.
+
+Legibilidad, también en tokens de `index.css`: `text-lectura` (14 px, el mínimo
+de cualquier texto de lectura) y `text-rotulo` (12 px, solo para mayúsculas con
+tracking), y dos grises de texto, `text-secundario` y `text-terciario`, ambos
+con al menos 4,5:1. No vuelvas a `text-marble/40` y parecidos para texto: con
+transparencia el contraste depende del fondo y por debajo de `/50` no cumple.
+Si un rótulo no cabe a 12 px, se baja el tracking, no el tamaño.
 
 ## Convenciones de código
 
