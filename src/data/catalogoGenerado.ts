@@ -19235,7 +19235,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "isFeatured": false,
     "isNewArrival": true,
     "isOriginalCertified": false,
-    "description": "El colorway original de la Cortez: cuero blanco, swoosh rojo y franja azul en la suela.",
+    "description": "El colorway clásico de la Cortez: cuero blanco, swoosh rojo y franja azul en la suela.",
     "details": {
       "condition": "En caja",
       "colorway": "White / Varsity Red / Royal",
