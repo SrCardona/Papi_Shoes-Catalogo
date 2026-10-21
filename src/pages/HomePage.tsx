@@ -199,7 +199,7 @@ export function HomePage() {
               title: 'Sneakers',
               count: counts.street,
               text: 'Las siluetas que se están usando ahora, con acabados premium y precio de uso diario. Para vestir, no para vitrina.',
-              accent: 'text-lapis-lit',
+              accent: 'text-lapis-texto',
             },
           ].map((room) => (
             <Link

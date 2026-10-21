@@ -230,7 +230,7 @@ function ProductView({ id }: { id?: string }) {
                 <span
                   className={cx(
                     'text-rotulo font-bold uppercase tracking-[0.28em]',
-                    isOriginal ? 'text-silver' : 'text-lapis-lit',
+                    isOriginal ? 'text-silver' : 'text-lapis-texto',
                   )}
                 >
                   {isOriginal ? '100% Original · Legit check' : 'Sneakers · Uso diario'}
@@ -242,7 +242,7 @@ function ProductView({ id }: { id?: string }) {
                   className="tap p-1.5 text-terciario hover:text-marble transition-colors"
                 >
                   {copied ? (
-                    <Check className="w-4 h-4 text-emerald-300" />
+                    <Check className="w-4 h-4 text-lapis-texto" />
                   ) : (
                     <Share2 className="w-4 h-4" />
                   )}

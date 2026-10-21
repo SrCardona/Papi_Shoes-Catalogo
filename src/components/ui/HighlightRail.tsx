@@ -168,12 +168,12 @@ export function HighlightRail() {
                   <span className="relative w-[58px] h-[58px] rounded-full border border-silver/25 group-hover:border-silver/70 flex items-center justify-center text-silver/70 group-hover:text-silver transition-all duration-300 group-hover:-translate-y-0.5">
                     <HighlightIcon name={story.iconName} />
 
-                    {/* Las que abren WhatsApp llevan un punto apagado: avisa
+                    {/* Las que abren WhatsApp llevan un punto en el acento: avisa
                         que el toque sale de la página sin gritar. */}
                     {story.behavior?.type === 'whatsapp' && (
                       <span
                         aria-hidden
-                        className="absolute top-0 right-0 w-1 h-1 rounded-full bg-emerald-500/70"
+                        className="absolute top-0 right-0 w-1 h-1 rounded-full bg-lapis-texto"
                       />
                     )}
                   </span>

@@ -448,10 +448,23 @@ cliente si sale su cara.
 
 Museo / templo: negro obsidiana, gris basalto, plata, azul lapislázuli, blanco
 mármol. Tokens en `src/index.css` (`obsidian`, `basalt`, `marble`, `silver`,
-`lapis`, `lapis-lit`). Títulos en Anton (`font-display`), texto en Montserrat.
-Bordes finos `border-white/8`, mayúsculas con `tracking` amplio para los
-rótulos. Sin sombras difusas ni bordes redondeados grandes: la estética es de
-placa grabada, no de tarjeta de app.
+`lapis`, `lapis-lit`, `lapis-texto`). Títulos en Anton (`font-display`), texto
+en Montserrat. Bordes finos `border-white/8`, mayúsculas con `tracking` amplio
+para los rótulos. Sin sombras difusas ni bordes redondeados grandes: la estética
+es de placa grabada, no de tarjeta de app.
+
+**Un solo acento: el lapislázuli.** Nada de verdes, ámbares ni otros azules en
+el sitio público. `lapis` va en rellenos (la barra de anuncio, el descuento
+sobre la foto de la ficha, la selección, la luz del hero, la línea del
+`architrave`). Como texto o como control fino no se lee —1,9:1 sobre el
+negro—, así que para eso está **`lapis-texto`** (`#738ede`, el mismo matiz más
+claro, 4,5:1 o más sobre todas las superficies oscuras): rótulos azules, el
+deslizante de precio (`accent-lapis-texto`), el check de "copiado" y el punto
+de las historias que abren WhatsApp. **El rojo es solo para errores**
+(`ErrorBoundary`): ni "Agotado" ni la disponibilidad llevan color. Las
+superficies `marble-navy` son fondo, no acento, y se quedan. El panel conserva
+sus colores de estado (rojo al borrar, ámbar en "cambios sin publicar", verde
+al publicar) porque es la herramienta de la tienda, no la vitrina.
 
 **Las tarjetas de producto van separadas con espacio, ya no con `gap-px`**:
 `gap-4` en el celular y `lg:gap-6` en escritorio, cada una su propia celda con

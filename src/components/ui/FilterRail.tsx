@@ -361,7 +361,7 @@ export function FilterRail({
                   onKeyUp={(e) => {
                     if (e.key === 'Enter') setIsPanelOpen(false);
                   }}
-                  className="w-full accent-lapis cursor-pointer"
+                  className="w-full accent-lapis-texto cursor-pointer"
                 />
               </div>
 
