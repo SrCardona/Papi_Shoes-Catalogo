@@ -46,7 +46,7 @@ export function FloatingWhatsApp() {
           `calc(100vw-2rem)` sin ellos es CSS inválido y el panel se sale de
           la pantalla en un teléfono angosto. */}
       {isOpen && (
-        <div className="w-[min(19rem,calc(100vw_-_2rem))] bg-basalt border border-silver/20 shadow-2xl animate-rise">
+        <div className="w-[min(19rem,calc(100vw_-_2rem))] rounded-foto overflow-hidden bg-basalt border border-silver/20 shadow-2xl animate-rise">
           <div className="px-4 py-3.5 border-b border-white/8 flex items-center justify-between">
             <div>
               <p className="text-rotulo font-bold uppercase tracking-[0.18em] text-marble">
@@ -75,7 +75,7 @@ export function FloatingWhatsApp() {
                 href={generateDirectWhatsAppContact(settings, topic)}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="block px-3 py-2.5 text-lectura text-marble/70 hover:text-marble bg-obsidian/60 hover:bg-lapis/25 border border-white/6 transition-colors"
+                className="block px-4 py-2.5 rounded-full text-lectura text-marble/70 hover:text-marble bg-obsidian/60 hover:bg-lapis/25 border border-white/6 transition-colors"
               >
                 {topic}
               </a>
@@ -88,7 +88,7 @@ export function FloatingWhatsApp() {
         onClick={() => setIsOpen((v) => !v)}
         aria-label={isOpen ? 'Cerrar asesor' : 'Abrir asesor de WhatsApp'}
         aria-expanded={isOpen}
-        className="w-14 h-14 bg-marble text-obsidian flex items-center justify-center shadow-2xl hover:bg-silver transition-colors"
+        className="w-14 h-14 rounded-full bg-marble text-obsidian flex items-center justify-center shadow-2xl hover:bg-silver transition-colors"
       >
         {isOpen ? <X className="w-5 h-5" /> : <MessageCircle className="w-6 h-6" />}
       </button>

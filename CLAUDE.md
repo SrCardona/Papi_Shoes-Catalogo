@@ -450,8 +450,25 @@ Museo / templo: negro obsidiana, gris basalto, plata, azul lapislázuli, blanco
 mármol. Tokens en `src/index.css` (`obsidian`, `basalt`, `marble`, `silver`,
 `lapis`, `lapis-lit`, `lapis-texto`). Títulos en Anton (`font-display`), texto
 en Montserrat. Bordes finos `border-white/8`, mayúsculas con `tracking` amplio
-para los rótulos. Sin sombras difusas ni bordes redondeados grandes: la estética
-es de placa grabada, no de tarjeta de app.
+para los rótulos. Sin sombras difusas: la única sombra permitida es la de piso
+bajo un tenis recortado (el del hero y los de las dos líneas), porque sin ella
+el recorte se ve pegado.
+
+**Esquinas redondeadas y píldoras (rediseño v2).** Desde el rediseño se aceptan
+las esquinas redondeadas y los botones tipo píldora. Solo hay tres radios, en
+tokens de `index.css`: `rounded-foto` (22 px, la foto dentro de la tarjeta),
+`rounded-tarjeta` (30 px, la tarjeta de un par y bloques parecidos) y
+`rounded-sala` (32 px, los bloques grandes: las dos líneas, el llamado final).
+Todo botón, chip, buscador o insignia es píldora (`rounded-full`). No inventes
+radios sueltos (`rounded-[19px]`): si hace falta otro, va como token. Las piezas
+repetidas ya existen como clases en `@layer components`: `.btn` (píldora de
+mármol), `.btn-ghost` (la misma, hueca), `.chip` / `.chip-on` y `.campo`
+(buscadores). El panel no entra en esta regla.
+
+Nada se mueve solo en la barra: una sola franja de anuncio, quieta, sin cinta
+en movimiento. En el celular muestra solo el primer tramo de
+`settings.announcement`, hasta el primer "·"; por eso la frase más importante
+va primero.
 
 **Un solo acento: el lapislázuli.** Nada de verdes, ámbares ni otros azules en
 el sitio público. `lapis` va en rellenos (la barra de anuncio, el descuento
