@@ -1,8 +1,15 @@
 import { Link } from 'react-router-dom';
+import { MessageCircle } from 'lucide-react';
 import type { Sneaker } from '../../types';
 import { useStore } from '../../context/StoreContext';
 import { SmartImage } from './SmartImage';
-import { cx, discountPercent, formatPrice } from '../../lib/utils';
+import {
+  cx,
+  discountPercent,
+  fondoDeFoto,
+  formatPrice,
+  generateWhatsAppLink,
+} from '../../lib/utils';
 
 const STATUS_LABEL = {
   disponible: 'Entrega inmediata',
@@ -63,42 +70,44 @@ export function SneakerColumn({
   const isSoldOut = sneaker.status === 'agotado';
   const colorway = sneaker.details.colorway.trim();
 
+  const fondo = fondoDeFoto(sneaker.images[0]);
+
   return (
     <article
-      className="column-card animate-rise group"
+      className="column-card animate-rise group flex flex-col"
       style={{ animationDelay: `${Math.min(index, 11) * 55}ms` }}
     >
       <Link
         to={`/producto/${sneaker.id}`}
-        className="flex flex-col h-full focus:outline-none focus-visible:ring-1 focus-visible:ring-silver"
+        className="flex flex-1 flex-col rounded-foto focus:outline-none focus-visible:ring-1 focus-visible:ring-silver"
       >
-        {/* La foto entera sobre estriado.
-            Iba recortada a cuadrado para que la columnata quedara pareja, pero
-            el catálogo se surte de fotos de proveedor muy apaisadas y el
-            recorte se comía el par: en la línea Originales, 80 de 88 fotos
-            perdían un tercio o más y la tarjeta enseñaba media puntera. Un par
-            que no se reconoce no se abre, así que manda verlo completo y el
-            cuadro se rellena con el estriado. */}
+        {/* La foto entera, nunca recortada: el catálogo se surte de fotos de
+            proveedor muy apaisadas y un recorte a cuadrado se comía la puntera
+            o el talón. Para que la celda no quede con franjas, se pinta del
+            color de los bordes de la foto (`npm run catalogo` lo calcula) y la
+            foto se funde con ella. Una foto con escena no tiene un color que
+            la continúe: esa se queda sobre el fondo oscuro. */}
         <div
           className={cx(
-            'relative aspect-square overflow-hidden bg-obsidian fluted',
+            'relative aspect-square overflow-hidden rounded-foto bg-obsidian',
             isSoldOut && 'opacity-45',
           )}
+          style={fondo ? { background: fondo } : undefined}
         >
-          {/* Al pasar el cursor el tenis sube, nada más. `hover:` ya solo
-              existe donde hay cursor, y `motion-safe:` deja quieto el par a
-              quien pidió menos movimiento. */}
+          {/* Al pasar el cursor la foto crece un poco, nada más. `hover:` ya
+              solo existe donde hay cursor, y `motion-safe:` deja quieto el
+              par a quien pidió menos movimiento. */}
           <SmartImage
             src={sneaker.images[0]}
             alt={sneaker.name}
             priority={priority}
             sizes="(max-width: 640px) 50vw, (max-width: 1280px) 33vw, 25vw"
-            className="w-full h-full object-contain motion-safe:transition-transform motion-safe:duration-500 motion-safe:ease-out motion-safe:group-hover:-translate-y-1.5"
+            className="w-full h-full object-contain motion-safe:transition-transform motion-safe:duration-500 motion-safe:ease-out motion-safe:group-hover:scale-[1.04]"
           />
         </div>
 
-        <div className="flex flex-1 flex-col gap-2 p-3 sm:p-4 border-t border-white/8">
-          <p className="flex flex-wrap gap-x-2 text-rotulo uppercase tracking-[0.1em] sm:tracking-[0.18em] text-terciario">
+        <div className="flex flex-1 flex-col gap-1.5 px-1.5 sm:px-2.5 pt-3.5 sm:pt-4">
+          <p className="flex flex-wrap gap-x-2 text-rotulo uppercase tracking-[0.1em] sm:tracking-[0.2em] text-terciario">
             <span>{sneaker.brand}</span>
             <span aria-hidden className={cx(lineaUnica && 'hidden sm:inline')}>·</span>
             <span className={cx(lineaUnica && 'hidden sm:inline')}>
@@ -109,13 +118,12 @@ export function SneakerColumn({
           <div>
             {/* Sin alto reservado: el colorway va pegado al nombre, y el precio
                 cae a la misma altura en toda la fila porque baja con `mt-auto`. */}
-            <h3 className="font-body font-semibold text-lectura leading-snug text-marble line-clamp-2 normal-case tracking-normal">
+            <h3 className="font-body font-semibold text-lectura sm:text-base leading-snug text-marble line-clamp-2 normal-case tracking-normal">
               {sneaker.name}
             </h3>
             {/* Hasta dos líneas: a 14 px en una tarjeta de celular casi ningún
                 colorway cabe en una, y cortarlo con puntos suspensivos se comía
-                justo el color que distingue el par. El precio no se descuadra
-                porque baja con `mt-auto`. */}
+                justo el color que distingue el par. */}
             {colorway && (
               <p className="text-lectura leading-snug text-secundario line-clamp-2">
                 {colorway}
@@ -123,18 +131,14 @@ export function SneakerColumn({
             )}
           </div>
 
-          {/* Precio y disponibilidad van juntos al fondo de la tarjeta. Para
-              que en una fila los precios queden a la misma altura, la
-              disponibilidad reserva en el celular sus dos líneas aunque use
-              una: "Nuevo" y "Entrega inmediata" no caben lado a lado y, si no,
-              la tarjeta que dice "Nuevo" subiría su precio. */}
-          <div className="mt-auto flex flex-col gap-2 pt-1">
-            {/* En una sola fila. En el celular las tres cifras miden unos 170 px
-                y la tarjeta deja 141, así que ahí se queda sin el precio
-                anterior: el descuento ya dice cuánto se ahorra, y el tachado
-                sigue en escritorio y en la ficha. La letra no se achica. */}
+          {/* Precio y disponibilidad van juntos al fondo de la tarjeta, para
+              que en una fila los precios queden a la misma altura. */}
+          <div className="mt-auto flex flex-col pt-1.5">
+            {/* En una sola fila. En el celular no cabe el precio anterior: el
+                descuento ya dice cuánto se ahorra, y el tachado sigue en
+                escritorio y en la ficha. La letra no se achica. */}
             <p className="flex flex-nowrap items-baseline gap-x-2 whitespace-nowrap">
-              <span className="font-display text-[17px] sm:text-lg text-marble">
+              <span className="font-display text-xl sm:text-[26px] leading-none text-marble">
                 {formatPrice(sneaker.price, settings.currency, settings.currencySymbol)}
               </span>
               {discount && sneaker.originalPrice && (
@@ -147,8 +151,12 @@ export function SneakerColumn({
               )}
             </p>
 
-            {/* Cada dato entero o a la línea siguiente, nunca partido. */}
-            <p className="flex flex-wrap content-start gap-x-3 gap-y-1 min-h-[calc(3em+0.25rem)] sm:min-h-0 whitespace-nowrap text-rotulo uppercase tracking-[0.04em] sm:tracking-[0.14em] text-terciario">
+            {/* La disponibilidad en gris, como texto: sin verde ni ícono de
+                estado. Reserva en el celular sus dos líneas aunque use una,
+                porque "Nuevo" y "Entrega inmediata" no caben lado a lado y la
+                tarjeta que dice "Nuevo" subiría su precio. Cada dato entero o
+                a la línea siguiente, nunca partido. */}
+            <p className="flex flex-wrap content-start gap-x-3 gap-y-1 mt-3 pt-3 border-t border-white/10 min-h-[calc(3em+1rem)] sm:min-h-0 whitespace-nowrap text-rotulo uppercase tracking-[0.04em] sm:tracking-[0.14em] text-terciario">
               {esNuevo(sneaker) && !isSoldOut && <span className="text-secundario">Nuevo</span>}
               <span>{STATUS_LABEL[sneaker.status]}</span>
               {isVerified && <span>Verificado</span>}
@@ -156,6 +164,25 @@ export function SneakerColumn({
           </div>
         </div>
       </Link>
+
+      {/* Fuera del enlace de la ficha: un enlace no puede ir dentro de otro.
+          Sale sin talla ("por confirmar"), con la plantilla de la tienda; la
+          talla se elige en la ficha. También en un par agotado: se puede
+          traer bajo encargo, y sin el botón su precio quedaría más abajo que
+          el del resto de la fila. En el celular la tarjeta mide 147 px por
+          dentro y la frase entera no cabe a 12 px: ahí queda "Pedir" con el
+          ícono, que se lee igual. */}
+      <a
+        href={generateWhatsAppLink(sneaker, null, settings)}
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label={`Pedir ${sneaker.name} por WhatsApp`}
+        className="btn mt-3 mx-0.5 mb-0.5 gap-2 px-3 sm:px-5 py-3 sm:py-[13px] tracking-[0.12em] sm:tracking-[0.18em]"
+      >
+        <MessageCircle className="w-3.5 h-3.5 shrink-0" aria-hidden />
+        <span className="sm:hidden">Pedir</span>
+        <span className="hidden sm:inline">Pedir por WhatsApp</span>
+      </a>
     </article>
   );
 }

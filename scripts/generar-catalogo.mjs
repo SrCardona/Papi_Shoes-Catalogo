@@ -69,6 +69,7 @@
  * Los pares sin precio quedan en 0 y el script los lista al final.
  */
 
+import { spawnSync } from 'node:child_process';
 import { createHash } from 'node:crypto';
 import { existsSync, readdirSync, readFileSync, statSync, writeFileSync } from 'node:fs';
 import { join, relative, extname, basename, sep } from 'node:path';
@@ -640,3 +641,23 @@ console.log('  Es el catálogo que verán los clientes en el sitio publicado.');
 console.log(`\n✓ ${relative(ROOT, OUTPUT_FILE)}`);
 console.log('  Impórtalo en Panel › Ajustes › Restaurar respaldo para verlo en');
 console.log('  tu navegador, que ya tiene datos guardados. Exporta un respaldo antes.\n');
+
+/* El fondo de la celda de cada foto (src/data/fondosFotos.ts). Va en Python
+   porque Node no trae con qué leer pixeles y Pillow ya es la herramienta de
+   fotos del repositorio. Si no hay Python, el archivo anterior se queda: una
+   foto nueva sale con el fondo oscuro de la tarjeta, que es el de respaldo. */
+const PYTHONS = process.platform === 'win32'
+  ? [['py', ['-3']], ['python', []]]
+  : [['python3', []], ['python', []]];
+let fondos = null;
+for (const [cmd, args] of PYTHONS) {
+  const r = spawnSync(cmd, [...args, join('scripts', 'fondos-fotos.py')], { stdio: 'inherit' });
+  if (!r.error) {
+    fondos = r;
+    break;
+  }
+}
+if (!fondos || fondos.status !== 0) {
+  console.log('⚠ No se recalcularon los fondos de las fotos: hace falta Python con Pillow.');
+  console.log('  Corre a mano: py scripts/fondos-fotos.py');
+}

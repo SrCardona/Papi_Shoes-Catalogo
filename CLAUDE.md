@@ -156,11 +156,13 @@ src/
 ├── lib/            nube.ts (cliente de /api), security.ts (saneamiento),
 │                   validation.ts, catalogo.ts (huella y fusión),
 │                   marcas.ts (marcas por línea), utils.ts
-└── data/           initialData.ts, catalogoGenerado.ts y entregasGeneradas.ts
+└── data/           initialData.ts, catalogoGenerado.ts, entregasGeneradas.ts
+                    y fondosFotos.ts
                     (GENERADOS, no editar)
 scripts/            generar-catalogo, generar-entregas, revisar-entrada,
                     verificar-marcas, generar-fichas (fichas + sitemap, corre
-                    dentro del build), generar-og.py, quitar-recuadro.py
+                    dentro del build), generar-og.py, quitar-recuadro.py,
+                    fondos-fotos.py (fondo de cada celda, corre en catalogo)
 ```
 
 Las carpetas y archivos de `api/` que empiezan por `_` no se convierten en rutas:
@@ -484,14 +486,31 @@ sus colores de estado (rojo al borrar, ámbar en "cambios sin publicar", verde
 al publicar) porque es la herramienta de la tienda, no la vitrina.
 
 **Las tarjetas de producto van separadas con espacio, ya no con `gap-px`**:
-`gap-4` en el celular y `lg:gap-6` en escritorio, cada una su propia celda con
-borde de 1 px (`.column-card`), esquinas rectas y sin sombra. La rejilla de
+`gap-4` en el celular y `lg:gap-6` en escritorio, cada una su propia tarjeta
+(`.column-card`): borde de 1 px, `rounded-tarjeta`, 10 px de aire alrededor de
+la foto, que lleva `rounded-foto`, y sin sombra. La rejilla de
 `gap-px` sigue valiendo para los bloques que no son tarjetas de par (pilares,
 salas, rótulos de la ficha, pie). Sobre la foto de la tarjeta no va nada:
 marca y línea, nombre, colorway, precio con el anterior y el descuento en
 texto, y "Nuevo" / disponibilidad / "Verificado" van debajo. "Verificado"
 solo en Originales, nunca en Sneakers. "Nuevo" sale por la fecha de llegada
-(21 días), no por `isNewArrival`, que el generador pone en todos.
+(21 días), no por `isNewArrival`, que el generador pone en todos. La
+disponibilidad va en gris, sin verde ni ícono. Al pie, fuera del enlace de la
+ficha, el botón "Pedir por WhatsApp" (en el celular, "Pedir" con el ícono: la
+frase entera no cabe a 12 px), con la plantilla de la tienda y la talla "por
+confirmar"; también en los agotados, que se traen bajo encargo.
+
+**La foto de la tarjeta va entera, nunca recortada**, en una celda cuadrada
+pintada del color de sus bordes para que no queden franjas.
+`scripts/fondos-fotos.py` (Pillow) lo calcula y escribe
+`src/data/fondosFotos.ts` (GENERADO); corre solo al final de
+`npm run catalogo`. Una foto entra a la lista si sus dos bordes contra las
+franjas son al menos 50 % de un mismo color y lo que no lo es va en tres tramos
+o menos: el tenis que toca el borde es un tramo, una escena cambia a cada paso.
+Si los dos bordes difieren, la celda va mitad y mitad con corte seco detrás de
+la foto. Lo que no está en la lista (escenas, fotos subidas desde el panel)
+queda sobre el fondo oscuro. `fondoDeFoto()` en `lib/utils.ts` es la única
+puerta a esa lista.
 
 Legibilidad, también en tokens de `index.css`: `text-lectura` (14 px, el mínimo
 de cualquier texto de lectura) y `text-rotulo` (12 px, solo para mayúsculas con

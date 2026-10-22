@@ -1,4 +1,17 @@
 import type { Sneaker, StoreSettings } from '../types';
+import { FONDOS_FOTOS } from '../data/fondosFotos';
+
+/* ── Fondo de la celda de una foto ──────────────────────────────────────── */
+
+/**
+ * El color de los bordes de la foto, para pintar la celda cuadrada donde se
+ * muestra entera y que no queden franjas. Lo calcula `npm run catalogo`; una
+ * foto que no está en la lista (escena, ambiente, o subida desde el panel)
+ * devuelve `undefined` y la celda conserva el fondo oscuro de la tarjeta.
+ */
+export function fondoDeFoto(src: string | undefined): string | undefined {
+  return src ? FONDOS_FOTOS[src] : undefined;
+}
 
 /* ── Precio ─────────────────────────────────────────────────────────────── */
 

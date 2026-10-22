@@ -268,13 +268,15 @@
   }
 
   /* ── Columna: la unidad del catálogo ────────────────────── */
-  /* Una celda por par, separada de las demás por espacio y no por la rejilla
-     de 1 px: borde fino, esquinas rectas y sin sombra. El realce al pasar el
-     cursor ya no es de la tarjeta sino del tenis (ver SneakerColumn). */
+  /* Una tarjeta por par, separada de las demás por espacio: borde fino,
+     esquinas redondeadas y sin sombra. La foto va dentro, con su propio radio,
+     a 10 px del borde. */
   .column-card {
     position: relative;
+    padding: 0.625rem;
+    border-radius: var(--radius-tarjeta);
     background: var(--color-basalt);
-    border: 1px solid rgb(255 255 255 / 0.08);
+    border: 1px solid rgb(255 255 255 / 0.1);
     transition: transform 160ms ease-out;
 
     /* El catálogo sin filtros monta 615 columnas de una vez, y casi todas
