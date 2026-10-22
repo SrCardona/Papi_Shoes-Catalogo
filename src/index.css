@@ -14,7 +14,7 @@
   --color-lapis-lit: #2b4fb8; /* Acento hover */
   /* El lapislázuli como texto o como control fino. `lapis` y `lapis-lit` son
      para rellenos: como letra sobre el negro dan 1,9 y 2,7:1 y no se leen.
-     Mismo matiz (224°), más claro: 6,2:1 sobre obsidiana, 5,5:1 sobre basalto
+     Mismo matiz (224°), más claro: 6,2:1 sobre obsidiana, 5,8:1 sobre basalto
      y el navy, 4,55:1 sobre #2a2a2a. */
   --color-lapis-texto: #738ede;
   --color-silver: #c8c8c8; /* Metálico */
