@@ -3,6 +3,7 @@ import { MessageCircle } from 'lucide-react';
 import type { Sneaker } from '../../types';
 import { useStore } from '../../context/StoreContext';
 import { SmartImage } from './SmartImage';
+import { NO_ES_MARCA } from '../../lib/marcas';
 import {
   cx,
   discountPercent,
@@ -69,6 +70,7 @@ export function SneakerColumn({
   const isVerified = isOriginal && sneaker.isOriginalCertified;
   const isSoldOut = sneaker.status === 'agotado';
   const colorway = sneaker.details.colorway.trim();
+  const esOtras = sneaker.brand === NO_ES_MARCA;
 
   const fondo = fondoDeFoto(sneaker.images[0]);
 
@@ -107,10 +109,21 @@ export function SneakerColumn({
         </div>
 
         <div className="flex flex-1 flex-col gap-1.5 px-1.5 sm:px-2.5 pt-3.5 sm:pt-4">
-          <p className="flex flex-wrap gap-x-2 text-rotulo uppercase tracking-[0.1em] sm:tracking-[0.2em] text-terciario">
-            <span>{sneaker.brand}</span>
-            <span aria-hidden className={cx(lineaUnica && 'hidden sm:inline')}>·</span>
-            <span className={cx(lineaUnica && 'hidden sm:inline')}>
+          {/* En el celular marca y línea van en renglones propios: "Louis
+              Vuitton · Sneakers" no cabe en 147 px y se partía con el punto
+              colgando al final. Desde `sm` caben juntas con el punto.
+
+              "Otras" es la etiqueta del generador para las marcas sueltas, no
+              una marca: la real ya va en el nombre del par. Ahí sale solo la
+              línea, que es lo que no se puede omitir. */}
+          <p className="flex flex-col sm:flex-row sm:flex-wrap sm:gap-x-2 text-rotulo uppercase tracking-[0.1em] sm:tracking-[0.2em] text-terciario">
+            {!esOtras && <span>{sneaker.brand}</span>}
+            {!esOtras && (
+              <span aria-hidden className="hidden sm:inline">
+                ·
+              </span>
+            )}
+            <span className={cx(lineaUnica && !esOtras && 'hidden sm:inline')}>
               {LINEA_LABEL[sneaker.category]}
             </span>
           </p>
@@ -131,35 +144,35 @@ export function SneakerColumn({
             )}
           </div>
 
-          {/* Precio y disponibilidad van juntos al fondo de la tarjeta, para
-              que en una fila los precios queden a la misma altura. */}
+          {/* Disponibilidad y precio van juntos al fondo de la tarjeta, en ese
+              orden: lo que cambia de alto de un par a otro —una o dos líneas
+              de estado, con o sin precio anterior— queda arriba, y el precio
+              grande cae siempre a la misma distancia del botón. Así una fila
+              alinea sus precios sin reservar líneas vacías. */}
           <div className="mt-auto flex flex-col pt-1.5">
-            {/* En una sola fila. En el celular no cabe el precio anterior: el
-                descuento ya dice cuánto se ahorra, y el tachado sigue en
-                escritorio y en la ficha. La letra no se achica. */}
-            <p className="flex flex-nowrap items-baseline gap-x-2 whitespace-nowrap">
+            {/* La disponibilidad en gris, como texto: sin verde ni ícono de
+                estado. Cada dato entero o a la línea siguiente, nunca partido. */}
+            <p className="flex flex-wrap content-start gap-x-3 gap-y-1 pt-3 border-t border-white/10 whitespace-nowrap text-rotulo uppercase tracking-[0.04em] sm:tracking-[0.14em] text-terciario">
+              {esNuevo(sneaker) && !isSoldOut && <span className="text-secundario">Nuevo</span>}
+              <span>{STATUS_LABEL[sneaker.status]}</span>
+              {isVerified && <span>Verificado</span>}
+            </p>
+
+            {/* En el celular el precio anterior y el descuento van en su propia
+                línea, encima del precio: en 147 px los tres no caben en una
+                fila y la letra no se achica. Desde `sm` van en la misma. */}
+            <p className="mt-2.5 flex flex-col-reverse gap-y-1 sm:flex-row sm:items-baseline sm:gap-x-2 whitespace-nowrap">
               <span className="font-display text-xl sm:text-[26px] leading-none text-marble">
                 {formatPrice(sneaker.price, settings.currency, settings.currencySymbol)}
               </span>
               {discount && sneaker.originalPrice && (
-                <>
-                  <span className="hidden sm:inline text-lectura text-terciario line-through">
+                <span className="flex items-baseline gap-x-2">
+                  <span className="text-lectura text-terciario line-through">
                     {formatPrice(sneaker.originalPrice, settings.currency, settings.currencySymbol)}
                   </span>
                   <span className="text-lectura text-secundario tabular-nums">−{discount}%</span>
-                </>
+                </span>
               )}
-            </p>
-
-            {/* La disponibilidad en gris, como texto: sin verde ni ícono de
-                estado. Reserva en el celular sus dos líneas aunque use una,
-                porque "Nuevo" y "Entrega inmediata" no caben lado a lado y la
-                tarjeta que dice "Nuevo" subiría su precio. Cada dato entero o
-                a la línea siguiente, nunca partido. */}
-            <p className="flex flex-wrap content-start gap-x-3 gap-y-1 mt-3 pt-3 border-t border-white/10 min-h-[calc(3em+1rem)] sm:min-h-0 whitespace-nowrap text-rotulo uppercase tracking-[0.04em] sm:tracking-[0.14em] text-terciario">
-              {esNuevo(sneaker) && !isSoldOut && <span className="text-secundario">Nuevo</span>}
-              <span>{STATUS_LABEL[sneaker.status]}</span>
-              {isVerified && <span>Verificado</span>}
             </p>
           </div>
         </div>
