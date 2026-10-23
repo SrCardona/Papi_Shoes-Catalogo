@@ -3,6 +3,7 @@ import { useLocation } from 'react-router-dom';
 import { MessageCircle, X } from 'lucide-react';
 import { useStore } from '../../context/StoreContext';
 import { useOcultarAlBajar } from '../../hooks/useOcultarAlBajar';
+import { useFranjaDelFlotante } from '../../hooks/useFranjaDelFlotante';
 import { cx, formatPhoneDisplay, generateDirectWhatsAppContact } from '../../lib/utils';
 
 const QUICK_TOPICS = [
@@ -15,11 +16,16 @@ const QUICK_TOPICS = [
 export function FloatingWhatsApp() {
   const { settings } = useStore();
   const [isOpen, setIsOpen] = useState(false);
-  const { pathname } = useLocation();
   // En el celular el botón tapaba el nombre y el precio de las tarjetas de la
   // columna derecha. Se aparta mientras se baja y vuelve apenas se sube, como
   // la barra de filtros; abierto no se mueve, porque se llevaría el menú.
-  const oculto = useOcultarAlBajar(isOpen);
+  const ocultoAlBajar = useOcultarAlBajar(isOpen);
+  const { pathname } = useLocation();
+  // También se aparta cuando un bloque marcado cruza su franja, como los
+  // contadores del hero, que pasaban por debajo justo antes de que el scroll
+  // alcanzara para esconderlo.
+  const pisa = useFranjaDelFlotante(pathname);
+  const oculto = ocultoAlBajar || (pisa && !isOpen);
 
   // El panel de administración no necesita el botón de ventas.
   if (pathname.startsWith('/admin')) return null;

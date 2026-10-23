@@ -13,6 +13,7 @@ import { HeroRotativo } from '../components/ui/HeroRotativo';
 import { DeliveryWall } from '../components/ui/DeliveryWall';
 import { AnnouncementPopup } from '../components/ui/AnnouncementPopup';
 import { generateDirectWhatsAppContact } from '../lib/utils';
+import { SIN_FLOTANTE } from '../hooks/useFranjaDelFlotante';
 
 /** Los pares que caben en la columnata del altar sin abrir una segunda fila. */
 const ALTAR_SIZE = 8;
@@ -179,8 +180,11 @@ export function HomePage() {
               </Link>
             </div>
 
-            {/* Lo que hay hoy en el templo, contado del catálogo y no escrito. */}
+            {/* Lo que hay hoy en el templo, contado del catálogo y no escrito.
+                Marcado para que el botón flotante se aparte al cruzarlo: en el
+                teléfono la segunda píldora llega hasta su columna. */}
             <div
+              {...{ [SIN_FLOTANTE]: '' }}
               className="mt-11 flex flex-wrap justify-center gap-3 animate-rise"
               style={{ animationDelay: '440ms' }}
             >
