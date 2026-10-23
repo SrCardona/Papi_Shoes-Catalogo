@@ -166,8 +166,11 @@ export function HomePage() {
 
             {/* En móvil los dos accesos ocupan el ancho y quedan uno sobre
                 otro: dos botones a media pantalla se leen como un formulario,
-                no como la puerta de entrada al catálogo. */}
+                no como la puerta de entrada al catálogo. Marcados para que el
+                botón flotante se aparte: en un Pixel 7, al cargar, tapaba el
+                extremo de "Ver Originales". */}
             <div
+              {...{ [SIN_FLOTANTE]: '' }}
               className="mt-8 w-full max-w-sm sm:max-w-none flex flex-col sm:flex-row sm:items-center sm:justify-center gap-2.5 sm:gap-3 animate-rise"
               style={{ animationDelay: '360ms' }}
             >
