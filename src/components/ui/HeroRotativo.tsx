@@ -132,7 +132,9 @@ export function HeroRotativo() {
       </p>
 
       {total > 1 && (
-        <div className="mt-3 flex items-center gap-1">
+        /* Cada botón mide 44 px reales y van pegados: con `.tap` el área crecía
+           por fuera del botón y, a 22 px de distancia, se pisaban entre vecinos. */
+        <div className="mt-1 flex items-center">
           {pares.map((p, i) => (
             <button
               key={p.id}
@@ -140,7 +142,7 @@ export function HeroRotativo() {
               onClick={() => setActual(i)}
               aria-label={`Ver ${p.nombre}`}
               aria-current={i === indice}
-              className="tap p-1.5"
+              className="w-11 h-11 flex items-center justify-center"
             >
               <span
                 className={cx(
