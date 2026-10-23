@@ -104,21 +104,28 @@ export function Navbar() {
               <TempleMark className="w-[34px] h-[34px] transition-transform duration-500 group-hover:-translate-y-0.5" />
               {/* El nombre también en móvil: es la identidad de la tienda y
                   antes desaparecía justo donde más gente entra. La bajada sí
-                  espera a sm, que es donde hay ancho para leerla. */}
+                  espera a sm, que es donde hay ancho para leerla, y se retira
+                  entre lg y xl: ahí entra la navegación completa y con la
+                  bajada la fila pedía 1019 px en un contenedor de 960, y
+                  "Asesoría" quedaba cortado contra el borde. */}
               <span className="flex flex-col leading-none min-w-0">
                 <span className="font-display text-engraved text-xl sm:text-[26px] truncate">
                   {settings.storeName}
                 </span>
                 {settings.tagline && (
-                  <span className="hidden sm:block whitespace-nowrap text-rotulo font-semibold uppercase tracking-[0.2em] text-secundario mt-1">
+                  <span className="hidden sm:block lg:hidden xl:block whitespace-nowrap text-rotulo font-semibold uppercase tracking-[0.2em] text-secundario mt-1">
                     {settings.tagline}
                   </span>
                 )}
               </span>
             </Link>
 
-            {/* Navegación de escritorio */}
-            <nav className="hidden lg:flex items-center gap-8 xl:gap-[34px]">
+            {/* Navegación de escritorio. Separación y buscador crecen recién en
+                2xl: en xl (1280) la fila con el buscador pedía 1265 px de 1216,
+                y lo que parecía caber era la fila encogiendo los íconos. Con
+                estos valores, medido sin dejar encoger nada, sobra en todo el
+                tramo de 1024 a 1920. */}
+            <nav className="hidden lg:flex items-center gap-5 2xl:gap-[34px]">
               {LINEAS.map((linea) => (
                 <BrandDropdown
                   key={linea.to}
@@ -160,9 +167,9 @@ export function Navbar() {
                 <input
                   value={query}
                   onChange={(e) => setQuery(e.target.value)}
-                  placeholder={`Buscar entre ${sneakers.length} pares`}
+                  placeholder={`Buscar ${sneakers.length} pares`}
                   aria-label="Buscar en el catálogo"
-                  className="campo w-[228px] py-2.5 pl-10 pr-4"
+                  className="campo w-[180px] 2xl:w-[228px] py-2.5 pl-10 pr-4"
                 />
               </form>
 
@@ -172,7 +179,7 @@ export function Navbar() {
                 rel="noopener noreferrer"
                 className="btn hidden sm:inline-flex gap-2 px-[22px] py-3 tracking-[0.18em]"
               >
-                <MessageCircle className="w-3.5 h-3.5" />
+                <MessageCircle className="w-3.5 h-3.5 shrink-0" />
                 Asesoría
               </a>
 

@@ -214,7 +214,7 @@ export function BrandDropdown({ to, label, marcas, otras }: BrandDropdownProps) 
         {label}
         <ChevronDown
           className={cx(
-            'w-3 h-3 transition-transform duration-200',
+            'w-3 h-3 shrink-0 transition-transform duration-200',
             abierto && 'rotate-180',
           )}
           aria-hidden
