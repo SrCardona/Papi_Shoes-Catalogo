@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
+import { useCallback, useEffect, useLayoutEffect, useMemo, useRef, useState } from 'react';
 import { ChevronLeft, ChevronRight, MapPin, X } from 'lucide-react';
 import type { Delivery } from '../../types';
 import { SmartImage } from './SmartImage';
@@ -387,6 +387,26 @@ function ArcoEntregas({
       observador.disconnect();
     };
   }, [curvar, entregas.length]);
+
+  /* Arranque: el relleno lateral que deja a la primera tarjeta llegar al
+     centro también la deja sola, con media pista vacía a su izquierda; en
+     escritorio eran 530 px de nada. Se arranca centrando la primera tarjeta
+     que llena ese lado con las anteriores. El orden no cambia —la más reciente
+     sigue primera— y se vuelve a ella deslizando. Va en `useLayoutEffect`
+     para que el primer pintado ya salga en su sitio, sin un salto visible. */
+  useLayoutEffect(() => {
+    const pista = pistaRef.current;
+    const tarjetas = tarjetasRef.current;
+    const primera = tarjetas[0];
+    if (!pista || !primera || entregas.length < 2) return;
+    const paso = primera.offsetWidth + 18;
+    const hueco = pista.clientWidth / 2 - primera.offsetWidth / 2;
+    const k = Math.min(entregas.length - 1, Math.ceil(hueco / paso));
+    const destino = tarjetas[k];
+    if (!destino) return;
+    pista.scrollLeft =
+      destino.offsetLeft + destino.offsetWidth / 2 - pista.clientWidth / 2;
+  }, [entregas.length]);
 
   const desplazar = (izquierda: number) =>
     pistaRef.current?.scrollBy({
