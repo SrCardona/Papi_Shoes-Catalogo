@@ -17,6 +17,7 @@ import { SmartImage } from '../components/ui/SmartImage';
 import { SizeGuide } from '../components/ui/SizeGuide';
 import { Colonnade } from '../components/ui/SneakerColumn';
 import { SectionHeader } from '../components/ui/SectionHeader';
+import { NO_ES_MARCA } from '../lib/marcas';
 import {
   cx,
   discountPercent,
@@ -97,6 +98,7 @@ function ProductView({ id }: { id?: string }) {
 
   const discount = discountPercent(sneaker);
   const fondoFoto = fondoDeFoto(sneaker.images[imageIndex]);
+  const esOtras = sneaker.brand === NO_ES_MARCA;
   const isOriginal = sneaker.category === 'originales';
   const isSoldOut = sneaker.status === 'agotado';
 
@@ -134,7 +136,10 @@ function ProductView({ id }: { id?: string }) {
             {isOriginal ? 'Originales' : 'Sneakers'}
           </Link>
           <span>/</span>
-          <span className="text-secundario truncate max-w-[45vw]">{sneaker.brand}</span>
+          {/* Para las marcas sueltas, el nombre del grupo como lo dice el menú. */}
+          <span className="text-secundario truncate max-w-[45vw]">
+            {esOtras ? 'Otras marcas' : sneaker.brand}
+          </span>
         </div>
       </nav>
 
@@ -267,9 +272,13 @@ function ProductView({ id }: { id?: string }) {
                 </button>
               </div>
 
-              <p className="text-rotulo uppercase tracking-[0.24em] text-terciario">
-                {sneaker.brand}
-              </p>
+              {/* "Otras" es la etiqueta del generador, no una marca: la real ya
+                  va en el nombre del par. Igual que en la tarjeta, no se pinta. */}
+              {!esOtras && (
+                <p className="text-rotulo uppercase tracking-[0.24em] text-terciario">
+                  {sneaker.brand}
+                </p>
+              )}
               <h1 className="font-display text-4xl sm:text-5xl text-marble leading-[0.92] normal-case">
                 {sneaker.name}
               </h1>
@@ -493,15 +502,27 @@ function ProductView({ id }: { id?: string }) {
           La ficha es larga y el botón de WhatsApp queda arriba: después de
           leer la descripción hay que devolverse a buscarlo. Esta barra lo
           mantiene a mano con el precio al lado, y ocupa el lugar del botón
-          flotante, que en esta vista se retira para no repetir la acción. */}
+          flotante, que en esta vista se retira para no repetir la acción.
+
+          Lleva también el nombre del par: en el teléfono la galería ocupa la
+          primera pantalla y el título cae debajo de esta misma barra (en un
+          Pixel 7 quedaban 45 px tapados; en un iPhone SE, toda la cabecera).
+          Achicar la galería solo lo arreglaba en un modelo de teléfono; aquí
+          se ve en todos. Una línea, con puntos suspensivos si no cabe, y el
+          botón de ancho fijo para dejarle al nombre todo el espacio. */}
       <div className="sm:hidden fixed inset-x-0 bottom-0 z-40 border-t border-silver/20 bg-obsidian/95 backdrop-blur-lg">
         <div className="flex items-center gap-3 px-4 pt-3 pb-safe">
-          <div className="min-w-0 leading-none">
-            <p className="font-display text-xl text-marble">
-              {formatPrice(sneaker.price, settings.currency, settings.currencySymbol)}
+          <div className="flex-1 min-w-0">
+            <p className="text-lectura font-semibold leading-tight text-marble truncate">
+              {sneaker.name}
             </p>
-            <p className="mt-1 text-rotulo uppercase tracking-[0.16em] text-terciario truncate">
-              {selectedSize ? `Talla ${selectedSize}` : 'Elige tu talla'}
+            <p className="mt-1 flex items-baseline gap-2 whitespace-nowrap leading-none">
+              <span className="font-display text-xl text-marble">
+                {formatPrice(sneaker.price, settings.currency, settings.currencySymbol)}
+              </span>
+              <span className="text-rotulo uppercase tracking-[0.16em] text-terciario truncate">
+                {selectedSize ? `Talla ${selectedSize}` : 'Elige tu talla'}
+              </span>
             </p>
           </div>
 
@@ -516,7 +537,7 @@ function ProductView({ id }: { id?: string }) {
             }
             target="_blank"
             rel="noopener noreferrer"
-            className={cx('btn flex-1 gap-2 py-4 tracking-[0.18em]', isSoldOut && 'btn-ghost')}
+            className={cx('btn shrink-0 gap-2 px-6 py-4 tracking-[0.18em]', isSoldOut && 'btn-ghost')}
           >
             <MessageCircle className="w-4 h-4 shrink-0" />
             {isSoldOut ? 'Avísame' : 'Pedir'}
