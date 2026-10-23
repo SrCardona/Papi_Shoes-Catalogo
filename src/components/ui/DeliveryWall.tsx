@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useLayoutEffect, useMemo, useRef, useState } from 'react';
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { ChevronLeft, ChevronRight, MapPin, X } from 'lucide-react';
 import type { Delivery } from '../../types';
 import { SmartImage } from './SmartImage';
@@ -386,7 +386,16 @@ function ArcoEntregas({
         curvar();
         const max = pista.scrollWidth - pista.clientWidth;
         setEnInicio(pista.scrollLeft <= 4);
-        setEnFin(pista.scrollLeft >= max - 4);
+        /* En escritorio (sin relleno) el final es la última tarjeta contra el
+           borde derecho, no el tope del scroll: la última va girada y su caja
+           girada alarga el recorrido unos 12 px que el imán no deja usar. */
+        const ultima = tarjetasRef.current[entregas.length - 1];
+        const sinRelleno = parseFloat(getComputedStyle(pista).paddingLeft) === 0;
+        const ultimaContraElBorde =
+          sinRelleno &&
+          !!ultima &&
+          ultima.offsetLeft + ultima.offsetWidth - pista.scrollLeft <= pista.clientWidth + 4;
+        setEnFin(pista.scrollLeft >= max - 4 || ultimaContraElBorde);
       });
     };
     pista.addEventListener('scroll', pedir, { passive: true });
@@ -398,31 +407,6 @@ function ArcoEntregas({
       observador.disconnect();
     };
   }, [curvar, entregas.length]);
-
-  /* Arranque en escritorio: el relleno lateral que deja a la primera tarjeta
-     llegar al centro también la deja sola, con media pista vacía a su
-     izquierda; eran 530 px de nada. Ahí se arranca centrando la primera
-     tarjeta que llena ese lado con las anteriores. El orden no cambia —la más
-     reciente sigue primera— y se vuelve a ella con la flecha.
-
-     En el teléfono no: arranca con la más reciente al centro aunque sobren
-     86 px a su izquierda, porque ahí la primera tarjeta es casi toda la
-     pantalla y es la que se tiene que ver. Va en `useLayoutEffect` para que
-     el primer pintado ya salga en su sitio, sin un salto visible. */
-  useLayoutEffect(() => {
-    const pista = pistaRef.current;
-    const tarjetas = tarjetasRef.current;
-    const primera = tarjetas[0];
-    if (!pista || !primera || entregas.length < 2) return;
-    if (!window.matchMedia('(min-width: 64rem)').matches) return;
-    const paso = primera.offsetWidth + 18;
-    const hueco = pista.clientWidth / 2 - primera.offsetWidth / 2;
-    const k = Math.min(entregas.length - 1, Math.ceil(hueco / paso));
-    const destino = tarjetas[k];
-    if (!destino) return;
-    pista.scrollLeft =
-      destino.offsetLeft + destino.offsetWidth / 2 - pista.clientWidth / 2;
-  }, [entregas.length]);
 
   const desplazar = (izquierda: number) =>
     pistaRef.current?.scrollBy({
@@ -473,15 +457,31 @@ function ArcoEntregas({
         </>
       )}
 
-      {/* El relleno lateral de media pista menos media tarjeta es lo que deja
-          a la primera y a la última llegar al centro. La máscara desvanece los
-          extremos: sin ella las tarjetas de los lados se cortan en seco contra
-          el borde del contenedor. */}
+      {/* En el teléfono y la tableta, un relleno lateral de media pista menos
+          media tarjeta deja a la primera y a la última llegar al centro: ahí
+          una tarjeta es casi toda la pantalla y es la que se tiene que ver.
+
+          En escritorio no lleva relleno: con él, la primera entrega al centro
+          dejaba 530 px vacíos a su izquierda. Sin él la pista arranca con la
+          primera tarjeta contra el borde izquierdo del contenedor y termina con
+          la última contra el derecho. La primera y la última se alinean por
+          su borde (`snap-start`, `snap-end`) y no por el centro: el imán usa
+          la caja sin girar, y así la última queda exacta contra el borde
+          aunque su giro alargue el scroll unos píxeles.
+
+          La máscara desvanece solo el lado donde todavía hay más tarjetas: en
+          un extremo la tarjeta está entera contra el borde y desvanecerla
+          sería esconder la primera o la última. */}
       <div
         ref={pistaRef}
         role="region"
         aria-label="Entregas a clientes"
-        className="flex items-center gap-4.5 overflow-x-auto snap-x snap-mandatory no-scrollbar py-10 px-[calc(50%-120px)] sm:px-[calc(50%-140px)] [mask-image:linear-gradient(90deg,transparent,#000_6%,#000_94%,transparent)]"
+        className={cx(
+          'flex items-center gap-4.5 overflow-x-auto snap-x snap-mandatory no-scrollbar py-10 px-[calc(50%-120px)] sm:px-[calc(50%-140px)] lg:px-0',
+          !enInicio && !enFin && '[mask-image:linear-gradient(90deg,transparent,#000_6%,#000_94%,transparent)]',
+          enInicio && !enFin && '[mask-image:linear-gradient(90deg,#000_94%,transparent)]',
+          !enInicio && enFin && '[mask-image:linear-gradient(90deg,transparent,#000_6%)]',
+        )}
       >
         {entregas.map((entrega, i) => (
           <button
@@ -492,7 +492,7 @@ function ArcoEntregas({
             type="button"
             onClick={() => tocar(i)}
             aria-label={`Ver entrega en ${entrega.neighborhood || entrega.city}`}
-            className="relative shrink-0 snap-center w-60 h-85 sm:w-70 sm:h-95 overflow-hidden rounded-tarjeta border border-white/14 bg-basalt text-left will-change-transform"
+            className="relative shrink-0 snap-center lg:first:snap-start lg:last:snap-end w-60 h-85 sm:w-70 sm:h-95 overflow-hidden rounded-tarjeta border border-white/14 bg-basalt text-left will-change-transform"
           >
             <SmartImage
               src={entrega.image}
