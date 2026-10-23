@@ -114,6 +114,7 @@ export function FaqPage() {
     <>
       <section className="max-w-3xl mx-auto px-5 lg:px-8 pt-16 pb-10">
         <SectionHeader
+          nivel="h1"
           eyebrow="Soporte"
           title="Preguntas frecuentes"
           description="Lo que más nos preguntan por WhatsApp, resuelto de una vez."
