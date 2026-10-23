@@ -351,6 +351,7 @@ function ProductView({ id }: { id?: string }) {
                   href={generateDirectWhatsAppContact(
                     settings,
                     `Reposición de ${sneaker.name}`,
+                    sneaker,
                   )}
                   target="_blank"
                   rel="noopener noreferrer"
@@ -532,6 +533,7 @@ function ProductView({ id }: { id?: string }) {
                 ? generateDirectWhatsAppContact(
                     settings,
                     `Reposición de ${sneaker.name}`,
+                    sneaker,
                   )
                 : generateWhatsAppLink(sneaker, selectedSize, settings)
             }

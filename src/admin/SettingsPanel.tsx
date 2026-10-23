@@ -788,8 +788,14 @@ export function SettingsPanel({
               <code className="text-silver">{'{modelo}'}</code>{' '}
               <code className="text-silver">{'{talla}'}</code>{' '}
               <code className="text-silver">{'{precio}'}</code>{' '}
-              <code className="text-silver">{'{categoria}'}</code>. Se reemplazan
-              automáticamente con los datos del par que abre el cliente.
+              <code className="text-silver">{'{categoria}'}</code>{' '}
+              <code className="text-silver">{'{colorway}'}</code>{' '}
+              <code className="text-silver">{'{referencia}'}</code>{' '}
+              <code className="text-silver">{'{enlace}'}</code>. Se reemplazan
+              automáticamente con los datos del par que abre el cliente. El
+              color, la referencia y el enlace que no pongas en la plantilla se
+              agregan solos al final, para que nunca se confundan dos colores
+              del mismo modelo.
             </p>
           </div>
         </div>
