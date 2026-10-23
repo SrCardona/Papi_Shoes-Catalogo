@@ -230,7 +230,13 @@ export function HomePage() {
           className="mb-10 sm:mb-14"
         />
 
-        <div className="grid md:grid-cols-2 gap-px bg-white/8 border border-white/8">
+        {/* Dos puertas, cada una con un tenis recortado de su propia línea:
+            el par que se ve en la puerta de Originales es verificado, y el de
+            Sneakers es de uso diario. Mezclarlos sería sugerir lo contrario.
+            Los recortes son de los aprobados para el hero, sin repetir el que
+            lo abre. La sombra bajo el tenis es la única permitida: la de piso
+            de un recorte, sin la cual se ve pegado. */}
+        <div className="grid md:grid-cols-2 gap-5">
           {[
             {
               to: '/originales',
@@ -239,6 +245,9 @@ export function HomePage() {
               count: counts.originales,
               text: 'Pares verificados uno por uno: costuras, códigos UV, etiqueta interior y peso. Llegan con comprobante de procedencia.',
               accent: 'text-silver',
+              fondo:
+                'radial-gradient(circle at 85% 90%, rgb(200 200 200 / 0.16), transparent 55%), var(--color-basalt)',
+              recorte: '/recortes/originales/nike-vomero-6-gold.webp',
             },
             {
               to: '/sneakers',
@@ -247,38 +256,48 @@ export function HomePage() {
               count: counts.street,
               text: 'Las siluetas que se están usando ahora, con acabados premium y precio de uso diario. Para vestir, no para vitrina.',
               accent: 'text-lapis-texto',
+              fondo:
+                'radial-gradient(circle at 85% 90%, rgb(115 142 222 / 0.22), transparent 55%), var(--color-marble-navy)',
+              recorte: '/recortes/sneakers/nike-dunk-low-unc.webp',
             },
           ].map((room) => (
             <Link
               key={room.to}
               to={room.to}
-              className="group relative bg-basalt hover:bg-marble-navy transition-colors duration-500 p-7 sm:p-12"
+              className="group relative flex flex-col min-h-[400px] sm:min-h-[440px] overflow-hidden rounded-sala border border-white/8 p-7 sm:p-10"
+              style={{ background: room.fondo }}
             >
-              <div className="flex items-start justify-between mb-6 sm:mb-8">
-                <span
-                  className={`text-rotulo font-bold uppercase tracking-[0.3em] ${room.accent}`}
-                >
-                  {room.room}
-                </span>
-                <TempleMark
-                  variant="line"
-                  className="w-7 h-7 text-marble/20 group-hover:text-silver/60 transition-colors duration-500"
-                />
-              </div>
-
-              <h3 className="font-display text-[2.75rem] sm:text-6xl text-marble mb-3 sm:mb-4">
+              <span
+                className={`text-rotulo font-bold uppercase tracking-[0.3em] ${room.accent}`}
+              >
+                {room.room}
+              </span>
+              <h3 className="mt-5 font-display text-[clamp(64px,8vw,112px)] leading-[0.88] text-marble">
                 {room.title}
               </h3>
-              <p className="text-lectura leading-relaxed text-secundario max-w-sm mb-7 sm:mb-9">
+              <p className="mt-4 max-w-[300px] text-lectura leading-relaxed text-secundario">
                 {room.text}
               </p>
 
-              <div className="flex items-center justify-between pt-5 border-t border-white/8">
+              <div className="relative z-[2] mt-auto pt-7 flex items-center gap-3.5">
                 <span className="text-rotulo uppercase tracking-[0.2em] text-terciario tabular-nums">
                   {room.count} pares
                 </span>
-                <ArrowRight className="w-4 h-4 text-marble/40 transition-transform duration-500 group-hover:translate-x-2 group-hover:text-marble" />
+                <span className="w-11 h-11 rounded-full bg-marble text-obsidian flex items-center justify-center transition-transform duration-300 group-hover:translate-x-1">
+                  <ArrowRight className="w-[18px] h-[18px]" />
+                </span>
               </div>
+
+              <img
+                src={room.recorte}
+                alt=""
+                aria-hidden
+                loading="lazy"
+                decoding="async"
+                /* La mitad de la puerta hasta lg: a 62 % el tenis llegaba
+                   encima del botón de flecha en un teléfono y a 768. */
+                className="pointer-events-none absolute -right-6 bottom-2.5 w-1/2 lg:w-[62%] max-w-[340px] h-auto drop-shadow-[0_26px_24px_rgba(0,0,0,0.75)] origin-bottom motion-safe:transition-transform motion-safe:duration-300 motion-safe:group-hover:scale-105"
+              />
             </Link>
           ))}
         </div>
@@ -381,27 +400,42 @@ export function HomePage() {
 
       {/* ═══ LLAMADO FINAL ════════════════════════════════════════════════ */}
       <section className="max-w-[1400px] mx-auto px-5 lg:px-8 pb-4">
-        <div className="architrave bg-marble-navy px-6 sm:px-8 py-14 sm:py-20 text-center">
-          <TempleMark className="w-11 h-11 sm:w-12 sm:h-12 mx-auto mb-6 sm:mb-7 opacity-75" />
-          <h2 className="font-display text-[2.15rem] sm:text-5xl text-marble max-w-2xl mx-auto leading-[0.95]">
-            ¿No encuentras el par que buscas?
-          </h2>
-          <p className="mt-5 text-lectura text-secundario max-w-md mx-auto leading-relaxed">
-            Traemos cualquier referencia y talla bajo encargo en 8 a 14 días
-            hábiles, con abono del 50%.
-          </p>
-          <a
-            href={generateDirectWhatsAppContact(
-              settings,
-              'Quiero cotizar un par bajo encargo',
-            )}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="mt-8 sm:mt-9 inline-flex w-full max-w-sm sm:w-auto items-center justify-center gap-3 px-8 py-4 bg-marble text-obsidian text-rotulo font-bold uppercase tracking-[0.12em] sm:tracking-[0.22em] hover:bg-silver transition-colors"
-          >
-            <MessageCircle className="w-4 h-4" />
-            Cotizar por WhatsApp
-          </a>
+        {/* El fondo va en `style`: como clase, la lista "degradado, color"
+            salía como un `background-image` inválido y el bloque quedaba negro. */}
+        <div
+          className="relative overflow-hidden rounded-sala border border-white/8 px-6 sm:px-8 py-[clamp(44px,7vw,96px)] text-center"
+          style={{
+            background:
+              'radial-gradient(ellipse at 50% 0%, rgb(115 142 222 / 0.16), transparent 60%), var(--color-marble-navy)',
+          }}
+        >
+          {/* Retícula de puntos, como la del hero: quieta y por debajo del texto. */}
+          <div
+            aria-hidden
+            className="absolute inset-0 bg-[radial-gradient(rgb(255_255_255/0.07)_1px,transparent_1px)] bg-[length:24px_24px]"
+          />
+          <div className="relative">
+            <TempleMark className="w-[52px] h-[42px] mx-auto opacity-80" />
+            <h2 className="mt-6 font-display text-[clamp(44px,6vw,84px)] text-marble max-w-[780px] mx-auto leading-[0.92]">
+              ¿No encuentras el par que buscas?
+            </h2>
+            <p className="mt-5 text-lectura text-secundario max-w-md mx-auto leading-relaxed">
+              Traemos cualquier referencia y talla bajo encargo en 8 a 14 días
+              hábiles, con abono del 50%.
+            </p>
+            <a
+              href={generateDirectWhatsAppContact(
+                settings,
+                'Quiero cotizar un par bajo encargo',
+              )}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn mt-8 sm:mt-9 w-full max-w-sm sm:w-auto"
+            >
+              <MessageCircle className="w-4 h-4 shrink-0" />
+              Cotizar por WhatsApp
+            </a>
+          </div>
         </div>
       </section>
     </>
