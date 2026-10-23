@@ -119,12 +119,8 @@ export function DeliveryWall({
         <div className="flex flex-wrap items-center gap-2">
           <button
             onClick={() => setCity('all')}
-            className={cx(
-              'px-4 py-2 text-rotulo font-semibold uppercase tracking-[0.18em] border transition-colors',
-              city === 'all'
-                ? 'bg-marble text-obsidian border-marble'
-                : 'border-white/12 text-secundario hover:text-marble hover:border-silver/40',
-            )}
+            aria-pressed={city === 'all'}
+            className={cx('chip', city === 'all' && 'chip-on')}
           >
             Todas · {deliveries.length}
           </button>
@@ -132,12 +128,8 @@ export function DeliveryWall({
             <button
               key={name}
               onClick={() => setCity(name)}
-              className={cx(
-                'px-4 py-2 text-rotulo font-semibold uppercase tracking-[0.18em] border transition-colors',
-                city === name
-                  ? 'bg-marble text-obsidian border-marble'
-                  : 'border-white/12 text-secundario hover:text-marble hover:border-silver/40',
-              )}
+              aria-pressed={city === name}
+              className={cx('chip', city === name && 'chip-on')}
             >
               {name} · {count}
             </button>
@@ -158,7 +150,7 @@ export function DeliveryWall({
             onScroll={readReach}
             role="region"
             aria-label="Entregas a clientes"
-            className="flex gap-px overflow-x-auto snap-x snap-mandatory py-2"
+            className="flex gap-4 lg:gap-6 overflow-x-auto snap-x snap-mandatory py-2"
           >
             {visible.map((delivery, i) => (
               <button
@@ -168,7 +160,7 @@ export function DeliveryWall({
                 className="column-card animate-rise group text-left shrink-0 snap-start w-[68%] sm:w-[46%] lg:w-[31%] xl:w-[23.5%]"
                 aria-label={`Ver entrega en ${delivery.neighborhood || delivery.city}`}
               >
-                <div className="relative aspect-[4/5] overflow-hidden bg-obsidian fluted">
+                <div className="relative aspect-[4/5] overflow-hidden rounded-foto bg-obsidian fluted">
                   <SmartImage
                     src={delivery.image}
                     alt={
@@ -216,7 +208,7 @@ export function DeliveryWall({
                 onClick={() => page(-1)}
                 disabled={reach.atStart}
                 aria-label="Ver entregas anteriores"
-                className="hidden lg:flex absolute left-2 top-1/2 -translate-y-1/2 items-center justify-center w-11 h-11 border border-white/12 bg-obsidian/85 text-marble/70 hover:text-marble hover:border-silver/40 disabled:opacity-0 disabled:pointer-events-none transition-all"
+                className="hidden lg:flex absolute left-2 top-1/2 -translate-y-1/2 items-center justify-center w-11 h-11 rounded-full border border-white/12 bg-obsidian/85 text-marble/70 hover:text-marble hover:border-silver/40 disabled:opacity-0 disabled:pointer-events-none transition-all"
               >
                 <ChevronLeft className="w-5 h-5" />
               </button>
@@ -224,7 +216,7 @@ export function DeliveryWall({
                 onClick={() => page(1)}
                 disabled={reach.atEnd}
                 aria-label="Ver más entregas"
-                className="hidden lg:flex absolute right-2 top-1/2 -translate-y-1/2 items-center justify-center w-11 h-11 border border-white/12 bg-obsidian/85 text-marble/70 hover:text-marble hover:border-silver/40 disabled:opacity-0 disabled:pointer-events-none transition-all"
+                className="hidden lg:flex absolute right-2 top-1/2 -translate-y-1/2 items-center justify-center w-11 h-11 rounded-full border border-white/12 bg-obsidian/85 text-marble/70 hover:text-marble hover:border-silver/40 disabled:opacity-0 disabled:pointer-events-none transition-all"
               >
                 <ChevronRight className="w-5 h-5" />
               </button>
@@ -251,7 +243,7 @@ export function DeliveryWall({
             <button
               onClick={() => setOpenIndex(null)}
               aria-label="Cerrar"
-              className="p-2 text-secundario hover:text-marble transition-colors"
+              className="w-11 h-11 flex items-center justify-center rounded-full border border-white/12 text-secundario hover:text-marble hover:border-silver/40 transition-colors"
             >
               <X className="w-5 h-5" />
             </button>
@@ -266,7 +258,7 @@ export function DeliveryWall({
                   )
                 }
                 aria-label="Entrega anterior"
-                className="hidden sm:flex items-center justify-center w-11 h-11 shrink-0 border border-white/12 text-marble/60 hover:text-marble hover:border-silver/40 transition-colors"
+                className="hidden sm:flex items-center justify-center w-11 h-11 shrink-0 rounded-full border border-white/12 text-marble/60 hover:text-marble hover:border-silver/40 transition-colors"
               >
                 <ChevronLeft className="w-5 h-5" />
               </button>
@@ -278,7 +270,7 @@ export function DeliveryWall({
                 alt={active.productName ?? `Entrega en ${active.city}`}
                 priority
                 sizes="(max-width: 1024px) 96vw, 768px"
-                className="max-h-[62vh] w-auto object-contain border border-white/8"
+                className="max-h-[62vh] w-auto object-contain rounded-foto border border-white/8"
               />
               <div className="mt-6 text-center space-y-2 max-w-md">
                 {!active.locationInImage && (
@@ -309,7 +301,7 @@ export function DeliveryWall({
                   setOpenIndex((i) => (i === null ? null : (i + 1) % visible.length))
                 }
                 aria-label="Entrega siguiente"
-                className="hidden sm:flex items-center justify-center w-11 h-11 shrink-0 border border-white/12 text-marble/60 hover:text-marble hover:border-silver/40 transition-colors"
+                className="hidden sm:flex items-center justify-center w-11 h-11 shrink-0 rounded-full border border-white/12 text-marble/60 hover:text-marble hover:border-silver/40 transition-colors"
               >
                 <ChevronRight className="w-5 h-5" />
               </button>
@@ -549,7 +541,7 @@ export function DeliveryLedger({ deliveries }: { deliveries: Delivery[] }) {
   if (!cities.length) return null;
 
   return (
-    <ul className="grid grid-cols-2 sm:grid-cols-4 gap-px bg-white/8 border border-white/8">
+    <ul className="grid grid-cols-2 sm:grid-cols-4 gap-px overflow-hidden rounded-tarjeta bg-white/8 border border-white/8">
       {cities.map(([name, count]) => (
         <li key={name} className="bg-basalt px-5 py-4">
           <p className="text-rotulo uppercase tracking-[0.2em] text-terciario truncate">
