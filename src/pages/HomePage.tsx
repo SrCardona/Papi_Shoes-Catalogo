@@ -6,10 +6,10 @@ import { useStore } from '../context/StoreContext';
 import { useMarcasAgrupadas, useMarcasPorLinea } from '../hooks/useMarcasPorLinea';
 import { lineaDeMarca } from '../lib/marcas';
 import { BRAND_PILLARS, BRAND_WALL } from '../data/initialData';
-import { BrandLockup, TempleMark } from '../components/ui/TempleMark';
+import { TempleMark } from '../components/ui/TempleMark';
 import { Colonnade } from '../components/ui/SneakerColumn';
 import { SectionHeader } from '../components/ui/SectionHeader';
-import { HighlightRail } from '../components/ui/HighlightRail';
+import { HeroRotativo } from '../components/ui/HeroRotativo';
 import { DeliveryWall } from '../components/ui/DeliveryWall';
 import { AnnouncementPopup } from '../components/ui/AnnouncementPopup';
 import { generateDirectWhatsAppContact } from '../lib/utils';
@@ -114,19 +114,35 @@ export function HomePage() {
           ))}
         </div>
 
-        <div className="relative max-w-[1400px] mx-auto px-5 lg:px-8 pt-11 pb-14 sm:pt-16 sm:pb-20">
+        <div className="relative max-w-[1400px] mx-auto px-5 lg:px-8 pt-11 pb-14 sm:pb-[72px]">
           <div className="flex flex-col items-center text-center">
-            <BrandLockup size="xl" className="animate-rise" />
+            <TempleMark className="w-[76px] h-[60px] animate-rise" title={settings.storeName} />
 
+            {/* Inscripción, no encabezado: el h1 es la frase de abajo. */}
             <p
-              className="mt-6 text-rotulo font-semibold uppercase tracking-[0.2em] sm:tracking-[0.42em] text-silver/70 animate-rise"
-              style={{ animationDelay: '120ms' }}
+              aria-hidden
+              className="mt-2.5 font-display text-engraved text-[clamp(80px,15vw,190px)] leading-[0.82] tracking-[0.02em] select-none animate-rise"
             >
-              {settings.slogan}
+              El templo
             </p>
 
+            <HeroRotativo />
+
+            <div
+              className="mt-8 flex items-center gap-3.5 animate-rise"
+              style={{ animationDelay: '120ms' }}
+            >
+              {/* Las rayas solo cuando el lema cabe en una línea: en el teléfono
+                  parte en dos y quedaban flotando a media altura. */}
+              <span aria-hidden className="hidden sm:block h-px w-8 bg-silver/45" />
+              <p className="text-rotulo font-semibold uppercase tracking-[0.2em] sm:tracking-[0.35em] text-silver">
+                {settings.slogan}
+              </p>
+              <span aria-hidden className="hidden sm:block h-px w-8 bg-silver/45" />
+            </div>
+
             <h1
-              className="mt-7 font-display text-5xl sm:text-6xl lg:text-7xl leading-[0.86] max-w-4xl animate-rise"
+              className="mt-5 font-display text-5xl sm:text-6xl lg:text-[86px] leading-[0.86] max-w-4xl animate-rise"
               style={{ animationDelay: '200ms' }}
             >
               <span className="text-marble">Más que tenis,</span>
@@ -146,22 +162,40 @@ export function HomePage() {
                 otro: dos botones a media pantalla se leen como un formulario,
                 no como la puerta de entrada al catálogo. */}
             <div
-              className="mt-9 w-full max-w-sm sm:max-w-none flex flex-col sm:flex-row sm:items-center sm:justify-center gap-2.5 sm:gap-3 animate-rise"
+              className="mt-8 w-full max-w-sm sm:max-w-none flex flex-col sm:flex-row sm:items-center sm:justify-center gap-2.5 sm:gap-3 animate-rise"
               style={{ animationDelay: '360ms' }}
             >
-              <Link
-                to="/originales"
-                className="group flex items-center justify-center gap-3 px-8 py-4 bg-marble text-obsidian text-rotulo font-bold uppercase tracking-[0.12em] sm:tracking-[0.22em] hover:bg-silver transition-colors"
-              >
+              <Link to="/originales" className="btn group">
                 Ver Originales
                 <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
               </Link>
-              <Link
-                to="/sneakers"
-                className="flex items-center justify-center px-8 py-4 border border-white/18 text-marble/75 text-rotulo font-bold uppercase tracking-[0.22em] hover:text-marble hover:border-silver/45 transition-colors"
-              >
+              <Link to="/sneakers" className="btn btn-ghost">
                 Ver Sneakers
               </Link>
+            </div>
+
+            {/* Lo que hay hoy en el templo, contado del catálogo y no escrito. */}
+            <div
+              className="mt-11 flex flex-wrap justify-center gap-3 animate-rise"
+              style={{ animationDelay: '440ms' }}
+            >
+              {[
+                { n: counts.originales, rotulo: 'Originales' },
+                { n: counts.street, rotulo: 'Sneakers' },
+                { n: sneakers.length, rotulo: 'Pares en el templo' },
+              ].map(({ n, rotulo }) => (
+                <div
+                  key={rotulo}
+                  className="flex items-baseline gap-2.5 px-5 py-3 rounded-full border border-white/8 bg-white/[0.03]"
+                >
+                  <span className="font-display text-[28px] leading-none text-marble tabular-nums">
+                    {n}
+                  </span>
+                  <span className="text-rotulo font-semibold uppercase tracking-[0.16em] text-secundario">
+                    {rotulo}
+                  </span>
+                </div>
+              ))}
             </div>
           </div>
         </div>
@@ -170,8 +204,9 @@ export function HomePage() {
         <div className="h-px stylobate" />
       </section>
 
-      {/* ═══ HISTORIAS DESTACADAS ═════════════════════════════════════════ */}
-      <HighlightRail />
+      {/* Las historias destacadas salieron de la portada con el rediseño v2.
+          `HighlightRail` y lo que edita el panel siguen en su sitio: volver a
+          montarlas es una línea aquí. */}
 
       {/* ═══ LAS DOS LÍNEAS ═══════════════════════════════════════════════ */}
       <section className="max-w-[1400px] mx-auto px-5 lg:px-8 py-14 sm:py-20">
@@ -278,7 +313,7 @@ export function HomePage() {
               </Link>
             }
           />
-          <DeliveryWall deliveries={deliveries} showFilters={false} limit={10} />
+          <DeliveryWall deliveries={deliveries} showFilters={false} limit={10} variante="arco" />
         </section>
       )}
 
