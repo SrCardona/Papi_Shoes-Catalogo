@@ -370,13 +370,24 @@ function ArcoEntregas({
     }
   }, [reducido]);
 
+  /* Si la pista está en un extremo, para apagar la flecha de ese lado. Con
+     el relleno lateral, scroll 0 es justo la primera entrega al centro. El
+     margen de 4 px absorbe los redondeos del navegador, como en el muro. */
+  const [enInicio, setEnInicio] = useState(true);
+  const [enFin, setEnFin] = useState(false);
+
   useEffect(() => {
     const pista = pistaRef.current;
     if (!pista) return;
     let cuadro = 0;
     const pedir = () => {
       cancelAnimationFrame(cuadro);
-      cuadro = requestAnimationFrame(curvar);
+      cuadro = requestAnimationFrame(() => {
+        curvar();
+        const max = pista.scrollWidth - pista.clientWidth;
+        setEnInicio(pista.scrollLeft <= 4);
+        setEnFin(pista.scrollLeft >= max - 4);
+      });
     };
     pista.addEventListener('scroll', pedir, { passive: true });
     const observador = new ResizeObserver(pedir);
@@ -388,17 +399,22 @@ function ArcoEntregas({
     };
   }, [curvar, entregas.length]);
 
-  /* Arranque: el relleno lateral que deja a la primera tarjeta llegar al
-     centro también la deja sola, con media pista vacía a su izquierda; en
-     escritorio eran 530 px de nada. Se arranca centrando la primera tarjeta
-     que llena ese lado con las anteriores. El orden no cambia —la más reciente
-     sigue primera— y se vuelve a ella deslizando. Va en `useLayoutEffect`
-     para que el primer pintado ya salga en su sitio, sin un salto visible. */
+  /* Arranque en escritorio: el relleno lateral que deja a la primera tarjeta
+     llegar al centro también la deja sola, con media pista vacía a su
+     izquierda; eran 530 px de nada. Ahí se arranca centrando la primera
+     tarjeta que llena ese lado con las anteriores. El orden no cambia —la más
+     reciente sigue primera— y se vuelve a ella con la flecha.
+
+     En el teléfono no: arranca con la más reciente al centro aunque sobren
+     86 px a su izquierda, porque ahí la primera tarjeta es casi toda la
+     pantalla y es la que se tiene que ver. Va en `useLayoutEffect` para que
+     el primer pintado ya salga en su sitio, sin un salto visible. */
   useLayoutEffect(() => {
     const pista = pistaRef.current;
     const tarjetas = tarjetasRef.current;
     const primera = tarjetas[0];
     if (!pista || !primera || entregas.length < 2) return;
+    if (!window.matchMedia('(min-width: 64rem)').matches) return;
     const paso = primera.offsetWidth + 18;
     const hueco = pista.clientWidth / 2 - primera.offsetWidth / 2;
     const k = Math.min(entregas.length - 1, Math.ceil(hueco / paso));
@@ -433,19 +449,24 @@ function ArcoEntregas({
     <div className="relative -mx-5 lg:mx-0">
       {entregas.length > 1 && (
         <>
+          {/* `aria-disabled` y no `disabled`: un botón deshabilitado suelta el
+              foco al apagarse, y quien avanza con el teclado se quedaría sin
+              foco justo al llegar a la primera entrega. */}
           <button
             type="button"
-            onClick={() => desplazar(-paso())}
+            onClick={() => !enInicio && desplazar(-paso())}
             aria-label="Entrega anterior"
-            className="hidden sm:flex absolute left-5 top-1/2 -translate-y-1/2 z-[60] w-11 h-11 items-center justify-center rounded-full border border-white/20 bg-obsidian/85 backdrop-blur text-marble hover:bg-marble hover:text-obsidian transition-colors"
+            aria-disabled={enInicio}
+            className="hidden sm:flex absolute left-5 top-1/2 -translate-y-1/2 z-[60] w-11 h-11 items-center justify-center rounded-full border border-white/20 bg-obsidian/85 backdrop-blur text-marble hover:bg-marble hover:text-obsidian transition-colors aria-disabled:opacity-30 aria-disabled:cursor-default aria-disabled:hover:bg-obsidian/85 aria-disabled:hover:text-marble"
           >
             <ChevronLeft className="w-5 h-5" />
           </button>
           <button
             type="button"
-            onClick={() => desplazar(paso())}
+            onClick={() => !enFin && desplazar(paso())}
             aria-label="Entrega siguiente"
-            className="hidden sm:flex absolute right-5 top-1/2 -translate-y-1/2 z-[60] w-11 h-11 items-center justify-center rounded-full border border-white/20 bg-obsidian/85 backdrop-blur text-marble hover:bg-marble hover:text-obsidian transition-colors"
+            aria-disabled={enFin}
+            className="hidden sm:flex absolute right-5 top-1/2 -translate-y-1/2 z-[60] w-11 h-11 items-center justify-center rounded-full border border-white/20 bg-obsidian/85 backdrop-blur text-marble hover:bg-marble hover:text-obsidian transition-colors aria-disabled:opacity-30 aria-disabled:cursor-default aria-disabled:hover:bg-obsidian/85 aria-disabled:hover:text-marble"
           >
             <ChevronRight className="w-5 h-5" />
           </button>
