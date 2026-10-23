@@ -285,10 +285,20 @@
        con Ctrl+F las sigue encontrando, a diferencia de esconderlas.
 
        El `auto` del tamaño estimado es lo que evita que la barra de scroll dé
-       saltos: los 480 px son la primera suposición y, en cuanto una columna se
-       pinta de verdad, el navegador se queda con su medida real. */
+       saltos: la medida es la primera suposición y, en cuanto una columna se
+       pinta de verdad, el navegador se queda con su medida real.
+
+       La tarjeta mide su ancho más el bloque de texto (273 px en el teléfono,
+       226 desde `sm`), así que un solo número no sirve: con 480 fijo la página
+       de Sneakers cambiaba 700 px de alto al pintarse en un teléfono. Estos
+       dos quedan a 30 px o menos de lo medido entre 360 y 1920 px de ancho. */
     content-visibility: auto;
-    contain-intrinsic-size: auto 480px;
+    contain-intrinsic-size: auto 450px;
+  }
+  @media (min-width: 40rem) {
+    .column-card {
+      contain-intrinsic-size: auto 540px;
+    }
   }
 
   /* Al tocar, la columna responde hundiéndose apenas: es la señal táctil que

@@ -46,6 +46,9 @@ export function FloatingWhatsApp() {
         'sm:right-5 sm:bottom-5 sm:translate-y-0',
         isProductPage ? 'hidden sm:flex' : 'flex',
         oculto && 'translate-y-[calc(100%+2rem+env(safe-area-inset-bottom))]',
+        // Retirado sigue en el orden de Tab: si el foco llega, vuelve a la vista.
+        // Sin esto un teclado enfocaba un botón que estaba debajo de la pantalla.
+        'focus-within:translate-y-0',
       )}
     >
       {/* En el ancho: los guiones bajos son los espacios de la resta.
