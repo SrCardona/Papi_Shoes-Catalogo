@@ -118,12 +118,16 @@ export function HomePage() {
           <div className="flex flex-col items-center text-center">
             <TempleMark className="w-[76px] h-[60px] animate-rise" title={settings.storeName} />
 
-            {/* Inscripción, no encabezado: el h1 es la frase de abajo. */}
+            {/* Inscripción, no encabezado: el nombre ya va dentro del h1 de
+                abajo, para que un lector de pantalla no lo oiga dos veces.
+                Anton mide 4,4 veces el tamaño de letra en "PAPI SHOES": a
+                19vw ocupa el 84 % del ancho y deja libres los 20 px de cada
+                lado desde un teléfono de 320 px. Sin `nowrap` partiría en dos. */}
             <p
               aria-hidden
-              className="mt-2.5 font-display text-engraved text-[clamp(80px,15vw,190px)] leading-[0.82] tracking-[0.02em] select-none animate-rise"
+              className="mt-2.5 font-display text-engraved text-[clamp(48px,19vw,190px)] leading-[0.82] tracking-[0.02em] whitespace-nowrap select-none animate-rise"
             >
-              El templo
+              Papi Shoes
             </p>
 
             <HeroRotativo />
@@ -145,6 +149,7 @@ export function HomePage() {
               className="mt-5 font-display text-5xl sm:text-6xl lg:text-[86px] leading-[0.86] max-w-4xl animate-rise"
               style={{ animationDelay: '200ms' }}
             >
+              <span className="sr-only">Papi Shoes: </span>
               <span className="text-marble">Más que tenis,</span>
               <br />
               <span className="text-engraved">es cultura.</span>

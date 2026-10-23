@@ -92,7 +92,7 @@ export function HeroRotativo() {
 
   return (
     <div
-      className="relative z-[2] w-[min(86%,520px)] -mt-[clamp(36px,6vw,60px)] flex flex-col items-center"
+      className="relative z-[2] w-[min(86%,520px)] -mt-[clamp(24px,6vw,60px)] flex flex-col items-center"
       onMouseEnter={() => setEncima(true)}
       onMouseLeave={() => setEncima(false)}
       onFocus={() => setEncima(true)}
@@ -101,11 +101,15 @@ export function HeroRotativo() {
       {/* Todos montados y apilados en la misma celda: así la siguiente foto ya
           está descargada cuando le toca, y el fundido no muestra un hueco.
           La caja tiene proporción fija y los tenis se asientan abajo, para que
-          la sombra de piso no salte de altura con cada par. */}
+          la sombra de piso no salte de altura con cada par. Es 2:1 porque así
+          miden casi todos los recortes (2,1 a 2,3): en una caja más alta los
+          de perfil dejaban vacío el tercio de arriba y no alcanzaban a montar
+          sobre el nombre. Los más altos (Campus, Puma) llegan arriba por
+          altura y quedan más angostos. */}
       <Link
         to={par.to}
         aria-label={`${par.nombre}: ver más de la línea ${par.linea}`}
-        className="relative block w-full max-w-[480px] aspect-[16/10]"
+        className="relative block w-full max-w-[480px] aspect-[2/1]"
       >
         {pares.map((p, i) => (
           <img
