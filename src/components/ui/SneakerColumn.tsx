@@ -20,6 +20,10 @@ const STATUS_LABEL = {
 
 const LINEA_LABEL = { originales: 'Originales', general: 'Sneakers' } as const;
 
+/* Compartido por la foto y su fondo difuminado: si difieren, el navegador
+   puede escoger otro ancho del `srcset` y el fondo costaría una descarga. */
+const TAMANOS_FOTO = '(max-width: 640px) 50vw, (max-width: 1280px) 33vw, 25vw';
+
 /* El generador marca `isNewArrival` en todos los pares, así que por sí solo no
    dice nada: "Nuevo" en las 616 tarjetas es ruido. Lo que separa un par recién
    llegado es la fecha de `catalogo/llegadas.json`, que viaja en `createdAt`. */
@@ -88,7 +92,9 @@ export function SneakerColumn({
             o el talón. Para que la celda no quede con franjas, se pinta del
             color de los bordes de la foto (`npm run catalogo` lo calcula) y la
             foto se funde con ella. Una foto con escena no tiene un color que
-            la continúe: esa se queda sobre el fondo oscuro. */}
+            la continúe: ahí la celda se llena con la misma foto, ampliada,
+            difuminada y oscurecida, y la foto entera va encima. Sin eso 360
+            portadas quedaban con franjas negras a los lados o arriba y abajo. */}
         <div
           className={cx(
             'relative aspect-square overflow-hidden rounded-foto bg-obsidian',
@@ -96,6 +102,21 @@ export function SneakerColumn({
           )}
           style={fondo ? { background: fondo } : undefined}
         >
+          {/* Mismo `src` y mismo `sizes` que la foto de encima: el navegador
+              escoge el mismo ancho del `srcset` y lo sirve de la caché, así que
+              el fondo no descarga nada. El difuminado va en el contenedor
+              porque `SmartImage` maneja su propia opacidad para el fundido. */}
+          {!fondo && (
+            <div aria-hidden className="absolute inset-0 scale-125 blur-xl brightness-[0.45]">
+              <SmartImage
+                src={sneaker.images[0]}
+                alt=""
+                priority={priority}
+                sizes={TAMANOS_FOTO}
+                className="w-full h-full object-cover"
+              />
+            </div>
+          )}
           {/* Al pasar el cursor la foto crece un poco, nada más. `hover:` ya
               solo existe donde hay cursor, y `motion-safe:` deja quieto el
               par a quien pidió menos movimiento. */}
@@ -103,8 +124,8 @@ export function SneakerColumn({
             src={sneaker.images[0]}
             alt={sneaker.name}
             priority={priority}
-            sizes="(max-width: 640px) 50vw, (max-width: 1280px) 33vw, 25vw"
-            className="w-full h-full object-contain motion-safe:transition-transform motion-safe:duration-500 motion-safe:ease-out motion-safe:group-hover:scale-[1.04]"
+            sizes={TAMANOS_FOTO}
+            className="relative w-full h-full object-contain motion-safe:transition-transform motion-safe:duration-500 motion-safe:ease-out motion-safe:group-hover:scale-[1.04]"
           />
         </div>
 

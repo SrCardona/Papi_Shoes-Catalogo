@@ -509,8 +509,11 @@ franjas son al menos 50 % de un mismo color y lo que no lo es va en tres tramos
 o menos: el tenis que toca el borde es un tramo, una escena cambia a cada paso.
 Si los dos bordes difieren, la celda va mitad y mitad con corte seco detrás de
 la foto. Lo que no está en la lista (escenas, fotos subidas desde el panel)
-queda sobre el fondo oscuro. `fondoDeFoto()` en `lib/utils.ts` es la única
-puerta a esa lista.
+llena la celda con la misma foto ampliada, difuminada y oscurecida, y la foto
+entera va encima: no se recorta nada. Las dos capas comparten `src` y `sizes`
+(`TAMANOS_FOTO` en `SneakerColumn.tsx`) para que el fondo salga de la caché y
+no cueste otra descarga. `fondoDeFoto()` en `lib/utils.ts` es la única puerta a
+esa lista.
 
 Legibilidad, también en tokens de `index.css`: `text-lectura` (14 px, el mínimo
 de cualquier texto de lectura) y `text-rotulo` (12 px, solo para mayúsculas con
