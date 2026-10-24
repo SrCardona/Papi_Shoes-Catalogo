@@ -114,6 +114,7 @@ export function FaqPage() {
     <>
       <section className="max-w-3xl mx-auto px-5 lg:px-8 pt-16 pb-10">
         <SectionHeader
+          nivel="h1"
           eyebrow="Soporte"
           title="Preguntas frecuentes"
           description="Lo que más nos preguntan por WhatsApp, resuelto de una vez."
@@ -130,22 +131,18 @@ export function FaqPage() {
             onChange={(e) => setQuery(e.target.value)}
             placeholder="Buscar una pregunta"
             aria-label="Buscar en las preguntas frecuentes"
-            className="w-full bg-basalt border border-white/12 py-3.5 pl-11 pr-4 text-lectura text-marble placeholder:text-terciario focus:outline-none focus:border-silver/45 transition-colors"
+            className="campo w-full py-3.5 pl-11 pr-4"
           />
         </div>
 
         {/* Categorías */}
-        <div className="flex flex-wrap gap-px border border-white/10 mb-8">
+        <div className="flex flex-wrap gap-2 mb-8">
           {(Object.keys(CATEGORY_LABELS) as (FaqCategory | 'all')[]).map((key) => (
             <button
               key={key}
               onClick={() => setCategory(key)}
-              className={cx(
-                'flex-1 min-w-[80px] py-3 text-rotulo font-semibold uppercase tracking-[0.16em] transition-colors',
-                category === key
-                  ? 'bg-marble text-obsidian'
-                  : 'text-secundario hover:text-marble',
-              )}
+              aria-pressed={category === key}
+              className={cx('chip', category === key && 'chip-on')}
             >
               {CATEGORY_LABELS[key]}
             </button>
@@ -199,7 +196,7 @@ export function FaqPage() {
         )}
 
         {/* Cierre */}
-        <div className="mt-14 architrave bg-marble-navy p-9 text-center">
+        <div className="mt-14 architrave rounded-sala bg-marble-navy p-9 text-center">
           <h2 className="font-display text-3xl text-marble">
             ¿Tu pregunta no está aquí?
           </h2>
@@ -210,7 +207,7 @@ export function FaqPage() {
             href={generateDirectWhatsAppContact(settings, 'Tengo una pregunta')}
             target="_blank"
             rel="noopener noreferrer"
-            className="mt-7 inline-flex items-center gap-3 px-7 py-4 bg-marble text-obsidian text-rotulo font-bold uppercase tracking-[0.22em] hover:bg-silver transition-colors"
+            className="btn mt-7"
           >
             <MessageCircle className="w-4 h-4" />
             Preguntar por WhatsApp

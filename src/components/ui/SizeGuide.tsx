@@ -45,7 +45,7 @@ export function SizeGuide({
       onClick={onClose}
     >
       <div
-        className="w-full max-w-lg bg-basalt border border-silver/20 my-auto"
+        className="w-full max-w-lg overflow-hidden rounded-tarjeta bg-basalt border border-silver/20 my-auto"
         onClick={(e) => e.stopPropagation()}
       >
         <div className="flex items-center justify-between px-6 py-5 border-b border-white/8">
@@ -58,7 +58,7 @@ export function SizeGuide({
           <button
             onClick={onClose}
             aria-label="Cerrar"
-            className="p-2 text-secundario hover:text-marble"
+            className="w-11 h-11 flex items-center justify-center rounded-full border border-white/12 text-secundario hover:text-marble hover:border-silver/40 transition-colors"
           >
             <X className="w-5 h-5" />
           </button>

@@ -8,17 +8,17 @@
 @theme {
   /* Paleta oficial */
   --color-obsidian: #0d0d0d; /* Base absoluta */
-  --color-basalt: #1a1a1a; /* Superficies / tarjetas */
-  --color-marble-navy: #0d1b2a; /* Secciones profundas */
+  --color-basalt: #151515; /* Superficies / tarjetas */
+  --color-marble-navy: #0f1424; /* Secciones profundas */
   --color-lapis: #1e3a8a; /* Acento primario */
   --color-lapis-lit: #2b4fb8; /* Acento hover */
   /* El lapislázuli como texto o como control fino. `lapis` y `lapis-lit` son
      para rellenos: como letra sobre el negro dan 1,9 y 2,7:1 y no se leen.
-     Mismo matiz (224°), más claro: 6,2:1 sobre obsidiana, 5,5:1 sobre basalto
+     Mismo matiz (224°), más claro: 6,2:1 sobre obsidiana, 5,8:1 sobre basalto
      y el navy, 4,55:1 sobre #2a2a2a. */
   --color-lapis-texto: #738ede;
-  --color-silver: #c0c0c0; /* Metálico */
-  --color-marble: #f2f2f2; /* Texto principal */
+  --color-silver: #c8c8c8; /* Metálico */
+  --color-marble: #f2f0eb; /* Texto principal: blanco mármol, no de pantalla */
 
   /* Grises de texto. Son sólidos y no `text-marble/40` a propósito: con
      transparencia el contraste depende del fondo y por debajo de /50 quedaba
@@ -32,6 +32,14 @@
      mayúsculas con tracking amplio, de 12px. */
   --text-lectura: 0.875rem;
   --text-rotulo: 0.75rem;
+
+  /* Radios. Tres y no más: la tarjeta de un par, la foto dentro de ella
+     (más cerrada, para que el aro de 10 px se lea parejo) y los bloques
+     grandes de sala —las dos líneas, el llamado final—. Los botones, chips
+     y buscadores son píldora (`rounded-full`). */
+  --radius-foto: 1.375rem;
+  --radius-tarjeta: 1.875rem;
+  --radius-sala: 2rem;
 
   /* Tipografía */
   --font-display: 'Anton', 'Impact', sans-serif;
@@ -84,6 +92,100 @@
   :focus-visible {
     outline: 2px solid var(--color-silver);
     outline-offset: 3px;
+  }
+}
+
+/* Piezas que se repiten en todo el sitio. Van en `components` y no en
+   `utilities` para que una clase de Tailwind al lado (un padding, un ancho)
+   les gane sin pelear especificidad. */
+@layer components {
+  /* ── Botón: píldora de mármol ───────────────────────────── */
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.75rem;
+    padding: 1rem 1.875rem;
+    border-radius: 9999px;
+    border: 1px solid var(--color-marble);
+    background: var(--color-marble);
+    color: var(--color-obsidian);
+    font-size: var(--text-rotulo);
+    font-weight: 700;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    white-space: nowrap;
+    transition:
+      background-color 300ms,
+      border-color 300ms,
+      transform 300ms;
+  }
+  .btn:hover {
+    background: var(--color-silver);
+    border-color: var(--color-silver);
+  }
+  @media (hover: hover) {
+    .btn:hover {
+      transform: translateY(-2px);
+    }
+  }
+
+  /* La misma píldora, hueca: la segunda opción al lado de un `.btn`. */
+  .btn-ghost {
+    background: transparent;
+    color: var(--color-marble);
+    border-color: rgb(255 255 255 / 0.24);
+  }
+  .btn-ghost:hover {
+    background: transparent;
+    border-color: var(--color-silver);
+  }
+
+  /* ── Chip: filtro o atajo en fila ───────────────────────── */
+  .chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.625rem 1.125rem;
+    border-radius: 9999px;
+    border: 1px solid rgb(255 255 255 / 0.16);
+    color: var(--color-secundario);
+    font-size: var(--text-rotulo);
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    white-space: nowrap;
+    transition:
+      color 300ms,
+      border-color 300ms,
+      background-color 300ms;
+  }
+  .chip:hover {
+    color: var(--color-marble);
+    border-color: var(--color-silver);
+  }
+  .chip-on,
+  .chip-on:hover {
+    background: var(--color-marble);
+    border-color: var(--color-marble);
+    color: var(--color-obsidian);
+  }
+
+  /* ── Campo de texto en píldora (buscadores) ─────────────── */
+  .campo {
+    border-radius: 9999px;
+    border: 1px solid rgb(255 255 255 / 0.1);
+    background: rgb(255 255 255 / 0.05);
+    color: var(--color-marble);
+    font-size: var(--text-lectura);
+    transition: border-color 300ms;
+  }
+  .campo::placeholder {
+    color: var(--color-terciario);
+  }
+  .campo:focus {
+    outline: none;
+    border-color: rgb(200 200 200 / 0.4);
   }
 }
 
@@ -166,13 +268,15 @@
   }
 
   /* ── Columna: la unidad del catálogo ────────────────────── */
-  /* Una celda por par, separada de las demás por espacio y no por la rejilla
-     de 1 px: borde fino, esquinas rectas y sin sombra. El realce al pasar el
-     cursor ya no es de la tarjeta sino del tenis (ver SneakerColumn). */
+  /* Una tarjeta por par, separada de las demás por espacio: borde fino,
+     esquinas redondeadas y sin sombra. La foto va dentro, con su propio radio,
+     a 10 px del borde. */
   .column-card {
     position: relative;
+    padding: 0.625rem;
+    border-radius: var(--radius-tarjeta);
     background: var(--color-basalt);
-    border: 1px solid rgb(255 255 255 / 0.08);
+    border: 1px solid rgb(255 255 255 / 0.1);
     transition: transform 160ms ease-out;
 
     /* El catálogo sin filtros monta 615 columnas de una vez, y casi todas
@@ -181,10 +285,20 @@
        con Ctrl+F las sigue encontrando, a diferencia de esconderlas.
 
        El `auto` del tamaño estimado es lo que evita que la barra de scroll dé
-       saltos: los 480 px son la primera suposición y, en cuanto una columna se
-       pinta de verdad, el navegador se queda con su medida real. */
+       saltos: la medida es la primera suposición y, en cuanto una columna se
+       pinta de verdad, el navegador se queda con su medida real.
+
+       La tarjeta mide su ancho más el bloque de texto (273 px en el teléfono,
+       226 desde `sm`), así que un solo número no sirve: con 480 fijo la página
+       de Sneakers cambiaba 700 px de alto al pintarse en un teléfono. Estos
+       dos quedan a 30 px o menos de lo medido entre 360 y 1920 px de ancho. */
     content-visibility: auto;
-    contain-intrinsic-size: auto 480px;
+    contain-intrinsic-size: auto 450px;
+  }
+  @media (min-width: 40rem) {
+    .column-card {
+      contain-intrinsic-size: auto 540px;
+    }
   }
 
   /* Al tocar, la columna responde hundiéndose apenas: es la señal táctil que

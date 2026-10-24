@@ -3,6 +3,7 @@ import { ChevronLeft, ChevronRight, MapPin, X } from 'lucide-react';
 import type { Delivery } from '../../types';
 import { SmartImage } from './SmartImage';
 import { cx, formatMonthYear } from '../../lib/utils';
+import { useMovimientoReducido } from '../../hooks/useMovimientoReducido';
 
 interface DeliveryWallProps {
   deliveries: Delivery[];
@@ -10,6 +11,8 @@ interface DeliveryWallProps {
   showFilters?: boolean;
   /** Corta el muro a las N entregas más recientes. */
   limit?: number;
+  /** `arco` es la versión de la portada: una fila curva que se desliza. */
+  variante?: 'muro' | 'arco';
 }
 
 /**
@@ -21,6 +24,7 @@ export function DeliveryWall({
   deliveries,
   showFilters = true,
   limit,
+  variante = 'muro',
 }: DeliveryWallProps) {
   const [city, setCity] = useState<string>('all');
   const [openIndex, setOpenIndex] = useState<number | null>(null);
@@ -115,12 +119,8 @@ export function DeliveryWall({
         <div className="flex flex-wrap items-center gap-2">
           <button
             onClick={() => setCity('all')}
-            className={cx(
-              'px-4 py-2 text-rotulo font-semibold uppercase tracking-[0.18em] border transition-colors',
-              city === 'all'
-                ? 'bg-marble text-obsidian border-marble'
-                : 'border-white/12 text-secundario hover:text-marble hover:border-silver/40',
-            )}
+            aria-pressed={city === 'all'}
+            className={cx('chip', city === 'all' && 'chip-on')}
           >
             Todas · {deliveries.length}
           </button>
@@ -128,12 +128,8 @@ export function DeliveryWall({
             <button
               key={name}
               onClick={() => setCity(name)}
-              className={cx(
-                'px-4 py-2 text-rotulo font-semibold uppercase tracking-[0.18em] border transition-colors',
-                city === name
-                  ? 'bg-marble text-obsidian border-marble'
-                  : 'border-white/12 text-secundario hover:text-marble hover:border-silver/40',
-              )}
+              aria-pressed={city === name}
+              className={cx('chip', city === name && 'chip-on')}
             >
               {name} · {count}
             </button>
@@ -141,90 +137,96 @@ export function DeliveryWall({
         </div>
       )}
 
-      <div className="relative">
-        {/* El `py-2` da aire al salto de 6 px que `column-card` hace en hover:
-            `overflow-x-auto` obliga al eje vertical a `auto`, y sin ese espacio
-            el navegador recortaría la tarjeta o sacaría una barra de más. */}
-        <div
-          ref={trackRef}
-          onScroll={readReach}
-          role="region"
-          aria-label="Entregas a clientes"
-          className="flex gap-px overflow-x-auto snap-x snap-mandatory py-2"
-        >
-          {visible.map((delivery, i) => (
-            <button
-              key={delivery.id}
-              onClick={() => setOpenIndex(i)}
-              style={{ animationDelay: `${Math.min(i, 11) * 55}ms` }}
-              className="column-card animate-rise group text-left shrink-0 snap-start w-[68%] sm:w-[46%] lg:w-[31%] xl:w-[23.5%]"
-              aria-label={`Ver entrega en ${delivery.neighborhood || delivery.city}`}
-            >
-              <div className="relative aspect-[4/5] overflow-hidden bg-obsidian fluted">
-                <SmartImage
-                  src={delivery.image}
-                  alt={
-                    delivery.productName
-                      ? `${delivery.productName} entregado en ${delivery.city}`
-                      : `Entrega en ${delivery.city}`
-                  }
-                  sizes="(max-width: 640px) 68vw, (max-width: 1024px) 46vw, (max-width: 1280px) 31vw, 24vw"
-                  className="w-full h-full object-cover transition-transform duration-[900ms] ease-out group-hover:scale-[1.06]"
-                />
-                <div
-                  aria-hidden
-                  className="absolute inset-x-0 bottom-0 h-1/2 bg-gradient-to-t from-obsidian via-obsidian/70 to-transparent"
-                />
+      {variante === 'arco' ? (
+        <ArcoEntregas entregas={visible} onAbrir={setOpenIndex} />
+      ) : (
+        <>
+        <div className="relative">
+          {/* El `py-2` da aire al salto de 6 px que `column-card` hace en hover:
+              `overflow-x-auto` obliga al eje vertical a `auto`, y sin ese espacio
+              el navegador recortaría la tarjeta o sacaría una barra de más. */}
+          <div
+            ref={trackRef}
+            onScroll={readReach}
+            role="region"
+            aria-label="Entregas a clientes"
+            className="flex gap-4 lg:gap-6 overflow-x-auto snap-x snap-mandatory py-2"
+          >
+            {visible.map((delivery, i) => (
+              <button
+                key={delivery.id}
+                onClick={() => setOpenIndex(i)}
+                style={{ animationDelay: `${Math.min(i, 11) * 55}ms` }}
+                className="column-card animate-rise group text-left shrink-0 snap-start w-[68%] sm:w-[46%] lg:w-[31%] xl:w-[23.5%]"
+                aria-label={`Ver entrega en ${delivery.neighborhood || delivery.city}`}
+              >
+                <div className="relative aspect-[4/5] overflow-hidden rounded-foto bg-obsidian fluted">
+                  <SmartImage
+                    src={delivery.image}
+                    alt={
+                      delivery.productName
+                        ? `${delivery.productName} entregado en ${delivery.city}`
+                        : `Entrega en ${delivery.city}`
+                    }
+                    sizes="(max-width: 640px) 68vw, (max-width: 1024px) 46vw, (max-width: 1280px) 31vw, 24vw"
+                    className="w-full h-full object-cover transition-transform duration-[900ms] ease-out group-hover:scale-[1.06]"
+                  />
+                  <div
+                    aria-hidden
+                    className="absolute inset-x-0 bottom-0 h-1/2 bg-gradient-to-t from-obsidian via-obsidian/70 to-transparent"
+                  />
 
-                {/* Placa: la ubicación grabada sobre la foto */}
-                <div className="absolute inset-x-0 bottom-0 p-3.5">
-                  {!delivery.locationInImage && (
-                    <p className="flex items-center gap-1.5 text-lectura font-semibold text-marble leading-tight">
-                      <MapPin className="w-3.5 h-3.5 text-silver shrink-0" />
-                      {/* A 14px un barrio largo ya no cabe en una línea, y
-                          cortarlo con puntos suspensivos borraba el dato. */}
-                      <span className="line-clamp-2">
-                        {delivery.neighborhood
-                          ? `${delivery.neighborhood} · ${delivery.city}`
-                          : delivery.city}
-                      </span>
+                  {/* Placa: la ubicación grabada sobre la foto */}
+                  <div className="absolute inset-x-0 bottom-0 p-3.5">
+                    {!delivery.locationInImage && (
+                      <p className="flex items-center gap-1.5 text-lectura font-semibold text-marble leading-tight">
+                        <MapPin className="w-3.5 h-3.5 text-silver shrink-0" />
+                        {/* A 14px un barrio largo ya no cabe en una línea, y
+                            cortarlo con puntos suspensivos borraba el dato. */}
+                        <span className="line-clamp-2">
+                          {delivery.neighborhood
+                            ? `${delivery.neighborhood} · ${delivery.city}`
+                            : delivery.city}
+                        </span>
+                      </p>
+                    )}
+                    <p className="mt-1 text-rotulo uppercase tracking-[0.2em] text-secundario truncate">
+                      {formatMonthYear(delivery.deliveredAt)}
                     </p>
-                  )}
-                  <p className="mt-1 text-rotulo uppercase tracking-[0.2em] text-secundario truncate">
-                    {formatMonthYear(delivery.deliveredAt)}
-                  </p>
+                  </div>
                 </div>
-              </div>
-            </button>
-          ))}
+              </button>
+            ))}
+          </div>
+
+          {/* Solo si de verdad hay recorrido, y solo en escritorio: en móvil se
+              desliza con el dedo. Al llegar a un extremo la flecha se apaga en
+              lugar de desaparecer, para que la fila no se mueva de lugar. */}
+          {reach.overflows && (
+            <>
+              <button
+                onClick={() => page(-1)}
+                disabled={reach.atStart}
+                aria-label="Ver entregas anteriores"
+                className="hidden lg:flex absolute left-2 top-1/2 -translate-y-1/2 items-center justify-center w-11 h-11 rounded-full border border-white/12 bg-obsidian/85 text-marble/70 hover:text-marble hover:border-silver/40 disabled:opacity-0 disabled:pointer-events-none transition-all"
+              >
+                <ChevronLeft className="w-5 h-5" />
+              </button>
+              <button
+                onClick={() => page(1)}
+                disabled={reach.atEnd}
+                aria-label="Ver más entregas"
+                className="hidden lg:flex absolute right-2 top-1/2 -translate-y-1/2 items-center justify-center w-11 h-11 rounded-full border border-white/12 bg-obsidian/85 text-marble/70 hover:text-marble hover:border-silver/40 disabled:opacity-0 disabled:pointer-events-none transition-all"
+              >
+                <ChevronRight className="w-5 h-5" />
+              </button>
+            </>
+          )}
         </div>
 
-        {/* Solo si de verdad hay recorrido, y solo en escritorio: en móvil se
-            desliza con el dedo. Al llegar a un extremo la flecha se apaga en
-            lugar de desaparecer, para que la fila no se mueva de lugar. */}
-        {reach.overflows && (
-          <>
-            <button
-              onClick={() => page(-1)}
-              disabled={reach.atStart}
-              aria-label="Ver entregas anteriores"
-              className="hidden lg:flex absolute left-2 top-1/2 -translate-y-1/2 items-center justify-center w-11 h-11 border border-white/12 bg-obsidian/85 text-marble/70 hover:text-marble hover:border-silver/40 disabled:opacity-0 disabled:pointer-events-none transition-all"
-            >
-              <ChevronLeft className="w-5 h-5" />
-            </button>
-            <button
-              onClick={() => page(1)}
-              disabled={reach.atEnd}
-              aria-label="Ver más entregas"
-              className="hidden lg:flex absolute right-2 top-1/2 -translate-y-1/2 items-center justify-center w-11 h-11 border border-white/12 bg-obsidian/85 text-marble/70 hover:text-marble hover:border-silver/40 disabled:opacity-0 disabled:pointer-events-none transition-all"
-            >
-              <ChevronRight className="w-5 h-5" />
-            </button>
-          </>
-        )}
-      </div>
-
-      <div className="h-px stylobate" />
+        <div className="h-px stylobate" />
+        </>
+      )}
 
       {/* Visor a pantalla completa */}
       {active && (
@@ -241,7 +243,7 @@ export function DeliveryWall({
             <button
               onClick={() => setOpenIndex(null)}
               aria-label="Cerrar"
-              className="p-2 text-secundario hover:text-marble transition-colors"
+              className="w-11 h-11 flex items-center justify-center rounded-full border border-white/12 text-secundario hover:text-marble hover:border-silver/40 transition-colors"
             >
               <X className="w-5 h-5" />
             </button>
@@ -256,7 +258,7 @@ export function DeliveryWall({
                   )
                 }
                 aria-label="Entrega anterior"
-                className="hidden sm:flex items-center justify-center w-11 h-11 shrink-0 border border-white/12 text-marble/60 hover:text-marble hover:border-silver/40 transition-colors"
+                className="hidden sm:flex items-center justify-center w-11 h-11 shrink-0 rounded-full border border-white/12 text-marble/60 hover:text-marble hover:border-silver/40 transition-colors"
               >
                 <ChevronLeft className="w-5 h-5" />
               </button>
@@ -268,7 +270,7 @@ export function DeliveryWall({
                 alt={active.productName ?? `Entrega en ${active.city}`}
                 priority
                 sizes="(max-width: 1024px) 96vw, 768px"
-                className="max-h-[62vh] w-auto object-contain border border-white/8"
+                className="max-h-[62vh] w-auto object-contain rounded-foto border border-white/8"
               />
               <div className="mt-6 text-center space-y-2 max-w-md">
                 {!active.locationInImage && (
@@ -299,7 +301,7 @@ export function DeliveryWall({
                   setOpenIndex((i) => (i === null ? null : (i + 1) % visible.length))
                 }
                 aria-label="Entrega siguiente"
-                className="hidden sm:flex items-center justify-center w-11 h-11 shrink-0 border border-white/12 text-marble/60 hover:text-marble hover:border-silver/40 transition-colors"
+                className="hidden sm:flex items-center justify-center w-11 h-11 shrink-0 rounded-full border border-white/12 text-marble/60 hover:text-marble hover:border-silver/40 transition-colors"
               >
                 <ChevronRight className="w-5 h-5" />
               </button>
@@ -307,6 +309,223 @@ export function DeliveryWall({
           </div>
         </div>
       )}
+    </div>
+  );
+}
+
+/**
+ * La fila curva de la portada: la entrega del centro al frente y las de los
+ * lados bajando y girando apenas, como si estuvieran sobre un arco.
+ *
+ * El deslizamiento es el scroll nativo con `snap`, no un carrusel armado a
+ * mano: con el dedo se siente como cualquier fila del teléfono y la inercia la
+ * pone el sistema. Lo único que agrega JavaScript es la curva, que se calcula
+ * de la posición real de cada tarjeta en cada cuadro de scroll. Con movimiento
+ * reducido la curva no se aplica y queda una fila plana.
+ */
+function ArcoEntregas({
+  entregas,
+  onAbrir,
+}: {
+  entregas: Delivery[];
+  onAbrir: (indice: number) => void;
+}) {
+  const pistaRef = useRef<HTMLDivElement>(null);
+  const tarjetasRef = useRef<(HTMLButtonElement | null)[]>([]);
+  const reducido = useMovimientoReducido();
+
+  /* Se escribe el estilo directo en el nodo y no en el estado de React: esto
+     corre en cada cuadro del scroll y un render por cuadro se nota en un
+     teléfono de gama media. La transformación no mueve el centro horizontal
+     de la tarjeta, así que medirla ya curvada no altera el cálculo. */
+  const curvar = useCallback(() => {
+    const pista = pistaRef.current;
+    if (!pista) return;
+    const caja = pista.getBoundingClientRect();
+    const centro = caja.left + caja.width / 2;
+    for (const tarjeta of tarjetasRef.current) {
+      if (!tarjeta) continue;
+      if (reducido) {
+        tarjeta.style.transform = '';
+        tarjeta.style.opacity = '';
+        tarjeta.style.zIndex = '';
+        continue;
+      }
+      const r = tarjeta.getBoundingClientRect();
+      const d = (r.left + r.width / 2 - centro) / (r.width * 0.9);
+      const a = Math.abs(d);
+      const bajar = Math.min(30, a ** 1.4 * 12);
+      const escala = Math.max(0.9, 1.03 - Math.min(0.12, a * 0.07));
+      tarjeta.style.transform = `translateY(${bajar}px) rotate(${d * 4.5}deg) scale(${escala})`;
+      tarjeta.style.opacity = String(Math.max(0.75, 1 - a * 0.1));
+      tarjeta.style.zIndex = String(Math.round(50 - a * 10));
+    }
+  }, [reducido]);
+
+  /* Si la pista está en un extremo, para apagar la flecha de ese lado. Con
+     el relleno lateral, scroll 0 es justo la primera entrega al centro. El
+     margen de 4 px absorbe los redondeos del navegador, como en el muro. */
+  const [enInicio, setEnInicio] = useState(true);
+  const [enFin, setEnFin] = useState(false);
+
+  useEffect(() => {
+    const pista = pistaRef.current;
+    if (!pista) return;
+    let cuadro = 0;
+    const pedir = () => {
+      cancelAnimationFrame(cuadro);
+      cuadro = requestAnimationFrame(() => {
+        curvar();
+        const max = pista.scrollWidth - pista.clientWidth;
+        setEnInicio(pista.scrollLeft <= 4);
+        /* En escritorio (sin relleno) el final es la última tarjeta contra el
+           borde derecho, no el tope del scroll: la última va girada y su caja
+           girada alarga el recorrido unos 12 px que el imán no deja usar. */
+        const ultima = tarjetasRef.current[entregas.length - 1];
+        const sinRelleno = parseFloat(getComputedStyle(pista).paddingLeft) === 0;
+        const ultimaContraElBorde =
+          sinRelleno &&
+          !!ultima &&
+          ultima.offsetLeft + ultima.offsetWidth - pista.scrollLeft <= pista.clientWidth + 4;
+        setEnFin(pista.scrollLeft >= max - 4 || ultimaContraElBorde);
+      });
+    };
+    pista.addEventListener('scroll', pedir, { passive: true });
+    const observador = new ResizeObserver(pedir);
+    observador.observe(pista);
+    return () => {
+      cancelAnimationFrame(cuadro);
+      pista.removeEventListener('scroll', pedir);
+      observador.disconnect();
+    };
+  }, [curvar, entregas.length]);
+
+  const desplazar = (izquierda: number) =>
+    pistaRef.current?.scrollBy({
+      left: izquierda,
+      behavior: reducido ? 'auto' : 'smooth',
+    });
+
+  /* Una tarjeta de lado primero se trae al centro; solo la del centro abre el
+     visor. Así un toque para acercar la siguiente no tapa la pantalla. */
+  const tocar = (indice: number) => {
+    const pista = pistaRef.current;
+    const tarjeta = tarjetasRef.current[indice];
+    if (!pista || !tarjeta) return;
+    const caja = pista.getBoundingClientRect();
+    const r = tarjeta.getBoundingClientRect();
+    const corrimiento = r.left + r.width / 2 - (caja.left + caja.width / 2);
+    if (Math.abs(corrimiento) > r.width / 3) desplazar(corrimiento);
+    else onAbrir(indice);
+  };
+
+  const paso = () => (tarjetasRef.current[0]?.offsetWidth ?? 280) + 18;
+
+  return (
+    <div className="relative -mx-5 lg:mx-0">
+      {entregas.length > 1 && (
+        <>
+          {/* `aria-disabled` y no `disabled`: un botón deshabilitado suelta el
+              foco al apagarse, y quien avanza con el teclado se quedaría sin
+              foco justo al llegar a la primera entrega. */}
+          <button
+            type="button"
+            onClick={() => !enInicio && desplazar(-paso())}
+            aria-label="Entrega anterior"
+            aria-disabled={enInicio}
+            className="hidden sm:flex absolute left-5 top-1/2 -translate-y-1/2 z-[60] w-11 h-11 items-center justify-center rounded-full border border-white/20 bg-obsidian/85 backdrop-blur text-marble hover:bg-marble hover:text-obsidian transition-colors aria-disabled:opacity-30 aria-disabled:cursor-default aria-disabled:hover:bg-obsidian/85 aria-disabled:hover:text-marble"
+          >
+            <ChevronLeft className="w-5 h-5" />
+          </button>
+          <button
+            type="button"
+            onClick={() => !enFin && desplazar(paso())}
+            aria-label="Entrega siguiente"
+            aria-disabled={enFin}
+            className="hidden sm:flex absolute right-5 top-1/2 -translate-y-1/2 z-[60] w-11 h-11 items-center justify-center rounded-full border border-white/20 bg-obsidian/85 backdrop-blur text-marble hover:bg-marble hover:text-obsidian transition-colors aria-disabled:opacity-30 aria-disabled:cursor-default aria-disabled:hover:bg-obsidian/85 aria-disabled:hover:text-marble"
+          >
+            <ChevronRight className="w-5 h-5" />
+          </button>
+        </>
+      )}
+
+      {/* En el teléfono y la tableta, un relleno lateral de media pista menos
+          media tarjeta deja a la primera y a la última llegar al centro: ahí
+          una tarjeta es casi toda la pantalla y es la que se tiene que ver.
+
+          En escritorio no lleva relleno: con él, la primera entrega al centro
+          dejaba 530 px vacíos a su izquierda. Sin él la pista arranca con la
+          primera tarjeta contra el borde izquierdo del contenedor y termina con
+          la última contra el derecho. La primera y la última se alinean por
+          su borde (`snap-start`, `snap-end`) y no por el centro: el imán usa
+          la caja sin girar, y así la última queda exacta contra el borde
+          aunque su giro alargue el scroll unos píxeles.
+
+          La máscara desvanece solo el lado donde todavía hay más tarjetas: en
+          un extremo la tarjeta está entera contra el borde y desvanecerla
+          sería esconder la primera o la última. */}
+      <div
+        ref={pistaRef}
+        role="region"
+        aria-label="Entregas a clientes"
+        className={cx(
+          'flex items-center gap-4.5 overflow-x-auto snap-x snap-mandatory no-scrollbar py-10 px-[calc(50%-120px)] sm:px-[calc(50%-140px)] lg:px-0',
+          !enInicio && !enFin && '[mask-image:linear-gradient(90deg,transparent,#000_6%,#000_94%,transparent)]',
+          enInicio && !enFin && '[mask-image:linear-gradient(90deg,#000_94%,transparent)]',
+          !enInicio && enFin && '[mask-image:linear-gradient(90deg,transparent,#000_6%)]',
+        )}
+      >
+        {entregas.map((entrega, i) => (
+          <button
+            key={entrega.id}
+            ref={(nodo) => {
+              tarjetasRef.current[i] = nodo;
+            }}
+            type="button"
+            onClick={() => tocar(i)}
+            aria-label={`Ver entrega en ${entrega.neighborhood || entrega.city}`}
+            className="relative shrink-0 snap-center lg:first:snap-start lg:last:snap-end w-60 h-85 sm:w-70 sm:h-95 overflow-hidden rounded-tarjeta border border-white/14 bg-basalt text-left will-change-transform"
+          >
+            <SmartImage
+              src={entrega.image}
+              alt={
+                entrega.productName
+                  ? `${entrega.productName} entregado en ${entrega.city}`
+                  : `Entrega en ${entrega.city}`
+              }
+              sizes="(max-width: 640px) 240px, 280px"
+              className="w-full h-full object-cover"
+            />
+            <span className="absolute top-4 left-4 px-3.5 py-1.5 rounded-full border border-white/14 bg-obsidian/75 backdrop-blur text-rotulo font-semibold uppercase tracking-[0.12em] text-silver">
+              {formatMonthYear(entrega.deliveredAt)}
+            </span>
+            <div
+              aria-hidden
+              className="absolute inset-x-0 bottom-0 h-3/5 bg-gradient-to-t from-obsidian via-obsidian/80 to-transparent"
+            />
+            <div className="absolute inset-x-5 bottom-5">
+              {!entrega.locationInImage && (
+                <>
+                  <span className="inline-block mb-2 px-2.5 py-1 rounded-full bg-marble text-obsidian text-rotulo font-bold uppercase tracking-[0.12em]">
+                    {entrega.city}
+                  </span>
+                  {entrega.neighborhood && (
+                    <p className="flex items-center gap-2 text-[15px] font-bold leading-tight text-marble">
+                      <MapPin className="w-3.5 h-3.5 text-silver shrink-0" />
+                      <span className="line-clamp-2">{entrega.neighborhood}</span>
+                    </p>
+                  )}
+                </>
+              )}
+              {entrega.productName && (
+                <p className="mt-1.5 text-lectura text-secundario truncate">
+                  {entrega.productName}
+                </p>
+              )}
+            </div>
+          </button>
+        ))}
+      </div>
     </div>
   );
 }
@@ -322,7 +541,7 @@ export function DeliveryLedger({ deliveries }: { deliveries: Delivery[] }) {
   if (!cities.length) return null;
 
   return (
-    <ul className="grid grid-cols-2 sm:grid-cols-4 gap-px bg-white/8 border border-white/8">
+    <ul className="grid grid-cols-2 sm:grid-cols-4 gap-px overflow-hidden rounded-tarjeta bg-white/8 border border-white/8">
       {cities.map(([name, count]) => (
         <li key={name} className="bg-basalt px-5 py-4">
           <p className="text-rotulo uppercase tracking-[0.2em] text-terciario truncate">

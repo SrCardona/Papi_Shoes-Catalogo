@@ -1,4 +1,17 @@
 import type { Sneaker, StoreSettings } from '../types';
+import { FONDOS_FOTOS } from '../data/fondosFotos';
+
+/* ── Fondo de la celda de una foto ──────────────────────────────────────── */
+
+/**
+ * El color de los bordes de la foto, para pintar la celda cuadrada donde se
+ * muestra entera y que no queden franjas. Lo calcula `npm run catalogo`; una
+ * foto que no está en la lista (escena, ambiente, o subida desde el panel)
+ * devuelve `undefined` y la celda conserva el fondo oscuro de la tarjeta.
+ */
+export function fondoDeFoto(src: string | undefined): string | undefined {
+  return src ? FONDOS_FOTOS[src] : undefined;
+}
 
 /* ── Precio ─────────────────────────────────────────────────────────────── */
 
@@ -31,7 +44,46 @@ export function discountPercent(sneaker: Sneaker): number | null {
    devolvían siempre el mismo enlace fijo, así que el cliente llegaba al chat
    sin decir qué par quería. Ahora la plantilla se interpola de verdad.      */
 
-const TEMPLATE_VARS = ['{modelo}', '{talla}', '{precio}', '{categoria}'] as const;
+const TEMPLATE_VARS = [
+  '{modelo}',
+  '{talla}',
+  '{precio}',
+  '{categoria}',
+  '{colorway}',
+  '{referencia}',
+  '{enlace}',
+] as const;
+
+/**
+ * El dominio público del sitio, el mismo de las fichas estáticas
+ * (`SITIO` en `scripts/generar-fichas.mjs`). El enlace del par en el mensaje
+ * apunta aquí y no a `location.origin`: abierto desde una vista previa o desde
+ * `npm run dev`, el cliente recibiría una dirección que no puede abrir.
+ */
+export const SITIO_PUBLICO = 'https://www.papishoes.shop';
+
+export function enlaceDelPar(sneaker: Sneaker): string {
+  return `${SITIO_PUBLICO}/producto/${encodeURIComponent(sneaker.id)}`;
+}
+
+/**
+ * Lo que identifica el par sin ambigüedad: color, referencia y enlace. El
+ * nombre no basta —"Louis Vuitton Skate Cuero" son tres colores—, y el enlace
+ * además hace que WhatsApp muestre la ficha con su foto.
+ *
+ * Solo se agrega lo que la plantilla no trae: la plantilla vive en los ajustes
+ * de la nube y puede ser una versión vieja, sin las variables nuevas. Así el
+ * dato llega igual, y quien la edite y las ponga no lo ve repetido.
+ */
+function fichaDelPar(sneaker: Sneaker, plantilla: string): string {
+  const colorway = sneaker.details.colorway.trim();
+  const lineas = [
+    colorway && !plantilla.includes('{colorway}') ? `Color: ${colorway}` : '',
+    sneaker.sku && !plantilla.includes('{referencia}') ? `Ref.: ${sneaker.sku}` : '',
+    !plantilla.includes('{enlace}') ? enlaceDelPar(sneaker) : '',
+  ].filter(Boolean);
+  return lineas.length ? `\n\n${lineas.join('\n')}` : '';
+}
 
 /**
  * Enlace a wa.me con el número reducido a dígitos y el mensaje ya codificado.
@@ -60,24 +112,34 @@ export function generateWhatsAppLink(
     '{talla}': size,
     '{precio}': formatPrice(sneaker.price, settings.currency, settings.currencySymbol),
     '{categoria}': category,
+    '{colorway}': sneaker.details.colorway.trim() || 'por confirmar',
+    '{referencia}': sneaker.sku,
+    '{enlace}': enlaceDelPar(sneaker),
   };
 
+  const plantilla = settings.whatsappMessageTemplate;
   const message = TEMPLATE_VARS.reduce(
     (text, key) => text.split(key).join(values[key]),
-    settings.whatsappMessageTemplate,
+    plantilla,
   );
 
-  return waHref(settings.whatsappNumber, message);
+  return waHref(settings.whatsappNumber, message + fichaDelPar(sneaker, plantilla));
 }
 
+/**
+ * Mensaje libre, sin la plantilla de producto. Con `par`, el mensaje lleva
+ * también su color, referencia y enlace: es el caso de "Avísame cuando
+ * vuelva", que habla de un par concreto.
+ */
 export function generateDirectWhatsAppContact(
   settings: StoreSettings,
   topic?: string,
+  par?: Sneaker,
 ): string {
   const message = topic
     ? `¡Hola ${settings.storeName}! 👋 Quiero consultar sobre: ${topic}`
     : `¡Hola ${settings.storeName}! 👋 Quiero información sobre el catálogo.`;
-  return waHref(settings.whatsappNumber, message);
+  return waHref(settings.whatsappNumber, message + (par ? fichaDelPar(par, '') : ''));
 }
 
 /* ── Redes ──────────────────────────────────────────────────────────────── */

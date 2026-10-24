@@ -19,13 +19,13 @@ export function Footer() {
       {/* Friso de valores — los cinco pilares del manual */}
       <div className="border-b border-white/8">
         <div className="max-w-[1400px] mx-auto px-5 lg:px-8">
-          <ul className="grid grid-cols-2 md:grid-cols-5 divide-x divide-white/8">
+          <ul className="flex flex-wrap justify-center gap-x-10 gap-y-3 py-6">
             {BRAND_PILLARS.map((pillar) => (
-              <li key={pillar.id} className="py-6 px-4 text-center">
+              <li key={pillar.id} className="text-center">
                 {/* Las mismas letras que `eyebrow`, con menos tracking: en una celda
                     angosta "Global Sneaker Culture" se partía en tres líneas,
                     y `.eyebrow` le gana a cualquier clase de tracking. */}
-                <span className="block text-rotulo font-semibold uppercase tracking-[0.16em] sm:tracking-[0.24em] text-silver/80">
+                <span className="block text-rotulo font-semibold uppercase tracking-[0.16em] sm:tracking-[0.24em] text-silver">
                   {pillar.title}
                 </span>
               </li>
@@ -39,9 +39,9 @@ export function Footer() {
           {/* Marca */}
           <div className="lg:col-span-5 space-y-5">
             <div className="flex items-center gap-4">
-              <TempleMark className="w-12 h-12" title={settings.storeName} />
+              <TempleMark className="w-[52px] h-[52px]" title={settings.storeName} />
               <div className="leading-none">
-                <p className="font-display text-engraved text-2xl">
+                <p className="font-display text-engraved text-[32px]">
                   {settings.storeName}
                 </p>
                 {settings.tagline && (
@@ -61,7 +61,7 @@ export function Footer() {
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label={`${settings.storeName} en Instagram`}
-                  className="w-10 h-10 border border-white/12 flex items-center justify-center text-marble/50 hover:text-marble hover:border-silver/40 transition-colors"
+                  className="w-11 h-11 rounded-full border border-white/16 flex items-center justify-center text-secundario hover:text-marble hover:border-silver/40 transition-colors"
                 >
                   <Instagram className="w-4 h-4" />
                 </a>
@@ -71,7 +71,7 @@ export function Footer() {
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="TikTok"
-                className="w-10 h-10 border border-white/12 flex items-center justify-center text-marble/50 hover:text-marble hover:border-silver/40 transition-colors"
+                className="w-11 h-11 rounded-full border border-white/16 flex items-center justify-center text-secundario hover:text-marble hover:border-silver/40 transition-colors"
               >
                 <Music2 className="w-4 h-4" />
               </a>
@@ -115,7 +115,7 @@ export function Footer() {
               href={generateDirectWhatsAppContact(settings)}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2.5 px-5 py-3.5 bg-marble text-obsidian text-lectura font-bold tracking-[0.12em] hover:bg-silver transition-colors"
+              className="btn gap-2.5 text-lectura tracking-[0.1em]"
             >
               <MessageCircle className="w-4 h-4" />
               {formatPhoneDisplay(settings.whatsappNumber)}

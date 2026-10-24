@@ -17,14 +17,20 @@ import { SmartImage } from '../components/ui/SmartImage';
 import { SizeGuide } from '../components/ui/SizeGuide';
 import { Colonnade } from '../components/ui/SneakerColumn';
 import { SectionHeader } from '../components/ui/SectionHeader';
+import { NO_ES_MARCA } from '../lib/marcas';
 import {
   cx,
   discountPercent,
+  fondoDeFoto,
   formatPrice,
   generateDirectWhatsAppContact,
   generateWhatsAppLink,
   instagramUrl,
 } from '../lib/utils';
+
+/* Compartido por la foto grande y su fondo difuminado: con el mismo `sizes`
+   el navegador escoge el mismo ancho y el fondo no descarga nada. */
+const TAMANOS_GALERIA = '(max-width: 1024px) 100vw, 640px';
 
 /**
  * Al pasar de un producto a otro hay que reiniciar la foto y la talla elegidas.
@@ -74,17 +80,14 @@ function ProductView({ id }: { id?: string }) {
           catálogo completo o pídelo bajo encargo.
         </p>
         <div className="flex flex-wrap justify-center gap-3 pt-1">
-          <button
-            onClick={() => navigate('/catalogo')}
-            className="px-6 py-3.5 bg-marble text-obsidian text-rotulo font-bold uppercase tracking-[0.22em] hover:bg-silver transition-colors"
-          >
+          <button onClick={() => navigate('/catalogo')} className="btn">
             Ver catálogo
           </button>
           <a
             href={generateDirectWhatsAppContact(settings, 'Un par que ya no aparece en el sitio')}
             target="_blank"
             rel="noopener noreferrer"
-            className="px-6 py-3.5 border border-white/15 text-marble/70 text-rotulo font-bold uppercase tracking-[0.22em] hover:text-marble transition-colors"
+            className="btn btn-ghost"
           >
             Preguntar
           </a>
@@ -94,6 +97,8 @@ function ProductView({ id }: { id?: string }) {
   }
 
   const discount = discountPercent(sneaker);
+  const fondoFoto = fondoDeFoto(sneaker.images[imageIndex]);
+  const esOtras = sneaker.brand === NO_ES_MARCA;
   const isOriginal = sneaker.category === 'originales';
   const isSoldOut = sneaker.status === 'agotado';
 
@@ -131,7 +136,10 @@ function ProductView({ id }: { id?: string }) {
             {isOriginal ? 'Originales' : 'Sneakers'}
           </Link>
           <span>/</span>
-          <span className="text-secundario truncate max-w-[45vw]">{sneaker.brand}</span>
+          {/* Para las marcas sueltas, el nombre del grupo como lo dice el menú. */}
+          <span className="text-secundario truncate max-w-[45vw]">
+            {esOtras ? 'Otras marcas' : sneaker.brand}
+          </span>
         </div>
       </nav>
 
@@ -145,16 +153,31 @@ function ProductView({ id }: { id?: string }) {
                 decide la compra y el catálogo trae fotos muy apaisadas —hay de
                 430x211, que en un cuadro cuadrado perdían la mitad—. El marco
                 sigue siendo cuadrado para que la página no salte al cambiar de
-                foto, y lo que sobra queda sobre el estriado, como el paspartú
-                de un cuadro. En la rejilla se siguen recortando a propósito:
-                ahí lo que importa es que la columnata quede pareja. */}
-            <div className="relative aspect-square bg-basalt fluted overflow-hidden border border-white/8">
+                foto. Lo que sobra se llena igual que en la tarjeta del
+                catálogo: con el color de los bordes de la foto si lo tiene, o
+                con la misma foto difuminada si es una escena. */}
+            <div
+              className="relative aspect-square overflow-hidden rounded-tarjeta border border-white/8 bg-basalt"
+              style={fondoFoto ? { background: fondoFoto } : undefined}
+            >
+              {!fondoFoto && (
+                <div aria-hidden className="absolute inset-0 scale-125 blur-2xl brightness-[0.45]">
+                  {/* Mismo `src` y `sizes` que la foto de encima: sale de la caché. */}
+                  <SmartImage
+                    src={sneaker.images[imageIndex]}
+                    alt=""
+                    priority
+                    sizes={TAMANOS_GALERIA}
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+              )}
               <SmartImage
                 src={sneaker.images[imageIndex]}
                 alt={`${sneaker.name} — vista ${imageIndex + 1}`}
                 priority
-                sizes="(max-width: 1024px) 100vw, 640px"
-                className="w-full h-full object-contain"
+                sizes={TAMANOS_GALERIA}
+                className="relative w-full h-full object-contain"
               />
 
               {sneaker.images.length > 1 && (
@@ -166,7 +189,7 @@ function ProductView({ id }: { id?: string }) {
                       )
                     }
                     aria-label="Foto anterior"
-                    className="absolute left-3 top-1/2 -translate-y-1/2 w-11 h-11 bg-obsidian/75 hover:bg-obsidian text-marble flex items-center justify-center transition-colors"
+                    className="absolute left-3 top-1/2 -translate-y-1/2 w-11 h-11 rounded-full border border-white/20 bg-obsidian/85 backdrop-blur text-marble hover:bg-marble hover:text-obsidian flex items-center justify-center transition-colors"
                   >
                     <ChevronLeft className="w-4 h-4" />
                   </button>
@@ -175,21 +198,21 @@ function ProductView({ id }: { id?: string }) {
                       setImageIndex((i) => (i + 1) % sneaker.images.length)
                     }
                     aria-label="Foto siguiente"
-                    className="absolute right-3 top-1/2 -translate-y-1/2 w-11 h-11 bg-obsidian/75 hover:bg-obsidian text-marble flex items-center justify-center transition-colors"
+                    className="absolute right-3 top-1/2 -translate-y-1/2 w-11 h-11 rounded-full border border-white/20 bg-obsidian/85 backdrop-blur text-marble hover:bg-marble hover:text-obsidian flex items-center justify-center transition-colors"
                   >
                     <ChevronRight className="w-4 h-4" />
                   </button>
 
                   {/* En el teléfono las flechas quedan sobre la foto y no se
                       ve cuántas hay: el contador lo dice sin ocupar sitio. */}
-                  <span className="sm:hidden absolute bottom-3 right-3 bg-obsidian/80 px-2 py-1 text-rotulo tabular-nums text-marble/80">
+                  <span className="sm:hidden absolute bottom-3 right-3 rounded-full bg-obsidian/80 px-3 py-1 text-rotulo tabular-nums text-marble/80">
                     {imageIndex + 1} / {sneaker.images.length}
                   </span>
                 </>
               )}
 
               {discount && (
-                <span className="absolute top-4 left-4 bg-lapis text-marble text-rotulo font-bold uppercase tracking-[0.16em] px-2.5 py-1.5">
+                <span className="absolute top-4 left-4 rounded-full bg-lapis text-marble text-rotulo font-bold uppercase tracking-[0.16em] px-3 py-1.5">
                   −{discount}%
                 </span>
               )}
@@ -205,7 +228,7 @@ function ProductView({ id }: { id?: string }) {
                     onClick={() => setImageIndex(i)}
                     aria-label={`Ver foto ${i + 1}`}
                     className={cx(
-                      'aspect-square overflow-hidden border transition-colors',
+                      'aspect-square overflow-hidden rounded-foto border transition-colors',
                       i === imageIndex
                         ? 'border-silver'
                         : 'border-white/8 hover:border-white/25',
@@ -249,9 +272,13 @@ function ProductView({ id }: { id?: string }) {
                 </button>
               </div>
 
-              <p className="text-rotulo uppercase tracking-[0.24em] text-terciario">
-                {sneaker.brand}
-              </p>
+              {/* "Otras" es la etiqueta del generador, no una marca: la real ya
+                  va en el nombre del par. Igual que en la tarjeta, no se pinta. */}
+              {!esOtras && (
+                <p className="text-rotulo uppercase tracking-[0.24em] text-terciario">
+                  {sneaker.brand}
+                </p>
+              )}
               <h1 className="font-display text-4xl sm:text-5xl text-marble leading-[0.92] normal-case">
                 {sneaker.name}
               </h1>
@@ -297,8 +324,9 @@ function ProductView({ id }: { id?: string }) {
                     key={String(size)}
                     onClick={() => setSelectedSize(size)}
                     disabled={isSoldOut}
+                    aria-pressed={selectedSize === size}
                     className={cx(
-                      'w-14 h-12 text-lectura font-semibold border transition-all disabled:opacity-30 disabled:cursor-not-allowed',
+                      'min-w-14 h-12 px-4 rounded-full text-lectura font-semibold border transition-all disabled:opacity-30 disabled:cursor-not-allowed',
                       selectedSize === size
                         ? 'bg-marble text-obsidian border-marble'
                         : 'border-white/14 text-secundario hover:border-silver/50 hover:text-marble',
@@ -323,10 +351,11 @@ function ProductView({ id }: { id?: string }) {
                   href={generateDirectWhatsAppContact(
                     settings,
                     `Reposición de ${sneaker.name}`,
+                    sneaker,
                   )}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center justify-center gap-3 w-full py-5 border border-white/18 text-marble/70 text-rotulo font-bold uppercase tracking-[0.22em] hover:text-marble hover:border-silver/45 transition-colors"
+                  className="btn btn-ghost w-full py-5"
                 >
                   <MessageCircle className="w-4 h-4" />
                   Avísame cuando vuelva
@@ -336,7 +365,7 @@ function ProductView({ id }: { id?: string }) {
                   href={generateWhatsAppLink(sneaker, selectedSize, settings)}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center justify-center gap-3 w-full py-5 bg-marble text-obsidian text-rotulo font-bold uppercase tracking-[0.22em] hover:bg-silver transition-colors"
+                  className="btn w-full py-5"
                 >
                   <MessageCircle className="w-4 h-4" />
                   {sneaker.status === 'bajo_encargo'
@@ -360,7 +389,7 @@ function ProductView({ id }: { id?: string }) {
                 </a>
               )}
 
-              <div className="grid grid-cols-3 gap-px bg-white/8 border border-white/8">
+              <div className="grid grid-cols-3 gap-px overflow-hidden rounded-tarjeta bg-white/8 border border-white/8">
                 {[
                   { Icon: ShieldCheck, label: isOriginal ? 'Legit check' : 'Revisado' },
                   { Icon: Truck, label: 'Envío nacional' },
@@ -382,7 +411,7 @@ function ProductView({ id }: { id?: string }) {
             {/* Descripción */}
             {sneaker.description && (
               <div className="space-y-3 pt-2">
-                <h2 className="text-rotulo font-semibold uppercase tracking-[0.22em] text-secundario">
+                <h2 className="font-body text-rotulo font-semibold uppercase tracking-[0.22em] text-secundario">
                   Sobre este par
                 </h2>
                 <p className="text-lectura leading-relaxed text-secundario">
@@ -424,7 +453,7 @@ function ProductView({ id }: { id?: string }) {
             {/* Qué incluye */}
             {sneaker.details.includedItems.length > 0 && (
               <div className="space-y-3">
-                <h2 className="text-rotulo font-semibold uppercase tracking-[0.22em] text-secundario">
+                <h2 className="font-body text-rotulo font-semibold uppercase tracking-[0.22em] text-secundario">
                   Incluye
                 </h2>
                 <ul className="space-y-2">
@@ -474,15 +503,27 @@ function ProductView({ id }: { id?: string }) {
           La ficha es larga y el botón de WhatsApp queda arriba: después de
           leer la descripción hay que devolverse a buscarlo. Esta barra lo
           mantiene a mano con el precio al lado, y ocupa el lugar del botón
-          flotante, que en esta vista se retira para no repetir la acción. */}
+          flotante, que en esta vista se retira para no repetir la acción.
+
+          Lleva también el nombre del par: en el teléfono la galería ocupa la
+          primera pantalla y el título cae debajo de esta misma barra (en un
+          Pixel 7 quedaban 45 px tapados; en un iPhone SE, toda la cabecera).
+          Achicar la galería solo lo arreglaba en un modelo de teléfono; aquí
+          se ve en todos. Una línea, con puntos suspensivos si no cabe, y el
+          botón de ancho fijo para dejarle al nombre todo el espacio. */}
       <div className="sm:hidden fixed inset-x-0 bottom-0 z-40 border-t border-silver/20 bg-obsidian/95 backdrop-blur-lg">
         <div className="flex items-center gap-3 px-4 pt-3 pb-safe">
-          <div className="min-w-0 leading-none">
-            <p className="font-display text-xl text-marble">
-              {formatPrice(sneaker.price, settings.currency, settings.currencySymbol)}
+          <div className="flex-1 min-w-0">
+            <p className="text-lectura font-semibold leading-tight text-marble truncate">
+              {sneaker.name}
             </p>
-            <p className="mt-1 text-rotulo uppercase tracking-[0.16em] text-terciario truncate">
-              {selectedSize ? `Talla ${selectedSize}` : 'Elige tu talla'}
+            <p className="mt-1 flex items-baseline gap-2 whitespace-nowrap leading-none">
+              <span className="font-display text-xl text-marble">
+                {formatPrice(sneaker.price, settings.currency, settings.currencySymbol)}
+              </span>
+              <span className="text-rotulo uppercase tracking-[0.16em] text-terciario truncate">
+                {selectedSize ? `Talla ${selectedSize}` : 'Elige tu talla'}
+              </span>
             </p>
           </div>
 
@@ -492,17 +533,13 @@ function ProductView({ id }: { id?: string }) {
                 ? generateDirectWhatsAppContact(
                     settings,
                     `Reposición de ${sneaker.name}`,
+                    sneaker,
                   )
                 : generateWhatsAppLink(sneaker, selectedSize, settings)
             }
             target="_blank"
             rel="noopener noreferrer"
-            className={cx(
-              'flex flex-1 items-center justify-center gap-2 py-4 text-rotulo font-bold uppercase tracking-[0.18em] transition-colors',
-              isSoldOut
-                ? 'border border-white/20 text-marble/70'
-                : 'bg-marble text-obsidian',
-            )}
+            className={cx('btn shrink-0 gap-2 px-6 py-4 tracking-[0.18em]', isSoldOut && 'btn-ghost')}
           >
             <MessageCircle className="w-4 h-4 shrink-0" />
             {isSoldOut ? 'Avísame' : 'Pedir'}

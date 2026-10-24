@@ -79,7 +79,7 @@ export function AboutPage() {
           className="mb-14"
         />
 
-        <ol className="grid sm:grid-cols-2 lg:grid-cols-4 gap-px bg-white/8 border border-white/8">
+        <ol className="grid sm:grid-cols-2 lg:grid-cols-4 gap-px overflow-hidden rounded-tarjeta bg-white/8 border border-white/8">
           {VERIFICATION_STEPS.map((step, i) => (
             <li key={step.title} className="bg-basalt p-7 space-y-4">
               <span className="block font-display text-3xl text-terciario tabular-nums">
@@ -134,7 +134,7 @@ export function AboutPage() {
             align="center"
             className="mb-14"
           />
-          <div className="grid sm:grid-cols-2 lg:grid-cols-5 gap-px bg-white/8 border border-white/8">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-5 gap-px overflow-hidden rounded-tarjeta bg-white/8 border border-white/8">
             {BRAND_PILLARS.map((pillar) => (
               <div key={pillar.id} className="bg-obsidian p-7 space-y-4">
                 <TempleMark variant="line" className="w-6 h-6 text-silver/40" />
@@ -156,10 +156,7 @@ export function AboutPage() {
           Sneakers que hablan por ti
         </h2>
         <div className="mt-9 flex flex-col sm:flex-row items-center justify-center gap-3">
-          <Link
-            to="/catalogo"
-            className="group flex items-center gap-3 px-8 py-4 bg-marble text-obsidian text-rotulo font-bold uppercase tracking-[0.22em] hover:bg-silver transition-colors"
-          >
+          <Link to="/catalogo" className="btn group">
             Ver el catálogo
             <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
           </Link>
@@ -167,7 +164,7 @@ export function AboutPage() {
             href={generateDirectWhatsAppContact(settings, 'Asesoría personalizada')}
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center gap-3 px-8 py-4 border border-white/18 text-marble/75 text-rotulo font-bold uppercase tracking-[0.22em] hover:text-marble hover:border-silver/45 transition-colors"
+            className="btn btn-ghost"
           >
             <MessageCircle className="w-4 h-4" />
             Hablar con un asesor

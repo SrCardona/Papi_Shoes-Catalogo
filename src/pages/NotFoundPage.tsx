@@ -16,16 +16,10 @@ export function NotFoundPage() {
         </p>
       </div>
       <div className="flex flex-wrap justify-center gap-3">
-        <Link
-          to="/"
-          className="px-7 py-3.5 bg-marble text-obsidian text-rotulo font-bold uppercase tracking-[0.22em] hover:bg-silver transition-colors"
-        >
+        <Link to="/" className="btn">
           Ir a la entrada
         </Link>
-        <Link
-          to="/catalogo"
-          className="px-7 py-3.5 border border-white/15 text-marble/70 text-rotulo font-bold uppercase tracking-[0.22em] hover:text-marble hover:border-silver/40 transition-colors"
-        >
+        <Link to="/catalogo" className="btn btn-ghost">
           Ver catálogo
         </Link>
       </div>

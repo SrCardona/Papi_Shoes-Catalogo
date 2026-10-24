@@ -5,6 +5,7 @@ import { useStore } from '../context/StoreContext';
 import { SmartImage } from '../components/ui/SmartImage';
 import { sanitizeImageUrl, uuid } from '../lib/security';
 import { convertFileToBase64, cx } from '../lib/utils';
+import { parConReferencia, referenciaLibre } from '../lib/referencias';
 
 const BRANDS: SneakerBrand[] = [
   'Jordan',
@@ -60,7 +61,7 @@ interface SneakerFormProps {
 }
 
 export function SneakerForm({ editing, onDone }: SneakerFormProps) {
-  const { upsertSneaker, removeSneaker } = useStore();
+  const { upsertSneaker, removeSneaker, sneakers } = useStore();
   const [form, setForm] = useState<Partial<Sneaker>>(editing ?? blank());
   const [imageUrl, setImageUrl] = useState('');
   const [uploadError, setUploadError] = useState<string | null>(null);
@@ -106,8 +107,17 @@ export function SneakerForm({ editing, onDone }: SneakerFormProps) {
     });
   };
 
+  /* Una referencia repetida no se guarda: el aviso sale bajo el campo y el
+     botón queda apagado hasta cambiarla o dejarla vacía. */
+  const skuEscrito = form.sku?.trim() ?? '';
+  const skuOcupadoPor = parConReferencia(sneakers, skuEscrito, editing?.id);
+
   const submit = (e: React.FormEvent) => {
     e.preventDefault();
+    if (skuOcupadoPor) {
+      document.getElementById('f-sku')?.focus();
+      return;
+    }
     const now = new Date().toISOString();
     const isOriginal = form.category === 'originales';
 
@@ -116,7 +126,7 @@ export function SneakerForm({ editing, onDone }: SneakerFormProps) {
       name: form.name!.trim(),
       brand: form.brand ?? 'Otras',
       model: form.model?.trim() || form.name!.trim(),
-      sku: form.sku?.trim() || `PAPI-${Math.floor(1000 + Math.random() * 9000)}`,
+      sku: form.sku?.trim() || referenciaLibre(sneakers),
       category: form.category ?? 'general',
       gender: form.gender ?? 'unisex',
       price: Number(form.price) || 0,
@@ -197,9 +207,18 @@ export function SneakerForm({ editing, onDone }: SneakerFormProps) {
             id="f-sku"
             value={form.sku ?? ''}
             onChange={(e) => patch({ sku: e.target.value })}
-            placeholder="DZ5485-400"
-            className={cx(field, 'font-mono')}
+            placeholder="Vacío: se asigna una libre"
+            aria-invalid={!!skuOcupadoPor}
+            aria-describedby={skuOcupadoPor ? 'f-sku-error' : undefined}
+            className={cx(field, 'font-mono', skuOcupadoPor && 'border-red-400/70')}
           />
+          {skuOcupadoPor && (
+            <p id="f-sku-error" role="alert" className="mt-1.5 text-[11.5px] leading-snug text-red-300">
+              La referencia {skuEscrito} ya la usa «{skuOcupadoPor.name}
+              {skuOcupadoPor.details.colorway ? ` · ${skuOcupadoPor.details.colorway}` : ''}».
+              Escribe otra o deja el campo vacío para asignar una libre.
+            </p>
+          )}
         </div>
 
         <div>
@@ -523,7 +542,9 @@ export function SneakerForm({ editing, onDone }: SneakerFormProps) {
 
         <button
           type="submit"
-          className="flex items-center gap-2.5 px-7 py-3.5 bg-marble text-obsidian text-[10px] font-bold uppercase tracking-[0.2em] hover:bg-silver transition-colors"
+          disabled={!!skuOcupadoPor}
+          title={skuOcupadoPor ? 'Cambia la referencia: ya la usa otro par' : undefined}
+          className="flex items-center gap-2.5 px-7 py-3.5 bg-marble text-obsidian text-[10px] font-bold uppercase tracking-[0.2em] hover:bg-silver disabled:opacity-40 disabled:cursor-not-allowed transition-colors"
         >
           <Save className="w-4 h-4" />
           {editing ? 'Guardar cambios' : 'Publicar par'}

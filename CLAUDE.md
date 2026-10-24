@@ -137,7 +137,7 @@ busca cada una por nombre y falla si no la encuentra, a proposito.
 api/                estado.ts (leer/guardar), sesion.ts (PIN + token),
 │                   imagen.ts (fotos), _lib/ (almacén, sesión, intentos, saneado)
 catalogo/           precios.csv, ajustes/<marca>.json, llegadas.json (generado),
-│                   catalogo-papishoes.json (generado)
+│                   referencias.json (generado), catalogo-papishoes.json (generado)
 lotes/              zips de lotes sin desempacar — no se versiona
 public/catalogo/    las fotos, <linea>/<marca>/[horma/]
 public/entregas/    las fotos del muro (generadas, con hash en el nombre)
@@ -156,11 +156,13 @@ src/
 ├── lib/            nube.ts (cliente de /api), security.ts (saneamiento),
 │                   validation.ts, catalogo.ts (huella y fusión),
 │                   marcas.ts (marcas por línea), utils.ts
-└── data/           initialData.ts, catalogoGenerado.ts y entregasGeneradas.ts
+└── data/           initialData.ts, catalogoGenerado.ts, entregasGeneradas.ts
+                    y fondosFotos.ts
                     (GENERADOS, no editar)
 scripts/            generar-catalogo, generar-entregas, revisar-entrada,
                     verificar-marcas, generar-fichas (fichas + sitemap, corre
-                    dentro del build), generar-og.py, quitar-recuadro.py
+                    dentro del build), generar-og.py, quitar-recuadro.py,
+                    fondos-fotos.py (fondo de cada celda, corre en catalogo)
 ```
 
 Las carpetas y archivos de `api/` que empiezan por `_` no se convierten en rutas:
@@ -243,8 +245,15 @@ Hay dos carpetas y conviene no confundirlas:
 - **`public/catalogo/`** — las fotos que sirve el sitio, y solo eso. La ruta es
   parte de la URL de cada imagen (`/catalogo/...`), así que no se mueve.
 - **`catalogo/`** — lo que se edita a mano para armar el catálogo: `precios.csv`,
-  `ajustes/<marca>.json`, `llegadas.json` (cuándo entró cada par, generado) y
+  `ajustes/<marca>.json`, `llegadas.json` (cuándo entró cada par, generado),
+  `referencias.json` (la referencia PAPI-xxxx de cada par, generado) y
   `catalogo-papishoes.json` (el respaldo que se importa en el panel, generado).
+
+La referencia es única y no cambia entre corridas: `referencias.json` la
+anota la primera vez y las siguientes la respetan, como las llegadas. Un par
+nuevo toma la que da su hash y, si está ocupada, la siguiente libre. No se
+edita a mano ni se borra: borrarlo vuelve a repartir las de los pares que
+habían chocado.
 
 Las fotos van en `public/catalogo/<linea>/<marca>/[horma/]archivo.jpg`, una
 carpeta por marca. `npm run catalogo` recorre todo, deduce nombre y marca, y
@@ -450,8 +459,25 @@ Museo / templo: negro obsidiana, gris basalto, plata, azul lapislázuli, blanco
 mármol. Tokens en `src/index.css` (`obsidian`, `basalt`, `marble`, `silver`,
 `lapis`, `lapis-lit`, `lapis-texto`). Títulos en Anton (`font-display`), texto
 en Montserrat. Bordes finos `border-white/8`, mayúsculas con `tracking` amplio
-para los rótulos. Sin sombras difusas ni bordes redondeados grandes: la estética
-es de placa grabada, no de tarjeta de app.
+para los rótulos. Sin sombras difusas: la única sombra permitida es la de piso
+bajo un tenis recortado (el del hero y los de las dos líneas), porque sin ella
+el recorte se ve pegado.
+
+**Esquinas redondeadas y píldoras (rediseño v2).** Desde el rediseño se aceptan
+las esquinas redondeadas y los botones tipo píldora. Solo hay tres radios, en
+tokens de `index.css`: `rounded-foto` (22 px, la foto dentro de la tarjeta),
+`rounded-tarjeta` (30 px, la tarjeta de un par y bloques parecidos) y
+`rounded-sala` (32 px, los bloques grandes: las dos líneas, el llamado final).
+Todo botón, chip, buscador o insignia es píldora (`rounded-full`). No inventes
+radios sueltos (`rounded-[19px]`): si hace falta otro, va como token. Las piezas
+repetidas ya existen como clases en `@layer components`: `.btn` (píldora de
+mármol), `.btn-ghost` (la misma, hueca), `.chip` / `.chip-on` y `.campo`
+(buscadores). El panel no entra en esta regla.
+
+Nada se mueve solo en la barra: una sola franja de anuncio, quieta, sin cinta
+en movimiento. En el celular muestra solo el primer tramo de
+`settings.announcement`, hasta el primer "·"; por eso la frase más importante
+va primero.
 
 **Un solo acento: el lapislázuli.** Nada de verdes, ámbares ni otros azules en
 el sitio público. `lapis` va en rellenos (la barra de anuncio, el descuento
@@ -467,14 +493,34 @@ sus colores de estado (rojo al borrar, ámbar en "cambios sin publicar", verde
 al publicar) porque es la herramienta de la tienda, no la vitrina.
 
 **Las tarjetas de producto van separadas con espacio, ya no con `gap-px`**:
-`gap-4` en el celular y `lg:gap-6` en escritorio, cada una su propia celda con
-borde de 1 px (`.column-card`), esquinas rectas y sin sombra. La rejilla de
+`gap-4` en el celular y `lg:gap-6` en escritorio, cada una su propia tarjeta
+(`.column-card`): borde de 1 px, `rounded-tarjeta`, 10 px de aire alrededor de
+la foto, que lleva `rounded-foto`, y sin sombra. La rejilla de
 `gap-px` sigue valiendo para los bloques que no son tarjetas de par (pilares,
 salas, rótulos de la ficha, pie). Sobre la foto de la tarjeta no va nada:
 marca y línea, nombre, colorway, precio con el anterior y el descuento en
 texto, y "Nuevo" / disponibilidad / "Verificado" van debajo. "Verificado"
 solo en Originales, nunca en Sneakers. "Nuevo" sale por la fecha de llegada
-(21 días), no por `isNewArrival`, que el generador pone en todos.
+(21 días), no por `isNewArrival`, que el generador pone en todos. La
+disponibilidad va en gris, sin verde ni ícono. Al pie, fuera del enlace de la
+ficha, el botón "Pedir por WhatsApp" (en el celular, "Pedir" con el ícono: la
+frase entera no cabe a 12 px), con la plantilla de la tienda y la talla "por
+confirmar"; también en los agotados, que se traen bajo encargo.
+
+**La foto de la tarjeta va entera, nunca recortada**, en una celda cuadrada
+pintada del color de sus bordes para que no queden franjas.
+`scripts/fondos-fotos.py` (Pillow) lo calcula y escribe
+`src/data/fondosFotos.ts` (GENERADO); corre solo al final de
+`npm run catalogo`. Una foto entra a la lista si sus dos bordes contra las
+franjas son al menos 50 % de un mismo color y lo que no lo es va en tres tramos
+o menos: el tenis que toca el borde es un tramo, una escena cambia a cada paso.
+Si los dos bordes difieren, la celda va mitad y mitad con corte seco detrás de
+la foto. Lo que no está en la lista (escenas, fotos subidas desde el panel)
+llena la celda con la misma foto ampliada, difuminada y oscurecida, y la foto
+entera va encima: no se recorta nada. Las dos capas comparten `src` y `sizes`
+(`TAMANOS_FOTO` en `SneakerColumn.tsx`) para que el fondo salga de la caché y
+no cueste otra descarga. `fondoDeFoto()` en `lib/utils.ts` es la única puerta a
+esa lista.
 
 Legibilidad, también en tokens de `index.css`: `text-lectura` (14 px, el mínimo
 de cualquier texto de lectura) y `text-rotulo` (12 px, solo para mayúsculas con

@@ -37,6 +37,7 @@ export function Navbar() {
   const [query, setQuery] = useState('');
 
   const igUrl = instagramUrl(settings.instagramHandle);
+  const anuncioCorto = settings.announcement.split('·')[0].trim();
 
   // El menú móvil se cierra al cambiar de ruta. Ajustar el estado durante el
   // render (en vez de en un efecto) evita el parpadeo de un render intermedio
@@ -72,9 +73,15 @@ export function Navbar() {
 
   return (
     <>
-      {settings.showAnnouncement && (
+      {/* Una franja quieta, sin cinta en movimiento. En el celular va solo el
+          primer tramo del anuncio (hasta el primer "·"): tres frases partidas
+          en tres renglones empujan el catálogo fuera de la primera pantalla. */}
+      {settings.showAnnouncement && anuncioCorto && (
         <div className="bg-lapis text-marble overflow-hidden">
-          <p className="py-2 text-center text-rotulo font-semibold uppercase tracking-[0.12em] sm:tracking-[0.28em] px-4 sm:truncate">
+          <p className="sm:hidden py-2.5 px-4 text-center text-rotulo font-semibold uppercase tracking-[0.16em] truncate">
+            {anuncioCorto}
+          </p>
+          <p className="hidden sm:block py-2.5 px-4 text-center text-rotulo font-semibold uppercase tracking-[0.24em] truncate">
             {settings.announcement}
           </p>
         </div>
@@ -82,38 +89,43 @@ export function Navbar() {
 
       <header
         className={cx(
-          'sticky top-0 z-40 transition-all duration-500',
-          isScrolled
-            ? 'bg-obsidian/94 backdrop-blur-xl border-b border-silver/12'
-            : 'bg-transparent border-b border-transparent',
+          'sticky top-0 z-40 bg-obsidian/82 backdrop-blur-xl border-b transition-colors duration-500',
+          isScrolled ? 'border-white/10' : 'border-transparent',
         )}
       >
         <div className="max-w-[1400px] mx-auto px-5 lg:px-8">
-          <div className="flex items-center justify-between h-[68px] gap-6">
+          <div className="flex items-center justify-between h-[72px] gap-6">
             {/* Emblema */}
             <Link
               to="/"
               className="flex items-center gap-3 shrink-0 group"
               aria-label={`${settings.storeName} — inicio`}
             >
-              <TempleMark className="w-8 h-8 transition-transform duration-500 group-hover:-translate-y-0.5" />
+              <TempleMark className="w-[34px] h-[34px] transition-transform duration-500 group-hover:-translate-y-0.5" />
               {/* El nombre también en móvil: es la identidad de la tienda y
                   antes desaparecía justo donde más gente entra. La bajada sí
-                  espera a sm, que es donde hay ancho para leerla. */}
+                  espera a sm, que es donde hay ancho para leerla, y se retira
+                  entre lg y xl: ahí entra la navegación completa y con la
+                  bajada la fila pedía 1019 px en un contenedor de 960, y
+                  "Asesoría" quedaba cortado contra el borde. */}
               <span className="flex flex-col leading-none min-w-0">
-                <span className="font-display text-engraved text-base sm:text-lg truncate">
+                <span className="font-display text-engraved text-xl sm:text-[26px] truncate">
                   {settings.storeName}
                 </span>
                 {settings.tagline && (
-                  <span className="hidden sm:block whitespace-nowrap text-rotulo font-semibold uppercase tracking-[0.2em] text-secundario mt-1">
+                  <span className="hidden sm:block lg:hidden xl:block whitespace-nowrap text-rotulo font-semibold uppercase tracking-[0.2em] text-secundario mt-1">
                     {settings.tagline}
                   </span>
                 )}
               </span>
             </Link>
 
-            {/* Navegación de escritorio */}
-            <nav className="hidden lg:flex items-center gap-8">
+            {/* Navegación de escritorio. Separación y buscador crecen recién en
+                2xl: en xl (1280) la fila con el buscador pedía 1265 px de 1216,
+                y lo que parecía caber era la fila encogiendo los íconos. Con
+                estos valores, medido sin dejar encoger nada, sobra en todo el
+                tramo de 1024 a 1920. */}
+            <nav className="hidden lg:flex items-center gap-5 2xl:gap-[34px]">
               {LINEAS.map((linea) => (
                 <BrandDropdown
                   key={linea.to}
@@ -149,15 +161,15 @@ export function Navbar() {
             </nav>
 
             {/* Acciones */}
-            <div className="flex items-center gap-2">
+            <div className="flex items-center gap-2.5">
               <form onSubmit={submitSearch} className="hidden xl:block relative">
-                <Search className="w-3.5 h-3.5 absolute left-3 top-1/2 -translate-y-1/2 text-marble/35" />
+                <Search className="w-3.5 h-3.5 absolute left-3.5 top-1/2 -translate-y-1/2 text-terciario" />
                 <input
                   value={query}
                   onChange={(e) => setQuery(e.target.value)}
-                  placeholder={`Buscar entre ${sneakers.length} pares`}
+                  placeholder={`Buscar ${sneakers.length} pares`}
                   aria-label="Buscar en el catálogo"
-                  className="w-52 bg-basalt/70 border border-white/10 py-2 pl-9 pr-3 text-lectura text-marble placeholder:text-terciario focus:outline-none focus:border-silver/40 transition-colors"
+                  className="campo w-[180px] 2xl:w-[228px] py-2.5 pl-10 pr-4"
                 />
               </form>
 
@@ -165,25 +177,12 @@ export function Navbar() {
                 href={generateDirectWhatsAppContact(settings, 'Asesoría de tallas y disponibilidad')}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="hidden sm:flex items-center gap-2 px-4 py-2.5 bg-marble text-obsidian text-rotulo font-bold uppercase tracking-[0.18em] hover:bg-silver transition-colors"
+                className="btn hidden sm:inline-flex gap-2 px-[22px] py-3 tracking-[0.18em]"
               >
-                <MessageCircle className="w-3.5 h-3.5" />
+                <MessageCircle className="w-3.5 h-3.5 shrink-0" />
                 Asesoría
               </a>
 
-              {/* Solo en pantallas medianas hacia arriba: en móvil vive en el
-                  menú desplegable para no apretar la barra. */}
-              {igUrl && (
-                <a
-                  href={igUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label={`${settings.storeName} en Instagram`}
-                  className="hidden sm:inline-flex p-2.5 text-terciario hover:text-silver transition-colors"
-                >
-                  <Instagram className="w-4 h-4" />
-                </a>
-              )}
 
               {/* Sin acceso al panel: es para la tienda, no para el cliente, y
                   se entra escribiendo /admin. La puerta sigue siendo el
@@ -203,7 +202,7 @@ export function Navbar() {
       {/* Menú móvil a pantalla completa */}
       {isMenuOpen && (
         <div className="fixed inset-0 z-50 bg-obsidian animate-fade lg:hidden flex flex-col">
-          <div className="flex items-center justify-between h-[68px] px-5 border-b border-white/8">
+          <div className="flex items-center justify-between h-[72px] px-5 border-b border-white/8">
             <TempleMark className="w-8 h-8" />
             <button
               onClick={() => setIsMenuOpen(false)}
@@ -259,7 +258,7 @@ export function Navbar() {
               href={generateDirectWhatsAppContact(settings)}
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center justify-center gap-2 w-full py-4 bg-marble text-obsidian text-rotulo font-bold uppercase tracking-[0.22em]"
+              className="btn w-full gap-2"
             >
               <MessageCircle className="w-4 h-4" />
               Hablar con un asesor

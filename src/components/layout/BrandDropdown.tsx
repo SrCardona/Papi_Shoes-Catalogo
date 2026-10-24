@@ -214,7 +214,7 @@ export function BrandDropdown({ to, label, marcas, otras }: BrandDropdownProps) 
         {label}
         <ChevronDown
           className={cx(
-            'w-3 h-3 transition-transform duration-200',
+            'w-3 h-3 shrink-0 transition-transform duration-200',
             abierto && 'rotate-180',
           )}
           aria-hidden
@@ -231,7 +231,7 @@ export function BrandDropdown({ to, label, marcas, otras }: BrandDropdownProps) 
              corta contra la ventana por la misma razón. */
           className="absolute left-0 top-full pt-3 w-56 max-w-[calc(100vw-2rem)] animate-drop"
         >
-          <div className="border border-white/8 bg-obsidian/98 backdrop-blur-xl max-h-[min(28rem,calc(100vh-8rem))] overflow-y-auto">
+          <div className="rounded-foto p-1.5 border border-white/10 bg-obsidian/98 backdrop-blur-xl max-h-[min(28rem,calc(100vh-8rem))] overflow-y-auto">
             {opciones.map((opcion, i) => (
               <NavLink
                 key={opcion.label}
@@ -243,7 +243,7 @@ export function BrandDropdown({ to, label, marcas, otras }: BrandDropdownProps) 
                 onClick={cierra}
                 onKeyDown={(e) => alTeclearEnOpcion(e, i)}
                 className={cx(
-                  'flex items-center justify-between gap-4 px-4 py-3 border-b border-white/6 last:border-b-0 transition-colors',
+                  'flex items-center justify-between gap-4 px-3.5 py-3 rounded-2xl border-b border-white/6 last:border-b-0 transition-colors',
                   'text-lectura text-secundario hover:text-marble hover:bg-white/5',
                   'focus:outline-none focus:text-marble focus:bg-white/8',
                   opcion.count === null && 'text-marble/90',
