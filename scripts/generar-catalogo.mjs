@@ -417,6 +417,78 @@ const registro = Object.fromEntries(
 );
 writeFileSync(ARRIVALS_FILE, `${JSON.stringify(registro, null, 2)}\n`, 'utf8');
 
+/* ── Libro de referencias ────────────────────────────────────────────────
+   La referencia (PAPI-1234) es lo que el cliente y la tienda se dicen por
+   WhatsApp, así que tiene que ser única y no cambiar entre corridas. Antes se
+   sacaba del hash de la clave recortado a cuatro cifras, y 109 de 616 pares
+   compartían referencia con otro: la Louis Vuitton crema y el Converse
+   Corazones eran los dos PAPI-3389.
+
+   Igual que las llegadas, se anota en catalogo/referencias.json. Un par que ya
+   tiene referencia la conserva. Uno nuevo toma la que da su hash, como antes,
+   y si ya está ocupada, la siguiente libre. Se reparten por orden de llegada:
+   en un choque, el par más antiguo se queda con el número que ya circulaba. */
+const REFS_FILE = join(CATALOG_DIR, 'referencias.json');
+const referenciasPrevias = existsSync(REFS_FILE)
+  ? JSON.parse(readFileSync(REFS_FILE, 'utf8'))
+  : {};
+
+const masAntiguoPrimero = [...groups.keys()].sort(
+  (a, b) => registro[a].localeCompare(registro[b]) || a.localeCompare(b),
+);
+const referencias = {};
+const ocupadas = new Set();
+for (const key of masAntiguoPrimero) {
+  const previa = referenciasPrevias[key];
+  if (previa && !ocupadas.has(previa)) {
+    referencias[key] = previa;
+    ocupadas.add(previa);
+  }
+}
+
+const comoReferencia = (n) => `PAPI-${String(n).padStart(4, '0')}`;
+const numeroDelHash = (key) => {
+  const hash = createHash('sha1').update(key).digest('hex');
+  return Number(parseInt(hash.slice(0, 6), 16).toString().slice(0, 4));
+};
+
+/* Dos pasadas. Primero cada par sin referencia reserva la que le da su hash,
+   y en un choque gana el más antiguo. Solo después los que perdieron buscan
+   la siguiente libre. En una sola pasada, un par desplazado a "la siguiente"
+   podía caer en la referencia propia de otro que llegaba después, y ese otro
+   —que no chocaba con nadie— terminaba cambiando también. */
+const sinReferencia = masAntiguoPrimero.filter((key) => !referencias[key]);
+const desplazados = [];
+for (const key of sinReferencia) {
+  const ref = comoReferencia(numeroDelHash(key));
+  if (ocupadas.has(ref)) {
+    desplazados.push(key);
+  } else {
+    referencias[key] = ref;
+    ocupadas.add(ref);
+  }
+}
+for (const key of desplazados) {
+  let n = numeroDelHash(key);
+  for (let intentos = 0; ocupadas.has(comoReferencia(n)); intentos++) {
+    if (intentos >= 10000) throw new Error('No quedan referencias PAPI-0000..9999 libres.');
+    n = (n + 1) % 10000;
+  }
+  referencias[key] = comoReferencia(n);
+  ocupadas.add(referencias[key]);
+}
+const referenciasNuevas = sinReferencia.length;
+
+writeFileSync(
+  REFS_FILE,
+  `${JSON.stringify(
+    Object.fromEntries([...groups.keys()].sort().map((key) => [key, referencias[key]])),
+    null,
+    2,
+  )}\n`,
+  'utf8',
+);
+
 /* La marca de cada par, resuelta una sola vez: hace falta antes de repartir
    el altar y otra vez al armar el producto. */
 const marcaDe = new Map(
@@ -488,7 +560,6 @@ const marcasDudosas = [];
   const antes = tarifa.before || PRECIO_ANTES;
   if (!price) sinPrecio.push(group.key);
 
-  const hash = createHash('sha1').update(group.key).digest('hex');
   const llegada = registro[group.key];
   const esOriginal = category === 'originales';
 
@@ -497,7 +568,7 @@ const marcasDudosas = [];
     name,
     brand,
     model: name,
-    sku: `PAPI-${parseInt(hash.slice(0, 6), 16).toString().slice(0, 4).padStart(4, '0')}`,
+    sku: referencias[group.key],
     category,
     gender,
     price,
@@ -584,6 +655,9 @@ console.log(`  Originales: ${porLinea.originales}   Sneakers: ${porLinea.sneaker
 console.log(
   `  Unisex: ${porHorma.unisex}   Hombre: ${porHorma.hombre}   Mujer: ${porHorma.mujer}`,
 );
+if (referenciasNuevas) {
+  console.log(`  Referencias asignadas en esta corrida: ${referenciasNuevas} (catalogo/referencias.json)`);
+}
 
 const porMarca = new Map();
 for (const s of sneakers) porMarca.set(s.brand, (porMarca.get(s.brand) ?? 0) + 1);

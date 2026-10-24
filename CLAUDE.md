@@ -137,7 +137,7 @@ busca cada una por nombre y falla si no la encuentra, a proposito.
 api/                estado.ts (leer/guardar), sesion.ts (PIN + token),
 │                   imagen.ts (fotos), _lib/ (almacén, sesión, intentos, saneado)
 catalogo/           precios.csv, ajustes/<marca>.json, llegadas.json (generado),
-│                   catalogo-papishoes.json (generado)
+│                   referencias.json (generado), catalogo-papishoes.json (generado)
 lotes/              zips de lotes sin desempacar — no se versiona
 public/catalogo/    las fotos, <linea>/<marca>/[horma/]
 public/entregas/    las fotos del muro (generadas, con hash en el nombre)
@@ -245,8 +245,15 @@ Hay dos carpetas y conviene no confundirlas:
 - **`public/catalogo/`** — las fotos que sirve el sitio, y solo eso. La ruta es
   parte de la URL de cada imagen (`/catalogo/...`), así que no se mueve.
 - **`catalogo/`** — lo que se edita a mano para armar el catálogo: `precios.csv`,
-  `ajustes/<marca>.json`, `llegadas.json` (cuándo entró cada par, generado) y
+  `ajustes/<marca>.json`, `llegadas.json` (cuándo entró cada par, generado),
+  `referencias.json` (la referencia PAPI-xxxx de cada par, generado) y
   `catalogo-papishoes.json` (el respaldo que se importa en el panel, generado).
+
+La referencia es única y no cambia entre corridas: `referencias.json` la
+anota la primera vez y las siguientes la respetan, como las llegadas. Un par
+nuevo toma la que da su hash y, si está ocupada, la siguiente libre. No se
+edita a mano ni se borra: borrarlo vuelve a repartir las de los pares que
+habían chocado.
 
 Las fotos van en `public/catalogo/<linea>/<marca>/[horma/]archivo.jpg`, una
 carpeta por marca. `npm run catalogo` recorre todo, deduce nombre y marca, y

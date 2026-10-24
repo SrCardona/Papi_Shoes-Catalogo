@@ -31,6 +31,23 @@ const field =
 const label =
   'block text-[9px] font-semibold uppercase tracking-[0.2em] text-marble/40 mb-2';
 
+/**
+ * Una referencia que ningún par del catálogo usa. Antes se sorteaba a ciegas
+ * entre 9.000 números, y un par cargado desde el panel podía salir con la
+ * misma referencia que otro: justo el dato que se dice por WhatsApp para no
+ * confundirlos. Parte de un número al azar y avanza hasta el primero libre.
+ */
+function referenciaLibre(pares: Sneaker[]): string {
+  const usadas = new Set(pares.map((s) => s.sku));
+  let n = Math.floor(1000 + Math.random() * 9000);
+  for (let intentos = 0; intentos < 9000; intentos++) {
+    const ref = `PAPI-${n}`;
+    if (!usadas.has(ref)) return ref;
+    n = n === 9999 ? 1000 : n + 1;
+  }
+  return `PAPI-${Date.now()}`;
+}
+
 function blank(): Partial<Sneaker> {
   return {
     name: '',
@@ -60,7 +77,7 @@ interface SneakerFormProps {
 }
 
 export function SneakerForm({ editing, onDone }: SneakerFormProps) {
-  const { upsertSneaker, removeSneaker } = useStore();
+  const { upsertSneaker, removeSneaker, sneakers } = useStore();
   const [form, setForm] = useState<Partial<Sneaker>>(editing ?? blank());
   const [imageUrl, setImageUrl] = useState('');
   const [uploadError, setUploadError] = useState<string | null>(null);
@@ -116,7 +133,7 @@ export function SneakerForm({ editing, onDone }: SneakerFormProps) {
       name: form.name!.trim(),
       brand: form.brand ?? 'Otras',
       model: form.model?.trim() || form.name!.trim(),
-      sku: form.sku?.trim() || `PAPI-${Math.floor(1000 + Math.random() * 9000)}`,
+      sku: form.sku?.trim() || referenciaLibre(sneakers),
       category: form.category ?? 'general',
       gender: form.gender ?? 'unisex',
       price: Number(form.price) || 0,
