@@ -5,6 +5,7 @@ import { useStore } from '../context/StoreContext';
 import { SmartImage } from '../components/ui/SmartImage';
 import { sanitizeImageUrl, uuid } from '../lib/security';
 import { convertFileToBase64, cx } from '../lib/utils';
+import { parConReferencia, referenciaLibre } from '../lib/referencias';
 
 const BRANDS: SneakerBrand[] = [
   'Jordan',
@@ -30,23 +31,6 @@ const field =
 
 const label =
   'block text-[9px] font-semibold uppercase tracking-[0.2em] text-marble/40 mb-2';
-
-/**
- * Una referencia que ningún par del catálogo usa. Antes se sorteaba a ciegas
- * entre 9.000 números, y un par cargado desde el panel podía salir con la
- * misma referencia que otro: justo el dato que se dice por WhatsApp para no
- * confundirlos. Parte de un número al azar y avanza hasta el primero libre.
- */
-function referenciaLibre(pares: Sneaker[]): string {
-  const usadas = new Set(pares.map((s) => s.sku));
-  let n = Math.floor(1000 + Math.random() * 9000);
-  for (let intentos = 0; intentos < 9000; intentos++) {
-    const ref = `PAPI-${n}`;
-    if (!usadas.has(ref)) return ref;
-    n = n === 9999 ? 1000 : n + 1;
-  }
-  return `PAPI-${Date.now()}`;
-}
 
 function blank(): Partial<Sneaker> {
   return {
@@ -123,8 +107,17 @@ export function SneakerForm({ editing, onDone }: SneakerFormProps) {
     });
   };
 
+  /* Una referencia repetida no se guarda: el aviso sale bajo el campo y el
+     botón queda apagado hasta cambiarla o dejarla vacía. */
+  const skuEscrito = form.sku?.trim() ?? '';
+  const skuOcupadoPor = parConReferencia(sneakers, skuEscrito, editing?.id);
+
   const submit = (e: React.FormEvent) => {
     e.preventDefault();
+    if (skuOcupadoPor) {
+      document.getElementById('f-sku')?.focus();
+      return;
+    }
     const now = new Date().toISOString();
     const isOriginal = form.category === 'originales';
 
@@ -214,9 +207,18 @@ export function SneakerForm({ editing, onDone }: SneakerFormProps) {
             id="f-sku"
             value={form.sku ?? ''}
             onChange={(e) => patch({ sku: e.target.value })}
-            placeholder="DZ5485-400"
-            className={cx(field, 'font-mono')}
+            placeholder="Vacío: se asigna una libre"
+            aria-invalid={!!skuOcupadoPor}
+            aria-describedby={skuOcupadoPor ? 'f-sku-error' : undefined}
+            className={cx(field, 'font-mono', skuOcupadoPor && 'border-red-400/70')}
           />
+          {skuOcupadoPor && (
+            <p id="f-sku-error" role="alert" className="mt-1.5 text-[11.5px] leading-snug text-red-300">
+              La referencia {skuEscrito} ya la usa «{skuOcupadoPor.name}
+              {skuOcupadoPor.details.colorway ? ` · ${skuOcupadoPor.details.colorway}` : ''}».
+              Escribe otra o deja el campo vacío para asignar una libre.
+            </p>
+          )}
         </div>
 
         <div>
@@ -540,7 +542,9 @@ export function SneakerForm({ editing, onDone }: SneakerFormProps) {
 
         <button
           type="submit"
-          className="flex items-center gap-2.5 px-7 py-3.5 bg-marble text-obsidian text-[10px] font-bold uppercase tracking-[0.2em] hover:bg-silver transition-colors"
+          disabled={!!skuOcupadoPor}
+          title={skuOcupadoPor ? 'Cambia la referencia: ya la usa otro par' : undefined}
+          className="flex items-center gap-2.5 px-7 py-3.5 bg-marble text-obsidian text-[10px] font-bold uppercase tracking-[0.2em] hover:bg-silver disabled:opacity-40 disabled:cursor-not-allowed transition-colors"
         >
           <Save className="w-4 h-4" />
           {editing ? 'Guardar cambios' : 'Publicar par'}
