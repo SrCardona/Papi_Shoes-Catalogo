@@ -245,5 +245,125 @@
     "name": "Timberland 6-Inch Premium",
     "colorway": "Wheat Nubuck",
     "description": "La bota clásica de Timberland en nobuk color trigo, con cuello acolchado negro, costuras triples y suela de goma con taches."
+  },
+  "vans-hylane-negro-gum": {
+    "name": "Vans Hylane",
+    "colorway": "Black / White / Gum",
+    "sizes": "39-44",
+    "description": "Hylane en gamuza negra con la raya lateral blanca, mediasuela ancha y piso caramelo."
+  },
+  "vans-push-oliva": {
+    "name": "Vans Push",
+    "colorway": "Olive / Brown / Black",
+    "sizes": "39-44",
+    "description": "Push en gamuza oliva y café con la suela negra gruesa."
+  },
+  "vans-push-crema": {
+    "name": "Vans Push",
+    "colorway": "Cream / Black",
+    "sizes": "39-44",
+    "description": "Push en gamuza crema con los cordones negros y la suela negra gruesa."
+  },
+  "vans-push-lila": {
+    "name": "Vans Push",
+    "colorway": "Lavender / Grey / Black",
+    "sizes": "39-44",
+    "description": "Push en gamuza lila y gris con la suela negra gruesa."
+  },
+  "vans-push-blanco-verde": {
+    "name": "Vans Push",
+    "colorway": "White / Cream / Teal",
+    "sizes": "39-44",
+    "description": "Push en lona blanca con gamuza crema y el detalle verde agua en la lengüeta."
+  },
+  "vans-push-negro": {
+    "name": "Vans Push",
+    "colorway": "Black / White",
+    "sizes": "39-44",
+    "description": "Push en lona negra con la suela blanca."
+  },
+  "le-coq-sportif-runner-negro-gum": {
+    "name": "Le Coq Sportif Runner",
+    "colorway": "Black / Gum",
+    "sizes": "39-44",
+    "description": "Runner en nylon y gamuza negra con el gallo en el costado y la suela caramelo."
+  },
+  "le-coq-sportif-runner-negro": {
+    "name": "Le Coq Sportif Runner",
+    "colorway": "Triple Black",
+    "sizes": "39-44",
+    "description": "Runner en nylon y gamuza negra, todo negro, con el gallo tono a tono."
+  },
+  "le-coq-sportif-runner-blanco": {
+    "name": "Le Coq Sportif Runner",
+    "colorway": "White / Navy / Red",
+    "sizes": "39-44",
+    "description": "Runner en blanco con gamuza gris, el gallo azul y la línea roja en la suela."
+  },
+  "tommy-hilfiger-court-blanco": {
+    "name": "Tommy Hilfiger Court",
+    "colorway": "White / Navy / Red",
+    "sizes": "39-44",
+    "description": "Tenis bajo en cuero blanco perforado con la bandera Tommy en el costado."
+  },
+  "tommy-hilfiger-court-negro": {
+    "name": "Tommy Hilfiger Court",
+    "colorway": "Black / Red / White",
+    "sizes": "39-44",
+    "description": "Tenis bajo en cuero negro perforado con la bandera Tommy en el costado."
+  },
+  "coach-signature-negro-brillantes": {
+    "name": "Coach Signature",
+    "colorway": "Black / Crystal",
+    "sizes": "39-44",
+    "description": "Coach en negro con el estampado de cachemir en brillantes."
+  },
+  "coach-signature-negro": {
+    "name": "Coach Signature",
+    "colorway": "Black / Charcoal",
+    "sizes": "39-44",
+    "description": "Coach en lona del monograma gris con cuero negro y la C grande en el costado."
+  },
+  "coach-signature-cafe": {
+    "name": "Coach Signature",
+    "colorway": "Brown / Tan",
+    "sizes": "39-44",
+    "description": "Coach en lona del monograma café con gamuza caramelo y la C grande en el costado."
+  },
+  "coach-signature-blanco": {
+    "name": "Coach Signature",
+    "colorway": "White / Charcoal",
+    "sizes": "39-44",
+    "description": "Coach en cuero blanco con el monograma gris y la C negra en el costado."
+  },
+  "saucony-progrid-omni-9-blanco-aqua": {
+    "name": "Saucony ProGrid Omni 9",
+    "colorway": "White / Teal / Orange",
+    "sizes": "39-44",
+    "description": "Omni 9 en malla blanca y plata con la mediasuela aqua y naranja."
+  },
+  "saucony-progrid-omni-9-plata-negro": {
+    "name": "Saucony ProGrid Omni 9",
+    "colorway": "Silver / Black",
+    "sizes": "39-44",
+    "description": "Omni 9 en malla negra con los refuerzos plateados y la mediasuela gris."
+  },
+  "saucony-progrid-omni-9-verde": {
+    "name": "Saucony ProGrid Omni 9",
+    "colorway": "Green / Silver",
+    "sizes": "39-44",
+    "description": "Omni 9 en malla gris con los refuerzos verdes tornasol y la mediasuela verde."
+  },
+  "saucony-progrid-omni-9-blanco-azul": {
+    "name": "Saucony ProGrid Omni 9",
+    "colorway": "White / Blue / Pink",
+    "sizes": "39-44",
+    "description": "Omni 9 en malla blanca con los refuerzos tornasol y la mediasuela azul y rosada."
+  },
+  "saucony-progrid-omni-9-crema": {
+    "name": "Saucony ProGrid Omni 9",
+    "colorway": "Cream",
+    "sizes": "39-44",
+    "description": "Omni 9 todo en crema, malla y refuerzos tono a tono."
   }
 }
