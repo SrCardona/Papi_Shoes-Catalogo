@@ -29,3 +29,11 @@ recuadro-hoja-*.png
 # y eso si se versiona.
 catalogo/entregas-exportadas.json
 papi-shoes-entregas-*.json
+
+# Entorno de Python para scripts/recortar-entrada.py (rembg + BiRefNet). Es
+# herramienta local del que carga fotos: no entra a package.json ni al build.
+tools/.venv/
+
+# Material de referencia local para armar skills (borradores y skills de
+# terceros). El repositorio es publico: lo que se usa va en .claude/skills/.
+/Skills/

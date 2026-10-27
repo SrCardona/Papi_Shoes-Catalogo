@@ -305,70 +305,139 @@ proveedor (`WhatsApp Image...`, `IMG_1234`). No se versiona —solo su
 `.gitkeep`— y `walk()` en `scripts/generar-catalogo.mjs` salta toda carpeta que
 empiece por `_`, así que lo que esté ahí nunca sale publicado.
 
-1. **Recoger.** Mover a `_entrada/` cualquier foto suelta en `public/catalogo/`
+1. **Bandeja.** Mover a `_entrada/` cualquier foto suelta en `public/catalogo/`
    que no esté dentro de `<linea>/<marca>/`. El dueño las suele dejar en
    `public/catalogo/sneakers/`, y ahí el generador las publicaría como pares
    "Otras" con nombre de WhatsApp.
-2. **Clasificar antes de preguntar nada: tres casos, no dos.** `npm run entrada`
+2. **Duplicados: tres casos, no dos, antes de preguntar nada.** `npm run entrada`
    compara el SHA-256 de cada foto contra todo `public/catalogo/` y contra la
    propia bandeja. Ese hash solo separa el caso A de los otros dos; el resto se
    decide mirando la foto. No se agrega comparación perceptual sin permiso,
    porque un falso positivo descartaría un colorway parecido pero distinto.
 
-   - **Caso A — archivo idéntico** (mismo SHA-256 que una foto ya publicada).
-     Es la misma foto, ya está. **No se procesa**: se queda en `_entrada/`, se
-     reporta contra qué choca y la borra el dueño.
+   - **Caso A — archivo idéntico.** **No se procesa**: se queda en `_entrada/`,
+     se reporta contra qué choca y la borra el dueño.
    - **Caso B — foto distinta de un par que ya está en el catálogo.** **No se
-     descarta**, que es el error viejo: entra como foto adicional del par, con
-     sufijo de guion bajo (`nombre_2.jpg`, `_3.jpg`, el siguiente libre). Es el
-     caso más común —otro ángulo, otra luz, en caja, puesto, la suela— y todas
-     suman. Va en la **misma** carpeta que la original (misma línea, marca y
-     horma): no se pregunta marca ni horma, ya las define el par. **No se agrega
-     nada a `ajustes/<marca>.json`**, que el par ya está registrado. La portada
-     es la foto sin sufijo y no se toca: si la nueva se ve mejor de portada, se
-     **pregunta** antes de renumerar.
-   - **Caso C — par que no existe.** Flujo normal: se pregunta marca, nombre y
-     horma, y se crea.
+     descarta**: entra como foto adicional del par, con sufijo de guion bajo
+     (`nombre_2.jpg`, `_3.jpg`, el siguiente libre), en la **misma** carpeta que
+     la original. No se pregunta marca ni horma ni se agrega nada a
+     `ajustes/<marca>.json`: ya las define el par. La portada es la foto sin
+     sufijo; si la nueva es mejor portada (ver paso 3), se **pregunta** antes de
+     renumerar.
+   - **Caso C — par que no existe.** Sigue al paso 3.
 
-   Para decidir entre B y C se mira la foto, se identifica modelo y colorway y
-   se compara contra `src/data/catalogoGenerado.ts` y las carpetas de
-   `public/catalogo/`. Cuando parezca el mismo par que uno existente, **se
-   muestran los dos y se pregunta antes de agrupar**. Ante la duda van
-   separados y se avisa: dos colorways del mismo modelo se parecen muchísimo
-   —un Stan Smith de talón verde y otro de talón azul son dos pares, no dos
-   fotos— y agrupar mal borra un producto del catálogo. Separar de más solo
-   deja un par repetido, que se une después; agrupar de más pierde inventario.
-3. **Preguntar foto por foto.** Mirar cada imagen y proponer marca, nombre,
-   colorway y línea; si el nombre del archivo ya dice el modelo, usarlo de base.
-   **La horma siempre se pregunta, nunca se deduce de la foto ni del color.** Si
-   la silueta no se reconoce, se dice claro en vez de inventar el modelo. Se
-   aceptan respuestas cortas ("adidas samba, unisex"). Si varias fotos son de la
-   misma marca se agrupan y la marca se pregunta una sola vez; se ofrece
-   responder en lote ("todas unisex"). Con más de 15 fotos se avisa y se ofrece
-   el modo lote antes de empezar.
-4. **Acomodar.** `public/catalogo/<linea>/<marca>/[horma/]nombre.jpg`. Línea
-   `sneakers` por defecto; marca en minúsculas con guiones; subcarpeta de horma
-   solo si no es unisex; nombre en minúsculas, con guiones, sin acentos,
-   espacios ni paréntesis; `.jfif` y `.jpeg` se normalizan a `.jpg`. **Si el
-   destino ya existe no se sobrescribe**: se avisa y se pregunta si es otro
-   colorway. Solo el guion bajo (`_2`) agrupa fotos del mismo par.
-5. **Registrar y generar.** Escribir nombre, colorway y descripción en
-   `catalogo/ajustes/<marca>.json` sin pisar lo que ya está (crearlo si falta).
-   Preguntar precio y precio anterior antes de correr; si la marca ya tiene fila
-   en `precios.csv`, proponer esa y confirmar. Luego `npm run catalogo`.
-6. **Informe.** Cuántos pares nuevos, cuáles quedaron sin colorway y cuáles con
-   marca "Otras" para corregir, y confirmar que `_entrada/` quedó vacía.
-7. **Cerrar.** Un commit con el resumen de lo agregado.
+   Para decidir entre B y C se identifica modelo y colorway y se compara contra
+   `src/data/catalogoGenerado.ts` y las carpetas de `public/catalogo/`. Cuando
+   parezca el mismo par, **se muestran los dos y se pregunta antes de agrupar**.
+   Ante la duda van separados y se avisa: un Stan Smith de talón verde y otro de
+   talón azul son dos pares, no dos fotos. Separar de más deja un par repetido,
+   que se une después; agrupar de más borra un producto del catálogo.
+3. **Revisar cada foto.**
+   - Se descarta, avisando, la foto con contenido sexual, logos o ilustraciones
+     de marcas ajenas al par (como el fondo de RAW), marcas de agua de otras
+     tiendas o texto de proveedor que no se pueda quitar (paso 4).
+   - Se avisa si mide menos de 600 px de ancho o se ve borrosa.
+   - La portada de cada par es la más limpia: tenis completo, fondo liso si lo
+     hay, sin manos ni objetos encima si hay otra opción.
+4. **Recortar y limpiar** (solo las fotos nuevas de `_entrada/`, nunca las ya
+   publicadas). Lo hace `scripts/recortar-entrada.py` con el venv de
+   `tools/.venv` (ver "Entorno para recortar"); si el venv no existe, se crea
+   antes de seguir. En seco escribe la hoja en `lotes/revision/<fecha>/`; con
+   las fotos descartadas en el paso 3 fuera de la lista, `--aplicar` respalda y
+   escribe.
+   - Antes de tocar nada, copiar los originales a `lotes/originales/<fecha>/`
+     (`--aplicar` lo hace solo): queda fuera de `public/` y `lotes/` no se
+     versiona, así que no se publica y sirve para volver atrás.
+   - BiRefNet (modelo `birefnet-general`, en `~/.rembg/models/`) se usa **solo
+     para detectar** dónde está el tenis. **No se le quita el fondo a la foto.**
+   - Recorte cuadrado (1:1), centrado en el tenis, con 8 % de margen alrededor
+     para que nunca quede pegado al borde.
+   - Si el tenis no cabe en un cuadrado sin cortarse (foto muy apaisada), no se
+     recorta: el sitio rellena la celda solo (color del borde o foto
+     difuminada).
+   - **Nunca se corta el tenis, los cordones ni la suela.** Si la detección no
+     es clara, esa foto no se recorta y se avisa.
+   - No se agrandan fotos pequeñas: eso inventa detalle.
+   - **Código de inventario** (números o recuadros del proveedor, como "2662" en
+     una esquina):
+     a. Si queda fuera del recorte, el recorte ya lo elimina.
+     b. Si queda dentro y está sobre fondo liso o en una zona sin el tenis, se
+        borra con la técnica de `scripts/quitar-recuadro.py`.
+     c. Si está encima del tenis o en una zona con mucho detalle, **no se
+        borra** (inventaría el tenis): se avisa para que el dueño decida si la
+        foto se usa o se descarta.
+   - Hoja de revisión **al 100 %** con el antes y el después de cada foto,
+     marcando cuáles tenían código y cómo se resolvió. **Se espera la
+     aprobación del dueño antes de seguir.** El detector solo ve recuadros
+     blancos con texto oscuro cerca del borde de la foto: un número suelto o
+     un código en el centro no lo marca, y se busca a ojo en la hoja.
+5. **Proponer los datos de cada par para que el dueño confirme.**
+   - Marca, nombre, colorway y línea. Si el nombre del archivo ya dice el
+     modelo, se usa de base.
+   - **Nombre:** se verifica el modelo contra lo que se lee en la foto
+     (lengüeta, plantilla, talón). Si no coincide con lo que escribió el dueño,
+     se avisa (pasó con un Vomero 5 que venía como Vomero 6). Si la silueta no
+     se reconoce, se dice claro en vez de inventar.
+   - **Colorway: obligatorio**, en el formato del catálogo (`White / Grey`),
+     porque va en el mensaje de WhatsApp. Si no se sabe, se pregunta; nunca
+     queda vacío.
+   - **Línea: nunca se deduce de la foto**; se pregunta si el dueño no la dijo.
+     En Sneakers ningún texto dice original, auténtico, legit ni verificado
+     ("OG" como parte del nombre del modelo sí vale).
+   - **Horma: siempre se pregunta**, nunca se deduce de la foto ni del color.
+   - Se aceptan respuestas cortas ("adidas samba, unisex"). Con más de 15 fotos
+     se ofrece responder en lote, con una tabla.
+6. **Ubicar.** `public/catalogo/<linea>/<marca>/[horma/]nombre.jpg`: marca en
+   minúsculas con guiones; subcarpeta de horma solo si no es unisex; nombre en
+   minúsculas, con guiones, sin acentos, espacios ni paréntesis; `.jfif` y
+   `.jpeg` pasan a `.jpg`. **Si el destino ya existe no se sobrescribe**: se
+   avisa y se pregunta si es otro colorway. Marcas con pocos pares van a
+   `otras`, con la marca real dentro del nombre del par.
+7. **Registrar y generar.**
+   - Escribir nombre, colorway y descripción en `catalogo/ajustes/<marca>.json`
+     sin pisar lo que ya está (crearlo si falta).
+   - Confirmar precio y precio anterior en `precios.csv` antes de guardar; si la
+     marca ya tiene fila, proponer esa.
+   - `npm run catalogo`. Cada par nuevo recibe su referencia en
+     `catalogo/referencias.json` y las existentes no cambian. **Si aparece una
+     referencia repetida, se detiene todo y se avisa.**
+   - Si alguno de los pares tocados ya fue editado desde el panel
+     (`catalogo.editedIds` en la nube), se avisa: ahí la nube le gana al código.
+8. **Verificar.**
+   - `npm run lint`, `npm run marcas` y `npm run build`.
+   - Comprobar la agrupación: cada par con varias fotos es **un** producto con
+     todas sus fotos en `images`, el total no creció por las fotos adicionales
+     y toda ruta de imagen existe en disco. Si un par quedó partido, se arregla
+     y se dice qué pasó.
+   - Capturas de 2 o 3 tarjetas nuevas en escritorio y celular, y el mensaje de
+     WhatsApp de una de ellas (con color, referencia y enlace).
+9. **Informe.** Cuántos pares nuevos, en qué línea y marca; cuáles quedaron con
+   marca "Otras" o con datos por revisar; fotos recortadas, fotos con código
+   eliminado y fotos descartadas, con el motivo; y qué fotos quedaron en
+   `_entrada/` y por qué (idénticas a una publicada o descartadas), que las
+   borra el dueño.
+10. **Cerrar.** Un commit con el resumen. **No se publica nada desde el panel**:
+    `npm run dev` usa los datos de producción.
 
-Después de generar se comprueba la agrupación: que cada par con varias fotos
-sea **un** producto con todas sus fotos en `images`, que el total de productos no
-haya crecido por las fotos adicionales y que toda ruta de imagen exista en disco.
-Si un par quedó partido en dos por un error de nombre, se arregla y se dice qué
-pasó.
+Nunca: inventar la horma o la línea, dejar un colorway vacío, sobrescribir una
+foto, cortar el tenis al recortar, quitarle el fondo, agrandar una foto pequeña,
+agrupar dos colorways distintos como un mismo par, procesar un archivo idéntico
+o editar `src/data/catalogoGenerado.ts` a mano.
 
-Nunca: inventar la horma, sobrescribir una foto, agrupar dos colorways distintos
-como un mismo par, procesar un archivo idéntico o editar
-`src/data/catalogoGenerado.ts` a mano.
+### Entorno para recortar
+
+`scripts/recortar-entrada.py` corre en su propio venv, `tools/.venv`, que git
+ignora. No entra a `package.json` ni toca el build de Vercel: es herramienta
+local de quien carga fotos. Desde cero, en la raíz del proyecto:
+
+```bash
+py -m venv tools/.venv
+tools/.venv/Scripts/python -m pip install "rembg[cpu]" pillow numpy
+```
+
+El modelo `birefnet-general` vive en `~/.rembg/models/`; si falta, rembg lo
+descarga la primera vez (unos 900 MB). La instalación necesita red: dentro del
+entorno aislado de Claude Code pypi.org no resuelve.
 
 ### Recuadro del proveedor
 
