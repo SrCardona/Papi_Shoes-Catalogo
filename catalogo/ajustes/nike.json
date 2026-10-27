@@ -921,5 +921,10 @@
     "colorway": "Black / Galaxy / Orange",
     "sizes": "39-44",
     "description": "TN en negro con el estampado de estrellas en la malla, el swoosh naranja, la lengueta naranja y la mediasuela blanca."
+  },
+  "nike-cortez-azul-claro": {
+    "name": "Nike Cortez",
+    "colorway": "Light Blue / Sail",
+    "description": "Cortez en nylon azul claro con gamuza del mismo tono, swoosh en gamuza y mediasuela blanca con franja lila."
   }
 }

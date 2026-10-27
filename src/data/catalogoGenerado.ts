@@ -17563,7 +17563,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       44
     ],
     "status": "disponible",
-    "isFeatured": true,
+    "isFeatured": false,
     "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "TN en azul navy entero con las nervaduras al tono, el swoosh azul metalizado y la mediasuela blanca.",
@@ -18930,6 +18930,44 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "updatedAt": "2026-09-08T16:36:16.035Z"
   },
   {
+    "id": "sneaker-nike-cortez-azul-claro",
+    "name": "Nike Cortez",
+    "brand": "Nike",
+    "model": "Nike Cortez",
+    "sku": "PAPI-1662",
+    "category": "general",
+    "gender": "mujer",
+    "price": 179900,
+    "originalPrice": 210000,
+    "images": [
+      "/catalogo/sneakers/nike/mujer/nike-cortez-azul-claro.jpg"
+    ],
+    "sizes": [
+      35,
+      36,
+      37,
+      38,
+      39,
+      40
+    ],
+    "status": "disponible",
+    "isFeatured": true,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "Cortez en nylon azul claro con gamuza del mismo tono, swoosh en gamuza y mediasuela blanca con franja lila.",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Light Blue / Sail",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-10-27T22:16:53.156Z",
+    "updatedAt": "2026-10-27T22:16:53.156Z"
+  },
+  {
     "id": "sneaker-nike-cortez-crema-negro",
     "name": "Nike Cortez",
     "brand": "Nike",
@@ -19259,7 +19297,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "price": 179900,
     "originalPrice": 210000,
     "images": [
-      "/catalogo/sneakers/nike/nike-cortez-pine-green.jpg"
+      "/catalogo/sneakers/nike/nike-cortez-pine-green.jpg",
+      "/catalogo/sneakers/nike/nike-cortez-pine-green_2.jpg"
     ],
     "sizes": [
       37,
