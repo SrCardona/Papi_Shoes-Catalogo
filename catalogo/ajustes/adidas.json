@@ -430,5 +430,11 @@
     "colorway": "Cream / Black / Red",
     "description": "Malla crema con las tres rayas negras, el logo y los ojales en rojo. Mediasuela blanca de perfil grueso.",
     "sizes": "39-44"
+  },
+  "adidas-campus-00s-negro-brillantes": {
+    "name": "Adidas Campus 00s",
+    "colorway": "Core Black / Crystal",
+    "sizes": "39-44",
+    "description": "Campus 00s en gamuza negra con las tres franjas de brillantes."
   }
 }

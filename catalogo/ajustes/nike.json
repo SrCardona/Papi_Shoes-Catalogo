@@ -926,5 +926,47 @@
     "name": "Nike Cortez",
     "colorway": "Light Blue / Sail",
     "description": "Cortez en nylon azul claro con gamuza del mismo tono, swoosh en gamuza y mediasuela blanca con franja lila."
+  },
+  "nike-initiator-plata-negro": {
+    "name": "Nike Initiator",
+    "colorway": "Metallic Silver / Black",
+    "sizes": "39-44",
+    "description": "Initiator en malla gris y plata con los refuerzos negros y la cámara en el talón."
+  },
+  "nike-initiator-crema-dorado": {
+    "name": "Nike Initiator",
+    "colorway": "Sail / Gold / Black",
+    "sizes": "39-44",
+    "description": "Initiator en malla crema con los refuerzos dorados y negros y la mediasuela blanca."
+  },
+  "nike-initiator-negro-plata": {
+    "name": "Nike Initiator",
+    "colorway": "Black / Metallic Silver",
+    "sizes": "39-44",
+    "description": "Initiator en malla negra con los refuerzos plateados y la mediasuela negra."
+  },
+  "nike-initiator-blanco-negro": {
+    "name": "Nike Initiator",
+    "colorway": "White / Black / Silver",
+    "sizes": "39-44",
+    "description": "Initiator en malla blanca con los refuerzos negros y plateados."
+  },
+  "nike-air-max-1-blanco-naranja": {
+    "name": "Nike Air Max 1",
+    "colorway": "White / Black / Orange",
+    "sizes": "39-44",
+    "description": "Air Max 1 en blanco y gris con el swoosh negro y la mediasuela naranja moteada."
+  },
+  "nike-air-max-1-safari": {
+    "name": "Nike Air Max 1 Safari",
+    "colorway": "Black / Safari Orange",
+    "sizes": "39-44",
+    "description": "Air Max 1 en negro con el estampado safari naranja en la puntera y el swoosh."
+  },
+  "nike-cortez-blanco-negro": {
+    "name": "Nike Cortez",
+    "colorway": "White / Black",
+    "sizes": "39-44",
+    "description": "Cortez en nylon blanco con el swoosh negro, gamuza gris y suela dentada."
   }
 }

@@ -464,5 +464,59 @@
     "name": "Air Jordan 13 Retro Black Flint",
     "colorway": "Black / Flint Grey / White",
     "sizes": "39-44"
+  },
+  "jordan-5-retro-blanco-aqua": {
+    "name": "Air Jordan 5 Retro",
+    "colorway": "White / Aqua / Orange",
+    "sizes": "39-44",
+    "description": "La 5 en cuero blanco con la mediasuela aqua, los dientes de tiburón naranja y la suela hielo."
+  },
+  "jordan-5-retro-blanco-morado": {
+    "name": "Air Jordan 5 Retro",
+    "colorway": "White / Purple / Yellow",
+    "sizes": "35-39",
+    "description": "La 5 en cuero blanco con la mediasuela morada, la puntera negra y la suela en degradé amarillo."
+  },
+  "jordan-5-retro-gris-amarillo": {
+    "name": "Air Jordan 5 Retro",
+    "colorway": "Grey / Black / Yellow",
+    "sizes": "35-39",
+    "description": "La 5 en malla gris con la ventana transparente, el 23 en el costado y la suela amarilla."
+  },
+  "jordan-5-retro-fire-red": {
+    "name": "Air Jordan 5 Retro Fire Red",
+    "colorway": "White / Fire Red / Black",
+    "sizes": "39-44",
+    "description": "La 5 en cuero blanco con el cuello rojo, la mediasuela negra con dientes rojos y la suela hielo."
+  },
+  "jordan-5-retro-alternate-bel-air": {
+    "name": "Air Jordan 5 Retro Alternate Bel-Air",
+    "colorway": "White / Court Purple / Green",
+    "sizes": "35-39",
+    "description": "La 5 en cuero blanco con la mediasuela morada, los dientes rosados, el forro estampado y el 23 verde."
+  },
+  "jordan-5-retro-white-cement": {
+    "name": "Air Jordan 5 Retro White Cement",
+    "colorway": "White / Black / Cement Grey",
+    "sizes": "35-39",
+    "description": "La 5 en cuero blanco sobre mediasuela gris moteada, con los dientes negros y la suela hielo."
+  },
+  "jordan-5-retro-azul-claro": {
+    "name": "Air Jordan 5 Retro",
+    "colorway": "Light Blue / Grey",
+    "sizes": "39-44",
+    "description": "La 5 en gamuza azul claro con la malla azul, la mediasuela gris y la suela hielo."
+  },
+  "jordan-blanco": {
+    "name": "Jordan Blanco",
+    "colorway": "Triple White",
+    "sizes": "39-44",
+    "description": "Jordan bajo en cuero blanco con la cámara de aire en el talón y la suela hielo."
+  },
+  "jordan-negro": {
+    "name": "Jordan Negro",
+    "colorway": "Triple Black",
+    "sizes": "39-44",
+    "description": "Jordan bajo en cuero y gamuza negra con la cámara de aire en el talón."
   }
 }
