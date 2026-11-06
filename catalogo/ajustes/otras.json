@@ -545,5 +545,25 @@
     "name": "Lacoste Blanco",
     "colorway": "White / Navy / Red",
     "sizes": "40-44"
+  },
+  "reebok-club-c-85-negro-leopardo": {
+    "name": "Reebok Club C 85",
+    "colorway": "Black / Leopard / Gum",
+    "sizes": "36-39"
+  },
+  "le-coq-sportif-negro": {
+    "name": "Le Coq Sportif Negro",
+    "colorway": "Black / White",
+    "sizes": "40-44"
+  },
+  "le-coq-sportif-negro-oliva": {
+    "name": "Le Coq Sportif Negro / Oliva",
+    "colorway": "Black / Olive / Red",
+    "sizes": "40-44"
+  },
+  "le-coq-sportif-blanco-gris": {
+    "name": "Le Coq Sportif Blanco / Gris",
+    "colorway": "White / Grey",
+    "sizes": "40-44"
   }
 }

@@ -928,5 +928,30 @@
     "name": "Jordan 7 Retro Bordeaux",
     "colorway": "Black / Bordeaux / Grey",
     "sizes": "40-44"
+  },
+  "jordan-1-low-x-off-white-gris": {
+    "name": "Jordan 1 Low x Off-White",
+    "colorway": "Grey / White",
+    "sizes": "40-44"
+  },
+  "jordan-5-retro-blanco-plata": {
+    "name": "Jordan 5 Retro",
+    "colorway": "White / Metallic Silver",
+    "sizes": "40-44"
+  },
+  "jordan-1-low-charol-negro": {
+    "name": "Jordan 1 Low",
+    "colorway": "Black Patent / White",
+    "sizes": "36-44"
+  },
+  "jordan-1-mid-navy-blanco": {
+    "name": "Jordan 1 Mid",
+    "colorway": "Navy / White",
+    "sizes": "36-39"
+  },
+  "jordan-1-retro-high-team-red": {
+    "name": "Jordan 1 Retro High",
+    "colorway": "Team Red / White",
+    "sizes": "36-39"
   }
 }
