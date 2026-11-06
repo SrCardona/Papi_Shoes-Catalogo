@@ -22,7 +22,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/adidas/adidas-adilette-22.jpg"
     ],
@@ -62,7 +62,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "hombre",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/adidas/hombre/adidas-adistar-cs-negro-verde.jpg"
     ],
@@ -100,7 +100,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/adidas/adidas-adizero-adios-pro-lila.jpg"
     ],
@@ -140,7 +140,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/adidas/adidas-adizero-adios-pro-volt.jpg"
     ],
@@ -180,7 +180,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "mujer",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/adidas/mujer/adidas-advantage-triple-blanco.jpg"
     ],
@@ -217,7 +217,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/adidas/adidas-badbo-x-bad-bunny-blanco.jpg"
     ],
@@ -257,7 +257,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/adidas/adidas-badbo-x-bad-bunny-cafe.jpg"
     ],
@@ -297,7 +297,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/adidas/adidas-badbo-x-bad-bunny-negro.jpg"
     ],
@@ -337,7 +337,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/adidas/adidas-california-blanco-negro.jpg"
     ],
@@ -377,7 +377,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/adidas/adidas-campus-00s-core-black.jpg",
       "/catalogo/sneakers/adidas/adidas-campus-00s-core-black_2.jpg",
@@ -420,7 +420,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/adidas/adidas-campus-00s-gray.jpg"
     ],
@@ -460,7 +460,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "hombre",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/adidas/hombre/adidas-campus-00s-negro-brillantes.jpg"
     ],
@@ -473,7 +473,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       44
     ],
     "status": "disponible",
-    "isFeatured": true,
+    "isFeatured": false,
     "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "Campus 00s en gamuza negra con las tres franjas de brillantes.",
@@ -498,7 +498,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "mujer",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/adidas/mujer/adidas-campus-00s-beige.jpg"
     ],
@@ -535,7 +535,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "mujer",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/adidas/mujer/adidas-campus-00s-x-lego.jpg"
     ],
@@ -564,6 +564,43 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "updatedAt": "2026-09-08T16:36:16.035Z"
   },
   {
+    "id": "sneaker-adidas-country-og-blanco-verde",
+    "name": "Adidas Country OG",
+    "brand": "Adidas",
+    "model": "Adidas Country OG",
+    "sku": "PAPI-1969",
+    "category": "general",
+    "gender": "hombre",
+    "price": 179900,
+    "originalPrice": 209900,
+    "images": [
+      "/catalogo/sneakers/adidas/hombre/adidas-country-og-blanco-verde.jpg"
+    ],
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": true,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "White / Green",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T13:33:12.682Z",
+    "updatedAt": "2026-11-06T13:33:12.682Z"
+  },
+  {
     "id": "sneaker-adidas-dreastrike-glow-blanco-navy-rojo",
     "name": "Adidas Dreastrike Glow",
     "brand": "Adidas",
@@ -572,7 +609,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "hombre",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/adidas/hombre/adidas-dreastrike-glow-blanco-navy-rojo.jpg"
     ],
@@ -610,7 +647,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "hombre",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/adidas/hombre/adidas-dreastrike-glow-blanco-negro.jpg"
     ],
@@ -648,7 +685,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "hombre",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/adidas/hombre/adidas-dreastrike-glow-crema-negro-rojo.jpg"
     ],
@@ -686,7 +723,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "hombre",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/adidas/hombre/adidas-dreastrike-glow-navy-blanco.jpg"
     ],
@@ -724,7 +761,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "hombre",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/adidas/hombre/adidas-dreastrike-glow-negro-blanco-rojo.jpg",
       "/catalogo/sneakers/adidas/hombre/adidas-dreastrike-glow-negro-blanco-rojo_2.jpg"
@@ -763,7 +800,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "hombre",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/adidas/hombre/adidas-dreastrike-glow-negro-blanco.jpg",
       "/catalogo/sneakers/adidas/hombre/adidas-dreastrike-glow-negro-blanco_2.jpg"
@@ -802,7 +839,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "mujer",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/adidas/mujer/adidas-dreastrike-glow-negro-rosado.jpg"
     ],
@@ -839,7 +876,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "mujer",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/adidas/mujer/adidas-dreastrike-glow-rosado-blanco.jpg"
     ],
@@ -876,7 +913,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/adidas/adidas-duramo-sl-blue.jpg"
     ],
@@ -916,7 +953,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/adidas/adidas-duramo-sl.jpg"
     ],
@@ -956,7 +993,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/adidas/adidas-eqt-equipment-beige-naranja.jpg"
     ],
@@ -996,7 +1033,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/adidas/adidas-forum-x-bad-bunny.jpg"
     ],
@@ -1036,7 +1073,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/adidas/adidas-gazelle-x-bad-bunny.jpg"
     ],
@@ -1076,7 +1113,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/adidas/adidas-niteball-black.jpg"
     ],
@@ -1116,7 +1153,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/adidas/adidas-niteball-upgrade.jpg"
     ],
@@ -1156,7 +1193,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/adidas/adidas-nizza-hi-fi.jpg"
     ],
@@ -1196,7 +1233,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/adidas/adidas-pureboost.jpg"
     ],
@@ -1236,7 +1273,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/adidas/adidas-response-cl-x-bad-bunny-blanco.jpg"
     ],
@@ -1276,7 +1313,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/adidas/adidas-response-cl-x-bad-bunny-benito.jpg"
     ],
@@ -1316,7 +1353,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/adidas/adidas-response-super.jpg"
     ],
@@ -1356,7 +1393,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/adidas/adidas-running-blanco-azul.jpg"
     ],
@@ -1396,7 +1433,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "mujer",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/adidas/mujer/adidas-samba-beige-rosado.jpg"
     ],
@@ -1433,7 +1470,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "mujer",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/adidas/mujer/adidas-samba-cafe-chocolate.jpg"
     ],
@@ -1470,7 +1507,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "mujer",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/adidas/mujer/adidas-samba-crema-taupe.jpg"
     ],
@@ -1507,7 +1544,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/adidas/adidas-samba-flower.jpg"
     ],
@@ -1547,7 +1584,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/adidas/adidas-samba-og.webp"
     ],
@@ -1587,7 +1624,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "mujer",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/adidas/mujer/adidas-samba-og-crema-iridiscente.jpg"
     ],
@@ -1624,7 +1661,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "mujer",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/adidas/mujer/adidas-samba-og-vino.jpg"
     ],
@@ -1661,7 +1698,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/adidas/adidas-samba-xl-negro.jpg",
       "/catalogo/sneakers/adidas/adidas-samba-xl-negro_2.jpg"
@@ -1702,7 +1739,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/adidas/adidas-sikaige.jpg"
     ],
@@ -1742,7 +1779,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/adidas/adidas-sl-72-brown.jpg"
     ],
@@ -1782,7 +1819,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/adidas/adidas-sl-72-red.jpg"
     ],
@@ -1822,7 +1859,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/adidas/adidas-spezial-olive-green.jpg"
     ],
@@ -1862,7 +1899,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/adidas/adidas-spezial.jpg"
     ],
@@ -1902,7 +1939,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "mujer",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/adidas/mujer/adidas-spezial-crema-azul-claro.jpg",
       "/catalogo/sneakers/adidas/mujer/adidas-spezial-crema-azul-claro_2.jpg"
@@ -1940,7 +1977,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "mujer",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/adidas/mujer/adidas-spezial-lila.jpg",
       "/catalogo/sneakers/adidas/mujer/adidas-spezial-lila_2.jpg"
@@ -1978,7 +2015,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "mujer",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/adidas/mujer/adidas-spezial-verde-oliva-lila.jpg",
       "/catalogo/sneakers/adidas/mujer/adidas-spezial-verde-oliva-lila_2.jpg"
@@ -2016,7 +2053,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "mujer",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/adidas/mujer/adidas-spezial-negro-leopardo.jpg",
       "/catalogo/sneakers/adidas/mujer/adidas-spezial-negro-leopardo_2.jpg"
@@ -2054,7 +2091,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/adidas/adidas-stan-smith-azul.jpg"
     ],
@@ -2094,7 +2131,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/adidas/adidas-stan-smith-negro.jpg"
     ],
@@ -2134,7 +2171,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/adidas/adidas-stan-smith-verde.jpg"
     ],
@@ -2174,7 +2211,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "hombre",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/adidas/hombre/adidas-supernova-ease-2-blanco-azul.jpg"
     ],
@@ -2212,7 +2249,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "hombre",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/adidas/hombre/adidas-supernova-ease-2-negro-blanco.jpg"
     ],
@@ -2250,7 +2287,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "hombre",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/adidas/hombre/adidas-supernova-ease-2-negro-coral.jpg"
     ],
@@ -2288,7 +2325,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "hombre",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/adidas/hombre/adidas-supernova-rise-3-blanco-azul.jpg"
     ],
@@ -2326,7 +2363,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "hombre",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/adidas/hombre/adidas-supernova-rise-3-blanco-crema.jpg"
     ],
@@ -2364,7 +2401,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "hombre",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/adidas/hombre/adidas-supernova-rise-3-blanco-degradado.jpg"
     ],
@@ -2402,7 +2439,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "hombre",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/adidas/hombre/adidas-supernova-rise-3-blanco-dorado.jpg"
     ],
@@ -2440,7 +2477,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "hombre",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/adidas/hombre/adidas-supernova-rise-3-blanco-talon-negro.jpg"
     ],
@@ -2478,7 +2515,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "hombre",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/adidas/hombre/adidas-supernova-rise-3-negro.jpg"
     ],
@@ -2516,7 +2553,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/adidas/adidas-superstar-blanco-gris-trebol.jpg"
     ],
@@ -2556,7 +2593,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/adidas/adidas-superstar-core-black.jpg",
       "/catalogo/sneakers/adidas/adidas-superstar-core-black_2.jpg",
@@ -2598,7 +2635,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/adidas/adidas-superstar-triple-black.jpg"
     ],
@@ -2638,7 +2675,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/adidas/adidas-superstar-triple-white.jpg"
     ],
@@ -2678,7 +2715,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/adidas/adidas-superstar-white-black.jpg",
       "/catalogo/sneakers/adidas/adidas-superstar-white-black_2.jpg",
@@ -2720,7 +2757,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "hombre",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/adidas/hombre/adidas-superstar-blanco-azul.jpg"
     ],
@@ -2750,6 +2787,43 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "updatedAt": "2026-08-21T13:03:03.159Z"
   },
   {
+    "id": "sneaker-adidas-superstar-blanco-verde",
+    "name": "Adidas Superstar",
+    "brand": "Adidas",
+    "model": "Adidas Superstar",
+    "sku": "PAPI-3979",
+    "category": "general",
+    "gender": "hombre",
+    "price": 179900,
+    "originalPrice": 209900,
+    "images": [
+      "/catalogo/sneakers/adidas/hombre/adidas-superstar-blanco-verde.jpg"
+    ],
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": true,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "White / Green",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T13:33:12.682Z",
+    "updatedAt": "2026-11-06T13:33:12.682Z"
+  },
+  {
     "id": "sneaker-adidas-superstar-negro-cafe",
     "name": "Adidas Superstar",
     "brand": "Adidas",
@@ -2758,7 +2832,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "hombre",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/adidas/hombre/adidas-superstar-negro-cafe.jpg"
     ],
@@ -2796,7 +2870,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "hombre",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/adidas/hombre/adidas-superstar-negro-puntera-blanca.jpg"
     ],
@@ -2834,9 +2908,10 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "mujer",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
-      "/catalogo/sneakers/adidas/mujer/adidas-superstar-azul-cielo.jpg"
+      "/catalogo/sneakers/adidas/mujer/adidas-superstar-azul-cielo.jpg",
+      "/catalogo/sneakers/adidas/mujer/adidas-superstar-azul-cielo_2.jpg"
     ],
     "sizes": [
       35,
@@ -2871,7 +2946,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "mujer",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/adidas/mujer/adidas-superstar-blanco-rosado.jpg"
     ],
@@ -2908,7 +2983,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "mujer",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/adidas/mujer/adidas-superstar-crema-negro.jpg"
     ],
@@ -2945,7 +3020,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "hombre",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/adidas/hombre/adidas-superstar-gris-estampado.jpg"
     ],
@@ -2983,7 +3058,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/adidas/adidas-superstar-rainbow.jpg"
     ],
@@ -3023,7 +3098,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/adidas/adidas-superstar-reflectivo.jpg"
     ],
@@ -3063,7 +3138,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "mujer",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/adidas/mujer/adidas-superstar-x-andre-saraiva-crema.jpg"
     ],
@@ -3100,7 +3175,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/adidas/adidas-superstar-x-blessd.jpg"
     ],
@@ -3140,7 +3215,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "hombre",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/adidas/hombre/adidas-superstar-x-neighborhood-gris.jpg"
     ],
@@ -3178,7 +3253,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "mujer",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/adidas/mujer/adidas-tresc-run-blanco-morado.jpg"
     ],
@@ -3215,7 +3290,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/adidas/adidas-ultraboost-core-black.jpg"
     ],
@@ -3255,7 +3330,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/adidas/adidas-ultraboost.jpg"
     ],
@@ -3295,7 +3370,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/jordan/jordan-1-triple-red.jpeg"
     ],
@@ -3335,7 +3410,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "hombre",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/jordan/hombre/jordan-1-low-gris-azul.jpg"
     ],
@@ -3373,7 +3448,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/jordan/jordan-1-low-morado-rosado.jpg"
     ],
@@ -3413,7 +3488,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/jordan/jordan-1-low-pastel.jpg"
     ],
@@ -3453,7 +3528,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/jordan/jordan-1-low-paris-negro.jpeg"
     ],
@@ -3493,7 +3568,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/jordan/jordan-1-low-patent-bred.jpg"
     ],
@@ -3533,7 +3608,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "mujer",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/jordan/mujer/jordan-1-low-rosa-mocha.jpg"
     ],
@@ -3570,7 +3645,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/jordan/jordan-1-low-triple-white.jpg"
     ],
@@ -3610,7 +3685,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/jordan/jordan-1-low-x-stussy-x-supreme.jpg"
     ],
@@ -3650,7 +3725,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/jordan/jordan-1-low-x-swarovski-gris.jpg"
     ],
@@ -3690,7 +3765,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/jordan/jordan-1-low-x-swarovski-negro.jpg"
     ],
@@ -3730,7 +3805,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/jordan/jordan-1-mid-azul-rey.jpg",
       "/catalogo/sneakers/jordan/jordan-1-mid-azul-rey_2.jpg"
@@ -3771,7 +3846,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/jordan/jordan-1-mid-blanco-azul-rojo.jpg"
     ],
@@ -3811,7 +3886,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/jordan/jordan-1-mid-blanco-negro.jpg"
     ],
@@ -3851,7 +3926,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/jordan/jordan-1-mid-charol-hielo.jpg",
       "/catalogo/sneakers/jordan/jordan-1-mid-charol-hielo_2.jpg"
@@ -3892,7 +3967,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/jordan/jordan-1-mid-charol-negro-concord.jpg"
     ],
@@ -3932,7 +4007,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/jordan/jordan-1-mid-charol-negro.jpg"
     ],
@@ -3972,7 +4047,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/jordan/jordan-1-mid-multicolor-navy.jpg"
     ],
@@ -4012,7 +4087,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/jordan/jordan-1-mid-negro-fucsia.jpg"
     ],
@@ -4052,7 +4127,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/jordan/jordan-1-mid-rojo-metalico.jpg"
     ],
@@ -4092,7 +4167,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/jordan/jordan-1-mid-vino-negro.jpg"
     ],
@@ -4132,7 +4207,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/jordan/jordan-1-mid-banned.jpg",
       "/catalogo/sneakers/jordan/jordan-1-mid-banned_2.jpg",
@@ -4175,7 +4250,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/jordan/jordan-1-mid-carbon-fiber.jpg",
       "/catalogo/sneakers/jordan/jordan-1-mid-carbon-fiber_2.jpg",
@@ -4217,7 +4292,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/jordan/jordan-1-mid-chicago-black-toe.jpg"
     ],
@@ -4257,7 +4332,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/jordan/jordan-1-mid-gold-toe.jpg"
     ],
@@ -4297,7 +4372,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/jordan/jordan-1-mid-light-smoke-grey.jpg"
     ],
@@ -4337,7 +4412,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/jordan/jordan-1-mid-multicolor.jpg"
     ],
@@ -4377,7 +4452,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/jordan/jordan-1-mid-panda.jpg"
     ],
@@ -4417,7 +4492,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/jordan/jordan-1-mid-pollen.jpg"
     ],
@@ -4457,7 +4532,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/jordan/jordan-1-mid-unc.jpg",
       "/catalogo/sneakers/jordan/jordan-1-mid-unc_2.jpg"
@@ -4498,7 +4573,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/jordan/jordan-1-retro-light-pink.jpeg"
     ],
@@ -4538,7 +4613,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/jordan/jordan-1-retro-high-charol-negro-fucsia.jpg"
     ],
@@ -4578,7 +4653,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/jordan/jordan-1-retro-high-charol-negro.jpg"
     ],
@@ -4618,7 +4693,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/jordan/jordan-1-retro-high-denim.jpg"
     ],
@@ -4658,7 +4733,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/jordan/jordan-1-retro-high-rojo-satin.jpg"
     ],
@@ -4698,7 +4773,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/jordan/jordan-1-retro-high-85-black-white.jpg",
       "/catalogo/sneakers/jordan/jordan-1-retro-high-85-black-white_2.jpg"
@@ -4739,7 +4814,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/jordan/jordan-1-retro-high-85-og-satin-bred.jpg"
     ],
@@ -4779,7 +4854,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/jordan/jordan-1-retro-high-chicago.jpg"
     ],
@@ -4819,7 +4894,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/jordan/jordan-1-retro-high-golden-swoosh.jpg"
     ],
@@ -4859,7 +4934,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/jordan/jordan-1-retro-high-obsidian.jpg"
     ],
@@ -4899,7 +4974,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/jordan/jordan-1-retro-high-og-black-white.jpg"
     ],
@@ -4939,7 +5014,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/jordan/jordan-1-retro-high-og-blanco-rojo.jpg",
       "/catalogo/sneakers/jordan/jordan-1-retro-high-og-blanco-rojo_2.jpg"
@@ -4980,7 +5055,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/jordan/jordan-1-retro-high-og-gorge-green.jpg"
     ],
@@ -5020,7 +5095,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/jordan/jordan-1-retro-high-og-lucky-green.jpg",
       "/catalogo/sneakers/jordan/jordan-1-retro-high-og-lucky-green_2.jpg",
@@ -5062,7 +5137,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/jordan/jordan-1-retro-high-og-obsidian-unc.jpg",
       "/catalogo/sneakers/jordan/jordan-1-retro-high-og-obsidian-unc_2.jpg"
@@ -5103,7 +5178,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/jordan/jordan-1-retro-high-og-patent-bred.jpg",
       "/catalogo/sneakers/jordan/jordan-1-retro-high-og-patent-bred_2.jpg"
@@ -5144,7 +5219,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/jordan/jordan-1-retro-high-og-unc-toe.jpg"
     ],
@@ -5184,7 +5259,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/jordan/jordan-1-retro-high-og-washed-pink.jpg"
     ],
@@ -5224,7 +5299,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/jordan/jordan-1-retro-high-university-blue.jpg"
     ],
@@ -5264,7 +5339,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/jordan/jordan-1-retro-high-x-travis-scott-negro.jpg"
     ],
@@ -5304,7 +5379,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/jordan/jordan-1-retro-watermelon.jpeg"
     ],
@@ -5344,7 +5419,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/jordan/jordan-1-retro-x-dior.jpg"
     ],
@@ -5384,7 +5459,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/jordan/jordan-1-zoom-cmft-pastel.jpg"
     ],
@@ -5419,7 +5494,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/jordan/jordan-11-retro-black-concord.jpg"
     ],
@@ -5459,7 +5534,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/jordan/jordan-11-retro-concord.jpg"
     ],
@@ -5499,7 +5574,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "hombre",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/jordan/hombre/jordan-11-retro-cool-grey.jpg"
     ],
@@ -5537,7 +5612,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "hombre",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/jordan/hombre/jordan-11-retro-gamma-blue.jpg"
     ],
@@ -5575,7 +5650,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "hombre",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/jordan/hombre/jordan-11-retro-low-72-10.jpg"
     ],
@@ -5613,7 +5688,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "hombre",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/jordan/hombre/jordan-11-retro-low-bred.jpg"
     ],
@@ -5651,7 +5726,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "hombre",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/jordan/hombre/jordan-11-retro-low-concord.jpg"
     ],
@@ -5689,7 +5764,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/jordan/jordan-11-retro-low-concord-bred.jpg",
       "/catalogo/sneakers/jordan/jordan-11-retro-low-concord-bred_2.jpg"
@@ -5730,7 +5805,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "hombre",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/jordan/hombre/jordan-11-retro-low-cool-grey.jpg"
     ],
@@ -5768,7 +5843,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "hombre",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/jordan/hombre/jordan-11-retro-low-legend-blue.jpg"
     ],
@@ -5806,7 +5881,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/jordan/jordan-11-retro-playoffs-bred.jpg",
       "/catalogo/sneakers/jordan/jordan-11-retro-playoffs-bred_2.jpg",
@@ -5849,7 +5924,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "hombre",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/jordan/hombre/jordan-11-retro-space-jam.jpg"
     ],
@@ -5887,7 +5962,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "hombre",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/jordan/hombre/jordan-13-retro-black-flint.jpg"
     ],
@@ -5925,7 +6000,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "hombre",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/jordan/hombre/jordan-13-retro-flint.jpg"
     ],
@@ -5963,7 +6038,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "hombre",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/jordan/hombre/jordan-13-retro-wolf-grey.jpg"
     ],
@@ -6001,7 +6076,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/jordan/jordan-3-retro-black-cement.jpg"
     ],
@@ -6041,7 +6116,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/jordan/jordan-3-retro-fire-red.jpg"
     ],
@@ -6081,7 +6156,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/jordan/jordan-3-retro-unc.jpg"
     ],
@@ -6121,7 +6196,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/jordan/jordan-3-retro-x-fragment.jpg"
     ],
@@ -6161,7 +6236,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/jordan/jordan-3-retro-x-travis-scott-negro.jpg"
     ],
@@ -6201,7 +6276,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/jordan/jordan-3-retro-year-of-the-tiger.jpg"
     ],
@@ -6241,7 +6316,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/jordan/jordan-3-x-j-balvin-rio.jpg"
     ],
@@ -6281,7 +6356,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/jordan/jordan-4-retro-triple-brown.jpg"
     ],
@@ -6321,7 +6396,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "mujer",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/jordan/mujer/jordan-4-retro-negro-fucsia.jpg"
     ],
@@ -6358,7 +6433,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/jordan/jordan-4-retro-black-cat_3.jpg",
       "/catalogo/sneakers/jordan/jordan-4-retro-black-cat_4.jpg"
@@ -6399,7 +6474,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/jordan/jordan-4-retro-bred.jpg"
     ],
@@ -6439,7 +6514,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/jordan/jordan-4-retro-court-purple.jpg"
     ],
@@ -6480,7 +6555,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/jordan/jordan-4-retro-orchid.jpg"
     ],
@@ -6521,7 +6596,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/jordan/jordan-4-retro-sb-pine-green.jpg"
     ],
@@ -6561,7 +6636,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/jordan/jordan-4-retro-white-oreo.jpg"
     ],
@@ -6602,7 +6677,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/jordan/jordan-4-retro-white-thunder.jpg"
     ],
@@ -6642,7 +6717,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/jordan/jordan-4-retro-x-off-white-sail.jpg"
     ],
@@ -6682,7 +6757,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/jordan/jordan-4-retro-x-union-guava-ice.jpg"
     ],
@@ -6722,7 +6797,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "hombre",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/jordan/hombre/jordan-5-retro-azul-claro.jpg"
     ],
@@ -6735,7 +6810,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       44
     ],
     "status": "disponible",
-    "isFeatured": true,
+    "isFeatured": false,
     "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "La 5 en gamuza azul claro con la malla azul, la mediasuela gris y la suela hielo.",
@@ -6760,7 +6835,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "hombre",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/jordan/hombre/jordan-5-retro-blanco-aqua.jpg"
     ],
@@ -6773,7 +6848,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       44
     ],
     "status": "disponible",
-    "isFeatured": true,
+    "isFeatured": false,
     "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "La 5 en cuero blanco con la mediasuela aqua, los dientes de tiburón naranja y la suela hielo.",
@@ -6798,7 +6873,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "mujer",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/jordan/mujer/jordan-5-retro-blanco-morado.jpg"
     ],
@@ -6835,7 +6910,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "mujer",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/jordan/mujer/jordan-5-retro-gris-amarillo.jpg"
     ],
@@ -6872,7 +6947,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "mujer",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/jordan/mujer/jordan-5-retro-alternate-bel-air.jpg"
     ],
@@ -6884,7 +6959,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       39
     ],
     "status": "disponible",
-    "isFeatured": true,
+    "isFeatured": false,
     "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "La 5 en cuero blanco con la mediasuela morada, los dientes rosados, el forro estampado y el 23 verde.",
@@ -6909,7 +6984,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "hombre",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/jordan/hombre/jordan-5-retro-fire-red.jpg"
     ],
@@ -6947,7 +7022,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "hombre",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/jordan/hombre/jordan-5-retro-light-graphite.jpg"
     ],
@@ -6985,7 +7060,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "hombre",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/jordan/hombre/jordan-5-retro-metallic-black.jpg"
     ],
@@ -7023,7 +7098,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "hombre",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/jordan/hombre/jordan-5-retro-oreo.jpg"
     ],
@@ -7061,7 +7136,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "mujer",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/jordan/mujer/jordan-5-retro-pinksicle.jpg",
       "/catalogo/sneakers/jordan/mujer/jordan-5-retro-pinksicle_2.jpg"
@@ -7099,7 +7174,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "hombre",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/jordan/hombre/jordan-5-retro-raging-bull.jpg"
     ],
@@ -7137,7 +7212,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "hombre",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/jordan/hombre/jordan-5-retro-unc.jpg"
     ],
@@ -7175,7 +7250,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "mujer",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/jordan/mujer/jordan-5-retro-white-cement.jpg"
     ],
@@ -7212,7 +7287,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "hombre",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/jordan/hombre/jordan-5-retro-wolf-grey.jpg"
     ],
@@ -7250,7 +7325,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/jordan/jordan-6-retro-infrared-white.jpg"
     ],
@@ -7289,8 +7364,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "sku": "PAPI-1047",
     "category": "general",
     "gender": "unisex",
-    "price": 190000,
-    "originalPrice": 230000,
+    "price": 189900,
+    "originalPrice": 229900,
     "images": [
       "/catalogo/sneakers/otras/asics-comfort.jpg"
     ],
@@ -7329,10 +7404,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "sku": "PAPI-1661",
     "category": "general",
     "gender": "unisex",
-    "price": 190000,
-    "originalPrice": 230000,
+    "price": 189900,
+    "originalPrice": 229900,
     "images": [
-      "/catalogo/sneakers/otras/asics-gel-kayano-14.jpg"
+      "/catalogo/sneakers/otras/asics-gel-kayano-14.jpg",
+      "/catalogo/sneakers/otras/asics-gel-kayano-14_2.jpg"
     ],
     "sizes": [
       36,
@@ -7363,6 +7439,42 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "updatedAt": "2026-08-25T15:10:14.234Z"
   },
   {
+    "id": "sneaker-asics-gel-kayano-14-plata-rosado",
+    "name": "Asics Gel-Kayano 14",
+    "brand": "Otras",
+    "model": "Asics Gel-Kayano 14",
+    "sku": "PAPI-3425",
+    "category": "general",
+    "gender": "mujer",
+    "price": 189900,
+    "originalPrice": 229900,
+    "images": [
+      "/catalogo/sneakers/otras/mujer/asics-gel-kayano-14-plata-rosado.jpg"
+    ],
+    "sizes": [
+      36,
+      37,
+      38,
+      39
+    ],
+    "status": "disponible",
+    "isFeatured": true,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Silver / Pink",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T13:33:12.682Z",
+    "updatedAt": "2026-11-06T13:33:12.682Z"
+  },
+  {
     "id": "sneaker-asics-rosado",
     "name": "Asics Rosado",
     "brand": "Otras",
@@ -7370,8 +7482,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "sku": "PAPI-3608",
     "category": "general",
     "gender": "unisex",
-    "price": 190000,
-    "originalPrice": 230000,
+    "price": 189900,
+    "originalPrice": 229900,
     "images": [
       "/catalogo/sneakers/otras/asics-rosado.jpg"
     ],
@@ -7410,8 +7522,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "sku": "PAPI-1412",
     "category": "general",
     "gender": "unisex",
-    "price": 190000,
-    "originalPrice": 230000,
+    "price": 189900,
+    "originalPrice": 229900,
     "images": [
       "/catalogo/sneakers/otras/bape-sta-blanco-negro.jpeg"
     ],
@@ -7450,8 +7562,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "sku": "PAPI-5435",
     "category": "general",
     "gender": "unisex",
-    "price": 190000,
-    "originalPrice": 230000,
+    "price": 189900,
+    "originalPrice": 229900,
     "images": [
       "/catalogo/sneakers/otras/bape-sta-negro.jpg"
     ],
@@ -7490,8 +7602,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "sku": "PAPI-2916",
     "category": "general",
     "gender": "unisex",
-    "price": 190000,
-    "originalPrice": 230000,
+    "price": 189900,
+    "originalPrice": 229900,
     "images": [
       "/catalogo/sneakers/otras/bape-sta-wgm-blanco.jpg"
     ],
@@ -7571,8 +7683,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "sku": "PAPI-1037",
     "category": "general",
     "gender": "unisex",
-    "price": 190000,
-    "originalPrice": 230000,
+    "price": 189900,
+    "originalPrice": 229900,
     "images": [
       "/catalogo/sneakers/hugo-boss/boss-black-pillow.jpg"
     ],
@@ -7693,8 +7805,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "sku": "PAPI-3708",
     "category": "general",
     "gender": "unisex",
-    "price": 190000,
-    "originalPrice": 230000,
+    "price": 189900,
+    "originalPrice": 229900,
     "images": [
       "/catalogo/sneakers/hugo-boss/boss-master-gris.jpg"
     ],
@@ -7815,8 +7927,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "sku": "PAPI-1148",
     "category": "general",
     "gender": "hombre",
-    "price": 190000,
-    "originalPrice": 230000,
+    "price": 189900,
+    "originalPrice": 229900,
     "images": [
       "/catalogo/sneakers/hugo-boss/hombre/hugo-boss-monograma-azul.jpg"
     ],
@@ -7852,8 +7964,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "sku": "PAPI-8848",
     "category": "general",
     "gender": "hombre",
-    "price": 190000,
-    "originalPrice": 230000,
+    "price": 189900,
+    "originalPrice": 229900,
     "images": [
       "/catalogo/sneakers/hugo-boss/hombre/hugo-boss-monograma-negro-oro.jpg"
     ],
@@ -7889,8 +8001,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "sku": "PAPI-5446",
     "category": "general",
     "gender": "hombre",
-    "price": 190000,
-    "originalPrice": 230000,
+    "price": 189900,
+    "originalPrice": 229900,
     "images": [
       "/catalogo/sneakers/hugo-boss/hombre/hugo-boss-monograma-negro-plata.jpg"
     ],
@@ -8172,8 +8284,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "sku": "PAPI-5327",
     "category": "general",
     "gender": "hombre",
-    "price": 190000,
-    "originalPrice": 230000,
+    "price": 189900,
+    "originalPrice": 229900,
     "images": [
       "/catalogo/sneakers/hugo-boss/hombre/hugo-boss-runn-blanco-verde.jpg"
     ],
@@ -8209,8 +8321,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "sku": "PAPI-8451",
     "category": "general",
     "gender": "hombre",
-    "price": 190000,
-    "originalPrice": 230000,
+    "price": 189900,
+    "originalPrice": 229900,
     "images": [
       "/catalogo/sneakers/hugo-boss/hombre/hugo-boss-runn-blanco-hielo.jpg"
     ],
@@ -8246,8 +8358,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "sku": "PAPI-2120",
     "category": "general",
     "gender": "hombre",
-    "price": 190000,
-    "originalPrice": 230000,
+    "price": 189900,
+    "originalPrice": 229900,
     "images": [
       "/catalogo/sneakers/hugo-boss/hombre/hugo-boss-runn-taupe.jpg"
     ],
@@ -8283,8 +8395,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "sku": "PAPI-1113",
     "category": "general",
     "gender": "hombre",
-    "price": 190000,
-    "originalPrice": 230000,
+    "price": 189900,
+    "originalPrice": 229900,
     "images": [
       "/catalogo/sneakers/hugo-boss/hombre/hugo-boss-runner-gamuza-gris.jpg"
     ],
@@ -8320,8 +8432,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "sku": "PAPI-6339",
     "category": "general",
     "gender": "hombre",
-    "price": 190000,
-    "originalPrice": 230000,
+    "price": 189900,
+    "originalPrice": 229900,
     "images": [
       "/catalogo/sneakers/hugo-boss/hombre/hugo-boss-runner-gamuza-negro.jpg"
     ],
@@ -8357,8 +8469,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "sku": "PAPI-4007",
     "category": "general",
     "gender": "hombre",
-    "price": 190000,
-    "originalPrice": 230000,
+    "price": 189900,
+    "originalPrice": 229900,
     "images": [
       "/catalogo/sneakers/hugo-boss/hombre/hugo-boss-runner-gamuza-negro-gum.jpg"
     ],
@@ -8476,8 +8588,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "sku": "PAPI-1256",
     "category": "general",
     "gender": "hombre",
-    "price": 190000,
-    "originalPrice": 230000,
+    "price": 189900,
+    "originalPrice": 229900,
     "images": [
       "/catalogo/sneakers/hugo-boss/hombre/hugo-boss-ttnm-evo-azul-navy.jpg"
     ],
@@ -8513,8 +8625,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "sku": "PAPI-1145",
     "category": "general",
     "gender": "hombre",
-    "price": 190000,
-    "originalPrice": 230000,
+    "price": 189900,
+    "originalPrice": 229900,
     "images": [
       "/catalogo/sneakers/hugo-boss/hombre/hugo-boss-ttnm-evo-blanco.jpg"
     ],
@@ -8550,8 +8662,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "sku": "PAPI-9005",
     "category": "general",
     "gender": "hombre",
-    "price": 190000,
-    "originalPrice": 230000,
+    "price": 189900,
+    "originalPrice": 229900,
     "images": [
       "/catalogo/sneakers/hugo-boss/hombre/hugo-boss-ttnm-evo-camel.jpg"
     ],
@@ -8587,8 +8699,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "sku": "PAPI-1298",
     "category": "general",
     "gender": "hombre",
-    "price": 190000,
-    "originalPrice": 230000,
+    "price": 189900,
+    "originalPrice": 229900,
     "images": [
       "/catalogo/sneakers/hugo-boss/hombre/hugo-boss-ttnm-evo-gris.jpg"
     ],
@@ -8624,8 +8736,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "sku": "PAPI-3921",
     "category": "general",
     "gender": "hombre",
-    "price": 190000,
-    "originalPrice": 230000,
+    "price": 189900,
+    "originalPrice": 229900,
     "images": [
       "/catalogo/sneakers/hugo-boss/hombre/hugo-boss-ttnm-evo-knit-crema.jpg"
     ],
@@ -8661,8 +8773,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "sku": "PAPI-3244",
     "category": "general",
     "gender": "hombre",
-    "price": 190000,
-    "originalPrice": 230000,
+    "price": 189900,
+    "originalPrice": 229900,
     "images": [
       "/catalogo/sneakers/hugo-boss/hombre/hugo-boss-ttnm-evo-knit-navy.jpg"
     ],
@@ -8698,8 +8810,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "sku": "PAPI-1135",
     "category": "general",
     "gender": "hombre",
-    "price": 190000,
-    "originalPrice": 230000,
+    "price": 189900,
+    "originalPrice": 229900,
     "images": [
       "/catalogo/sneakers/hugo-boss/hombre/hugo-boss-ttnm-evo-knit-gris-hielo.jpg"
     ],
@@ -8735,8 +8847,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "sku": "PAPI-1156",
     "category": "general",
     "gender": "hombre",
-    "price": 190000,
-    "originalPrice": 230000,
+    "price": 189900,
+    "originalPrice": 229900,
     "images": [
       "/catalogo/sneakers/hugo-boss/hombre/hugo-boss-ttnm-evo-negro-gum.jpg"
     ],
@@ -9172,8 +9284,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "sku": "PAPI-7483",
     "category": "general",
     "gender": "unisex",
-    "price": 190000,
-    "originalPrice": 230000,
+    "price": 189900,
+    "originalPrice": 229900,
     "images": [
       "/catalogo/sneakers/calvin-klein/calvin-klein-carlla.jpg"
     ],
@@ -9852,8 +9964,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "sku": "PAPI-1468",
     "category": "general",
     "gender": "unisex",
-    "price": 190000,
-    "originalPrice": 230000,
+    "price": 189900,
+    "originalPrice": 229900,
     "images": [
       "/catalogo/sneakers/calvin-klein/calvin-klein-jeans-negro.jpg"
     ],
@@ -10384,8 +10496,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "sku": "PAPI-1571",
     "category": "general",
     "gender": "hombre",
-    "price": 190000,
-    "originalPrice": 230000,
+    "price": 189900,
+    "originalPrice": 229900,
     "images": [
       "/catalogo/sneakers/otras/hombre/christian-dior-b30-blanco.jpg"
     ],
@@ -10422,8 +10534,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "sku": "PAPI-1220",
     "category": "general",
     "gender": "hombre",
-    "price": 190000,
-    "originalPrice": 230000,
+    "price": 189900,
+    "originalPrice": 229900,
     "images": [
       "/catalogo/sneakers/otras/hombre/christian-dior-b30-negro-gris.jpg"
     ],
@@ -10460,8 +10572,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "sku": "PAPI-1554",
     "category": "general",
     "gender": "unisex",
-    "price": 190000,
-    "originalPrice": 230000,
+    "price": 189900,
+    "originalPrice": 229900,
     "images": [
       "/catalogo/sneakers/otras/christian-dior-running.jpg",
       "/catalogo/sneakers/otras/christian-dior-running_2.jpg"
@@ -10501,8 +10613,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "sku": "PAPI-4974",
     "category": "general",
     "gender": "unisex",
-    "price": 190000,
-    "originalPrice": 230000,
+    "price": 189900,
+    "originalPrice": 229900,
     "images": [
       "/catalogo/sneakers/otras/coach-platform.jpg"
     ],
@@ -10541,8 +10653,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "sku": "PAPI-8626",
     "category": "general",
     "gender": "hombre",
-    "price": 190000,
-    "originalPrice": 230000,
+    "price": 189900,
+    "originalPrice": 229900,
     "images": [
       "/catalogo/sneakers/otras/hombre/coach-signature-blanco.jpg"
     ],
@@ -10555,7 +10667,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       44
     ],
     "status": "disponible",
-    "isFeatured": true,
+    "isFeatured": false,
     "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "Coach en cuero blanco con el monograma gris y la C negra en el costado.",
@@ -10579,8 +10691,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "sku": "PAPI-1056",
     "category": "general",
     "gender": "hombre",
-    "price": 190000,
-    "originalPrice": 230000,
+    "price": 189900,
+    "originalPrice": 229900,
     "images": [
       "/catalogo/sneakers/otras/hombre/coach-signature-cafe.jpg"
     ],
@@ -10593,7 +10705,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       44
     ],
     "status": "disponible",
-    "isFeatured": true,
+    "isFeatured": false,
     "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "Coach en lona del monograma café con gamuza caramelo y la C grande en el costado.",
@@ -10617,8 +10729,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "sku": "PAPI-2890",
     "category": "general",
     "gender": "hombre",
-    "price": 190000,
-    "originalPrice": 230000,
+    "price": 189900,
+    "originalPrice": 229900,
     "images": [
       "/catalogo/sneakers/otras/hombre/coach-signature-negro-brillantes.jpg"
     ],
@@ -10655,8 +10767,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "sku": "PAPI-2433",
     "category": "general",
     "gender": "hombre",
-    "price": 190000,
-    "originalPrice": 230000,
+    "price": 189900,
+    "originalPrice": 229900,
     "images": [
       "/catalogo/sneakers/otras/hombre/coach-signature-negro.jpg"
     ],
@@ -10669,7 +10781,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       44
     ],
     "status": "disponible",
-    "isFeatured": true,
+    "isFeatured": false,
     "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "Coach en lona del monograma gris con cuero negro y la C grande en el costado.",
@@ -10693,8 +10805,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "sku": "PAPI-1622",
     "category": "general",
     "gender": "mujer",
-    "price": 190000,
-    "originalPrice": 230000,
+    "price": 189900,
+    "originalPrice": 229900,
     "images": [
       "/catalogo/sneakers/otras/mujer/converse-chuck-70-crema.jpg"
     ],
@@ -10730,8 +10842,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "sku": "PAPI-9600",
     "category": "general",
     "gender": "mujer",
-    "price": 190000,
-    "originalPrice": 230000,
+    "price": 189900,
+    "originalPrice": 229900,
     "images": [
       "/catalogo/sneakers/otras/mujer/converse-chuck-70-lavanda.jpg"
     ],
@@ -10767,8 +10879,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "sku": "PAPI-1320",
     "category": "general",
     "gender": "mujer",
-    "price": 190000,
-    "originalPrice": 230000,
+    "price": 189900,
+    "originalPrice": 229900,
     "images": [
       "/catalogo/sneakers/otras/mujer/converse-chuck-70-crema-flor.jpg"
     ],
@@ -10804,8 +10916,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "sku": "PAPI-5442",
     "category": "general",
     "gender": "mujer",
-    "price": 190000,
-    "originalPrice": 230000,
+    "price": 189900,
+    "originalPrice": 229900,
     "images": [
       "/catalogo/sneakers/otras/mujer/converse-chuck-70-love-blanco.jpg",
       "/catalogo/sneakers/otras/mujer/converse-chuck-70-love-blanco_2.jpg"
@@ -10842,8 +10954,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "sku": "PAPI-1469",
     "category": "general",
     "gender": "mujer",
-    "price": 190000,
-    "originalPrice": 230000,
+    "price": 189900,
+    "originalPrice": 229900,
     "images": [
       "/catalogo/sneakers/otras/mujer/converse-chuck-70-plataforma-cuero-negro.jpg"
     ],
@@ -10879,8 +10991,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "sku": "PAPI-1591",
     "category": "general",
     "gender": "mujer",
-    "price": 190000,
-    "originalPrice": 230000,
+    "price": 189900,
+    "originalPrice": 229900,
     "images": [
       "/catalogo/sneakers/otras/mujer/converse-chuck-70-plataforma-negro.jpg"
     ],
@@ -10916,8 +11028,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "sku": "PAPI-9790",
     "category": "general",
     "gender": "mujer",
-    "price": 190000,
-    "originalPrice": 230000,
+    "price": 189900,
+    "originalPrice": 229900,
     "images": [
       "/catalogo/sneakers/otras/mujer/converse-chuck-taylor-lift-blanco.jpg"
     ],
@@ -10953,8 +11065,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "sku": "PAPI-1295",
     "category": "general",
     "gender": "mujer",
-    "price": 190000,
-    "originalPrice": 230000,
+    "price": 189900,
+    "originalPrice": 229900,
     "images": [
       "/catalogo/sneakers/otras/mujer/converse-chuck-taylor-lift-negro-satin.jpg"
     ],
@@ -10990,8 +11102,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "sku": "PAPI-7277",
     "category": "general",
     "gender": "mujer",
-    "price": 190000,
-    "originalPrice": 230000,
+    "price": 189900,
+    "originalPrice": 229900,
     "images": [
       "/catalogo/sneakers/otras/mujer/converse-chuck-taylor-lift-negro.jpg"
     ],
@@ -11027,8 +11139,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "sku": "PAPI-5747",
     "category": "general",
     "gender": "mujer",
-    "price": 190000,
-    "originalPrice": 230000,
+    "price": 189900,
+    "originalPrice": 229900,
     "images": [
       "/catalogo/sneakers/otras/mujer/converse-chuck-taylor-lift-vino.jpg"
     ],
@@ -11064,8 +11176,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "sku": "PAPI-6408",
     "category": "general",
     "gender": "mujer",
-    "price": 190000,
-    "originalPrice": 230000,
+    "price": 189900,
+    "originalPrice": 229900,
     "images": [
       "/catalogo/sneakers/otras/mujer/converse-chuck-taylor-lift-bordado-crema.jpg"
     ],
@@ -11101,8 +11213,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "sku": "PAPI-1388",
     "category": "general",
     "gender": "mujer",
-    "price": 190000,
-    "originalPrice": 230000,
+    "price": 189900,
+    "originalPrice": 229900,
     "images": [
       "/catalogo/sneakers/otras/mujer/converse-chuck-taylor-lift-bordado-negro.jpg"
     ],
@@ -11138,8 +11250,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "sku": "PAPI-3389",
     "category": "general",
     "gender": "mujer",
-    "price": 190000,
-    "originalPrice": 230000,
+    "price": 189900,
+    "originalPrice": 229900,
     "images": [
       "/catalogo/sneakers/otras/mujer/converse-chuck-taylor-lift-corazones-blanco.jpg"
     ],
@@ -11175,8 +11287,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "sku": "PAPI-1626",
     "category": "general",
     "gender": "mujer",
-    "price": 190000,
-    "originalPrice": 230000,
+    "price": 189900,
+    "originalPrice": 229900,
     "images": [
       "/catalogo/sneakers/otras/mujer/converse-chuck-taylor-lift-corazones-crema.jpg"
     ],
@@ -11212,8 +11324,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "sku": "PAPI-1835",
     "category": "general",
     "gender": "mujer",
-    "price": 190000,
-    "originalPrice": 230000,
+    "price": 189900,
+    "originalPrice": 229900,
     "images": [
       "/catalogo/sneakers/otras/mujer/converse-chuck-taylor-lift-cuero-crema.jpg"
     ],
@@ -11249,8 +11361,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "sku": "PAPI-1112",
     "category": "general",
     "gender": "unisex",
-    "price": 190000,
-    "originalPrice": 230000,
+    "price": 189900,
+    "originalPrice": 229900,
     "images": [
       "/catalogo/sneakers/otras/creative-recreation-blanco-negro.jpeg"
     ],
@@ -11289,8 +11401,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "sku": "PAPI-1632",
     "category": "general",
     "gender": "unisex",
-    "price": 190000,
-    "originalPrice": 230000,
+    "price": 189900,
+    "originalPrice": 229900,
     "images": [
       "/catalogo/sneakers/otras/creative-recreation-blanco.jpg"
     ],
@@ -11329,8 +11441,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "sku": "PAPI-1245",
     "category": "general",
     "gender": "unisex",
-    "price": 190000,
-    "originalPrice": 230000,
+    "price": 189900,
+    "originalPrice": 229900,
     "images": [
       "/catalogo/sneakers/otras/creative-recreation-gris-negro.jpg"
     ],
@@ -11369,8 +11481,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "sku": "PAPI-1544",
     "category": "general",
     "gender": "unisex",
-    "price": 190000,
-    "originalPrice": 230000,
+    "price": 189900,
+    "originalPrice": 229900,
     "images": [
       "/catalogo/sneakers/otras/creative-recreation-triple-negro.jpg"
     ],
@@ -11409,8 +11521,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "sku": "PAPI-8654",
     "category": "general",
     "gender": "unisex",
-    "price": 190000,
-    "originalPrice": 230000,
+    "price": 189900,
+    "originalPrice": 229900,
     "images": [
       "/catalogo/sneakers/otras/creative-recreation-los-angeles.jpg"
     ],
@@ -11449,8 +11561,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "sku": "PAPI-1582",
     "category": "general",
     "gender": "unisex",
-    "price": 190000,
-    "originalPrice": 230000,
+    "price": 189900,
+    "originalPrice": 229900,
     "images": [
       "/catalogo/sneakers/otras/creative-recreation-tejido-blanco-negro.jpg"
     ],
@@ -11489,8 +11601,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "sku": "PAPI-2587",
     "category": "general",
     "gender": "hombre",
-    "price": 190000,
-    "originalPrice": 230000,
+    "price": 189900,
+    "originalPrice": 229900,
     "images": [
       "/catalogo/sneakers/otras/hombre/diesel-running-gris-navy.jpg"
     ],
@@ -11527,8 +11639,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "sku": "PAPI-6345",
     "category": "general",
     "gender": "hombre",
-    "price": 190000,
-    "originalPrice": 230000,
+    "price": 189900,
+    "originalPrice": 229900,
     "images": [
       "/catalogo/sneakers/otras/hombre/diesel-running-negro.jpg"
     ],
@@ -11565,8 +11677,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "sku": "PAPI-5318",
     "category": "general",
     "gender": "unisex",
-    "price": 190000,
-    "originalPrice": 230000,
+    "price": 189900,
+    "originalPrice": 229900,
     "images": [
       "/catalogo/sneakers/otras/dolce-gabbana.jpg"
     ],
@@ -11605,8 +11717,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "sku": "PAPI-4214",
     "category": "general",
     "gender": "mujer",
-    "price": 190000,
-    "originalPrice": 230000,
+    "price": 189900,
+    "originalPrice": 229900,
     "images": [
       "/catalogo/sneakers/otras/mujer/fila-running-blanco-crema.jpg"
     ],
@@ -11642,8 +11754,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "sku": "PAPI-8347",
     "category": "general",
     "gender": "unisex",
-    "price": 190000,
-    "originalPrice": 230000,
+    "price": 189900,
+    "originalPrice": 229900,
     "images": [
       "/catalogo/sneakers/otras/gucci-platform.jpg"
     ],
@@ -12420,8 +12532,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "sku": "PAPI-8369",
     "category": "general",
     "gender": "unisex",
-    "price": 190000,
-    "originalPrice": 230000,
+    "price": 189900,
+    "originalPrice": 229900,
     "images": [
       "/catalogo/sneakers/hugo-boss/hugo-boss-classic.jpg"
     ],
@@ -12451,6 +12563,154 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "inquiriesCount": 0,
     "createdAt": "2026-08-13T19:36:12.000Z",
     "updatedAt": "2026-08-13T19:36:12.000Z"
+  },
+  {
+    "id": "sneaker-hugo-boss-runner-beige-cafe",
+    "name": "Hugo Boss Runner",
+    "brand": "Hugo Boss",
+    "model": "Hugo Boss Runner",
+    "sku": "PAPI-3659",
+    "category": "general",
+    "gender": "hombre",
+    "price": 189900,
+    "originalPrice": 229900,
+    "images": [
+      "/catalogo/sneakers/hugo-boss/hombre/hugo-boss-runner-beige-cafe.jpg"
+    ],
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": true,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Beige / Brown",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T13:33:12.682Z",
+    "updatedAt": "2026-11-06T13:33:12.682Z"
+  },
+  {
+    "id": "sneaker-hugo-boss-runner-gris-oscuro",
+    "name": "Hugo Boss Runner",
+    "brand": "Hugo Boss",
+    "model": "Hugo Boss Runner",
+    "sku": "PAPI-5984",
+    "category": "general",
+    "gender": "hombre",
+    "price": 189900,
+    "originalPrice": 229900,
+    "images": [
+      "/catalogo/sneakers/hugo-boss/hombre/hugo-boss-runner-gris-oscuro.jpg"
+    ],
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": true,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Dark Grey",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T13:33:12.682Z",
+    "updatedAt": "2026-11-06T13:33:12.682Z"
+  },
+  {
+    "id": "sneaker-hugo-boss-runner-navy",
+    "name": "Hugo Boss Runner",
+    "brand": "Hugo Boss",
+    "model": "Hugo Boss Runner",
+    "sku": "PAPI-8125",
+    "category": "general",
+    "gender": "hombre",
+    "price": 189900,
+    "originalPrice": 229900,
+    "images": [
+      "/catalogo/sneakers/hugo-boss/hombre/hugo-boss-runner-navy.jpg"
+    ],
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": true,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Navy",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T13:33:12.682Z",
+    "updatedAt": "2026-11-06T13:33:12.682Z"
+  },
+  {
+    "id": "sneaker-hugo-boss-runner-negro-oliva",
+    "name": "Hugo Boss Runner",
+    "brand": "Hugo Boss",
+    "model": "Hugo Boss Runner",
+    "sku": "PAPI-6453",
+    "category": "general",
+    "gender": "hombre",
+    "price": 189900,
+    "originalPrice": 229900,
+    "images": [
+      "/catalogo/sneakers/hugo-boss/hombre/hugo-boss-runner-negro-oliva.jpg"
+    ],
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Black / Olive",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T13:33:12.682Z",
+    "updatedAt": "2026-11-06T13:33:12.682Z"
   },
   {
     "id": "sneaker-hugo-boss-saturn",
@@ -12502,7 +12762,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "hombre",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/jordan/hombre/jordan-blanco.jpg"
     ],
@@ -12540,7 +12800,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/jordan/jordan-legacy-312-blanco-rosado.jpeg"
     ],
@@ -12580,7 +12840,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "hombre",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/jordan/hombre/jordan-negro.jpg"
     ],
@@ -12617,8 +12877,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "sku": "PAPI-4133",
     "category": "general",
     "gender": "hombre",
-    "price": 190000,
-    "originalPrice": 230000,
+    "price": 189900,
+    "originalPrice": 229900,
     "images": [
       "/catalogo/sneakers/otras/hombre/le-coq-sportif-runner-blanco.jpg"
     ],
@@ -12655,8 +12915,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "sku": "PAPI-1639",
     "category": "general",
     "gender": "hombre",
-    "price": 190000,
-    "originalPrice": 230000,
+    "price": 189900,
+    "originalPrice": 229900,
     "images": [
       "/catalogo/sneakers/otras/hombre/le-coq-sportif-runner-negro-gum.jpg"
     ],
@@ -12693,8 +12953,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "sku": "PAPI-9616",
     "category": "general",
     "gender": "hombre",
-    "price": 190000,
-    "originalPrice": 230000,
+    "price": 189900,
+    "originalPrice": 229900,
     "images": [
       "/catalogo/sneakers/otras/hombre/le-coq-sportif-runner-negro.jpg"
     ],
@@ -12724,6 +12984,210 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "updatedAt": "2026-10-27T23:26:23.631Z"
   },
   {
+    "id": "sneaker-louis-vuitton-skate-blanco-negro",
+    "name": "Louis Vuitton LV Skate",
+    "brand": "Louis Vuitton",
+    "model": "Louis Vuitton LV Skate",
+    "sku": "PAPI-5459",
+    "category": "general",
+    "gender": "unisex",
+    "price": 189900,
+    "originalPrice": 229900,
+    "images": [
+      "/catalogo/sneakers/louis-vuitton/louis-vuitton-skate-blanco-negro.jpg",
+      "/catalogo/sneakers/louis-vuitton/louis-vuitton-skate-blanco-negro_2.jpg",
+      "/catalogo/sneakers/louis-vuitton/louis-vuitton-skate-blanco-negro_3.jpg",
+      "/catalogo/sneakers/louis-vuitton/louis-vuitton-skate-blanco-negro_4.jpg"
+    ],
+    "sizes": [
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": true,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "White / Black",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T13:33:12.682Z",
+    "updatedAt": "2026-11-06T13:33:12.682Z"
+  },
+  {
+    "id": "sneaker-louis-vuitton-skate-negro-blanco",
+    "name": "Louis Vuitton LV Skate",
+    "brand": "Louis Vuitton",
+    "model": "Louis Vuitton LV Skate",
+    "sku": "PAPI-5118",
+    "category": "general",
+    "gender": "unisex",
+    "price": 189900,
+    "originalPrice": 229900,
+    "images": [
+      "/catalogo/sneakers/louis-vuitton/louis-vuitton-skate-negro-blanco.jpg",
+      "/catalogo/sneakers/louis-vuitton/louis-vuitton-skate-negro-blanco_2.jpg",
+      "/catalogo/sneakers/louis-vuitton/louis-vuitton-skate-negro-blanco_3.jpg",
+      "/catalogo/sneakers/louis-vuitton/louis-vuitton-skate-negro-blanco_4.jpg"
+    ],
+    "sizes": [
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Black / White",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T13:33:12.682Z",
+    "updatedAt": "2026-11-06T13:33:12.682Z"
+  },
+  {
+    "id": "sneaker-louis-vuitton-skate-negro",
+    "name": "Louis Vuitton LV Skate",
+    "brand": "Louis Vuitton",
+    "model": "Louis Vuitton LV Skate",
+    "sku": "PAPI-1926",
+    "category": "general",
+    "gender": "unisex",
+    "price": 189900,
+    "originalPrice": 229900,
+    "images": [
+      "/catalogo/sneakers/louis-vuitton/louis-vuitton-skate-negro.jpg",
+      "/catalogo/sneakers/louis-vuitton/louis-vuitton-skate-negro_2.jpg"
+    ],
+    "sizes": [
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": true,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Black",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T13:33:12.682Z",
+    "updatedAt": "2026-11-06T13:33:12.682Z"
+  },
+  {
+    "id": "sneaker-louis-vuitton-skate-negro-brillos",
+    "name": "Louis Vuitton LV Skate",
+    "brand": "Louis Vuitton",
+    "model": "Louis Vuitton LV Skate",
+    "sku": "PAPI-7011",
+    "category": "general",
+    "gender": "mujer",
+    "price": 189900,
+    "originalPrice": 229900,
+    "images": [
+      "/catalogo/sneakers/louis-vuitton/mujer/louis-vuitton-skate-negro-brillos.jpg",
+      "/catalogo/sneakers/louis-vuitton/mujer/louis-vuitton-skate-negro-brillos_2.jpg"
+    ],
+    "sizes": [
+      36,
+      37,
+      38,
+      39
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Black / Crystal",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T13:33:12.682Z",
+    "updatedAt": "2026-11-06T13:33:12.682Z"
+  },
+  {
+    "id": "sneaker-louis-vuitton-trainer-flores",
+    "name": "Louis Vuitton LV Trainer",
+    "brand": "Louis Vuitton",
+    "model": "Louis Vuitton LV Trainer",
+    "sku": "PAPI-7300",
+    "category": "general",
+    "gender": "hombre",
+    "price": 189900,
+    "originalPrice": 229900,
+    "images": [
+      "/catalogo/sneakers/louis-vuitton/hombre/louis-vuitton-trainer-flores.jpg"
+    ],
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "White / Multicolor",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T13:33:12.682Z",
+    "updatedAt": "2026-11-06T13:33:12.682Z"
+  },
+  {
     "id": "sneaker-louis-vuitton-skate-azul-blanco",
     "name": "Louis Vuitton Skate",
     "brand": "Louis Vuitton",
@@ -12731,8 +13195,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "sku": "PAPI-3720",
     "category": "general",
     "gender": "unisex",
-    "price": 190000,
-    "originalPrice": 230000,
+    "price": 189900,
+    "originalPrice": 229900,
     "images": [
       "/catalogo/sneakers/louis-vuitton/louis-vuitton-skate-azul-blanco.jpg"
     ],
@@ -12771,8 +13235,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "sku": "PAPI-2596",
     "category": "general",
     "gender": "unisex",
-    "price": 190000,
-    "originalPrice": 230000,
+    "price": 189900,
+    "originalPrice": 229900,
     "images": [
       "/catalogo/sneakers/louis-vuitton/louis-vuitton-skate-blanco-beige.jpg"
     ],
@@ -12811,10 +13275,12 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "sku": "PAPI-4197",
     "category": "general",
     "gender": "unisex",
-    "price": 190000,
-    "originalPrice": 230000,
+    "price": 189900,
+    "originalPrice": 229900,
     "images": [
-      "/catalogo/sneakers/louis-vuitton/louis-vuitton-skate-blanco-gris.jpg"
+      "/catalogo/sneakers/louis-vuitton/louis-vuitton-skate-blanco-gris.jpg",
+      "/catalogo/sneakers/louis-vuitton/louis-vuitton-skate-blanco-gris_2.jpg",
+      "/catalogo/sneakers/louis-vuitton/louis-vuitton-skate-blanco-gris_3.jpg"
     ],
     "sizes": [
       37,
@@ -12851,8 +13317,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "sku": "PAPI-1247",
     "category": "general",
     "gender": "unisex",
-    "price": 190000,
-    "originalPrice": 230000,
+    "price": 189900,
+    "originalPrice": 229900,
     "images": [
       "/catalogo/sneakers/louis-vuitton/louis-vuitton-skate-rojo.jpg"
     ],
@@ -12891,8 +13357,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "sku": "PAPI-1186",
     "category": "general",
     "gender": "unisex",
-    "price": 190000,
-    "originalPrice": 230000,
+    "price": 189900,
+    "originalPrice": 229900,
     "images": [
       "/catalogo/sneakers/louis-vuitton/louis-vuitton-skate-triple-blanco.jpg"
     ],
@@ -12931,8 +13397,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "sku": "PAPI-2382",
     "category": "general",
     "gender": "unisex",
-    "price": 190000,
-    "originalPrice": 230000,
+    "price": 189900,
+    "originalPrice": 229900,
     "images": [
       "/catalogo/sneakers/louis-vuitton/louis-vuitton-skate-triple-negro.jpg"
     ],
@@ -12971,8 +13437,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "sku": "PAPI-8346",
     "category": "general",
     "gender": "unisex",
-    "price": 190000,
-    "originalPrice": 230000,
+    "price": 189900,
+    "originalPrice": 229900,
     "images": [
       "/catalogo/sneakers/louis-vuitton/louis-vuitton-skate-verde.jpg"
     ],
@@ -13011,8 +13477,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "sku": "PAPI-1645",
     "category": "general",
     "gender": "hombre",
-    "price": 190000,
-    "originalPrice": 230000,
+    "price": 189900,
+    "originalPrice": 229900,
     "images": [
       "/catalogo/sneakers/louis-vuitton/hombre/louis-vuitton-skate-cuero-azul-royal.jpg"
     ],
@@ -13049,8 +13515,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "sku": "PAPI-4491",
     "category": "general",
     "gender": "hombre",
-    "price": 190000,
-    "originalPrice": 230000,
+    "price": 189900,
+    "originalPrice": 229900,
     "images": [
       "/catalogo/sneakers/louis-vuitton/hombre/louis-vuitton-skate-cuero-blanco-gris.jpg"
     ],
@@ -13087,8 +13553,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "sku": "PAPI-3390",
     "category": "general",
     "gender": "hombre",
-    "price": 190000,
-    "originalPrice": 230000,
+    "price": 189900,
+    "originalPrice": 229900,
     "images": [
       "/catalogo/sneakers/louis-vuitton/hombre/louis-vuitton-skate-cuero-crema.jpg"
     ],
@@ -13125,8 +13591,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "sku": "PAPI-2704",
     "category": "general",
     "gender": "unisex",
-    "price": 190000,
-    "originalPrice": 230000,
+    "price": 189900,
+    "originalPrice": 229900,
     "images": [
       "/catalogo/sneakers/louis-vuitton/louis-vuitton-skate-negro-monogram.jpg",
       "/catalogo/sneakers/louis-vuitton/louis-vuitton-skate-negro-monogram_2.jpg"
@@ -13166,8 +13632,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "sku": "PAPI-9015",
     "category": "general",
     "gender": "hombre",
-    "price": 190000,
-    "originalPrice": 230000,
+    "price": 189900,
+    "originalPrice": 229900,
     "images": [
       "/catalogo/sneakers/louis-vuitton/hombre/louis-vuitton-trainer-denim-negro.jpg"
     ],
@@ -13204,8 +13670,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "sku": "PAPI-8013",
     "category": "general",
     "gender": "unisex",
-    "price": 190000,
-    "originalPrice": 230000,
+    "price": 189900,
+    "originalPrice": 229900,
     "images": [
       "/catalogo/sneakers/louis-vuitton/louis-vuitton-trainer-blanco-negro.jpg"
     ],
@@ -13244,8 +13710,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "sku": "PAPI-1585",
     "category": "general",
     "gender": "unisex",
-    "price": 190000,
-    "originalPrice": 230000,
+    "price": 189900,
+    "originalPrice": 229900,
     "images": [
       "/catalogo/sneakers/louis-vuitton/louis-vuitton-trainer-negro.jpg"
     ],
@@ -13284,8 +13750,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "sku": "PAPI-6253",
     "category": "general",
     "gender": "unisex",
-    "price": 190000,
-    "originalPrice": 230000,
+    "price": 189900,
+    "originalPrice": 229900,
     "images": [
       "/catalogo/sneakers/louis-vuitton/louis-vuitton-trainer-denim-monogram.jpg",
       "/catalogo/sneakers/louis-vuitton/louis-vuitton-trainer-denim-monogram_2.jpg"
@@ -13325,8 +13791,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "sku": "PAPI-1066",
     "category": "general",
     "gender": "hombre",
-    "price": 190000,
-    "originalPrice": 230000,
+    "price": 189900,
+    "originalPrice": 229900,
     "images": [
       "/catalogo/sneakers/louis-vuitton/hombre/louis-vuitton-trainer-mid-negro.jpg"
     ],
@@ -13363,8 +13829,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "sku": "PAPI-6110",
     "category": "general",
     "gender": "mujer",
-    "price": 190000,
-    "originalPrice": 230000,
+    "price": 189900,
+    "originalPrice": 229900,
     "images": [
       "/catalogo/sneakers/otras/mujer/madhappy-estrella-blanco.jpg"
     ],
@@ -13400,8 +13866,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "sku": "PAPI-5493",
     "category": "general",
     "gender": "mujer",
-    "price": 190000,
-    "originalPrice": 230000,
+    "price": 189900,
+    "originalPrice": 229900,
     "images": [
       "/catalogo/sneakers/otras/mujer/madhappy-estrella-negro.jpg"
     ],
@@ -13430,6 +13896,80 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "updatedAt": "2026-09-11T19:42:01.057Z"
   },
   {
+    "id": "sneaker-new-balance-1300-negro-blanco",
+    "name": "New Balance 1300",
+    "brand": "New Balance",
+    "model": "New Balance 1300",
+    "sku": "PAPI-1191",
+    "category": "general",
+    "gender": "hombre",
+    "price": 179900,
+    "originalPrice": 209900,
+    "images": [
+      "/catalogo/sneakers/new-balance/hombre/new-balance-1300-negro-blanco.jpg"
+    ],
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Black / White",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T13:33:12.682Z",
+    "updatedAt": "2026-11-06T13:33:12.682Z"
+  },
+  {
+    "id": "sneaker-new-balance-1300-negro-sail",
+    "name": "New Balance 1300",
+    "brand": "New Balance",
+    "model": "New Balance 1300",
+    "sku": "PAPI-1299",
+    "category": "general",
+    "gender": "hombre",
+    "price": 179900,
+    "originalPrice": 209900,
+    "images": [
+      "/catalogo/sneakers/new-balance/hombre/new-balance-1300-negro-sail.jpg"
+    ],
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Black / Sail",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T13:33:12.682Z",
+    "updatedAt": "2026-11-06T13:33:12.682Z"
+  },
+  {
     "id": "sneaker-new-balance-1906a-verde-oliva",
     "name": "New Balance 1906A",
     "brand": "New Balance",
@@ -13438,7 +13978,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "hombre",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/new-balance/hombre/new-balance-1906a-verde-oliva.jpg"
     ],
@@ -13476,7 +14016,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "hombre",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/new-balance/hombre/new-balance-1906r-negro.jpg"
     ],
@@ -13514,7 +14054,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/new-balance/new-balance-1906r-plata.jpg"
     ],
@@ -13554,7 +14094,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/new-balance/new-balance-2000-blanco-gris.jpg"
     ],
@@ -13594,7 +14134,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/new-balance/new-balance-2000-blanco-negro.jpg"
     ],
@@ -13634,7 +14174,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/new-balance/new-balance-2000-blanco-plata.jpg"
     ],
@@ -13674,7 +14214,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/new-balance/new-balance-2000-blanco-rosa-coral.jpg"
     ],
@@ -13714,7 +14254,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/new-balance/new-balance-2000-blanco-rosado.jpg"
     ],
@@ -13754,7 +14294,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/new-balance/new-balance-2000-crema.jpg"
     ],
@@ -13794,7 +14334,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/new-balance/new-balance-2000-dorado-crema.jpg"
     ],
@@ -13834,7 +14374,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/new-balance/new-balance-2000-gris-rosado.jpg"
     ],
@@ -13874,7 +14414,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/new-balance/new-balance-2000-negro-dorado.jpg"
     ],
@@ -13914,7 +14454,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/new-balance/new-balance-2000-negro-gris.jpg"
     ],
@@ -13954,7 +14494,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/new-balance/new-balance-2000-negro-plata.jpg"
     ],
@@ -13994,7 +14534,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/new-balance/new-balance-2000-crema-azul-hielo.jpg"
     ],
@@ -14034,7 +14574,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/new-balance/new-balance-2000-gris-azul-hielo.jpg"
     ],
@@ -14074,7 +14614,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/new-balance/new-balance-2000-gris-verde-neon.jpg"
     ],
@@ -14114,7 +14654,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/new-balance/new-balance-2000-rosado-vino.jpg"
     ],
@@ -14154,7 +14694,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "mujer",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/new-balance/mujer/new-balance-530-blanco-morado.jpg"
     ],
@@ -14191,7 +14731,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "mujer",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/new-balance/mujer/new-balance-530-rosa-verde.jpg"
     ],
@@ -14228,7 +14768,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/new-balance/new-balance-530-blanco-verde.jpg"
     ],
@@ -14268,7 +14808,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/new-balance/new-balance-530-crema.jpg"
     ],
@@ -14308,7 +14848,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/new-balance/new-balance-530-gris-plata.jpg",
       "/catalogo/sneakers/new-balance/new-balance-530-gris-plata_2.jpg"
@@ -14349,7 +14889,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/new-balance/new-balance-530-negro-blanco.jpg"
     ],
@@ -14389,9 +14929,10 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
-      "/catalogo/sneakers/new-balance/new-balance-530-white-silver-navy.jpg"
+      "/catalogo/sneakers/new-balance/new-balance-530-white-silver-navy.jpg",
+      "/catalogo/sneakers/new-balance/new-balance-530-white-silver-navy_2.jpg"
     ],
     "sizes": [
       37,
@@ -14429,7 +14970,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/new-balance/new-balance-530-sea-salt.jpg"
     ],
@@ -14469,7 +15010,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/new-balance/new-balance-550-blanco-verde.jpg"
     ],
@@ -14509,7 +15050,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/new-balance/new-balance-550-x-aime-leon-dore-blanco-rojo.jpg"
     ],
@@ -14549,7 +15090,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/new-balance/new-balance-730-blanco-plata.jpg"
     ],
@@ -14589,7 +15130,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/new-balance/new-balance-730-blanco-verde.jpg"
     ],
@@ -14629,7 +15170,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/new-balance/new-balance-730-blanco-azul-rey.jpg"
     ],
@@ -14669,7 +15210,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/new-balance/new-balance-730-blanco-plata-azul-marino.jpg"
     ],
@@ -14709,7 +15250,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/new-balance/new-balance-790-blanco-plata.jpg"
     ],
@@ -14749,7 +15290,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "hombre",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/new-balance/hombre/new-balance-9060-gris-cafe.jpg"
     ],
@@ -14779,6 +15320,43 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "updatedAt": "2026-09-08T16:36:16.035Z"
   },
   {
+    "id": "sneaker-new-balance-9060-gris-negro",
+    "name": "New Balance 9060",
+    "brand": "New Balance",
+    "model": "New Balance 9060",
+    "sku": "PAPI-7421",
+    "category": "general",
+    "gender": "hombre",
+    "price": 179900,
+    "originalPrice": 209900,
+    "images": [
+      "/catalogo/sneakers/new-balance/hombre/new-balance-9060-gris-negro.jpg"
+    ],
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Grey / Black",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T13:33:12.682Z",
+    "updatedAt": "2026-11-06T13:33:12.682Z"
+  },
+  {
     "id": "sneaker-new-balance-9060-blanco-navy",
     "name": "New Balance 9060",
     "brand": "New Balance",
@@ -14787,7 +15365,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "mujer",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/new-balance/mujer/new-balance-9060-blanco-navy.jpg"
     ],
@@ -14824,7 +15402,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "mujer",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/new-balance/mujer/new-balance-9060-crema-rosado.jpg"
     ],
@@ -14861,7 +15439,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/new-balance/new-balance-9060-blanco-crema.jpg"
     ],
@@ -14901,7 +15479,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/new-balance/new-balance-9060-blanco-rosado-navy.jpg"
     ],
@@ -14941,7 +15519,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/new-balance/new-balance-9060-crema-gris.jpg"
     ],
@@ -14982,7 +15560,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/new-balance/new-balance-9060-gris-claro.jpg"
     ],
@@ -15022,7 +15600,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/new-balance/new-balance-9060-negro.jpg"
     ],
@@ -15062,7 +15640,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/new-balance/new-balance-9060-salvia.jpg"
     ],
@@ -15103,7 +15681,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/new-balance/new-balance-9060-triple-blanco.jpg"
     ],
@@ -15143,7 +15721,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/new-balance/new-balance-9060-triple-negro.jpg"
     ],
@@ -15183,7 +15761,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/new-balance/new-balance-9060-moonrock-linen.jpg"
     ],
@@ -15223,7 +15801,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/new-balance/new-balance-9060-sea-salt-yellow.jpg"
     ],
@@ -15263,7 +15841,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "hombre",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/new-balance/hombre/new-balance-997-negro-blanco.jpg"
     ],
@@ -15301,7 +15879,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "hombre",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/new-balance/hombre/new-balance-997-triple-negro.jpg"
     ],
@@ -15339,7 +15917,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/nike-air-force-1-blanco-verde.jpg"
     ],
@@ -15379,7 +15957,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/nike-air-force-1-triple-white.jpg",
       "/catalogo/sneakers/nike/nike-air-force-1-triple-white_2.jpg",
@@ -15423,7 +16001,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/nike-air-force-1-triple-yellow.jpg"
     ],
@@ -15463,7 +16041,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "hombre",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/hombre/nike-air-force-1-athletic-club-verde.jpg"
     ],
@@ -15501,7 +16079,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "hombre",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/hombre/nike-air-force-1-crema-verde.jpg"
     ],
@@ -15539,7 +16117,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "hombre",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/hombre/nike-air-force-1-gamuza-cafe.jpg"
     ],
@@ -15577,9 +16155,10 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
-      "/catalogo/sneakers/nike/nike-air-force-1-negro.jpg"
+      "/catalogo/sneakers/nike/nike-air-force-1-negro.jpg",
+      "/catalogo/sneakers/nike/nike-air-force-1-negro_2.jpg"
     ],
     "sizes": [
       37,
@@ -15609,6 +16188,43 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "updatedAt": "2026-08-13T18:57:45.000Z"
   },
   {
+    "id": "sneaker-nike-air-force-1-supreme-wheat",
+    "name": "Nike Air Force 1 Low Supreme",
+    "brand": "Nike",
+    "model": "Nike Air Force 1 Low Supreme",
+    "sku": "PAPI-1444",
+    "category": "general",
+    "gender": "hombre",
+    "price": 179900,
+    "originalPrice": 209900,
+    "images": [
+      "/catalogo/sneakers/nike/hombre/nike-air-force-1-supreme-wheat.jpg"
+    ],
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Wheat / Gum",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T13:33:12.682Z",
+    "updatedAt": "2026-11-06T13:33:12.682Z"
+  },
+  {
     "id": "sneaker-nike-air-force-1-x-supreme-blanco",
     "name": "Nike Air Force 1 Low x Supreme",
     "brand": "Nike",
@@ -15617,9 +16233,10 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "hombre",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
-      "/catalogo/sneakers/nike/hombre/nike-air-force-1-x-supreme-blanco.jpg"
+      "/catalogo/sneakers/nike/hombre/nike-air-force-1-x-supreme-blanco.jpg",
+      "/catalogo/sneakers/nike/hombre/nike-air-force-1-x-supreme-blanco_2.jpg"
     ],
     "sizes": [
       39,
@@ -15655,7 +16272,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/nike-air-force-1-mid-07.jpg"
     ],
@@ -15695,7 +16312,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/nike-air-force-1-super-gris.jpg"
     ],
@@ -15735,7 +16352,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/nike-air-force-1-super-morado.jpg"
     ],
@@ -15775,7 +16392,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/nike-air-force-1-super-naranja.jpg"
     ],
@@ -15815,7 +16432,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/nike-air-force-1-swoosh-pink.jpg"
     ],
@@ -15855,7 +16472,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/nike-air-force-1-university-blue.jpg"
     ],
@@ -15895,7 +16512,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/nike-air-force-1-x-louis-vuitton.jpg"
     ],
@@ -15935,7 +16552,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/nike-air-force-1-x-noah.jpg"
     ],
@@ -15975,7 +16592,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/nike-air-force-1-x-stussy.jpg"
     ],
@@ -16015,7 +16632,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/nike-air-force-1-x-north-face.jpg"
     ],
@@ -16055,7 +16672,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/nike-air-force-1-x-tiffany.jpg"
     ],
@@ -16095,7 +16712,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/nike-air-force-1-x-travis-scott.jpg"
     ],
@@ -16135,7 +16752,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "hombre",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/hombre/nike-air-max-1-blanco-naranja.jpg"
     ],
@@ -16148,7 +16765,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       44
     ],
     "status": "disponible",
-    "isFeatured": true,
+    "isFeatured": false,
     "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "Air Max 1 en blanco y gris con el swoosh negro y la mediasuela naranja moteada.",
@@ -16173,7 +16790,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "hombre",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/hombre/nike-air-max-1-safari.jpg"
     ],
@@ -16211,7 +16828,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/nike-air-max-90-black-orange.jpg"
     ],
@@ -16251,7 +16868,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/nike-air-max-90-triple-blanco.jpg"
     ],
@@ -16291,7 +16908,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/nike-air-max-90-triple-negro.jpg"
     ],
@@ -16331,7 +16948,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/nike-air-max-90-lucha-libre.jpg"
     ],
@@ -16371,7 +16988,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/nike-air-max-90-oregon.jpg"
     ],
@@ -16411,7 +17028,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/nike-air-max-95-blanco-azul.jpg"
     ],
@@ -16451,7 +17068,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/nike-air-max-95-gris-morado.jpg"
     ],
@@ -16491,7 +17108,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/nike-air-max-95-gris-rojo.jpg"
     ],
@@ -16531,7 +17148,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/nike-air-max-95-gris-rosado.jpg"
     ],
@@ -16571,7 +17188,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/nike-air-max-95-negro-gris.jpg"
     ],
@@ -16611,7 +17228,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/nike-air-max-95-triple-negro.jpg"
     ],
@@ -16651,7 +17268,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/nike-air-max-95-neon.jpg"
     ],
@@ -16691,7 +17308,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/nike-air-max-95-x-a-ma-maniere-azul.jpg"
     ],
@@ -16731,7 +17348,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/nike-air-max-95-x-a-ma-maniere-taupe.jpg"
     ],
@@ -16771,7 +17388,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/nike-air-max-95-x-a-ma-maniere-vino.jpg"
     ],
@@ -16811,7 +17428,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "hombre",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/hombre/nike-air-max-95-x-levis-denim-negro.jpg"
     ],
@@ -16849,7 +17466,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/nike-air-max-97-cafe.jpg"
     ],
@@ -16889,7 +17506,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/nike-air-max-97-nebulous.jpg"
     ],
@@ -16929,7 +17546,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/nike-air-max-97-negro-volt.jpg"
     ],
@@ -16969,7 +17586,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/nike-air-max-97-nightmare.jpg"
     ],
@@ -17009,7 +17626,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/nike-air-max-blanco-morado.jpg"
     ],
@@ -17049,7 +17666,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/nike-air-max-bw-gris-rojo.jpg",
       "/catalogo/sneakers/nike/nike-air-max-bw-gris-rojo_2.jpg"
@@ -17172,7 +17789,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/nike-air-max-dn-se-triple-negro.jpg"
     ],
@@ -17294,7 +17911,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/nike-air-max-dn8-azul.jpg"
     ],
@@ -17334,7 +17951,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/nike-air-max-dn8-blanco.jpg"
     ],
@@ -17374,7 +17991,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/nike-air-max-dn8-gris-menta.jpg"
     ],
@@ -17414,7 +18031,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/nike-air-max-dn8-hueso.jpg"
     ],
@@ -17454,7 +18071,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/nike-air-max-dn8-plata.jpg"
     ],
@@ -17494,7 +18111,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/nike-air-max-dn8-triple-negro.jpg"
     ],
@@ -17534,7 +18151,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/nike-air-max-ltd-blanco-azul.jpg"
     ],
@@ -17566,6 +18183,80 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "updatedAt": "2026-08-13T18:57:45.000Z"
   },
   {
+    "id": "sneaker-nike-air-max-plus-amarillo-negro",
+    "name": "Nike Air Max Plus",
+    "brand": "Nike",
+    "model": "Nike Air Max Plus",
+    "sku": "PAPI-4973",
+    "category": "general",
+    "gender": "hombre",
+    "price": 179900,
+    "originalPrice": 209900,
+    "images": [
+      "/catalogo/sneakers/nike/hombre/nike-air-max-plus-amarillo-negro.jpg"
+    ],
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Yellow / Black",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T13:33:12.682Z",
+    "updatedAt": "2026-11-06T13:33:12.682Z"
+  },
+  {
+    "id": "sneaker-nike-air-max-plus-rojo-negro",
+    "name": "Nike Air Max Plus",
+    "brand": "Nike",
+    "model": "Nike Air Max Plus",
+    "sku": "PAPI-1650",
+    "category": "general",
+    "gender": "hombre",
+    "price": 179900,
+    "originalPrice": 209900,
+    "images": [
+      "/catalogo/sneakers/nike/hombre/nike-air-max-plus-rojo-negro.jpg"
+    ],
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Red / Black",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T13:33:12.682Z",
+    "updatedAt": "2026-11-06T13:33:12.682Z"
+  },
+  {
     "id": "sneaker-nike-air-max-plus-3-blanco-negro",
     "name": "Nike Air Max Plus 3",
     "brand": "Nike",
@@ -17574,7 +18265,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "hombre",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/hombre/nike-air-max-plus-3-blanco-negro.jpg"
     ],
@@ -17612,7 +18303,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "hombre",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/hombre/nike-air-max-plus-3-blanco-rojo.jpg"
     ],
@@ -17650,7 +18341,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "hombre",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/hombre/nike-air-max-plus-3-negro-plata.jpg"
     ],
@@ -17688,7 +18379,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "hombre",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/hombre/nike-air-max-plus-3-triple-negro.jpg"
     ],
@@ -17726,7 +18417,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "hombre",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/hombre/nike-air-max-plus-3-volt.jpg"
     ],
@@ -17764,7 +18455,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/nike-air-max-plus-drift-baroque-brown.jpg"
     ],
@@ -17804,7 +18495,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/nike-air-max-plus-drift-metallic-silver.jpg"
     ],
@@ -17844,7 +18535,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/nike-air-max-plus-drift-tn-all-day.jpg"
     ],
@@ -17884,7 +18575,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/nike-air-max-plus-drift-tn-phantom-cacao.jpg"
     ],
@@ -17924,7 +18615,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/nike-air-max-plus-og-hyper-blue.jpg"
     ],
@@ -17964,7 +18655,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "hombre",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/hombre/nike-air-max-plus-tn-azul-degradado.jpg"
     ],
@@ -18002,7 +18693,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "hombre",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/hombre/nike-air-max-plus-tn-blanco-azul-teal.jpg"
     ],
@@ -18040,7 +18731,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "hombre",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/hombre/nike-air-max-plus-tn-blanco-morado-teal.jpg"
     ],
@@ -18078,7 +18769,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "hombre",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/hombre/nike-air-max-plus-tn-blanco-naranja-plata.jpg"
     ],
@@ -18116,7 +18807,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "hombre",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/hombre/nike-air-max-plus-tn-blanco-naranja.jpg",
       "/catalogo/sneakers/nike/hombre/nike-air-max-plus-tn-blanco-naranja_2.jpg"
@@ -18155,7 +18846,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "hombre",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/hombre/nike-air-max-plus-tn-blanco-suela-negra.jpg"
     ],
@@ -18193,7 +18884,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "hombre",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/hombre/nike-air-max-plus-tn-blanco-verde-pino.jpg"
     ],
@@ -18231,7 +18922,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "hombre",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/hombre/nike-air-max-plus-tn-gris-negro.jpg"
     ],
@@ -18269,7 +18960,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "hombre",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/hombre/nike-air-max-plus-tn-navy-blanco.jpg"
     ],
@@ -18307,7 +18998,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "hombre",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/hombre/nike-air-max-plus-tn-negro-arcoiris.jpg"
     ],
@@ -18345,7 +19036,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "hombre",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/hombre/nike-air-max-plus-tn-negro-azul-electrico.jpg"
     ],
@@ -18383,7 +19074,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "hombre",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/hombre/nike-air-max-plus-tn-negro-blanco-cromado.jpg"
     ],
@@ -18421,7 +19112,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "hombre",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/hombre/nike-air-max-plus-tn-negro-blanco.jpg"
     ],
@@ -18459,7 +19150,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "hombre",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/hombre/nike-air-max-plus-tn-negro-galaxia-naranja.jpg"
     ],
@@ -18497,7 +19188,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "hombre",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/hombre/nike-air-max-plus-tn-negro-navy-metalico.jpg"
     ],
@@ -18535,7 +19226,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "hombre",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/hombre/nike-air-max-plus-tn-negro-rojo.jpg"
     ],
@@ -18573,7 +19264,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "hombre",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/hombre/nike-air-max-plus-tn-negro-volt.jpg"
     ],
@@ -18611,7 +19302,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "hombre",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/hombre/nike-air-max-plus-tn-rojo-morado-estampado.jpg"
     ],
@@ -18649,7 +19340,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "hombre",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/hombre/nike-air-max-plus-tn-triple-rojo.jpg"
     ],
@@ -18687,7 +19378,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "mujer",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/mujer/nike-air-max-plus-tn-blanco-azul-cielo.jpg"
     ],
@@ -18724,7 +19415,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "mujer",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/mujer/nike-air-max-plus-tn-blanco-gris-rosado.jpg"
     ],
@@ -18761,7 +19452,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "mujer",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/mujer/nike-air-max-plus-tn-blanco-plata.jpg"
     ],
@@ -18798,7 +19489,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "mujer",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/mujer/nike-air-max-plus-tn-crema-dorado.jpg"
     ],
@@ -18835,7 +19526,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "mujer",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/mujer/nike-air-max-plus-tn-degradado-pastel.jpg"
     ],
@@ -18872,7 +19563,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "mujer",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/mujer/nike-air-max-plus-tn-gris-lila.jpg"
     ],
@@ -18909,7 +19600,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "mujer",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/mujer/nike-air-max-plus-tn-negro-pedreria.jpg"
     ],
@@ -18946,7 +19637,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/nike-air-max-plus-tn-blanco-azul.jpg"
     ],
@@ -18986,7 +19677,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/nike-air-max-plus-tn-triple-blanco.jpg",
       "/catalogo/sneakers/nike/nike-air-max-plus-tn-triple-blanco_2.jpg"
@@ -19027,9 +19718,10 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
-      "/catalogo/sneakers/nike/nike-air-max-plus-tn-triple-negro.jpg"
+      "/catalogo/sneakers/nike/nike-air-max-plus-tn-triple-negro.jpg",
+      "/catalogo/sneakers/nike/nike-air-max-plus-tn-triple-negro_2.jpg"
     ],
     "sizes": [
       37,
@@ -19067,7 +19759,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/nike-air-max-plus-tn-blue-gradient.jpg"
     ],
@@ -19107,7 +19799,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/nike-air-max-plus-tn-pink-gradient.jpg"
     ],
@@ -19147,7 +19839,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/nike-air-max-plus-tn-voltage-purple.jpg"
     ],
@@ -19220,6 +19912,80 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "updatedAt": "2026-08-14T15:26:27.178Z"
   },
   {
+    "id": "sneaker-nike-air-monarch-iv-blanco-navy",
+    "name": "Nike Air Monarch IV",
+    "brand": "Nike",
+    "model": "Nike Air Monarch IV",
+    "sku": "PAPI-2565",
+    "category": "general",
+    "gender": "hombre",
+    "price": 179900,
+    "originalPrice": 209900,
+    "images": [
+      "/catalogo/sneakers/nike/hombre/nike-air-monarch-iv-blanco-navy.jpg"
+    ],
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "White / Navy",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T13:33:12.682Z",
+    "updatedAt": "2026-11-06T13:33:12.682Z"
+  },
+  {
+    "id": "sneaker-nike-air-monarch-iv-blanco-volt",
+    "name": "Nike Air Monarch IV",
+    "brand": "Nike",
+    "model": "Nike Air Monarch IV",
+    "sku": "PAPI-4910",
+    "category": "general",
+    "gender": "hombre",
+    "price": 179900,
+    "originalPrice": 209900,
+    "images": [
+      "/catalogo/sneakers/nike/hombre/nike-air-monarch-iv-blanco-volt.jpg"
+    ],
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "White / Grey / Volt",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T13:33:12.682Z",
+    "updatedAt": "2026-11-06T13:33:12.682Z"
+  },
+  {
     "id": "sneaker-nike-air-more-uptempo-96-degradado-azul",
     "name": "Nike Air More Uptempo 96",
     "brand": "Nike",
@@ -19228,7 +19994,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "hombre",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/hombre/nike-air-more-uptempo-96-degradado-azul.jpg"
     ],
@@ -19266,7 +20032,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "hombre",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/hombre/nike-air-more-uptempo-96-negro-gum.jpg"
     ],
@@ -19304,7 +20070,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/nike-air-more-uptempo-96-negro-blanco.jpg"
     ],
@@ -19344,7 +20110,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/nike-air-vomero-18-negro.jpeg"
     ],
@@ -19376,6 +20142,377 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "updatedAt": "2026-08-13T18:57:45.000Z"
   },
   {
+    "id": "sneaker-nike-air-zoom-full-length-blanco-gris",
+    "name": "Nike Air Zoom Full Length",
+    "brand": "Nike",
+    "model": "Nike Air Zoom Full Length",
+    "sku": "PAPI-1130",
+    "category": "general",
+    "gender": "hombre",
+    "price": 179900,
+    "originalPrice": 209900,
+    "images": [
+      "/catalogo/sneakers/nike/hombre/nike-air-zoom-full-length-blanco-gris.jpg"
+    ],
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "White / Grey / Orange",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T13:33:12.682Z",
+    "updatedAt": "2026-11-06T13:33:12.682Z"
+  },
+  {
+    "id": "sneaker-nike-air-zoom-full-length-blanco-negro",
+    "name": "Nike Air Zoom Full Length",
+    "brand": "Nike",
+    "model": "Nike Air Zoom Full Length",
+    "sku": "PAPI-5228",
+    "category": "general",
+    "gender": "hombre",
+    "price": 179900,
+    "originalPrice": 209900,
+    "images": [
+      "/catalogo/sneakers/nike/hombre/nike-air-zoom-full-length-blanco-negro.jpg"
+    ],
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "White / Black",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T13:33:12.682Z",
+    "updatedAt": "2026-11-06T13:33:12.682Z"
+  },
+  {
+    "id": "sneaker-nike-air-zoom-full-length-negro-bronce",
+    "name": "Nike Air Zoom Full Length",
+    "brand": "Nike",
+    "model": "Nike Air Zoom Full Length",
+    "sku": "PAPI-6601",
+    "category": "general",
+    "gender": "hombre",
+    "price": 179900,
+    "originalPrice": 209900,
+    "images": [
+      "/catalogo/sneakers/nike/hombre/nike-air-zoom-full-length-negro-bronce.jpg"
+    ],
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Black / Bronze",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T13:33:12.682Z",
+    "updatedAt": "2026-11-06T13:33:12.682Z"
+  },
+  {
+    "id": "sneaker-nike-air-zoom-full-length-negro-naranja",
+    "name": "Nike Air Zoom Full Length",
+    "brand": "Nike",
+    "model": "Nike Air Zoom Full Length",
+    "sku": "PAPI-1147",
+    "category": "general",
+    "gender": "hombre",
+    "price": 179900,
+    "originalPrice": 209900,
+    "images": [
+      "/catalogo/sneakers/nike/hombre/nike-air-zoom-full-length-negro-naranja.jpg"
+    ],
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Black / Orange / Volt",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T13:33:12.682Z",
+    "updatedAt": "2026-11-06T13:33:12.682Z"
+  },
+  {
+    "id": "sneaker-nike-air-zoom-full-length-negro-plata",
+    "name": "Nike Air Zoom Full Length",
+    "brand": "Nike",
+    "model": "Nike Air Zoom Full Length",
+    "sku": "PAPI-1293",
+    "category": "general",
+    "gender": "hombre",
+    "price": 179900,
+    "originalPrice": 209900,
+    "images": [
+      "/catalogo/sneakers/nike/hombre/nike-air-zoom-full-length-negro-plata.jpg"
+    ],
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Black / Silver",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T13:33:12.682Z",
+    "updatedAt": "2026-11-06T13:33:12.682Z"
+  },
+  {
+    "id": "sneaker-nike-air-zoom-full-length-negro-rojo",
+    "name": "Nike Air Zoom Full Length",
+    "brand": "Nike",
+    "model": "Nike Air Zoom Full Length",
+    "sku": "PAPI-4734",
+    "category": "general",
+    "gender": "hombre",
+    "price": 179900,
+    "originalPrice": 209900,
+    "images": [
+      "/catalogo/sneakers/nike/hombre/nike-air-zoom-full-length-negro-rojo.jpg"
+    ],
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Black / White / Red",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T13:33:12.682Z",
+    "updatedAt": "2026-11-06T13:33:12.682Z"
+  },
+  {
+    "id": "sneaker-nike-air-zoom-full-length-blanco-menta",
+    "name": "Nike Air Zoom Full Length",
+    "brand": "Nike",
+    "model": "Nike Air Zoom Full Length",
+    "sku": "PAPI-5174",
+    "category": "general",
+    "gender": "mujer",
+    "price": 179900,
+    "originalPrice": 209900,
+    "images": [
+      "/catalogo/sneakers/nike/mujer/nike-air-zoom-full-length-blanco-menta.jpg"
+    ],
+    "sizes": [
+      36,
+      37,
+      38,
+      39
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "White / Mint / Volt",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T13:33:12.682Z",
+    "updatedAt": "2026-11-06T13:33:12.682Z"
+  },
+  {
+    "id": "sneaker-nike-air-zoom-full-length-gris-morado",
+    "name": "Nike Air Zoom Full Length",
+    "brand": "Nike",
+    "model": "Nike Air Zoom Full Length",
+    "sku": "PAPI-1828",
+    "category": "general",
+    "gender": "mujer",
+    "price": 179900,
+    "originalPrice": 209900,
+    "images": [
+      "/catalogo/sneakers/nike/mujer/nike-air-zoom-full-length-gris-morado.jpg"
+    ],
+    "sizes": [
+      36,
+      37,
+      38,
+      39
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Light Grey / Purple",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T13:33:12.682Z",
+    "updatedAt": "2026-11-06T13:33:12.682Z"
+  },
+  {
+    "id": "sneaker-nike-air-zoom-full-length-rosado",
+    "name": "Nike Air Zoom Full Length",
+    "brand": "Nike",
+    "model": "Nike Air Zoom Full Length",
+    "sku": "PAPI-8080",
+    "category": "general",
+    "gender": "mujer",
+    "price": 179900,
+    "originalPrice": 209900,
+    "images": [
+      "/catalogo/sneakers/nike/mujer/nike-air-zoom-full-length-rosado.jpg"
+    ],
+    "sizes": [
+      36,
+      37,
+      38,
+      39
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Pink / Volt",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T13:33:12.682Z",
+    "updatedAt": "2026-11-06T13:33:12.682Z"
+  },
+  {
+    "id": "sneaker-nike-air-zoom-full-length-negro-blanco",
+    "name": "Nike Air Zoom Full Length",
+    "brand": "Nike",
+    "model": "Nike Air Zoom Full Length",
+    "sku": "PAPI-1340",
+    "category": "general",
+    "gender": "unisex",
+    "price": 179900,
+    "originalPrice": 209900,
+    "images": [
+      "/catalogo/sneakers/nike/nike-air-zoom-full-length-negro-blanco.jpg"
+    ],
+    "sizes": [
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Black / White",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T13:33:12.682Z",
+    "updatedAt": "2026-11-06T13:33:12.682Z"
+  },
+  {
     "id": "sneaker-nike-blazer-low-77-jumbo-blanco-negro",
     "name": "Nike Blazer Low '77 Jumbo",
     "brand": "Nike",
@@ -19384,7 +20521,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "mujer",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/mujer/nike-blazer-low-77-jumbo-blanco-negro.jpg"
     ],
@@ -19421,7 +20558,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "mujer",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/mujer/nike-blazer-low-77-jumbo-blanco-rosado.jpg"
     ],
@@ -19458,7 +20595,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/nike-blazer-low-77-vintage.jpg"
     ],
@@ -19498,7 +20635,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/nike-blazer-mid-77-vintage.jpg"
     ],
@@ -19538,7 +20675,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/nike-blazer-mid-victory-off-noir.jpg"
     ],
@@ -19578,7 +20715,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "mujer",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/nike-blazer-mid-victory-phantom-mujer.jpg"
     ],
@@ -19616,7 +20753,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "hombre",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/hombre/nike-cortez-blanco-negro.jpg"
     ],
@@ -19654,13 +20791,14 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "hombre",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/hombre/nike-cortez-negro-blanco.jpg",
       "/catalogo/sneakers/nike/hombre/nike-cortez-negro-blanco_2.jpg",
       "/catalogo/sneakers/nike/hombre/nike-cortez-negro-blanco_3.jpg",
       "/catalogo/sneakers/nike/hombre/nike-cortez-negro-blanco_4.jpg",
-      "/catalogo/sneakers/nike/hombre/nike-cortez-negro-blanco_5.jpg"
+      "/catalogo/sneakers/nike/hombre/nike-cortez-negro-blanco_5.jpg",
+      "/catalogo/sneakers/nike/hombre/nike-cortez-negro-blanco_6.jpg"
     ],
     "sizes": [
       39,
@@ -19696,7 +20834,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "mujer",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/mujer/nike-cortez-azul-claro.jpg"
     ],
@@ -19734,7 +20872,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "mujer",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/mujer/nike-cortez-crema-negro.jpg",
       "/catalogo/sneakers/nike/mujer/nike-cortez-crema-negro_2.jpg"
@@ -19772,7 +20910,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/nike-cortez-cafe.jpg",
       "/catalogo/sneakers/nike/nike-cortez-cafe_2.jpg"
@@ -19813,7 +20951,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/nike-cortez-morado.jpg"
     ],
@@ -19853,7 +20991,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/nike-cortez-rojo-oscuro.jpg"
     ],
@@ -19893,7 +21031,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/nike-cortez-verde-rosado.jpg"
     ],
@@ -19933,7 +21071,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/nike-cortez-verde.jpg"
     ],
@@ -19973,7 +21111,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/nike-cortez-classic-blanco-negro.jpg"
     ],
@@ -20013,7 +21151,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/nike-cortez-forrest-gump.jpg",
       "/catalogo/sneakers/nike/nike-cortez-forrest-gump_2.jpg"
@@ -20054,7 +21192,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/nike-cortez-pine-green.jpg",
       "/catalogo/sneakers/nike/nike-cortez-pine-green_2.jpg"
@@ -20087,6 +21225,43 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "updatedAt": "2026-08-13T18:57:45.000Z"
   },
   {
+    "id": "sneaker-nike-dunk-low-sail-oliva-rosado",
+    "name": "Nike Dunk Low",
+    "brand": "Nike",
+    "model": "Nike Dunk Low",
+    "sku": "PAPI-6485",
+    "category": "general",
+    "gender": "hombre",
+    "price": 179900,
+    "originalPrice": 209900,
+    "images": [
+      "/catalogo/sneakers/nike/hombre/nike-dunk-low-sail-oliva-rosado.jpg"
+    ],
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Sail / Olive / Pink",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T13:33:12.682Z",
+    "updatedAt": "2026-11-06T13:33:12.682Z"
+  },
+  {
     "id": "sneaker-nike-dunk-low-azul-lavanda",
     "name": "Nike Dunk Low",
     "brand": "Nike",
@@ -20095,7 +21270,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "mujer",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/mujer/nike-dunk-low-azul-lavanda.jpg"
     ],
@@ -20124,6 +21299,42 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "updatedAt": "2026-09-08T16:36:16.035Z"
   },
   {
+    "id": "sneaker-nike-dunk-low-gamuza-cafe",
+    "name": "Nike Dunk Low",
+    "brand": "Nike",
+    "model": "Nike Dunk Low",
+    "sku": "PAPI-6148",
+    "category": "general",
+    "gender": "mujer",
+    "price": 179900,
+    "originalPrice": 209900,
+    "images": [
+      "/catalogo/sneakers/nike/mujer/nike-dunk-low-gamuza-cafe.jpg"
+    ],
+    "sizes": [
+      36,
+      37,
+      38,
+      39
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Brown / Sail",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T13:33:12.682Z",
+    "updatedAt": "2026-11-06T13:33:12.682Z"
+  },
+  {
     "id": "sneaker-nike-dunk-low-lila-blanco",
     "name": "Nike Dunk Low",
     "brand": "Nike",
@@ -20132,7 +21343,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "mujer",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/mujer/nike-dunk-low-lila-blanco.jpg"
     ],
@@ -20161,6 +21372,119 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "updatedAt": "2026-09-08T16:36:16.035Z"
   },
   {
+    "id": "sneaker-nike-dunk-low-rojo-rosado",
+    "name": "Nike Dunk Low",
+    "brand": "Nike",
+    "model": "Nike Dunk Low",
+    "sku": "PAPI-6439",
+    "category": "general",
+    "gender": "mujer",
+    "price": 179900,
+    "originalPrice": 209900,
+    "images": [
+      "/catalogo/sneakers/nike/mujer/nike-dunk-low-rojo-rosado.jpg"
+    ],
+    "sizes": [
+      36,
+      37,
+      38,
+      39
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Red / Pink / Sail",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T13:33:12.682Z",
+    "updatedAt": "2026-11-06T13:33:12.682Z"
+  },
+  {
+    "id": "sneaker-nike-dunk-low-rosado-blanco",
+    "name": "Nike Dunk Low",
+    "brand": "Nike",
+    "model": "Nike Dunk Low",
+    "sku": "PAPI-1263",
+    "category": "general",
+    "gender": "mujer",
+    "price": 179900,
+    "originalPrice": 209900,
+    "images": [
+      "/catalogo/sneakers/nike/mujer/nike-dunk-low-rosado-blanco.jpg"
+    ],
+    "sizes": [
+      36,
+      37,
+      38,
+      39
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Pink / White",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T13:33:12.682Z",
+    "updatedAt": "2026-11-06T13:33:12.682Z"
+  },
+  {
+    "id": "sneaker-nike-dunk-low-cafe-sail",
+    "name": "Nike Dunk Low",
+    "brand": "Nike",
+    "model": "Nike Dunk Low",
+    "sku": "PAPI-1251",
+    "category": "general",
+    "gender": "unisex",
+    "price": 179900,
+    "originalPrice": 209900,
+    "images": [
+      "/catalogo/sneakers/nike/nike-dunk-low-cafe-sail.jpg"
+    ],
+    "sizes": [
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Brown / Sail",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T13:33:12.682Z",
+    "updatedAt": "2026-11-06T13:33:12.682Z"
+  },
+  {
     "id": "sneaker-nike-dunk-low-triple-pink",
     "name": "Nike Dunk Low",
     "brand": "Nike",
@@ -20169,7 +21493,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/nike-dunk-low-triple-pink.jpg"
     ],
@@ -20209,7 +21533,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/nike-dunk-low-bordeaux.jpg"
     ],
@@ -20250,7 +21574,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "mujer",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/mujer/nike-dunk-low-cacao-wow.jpg"
     ],
@@ -20287,10 +21611,11 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/nike-dunk-low-panda.jpg",
-      "/catalogo/sneakers/nike/nike-dunk-low-panda_2.jpg"
+      "/catalogo/sneakers/nike/nike-dunk-low-panda_2.jpg",
+      "/catalogo/sneakers/nike/nike-dunk-low-panda_3.jpg"
     ],
     "sizes": [
       37,
@@ -20328,7 +21653,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "mujer",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/mujer/nike-dunk-low-purple-pulse.jpg"
     ],
@@ -20365,7 +21690,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "mujer",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/mujer/nike-dunk-low-san-valentin.jpg"
     ],
@@ -20402,9 +21727,10 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
-      "/catalogo/sneakers/nike/nike-dunk-low-teddy-bear.jpg"
+      "/catalogo/sneakers/nike/nike-dunk-low-teddy-bear.jpg",
+      "/catalogo/sneakers/nike/nike-dunk-low-teddy-bear_2.jpg"
     ],
     "sizes": [
       37,
@@ -20442,7 +21768,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/nike-dunk-low-unc.jpg"
     ],
@@ -20482,7 +21808,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/nike-dunk-x-travis-scott-gray.jpeg"
     ],
@@ -20522,7 +21848,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/nike-free-metcon-blanco-lila.jpg"
     ],
@@ -20562,7 +21888,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/nike-free-metcon-blanco-rojo.jpg"
     ],
@@ -20602,7 +21928,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/nike-free-metcon-blanco-rosado.jpg"
     ],
@@ -20642,7 +21968,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/nike-free-metcon-morado.jpg"
     ],
@@ -20682,7 +22008,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/nike-free-metcon-negro-cafe.jpg"
     ],
@@ -20722,7 +22048,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/nike-free-metcon-negro.jpg"
     ],
@@ -20762,7 +22088,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/nike-hyper-bubble-negro-verde.jpg"
     ],
@@ -20802,7 +22128,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/nike-hyper-bubble-negro.jpg"
     ],
@@ -20842,7 +22168,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/nike-hyper-bubble-negro-cromo.jpg"
     ],
@@ -20882,7 +22208,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "hombre",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/hombre/nike-initiator-blanco-negro.jpg"
     ],
@@ -20920,7 +22246,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "hombre",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/hombre/nike-initiator-crema-dorado.jpg"
     ],
@@ -20950,6 +22276,43 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "updatedAt": "2026-10-27T23:26:23.631Z"
   },
   {
+    "id": "sneaker-nike-initiator-gris-volt",
+    "name": "Nike Initiator",
+    "brand": "Nike",
+    "model": "Nike Initiator",
+    "sku": "PAPI-1434",
+    "category": "general",
+    "gender": "hombre",
+    "price": 179900,
+    "originalPrice": 209900,
+    "images": [
+      "/catalogo/sneakers/nike/hombre/nike-initiator-gris-volt.jpg"
+    ],
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Grey / Volt",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T13:33:12.682Z",
+    "updatedAt": "2026-11-06T13:33:12.682Z"
+  },
+  {
     "id": "sneaker-nike-initiator-negro-plata",
     "name": "Nike Initiator",
     "brand": "Nike",
@@ -20958,7 +22321,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "hombre",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/hombre/nike-initiator-negro-plata.jpg"
     ],
@@ -20996,7 +22359,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "hombre",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/hombre/nike-initiator-plata-negro.jpg"
     ],
@@ -21034,7 +22397,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/nike-initiator-hueso-verde.jpg"
     ],
@@ -21074,7 +22437,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/nike-initiator-plata-rojo.jpg"
     ],
@@ -21114,7 +22477,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "hombre",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/hombre/nike-internationalist-negro-rojo.jpg"
     ],
@@ -21152,7 +22515,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "hombre",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/hombre/nike-internationalist-negro.jpg"
     ],
@@ -21190,7 +22553,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "mujer",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/mujer/nike-internationalist-crema-navy.jpg"
     ],
@@ -21219,6 +22582,191 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "updatedAt": "2026-08-25T15:10:14.234Z"
   },
   {
+    "id": "sneaker-nike-kyrie-3-blanco-gris",
+    "name": "Nike Kyrie 3",
+    "brand": "Nike",
+    "model": "Nike Kyrie 3",
+    "sku": "PAPI-8836",
+    "category": "general",
+    "gender": "hombre",
+    "price": 179900,
+    "originalPrice": 209900,
+    "images": [
+      "/catalogo/sneakers/nike/hombre/nike-kyrie-3-blanco-gris.jpg"
+    ],
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "White / Grey",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T13:33:12.682Z",
+    "updatedAt": "2026-11-06T13:33:12.682Z"
+  },
+  {
+    "id": "sneaker-nike-metcon-9-azul-claro",
+    "name": "Nike Metcon 9",
+    "brand": "Nike",
+    "model": "Nike Metcon 9",
+    "sku": "PAPI-7819",
+    "category": "general",
+    "gender": "hombre",
+    "price": 179900,
+    "originalPrice": 209900,
+    "images": [
+      "/catalogo/sneakers/nike/hombre/nike-metcon-9-azul-claro.jpg"
+    ],
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Light Blue / Navy",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T13:33:12.682Z",
+    "updatedAt": "2026-11-06T13:33:12.682Z"
+  },
+  {
+    "id": "sneaker-nike-metcon-9-negro-azul",
+    "name": "Nike Metcon 9",
+    "brand": "Nike",
+    "model": "Nike Metcon 9",
+    "sku": "PAPI-5377",
+    "category": "general",
+    "gender": "hombre",
+    "price": 179900,
+    "originalPrice": 209900,
+    "images": [
+      "/catalogo/sneakers/nike/hombre/nike-metcon-9-negro-azul.jpg"
+    ],
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Black / Blue",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T13:33:12.682Z",
+    "updatedAt": "2026-11-06T13:33:12.682Z"
+  },
+  {
+    "id": "sneaker-nike-metcon-9-negro-blanco",
+    "name": "Nike Metcon 9",
+    "brand": "Nike",
+    "model": "Nike Metcon 9",
+    "sku": "PAPI-1138",
+    "category": "general",
+    "gender": "hombre",
+    "price": 179900,
+    "originalPrice": 209900,
+    "images": [
+      "/catalogo/sneakers/nike/hombre/nike-metcon-9-negro-blanco.jpg"
+    ],
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Black / White",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T13:33:12.682Z",
+    "updatedAt": "2026-11-06T13:33:12.682Z"
+  },
+  {
+    "id": "sneaker-nike-metcon-9-sail-camo",
+    "name": "Nike Metcon 9",
+    "brand": "Nike",
+    "model": "Nike Metcon 9",
+    "sku": "PAPI-4631",
+    "category": "general",
+    "gender": "hombre",
+    "price": 179900,
+    "originalPrice": 209900,
+    "images": [
+      "/catalogo/sneakers/nike/hombre/nike-metcon-9-sail-camo.jpg"
+    ],
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Sail / Camo / Orange",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T13:33:12.682Z",
+    "updatedAt": "2026-11-06T13:33:12.682Z"
+  },
+  {
     "id": "sneaker-nike-mind-001-blanco",
     "name": "NIKE MIND 001",
     "brand": "Nike",
@@ -21227,7 +22775,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/nike-mind-001-blanco.jpg"
     ],
@@ -21267,7 +22815,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/nike-mind-001-coral.jpg"
     ],
@@ -21307,7 +22855,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/nike-mind-001-crema.jpg"
     ],
@@ -21347,7 +22895,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/nike-mind-001-gris.jpg"
     ],
@@ -21387,7 +22935,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/nike-mind-001-negro.jpg"
     ],
@@ -21427,7 +22975,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/nike-mind-001-verde.jpg"
     ],
@@ -21467,7 +23015,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/nike-mind-001-fragment-negro.jpg"
     ],
@@ -21507,7 +23055,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "hombre",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/hombre/nike-mind-slide-negro-naranja.jpg"
     ],
@@ -21545,7 +23093,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/nike-motiva-crema.jpg"
     ],
@@ -21585,7 +23133,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/nike-motiva-gris.jpg"
     ],
@@ -21617,6 +23165,117 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "updatedAt": "2026-08-16T17:15:52.738Z"
   },
   {
+    "id": "sneaker-nike-nocta-glide-negro-blanco",
+    "name": "Nike Nocta Glide",
+    "brand": "Nike",
+    "model": "Nike Nocta Glide",
+    "sku": "PAPI-7496",
+    "category": "general",
+    "gender": "hombre",
+    "price": 179900,
+    "originalPrice": 209900,
+    "images": [
+      "/catalogo/sneakers/nike/hombre/nike-nocta-glide-negro-blanco.jpg"
+    ],
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Black / White",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T13:33:12.682Z",
+    "updatedAt": "2026-11-06T13:33:12.682Z"
+  },
+  {
+    "id": "sneaker-nike-nocta-glide-negro-rojo",
+    "name": "Nike Nocta Glide",
+    "brand": "Nike",
+    "model": "Nike Nocta Glide",
+    "sku": "PAPI-4571",
+    "category": "general",
+    "gender": "hombre",
+    "price": 179900,
+    "originalPrice": 209900,
+    "images": [
+      "/catalogo/sneakers/nike/hombre/nike-nocta-glide-negro-rojo.jpg"
+    ],
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Black / Red",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T13:33:12.682Z",
+    "updatedAt": "2026-11-06T13:33:12.682Z"
+  },
+  {
+    "id": "sneaker-nike-p-6000-plata-blanco",
+    "name": "Nike P-6000",
+    "brand": "Nike",
+    "model": "Nike P-6000",
+    "sku": "PAPI-1399",
+    "category": "general",
+    "gender": "hombre",
+    "price": 179900,
+    "originalPrice": 209900,
+    "images": [
+      "/catalogo/sneakers/nike/hombre/nike-p-6000-plata-blanco.jpg"
+    ],
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Metallic Silver / White",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T13:33:12.682Z",
+    "updatedAt": "2026-11-06T13:33:12.682Z"
+  },
+  {
     "id": "sneaker-nike-p-6000-blanco-malva",
     "name": "Nike P-6000",
     "brand": "Nike",
@@ -21625,7 +23284,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/nike-p-6000-blanco-malva.jpeg"
     ],
@@ -21665,7 +23324,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/nike-p-6000-blanco-rosado.jpeg"
     ],
@@ -21705,7 +23364,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/nike-p-6000-gris.jpeg"
     ],
@@ -21745,7 +23404,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/nike-p-6000-hueso.jpeg"
     ],
@@ -21785,7 +23444,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/nike-p-6000-negro-blanco.jpeg"
     ],
@@ -21825,7 +23484,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/nike-p-6000-plata-negro.jpeg"
     ],
@@ -21865,7 +23524,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/nike-p-6000-plata-rosado.jpeg"
     ],
@@ -21905,7 +23564,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/nike-p-6000-triple-blanco.jpeg"
     ],
@@ -21945,7 +23604,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/nike-p-6000-rosa-total.jpeg",
       "/catalogo/sneakers/nike/nike-p-6000-rosa-total_2.jpg"
@@ -21986,7 +23645,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "hombre",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/hombre/nike-running-blanco-gris-rojo.jpg"
     ],
@@ -22024,7 +23683,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/nike-sb-skate-blanco-gris.jpg"
     ],
@@ -22056,6 +23715,154 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "updatedAt": "2026-08-13T18:57:45.000Z"
   },
   {
+    "id": "sneaker-nike-sb-dunk-low-azul-universitario",
+    "name": "Nike SB Dunk Low",
+    "brand": "Nike",
+    "model": "Nike SB Dunk Low",
+    "sku": "PAPI-4038",
+    "category": "general",
+    "gender": "hombre",
+    "price": 179900,
+    "originalPrice": 209900,
+    "images": [
+      "/catalogo/sneakers/nike/hombre/nike-sb-dunk-low-azul-universitario.jpg"
+    ],
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "University Blue / White",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T13:33:12.682Z",
+    "updatedAt": "2026-11-06T13:33:12.682Z"
+  },
+  {
+    "id": "sneaker-nike-sb-dunk-low-gris-claro-gum",
+    "name": "Nike SB Dunk Low",
+    "brand": "Nike",
+    "model": "Nike SB Dunk Low",
+    "sku": "PAPI-6499",
+    "category": "general",
+    "gender": "hombre",
+    "price": 179900,
+    "originalPrice": 209900,
+    "images": [
+      "/catalogo/sneakers/nike/hombre/nike-sb-dunk-low-gris-claro-gum.jpg"
+    ],
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Light Grey / Gum",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T13:33:12.682Z",
+    "updatedAt": "2026-11-06T13:33:12.682Z"
+  },
+  {
+    "id": "sneaker-nike-sb-dunk-low-gris-naranja",
+    "name": "Nike SB Dunk Low",
+    "brand": "Nike",
+    "model": "Nike SB Dunk Low",
+    "sku": "PAPI-1648",
+    "category": "general",
+    "gender": "hombre",
+    "price": 179900,
+    "originalPrice": 209900,
+    "images": [
+      "/catalogo/sneakers/nike/hombre/nike-sb-dunk-low-gris-naranja.jpg"
+    ],
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Grey / Orange",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T13:33:12.682Z",
+    "updatedAt": "2026-11-06T13:33:12.682Z"
+  },
+  {
+    "id": "sneaker-nike-sb-dunk-low-gris-negro-gum",
+    "name": "Nike SB Dunk Low",
+    "brand": "Nike",
+    "model": "Nike SB Dunk Low",
+    "sku": "PAPI-5711",
+    "category": "general",
+    "gender": "hombre",
+    "price": 179900,
+    "originalPrice": 209900,
+    "images": [
+      "/catalogo/sneakers/nike/hombre/nike-sb-dunk-low-gris-negro-gum.jpg"
+    ],
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Grey / Black / Gum",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T13:33:12.682Z",
+    "updatedAt": "2026-11-06T13:33:12.682Z"
+  },
+  {
     "id": "sneaker-nike-sb-dunk-low-olive-sail",
     "name": "Nike SB Dunk Low",
     "brand": "Nike",
@@ -22064,7 +23871,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "hombre",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/hombre/nike-sb-dunk-low-olive-sail.jpg"
     ],
@@ -22102,7 +23909,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/nike-sb-dunk-low-black-gum.jpg"
     ],
@@ -22134,6 +23941,47 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "updatedAt": "2026-08-26T15:18:01.924Z"
   },
   {
+    "id": "sneaker-nike-sb-dunk-low-blanco-negro-gum",
+    "name": "Nike SB Dunk Low",
+    "brand": "Nike",
+    "model": "Nike SB Dunk Low",
+    "sku": "PAPI-1296",
+    "category": "general",
+    "gender": "unisex",
+    "price": 179900,
+    "originalPrice": 209900,
+    "images": [
+      "/catalogo/sneakers/nike/nike-sb-dunk-low-blanco-negro-gum.jpg"
+    ],
+    "sizes": [
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "White / Black / Gum",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T13:33:12.682Z",
+    "updatedAt": "2026-11-06T13:33:12.682Z"
+  },
+  {
     "id": "sneaker-nike-sb-dunk-low-charol-negro",
     "name": "Nike SB Dunk Low",
     "brand": "Nike",
@@ -22142,7 +23990,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/nike-sb-dunk-low-charol-negro.jpg"
     ],
@@ -22182,7 +24030,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/nike-sb-dunk-low-gris-crema.jpg"
     ],
@@ -22214,6 +24062,47 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "updatedAt": "2026-08-26T15:18:01.924Z"
   },
   {
+    "id": "sneaker-nike-sb-dunk-low-negro-blanco-gum",
+    "name": "Nike SB Dunk Low",
+    "brand": "Nike",
+    "model": "Nike SB Dunk Low",
+    "sku": "PAPI-1190",
+    "category": "general",
+    "gender": "unisex",
+    "price": 179900,
+    "originalPrice": 209900,
+    "images": [
+      "/catalogo/sneakers/nike/nike-sb-dunk-low-negro-blanco-gum.jpg"
+    ],
+    "sizes": [
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Black / White / Gum",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T13:33:12.682Z",
+    "updatedAt": "2026-11-06T13:33:12.682Z"
+  },
+  {
     "id": "sneaker-nike-sb-dunk-low-talon-morado",
     "name": "Nike SB Dunk Low",
     "brand": "Nike",
@@ -22222,7 +24111,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/nike-sb-dunk-low-talon-morado.jpg"
     ],
@@ -22262,7 +24151,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/nike-sb-dunk-low-white-gum.jpg"
     ],
@@ -22302,7 +24191,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/nike-sb-dunk-low-bear.jpg"
     ],
@@ -22342,7 +24231,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/nike-sb-dunk-low-legion-pine.jpg"
     ],
@@ -22382,7 +24271,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "hombre",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/hombre/nike-sb-dunk-low-purple-suede.jpg"
     ],
@@ -22420,7 +24309,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/nike-sb-dunk-low-stellar.jpg"
     ],
@@ -22452,6 +24341,43 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "updatedAt": "2026-08-13T18:57:45.000Z"
   },
   {
+    "id": "sneaker-nike-sb-dunk-low-supreme-azul",
+    "name": "Nike SB Dunk Low Supreme",
+    "brand": "Nike",
+    "model": "Nike SB Dunk Low Supreme",
+    "sku": "PAPI-9794",
+    "category": "general",
+    "gender": "hombre",
+    "price": 179900,
+    "originalPrice": 209900,
+    "images": [
+      "/catalogo/sneakers/nike/hombre/nike-sb-dunk-low-supreme-azul.jpg"
+    ],
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Blue / Black",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T13:33:12.682Z",
+    "updatedAt": "2026-11-06T13:33:12.682Z"
+  },
+  {
     "id": "sneaker-nike-sb-dunk-low-x-jarritos",
     "name": "Nike SB Dunk Low x Jarritos",
     "brand": "Nike",
@@ -22460,7 +24386,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/nike-sb-dunk-low-x-jarritos.jpg",
       "/catalogo/sneakers/nike/nike-sb-dunk-low-x-jarritos_2.jpg"
@@ -22501,7 +24427,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/nike-sb-dunk-low-x-parra.jpg"
     ],
@@ -22541,7 +24467,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/nike-sb-dunk-low-x-tightbooth.jpg"
     ],
@@ -22581,7 +24507,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/nike-sb-dunk-super-brown.jpg"
     ],
@@ -22621,7 +24547,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/nike-sb-skate-negro.jpg"
     ],
@@ -22661,7 +24587,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/nike-shox-negro.jpg"
     ],
@@ -22701,7 +24627,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/nike-shox-triple-cafe.jpg"
     ],
@@ -22741,7 +24667,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/nike-shox-tl-blanco-verde.jpg"
     ],
@@ -22781,7 +24707,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/nike-shox-tl-gris-verde.jpg"
     ],
@@ -22821,7 +24747,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/nike-shox-tl-negro-rojo.jpg"
     ],
@@ -22861,7 +24787,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/nike-shox-tl-triple-blanco.jpg"
     ],
@@ -22901,7 +24827,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/nike-shox-tl-triple-negro.jpg"
     ],
@@ -22941,7 +24867,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "hombre",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/hombre/nike-trail-crema-gris-volt.jpg"
     ],
@@ -22971,6 +24897,296 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "updatedAt": "2026-09-08T16:36:16.035Z"
   },
   {
+    "id": "sneaker-nike-v2k-run-blanco-khaki",
+    "name": "Nike V2K Run",
+    "brand": "Nike",
+    "model": "Nike V2K Run",
+    "sku": "PAPI-1480",
+    "category": "general",
+    "gender": "mujer",
+    "price": 179900,
+    "originalPrice": 209900,
+    "images": [
+      "/catalogo/sneakers/nike/mujer/nike-v2k-run-blanco-khaki.jpg"
+    ],
+    "sizes": [
+      36,
+      37,
+      38,
+      39
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Summit White / Khaki",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T13:33:12.682Z",
+    "updatedAt": "2026-11-06T13:33:12.682Z"
+  },
+  {
+    "id": "sneaker-nike-v2k-run-cafe-negro",
+    "name": "Nike V2K Run",
+    "brand": "Nike",
+    "model": "Nike V2K Run",
+    "sku": "PAPI-1604",
+    "category": "general",
+    "gender": "mujer",
+    "price": 179900,
+    "originalPrice": 209900,
+    "images": [
+      "/catalogo/sneakers/nike/mujer/nike-v2k-run-cafe-negro.jpg"
+    ],
+    "sizes": [
+      36,
+      37,
+      38,
+      39
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Velvet Brown / Black",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T13:33:12.682Z",
+    "updatedAt": "2026-11-06T13:33:12.682Z"
+  },
+  {
+    "id": "sneaker-nike-v5-rnr-gris-azul",
+    "name": "Nike V5 RNR",
+    "brand": "Nike",
+    "model": "Nike V5 RNR",
+    "sku": "PAPI-1510",
+    "category": "general",
+    "gender": "hombre",
+    "price": 179900,
+    "originalPrice": 209900,
+    "images": [
+      "/catalogo/sneakers/nike/hombre/nike-v5-rnr-gris-azul.jpg"
+    ],
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Light Grey / Blue",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T13:33:12.682Z",
+    "updatedAt": "2026-11-06T13:33:12.682Z"
+  },
+  {
+    "id": "sneaker-nike-v5-rnr-navy-gris",
+    "name": "Nike V5 RNR",
+    "brand": "Nike",
+    "model": "Nike V5 RNR",
+    "sku": "PAPI-1083",
+    "category": "general",
+    "gender": "hombre",
+    "price": 179900,
+    "originalPrice": 209900,
+    "images": [
+      "/catalogo/sneakers/nike/hombre/nike-v5-rnr-navy-gris.jpg"
+    ],
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Navy / Grey",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T13:33:12.682Z",
+    "updatedAt": "2026-11-06T13:33:12.682Z"
+  },
+  {
+    "id": "sneaker-nike-v5-rnr-blanco-azul",
+    "name": "Nike V5 RNR",
+    "brand": "Nike",
+    "model": "Nike V5 RNR",
+    "sku": "PAPI-7599",
+    "category": "general",
+    "gender": "mujer",
+    "price": 179900,
+    "originalPrice": 209900,
+    "images": [
+      "/catalogo/sneakers/nike/mujer/nike-v5-rnr-blanco-azul.jpg"
+    ],
+    "sizes": [
+      36,
+      37,
+      38,
+      39
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "White / Light Blue / Silver",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T13:33:12.682Z",
+    "updatedAt": "2026-11-06T13:33:12.682Z"
+  },
+  {
+    "id": "sneaker-nike-v5-rnr-blanco-negro",
+    "name": "Nike V5 RNR",
+    "brand": "Nike",
+    "model": "Nike V5 RNR",
+    "sku": "PAPI-8739",
+    "category": "general",
+    "gender": "mujer",
+    "price": 179900,
+    "originalPrice": 209900,
+    "images": [
+      "/catalogo/sneakers/nike/mujer/nike-v5-rnr-blanco-negro.jpg"
+    ],
+    "sizes": [
+      36,
+      37,
+      38,
+      39
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "White / Black / Silver",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T13:33:12.682Z",
+    "updatedAt": "2026-11-06T13:33:12.682Z"
+  },
+  {
+    "id": "sneaker-nike-v5-rnr-sail-cafe",
+    "name": "Nike V5 RNR",
+    "brand": "Nike",
+    "model": "Nike V5 RNR",
+    "sku": "PAPI-1491",
+    "category": "general",
+    "gender": "mujer",
+    "price": 179900,
+    "originalPrice": 209900,
+    "images": [
+      "/catalogo/sneakers/nike/mujer/nike-v5-rnr-sail-cafe.jpg"
+    ],
+    "sizes": [
+      36,
+      37,
+      38,
+      39
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Sail / Brown",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T13:33:12.682Z",
+    "updatedAt": "2026-11-06T13:33:12.682Z"
+  },
+  {
+    "id": "sneaker-nike-v5-rnr-sail-plata",
+    "name": "Nike V5 RNR",
+    "brand": "Nike",
+    "model": "Nike V5 RNR",
+    "sku": "PAPI-6533",
+    "category": "general",
+    "gender": "mujer",
+    "price": 179900,
+    "originalPrice": 209900,
+    "images": [
+      "/catalogo/sneakers/nike/mujer/nike-v5-rnr-sail-plata.jpg"
+    ],
+    "sizes": [
+      36,
+      37,
+      38,
+      39
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Sail / Metallic Silver",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T13:33:12.682Z",
+    "updatedAt": "2026-11-06T13:33:12.682Z"
+  },
+  {
     "id": "sneaker-nike-zoom-vomero-5-crema-coral",
     "name": "Nike Zoom Vomero 5",
     "brand": "Nike",
@@ -22979,7 +25195,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "mujer",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/mujer/nike-zoom-vomero-5-crema-coral.jpg",
       "/catalogo/sneakers/nike/mujer/nike-zoom-vomero-5-crema-coral_2.jpg"
@@ -23017,7 +25233,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "mujer",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/mujer/nike-zoom-vomero-5-malva-rosado.jpg",
       "/catalogo/sneakers/nike/mujer/nike-zoom-vomero-5-malva-rosado_2.jpg"
@@ -23055,7 +25271,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "mujer",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/mujer/nike-zoom-vomero-5-verde-militar.jpg",
       "/catalogo/sneakers/nike/mujer/nike-zoom-vomero-5-verde-militar_2.jpg"
@@ -23093,7 +25309,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/nike-zoom-vomero-5-crema.jpg"
     ],
@@ -23133,7 +25349,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/nike-zoom-vomero-5-plata.jpg"
     ],
@@ -23173,7 +25389,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/nike-zoom-vomero-5-triple-blanco.jpg"
     ],
@@ -23213,7 +25429,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "mujer",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/mujer/nike-zoom-vomero-5-azul-claro-verde-neon.jpg",
       "/catalogo/sneakers/nike/mujer/nike-zoom-vomero-5-azul-claro-verde-neon_2.jpg"
@@ -23251,7 +25467,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "mujer",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/mujer/nike-zoom-vomero-5-rosado-vino.jpg",
       "/catalogo/sneakers/nike/mujer/nike-zoom-vomero-5-rosado-vino_2.jpg"
@@ -23369,7 +25585,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/nike-zoom-vomero-san-valentin.jpg"
     ],
@@ -23409,7 +25625,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/nike-zoomx-blanco.jpg"
     ],
@@ -23449,7 +25665,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 179900,
-    "originalPrice": 210000,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/nike-zoomx-negro.jpg"
     ],
@@ -23489,8 +25705,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "sku": "PAPI-3320",
     "category": "general",
     "gender": "hombre",
-    "price": 190000,
-    "originalPrice": 230000,
+    "price": 189900,
+    "originalPrice": 229900,
     "images": [
       "/catalogo/sneakers/otras/hombre/off-white-out-of-office-blanco-gris.jpg"
     ],
@@ -23520,6 +25736,129 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "updatedAt": "2026-09-03T16:52:11.995Z"
   },
   {
+    "id": "sneaker-on-cloudrunner-2-blanco-negro",
+    "name": "On Cloudrunner 2",
+    "brand": "On",
+    "model": "On Cloudrunner 2",
+    "sku": "PAPI-1373",
+    "category": "general",
+    "gender": "unisex",
+    "price": 189900,
+    "originalPrice": 229900,
+    "images": [
+      "/catalogo/sneakers/on/on-cloudrunner-2-blanco-negro.jpg"
+    ],
+    "sizes": [
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "White / Black",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T13:33:12.682Z",
+    "updatedAt": "2026-11-06T13:33:12.682Z"
+  },
+  {
+    "id": "sneaker-on-cloudrunner-2-lavanda",
+    "name": "On Cloudrunner 2",
+    "brand": "On",
+    "model": "On Cloudrunner 2",
+    "sku": "PAPI-8882",
+    "category": "general",
+    "gender": "unisex",
+    "price": 189900,
+    "originalPrice": 229900,
+    "images": [
+      "/catalogo/sneakers/on/on-cloudrunner-2-lavanda.jpg"
+    ],
+    "sizes": [
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Lavender / White",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T13:33:12.682Z",
+    "updatedAt": "2026-11-06T13:33:12.682Z"
+  },
+  {
+    "id": "sneaker-on-cloudrunner-2-negro-blanco",
+    "name": "On Cloudrunner 2",
+    "brand": "On",
+    "model": "On Cloudrunner 2",
+    "sku": "PAPI-1031",
+    "category": "general",
+    "gender": "unisex",
+    "price": 189900,
+    "originalPrice": 229900,
+    "images": [
+      "/catalogo/sneakers/on/on-cloudrunner-2-negro-blanco.jpg"
+    ],
+    "sizes": [
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Eclipse / Black",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T13:33:12.682Z",
+    "updatedAt": "2026-11-06T13:33:12.682Z"
+  },
+  {
     "id": "sneaker-on-running-negro-blanco",
     "name": "On Running",
     "brand": "Otras",
@@ -23527,8 +25866,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "sku": "PAPI-1929",
     "category": "general",
     "gender": "hombre",
-    "price": 190000,
-    "originalPrice": 230000,
+    "price": 189900,
+    "originalPrice": 229900,
     "images": [
       "/catalogo/sneakers/otras/hombre/on-running-negro-blanco.jpg"
     ],
@@ -23556,6 +25895,80 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "inquiriesCount": 0,
     "createdAt": "2026-09-08T16:36:16.035Z",
     "updatedAt": "2026-09-08T16:36:16.035Z"
+  },
+  {
+    "id": "sneaker-osiris-d3-negro-gris",
+    "name": "Osiris D3",
+    "brand": "Otras",
+    "model": "Osiris D3",
+    "sku": "PAPI-1674",
+    "category": "general",
+    "gender": "hombre",
+    "price": 189900,
+    "originalPrice": 229900,
+    "images": [
+      "/catalogo/sneakers/otras/hombre/osiris-d3-negro-gris.jpg"
+    ],
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Black / Grey",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T13:33:12.682Z",
+    "updatedAt": "2026-11-06T13:33:12.682Z"
+  },
+  {
+    "id": "sneaker-osiris-d3-negro-gum",
+    "name": "Osiris D3",
+    "brand": "Otras",
+    "model": "Osiris D3",
+    "sku": "PAPI-1338",
+    "category": "general",
+    "gender": "hombre",
+    "price": 189900,
+    "originalPrice": 229900,
+    "images": [
+      "/catalogo/sneakers/otras/hombre/osiris-d3-negro-gum.jpg"
+    ],
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Black / Gum",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T13:33:12.682Z",
+    "updatedAt": "2026-11-06T13:33:12.682Z"
   },
   {
     "id": "sneaker-puma-caven-2-0",
@@ -23647,8 +26060,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "sku": "PAPI-1584",
     "category": "general",
     "gender": "mujer",
-    "price": 180000,
-    "originalPrice": 210000,
+    "price": 179900,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/puma/mujer/puma-club-azura-azul-claro.jpg"
     ],
@@ -23684,8 +26097,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "sku": "PAPI-1024",
     "category": "general",
     "gender": "mujer",
-    "price": 180000,
-    "originalPrice": 210000,
+    "price": 179900,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/puma/mujer/puma-club-azura-blanco-lila.jpg"
     ],
@@ -23721,8 +26134,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "sku": "PAPI-1623",
     "category": "general",
     "gender": "mujer",
-    "price": 180000,
-    "originalPrice": 210000,
+    "price": 179900,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/puma/mujer/puma-club-azura-negro-blanco.jpg"
     ],
@@ -23758,8 +26171,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "sku": "PAPI-7422",
     "category": "general",
     "gender": "mujer",
-    "price": 180000,
-    "originalPrice": 210000,
+    "price": 179900,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/puma/mujer/puma-club-azura-rosado.jpg"
     ],
@@ -23795,8 +26208,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "sku": "PAPI-1009",
     "category": "general",
     "gender": "mujer",
-    "price": 180000,
-    "originalPrice": 210000,
+    "price": 179900,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/puma/mujer/puma-cruise-rider-blanco-lila-fucsia.jpg"
     ],
@@ -23832,8 +26245,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "sku": "PAPI-1169",
     "category": "general",
     "gender": "mujer",
-    "price": 180000,
-    "originalPrice": 210000,
+    "price": 179900,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/puma/mujer/puma-cruise-rider-blanco-oro-rosa.jpg"
     ],
@@ -23869,8 +26282,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "sku": "PAPI-7663",
     "category": "general",
     "gender": "mujer",
-    "price": 180000,
-    "originalPrice": 210000,
+    "price": 179900,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/puma/mujer/puma-cruise-rider-blanco-plata-rosado.jpg"
     ],
@@ -23906,8 +26319,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "sku": "PAPI-4099",
     "category": "general",
     "gender": "mujer",
-    "price": 180000,
-    "originalPrice": 210000,
+    "price": 179900,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/puma/mujer/puma-cruise-rider-crema-oro-rosa.jpg"
     ],
@@ -23943,8 +26356,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "sku": "PAPI-1185",
     "category": "general",
     "gender": "hombre",
-    "price": 180000,
-    "originalPrice": 210000,
+    "price": 179900,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/puma/hombre/puma-morphic-gris-azul.jpg"
     ],
@@ -23981,8 +26394,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "sku": "PAPI-3106",
     "category": "general",
     "gender": "hombre",
-    "price": 180000,
-    "originalPrice": 210000,
+    "price": 179900,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/puma/hombre/puma-morphic-negro.jpg"
     ],
@@ -24019,8 +26432,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "sku": "PAPI-1570",
     "category": "general",
     "gender": "hombre",
-    "price": 180000,
-    "originalPrice": 210000,
+    "price": 179900,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/puma/hombre/puma-palermo-azul-navy.jpg"
     ],
@@ -24057,8 +26470,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "sku": "PAPI-1441",
     "category": "general",
     "gender": "hombre",
-    "price": 180000,
-    "originalPrice": 210000,
+    "price": 179900,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/puma/hombre/puma-palermo-blanco-verde.jpg"
     ],
@@ -24095,8 +26508,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "sku": "PAPI-1270",
     "category": "general",
     "gender": "hombre",
-    "price": 180000,
-    "originalPrice": 210000,
+    "price": 179900,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/puma/hombre/puma-palermo-cafe.jpg"
     ],
@@ -24133,8 +26546,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "sku": "PAPI-5172",
     "category": "general",
     "gender": "hombre",
-    "price": 180000,
-    "originalPrice": 210000,
+    "price": 179900,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/puma/hombre/puma-palermo-crema-navy.jpg"
     ],
@@ -24171,8 +26584,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "sku": "PAPI-1524",
     "category": "general",
     "gender": "hombre",
-    "price": 180000,
-    "originalPrice": 210000,
+    "price": 179900,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/puma/hombre/puma-palermo-gris.jpg"
     ],
@@ -24209,8 +26622,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "sku": "PAPI-1644",
     "category": "general",
     "gender": "hombre",
-    "price": 180000,
-    "originalPrice": 210000,
+    "price": 179900,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/puma/hombre/puma-palermo-negro-crema.jpg"
     ],
@@ -24247,8 +26660,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "sku": "PAPI-3969",
     "category": "general",
     "gender": "hombre",
-    "price": 180000,
-    "originalPrice": 210000,
+    "price": 179900,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/puma/hombre/puma-palermo-negro-rojo-azul.jpg"
     ],
@@ -24285,8 +26698,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "sku": "PAPI-1289",
     "category": "general",
     "gender": "mujer",
-    "price": 180000,
-    "originalPrice": 210000,
+    "price": 179900,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/puma/mujer/puma-palermo-beige.jpg"
     ],
@@ -24322,8 +26735,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "sku": "PAPI-1512",
     "category": "general",
     "gender": "mujer",
-    "price": 180000,
-    "originalPrice": 210000,
+    "price": 179900,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/puma/mujer/puma-palermo-blanco-oro.jpg"
     ],
@@ -24359,8 +26772,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "sku": "PAPI-2586",
     "category": "general",
     "gender": "mujer",
-    "price": 180000,
-    "originalPrice": 210000,
+    "price": 179900,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/puma/mujer/puma-palermo-negro-rosado.jpg"
     ],
@@ -24387,6 +26800,42 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "inquiriesCount": 0,
     "createdAt": "2026-08-15T21:25:11.931Z",
     "updatedAt": "2026-08-15T21:25:11.931Z"
+  },
+  {
+    "id": "sneaker-puma-park-blanco-dorado",
+    "name": "Puma Park",
+    "brand": "Puma",
+    "model": "Puma Park",
+    "sku": "PAPI-7942",
+    "category": "general",
+    "gender": "mujer",
+    "price": 179900,
+    "originalPrice": 209900,
+    "images": [
+      "/catalogo/sneakers/puma/mujer/puma-park-blanco-dorado.jpg"
+    ],
+    "sizes": [
+      36,
+      37,
+      38,
+      39
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "White / Gold",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T13:33:12.682Z",
+    "updatedAt": "2026-11-06T13:33:12.682Z"
   },
   {
     "id": "sneaker-puma-rebound",
@@ -24519,8 +26968,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "sku": "PAPI-6066",
     "category": "general",
     "gender": "unisex",
-    "price": 180000,
-    "originalPrice": 210000,
+    "price": 179900,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/puma/puma-roma-bmw-motorsport-blanco.jpg"
     ],
@@ -24560,8 +27009,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "sku": "PAPI-5143",
     "category": "general",
     "gender": "unisex",
-    "price": 180000,
-    "originalPrice": 210000,
+    "price": 179900,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/puma/puma-roma-bmw-motorsport-negro.jpg"
     ],
@@ -24806,8 +27255,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "sku": "PAPI-2104",
     "category": "general",
     "gender": "unisex",
-    "price": 180000,
-    "originalPrice": 210000,
+    "price": 179900,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/puma/puma-suede-xl-rojo.jpg"
     ],
@@ -24847,8 +27296,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "sku": "PAPI-9476",
     "category": "general",
     "gender": "hombre",
-    "price": 180000,
-    "originalPrice": 210000,
+    "price": 179900,
+    "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/puma/hombre/puma-suede-xl-bmw-motorsport.jpg"
     ],
@@ -24885,8 +27334,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "sku": "PAPI-1301",
     "category": "general",
     "gender": "unisex",
-    "price": 190000,
-    "originalPrice": 230000,
+    "price": 189900,
+    "originalPrice": 229900,
     "images": [
       "/catalogo/sneakers/otras/reebok-x-anuel-aa-rojo.jpg"
     ],
@@ -24966,8 +27415,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "sku": "PAPI-1515",
     "category": "general",
     "gender": "hombre",
-    "price": 190000,
-    "originalPrice": 230000,
+    "price": 189900,
+    "originalPrice": 229900,
     "images": [
       "/catalogo/sneakers/otras/hombre/saucony-progrid-omni-9-blanco-aqua.jpg"
     ],
@@ -25004,8 +27453,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "sku": "PAPI-8974",
     "category": "general",
     "gender": "hombre",
-    "price": 190000,
-    "originalPrice": 230000,
+    "price": 189900,
+    "originalPrice": 229900,
     "images": [
       "/catalogo/sneakers/otras/hombre/saucony-progrid-omni-9-blanco-azul.jpg"
     ],
@@ -25042,8 +27491,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "sku": "PAPI-5885",
     "category": "general",
     "gender": "hombre",
-    "price": 190000,
-    "originalPrice": 230000,
+    "price": 189900,
+    "originalPrice": 229900,
     "images": [
       "/catalogo/sneakers/otras/hombre/saucony-progrid-omni-9-crema.jpg"
     ],
@@ -25080,8 +27529,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "sku": "PAPI-3920",
     "category": "general",
     "gender": "hombre",
-    "price": 190000,
-    "originalPrice": 230000,
+    "price": 189900,
+    "originalPrice": 229900,
     "images": [
       "/catalogo/sneakers/otras/hombre/saucony-progrid-omni-9-plata-negro.jpg"
     ],
@@ -25118,8 +27567,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "sku": "PAPI-6244",
     "category": "general",
     "gender": "hombre",
-    "price": 190000,
-    "originalPrice": 230000,
+    "price": 189900,
+    "originalPrice": 229900,
     "images": [
       "/catalogo/sneakers/otras/hombre/saucony-progrid-omni-9-verde.jpg"
     ],
@@ -25157,7 +27606,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "category": "general",
     "gender": "unisex",
     "price": 189900,
-    "originalPrice": 230000,
+    "originalPrice": 229900,
     "images": [
       "/catalogo/sneakers/otras/timberland-6-inch-premium.jpg",
       "/catalogo/sneakers/otras/timberland-6-inch-premium_2.jpg",
@@ -25198,8 +27647,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "sku": "PAPI-1240",
     "category": "general",
     "gender": "hombre",
-    "price": 190000,
-    "originalPrice": 230000,
+    "price": 189900,
+    "originalPrice": 229900,
     "images": [
       "/catalogo/sneakers/otras/hombre/tommy-hilfiger-court-blanco.jpg"
     ],
@@ -25236,8 +27685,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "sku": "PAPI-1555",
     "category": "general",
     "gender": "hombre",
-    "price": 190000,
-    "originalPrice": 230000,
+    "price": 189900,
+    "originalPrice": 229900,
     "images": [
       "/catalogo/sneakers/otras/hombre/tommy-hilfiger-court-negro.jpg"
     ],
@@ -25274,8 +27723,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "sku": "PAPI-5742",
     "category": "general",
     "gender": "hombre",
-    "price": 190000,
-    "originalPrice": 230000,
+    "price": 189900,
+    "originalPrice": 229900,
     "images": [
       "/catalogo/sneakers/otras/hombre/tommy-hilfiger-runner-blanco.jpg"
     ],
@@ -25312,8 +27761,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "sku": "PAPI-9469",
     "category": "general",
     "gender": "hombre",
-    "price": 190000,
-    "originalPrice": 230000,
+    "price": 189900,
+    "originalPrice": 229900,
     "images": [
       "/catalogo/sneakers/otras/hombre/tommy-hilfiger-runner-negro.jpg"
     ],
@@ -25343,6 +27792,80 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "updatedAt": "2026-09-11T19:42:01.057Z"
   },
   {
+    "id": "sneaker-under-armour-micro-g-valsetz-mid-gris",
+    "name": "Under Armour Micro G Valsetz Mid",
+    "brand": "Under Armour",
+    "model": "Under Armour Micro G Valsetz Mid",
+    "sku": "PAPI-1339",
+    "category": "general",
+    "gender": "hombre",
+    "price": 199900,
+    "originalPrice": 239900,
+    "images": [
+      "/catalogo/sneakers/under-armour/hombre/under-armour-micro-g-valsetz-mid-gris.jpg"
+    ],
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Grey",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T13:33:12.682Z",
+    "updatedAt": "2026-11-06T13:33:12.682Z"
+  },
+  {
+    "id": "sneaker-under-armour-micro-g-valsetz-mid-negro",
+    "name": "Under Armour Micro G Valsetz Mid",
+    "brand": "Under Armour",
+    "model": "Under Armour Micro G Valsetz Mid",
+    "sku": "PAPI-9388",
+    "category": "general",
+    "gender": "hombre",
+    "price": 199900,
+    "originalPrice": 239900,
+    "images": [
+      "/catalogo/sneakers/under-armour/hombre/under-armour-micro-g-valsetz-mid-negro.jpg"
+    ],
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Black",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T13:33:12.682Z",
+    "updatedAt": "2026-11-06T13:33:12.682Z"
+  },
+  {
     "id": "sneaker-vans-headlyne-gris",
     "name": "Vans Headlyne",
     "brand": "Otras",
@@ -25350,8 +27873,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "sku": "PAPI-8792",
     "category": "general",
     "gender": "hombre",
-    "price": 190000,
-    "originalPrice": 230000,
+    "price": 189900,
+    "originalPrice": 229900,
     "images": [
       "/catalogo/sneakers/otras/hombre/vans-headlyne-gris.jpg"
     ],
@@ -25388,8 +27911,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "sku": "PAPI-2717",
     "category": "general",
     "gender": "hombre",
-    "price": 190000,
-    "originalPrice": 230000,
+    "price": 189900,
+    "originalPrice": 229900,
     "images": [
       "/catalogo/sneakers/otras/hombre/vans-hylane-blanco-gum.jpg"
     ],
@@ -25426,8 +27949,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "sku": "PAPI-5550",
     "category": "general",
     "gender": "hombre",
-    "price": 190000,
-    "originalPrice": 230000,
+    "price": 189900,
+    "originalPrice": 229900,
     "images": [
       "/catalogo/sneakers/otras/hombre/vans-hylane-negro-gum.jpg"
     ],
@@ -25464,8 +27987,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "sku": "PAPI-5939",
     "category": "general",
     "gender": "unisex",
-    "price": 190000,
-    "originalPrice": 230000,
+    "price": 189900,
+    "originalPrice": 229900,
     "images": [
       "/catalogo/sneakers/otras/vans-old-skool-cafe.jpg"
     ],
@@ -25504,8 +28027,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "sku": "PAPI-1327",
     "category": "general",
     "gender": "unisex",
-    "price": 190000,
-    "originalPrice": 230000,
+    "price": 189900,
+    "originalPrice": 229900,
     "images": [
       "/catalogo/sneakers/otras/vans-old-skool-negro.jpg"
     ],
@@ -25544,8 +28067,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "sku": "PAPI-6243",
     "category": "general",
     "gender": "hombre",
-    "price": 190000,
-    "originalPrice": 230000,
+    "price": 189900,
+    "originalPrice": 229900,
     "images": [
       "/catalogo/sneakers/otras/hombre/vans-push-blanco-verde.jpg"
     ],
@@ -25582,8 +28105,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "sku": "PAPI-3278",
     "category": "general",
     "gender": "hombre",
-    "price": 190000,
-    "originalPrice": 230000,
+    "price": 189900,
+    "originalPrice": 229900,
     "images": [
       "/catalogo/sneakers/otras/hombre/vans-push-crema.jpg"
     ],
@@ -25620,8 +28143,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "sku": "PAPI-7104",
     "category": "general",
     "gender": "hombre",
-    "price": 190000,
-    "originalPrice": 230000,
+    "price": 189900,
+    "originalPrice": 229900,
     "images": [
       "/catalogo/sneakers/otras/hombre/vans-push-lila.jpg"
     ],
@@ -25658,8 +28181,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "sku": "PAPI-1572",
     "category": "general",
     "gender": "hombre",
-    "price": 190000,
-    "originalPrice": 230000,
+    "price": 189900,
+    "originalPrice": 229900,
     "images": [
       "/catalogo/sneakers/otras/hombre/vans-push-negro.jpg"
     ],
@@ -25696,8 +28219,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "sku": "PAPI-1646",
     "category": "general",
     "gender": "hombre",
-    "price": 190000,
-    "originalPrice": 230000,
+    "price": 189900,
+    "originalPrice": 229900,
     "images": [
       "/catalogo/sneakers/otras/hombre/vans-push-oliva.jpg"
     ],

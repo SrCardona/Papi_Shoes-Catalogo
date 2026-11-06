@@ -149,6 +149,8 @@ const BRAND_FOLDERS = new Map([
   ['guess', 'Guess'],
   ['puma', 'Puma'],
   ['asics', 'Asics'],
+  ['on', 'On'],
+  ['under-armour', 'Under Armour'],
   ['otras', 'Otras'],
 ]);
 

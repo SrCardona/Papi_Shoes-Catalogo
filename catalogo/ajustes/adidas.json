@@ -436,5 +436,15 @@
     "colorway": "Core Black / Crystal",
     "sizes": "39-44",
     "description": "Campus 00s en gamuza negra con las tres franjas de brillantes."
+  },
+  "adidas-country-og-blanco-verde": {
+    "name": "Adidas Country OG",
+    "colorway": "White / Green",
+    "sizes": "40-44"
+  },
+  "adidas-superstar-blanco-verde": {
+    "name": "Adidas Superstar",
+    "colorway": "White / Green",
+    "sizes": "40-44"
   }
 }

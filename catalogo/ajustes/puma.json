@@ -142,5 +142,10 @@
     "colorway": "Red / White",
     "sizes": "36-44",
     "description": "La Suede XL en gamuza roja con la banda y la suela engordadas en blanco, cordones gruesos al tono y el PUMA SUEDE XL dorado en el costado."
+  },
+  "puma-park-blanco-dorado": {
+    "name": "Puma Park",
+    "colorway": "White / Gold",
+    "sizes": "36-39"
   }
 }

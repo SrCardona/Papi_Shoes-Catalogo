@@ -217,5 +217,20 @@
   "new-balance-9060-triple-negro": {
     "name": "New Balance 9060",
     "colorway": "Triple Black"
+  },
+  "new-balance-9060-gris-negro": {
+    "name": "New Balance 9060",
+    "colorway": "Grey / Black",
+    "sizes": "40-44"
+  },
+  "new-balance-1300-negro-blanco": {
+    "name": "New Balance 1300",
+    "colorway": "Black / White",
+    "sizes": "40-44"
+  },
+  "new-balance-1300-negro-sail": {
+    "name": "New Balance 1300",
+    "colorway": "Black / Sail",
+    "sizes": "40-44"
   }
 }

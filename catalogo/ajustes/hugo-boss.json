@@ -179,5 +179,25 @@
     "colorway": "Navy / Silver",
     "sizes": "40-44",
     "description": "Perfil bajo del monograma en azul navy con suela blanca y apliques plateados."
+  },
+  "hugo-boss-runner-beige-cafe": {
+    "name": "Hugo Boss Runner",
+    "colorway": "Beige / Brown",
+    "sizes": "40-44"
+  },
+  "hugo-boss-runner-gris-oscuro": {
+    "name": "Hugo Boss Runner",
+    "colorway": "Dark Grey",
+    "sizes": "40-44"
+  },
+  "hugo-boss-runner-navy": {
+    "name": "Hugo Boss Runner",
+    "colorway": "Navy",
+    "sizes": "40-44"
+  },
+  "hugo-boss-runner-negro-oliva": {
+    "name": "Hugo Boss Runner",
+    "colorway": "Black / Olive",
+    "sizes": "40-44"
   }
 }
