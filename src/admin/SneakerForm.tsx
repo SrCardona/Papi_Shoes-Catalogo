@@ -21,6 +21,8 @@ const BRANDS: SneakerBrand[] = [
   'Guess',
   'Puma',
   'Asics',
+  'On',
+  'Under Armour',
   'Otras',
 ];
 

@@ -1,0 +1,17 @@
+{
+  "on-cloudrunner-2-negro-blanco": {
+    "name": "On Cloudrunner 2",
+    "colorway": "Eclipse / Black",
+    "sizes": "36-44"
+  },
+  "on-cloudrunner-2-blanco-negro": {
+    "name": "On Cloudrunner 2",
+    "colorway": "White / Black",
+    "sizes": "36-44"
+  },
+  "on-cloudrunner-2-lavanda": {
+    "name": "On Cloudrunner 2",
+    "colorway": "Lavender / White",
+    "sizes": "36-44"
+  }
+}

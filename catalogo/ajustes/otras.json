@@ -365,5 +365,20 @@
     "colorway": "Cream",
     "sizes": "39-44",
     "description": "Omni 9 todo en crema, malla y refuerzos tono a tono."
+  },
+  "asics-gel-kayano-14-plata-rosado": {
+    "name": "Asics Gel-Kayano 14",
+    "colorway": "Silver / Pink",
+    "sizes": "36-39"
+  },
+  "osiris-d3-negro-gris": {
+    "name": "Osiris D3",
+    "colorway": "Black / Grey",
+    "sizes": "40-44"
+  },
+  "osiris-d3-negro-gum": {
+    "name": "Osiris D3",
+    "colorway": "Black / Gum",
+    "sizes": "40-44"
   }
 }

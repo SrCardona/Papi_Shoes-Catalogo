@@ -16,6 +16,8 @@ export type SneakerBrand =
   | 'Guess'
   | 'Puma'
   | 'Asics'
+  | 'On'
+  | 'Under Armour'
   | 'Otras';
 
 export interface SneakerDetails {

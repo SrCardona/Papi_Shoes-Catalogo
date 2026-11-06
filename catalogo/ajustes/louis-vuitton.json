@@ -78,5 +78,30 @@
     "colorway": "White / Grey",
     "sizes": "39-44",
     "description": "Skate de cuero en blanco con la mediasuela gris y las costuras negras a la vista. La flor del monograma en relieve, blanca sobre blanco."
+  },
+  "louis-vuitton-skate-negro-brillos": {
+    "name": "Louis Vuitton LV Skate",
+    "colorway": "Black / Crystal",
+    "sizes": "36-39"
+  },
+  "louis-vuitton-trainer-flores": {
+    "name": "Louis Vuitton LV Trainer",
+    "colorway": "White / Multicolor",
+    "sizes": "40-44"
+  },
+  "louis-vuitton-skate-negro": {
+    "name": "Louis Vuitton LV Skate",
+    "colorway": "Black",
+    "sizes": "36-44"
+  },
+  "louis-vuitton-skate-blanco-negro": {
+    "name": "Louis Vuitton LV Skate",
+    "colorway": "White / Black",
+    "sizes": "36-44"
+  },
+  "louis-vuitton-skate-negro-blanco": {
+    "name": "Louis Vuitton LV Skate",
+    "colorway": "Black / White",
+    "sizes": "36-44"
   }
 }

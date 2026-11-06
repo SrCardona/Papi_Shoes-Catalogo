@@ -968,5 +968,225 @@
     "colorway": "White / Black",
     "sizes": "39-44",
     "description": "Cortez en nylon blanco con el swoosh negro, gamuza gris y suela dentada."
+  },
+  "nike-air-force-1-supreme-wheat": {
+    "name": "Nike Air Force 1 Low Supreme",
+    "colorway": "Wheat / Gum",
+    "sizes": "40-44"
+  },
+  "nike-v2k-run-cafe-negro": {
+    "name": "Nike V2K Run",
+    "colorway": "Velvet Brown / Black",
+    "sizes": "36-39"
+  },
+  "nike-p-6000-plata-blanco": {
+    "name": "Nike P-6000",
+    "colorway": "Metallic Silver / White",
+    "sizes": "40-44"
+  },
+  "nike-v2k-run-blanco-khaki": {
+    "name": "Nike V2K Run",
+    "colorway": "Summit White / Khaki",
+    "sizes": "36-39"
+  },
+  "nike-air-zoom-full-length-blanco-gris": {
+    "name": "Nike Air Zoom Full Length",
+    "colorway": "White / Grey / Orange",
+    "sizes": "40-44"
+  },
+  "nike-air-monarch-iv-blanco-volt": {
+    "name": "Nike Air Monarch IV",
+    "colorway": "White / Grey / Volt",
+    "sizes": "40-44"
+  },
+  "nike-air-monarch-iv-blanco-navy": {
+    "name": "Nike Air Monarch IV",
+    "colorway": "White / Navy",
+    "sizes": "40-44"
+  },
+  "nike-v5-rnr-sail-plata": {
+    "name": "Nike V5 RNR",
+    "colorway": "Sail / Metallic Silver",
+    "sizes": "36-39"
+  },
+  "nike-v5-rnr-blanco-azul": {
+    "name": "Nike V5 RNR",
+    "colorway": "White / Light Blue / Silver",
+    "sizes": "36-39"
+  },
+  "nike-v5-rnr-blanco-negro": {
+    "name": "Nike V5 RNR",
+    "colorway": "White / Black / Silver",
+    "sizes": "36-39"
+  },
+  "nike-v5-rnr-sail-cafe": {
+    "name": "Nike V5 RNR",
+    "colorway": "Sail / Brown",
+    "sizes": "36-39"
+  },
+  "nike-air-zoom-full-length-blanco-negro": {
+    "name": "Nike Air Zoom Full Length",
+    "colorway": "White / Black",
+    "sizes": "40-44"
+  },
+  "nike-air-zoom-full-length-negro-blanco": {
+    "name": "Nike Air Zoom Full Length",
+    "colorway": "Black / White",
+    "sizes": "36-44"
+  },
+  "nike-air-zoom-full-length-negro-bronce": {
+    "name": "Nike Air Zoom Full Length",
+    "colorway": "Black / Bronze",
+    "sizes": "40-44"
+  },
+  "nike-air-zoom-full-length-negro-naranja": {
+    "name": "Nike Air Zoom Full Length",
+    "colorway": "Black / Orange / Volt",
+    "sizes": "40-44"
+  },
+  "nike-air-zoom-full-length-negro-plata": {
+    "name": "Nike Air Zoom Full Length",
+    "colorway": "Black / Silver",
+    "sizes": "40-44"
+  },
+  "nike-air-zoom-full-length-negro-rojo": {
+    "name": "Nike Air Zoom Full Length",
+    "colorway": "Black / White / Red",
+    "sizes": "40-44"
+  },
+  "nike-air-zoom-full-length-gris-morado": {
+    "name": "Nike Air Zoom Full Length",
+    "colorway": "Light Grey / Purple",
+    "sizes": "36-39"
+  },
+  "nike-air-zoom-full-length-rosado": {
+    "name": "Nike Air Zoom Full Length",
+    "colorway": "Pink / Volt",
+    "sizes": "36-39"
+  },
+  "nike-air-zoom-full-length-blanco-menta": {
+    "name": "Nike Air Zoom Full Length",
+    "colorway": "White / Mint / Volt",
+    "sizes": "36-39"
+  },
+  "nike-nocta-glide-negro-rojo": {
+    "name": "Nike Nocta Glide",
+    "colorway": "Black / Red",
+    "sizes": "40-44"
+  },
+  "nike-nocta-glide-negro-blanco": {
+    "name": "Nike Nocta Glide",
+    "colorway": "Black / White",
+    "sizes": "40-44"
+  },
+  "nike-metcon-9-negro-blanco": {
+    "name": "Nike Metcon 9",
+    "colorway": "Black / White",
+    "sizes": "40-44"
+  },
+  "nike-metcon-9-azul-claro": {
+    "name": "Nike Metcon 9",
+    "colorway": "Light Blue / Navy",
+    "sizes": "40-44"
+  },
+  "nike-metcon-9-sail-camo": {
+    "name": "Nike Metcon 9",
+    "colorway": "Sail / Camo / Orange",
+    "sizes": "40-44"
+  },
+  "nike-metcon-9-negro-azul": {
+    "name": "Nike Metcon 9",
+    "colorway": "Black / Blue",
+    "sizes": "40-44"
+  },
+  "nike-air-max-plus-amarillo-negro": {
+    "name": "Nike Air Max Plus",
+    "colorway": "Yellow / Black",
+    "sizes": "40-44"
+  },
+  "nike-air-max-plus-rojo-negro": {
+    "name": "Nike Air Max Plus",
+    "colorway": "Red / Black",
+    "sizes": "40-44"
+  },
+  "nike-v5-rnr-gris-azul": {
+    "name": "Nike V5 RNR",
+    "colorway": "Light Grey / Blue",
+    "sizes": "40-44"
+  },
+  "nike-v5-rnr-navy-gris": {
+    "name": "Nike V5 RNR",
+    "colorway": "Navy / Grey",
+    "sizes": "40-44"
+  },
+  "nike-kyrie-3-blanco-gris": {
+    "name": "Nike Kyrie 3",
+    "colorway": "White / Grey",
+    "sizes": "40-44"
+  },
+  "nike-initiator-gris-volt": {
+    "name": "Nike Initiator",
+    "colorway": "Grey / Volt",
+    "sizes": "40-44"
+  },
+  "nike-dunk-low-cafe-sail": {
+    "name": "Nike Dunk Low",
+    "colorway": "Brown / Sail",
+    "sizes": "36-44"
+  },
+  "nike-sb-dunk-low-gris-naranja": {
+    "name": "Nike SB Dunk Low",
+    "colorway": "Grey / Orange",
+    "sizes": "40-44"
+  },
+  "nike-sb-dunk-low-gris-negro-gum": {
+    "name": "Nike SB Dunk Low",
+    "colorway": "Grey / Black / Gum",
+    "sizes": "40-44"
+  },
+  "nike-sb-dunk-low-blanco-negro-gum": {
+    "name": "Nike SB Dunk Low",
+    "colorway": "White / Black / Gum",
+    "sizes": "36-44"
+  },
+  "nike-sb-dunk-low-azul-universitario": {
+    "name": "Nike SB Dunk Low",
+    "colorway": "University Blue / White",
+    "sizes": "40-44"
+  },
+  "nike-sb-dunk-low-gris-claro-gum": {
+    "name": "Nike SB Dunk Low",
+    "colorway": "Light Grey / Gum",
+    "sizes": "40-44"
+  },
+  "nike-dunk-low-rojo-rosado": {
+    "name": "Nike Dunk Low",
+    "colorway": "Red / Pink / Sail",
+    "sizes": "36-39"
+  },
+  "nike-dunk-low-sail-oliva-rosado": {
+    "name": "Nike Dunk Low",
+    "colorway": "Sail / Olive / Pink",
+    "sizes": "40-44"
+  },
+  "nike-sb-dunk-low-supreme-azul": {
+    "name": "Nike SB Dunk Low Supreme",
+    "colorway": "Blue / Black",
+    "sizes": "40-44"
+  },
+  "nike-sb-dunk-low-negro-blanco-gum": {
+    "name": "Nike SB Dunk Low",
+    "colorway": "Black / White / Gum",
+    "sizes": "36-44"
+  },
+  "nike-dunk-low-gamuza-cafe": {
+    "name": "Nike Dunk Low",
+    "colorway": "Brown / Sail",
+    "sizes": "36-39"
+  },
+  "nike-dunk-low-rosado-blanco": {
+    "name": "Nike Dunk Low",
+    "colorway": "Pink / White",
+    "sizes": "36-39"
   }
 }

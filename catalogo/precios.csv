@@ -2,16 +2,18 @@
 # anteriores conservan el suyo. Una fila con nombre de archivo (sin extension)
 # le gana a la de su marca.
 archivo,precio,antes
-marca:Adidas,179900,210000
-marca:Nike,179900,210000
-marca:Jordan,179900,210000
-marca:New Balance,179900,210000
-marca:Louis Vuitton,190000,230000
-marca:Otras,190000,230000
-timberland-6-inch-premium,189900,230000
-marca:Calvin Klein,190000,230000
-marca:Hugo Boss,190000,230000
-marca:Puma,180000,210000
+marca:Adidas,179900,209900
+marca:Nike,179900,209900
+marca:Jordan,179900,209900
+marca:New Balance,179900,209900
+marca:Louis Vuitton,189900,229900
+marca:Otras,189900,229900
+timberland-6-inch-premium,189900,229900
+marca:Calvin Klein,189900,229900
+marca:Hugo Boss,189900,229900
+marca:Puma,179900,209900
+marca:On,189900,229900
+marca:Under Armour,199900,239900
 
 # Línea Originales. Una fila `originales:<Marca>` le gana a la de `marca:`,
 # para que un par verificado no herede el precio de la línea de uso diario.

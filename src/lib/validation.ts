@@ -46,6 +46,8 @@ const BRANDS: SneakerBrand[] = [
   'Guess',
   'Puma',
   'Asics',
+  'On',
+  'Under Armour',
   'Otras',
 ];
 const CATEGORIES: SneakerCategory[] = ['originales', 'general'];
