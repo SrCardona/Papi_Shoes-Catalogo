@@ -626,5 +626,10 @@
     "name": "Adidas Superstar x Hello Kitty",
     "colorway": "Black / White / Red",
     "sizes": "36-39"
+  },
+  "adidas-samba-crema-negro-rosado": {
+    "name": "Adidas Samba",
+    "colorway": "Cream / Black / Pink Gum",
+    "sizes": "36-39"
   }
 }
