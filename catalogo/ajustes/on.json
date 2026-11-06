@@ -43,5 +43,55 @@
     "name": "On Cloudrunner 2",
     "colorway": "Undyed / Green",
     "sizes": "36-39"
+  },
+  "on-cloudmonster-blanco-rosado": {
+    "name": "On Cloudmonster",
+    "colorway": "White / Pink / Green",
+    "sizes": "36-39"
+  },
+  "on-cloudmonster-crema-arena": {
+    "name": "On Cloudmonster",
+    "colorway": "Cream / Sand",
+    "sizes": "36-39"
+  },
+  "on-cloudmonster-blanco-menta": {
+    "name": "On Cloudmonster",
+    "colorway": "White / Mint",
+    "sizes": "36-39"
+  },
+  "on-cloudmonster-blanco-gris": {
+    "name": "On Cloudmonster",
+    "colorway": "White / Grey",
+    "sizes": "40-44"
+  },
+  "on-cloudmonster-blanco-lila": {
+    "name": "On Cloudmonster",
+    "colorway": "White / Lilac",
+    "sizes": "36-39"
+  },
+  "on-cloudmonster-blanco-beige": {
+    "name": "On Cloudmonster",
+    "colorway": "White / Beige",
+    "sizes": "36-39"
+  },
+  "on-cloudmonster-void-gris-azul": {
+    "name": "On Cloudmonster Void",
+    "colorway": "Grey / Blue",
+    "sizes": "36-44"
+  },
+  "on-cloudmonster-void-blanco-gris": {
+    "name": "On Cloudmonster Void",
+    "colorway": "White / Grey",
+    "sizes": "36-44"
+  },
+  "on-cloudmonster-void-blanco-crema": {
+    "name": "On Cloudmonster Void",
+    "colorway": "White / Cream",
+    "sizes": "36-44"
+  },
+  "on-cloudmonster-void-negro": {
+    "name": "On Cloudmonster Void",
+    "colorway": "Black",
+    "sizes": "40-44"
   }
 }

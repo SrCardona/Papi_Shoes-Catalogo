@@ -2033,5 +2033,70 @@
     "name": "Nike Pegasus Trail 5",
     "colorway": "Black / White",
     "sizes": "40-44"
+  },
+  "nike-initiator-blanco-rosado-vinotinto": {
+    "name": "Nike Initiator",
+    "colorway": "White / Pink / Burgundy",
+    "sizes": "36-39"
+  },
+  "nike-initiator-plata-rosado": {
+    "name": "Nike Initiator",
+    "colorway": "Metallic Silver / Pink",
+    "sizes": "36-39"
+  },
+  "nike-v2k-run-negro-blanco": {
+    "name": "Nike V2K Run",
+    "colorway": "Black / White",
+    "sizes": "36-39"
+  },
+  "nike-v2k-run-plata-negro": {
+    "name": "Nike V2K Run",
+    "colorway": "Metallic Silver / Black / Sail",
+    "sizes": "36-39"
+  },
+  "nike-sb-dunk-low-x-louis-vuitton-blanco": {
+    "name": "Nike SB Dunk Low x Louis Vuitton",
+    "colorway": "White / Grey",
+    "sizes": "40-44"
+  },
+  "nike-ava-rover-negro-muselina": {
+    "name": "Nike Ava Rover",
+    "colorway": "Black / Muslin",
+    "sizes": "40-44"
+  },
+  "nike-ava-rover-sail-terracota": {
+    "name": "Nike Ava Rover",
+    "colorway": "Sail / Terracotta",
+    "sizes": "40-44"
+  },
+  "nike-ava-rover-triple-negro": {
+    "name": "Nike Ava Rover",
+    "colorway": "Triple Black",
+    "sizes": "40-44"
+  },
+  "nike-ava-rover-gris-negro": {
+    "name": "Nike Ava Rover",
+    "colorway": "Grey / Black",
+    "sizes": "40-44"
+  },
+  "nike-dunk-low-disrupt-2-sail-gris": {
+    "name": "Nike Dunk Low Disrupt 2",
+    "colorway": "Sail / Grey",
+    "sizes": "36-39"
+  },
+  "nike-pegasus-trail-5-blanco-gris": {
+    "name": "Nike Pegasus Trail 5",
+    "colorway": "White / Grey",
+    "sizes": "40-44"
+  },
+  "nike-pegasus-trail-5-gore-tex-negro": {
+    "name": "Nike Pegasus Trail 5 GORE-TEX",
+    "colorway": "Black / White",
+    "sizes": "40-44"
+  },
+  "nike-p-6000-negro-volt": {
+    "name": "Nike P-6000",
+    "colorway": "Black / Volt",
+    "sizes": "40-44"
   }
 }

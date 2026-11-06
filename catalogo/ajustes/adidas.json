@@ -979,5 +979,30 @@
     "name": "Adidas Superstar",
     "colorway": "Black / Grey Trefoil",
     "sizes": "36-44"
+  },
+  "adidas-superstar-rosado-croco": {
+    "name": "Adidas Superstar",
+    "colorway": "Pink Croc / Black",
+    "sizes": "36-39"
+  },
+  "adidas-superstar-blanco-lila": {
+    "name": "Adidas Superstar",
+    "colorway": "White / Lilac",
+    "sizes": "36-39"
+  },
+  "adidas-adistar-negro-blanco-rojo": {
+    "name": "Adidas Adistar",
+    "colorway": "Black / White / Red",
+    "sizes": "40-44"
+  },
+  "adidas-superstar-blanco-parches": {
+    "name": "Adidas Superstar",
+    "colorway": "White / Black / Patches",
+    "sizes": "36-39"
+  },
+  "adidas-cloudfoam-negro-blanco": {
+    "name": "Adidas Cloudfoam",
+    "colorway": "Black / White",
+    "sizes": "36-39"
   }
 }
