@@ -556,5 +556,75 @@
     "name": "Adidas Samba",
     "colorway": "Black / White / Gum",
     "sizes": "36-39"
+  },
+  "adidas-samba-blanco-negro-dorado": {
+    "name": "Adidas Samba",
+    "colorway": "White / Black / Gold",
+    "sizes": "36-39"
+  },
+  "adidas-samba-blanco-vinotinto": {
+    "name": "Adidas Samba",
+    "colorway": "White / Burgundy",
+    "sizes": "36-39"
+  },
+  "adidas-samba-azul-claro-cadena": {
+    "name": "Adidas Samba",
+    "colorway": "Light Blue / Gold",
+    "sizes": "36-39"
+  },
+  "adidas-supernova-blanco-morado": {
+    "name": "Adidas Supernova",
+    "colorway": "White / Purple / Volt",
+    "sizes": "36-39"
+  },
+  "adidas-supernova-negro-menta": {
+    "name": "Adidas Supernova",
+    "colorway": "Black / Mint",
+    "sizes": "36-39"
+  },
+  "adidas-supernova-negro-rojo": {
+    "name": "Adidas Supernova",
+    "colorway": "Black / Red",
+    "sizes": "40-44"
+  },
+  "adidas-adizero-evo-sl-azul": {
+    "name": "Adidas Adizero Evo SL",
+    "colorway": "Steel Blue / Red",
+    "sizes": "40-44"
+  },
+  "adidas-samba-og-blanco-rojo": {
+    "name": "Adidas Samba OG",
+    "colorway": "White / Red / Gum",
+    "sizes": "36-39"
+  },
+  "adidas-samba-verde-crema": {
+    "name": "Adidas Samba",
+    "colorway": "Collegiate Green / Cream",
+    "sizes": "36-39"
+  },
+  "adidas-samba-blanco-verde-gum": {
+    "name": "Adidas Samba",
+    "colorway": "White / Green / Gum",
+    "sizes": "36-39"
+  },
+  "adidas-superstar-negro-plata": {
+    "name": "Adidas Superstar",
+    "colorway": "Core Black / Silver Metallic",
+    "sizes": "40-44"
+  },
+  "adidas-superstar-blanco-negro-unisex": {
+    "name": "Adidas Superstar",
+    "colorway": "White / Black",
+    "sizes": "36-44"
+  },
+  "adidas-superstar-bold-blanco-negro": {
+    "name": "Adidas Superstar Bold",
+    "colorway": "White / Black",
+    "sizes": "36-44"
+  },
+  "adidas-superstar-x-hello-kitty": {
+    "name": "Adidas Superstar x Hello Kitty",
+    "colorway": "Black / White / Red",
+    "sizes": "36-39"
   }
 }

@@ -267,5 +267,60 @@
     "name": "New Balance 9060",
     "colorway": "White / Navy / Pink",
     "sizes": "36-39"
+  },
+  "new-balance-9060-gris-niebla": {
+    "name": "New Balance 9060",
+    "colorway": "Grey / Silver",
+    "sizes": "36-39"
+  },
+  "new-balance-9060-sail-navy": {
+    "name": "New Balance 9060",
+    "colorway": "Sail / Navy",
+    "sizes": "36-39"
+  },
+  "new-balance-9060-hongo-verde": {
+    "name": "New Balance 9060",
+    "colorway": "Mushroom / Green",
+    "sizes": "36-39"
+  },
+  "new-balance-1906r-blanco-dorado": {
+    "name": "New Balance 1906R",
+    "colorway": "White / Metallic Gold",
+    "sizes": "36-44"
+  },
+  "new-balance-9060-plata-dorado": {
+    "name": "New Balance 9060",
+    "colorway": "Silver / Gold",
+    "sizes": "36-39"
+  },
+  "new-balance-9060-beige-gris": {
+    "name": "New Balance 9060",
+    "colorway": "Beige / Grey",
+    "sizes": "36-39"
+  },
+  "new-balance-1000-lavanda-blanco": {
+    "name": "New Balance 1000",
+    "colorway": "Lavender / White",
+    "sizes": "36-39"
+  },
+  "new-balance-9060-vinotinto-crema": {
+    "name": "New Balance 9060",
+    "colorway": "Burgundy / Cream",
+    "sizes": "36-44"
+  },
+  "new-balance-574-negro-gris": {
+    "name": "New Balance 574",
+    "colorway": "Black / Grey",
+    "sizes": "36-39"
+  },
+  "new-balance-574-crema-rosado": {
+    "name": "New Balance 574",
+    "colorway": "Cream / Pink",
+    "sizes": "36-39"
+  },
+  "new-balance-574-crema-navy": {
+    "name": "New Balance 574",
+    "colorway": "Cream / Navy",
+    "sizes": "36-39"
   }
 }
