@@ -5,7 +5,9 @@ import {
 } from '../src/lib/marcas.ts';
 
 const src = fs.readFileSync(new URL('../src/data/catalogoGenerado.ts', import.meta.url),'utf8');
-const arr = JSON.parse(src.slice(src.indexOf('Sneaker[] = ')+12, src.lastIndexOf('];')+1));
+// El catálogo viene en bloques `const BLOQUE_n: Sneaker[] = [...];` (límite de tsc).
+const arr = [...src.matchAll(/const BLOQUE_\d+: Sneaker\[\] = (\[[\s\S]*?\n\]);/g)]
+  .flatMap((m) => JSON.parse(m[1]));
 
 console.log(`umbral = ${MINIMO_PARA_APARTADO_PROPIO}, centinela = "${MARCA_OTRAS}"`);
 console.log('esGrupoOtras: "otras"=%s  "Otras"=%s  " OTRAS "=%s  "Nike"=%s',

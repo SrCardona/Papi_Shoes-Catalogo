@@ -162,16 +162,17 @@ function reemplazaMeta(html, atributo, nombre, contenido) {
 /** Lee el arreglo de pares del archivo generado, sin compilar TypeScript. */
 function leeCatalogo() {
   const fuente = readFileSync(CATALOGO, 'utf8');
-  /* Se ancla en el nombre y luego en el `=` de la asignación: buscar el primer
-     `[` a secas se tropieza con el de `Sneaker[]`, que está antes. */
-  const anclaje = fuente.indexOf('CATALOGO_GENERADO');
-  const igual = anclaje === -1 ? -1 : fuente.indexOf('=', anclaje);
-  const desde = igual === -1 ? -1 : fuente.indexOf('[', igual);
-  const hasta = fuente.lastIndexOf(']');
-  if (desde === -1 || hasta === -1 || hasta < desde) {
-    throw new Error('No pude encontrar el arreglo dentro de catalogoGenerado.ts.');
+  /* El generador escribe el catálogo en bloques (`const BLOQUE_n: Sneaker[] =
+     [...];`) para no pasar el límite de tsc; cada bloque es JSON y cierra con
+     `]` al inicio de línea. */
+  const pares = [];
+  const bloque = /const BLOQUE_\d+: Sneaker\[\] = (\[[\s\S]*?\n\]);/g;
+  for (let m = bloque.exec(fuente); m; m = bloque.exec(fuente)) {
+    pares.push(...JSON.parse(m[1]));
   }
-  const pares = JSON.parse(fuente.slice(desde, hasta + 1));
+  if (!pares.length && !fuente.includes('CATALOGO_GENERADO')) {
+    throw new Error('No pude encontrar el catálogo dentro de catalogoGenerado.ts.');
+  }
   if (!Array.isArray(pares) || !pares.length) {
     throw new Error('El catálogo generado quedó vacío.');
   }

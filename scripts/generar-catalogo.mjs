@@ -619,7 +619,18 @@ writeFileSync(
 
 /* El JSON de arriba solo entra al navegador de quien lo importe. Para que el
    catálogo lo vean los clientes en el sitio publicado tiene que estar también
-   en el código, así que se escribe como módulo TypeScript. */
+   en el código, así que se escribe como módulo TypeScript.
+   Va en bloques de 300 pares: con un solo arreglo de más de ~1.150, tsc falla
+   con TS2590 ("union type that is too complex") al comprobarlo contra Sneaker. */
+const TAMANO_BLOQUE = 300;
+const bloques = [];
+for (let i = 0; i < sneakers.length; i += TAMANO_BLOQUE) {
+  bloques.push(sneakers.slice(i, i + TAMANO_BLOQUE));
+}
+const declaraciones = bloques
+  .map((b, i) => `const BLOQUE_${i + 1}: Sneaker[] = ${JSON.stringify(b, null, 2)};`)
+  .join('\n\n');
+const union = bloques.map((_, i) => `...BLOQUE_${i + 1}`).join(', ');
 writeFileSync(
   TS_OUTPUT_FILE,
   `/**
@@ -636,7 +647,9 @@ writeFileSync(
 
 import type { Sneaker } from '../types';
 
-export const CATALOGO_GENERADO: Sneaker[] = ${JSON.stringify(sneakers, null, 2)};
+${declaraciones}
+
+export const CATALOGO_GENERADO: Sneaker[] = [${union}];
 `,
   'utf8',
 );
