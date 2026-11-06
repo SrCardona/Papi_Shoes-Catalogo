@@ -783,5 +783,36 @@
     "name": "Adidas Taekwondo Mary Jane",
     "colorway": "White / Pink / Gum",
     "sizes": "36-39"
+  },
+  "adidas-gazelle-indoor-negro-gum": {
+    "name": "Adidas Gazelle Indoor",
+    "colorway": "Black / White / Gum",
+    "sizes": "36-39"
+  },
+  "adidas-superstar-x-toy-story": {
+    "name": "Adidas Superstar x Toy Story",
+    "colorway": "White / Red",
+    "sizes": "36-39"
+  },
+  "adidas-predator-elite-azul-rosado": {
+    "name": "Adidas Predator Elite",
+    "colorway": "Blue / Pink",
+    "sizes": "40-44",
+    "description": "Guayo de fútbol."
+  },
+  "adidas-superstar-blanco-cafe": {
+    "name": "Adidas Superstar",
+    "colorway": "White / Brown",
+    "sizes": "36-39"
+  },
+  "adidas-superstar-negro-rosado": {
+    "name": "Adidas Superstar",
+    "colorway": "Black / Pink",
+    "sizes": "36-44"
+  },
+  "adidas-superstar-x-neighborhood-negro-crema": {
+    "name": "Adidas Superstar x Neighborhood",
+    "colorway": "Black / Cream",
+    "sizes": "40-44"
   }
 }

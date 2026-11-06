@@ -125,6 +125,7 @@ export const FONDOS_FOTOS: Record<string, string> = {
   '/catalogo/sneakers/jordan/jordan-4-retro-x-off-white-sail.jpg': '#ffffff',
   '/catalogo/sneakers/jordan/jordan-4-retro-x-union-guava-ice.jpg': '#ffffff',
   '/catalogo/sneakers/jordan/jordan-6-retro-infrared-white.jpg': '#ffffff',
+  '/catalogo/sneakers/jordan/mujer/jordan-1-retro-high-x-off-white-blanco.jpg': '#151413',
   '/catalogo/sneakers/louis-vuitton/louis-vuitton-skate-blanco-gris.jpg': '#ffffff',
   '/catalogo/sneakers/louis-vuitton/louis-vuitton-skate-rojo.jpg': '#ffffff',
   '/catalogo/sneakers/louis-vuitton/louis-vuitton-skate-verde.jpg': '#ffffff',

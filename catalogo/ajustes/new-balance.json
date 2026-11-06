@@ -372,5 +372,10 @@
     "name": "New Balance 9060",
     "colorway": "White / Green / Grey",
     "sizes": "36-39"
+  },
+  "new-balance-9060-leopardo": {
+    "name": "New Balance 9060",
+    "colorway": "Leopard / Beige",
+    "sizes": "36-39"
   }
 }

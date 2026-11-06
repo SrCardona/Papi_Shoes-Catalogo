@@ -908,5 +908,25 @@
     "name": "Jordan 1 Mid Bred",
     "colorway": "Black / Gym Red / White",
     "sizes": "36-44"
+  },
+  "jordan-1-retro-high-blanco-gris-azul": {
+    "name": "Jordan 1 Retro High",
+    "colorway": "White / Grey / Royal",
+    "sizes": "36-39"
+  },
+  "jordan-12-retro-negro-dorado": {
+    "name": "Jordan 12 Retro",
+    "colorway": "Black / Metallic Gold",
+    "sizes": "40-44"
+  },
+  "jordan-1-retro-high-x-off-white-blanco": {
+    "name": "Jordan 1 Retro High x Off-White",
+    "colorway": "White",
+    "sizes": "36-39"
+  },
+  "jordan-7-retro-bordeaux": {
+    "name": "Jordan 7 Retro Bordeaux",
+    "colorway": "Black / Bordeaux / Grey",
+    "sizes": "40-44"
   }
 }
