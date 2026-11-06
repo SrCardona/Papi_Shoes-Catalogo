@@ -1034,5 +1034,25 @@
     "name": "Adidas Samoa",
     "colorway": "Black / Gum",
     "sizes": "36-44"
+  },
+  "adidas-questar-negro-durazno": {
+    "name": "Adidas Questar",
+    "colorway": "Black / White / Peach",
+    "sizes": "36-39"
+  },
+  "adidas-questar-blanco-morado": {
+    "name": "Adidas Questar",
+    "colorway": "White / Purple",
+    "sizes": "36-39"
+  },
+  "adidas-questar-negro-morado": {
+    "name": "Adidas Questar",
+    "colorway": "Black / White / Purple",
+    "sizes": "36-39"
+  },
+  "adidas-taekwondo-mary-jane-negro-blanco": {
+    "name": "Adidas Taekwondo Mary Jane",
+    "colorway": "Black / White / Gum",
+    "sizes": "36-39"
   }
 }

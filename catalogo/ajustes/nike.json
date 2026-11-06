@@ -2188,5 +2188,30 @@
     "name": "Nike x Sacai Vaporwaffle",
     "colorway": "Black / White",
     "sizes": "36-44"
+  },
+  "nike-air-max-correlate-blanco-gris-rojo": {
+    "name": "Nike Air Max Correlate",
+    "colorway": "White / Grey / Red",
+    "sizes": "40-44"
+  },
+  "nike-nocta-glide-triple-negro": {
+    "name": "Nike Nocta Glide",
+    "colorway": "Triple Black",
+    "sizes": "40-44"
+  },
+  "nike-vomero-18-oliva": {
+    "name": "Nike Vomero 18",
+    "colorway": "Olive / Black",
+    "sizes": "40-44"
+  },
+  "nike-vomero-18-negro-blanco-hombre": {
+    "name": "Nike Vomero 18",
+    "colorway": "Black / White / Grey",
+    "sizes": "40-44"
+  },
+  "nike-vomero-18-salvia-negro": {
+    "name": "Nike Vomero 18",
+    "colorway": "Sage / Black / Volt",
+    "sizes": "40-44"
   }
 }
