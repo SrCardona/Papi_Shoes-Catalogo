@@ -257,5 +257,10 @@
     "name": "Puma Roma BMW M Motorsport",
     "colorway": "Black / Blue / Red",
     "sizes": "40-44"
+  },
+  "puma-180-triple-negro": {
+    "name": "Puma-180",
+    "colorway": "Triple Black",
+    "sizes": "36-44"
   }
 }

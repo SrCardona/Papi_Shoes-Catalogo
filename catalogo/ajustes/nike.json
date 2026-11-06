@@ -2098,5 +2098,95 @@
     "name": "Nike P-6000",
     "colorway": "Black / Volt",
     "sizes": "40-44"
+  },
+  "nike-acg-zegama-rosado-gris": {
+    "name": "Nike ACG Zegama",
+    "colorway": "Pink / Grey",
+    "sizes": "36-39"
+  },
+  "nike-acg-zegama-azul": {
+    "name": "Nike ACG Zegama",
+    "colorway": "Blue / Navy",
+    "sizes": "40-44"
+  },
+  "nike-acg-zegama-blanco-negro": {
+    "name": "Nike ACG Zegama",
+    "colorway": "White / Black",
+    "sizes": "40-44"
+  },
+  "nike-acg-zegama-negro-blanco": {
+    "name": "Nike ACG Zegama",
+    "colorway": "Black / White",
+    "sizes": "40-44"
+  },
+  "nike-acg-zegama-sail-naranja": {
+    "name": "Nike ACG Zegama",
+    "colorway": "Sail / Black / Orange",
+    "sizes": "40-44"
+  },
+  "nike-acg-zegama-negro-sail": {
+    "name": "Nike ACG Zegama",
+    "colorway": "Black / Sail",
+    "sizes": "40-44"
+  },
+  "nike-acg-zegama-blanco-naranja": {
+    "name": "Nike ACG Zegama",
+    "colorway": "White / Orange",
+    "sizes": "40-44"
+  },
+  "nike-acg-zegama-triple-negro": {
+    "name": "Nike ACG Zegama",
+    "colorway": "Triple Black",
+    "sizes": "40-44"
+  },
+  "nike-pg-2-navy-negro": {
+    "name": "Nike PG 2",
+    "colorway": "Navy / Black",
+    "sizes": "40-44"
+  },
+  "nike-dunk-low-grey-fog": {
+    "name": "Nike Dunk Low Grey Fog",
+    "colorway": "White / Grey Fog",
+    "sizes": "36-39"
+  },
+  "nike-shox-r4-rojo-negro": {
+    "name": "Nike Shox R4",
+    "colorway": "Red / Black",
+    "sizes": "40-44"
+  },
+  "nike-shox-ride-2-triple-negro": {
+    "name": "Nike Shox Ride 2",
+    "colorway": "Triple Black",
+    "sizes": "40-44"
+  },
+  "nike-shox-ride-2-x-supreme-negro-blanco": {
+    "name": "Nike Shox Ride 2 x Supreme",
+    "colorway": "Black / White / Red",
+    "sizes": "40-44"
+  },
+  "nike-air-force-1-sail-cafe-gris": {
+    "name": "Nike Air Force 1 Low",
+    "colorway": "Sail / Brown / Grey",
+    "sizes": "40-44"
+  },
+  "nike-air-force-1-gamuza-negro-gum": {
+    "name": "Nike Air Force 1 Low",
+    "colorway": "Black Suede / Gum",
+    "sizes": "40-44"
+  },
+  "nike-air-force-1-wheat-verde": {
+    "name": "Nike Air Force 1 Low",
+    "colorway": "Wheat / Green / Orange",
+    "sizes": "40-44"
+  },
+  "nike-air-max-270-react-x-travis-scott": {
+    "name": "Nike Air Max 270 React x Travis Scott Cactus Trails",
+    "colorway": "Khaki / Gold / Multicolor",
+    "sizes": "40-44"
+  },
+  "nike-x-sacai-vaporwaffle-negro-blanco": {
+    "name": "Nike x Sacai Vaporwaffle",
+    "colorway": "Black / White",
+    "sizes": "36-44"
   }
 }

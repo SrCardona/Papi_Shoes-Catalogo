@@ -377,5 +377,25 @@
     "name": "New Balance 9060",
     "colorway": "Leopard / Beige",
     "sizes": "36-39"
+  },
+  "new-balance-ac-runner-navy": {
+    "name": "New Balance AC Runner",
+    "colorway": "Navy / White",
+    "sizes": "40-44"
+  },
+  "new-balance-ac-runner-negro-volt": {
+    "name": "New Balance AC Runner",
+    "colorway": "Black / Volt",
+    "sizes": "40-44"
+  },
+  "new-balance-ac-runner-blanco-volt": {
+    "name": "New Balance AC Runner",
+    "colorway": "White / Volt",
+    "sizes": "40-44"
+  },
+  "new-balance-ac-runner-naranja": {
+    "name": "New Balance AC Runner",
+    "colorway": "Orange / Black",
+    "sizes": "40-44"
   }
 }

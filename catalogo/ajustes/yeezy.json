@@ -18,5 +18,15 @@
     "name": "Yeezy Boost 700",
     "colorway": "Grey / White / Orange",
     "sizes": "40-44"
+  },
+  "yeezy-700-v3-azael": {
+    "name": "Yeezy 700 V3 Azael",
+    "colorway": "Cream / Glow",
+    "sizes": "40-44"
+  },
+  "yeezy-700-v3-negro": {
+    "name": "Yeezy 700 V3",
+    "colorway": "Black",
+    "sizes": "40-44"
   }
 }
