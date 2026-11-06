@@ -192,5 +192,40 @@
     "name": "Puma Park Lifestyle",
     "colorway": "White / Navy / Blue",
     "sizes": "36-39"
+  },
+  "puma-scuderia-ferrari-negro-blanco": {
+    "name": "Puma Scuderia Ferrari",
+    "colorway": "Black / White",
+    "sizes": "36-39"
+  },
+  "puma-suede-xl-negro-blanco": {
+    "name": "Puma Suede XL",
+    "colorway": "Black / White",
+    "sizes": "36-39"
+  },
+  "puma-suede-xl-triple-blanco": {
+    "name": "Puma Suede XL",
+    "colorway": "Triple White",
+    "sizes": "40-44"
+  },
+  "puma-palermo-blanco-gris": {
+    "name": "Puma Palermo",
+    "colorway": "White / Grey",
+    "sizes": "36-39"
+  },
+  "puma-suede-xl-bmw-blanco": {
+    "name": "Puma Suede XL BMW M Motorsport",
+    "colorway": "White",
+    "sizes": "36-39"
+  },
+  "puma-suede-xl-beige-navy": {
+    "name": "Puma Suede XL",
+    "colorway": "Beige / Navy",
+    "sizes": "40-44"
+  },
+  "puma-indoor-blanco-navy": {
+    "name": "Puma Indoor",
+    "colorway": "White / Navy / Gum",
+    "sizes": "36-39"
   }
 }

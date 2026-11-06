@@ -322,5 +322,55 @@
     "name": "New Balance 574",
     "colorway": "Cream / Navy",
     "sizes": "36-39"
+  },
+  "new-balance-574-gris-navy": {
+    "name": "New Balance 574",
+    "colorway": "Grey / Navy / Gum",
+    "sizes": "40-44"
+  },
+  "new-balance-9060-sea-salt-verde": {
+    "name": "New Balance 9060",
+    "colorway": "Sea Salt / Grey / Green",
+    "sizes": "40-44"
+  },
+  "new-balance-9060-blanco-menta": {
+    "name": "New Balance 9060",
+    "colorway": "White / Mint",
+    "sizes": "36-39"
+  },
+  "new-balance-9060-cafe-rosado-verde": {
+    "name": "New Balance 9060",
+    "colorway": "Brown / Pink / Green",
+    "sizes": "36-39"
+  },
+  "new-balance-9060-oliva-cafe": {
+    "name": "New Balance 9060",
+    "colorway": "Olive / Brown",
+    "sizes": "36-39"
+  },
+  "new-balance-9060-sea-salt-cafe": {
+    "name": "New Balance 9060",
+    "colorway": "Sea Salt / Brown / Green",
+    "sizes": "40-44"
+  },
+  "new-balance-574-plataforma-cebra": {
+    "name": "New Balance 574+",
+    "colorway": "Black / Zebra",
+    "sizes": "36-39"
+  },
+  "new-balance-9060-blanco-azul-negro": {
+    "name": "New Balance 9060",
+    "colorway": "White / Light Blue / Black",
+    "sizes": "36-39"
+  },
+  "new-balance-9060-taupe": {
+    "name": "New Balance 9060",
+    "colorway": "Taupe / Grey",
+    "sizes": "36-39"
+  },
+  "new-balance-9060-blanco-verde-gris": {
+    "name": "New Balance 9060",
+    "colorway": "White / Green / Grey",
+    "sizes": "36-39"
   }
 }

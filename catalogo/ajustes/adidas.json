@@ -681,5 +681,72 @@
     "name": "Adidas Samba",
     "colorway": "Brown / White / Gum",
     "sizes": "40-44"
+  },
+  "adidas-predator-elite-gris-amarillo": {
+    "name": "Adidas Predator Elite",
+    "colorway": "Grey / Yellow / Purple",
+    "sizes": "40-44",
+    "description": "Guayo de fútbol."
+  },
+  "adidas-f50-azul-volt": {
+    "name": "Adidas F50",
+    "colorway": "Blue / Volt",
+    "sizes": "40-44",
+    "description": "Guayo de fútbol."
+  },
+  "adidas-superstar-azul-rey": {
+    "name": "Adidas Superstar",
+    "colorway": "Royal Blue / White",
+    "sizes": "36-39"
+  },
+  "adidas-samba-blanco-dorado-brillos": {
+    "name": "Adidas Samba",
+    "colorway": "White / Gold Glitter / Gum",
+    "sizes": "36-39"
+  },
+  "adidas-superstar-x-bape-azul": {
+    "name": "Adidas Superstar x Bape",
+    "colorway": "Blue Camo / White",
+    "sizes": "40-44"
+  },
+  "adidas-superstar-crema-floral": {
+    "name": "Adidas Superstar",
+    "colorway": "Cream / Floral",
+    "sizes": "40-44"
+  },
+  "adidas-superstar-gamuza-gris": {
+    "name": "Adidas Superstar",
+    "colorway": "Grey Suede / White",
+    "sizes": "40-44"
+  },
+  "adidas-taekwondo-mary-jane-durazno": {
+    "name": "Adidas Taekwondo Mary Jane",
+    "colorway": "Peach / Gum",
+    "sizes": "36-39"
+  },
+  "adidas-taekwondo-mary-jane-gris": {
+    "name": "Adidas Taekwondo Mary Jane",
+    "colorway": "Grey / White / Gum",
+    "sizes": "36-39"
+  },
+  "adidas-terrex-negro-turquesa": {
+    "name": "Adidas Terrex",
+    "colorway": "Black / Teal",
+    "sizes": "40-44"
+  },
+  "adidas-adimule-beige": {
+    "name": "Adidas Adimule",
+    "colorway": "Beige Suede",
+    "sizes": "36-44"
+  },
+  "adidas-adimule-negro": {
+    "name": "Adidas Adimule",
+    "colorway": "Black Suede",
+    "sizes": "36-44"
+  },
+  "adidas-adimule-naranja": {
+    "name": "Adidas Adimule",
+    "colorway": "Orange Suede",
+    "sizes": "36-44"
   }
 }
