@@ -1878,5 +1878,50 @@
     "name": "Nike Pegasus Trail 5 GORE-TEX",
     "colorway": "Grey / Sail",
     "sizes": "40-44"
+  },
+  "nike-dunk-low-navy-gris": {
+    "name": "Nike Dunk Low",
+    "colorway": "Navy / Grey / White",
+    "sizes": "40-44"
+  },
+  "nike-shox-ride-2-x-supreme-blanco": {
+    "name": "Nike Shox Ride 2 x Supreme",
+    "colorway": "White / Red",
+    "sizes": "40-44"
+  },
+  "nike-shox-ride-2-x-supreme-negro": {
+    "name": "Nike Shox Ride 2 x Supreme",
+    "colorway": "Triple Black",
+    "sizes": "40-44"
+  },
+  "nike-acg-mountain-fly-2-low-negro-azul": {
+    "name": "Nike ACG Mountain Fly 2 Low",
+    "colorway": "Black / Blue",
+    "sizes": "40-44"
+  },
+  "nike-acg-mountain-fly-2-low-negro-blanco": {
+    "name": "Nike ACG Mountain Fly 2 Low",
+    "colorway": "Black / White",
+    "sizes": "40-44"
+  },
+  "nike-v5-rnr-plata-cafe": {
+    "name": "Nike V5 RNR",
+    "colorway": "Metallic Silver / Brown",
+    "sizes": "40-44"
+  },
+  "nike-sb-dunk-low-cafe-sail": {
+    "name": "Nike SB Dunk Low",
+    "colorway": "Brown / Sail",
+    "sizes": "40-44"
+  },
+  "nike-air-force-1-beige-blanco": {
+    "name": "Nike Air Force 1 Low",
+    "colorway": "Beige / White",
+    "sizes": "36-39"
+  },
+  "nike-air-force-1-x-louis-vuitton-negro": {
+    "name": "Nike Air Force 1 Low x Louis Vuitton",
+    "colorway": "Black Monogram",
+    "sizes": "40-44"
   }
 }
