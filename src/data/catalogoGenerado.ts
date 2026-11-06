@@ -2280,6 +2280,114 @@ const BLOQUE_1: Sneaker[] = [
     "updatedAt": "2026-08-12T21:42:38.000Z"
   },
   {
+    "id": "sneaker-adidas-questar-blanco-morado",
+    "name": "Adidas Questar",
+    "brand": "Adidas",
+    "model": "Adidas Questar",
+    "sku": "PAPI-6332",
+    "category": "general",
+    "gender": "mujer",
+    "price": 179900,
+    "originalPrice": 209900,
+    "images": [
+      "/catalogo/sneakers/adidas/mujer/adidas-questar-blanco-morado.jpg"
+    ],
+    "sizes": [
+      36,
+      37,
+      38,
+      39
+    ],
+    "status": "disponible",
+    "isFeatured": true,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "White / Purple",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T20:31:47.626Z",
+    "updatedAt": "2026-11-06T20:31:47.626Z"
+  },
+  {
+    "id": "sneaker-adidas-questar-negro-durazno",
+    "name": "Adidas Questar",
+    "brand": "Adidas",
+    "model": "Adidas Questar",
+    "sku": "PAPI-8345",
+    "category": "general",
+    "gender": "mujer",
+    "price": 179900,
+    "originalPrice": 209900,
+    "images": [
+      "/catalogo/sneakers/adidas/mujer/adidas-questar-negro-durazno.jpg"
+    ],
+    "sizes": [
+      36,
+      37,
+      38,
+      39
+    ],
+    "status": "disponible",
+    "isFeatured": true,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Black / White / Peach",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T20:31:47.626Z",
+    "updatedAt": "2026-11-06T20:31:47.626Z"
+  },
+  {
+    "id": "sneaker-adidas-questar-negro-morado",
+    "name": "Adidas Questar",
+    "brand": "Adidas",
+    "model": "Adidas Questar",
+    "sku": "PAPI-4405",
+    "category": "general",
+    "gender": "mujer",
+    "price": 179900,
+    "originalPrice": 209900,
+    "images": [
+      "/catalogo/sneakers/adidas/mujer/adidas-questar-negro-morado.jpg"
+    ],
+    "sizes": [
+      36,
+      37,
+      38,
+      39
+    ],
+    "status": "disponible",
+    "isFeatured": true,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Black / White / Purple",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T20:31:47.626Z",
+    "updatedAt": "2026-11-06T20:31:47.626Z"
+  },
+  {
     "id": "sneaker-adidas-response-cl-x-bad-bunny-blanco",
     "name": "Adidas Response CL x Bad Bunny",
     "brand": "Adidas",
@@ -3427,7 +3535,7 @@ const BLOQUE_1: Sneaker[] = [
       44
     ],
     "status": "disponible",
-    "isFeatured": true,
+    "isFeatured": false,
     "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
@@ -3703,7 +3811,7 @@ const BLOQUE_1: Sneaker[] = [
       39
     ],
     "status": "disponible",
-    "isFeatured": true,
+    "isFeatured": false,
     "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
@@ -3730,7 +3838,8 @@ const BLOQUE_1: Sneaker[] = [
     "price": 179900,
     "originalPrice": 209900,
     "images": [
-      "/catalogo/sneakers/adidas/mujer/adidas-sl-72-negro-blanco.jpg"
+      "/catalogo/sneakers/adidas/mujer/adidas-sl-72-negro-blanco.jpg",
+      "/catalogo/sneakers/adidas/mujer/adidas-sl-72-negro-blanco_2.jpg"
     ],
     "sizes": [
       36,
@@ -6639,7 +6748,7 @@ const BLOQUE_1: Sneaker[] = [
       39
     ],
     "status": "disponible",
-    "isFeatured": true,
+    "isFeatured": false,
     "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
@@ -7480,6 +7589,42 @@ const BLOQUE_1: Sneaker[] = [
     "inquiriesCount": 0,
     "createdAt": "2026-11-06T16:29:57.174Z",
     "updatedAt": "2026-11-06T16:29:57.174Z"
+  },
+  {
+    "id": "sneaker-adidas-taekwondo-mary-jane-negro-blanco",
+    "name": "Adidas Taekwondo Mary Jane",
+    "brand": "Adidas",
+    "model": "Adidas Taekwondo Mary Jane",
+    "sku": "PAPI-9581",
+    "category": "general",
+    "gender": "mujer",
+    "price": 179900,
+    "originalPrice": 209900,
+    "images": [
+      "/catalogo/sneakers/adidas/mujer/adidas-taekwondo-mary-jane-negro-blanco.jpg"
+    ],
+    "sizes": [
+      36,
+      37,
+      38,
+      39
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Black / White / Gum",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T20:31:47.626Z",
+    "updatedAt": "2026-11-06T20:31:47.626Z"
   },
   {
     "id": "sneaker-adidas-terrex-negro-blanco",
@@ -11461,7 +11606,10 @@ const BLOQUE_1: Sneaker[] = [
     "inquiriesCount": 0,
     "createdAt": "2026-08-25T13:34:51.420Z",
     "updatedAt": "2026-08-25T13:34:51.420Z"
-  },
+  }
+];
+
+const BLOQUE_2: Sneaker[] = [
   {
     "id": "sneaker-jordan-5-retro-metallic-black",
     "name": "Air Jordan 5 Retro Metallic Black",
@@ -11614,10 +11762,7 @@ const BLOQUE_1: Sneaker[] = [
     "inquiriesCount": 0,
     "createdAt": "2026-08-25T13:34:51.420Z",
     "updatedAt": "2026-08-25T13:34:51.420Z"
-  }
-];
-
-const BLOQUE_2: Sneaker[] = [
+  },
   {
     "id": "sneaker-jordan-5-retro-unc",
     "name": "Air Jordan 5 Retro UNC",
@@ -12145,7 +12290,7 @@ const BLOQUE_2: Sneaker[] = [
       44
     ],
     "status": "disponible",
-    "isFeatured": true,
+    "isFeatured": false,
     "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
@@ -12182,7 +12327,7 @@ const BLOQUE_2: Sneaker[] = [
       44
     ],
     "status": "disponible",
-    "isFeatured": true,
+    "isFeatured": false,
     "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
@@ -15269,7 +15414,7 @@ const BLOQUE_2: Sneaker[] = [
       39
     ],
     "status": "disponible",
-    "isFeatured": true,
+    "isFeatured": false,
     "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
@@ -16753,6 +16898,154 @@ const BLOQUE_2: Sneaker[] = [
     "inquiriesCount": 0,
     "createdAt": "2026-11-06T16:29:57.174Z",
     "updatedAt": "2026-11-06T16:29:57.174Z"
+  },
+  {
+    "id": "sneaker-emporio-armani-ea7-negro-dorado",
+    "name": "Emporio Armani EA7",
+    "brand": "Otras",
+    "model": "Emporio Armani EA7",
+    "sku": "PAPI-1449",
+    "category": "general",
+    "gender": "hombre",
+    "price": 189900,
+    "originalPrice": 229900,
+    "images": [
+      "/catalogo/sneakers/otras/hombre/emporio-armani-ea7-negro-dorado.jpg"
+    ],
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": true,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Black / Gold",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T20:31:47.626Z",
+    "updatedAt": "2026-11-06T20:31:47.626Z"
+  },
+  {
+    "id": "sneaker-emporio-armani-ea7-negro-gris",
+    "name": "Emporio Armani EA7",
+    "brand": "Otras",
+    "model": "Emporio Armani EA7",
+    "sku": "PAPI-7993",
+    "category": "general",
+    "gender": "hombre",
+    "price": 189900,
+    "originalPrice": 229900,
+    "images": [
+      "/catalogo/sneakers/otras/hombre/emporio-armani-ea7-negro-gris.jpg"
+    ],
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": true,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Black / Grey",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T20:31:47.626Z",
+    "updatedAt": "2026-11-06T20:31:47.626Z"
+  },
+  {
+    "id": "sneaker-emporio-armani-ea7-negro-menta",
+    "name": "Emporio Armani EA7",
+    "brand": "Otras",
+    "model": "Emporio Armani EA7",
+    "sku": "PAPI-7126",
+    "category": "general",
+    "gender": "hombre",
+    "price": 189900,
+    "originalPrice": 229900,
+    "images": [
+      "/catalogo/sneakers/otras/hombre/emporio-armani-ea7-negro-menta.jpg"
+    ],
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": true,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Black / Mint",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T20:31:47.626Z",
+    "updatedAt": "2026-11-06T20:31:47.626Z"
+  },
+  {
+    "id": "sneaker-emporio-armani-ea7-negro-plata",
+    "name": "Emporio Armani EA7",
+    "brand": "Otras",
+    "model": "Emporio Armani EA7",
+    "sku": "PAPI-8865",
+    "category": "general",
+    "gender": "hombre",
+    "price": 189900,
+    "originalPrice": 229900,
+    "images": [
+      "/catalogo/sneakers/otras/hombre/emporio-armani-ea7-negro-plata.jpg"
+    ],
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Black / Silver",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T20:31:47.626Z",
+    "updatedAt": "2026-11-06T20:31:47.626Z"
   },
   {
     "id": "sneaker-fila-running-blanco-crema",
@@ -21129,7 +21422,7 @@ const BLOQUE_2: Sneaker[] = [
       44
     ],
     "status": "disponible",
-    "isFeatured": true,
+    "isFeatured": false,
     "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
@@ -22833,7 +23126,10 @@ const BLOQUE_2: Sneaker[] = [
     "inquiriesCount": 0,
     "createdAt": "2026-08-13T19:13:00.000Z",
     "updatedAt": "2026-08-13T19:13:00.000Z"
-  },
+  }
+];
+
+const BLOQUE_3: Sneaker[] = [
   {
     "id": "sneaker-louis-vuitton-skate-cuero-azul-royal",
     "name": "Louis Vuitton Skate Cuero",
@@ -23149,10 +23445,7 @@ const BLOQUE_2: Sneaker[] = [
     "inquiriesCount": 0,
     "createdAt": "2026-08-13T19:13:00.000Z",
     "updatedAt": "2026-08-13T19:13:00.000Z"
-  }
-];
-
-const BLOQUE_3: Sneaker[] = [
+  },
   {
     "id": "sneaker-louis-vuitton-trainer-mid-negro",
     "name": "Louis Vuitton Trainer Mid",
@@ -26387,7 +26680,7 @@ const BLOQUE_3: Sneaker[] = [
       44
     ],
     "status": "disponible",
-    "isFeatured": true,
+    "isFeatured": false,
     "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
@@ -30892,6 +31185,43 @@ const BLOQUE_3: Sneaker[] = [
     "updatedAt": "2026-08-13T18:57:45.000Z"
   },
   {
+    "id": "sneaker-nike-air-max-correlate-blanco-gris-rojo",
+    "name": "Nike Air Max Correlate",
+    "brand": "Nike",
+    "model": "Nike Air Max Correlate",
+    "sku": "PAPI-1581",
+    "category": "general",
+    "gender": "hombre",
+    "price": 179900,
+    "originalPrice": 209900,
+    "images": [
+      "/catalogo/sneakers/nike/hombre/nike-air-max-correlate-blanco-gris-rojo.jpg"
+    ],
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": true,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "White / Grey / Red",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T20:31:47.626Z",
+    "updatedAt": "2026-11-06T20:31:47.626Z"
+  },
+  {
     "id": "sneaker-nike-air-max-correlate-blanco-negro",
     "name": "Nike Air Max Correlate",
     "brand": "Nike",
@@ -30903,7 +31233,8 @@ const BLOQUE_3: Sneaker[] = [
     "originalPrice": 209900,
     "images": [
       "/catalogo/sneakers/nike/mujer/nike-air-max-correlate-blanco-negro.jpg",
-      "/catalogo/sneakers/nike/mujer/nike-air-max-correlate-blanco-negro_2.jpg"
+      "/catalogo/sneakers/nike/mujer/nike-air-max-correlate-blanco-negro_2.jpg",
+      "/catalogo/sneakers/nike/mujer/nike-air-max-correlate-blanco-negro_3.jpg"
     ],
     "sizes": [
       36,
@@ -34340,7 +34671,10 @@ const BLOQUE_3: Sneaker[] = [
     "inquiriesCount": 0,
     "createdAt": "2026-11-06T19:45:10.477Z",
     "updatedAt": "2026-11-06T19:45:10.477Z"
-  },
+  }
+];
+
+const BLOQUE_4: Sneaker[] = [
   {
     "id": "sneaker-nike-ava-rover-negro-muselina",
     "name": "Nike Ava Rover",
@@ -34674,10 +35008,7 @@ const BLOQUE_3: Sneaker[] = [
     "inquiriesCount": 0,
     "createdAt": "2026-11-06T14:58:00.796Z",
     "updatedAt": "2026-11-06T14:58:00.796Z"
-  }
-];
-
-const BLOQUE_4: Sneaker[] = [
+  },
   {
     "id": "sneaker-nike-blazer-mid-77-blanco-negro",
     "name": "Nike Blazer Mid '77",
@@ -39107,7 +39438,8 @@ const BLOQUE_4: Sneaker[] = [
     "price": 179900,
     "originalPrice": 209900,
     "images": [
-      "/catalogo/sneakers/nike/hombre/nike-nocta-glide-negro-rojo.jpg"
+      "/catalogo/sneakers/nike/hombre/nike-nocta-glide-negro-rojo.jpg",
+      "/catalogo/sneakers/nike/hombre/nike-nocta-glide-negro-rojo_2.jpg"
     ],
     "sizes": [
       40,
@@ -39132,6 +39464,43 @@ const BLOQUE_4: Sneaker[] = [
     "inquiriesCount": 0,
     "createdAt": "2026-11-06T13:33:12.682Z",
     "updatedAt": "2026-11-06T13:33:12.682Z"
+  },
+  {
+    "id": "sneaker-nike-nocta-glide-triple-negro",
+    "name": "Nike Nocta Glide",
+    "brand": "Nike",
+    "model": "Nike Nocta Glide",
+    "sku": "PAPI-2114",
+    "category": "general",
+    "gender": "hombre",
+    "price": 179900,
+    "originalPrice": 209900,
+    "images": [
+      "/catalogo/sneakers/nike/hombre/nike-nocta-glide-triple-negro.jpg"
+    ],
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": true,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Triple Black",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T20:31:47.626Z",
+    "updatedAt": "2026-11-06T20:31:47.626Z"
   },
   {
     "id": "sneaker-nike-p-6000-negro-blanco-plata",
@@ -42953,6 +43322,118 @@ const BLOQUE_4: Sneaker[] = [
     "updatedAt": "2026-11-06T13:33:12.682Z"
   },
   {
+    "id": "sneaker-nike-vomero-18-negro-blanco",
+    "name": "Nike Vomero 18",
+    "brand": "Nike",
+    "model": "Nike Vomero 18",
+    "sku": "PAPI-2948",
+    "category": "general",
+    "gender": "hombre",
+    "price": 179900,
+    "originalPrice": 209900,
+    "images": [
+      "/catalogo/sneakers/nike/hombre/nike-vomero-18-negro-blanco-hombre.jpg",
+      "/catalogo/sneakers/nike/mujer/nike-vomero-18-negro-blanco.jpg",
+      "/catalogo/sneakers/nike/mujer/nike-vomero-18-negro-blanco_2.jpg"
+    ],
+    "sizes": [
+      36,
+      37,
+      38,
+      39
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Black / White",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T19:07:29.009Z",
+    "updatedAt": "2026-11-06T19:07:29.009Z"
+  },
+  {
+    "id": "sneaker-nike-vomero-18-oliva",
+    "name": "Nike Vomero 18",
+    "brand": "Nike",
+    "model": "Nike Vomero 18",
+    "sku": "PAPI-1045",
+    "category": "general",
+    "gender": "hombre",
+    "price": 179900,
+    "originalPrice": 209900,
+    "images": [
+      "/catalogo/sneakers/nike/hombre/nike-vomero-18-oliva.jpg"
+    ],
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Olive / Black",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T20:31:47.626Z",
+    "updatedAt": "2026-11-06T20:31:47.626Z"
+  },
+  {
+    "id": "sneaker-nike-vomero-18-salvia-negro",
+    "name": "Nike Vomero 18",
+    "brand": "Nike",
+    "model": "Nike Vomero 18",
+    "sku": "PAPI-1141",
+    "category": "general",
+    "gender": "hombre",
+    "price": 179900,
+    "originalPrice": 209900,
+    "images": [
+      "/catalogo/sneakers/nike/hombre/nike-vomero-18-salvia-negro.jpg"
+    ],
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Sage / Black / Volt",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T20:31:47.626Z",
+    "updatedAt": "2026-11-06T20:31:47.626Z"
+  },
+  {
     "id": "sneaker-nike-vomero-18-blanco-aqua",
     "name": "Nike Vomero 18",
     "brand": "Nike",
@@ -43016,43 +43497,6 @@ const BLOQUE_4: Sneaker[] = [
     "details": {
       "condition": "En caja",
       "colorway": "Grey / Sage",
-      "includedItems": [
-        "Caja"
-      ]
-    },
-    "viewsCount": 0,
-    "inquiriesCount": 0,
-    "createdAt": "2026-11-06T19:07:29.009Z",
-    "updatedAt": "2026-11-06T19:07:29.009Z"
-  },
-  {
-    "id": "sneaker-nike-vomero-18-negro-blanco",
-    "name": "Nike Vomero 18",
-    "brand": "Nike",
-    "model": "Nike Vomero 18",
-    "sku": "PAPI-2948",
-    "category": "general",
-    "gender": "mujer",
-    "price": 179900,
-    "originalPrice": 209900,
-    "images": [
-      "/catalogo/sneakers/nike/mujer/nike-vomero-18-negro-blanco.jpg",
-      "/catalogo/sneakers/nike/mujer/nike-vomero-18-negro-blanco_2.jpg"
-    ],
-    "sizes": [
-      36,
-      37,
-      38,
-      39
-    ],
-    "status": "disponible",
-    "isFeatured": false,
-    "isNewArrival": true,
-    "isOriginalCertified": false,
-    "description": "",
-    "details": {
-      "condition": "En caja",
-      "colorway": "Black / White",
       "includedItems": [
         "Caja"
       ]
@@ -44706,6 +45150,42 @@ const BLOQUE_4: Sneaker[] = [
     "updatedAt": "2026-09-08T16:36:16.035Z"
   },
   {
+    "id": "sneaker-onitsuka-tiger-mexico-66-amarillo-negro",
+    "name": "Onitsuka Tiger Mexico 66",
+    "brand": "Onitsuka Tiger",
+    "model": "Onitsuka Tiger Mexico 66",
+    "sku": "PAPI-3217",
+    "category": "general",
+    "gender": "mujer",
+    "price": 189900,
+    "originalPrice": 229900,
+    "images": [
+      "/catalogo/sneakers/onitsuka-tiger/mujer/onitsuka-tiger-mexico-66-amarillo-negro.jpg"
+    ],
+    "sizes": [
+      36,
+      37,
+      38,
+      39
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Yellow / Black",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T20:31:47.626Z",
+    "updatedAt": "2026-11-06T20:31:47.626Z"
+  },
+  {
     "id": "sneaker-onitsuka-tiger-mexico-66-blanco-plata",
     "name": "Onitsuka Tiger Mexico 66",
     "brand": "Onitsuka Tiger",
@@ -44824,7 +45304,8 @@ const BLOQUE_4: Sneaker[] = [
     "price": 189900,
     "originalPrice": 229900,
     "images": [
-      "/catalogo/sneakers/onitsuka-tiger/mujer/onitsuka-tiger-mexico-66-crema-cafe.jpg"
+      "/catalogo/sneakers/onitsuka-tiger/mujer/onitsuka-tiger-mexico-66-crema-cafe.jpg",
+      "/catalogo/sneakers/onitsuka-tiger/mujer/onitsuka-tiger-mexico-66-crema-cafe_2.jpg"
     ],
     "sizes": [
       36,
@@ -44848,6 +45329,42 @@ const BLOQUE_4: Sneaker[] = [
     "inquiriesCount": 0,
     "createdAt": "2026-11-06T16:29:57.174Z",
     "updatedAt": "2026-11-06T16:29:57.174Z"
+  },
+  {
+    "id": "sneaker-onitsuka-tiger-mexico-66-crema-gris",
+    "name": "Onitsuka Tiger Mexico 66",
+    "brand": "Onitsuka Tiger",
+    "model": "Onitsuka Tiger Mexico 66",
+    "sku": "PAPI-1162",
+    "category": "general",
+    "gender": "mujer",
+    "price": 189900,
+    "originalPrice": 229900,
+    "images": [
+      "/catalogo/sneakers/onitsuka-tiger/mujer/onitsuka-tiger-mexico-66-crema-gris.jpg"
+    ],
+    "sizes": [
+      36,
+      37,
+      38,
+      39
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Cream / Grey",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T20:31:47.626Z",
+    "updatedAt": "2026-11-06T20:31:47.626Z"
   },
   {
     "id": "sneaker-onitsuka-tiger-mexico-66-crema-navy",
@@ -44920,6 +45437,42 @@ const BLOQUE_4: Sneaker[] = [
     "inquiriesCount": 0,
     "createdAt": "2026-11-06T16:29:57.174Z",
     "updatedAt": "2026-11-06T16:29:57.174Z"
+  },
+  {
+    "id": "sneaker-onitsuka-tiger-mexico-66-navy-amarillo",
+    "name": "Onitsuka Tiger Mexico 66",
+    "brand": "Onitsuka Tiger",
+    "model": "Onitsuka Tiger Mexico 66",
+    "sku": "PAPI-5504",
+    "category": "general",
+    "gender": "mujer",
+    "price": 189900,
+    "originalPrice": 229900,
+    "images": [
+      "/catalogo/sneakers/onitsuka-tiger/mujer/onitsuka-tiger-mexico-66-navy-amarillo.jpg"
+    ],
+    "sizes": [
+      36,
+      37,
+      38,
+      39
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Navy / Yellow",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T20:31:47.626Z",
+    "updatedAt": "2026-11-06T20:31:47.626Z"
   },
   {
     "id": "sneaker-osiris-d3-negro-gris",
@@ -45557,7 +46110,10 @@ const BLOQUE_4: Sneaker[] = [
     "inquiriesCount": 0,
     "createdAt": "2026-09-14T16:54:20.918Z",
     "updatedAt": "2026-09-14T16:54:20.918Z"
-  },
+  }
+];
+
+const BLOQUE_5: Sneaker[] = [
   {
     "id": "sneaker-puma-indoor-blanco-gris",
     "name": "Puma Indoor",
@@ -46119,10 +46675,7 @@ const BLOQUE_4: Sneaker[] = [
     "inquiriesCount": 0,
     "createdAt": "2026-08-15T21:25:11.931Z",
     "updatedAt": "2026-08-15T21:25:11.931Z"
-  }
-];
-
-const BLOQUE_5: Sneaker[] = [
+  },
   {
     "id": "sneaker-puma-palermo-negro-rosado",
     "name": "Puma Palermo",

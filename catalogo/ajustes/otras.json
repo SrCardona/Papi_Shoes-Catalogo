@@ -705,5 +705,25 @@
     "name": "Vans Rowley",
     "colorway": "Black / White",
     "sizes": "36-44"
+  },
+  "emporio-armani-ea7-negro-plata": {
+    "name": "Emporio Armani EA7",
+    "colorway": "Black / Silver",
+    "sizes": "40-44"
+  },
+  "emporio-armani-ea7-negro-menta": {
+    "name": "Emporio Armani EA7",
+    "colorway": "Black / Mint",
+    "sizes": "40-44"
+  },
+  "emporio-armani-ea7-negro-dorado": {
+    "name": "Emporio Armani EA7",
+    "colorway": "Black / Gold",
+    "sizes": "40-44"
+  },
+  "emporio-armani-ea7-negro-gris": {
+    "name": "Emporio Armani EA7",
+    "colorway": "Black / Grey",
+    "sizes": "40-44"
   }
 }
