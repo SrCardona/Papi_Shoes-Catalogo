@@ -232,5 +232,40 @@
     "name": "New Balance 1300",
     "colorway": "Black / Sail",
     "sizes": "40-44"
+  },
+  "new-balance-9060-rosado-vinotinto": {
+    "name": "New Balance 9060",
+    "colorway": "Pink / Burgundy",
+    "sizes": "36-39"
+  },
+  "new-balance-9060-negro-gris-azul": {
+    "name": "New Balance 9060",
+    "colorway": "Black / Grey / Blue",
+    "sizes": "36-44"
+  },
+  "new-balance-9060-blanco-negro": {
+    "name": "New Balance 9060",
+    "colorway": "White / Black",
+    "sizes": "36-39"
+  },
+  "new-balance-9060-sail-vinotinto": {
+    "name": "New Balance 9060",
+    "colorway": "Sail / Burgundy",
+    "sizes": "36-39"
+  },
+  "new-balance-9060-blanco-gris": {
+    "name": "New Balance 9060",
+    "colorway": "White / Grey",
+    "sizes": "36-39"
+  },
+  "new-balance-9060-gris-negro-unisex": {
+    "name": "New Balance 9060",
+    "colorway": "Grey / Black / White",
+    "sizes": "36-44"
+  },
+  "new-balance-9060-blanco-navy-rosado": {
+    "name": "New Balance 9060",
+    "colorway": "White / Navy / Pink",
+    "sizes": "36-39"
   }
 }

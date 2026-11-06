@@ -48,6 +48,7 @@ const BRANDS: SneakerBrand[] = [
   'Asics',
   'On',
   'Under Armour',
+  'Onitsuka Tiger',
   'Otras',
 ];
 const CATEGORIES: SneakerCategory[] = ['originales', 'general'];

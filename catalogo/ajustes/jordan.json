@@ -518,5 +518,75 @@
     "colorway": "Triple Black",
     "sizes": "39-44",
     "description": "Jordan bajo en cuero y gamuza negra con la cámara de aire en el talón."
+  },
+  "jordan-legacy-312-low-gris": {
+    "name": "Jordan Legacy 312 Low",
+    "colorway": "White / Grey / Cement",
+    "sizes": "36-44"
+  },
+  "jordan-legacy-312-low-shattered-backboard": {
+    "name": "Jordan Legacy 312 Low Shattered Backboard",
+    "colorway": "Black / Orange / White",
+    "sizes": "36-39"
+  },
+  "jordan-legacy-312-low-blanco-durazno": {
+    "name": "Jordan Legacy 312 Low",
+    "colorway": "White / Peach / Iridescent",
+    "sizes": "36-39"
+  },
+  "jordan-legacy-312-low-blanco-negro": {
+    "name": "Jordan Legacy 312 Low",
+    "colorway": "White / Black / Cement",
+    "sizes": "40-44"
+  },
+  "jordan-1-mid-negro-durazno": {
+    "name": "Jordan 1 Mid",
+    "colorway": "Black / Peach / White",
+    "sizes": "36-39"
+  },
+  "jordan-1-mid-lavanda-rosado": {
+    "name": "Jordan 1 Mid",
+    "colorway": "Lavender / Pink / White",
+    "sizes": "36-39"
+  },
+  "jordan-1-low-black-toe": {
+    "name": "Jordan 1 Low Black Toe",
+    "colorway": "White / Black / Red",
+    "sizes": "40-44"
+  },
+  "jordan-3-retro-blanco-cemento-azul": {
+    "name": "Jordan 3 Retro",
+    "colorway": "White / Cement / Blue",
+    "sizes": "40-44"
+  },
+  "jordan-1-low-travis-scott-azul": {
+    "name": "Jordan 1 Low x Travis Scott",
+    "colorway": "White / Military Blue / Black",
+    "sizes": "40-44"
+  },
+  "jordan-1-low-travis-scott-oliva": {
+    "name": "Jordan 1 Low x Travis Scott",
+    "colorway": "Sail / Medium Olive / Black",
+    "sizes": "40-44"
+  },
+  "jordan-1-low-travis-scott-black-phantom": {
+    "name": "Jordan 1 Low x Travis Scott Black Phantom",
+    "colorway": "Black / White",
+    "sizes": "40-44"
+  },
+  "jordan-1-low-travis-scott-gris-oscuro": {
+    "name": "Jordan 1 Low x Travis Scott",
+    "colorway": "Dark Grey / Black",
+    "sizes": "40-44"
+  },
+  "jordan-1-low-travis-scott-dior": {
+    "name": "Jordan 1 Low x Travis Scott x Dior",
+    "colorway": "White / Grey / Black",
+    "sizes": "40-44"
+  },
+  "jordan-1-low-travis-scott-stussy": {
+    "name": "Jordan 1 Low x Travis Scott x Stüssy",
+    "colorway": "Black / Aqua",
+    "sizes": "40-44"
   }
 }

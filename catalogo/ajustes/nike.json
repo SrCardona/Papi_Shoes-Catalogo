@@ -1188,5 +1188,135 @@
     "name": "Nike Dunk Low",
     "colorway": "Pink / White",
     "sizes": "36-39"
+  },
+  "nike-dunk-low-blanco-negro": {
+    "name": "Nike Dunk Low",
+    "colorway": "White / Black",
+    "sizes": "40-44"
+  },
+  "nike-air-force-1-x-stussy-sail-oliva": {
+    "name": "Nike Air Force 1 Low x Stüssy",
+    "colorway": "Sail / Olive",
+    "sizes": "40-44"
+  },
+  "nike-air-force-1-blanco-contorno-negro": {
+    "name": "Nike Air Force 1 Low",
+    "colorway": "White / Black",
+    "sizes": "40-44"
+  },
+  "nike-air-force-1-blanco-suela-negra": {
+    "name": "Nike Air Force 1 Low",
+    "colorway": "White / Black Sole",
+    "sizes": "40-44"
+  },
+  "nike-air-force-1-charol-rojo": {
+    "name": "Nike Air Force 1 Low",
+    "colorway": "Red Patent / Black",
+    "sizes": "40-44"
+  },
+  "nike-air-force-1-naranja-metalico": {
+    "name": "Nike Air Force 1 Low",
+    "colorway": "Metallic Orange / White",
+    "sizes": "40-44"
+  },
+  "nike-air-force-1-court-purple": {
+    "name": "Nike Air Force 1 Low",
+    "colorway": "Court Purple",
+    "sizes": "40-44"
+  },
+  "nike-air-force-1-charol-negro": {
+    "name": "Nike Air Force 1 Low",
+    "colorway": "Black Patent / White",
+    "sizes": "36-39"
+  },
+  "nike-air-force-1-blanco-cordon-azul": {
+    "name": "Nike Air Force 1 Low",
+    "colorway": "White / Blue",
+    "sizes": "36-44"
+  },
+  "nike-cortez-sail-verde": {
+    "name": "Nike Cortez",
+    "colorway": "Sail / Green",
+    "sizes": "40-44"
+  },
+  "nike-free-metcon-6-negro-blanco": {
+    "name": "Nike Free Metcon 6",
+    "colorway": "Black / White",
+    "sizes": "36-38"
+  },
+  "nike-air-force-1-negro-brillos": {
+    "name": "Nike Air Force 1 Low",
+    "colorway": "Black Glitter",
+    "sizes": "36-39"
+  },
+  "nike-air-max-95-negro": {
+    "name": "Nike Air Max 95",
+    "colorway": "Triple Black",
+    "sizes": "40-44"
+  },
+  "nike-sb-dunk-low-sail-oliva-paisley": {
+    "name": "Nike SB Dunk Low",
+    "colorway": "Sail / Olive / Paisley",
+    "sizes": "40-44"
+  },
+  "nike-air-force-1-paisley": {
+    "name": "Nike Air Force 1 Low Paisley",
+    "colorway": "Black / Tan / Plaid",
+    "sizes": "40-44"
+  },
+  "nike-air-force-1-oliva-sail": {
+    "name": "Nike Air Force 1 Low",
+    "colorway": "Olive / Sail",
+    "sizes": "40-44"
+  },
+  "nike-air-force-1-negro-dorado": {
+    "name": "Nike Air Force 1 Low",
+    "colorway": "Black / Gold",
+    "sizes": "40-44"
+  },
+  "nike-shox-r4-sail-lavanda": {
+    "name": "Nike Shox R4",
+    "colorway": "Sail / Lavender",
+    "sizes": "36-39"
+  },
+  "nike-v2k-run-blanco-azul": {
+    "name": "Nike V2K Run",
+    "colorway": "White / Light Blue",
+    "sizes": "36-39"
+  },
+  "nike-air-max-negro-rosado": {
+    "name": "Nike Air Max",
+    "colorway": "Black / Pink",
+    "sizes": "36-39"
+  },
+  "nike-initiator-negro-volt": {
+    "name": "Nike Initiator",
+    "colorway": "Black / Volt",
+    "sizes": "40-44"
+  },
+  "nike-bailleli-blanco-rojo": {
+    "name": "Nike Bailleli",
+    "colorway": "White / Red",
+    "sizes": "36-39"
+  },
+  "nike-sb-dunk-low-triple-blanco": {
+    "name": "Nike SB Dunk Low",
+    "colorway": "Triple White",
+    "sizes": "36-44"
+  },
+  "nike-metcon-9-blanco-volt": {
+    "name": "Nike Metcon 9",
+    "colorway": "White / Volt",
+    "sizes": "40-44"
+  },
+  "nike-winflo-12-gris": {
+    "name": "Nike Winflo 12",
+    "colorway": "Light Grey / White",
+    "sizes": "36-39"
+  },
+  "nike-initiator-blanco-cafe": {
+    "name": "Nike Initiator",
+    "colorway": "White / Brown / Silver",
+    "sizes": "36-39"
   }
 }

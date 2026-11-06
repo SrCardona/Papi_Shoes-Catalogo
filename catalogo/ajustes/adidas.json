@@ -446,5 +446,115 @@
     "name": "Adidas Superstar",
     "colorway": "White / Green",
     "sizes": "40-44"
+  },
+  "adidas-terrex-negro-blanco": {
+    "name": "Adidas Terrex",
+    "colorway": "Black / White",
+    "sizes": "40-44"
+  },
+  "adidas-superstar-rosado-crema": {
+    "name": "Adidas Superstar",
+    "colorway": "Pink / Black / Cream",
+    "sizes": "36-39"
+  },
+  "adidas-superstar-blanco-punta-negra": {
+    "name": "Adidas Superstar",
+    "colorway": "White / Black",
+    "sizes": "40-44"
+  },
+  "adidas-superstar-blanco-beige-navy": {
+    "name": "Adidas Superstar",
+    "colorway": "White / Beige / Navy",
+    "sizes": "36-39"
+  },
+  "adidas-superstar-blanco-negro-gris": {
+    "name": "Adidas Superstar",
+    "colorway": "White / Black / Grey",
+    "sizes": "36-39"
+  },
+  "adidas-superstar-negro-gum": {
+    "name": "Adidas Superstar",
+    "colorway": "Black / Gum",
+    "sizes": "36-40"
+  },
+  "adidas-court-nova-blanco-menta": {
+    "name": "Adidas Court Nova",
+    "colorway": "White / Mint",
+    "sizes": "36-39"
+  },
+  "adidas-samba-blanco-beige": {
+    "name": "Adidas Samba",
+    "colorway": "White / Beige / Gum",
+    "sizes": "36-39"
+  },
+  "adidas-samba-negro-crema": {
+    "name": "Adidas Samba",
+    "colorway": "Black / Cream / Gum",
+    "sizes": "36-39"
+  },
+  "adidas-supermagma-blanco-cafe": {
+    "name": "Adidas Supermagma",
+    "colorway": "White / Brown",
+    "sizes": "36-39"
+  },
+  "adidas-supermagma-blanco-azul": {
+    "name": "Adidas Supermagma",
+    "colorway": "White / Light Blue",
+    "sizes": "36-39"
+  },
+  "adidas-supermagma-negro-naranja": {
+    "name": "Adidas Supermagma",
+    "colorway": "Black / Orange / Purple",
+    "sizes": "36-39"
+  },
+  "adidas-supermagma-negro-menta": {
+    "name": "Adidas Supermagma",
+    "colorway": "Black / Mint / Purple",
+    "sizes": "36-39"
+  },
+  "adidas-supermagma-navy-azul": {
+    "name": "Adidas Supermagma",
+    "colorway": "Navy / Blue",
+    "sizes": "40-44"
+  },
+  "adidas-supermagma-negro-rojo": {
+    "name": "Adidas Supermagma",
+    "colorway": "Black / Red",
+    "sizes": "40-44"
+  },
+  "adidas-terrex-negro-morado": {
+    "name": "Adidas Terrex",
+    "colorway": "Black / Purple / Pink",
+    "sizes": "36-39"
+  },
+  "adidas-terrex-rojo": {
+    "name": "Adidas Terrex",
+    "colorway": "Red",
+    "sizes": "40-44"
+  },
+  "adidas-campus-00s-negro-gum": {
+    "name": "Adidas Campus 00s",
+    "colorway": "Black / White / Gum",
+    "sizes": "36-39"
+  },
+  "adidas-supermagma-triple-negro": {
+    "name": "Adidas Supermagma",
+    "colorway": "Triple Black",
+    "sizes": "40-44"
+  },
+  "adidas-campus-00s-negro-blanco": {
+    "name": "Adidas Campus 00s",
+    "colorway": "Black / White",
+    "sizes": "36-39"
+  },
+  "adidas-supermagma-negro-blanco": {
+    "name": "Adidas Supermagma",
+    "colorway": "Black / White",
+    "sizes": "36-44"
+  },
+  "adidas-samba-negro-blanco-gum": {
+    "name": "Adidas Samba",
+    "colorway": "Black / White / Gum",
+    "sizes": "36-39"
   }
 }
