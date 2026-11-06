@@ -100,6 +100,7 @@ export const FONDOS_FOTOS: Record<string, string> = {
   '/catalogo/sneakers/adidas/adidas-superstar-reflectivo.jpg': 'linear-gradient(to bottom,#e6e7e7 50%,#dfe0e0 50%)',
   '/catalogo/sneakers/adidas/adidas-superstar-white-black.jpg': '#f5f5f5',
   '/catalogo/sneakers/adidas/adidas-ultraboost-core-black.jpg': '#ffffff',
+  '/catalogo/sneakers/jordan/hombre/jordan-3-retro-denim.jpg': '#e7e7e7',
   '/catalogo/sneakers/jordan/jordan-1-retro-high-85-black-white.jpg': '#ffffff',
   '/catalogo/sneakers/jordan/jordan-1-retro-high-85-og-satin-bred.jpg': '#ffffff',
   '/catalogo/sneakers/jordan/jordan-1-retro-high-og-obsidian-unc.jpg': '#ffffff',

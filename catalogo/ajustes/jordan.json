@@ -643,5 +643,210 @@
     "name": "Jordan 1 Retro High",
     "colorway": "White / Varsity Red",
     "sizes": "40-44"
+  },
+  "jordan-3-retro-sail-cemento": {
+    "name": "Jordan 3 Retro",
+    "colorway": "Sail / Cement",
+    "sizes": "36-39"
+  },
+  "jordan-1-low-concord": {
+    "name": "Jordan 1 Low",
+    "colorway": "White / Black Patent",
+    "sizes": "36-39"
+  },
+  "jordan-1-low-chicago": {
+    "name": "Jordan 1 Low Chicago",
+    "colorway": "White / Varsity Red / Black",
+    "sizes": "40-44"
+  },
+  "jordan-3-retro-blanco-azul-claro": {
+    "name": "Jordan 3 Retro",
+    "colorway": "White / Light Blue / Red",
+    "sizes": "36-39"
+  },
+  "jordan-11-retro-legend-blue": {
+    "name": "Jordan 11 Retro Legend Blue",
+    "colorway": "White / Legend Blue",
+    "sizes": "40-44"
+  },
+  "jordan-12-retro-negro-azul": {
+    "name": "Jordan 12 Retro",
+    "colorway": "Black / University Blue",
+    "sizes": "40-44"
+  },
+  "jordan-12-retro-negro-rojo": {
+    "name": "Jordan 12 Retro",
+    "colorway": "Black / Red",
+    "sizes": "40-44"
+  },
+  "jordan-9-retro-blanco-negro": {
+    "name": "Jordan 9 Retro",
+    "colorway": "White / Black / Red",
+    "sizes": "40-44"
+  },
+  "jordan-4-retro-negro-azul-rojo": {
+    "name": "Jordan 4 Retro",
+    "colorway": "Black / Royal / Red",
+    "sizes": "40-44"
+  },
+  "jordan-3-retro-blanco-verde-naranja": {
+    "name": "Jordan 3 Retro",
+    "colorway": "White / Green / Orange",
+    "sizes": "40-44"
+  },
+  "jordan-11-retro-low-unc": {
+    "name": "Jordan 11 Retro Low",
+    "colorway": "White / University Blue",
+    "sizes": "36-39"
+  },
+  "jordan-4-retro-fire-red": {
+    "name": "Jordan 4 Retro Fire Red",
+    "colorway": "White / Fire Red / Black",
+    "sizes": "36-39"
+  },
+  "jordan-4-retro-blanco-multicolor": {
+    "name": "Jordan 4 Retro",
+    "colorway": "White / Green / Pink / Blue",
+    "sizes": "36-39"
+  },
+  "jordan-1-retro-high-negro-rojo-sail": {
+    "name": "Jordan 1 Retro High",
+    "colorway": "Black / Red / Sail",
+    "sizes": "40-44"
+  },
+  "jordan-3-retro-denim": {
+    "name": "Jordan 3 Retro Denim",
+    "colorway": "Sail / Blue Denim",
+    "sizes": "40-44"
+  },
+  "jordan-3-retro-blanco-rojo-cafe": {
+    "name": "Jordan 3 Retro",
+    "colorway": "White / Red / Brown",
+    "sizes": "40-44"
+  },
+  "jordan-3-retro-negro-infrarrojo": {
+    "name": "Jordan 3 Retro",
+    "colorway": "Black / Infrared",
+    "sizes": "40-44"
+  },
+  "jordan-3-retro-cardinal": {
+    "name": "Jordan 3 Retro Cardinal Red",
+    "colorway": "White / Cardinal Red / Cement",
+    "sizes": "40-44"
+  },
+  "jordan-3-retro-oliva": {
+    "name": "Jordan 3 Retro",
+    "colorway": "Medium Olive / Cement",
+    "sizes": "40-44"
+  },
+  "jordan-max-aura-6-bred": {
+    "name": "Jordan Max Aura 6",
+    "colorway": "Black / Red / White",
+    "sizes": "40-44"
+  },
+  "jordan-4-retro-red-thunder": {
+    "name": "Jordan 4 Retro Red Thunder",
+    "colorway": "Black / Red",
+    "sizes": "40-44"
+  },
+  "jordan-1-mid-year-of-the-snake": {
+    "name": "Jordan 1 Mid Year of the Snake",
+    "colorway": "White / Red",
+    "sizes": "40-44"
+  },
+  "jordan-10-retro-gris": {
+    "name": "Jordan 10 Retro",
+    "colorway": "Grey / Black",
+    "sizes": "40-44"
+  },
+  "jordan-3-retro-white-cement": {
+    "name": "Jordan 3 Retro White Cement",
+    "colorway": "White / Cement / Red",
+    "sizes": "40-44"
+  },
+  "jordan-11-retro-perla": {
+    "name": "Jordan 11 Retro",
+    "colorway": "Pearl White",
+    "sizes": "40-44"
+  },
+  "jordan-max-aura-6-blanco-rojo": {
+    "name": "Jordan Max Aura 6",
+    "colorway": "White / Gym Red",
+    "sizes": "40-44"
+  },
+  "jordan-max-aura-6-negro-azul": {
+    "name": "Jordan Max Aura 6",
+    "colorway": "Black / Blue / White",
+    "sizes": "40-44"
+  },
+  "jordan-4-retro-blanco-amarillo": {
+    "name": "Jordan 4 Retro",
+    "colorway": "White / Yellow / Black",
+    "sizes": "40-44"
+  },
+  "jordan-3-retro-blanco-cafe-azul": {
+    "name": "Jordan 3 Retro",
+    "colorway": "White / Brown / Royal",
+    "sizes": "40-44"
+  },
+  "jordan-3-retro-blanco-naranja": {
+    "name": "Jordan 3 Retro",
+    "colorway": "White / Orange",
+    "sizes": "36-39"
+  },
+  "jordan-3-retro-true-blue": {
+    "name": "Jordan 3 Retro True Blue",
+    "colorway": "White / True Blue / Cement",
+    "sizes": "40-44"
+  },
+  "jordan-3-retro-blanco-rosado": {
+    "name": "Jordan 3 Retro",
+    "colorway": "White / Pink",
+    "sizes": "36-39"
+  },
+  "jordan-1-retro-high-plata": {
+    "name": "Jordan 1 Retro High",
+    "colorway": "Metallic Silver",
+    "sizes": "40-44"
+  },
+  "jordan-1-retro-high-azul-metalico": {
+    "name": "Jordan 1 Retro High",
+    "colorway": "Metallic Blue / Black",
+    "sizes": "40-44"
+  },
+  "jordan-7-retro-citrus": {
+    "name": "Jordan 7 Retro",
+    "colorway": "Black / Citrus",
+    "sizes": "40-44"
+  },
+  "jordan-7-retro-raptors": {
+    "name": "Jordan 7 Retro Raptors",
+    "colorway": "Black / Purple / Red",
+    "sizes": "40-44"
+  },
+  "jordan-3-retro-rojo-verde": {
+    "name": "Jordan 3 Retro",
+    "colorway": "Red / Green / White",
+    "sizes": "40-44"
+  },
+  "jordan-max-aura-7-blanco-negro": {
+    "name": "Jordan Max Aura 7",
+    "colorway": "White / Black",
+    "sizes": "40-44"
+  },
+  "jordan-max-aura-7-negro-rojo": {
+    "name": "Jordan Max Aura 7",
+    "colorway": "Black / Red / White",
+    "sizes": "40-44"
+  },
+  "jordan-11-retro-low-negro": {
+    "name": "Jordan 11 Retro Low",
+    "colorway": "Black / White",
+    "sizes": "40-44"
+  },
+  "jordan-1-low-gris-rosado": {
+    "name": "Jordan 1 Low",
+    "colorway": "Grey / Pink / Sail",
+    "sizes": "36-39"
   }
 }

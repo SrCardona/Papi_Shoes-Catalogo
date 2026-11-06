@@ -192,7 +192,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       44
     ],
     "status": "disponible",
-    "isFeatured": true,
+    "isFeatured": false,
     "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
@@ -207,6 +207,42 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "inquiriesCount": 0,
     "createdAt": "2026-11-06T14:58:00.796Z",
     "updatedAt": "2026-11-06T14:58:00.796Z"
+  },
+  {
+    "id": "sneaker-adidas-advantage-blanco",
+    "name": "Adidas Advantage",
+    "brand": "Adidas",
+    "model": "Adidas Advantage",
+    "sku": "PAPI-7534",
+    "category": "general",
+    "gender": "mujer",
+    "price": 179900,
+    "originalPrice": 209900,
+    "images": [
+      "/catalogo/sneakers/adidas/mujer/adidas-advantage-blanco.jpg"
+    ],
+    "sizes": [
+      36,
+      37,
+      38,
+      39
+    ],
+    "status": "disponible",
+    "isFeatured": true,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "White / Black",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T15:49:41.529Z",
+    "updatedAt": "2026-11-06T15:49:41.529Z"
   },
   {
     "id": "sneaker-adidas-advantage-triple-blanco",
@@ -406,6 +442,42 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "updatedAt": "2026-08-12T21:42:38.000Z"
   },
   {
+    "id": "sneaker-adidas-campus-blanco-gum",
+    "name": "Adidas Campus",
+    "brand": "Adidas",
+    "model": "Adidas Campus",
+    "sku": "PAPI-5282",
+    "category": "general",
+    "gender": "mujer",
+    "price": 179900,
+    "originalPrice": 209900,
+    "images": [
+      "/catalogo/sneakers/adidas/mujer/adidas-campus-blanco-gum.jpg"
+    ],
+    "sizes": [
+      36,
+      37,
+      38,
+      39
+    ],
+    "status": "disponible",
+    "isFeatured": true,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "White / Gum",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T15:49:41.529Z",
+    "updatedAt": "2026-11-06T15:49:41.529Z"
+  },
+  {
     "id": "sneaker-adidas-campus-00s-core-black",
     "name": "Adidas Campus 00s",
     "brand": "Adidas",
@@ -487,6 +559,43 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "inquiriesCount": 0,
     "createdAt": "2026-08-12T21:42:38.000Z",
     "updatedAt": "2026-08-12T21:42:38.000Z"
+  },
+  {
+    "id": "sneaker-adidas-campus-00s-crema",
+    "name": "Adidas Campus 00s",
+    "brand": "Adidas",
+    "model": "Adidas Campus 00s",
+    "sku": "PAPI-3202",
+    "category": "general",
+    "gender": "hombre",
+    "price": 179900,
+    "originalPrice": 209900,
+    "images": [
+      "/catalogo/sneakers/adidas/hombre/adidas-campus-00s-crema.jpg"
+    ],
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": true,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Cream White",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T15:49:41.529Z",
+    "updatedAt": "2026-11-06T15:49:41.529Z"
   },
   {
     "id": "sneaker-adidas-campus-00s-negro-brillantes",
@@ -611,7 +720,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "price": 179900,
     "originalPrice": 209900,
     "images": [
-      "/catalogo/sneakers/adidas/mujer/adidas-campus-00s-negro-gum.jpg"
+      "/catalogo/sneakers/adidas/mujer/adidas-campus-00s-negro-gum.jpg",
+      "/catalogo/sneakers/adidas/mujer/adidas-campus-00s-negro-gum_2.jpg"
     ],
     "sizes": [
       36,
@@ -1181,7 +1291,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "price": 179900,
     "originalPrice": 209900,
     "images": [
-      "/catalogo/sneakers/adidas/adidas-forum-x-bad-bunny.jpg"
+      "/catalogo/sneakers/adidas/adidas-forum-x-bad-bunny.jpg",
+      "/catalogo/sneakers/adidas/adidas-forum-x-bad-bunny_2.jpg"
     ],
     "sizes": [
       37,
@@ -1571,6 +1682,43 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "updatedAt": "2026-08-12T21:42:38.000Z"
   },
   {
+    "id": "sneaker-adidas-samba-cafe",
+    "name": "Adidas Samba",
+    "brand": "Adidas",
+    "model": "Adidas Samba",
+    "sku": "PAPI-1108",
+    "category": "general",
+    "gender": "hombre",
+    "price": 179900,
+    "originalPrice": 209900,
+    "images": [
+      "/catalogo/sneakers/adidas/hombre/adidas-samba-cafe.jpg"
+    ],
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Brown / White / Gum",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T15:49:41.529Z",
+    "updatedAt": "2026-11-06T15:49:41.529Z"
+  },
+  {
     "id": "sneaker-adidas-samba-azul-claro-cadena",
     "name": "Adidas Samba",
     "brand": "Adidas",
@@ -1590,7 +1738,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       39
     ],
     "status": "disponible",
-    "isFeatured": true,
+    "isFeatured": false,
     "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
@@ -1678,6 +1826,42 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "inquiriesCount": 0,
     "createdAt": "2026-11-06T14:19:39.279Z",
     "updatedAt": "2026-11-06T14:19:39.279Z"
+  },
+  {
+    "id": "sneaker-adidas-samba-blanco-gris-plataforma",
+    "name": "Adidas Samba",
+    "brand": "Adidas",
+    "model": "Adidas Samba",
+    "sku": "PAPI-1347",
+    "category": "general",
+    "gender": "mujer",
+    "price": 179900,
+    "originalPrice": 209900,
+    "images": [
+      "/catalogo/sneakers/adidas/mujer/adidas-samba-blanco-gris-plataforma.jpg"
+    ],
+    "sizes": [
+      36,
+      37,
+      38,
+      39
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "White / Grey / Gum",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T15:49:41.529Z",
+    "updatedAt": "2026-11-06T15:49:41.529Z"
   },
   {
     "id": "sneaker-adidas-samba-blanco-negro-dorado",
@@ -1807,7 +1991,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       39
     ],
     "status": "disponible",
-    "isFeatured": true,
+    "isFeatured": false,
     "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
@@ -2059,7 +2243,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "images": [
       "/catalogo/sneakers/adidas/adidas-samba-og.webp",
       "/catalogo/sneakers/adidas/adidas-samba-og_2.jpg",
-      "/catalogo/sneakers/adidas/adidas-samba-og_3.jpg"
+      "/catalogo/sneakers/adidas/adidas-samba-og_3.jpg",
+      "/catalogo/sneakers/adidas/adidas-samba-og_4.jpg"
     ],
     "sizes": [
       37,
@@ -2240,6 +2425,43 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "updatedAt": "2026-08-26T15:18:01.924Z"
   },
   {
+    "id": "sneaker-adidas-samba-xlg-blanco-negro",
+    "name": "Adidas Samba XLG",
+    "brand": "Adidas",
+    "model": "Adidas Samba XLG",
+    "sku": "PAPI-1187",
+    "category": "general",
+    "gender": "hombre",
+    "price": 179900,
+    "originalPrice": 209900,
+    "images": [
+      "/catalogo/sneakers/adidas/hombre/adidas-samba-xlg-blanco-negro.jpg"
+    ],
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "White / Black / Gum",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T15:49:41.529Z",
+    "updatedAt": "2026-11-06T15:49:41.529Z"
+  },
+  {
     "id": "sneaker-adidas-sikaige",
     "name": "Adidas Sikaige",
     "brand": "Adidas",
@@ -2358,6 +2580,42 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "inquiriesCount": 0,
     "createdAt": "2026-08-12T21:42:38.000Z",
     "updatedAt": "2026-08-12T21:42:38.000Z"
+  },
+  {
+    "id": "sneaker-adidas-sl-72-plata-navy",
+    "name": "Adidas SL 72",
+    "brand": "Adidas",
+    "model": "Adidas SL 72",
+    "sku": "PAPI-1666",
+    "category": "general",
+    "gender": "mujer",
+    "price": 179900,
+    "originalPrice": 209900,
+    "images": [
+      "/catalogo/sneakers/adidas/mujer/adidas-sl-72-plata-navy.jpg"
+    ],
+    "sizes": [
+      36,
+      37,
+      38,
+      39
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Silver Metallic / Navy",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T15:49:41.529Z",
+    "updatedAt": "2026-11-06T15:49:41.529Z"
   },
   {
     "id": "sneaker-adidas-spezial-olive-green",
@@ -2982,7 +3240,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "price": 179900,
     "originalPrice": 209900,
     "images": [
-      "/catalogo/sneakers/adidas/mujer/adidas-supermagma-negro-naranja.jpg"
+      "/catalogo/sneakers/adidas/mujer/adidas-supermagma-negro-naranja.jpg",
+      "/catalogo/sneakers/adidas/mujer/adidas-supermagma-negro-naranja_2.jpg"
     ],
     "sizes": [
       36,
@@ -3510,7 +3769,9 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "price": 179900,
     "originalPrice": 209900,
     "images": [
-      "/catalogo/sneakers/adidas/adidas-superstar-blanco-negro-unisex.jpg"
+      "/catalogo/sneakers/adidas/adidas-superstar-blanco-negro-unisex.jpg",
+      "/catalogo/sneakers/adidas/adidas-superstar-blanco-negro-unisex_2.jpg",
+      "/catalogo/sneakers/adidas/adidas-superstar-blanco-negro-unisex_3.jpg"
     ],
     "sizes": [
       36,
@@ -3553,7 +3814,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "images": [
       "/catalogo/sneakers/adidas/adidas-superstar-core-black.jpg",
       "/catalogo/sneakers/adidas/adidas-superstar-core-black_2.jpg",
-      "/catalogo/sneakers/adidas/adidas-superstar-core-black_3.jpg"
+      "/catalogo/sneakers/adidas/adidas-superstar-core-black_3.jpg",
+      "/catalogo/sneakers/adidas/adidas-superstar-core-black_4.jpg"
     ],
     "sizes": [
       37,
@@ -3581,6 +3843,48 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "inquiriesCount": 0,
     "createdAt": "2026-08-12T21:42:38.000Z",
     "updatedAt": "2026-08-12T21:42:38.000Z"
+  },
+  {
+    "id": "sneaker-adidas-superstar-negro-blanco",
+    "name": "Adidas Superstar",
+    "brand": "Adidas",
+    "model": "Adidas Superstar",
+    "sku": "PAPI-7065",
+    "category": "general",
+    "gender": "unisex",
+    "price": 179900,
+    "originalPrice": 209900,
+    "images": [
+      "/catalogo/sneakers/adidas/adidas-superstar-negro-blanco.jpg",
+      "/catalogo/sneakers/adidas/adidas-superstar-negro-blanco_2.jpg"
+    ],
+    "sizes": [
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Core Black / White",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T15:49:41.529Z",
+    "updatedAt": "2026-11-06T15:49:41.529Z"
   },
   {
     "id": "sneaker-adidas-superstar-triple-black",
@@ -3675,7 +3979,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "images": [
       "/catalogo/sneakers/adidas/adidas-superstar-white-black.jpg",
       "/catalogo/sneakers/adidas/adidas-superstar-white-black_2.jpg",
-      "/catalogo/sneakers/adidas/adidas-superstar-white-black_3.jpg"
+      "/catalogo/sneakers/adidas/adidas-superstar-white-black_3.jpg",
+      "/catalogo/sneakers/adidas/adidas-superstar-white-black_4.jpg"
     ],
     "sizes": [
       37,
@@ -3741,6 +4046,43 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "inquiriesCount": 0,
     "createdAt": "2026-08-21T13:03:03.159Z",
     "updatedAt": "2026-08-21T13:03:03.159Z"
+  },
+  {
+    "id": "sneaker-adidas-superstar-blanco-negro-plata",
+    "name": "Adidas Superstar",
+    "brand": "Adidas",
+    "model": "Adidas Superstar",
+    "sku": "PAPI-7546",
+    "category": "general",
+    "gender": "hombre",
+    "price": 179900,
+    "originalPrice": 209900,
+    "images": [
+      "/catalogo/sneakers/adidas/hombre/adidas-superstar-blanco-negro-plata.jpg"
+    ],
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "White / Black / Silver",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T15:49:41.529Z",
+    "updatedAt": "2026-11-06T15:49:41.529Z"
   },
   {
     "id": "sneaker-adidas-superstar-blanco-punta-negra",
@@ -3865,7 +4207,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "price": 179900,
     "originalPrice": 209900,
     "images": [
-      "/catalogo/sneakers/adidas/hombre/adidas-superstar-negro-plata.jpg"
+      "/catalogo/sneakers/adidas/hombre/adidas-superstar-negro-plata.jpg",
+      "/catalogo/sneakers/adidas/hombre/adidas-superstar-negro-plata_2.jpg"
     ],
     "sizes": [
       40,
@@ -4014,7 +4357,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "price": 179900,
     "originalPrice": 209900,
     "images": [
-      "/catalogo/sneakers/adidas/mujer/adidas-superstar-blanco-negro-gris.jpg"
+      "/catalogo/sneakers/adidas/mujer/adidas-superstar-blanco-negro-gris.jpg",
+      "/catalogo/sneakers/adidas/mujer/adidas-superstar-blanco-negro-gris_2.jpg"
     ],
     "sizes": [
       36,
@@ -4112,6 +4456,42 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "inquiriesCount": 0,
     "createdAt": "2026-09-08T16:36:16.035Z",
     "updatedAt": "2026-09-08T16:36:16.035Z"
+  },
+  {
+    "id": "sneaker-adidas-superstar-navy-gamuza",
+    "name": "Adidas Superstar",
+    "brand": "Adidas",
+    "model": "Adidas Superstar",
+    "sku": "PAPI-1535",
+    "category": "general",
+    "gender": "mujer",
+    "price": 179900,
+    "originalPrice": 209900,
+    "images": [
+      "/catalogo/sneakers/adidas/mujer/adidas-superstar-navy-gamuza.jpg"
+    ],
+    "sizes": [
+      36,
+      37,
+      38,
+      39
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Navy Suede / White",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T15:49:41.529Z",
+    "updatedAt": "2026-11-06T15:49:41.529Z"
   },
   {
     "id": "sneaker-adidas-superstar-negro-gum",
@@ -4734,7 +5114,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "price": 179900,
     "originalPrice": 209900,
     "images": [
-      "/catalogo/sneakers/jordan/jordan-1-triple-red.jpeg"
+      "/catalogo/sneakers/jordan/jordan-1-triple-red.jpeg",
+      "/catalogo/sneakers/jordan/jordan-1-triple-red_2.jpg"
     ],
     "sizes": [
       37,
@@ -5011,7 +5392,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "price": 179900,
     "originalPrice": 209900,
     "images": [
-      "/catalogo/sneakers/jordan/jordan-1-low-triple-white.jpg"
+      "/catalogo/sneakers/jordan/jordan-1-low-triple-white.jpg",
+      "/catalogo/sneakers/jordan/jordan-1-low-triple-white_2.jpg"
     ],
     "sizes": [
       37,
@@ -5821,7 +6203,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "price": 179900,
     "originalPrice": 209900,
     "images": [
-      "/catalogo/sneakers/jordan/jordan-1-mid-panda.jpg"
+      "/catalogo/sneakers/jordan/jordan-1-mid-panda.jpg",
+      "/catalogo/sneakers/jordan/jordan-1-mid-panda_2.jpg"
     ],
     "sizes": [
       37,
@@ -6904,7 +7287,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "price": 179900,
     "originalPrice": 209900,
     "images": [
-      "/catalogo/sneakers/jordan/jordan-11-retro-concord.jpg"
+      "/catalogo/sneakers/jordan/jordan-11-retro-concord.jpg",
+      "/catalogo/sneakers/jordan/jordan-11-retro-concord_2.jpg"
     ],
     "sizes": [
       37,
@@ -6982,7 +7366,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "price": 179900,
     "originalPrice": 209900,
     "images": [
-      "/catalogo/sneakers/jordan/hombre/jordan-11-retro-gamma-blue.jpg"
+      "/catalogo/sneakers/jordan/hombre/jordan-11-retro-gamma-blue.jpg",
+      "/catalogo/sneakers/jordan/hombre/jordan-11-retro-gamma-blue_2.jpg"
     ],
     "sizes": [
       39,
@@ -7447,7 +7832,9 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "price": 179900,
     "originalPrice": 209900,
     "images": [
-      "/catalogo/sneakers/jordan/jordan-3-retro-black-cement.jpg"
+      "/catalogo/sneakers/jordan/jordan-3-retro-black-cement.jpg",
+      "/catalogo/sneakers/jordan/jordan-3-retro-black-cement_2.jpg",
+      "/catalogo/sneakers/jordan/jordan-3-retro-black-cement_3.jpg"
     ],
     "sizes": [
       37,
@@ -7527,7 +7914,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "price": 179900,
     "originalPrice": 209900,
     "images": [
-      "/catalogo/sneakers/jordan/jordan-3-retro-unc.jpg"
+      "/catalogo/sneakers/jordan/jordan-3-retro-unc.jpg",
+      "/catalogo/sneakers/jordan/jordan-3-retro-unc_2.jpg"
     ],
     "sizes": [
       37,
@@ -14310,6 +14698,78 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "updatedAt": "2026-08-14T15:26:27.178Z"
   },
   {
+    "id": "sneaker-jordan-1-low-concord",
+    "name": "Jordan 1 Low",
+    "brand": "Jordan",
+    "model": "Jordan 1 Low",
+    "sku": "PAPI-7592",
+    "category": "general",
+    "gender": "mujer",
+    "price": 179900,
+    "originalPrice": 209900,
+    "images": [
+      "/catalogo/sneakers/jordan/mujer/jordan-1-low-concord.jpg"
+    ],
+    "sizes": [
+      36,
+      37,
+      38,
+      39
+    ],
+    "status": "disponible",
+    "isFeatured": true,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "White / Black Patent",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T15:49:41.529Z",
+    "updatedAt": "2026-11-06T15:49:41.529Z"
+  },
+  {
+    "id": "sneaker-jordan-1-low-gris-rosado",
+    "name": "Jordan 1 Low",
+    "brand": "Jordan",
+    "model": "Jordan 1 Low",
+    "sku": "PAPI-1567",
+    "category": "general",
+    "gender": "mujer",
+    "price": 179900,
+    "originalPrice": 209900,
+    "images": [
+      "/catalogo/sneakers/jordan/mujer/jordan-1-low-gris-rosado.jpg"
+    ],
+    "sizes": [
+      36,
+      37,
+      38,
+      39
+    ],
+    "status": "disponible",
+    "isFeatured": true,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Grey / Pink / Sail",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T15:49:41.529Z",
+    "updatedAt": "2026-11-06T15:49:41.529Z"
+  },
+  {
     "id": "sneaker-jordan-1-low-black-toe",
     "name": "Jordan 1 Low Black Toe",
     "brand": "Jordan",
@@ -14345,6 +14805,43 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "inquiriesCount": 0,
     "createdAt": "2026-11-06T14:19:39.279Z",
     "updatedAt": "2026-11-06T14:19:39.279Z"
+  },
+  {
+    "id": "sneaker-jordan-1-low-chicago",
+    "name": "Jordan 1 Low Chicago",
+    "brand": "Jordan",
+    "model": "Jordan 1 Low Chicago",
+    "sku": "PAPI-7115",
+    "category": "general",
+    "gender": "hombre",
+    "price": 179900,
+    "originalPrice": 209900,
+    "images": [
+      "/catalogo/sneakers/jordan/hombre/jordan-1-low-chicago.jpg"
+    ],
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": true,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "White / Varsity Red / Black",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T15:49:41.529Z",
+    "updatedAt": "2026-11-06T15:49:41.529Z"
   },
   {
     "id": "sneaker-jordan-1-low-travis-scott-azul",
@@ -14750,6 +15247,80 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "updatedAt": "2026-11-06T14:19:39.279Z"
   },
   {
+    "id": "sneaker-jordan-1-mid-year-of-the-snake",
+    "name": "Jordan 1 Mid Year of the Snake",
+    "brand": "Jordan",
+    "model": "Jordan 1 Mid Year of the Snake",
+    "sku": "PAPI-6256",
+    "category": "general",
+    "gender": "hombre",
+    "price": 179900,
+    "originalPrice": 209900,
+    "images": [
+      "/catalogo/sneakers/jordan/hombre/jordan-1-mid-year-of-the-snake.jpg"
+    ],
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "White / Red",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T15:49:41.529Z",
+    "updatedAt": "2026-11-06T15:49:41.529Z"
+  },
+  {
+    "id": "sneaker-jordan-1-retro-high-azul-metalico",
+    "name": "Jordan 1 Retro High",
+    "brand": "Jordan",
+    "model": "Jordan 1 Retro High",
+    "sku": "PAPI-7937",
+    "category": "general",
+    "gender": "hombre",
+    "price": 179900,
+    "originalPrice": 209900,
+    "images": [
+      "/catalogo/sneakers/jordan/hombre/jordan-1-retro-high-azul-metalico.jpg"
+    ],
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Metallic Blue / Black",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T15:49:41.529Z",
+    "updatedAt": "2026-11-06T15:49:41.529Z"
+  },
+  {
     "id": "sneaker-jordan-1-retro-high-blanco-rojo-contorno",
     "name": "Jordan 1 Retro High",
     "brand": "Jordan",
@@ -14770,7 +15341,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       44
     ],
     "status": "disponible",
-    "isFeatured": true,
+    "isFeatured": false,
     "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
@@ -14785,6 +15356,117 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "inquiriesCount": 0,
     "createdAt": "2026-11-06T15:26:13.113Z",
     "updatedAt": "2026-11-06T15:26:13.113Z"
+  },
+  {
+    "id": "sneaker-jordan-1-retro-high-negro-rojo-sail",
+    "name": "Jordan 1 Retro High",
+    "brand": "Jordan",
+    "model": "Jordan 1 Retro High",
+    "sku": "PAPI-5845",
+    "category": "general",
+    "gender": "hombre",
+    "price": 179900,
+    "originalPrice": 209900,
+    "images": [
+      "/catalogo/sneakers/jordan/hombre/jordan-1-retro-high-negro-rojo-sail.jpg"
+    ],
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Black / Red / Sail",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T15:49:41.529Z",
+    "updatedAt": "2026-11-06T15:49:41.529Z"
+  },
+  {
+    "id": "sneaker-jordan-1-retro-high-plata",
+    "name": "Jordan 1 Retro High",
+    "brand": "Jordan",
+    "model": "Jordan 1 Retro High",
+    "sku": "PAPI-7046",
+    "category": "general",
+    "gender": "hombre",
+    "price": 179900,
+    "originalPrice": 209900,
+    "images": [
+      "/catalogo/sneakers/jordan/hombre/jordan-1-retro-high-plata.jpg"
+    ],
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Metallic Silver",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T15:49:41.529Z",
+    "updatedAt": "2026-11-06T15:49:41.529Z"
+  },
+  {
+    "id": "sneaker-jordan-10-retro-gris",
+    "name": "Jordan 10 Retro",
+    "brand": "Jordan",
+    "model": "Jordan 10 Retro",
+    "sku": "PAPI-1304",
+    "category": "general",
+    "gender": "hombre",
+    "price": 179900,
+    "originalPrice": 209900,
+    "images": [
+      "/catalogo/sneakers/jordan/hombre/jordan-10-retro-gris.jpg"
+    ],
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Grey / Black",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T15:49:41.529Z",
+    "updatedAt": "2026-11-06T15:49:41.529Z"
   },
   {
     "id": "sneaker-jordan-11-retro-blanco-negro-rojo",
@@ -14824,6 +15506,227 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "updatedAt": "2026-11-06T14:58:00.796Z"
   },
   {
+    "id": "sneaker-jordan-11-retro-perla",
+    "name": "Jordan 11 Retro",
+    "brand": "Jordan",
+    "model": "Jordan 11 Retro",
+    "sku": "PAPI-6727",
+    "category": "general",
+    "gender": "hombre",
+    "price": 179900,
+    "originalPrice": 209900,
+    "images": [
+      "/catalogo/sneakers/jordan/hombre/jordan-11-retro-perla.jpg"
+    ],
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Pearl White",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T15:49:41.529Z",
+    "updatedAt": "2026-11-06T15:49:41.529Z"
+  },
+  {
+    "id": "sneaker-jordan-11-retro-legend-blue",
+    "name": "Jordan 11 Retro Legend Blue",
+    "brand": "Jordan",
+    "model": "Jordan 11 Retro Legend Blue",
+    "sku": "PAPI-8636",
+    "category": "general",
+    "gender": "hombre",
+    "price": 179900,
+    "originalPrice": 209900,
+    "images": [
+      "/catalogo/sneakers/jordan/hombre/jordan-11-retro-legend-blue.jpg"
+    ],
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "White / Legend Blue",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T15:49:41.529Z",
+    "updatedAt": "2026-11-06T15:49:41.529Z"
+  },
+  {
+    "id": "sneaker-jordan-11-retro-low-negro",
+    "name": "Jordan 11 Retro Low",
+    "brand": "Jordan",
+    "model": "Jordan 11 Retro Low",
+    "sku": "PAPI-1072",
+    "category": "general",
+    "gender": "hombre",
+    "price": 179900,
+    "originalPrice": 209900,
+    "images": [
+      "/catalogo/sneakers/jordan/hombre/jordan-11-retro-low-negro.jpg"
+    ],
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Black / White",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T15:49:41.529Z",
+    "updatedAt": "2026-11-06T15:49:41.529Z"
+  },
+  {
+    "id": "sneaker-jordan-11-retro-low-unc",
+    "name": "Jordan 11 Retro Low",
+    "brand": "Jordan",
+    "model": "Jordan 11 Retro Low",
+    "sku": "PAPI-1506",
+    "category": "general",
+    "gender": "mujer",
+    "price": 179900,
+    "originalPrice": 209900,
+    "images": [
+      "/catalogo/sneakers/jordan/mujer/jordan-11-retro-low-unc.jpg"
+    ],
+    "sizes": [
+      36,
+      37,
+      38,
+      39
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "White / University Blue",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T15:49:41.529Z",
+    "updatedAt": "2026-11-06T15:49:41.529Z"
+  },
+  {
+    "id": "sneaker-jordan-12-retro-negro-azul",
+    "name": "Jordan 12 Retro",
+    "brand": "Jordan",
+    "model": "Jordan 12 Retro",
+    "sku": "PAPI-2277",
+    "category": "general",
+    "gender": "hombre",
+    "price": 179900,
+    "originalPrice": 209900,
+    "images": [
+      "/catalogo/sneakers/jordan/hombre/jordan-12-retro-negro-azul.jpg"
+    ],
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Black / University Blue",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T15:49:41.529Z",
+    "updatedAt": "2026-11-06T15:49:41.529Z"
+  },
+  {
+    "id": "sneaker-jordan-12-retro-negro-rojo",
+    "name": "Jordan 12 Retro",
+    "brand": "Jordan",
+    "model": "Jordan 12 Retro",
+    "sku": "PAPI-6206",
+    "category": "general",
+    "gender": "hombre",
+    "price": 179900,
+    "originalPrice": 209900,
+    "images": [
+      "/catalogo/sneakers/jordan/hombre/jordan-12-retro-negro-rojo.jpg"
+    ],
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Black / Red",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T15:49:41.529Z",
+    "updatedAt": "2026-11-06T15:49:41.529Z"
+  },
+  {
     "id": "sneaker-jordan-13-retro-azul-sail",
     "name": "Jordan 13 Retro",
     "brand": "Jordan",
@@ -14861,6 +15764,43 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "updatedAt": "2026-11-06T14:58:00.796Z"
   },
   {
+    "id": "sneaker-jordan-3-retro-blanco-cafe-azul",
+    "name": "Jordan 3 Retro",
+    "brand": "Jordan",
+    "model": "Jordan 3 Retro",
+    "sku": "PAPI-1133",
+    "category": "general",
+    "gender": "hombre",
+    "price": 179900,
+    "originalPrice": 209900,
+    "images": [
+      "/catalogo/sneakers/jordan/hombre/jordan-3-retro-blanco-cafe-azul.jpg"
+    ],
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "White / Brown / Royal",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T15:49:41.529Z",
+    "updatedAt": "2026-11-06T15:49:41.529Z"
+  },
+  {
     "id": "sneaker-jordan-3-retro-blanco-cemento-azul",
     "name": "Jordan 3 Retro",
     "brand": "Jordan",
@@ -14896,6 +15836,192 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "inquiriesCount": 0,
     "createdAt": "2026-11-06T14:19:39.279Z",
     "updatedAt": "2026-11-06T14:19:39.279Z"
+  },
+  {
+    "id": "sneaker-jordan-3-retro-blanco-rojo-cafe",
+    "name": "Jordan 3 Retro",
+    "brand": "Jordan",
+    "model": "Jordan 3 Retro",
+    "sku": "PAPI-6166",
+    "category": "general",
+    "gender": "hombre",
+    "price": 179900,
+    "originalPrice": 209900,
+    "images": [
+      "/catalogo/sneakers/jordan/hombre/jordan-3-retro-blanco-rojo-cafe.jpg"
+    ],
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "White / Red / Brown",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T15:49:41.529Z",
+    "updatedAt": "2026-11-06T15:49:41.529Z"
+  },
+  {
+    "id": "sneaker-jordan-3-retro-blanco-verde-naranja",
+    "name": "Jordan 3 Retro",
+    "brand": "Jordan",
+    "model": "Jordan 3 Retro",
+    "sku": "PAPI-1348",
+    "category": "general",
+    "gender": "hombre",
+    "price": 179900,
+    "originalPrice": 209900,
+    "images": [
+      "/catalogo/sneakers/jordan/hombre/jordan-3-retro-blanco-verde-naranja.jpg",
+      "/catalogo/sneakers/jordan/hombre/jordan-3-retro-blanco-verde-naranja_2.jpg"
+    ],
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "White / Green / Orange",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T15:49:41.529Z",
+    "updatedAt": "2026-11-06T15:49:41.529Z"
+  },
+  {
+    "id": "sneaker-jordan-3-retro-negro-infrarrojo",
+    "name": "Jordan 3 Retro",
+    "brand": "Jordan",
+    "model": "Jordan 3 Retro",
+    "sku": "PAPI-1313",
+    "category": "general",
+    "gender": "hombre",
+    "price": 179900,
+    "originalPrice": 209900,
+    "images": [
+      "/catalogo/sneakers/jordan/hombre/jordan-3-retro-negro-infrarrojo.jpg"
+    ],
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Black / Infrared",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T15:49:41.529Z",
+    "updatedAt": "2026-11-06T15:49:41.529Z"
+  },
+  {
+    "id": "sneaker-jordan-3-retro-oliva",
+    "name": "Jordan 3 Retro",
+    "brand": "Jordan",
+    "model": "Jordan 3 Retro",
+    "sku": "PAPI-2758",
+    "category": "general",
+    "gender": "hombre",
+    "price": 179900,
+    "originalPrice": 209900,
+    "images": [
+      "/catalogo/sneakers/jordan/hombre/jordan-3-retro-oliva.jpg"
+    ],
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Medium Olive / Cement",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T15:49:41.529Z",
+    "updatedAt": "2026-11-06T15:49:41.529Z"
+  },
+  {
+    "id": "sneaker-jordan-3-retro-rojo-verde",
+    "name": "Jordan 3 Retro",
+    "brand": "Jordan",
+    "model": "Jordan 3 Retro",
+    "sku": "PAPI-1227",
+    "category": "general",
+    "gender": "hombre",
+    "price": 179900,
+    "originalPrice": 209900,
+    "images": [
+      "/catalogo/sneakers/jordan/hombre/jordan-3-retro-rojo-verde.jpg"
+    ],
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Red / Green / White",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T15:49:41.529Z",
+    "updatedAt": "2026-11-06T15:49:41.529Z"
   },
   {
     "id": "sneaker-jordan-3-retro-sail-naranja",
@@ -14939,6 +16065,115 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "updatedAt": "2026-11-06T14:58:00.796Z"
   },
   {
+    "id": "sneaker-jordan-3-retro-blanco-azul-claro",
+    "name": "Jordan 3 Retro",
+    "brand": "Jordan",
+    "model": "Jordan 3 Retro",
+    "sku": "PAPI-2682",
+    "category": "general",
+    "gender": "mujer",
+    "price": 179900,
+    "originalPrice": 209900,
+    "images": [
+      "/catalogo/sneakers/jordan/mujer/jordan-3-retro-blanco-azul-claro.jpg",
+      "/catalogo/sneakers/jordan/mujer/jordan-3-retro-blanco-azul-claro_2.jpg"
+    ],
+    "sizes": [
+      36,
+      37,
+      38,
+      39
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "White / Light Blue / Red",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T15:49:41.529Z",
+    "updatedAt": "2026-11-06T15:49:41.529Z"
+  },
+  {
+    "id": "sneaker-jordan-3-retro-blanco-naranja",
+    "name": "Jordan 3 Retro",
+    "brand": "Jordan",
+    "model": "Jordan 3 Retro",
+    "sku": "PAPI-8244",
+    "category": "general",
+    "gender": "mujer",
+    "price": 179900,
+    "originalPrice": 209900,
+    "images": [
+      "/catalogo/sneakers/jordan/mujer/jordan-3-retro-blanco-naranja.jpg"
+    ],
+    "sizes": [
+      36,
+      37,
+      38,
+      39
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "White / Orange",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T15:49:41.529Z",
+    "updatedAt": "2026-11-06T15:49:41.529Z"
+  },
+  {
+    "id": "sneaker-jordan-3-retro-blanco-rosado",
+    "name": "Jordan 3 Retro",
+    "brand": "Jordan",
+    "model": "Jordan 3 Retro",
+    "sku": "PAPI-9053",
+    "category": "general",
+    "gender": "mujer",
+    "price": 179900,
+    "originalPrice": 209900,
+    "images": [
+      "/catalogo/sneakers/jordan/mujer/jordan-3-retro-blanco-rosado.jpg"
+    ],
+    "sizes": [
+      36,
+      37,
+      38,
+      39
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "White / Pink",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T15:49:41.529Z",
+    "updatedAt": "2026-11-06T15:49:41.529Z"
+  },
+  {
     "id": "sneaker-jordan-3-retro-rosado",
     "name": "Jordan 3 Retro",
     "brand": "Jordan",
@@ -14975,6 +16210,42 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "updatedAt": "2026-11-06T14:58:00.796Z"
   },
   {
+    "id": "sneaker-jordan-3-retro-sail-cemento",
+    "name": "Jordan 3 Retro",
+    "brand": "Jordan",
+    "model": "Jordan 3 Retro",
+    "sku": "PAPI-9696",
+    "category": "general",
+    "gender": "mujer",
+    "price": 179900,
+    "originalPrice": 209900,
+    "images": [
+      "/catalogo/sneakers/jordan/mujer/jordan-3-retro-sail-cemento.jpg"
+    ],
+    "sizes": [
+      36,
+      37,
+      38,
+      39
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Sail / Cement",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T15:49:41.529Z",
+    "updatedAt": "2026-11-06T15:49:41.529Z"
+  },
+  {
     "id": "sneaker-jordan-3-retro-black-cat",
     "name": "Jordan 3 Retro Black Cat",
     "brand": "Jordan",
@@ -14994,7 +16265,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       39
     ],
     "status": "disponible",
-    "isFeatured": true,
+    "isFeatured": false,
     "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
@@ -15009,6 +16280,155 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "inquiriesCount": 0,
     "createdAt": "2026-11-06T15:26:13.113Z",
     "updatedAt": "2026-11-06T15:26:13.113Z"
+  },
+  {
+    "id": "sneaker-jordan-3-retro-cardinal",
+    "name": "Jordan 3 Retro Cardinal Red",
+    "brand": "Jordan",
+    "model": "Jordan 3 Retro Cardinal Red",
+    "sku": "PAPI-1073",
+    "category": "general",
+    "gender": "hombre",
+    "price": 179900,
+    "originalPrice": 209900,
+    "images": [
+      "/catalogo/sneakers/jordan/hombre/jordan-3-retro-cardinal.jpg"
+    ],
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "White / Cardinal Red / Cement",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T15:49:41.529Z",
+    "updatedAt": "2026-11-06T15:49:41.529Z"
+  },
+  {
+    "id": "sneaker-jordan-3-retro-denim",
+    "name": "Jordan 3 Retro Denim",
+    "brand": "Jordan",
+    "model": "Jordan 3 Retro Denim",
+    "sku": "PAPI-1165",
+    "category": "general",
+    "gender": "hombre",
+    "price": 179900,
+    "originalPrice": 209900,
+    "images": [
+      "/catalogo/sneakers/jordan/hombre/jordan-3-retro-denim.jpg"
+    ],
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Sail / Blue Denim",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T15:49:41.529Z",
+    "updatedAt": "2026-11-06T15:49:41.529Z"
+  },
+  {
+    "id": "sneaker-jordan-3-retro-true-blue",
+    "name": "Jordan 3 Retro True Blue",
+    "brand": "Jordan",
+    "model": "Jordan 3 Retro True Blue",
+    "sku": "PAPI-5889",
+    "category": "general",
+    "gender": "hombre",
+    "price": 179900,
+    "originalPrice": 209900,
+    "images": [
+      "/catalogo/sneakers/jordan/hombre/jordan-3-retro-true-blue.jpg"
+    ],
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "White / True Blue / Cement",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T15:49:41.529Z",
+    "updatedAt": "2026-11-06T15:49:41.529Z"
+  },
+  {
+    "id": "sneaker-jordan-3-retro-white-cement",
+    "name": "Jordan 3 Retro White Cement",
+    "brand": "Jordan",
+    "model": "Jordan 3 Retro White Cement",
+    "sku": "PAPI-4114",
+    "category": "general",
+    "gender": "hombre",
+    "price": 179900,
+    "originalPrice": 209900,
+    "images": [
+      "/catalogo/sneakers/jordan/hombre/jordan-3-retro-white-cement.jpg",
+      "/catalogo/sneakers/jordan/hombre/jordan-3-retro-white-cement_2.jpg"
+    ],
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "White / Cement / Red",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T15:49:41.529Z",
+    "updatedAt": "2026-11-06T15:49:41.529Z"
   },
   {
     "id": "sneaker-jordan-3-x-j-balvin-medellin-sunset",
@@ -15048,6 +16468,43 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "updatedAt": "2026-11-06T14:58:00.796Z"
   },
   {
+    "id": "sneaker-jordan-4-retro-blanco-amarillo",
+    "name": "Jordan 4 Retro",
+    "brand": "Jordan",
+    "model": "Jordan 4 Retro",
+    "sku": "PAPI-3089",
+    "category": "general",
+    "gender": "hombre",
+    "price": 179900,
+    "originalPrice": 209900,
+    "images": [
+      "/catalogo/sneakers/jordan/hombre/jordan-4-retro-blanco-amarillo.jpg"
+    ],
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "White / Yellow / Black",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T15:49:41.529Z",
+    "updatedAt": "2026-11-06T15:49:41.529Z"
+  },
+  {
     "id": "sneaker-jordan-4-retro-blanco-negro-rojo",
     "name": "Jordan 4 Retro",
     "brand": "Jordan",
@@ -15083,6 +16540,263 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "inquiriesCount": 0,
     "createdAt": "2026-11-06T14:58:00.796Z",
     "updatedAt": "2026-11-06T14:58:00.796Z"
+  },
+  {
+    "id": "sneaker-jordan-4-retro-negro-azul-rojo",
+    "name": "Jordan 4 Retro",
+    "brand": "Jordan",
+    "model": "Jordan 4 Retro",
+    "sku": "PAPI-1508",
+    "category": "general",
+    "gender": "hombre",
+    "price": 179900,
+    "originalPrice": 209900,
+    "images": [
+      "/catalogo/sneakers/jordan/hombre/jordan-4-retro-negro-azul-rojo.jpg"
+    ],
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Black / Royal / Red",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T15:49:41.529Z",
+    "updatedAt": "2026-11-06T15:49:41.529Z"
+  },
+  {
+    "id": "sneaker-jordan-4-retro-blanco-multicolor",
+    "name": "Jordan 4 Retro",
+    "brand": "Jordan",
+    "model": "Jordan 4 Retro",
+    "sku": "PAPI-4921",
+    "category": "general",
+    "gender": "mujer",
+    "price": 179900,
+    "originalPrice": 209900,
+    "images": [
+      "/catalogo/sneakers/jordan/mujer/jordan-4-retro-blanco-multicolor.jpg"
+    ],
+    "sizes": [
+      36,
+      37,
+      38,
+      39
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "White / Green / Pink / Blue",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T15:49:41.529Z",
+    "updatedAt": "2026-11-06T15:49:41.529Z"
+  },
+  {
+    "id": "sneaker-jordan-4-retro-fire-red",
+    "name": "Jordan 4 Retro Fire Red",
+    "brand": "Jordan",
+    "model": "Jordan 4 Retro Fire Red",
+    "sku": "PAPI-2252",
+    "category": "general",
+    "gender": "mujer",
+    "price": 179900,
+    "originalPrice": 209900,
+    "images": [
+      "/catalogo/sneakers/jordan/mujer/jordan-4-retro-fire-red.jpg"
+    ],
+    "sizes": [
+      36,
+      37,
+      38,
+      39
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "White / Fire Red / Black",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T15:49:41.529Z",
+    "updatedAt": "2026-11-06T15:49:41.529Z"
+  },
+  {
+    "id": "sneaker-jordan-4-retro-red-thunder",
+    "name": "Jordan 4 Retro Red Thunder",
+    "brand": "Jordan",
+    "model": "Jordan 4 Retro Red Thunder",
+    "sku": "PAPI-1629",
+    "category": "general",
+    "gender": "hombre",
+    "price": 179900,
+    "originalPrice": 209900,
+    "images": [
+      "/catalogo/sneakers/jordan/hombre/jordan-4-retro-red-thunder.jpg"
+    ],
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Black / Red",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T15:49:41.529Z",
+    "updatedAt": "2026-11-06T15:49:41.529Z"
+  },
+  {
+    "id": "sneaker-jordan-7-retro-citrus",
+    "name": "Jordan 7 Retro",
+    "brand": "Jordan",
+    "model": "Jordan 7 Retro",
+    "sku": "PAPI-5475",
+    "category": "general",
+    "gender": "hombre",
+    "price": 179900,
+    "originalPrice": 209900,
+    "images": [
+      "/catalogo/sneakers/jordan/hombre/jordan-7-retro-citrus.jpg"
+    ],
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Black / Citrus",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T15:49:41.529Z",
+    "updatedAt": "2026-11-06T15:49:41.529Z"
+  },
+  {
+    "id": "sneaker-jordan-7-retro-raptors",
+    "name": "Jordan 7 Retro Raptors",
+    "brand": "Jordan",
+    "model": "Jordan 7 Retro Raptors",
+    "sku": "PAPI-2275",
+    "category": "general",
+    "gender": "hombre",
+    "price": 179900,
+    "originalPrice": 209900,
+    "images": [
+      "/catalogo/sneakers/jordan/hombre/jordan-7-retro-raptors.jpg"
+    ],
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Black / Purple / Red",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T15:49:41.529Z",
+    "updatedAt": "2026-11-06T15:49:41.529Z"
+  },
+  {
+    "id": "sneaker-jordan-9-retro-blanco-negro",
+    "name": "Jordan 9 Retro",
+    "brand": "Jordan",
+    "model": "Jordan 9 Retro",
+    "sku": "PAPI-5841",
+    "category": "general",
+    "gender": "hombre",
+    "price": 179900,
+    "originalPrice": 209900,
+    "images": [
+      "/catalogo/sneakers/jordan/hombre/jordan-9-retro-blanco-negro.jpg"
+    ],
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "White / Black / Red",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T15:49:41.529Z",
+    "updatedAt": "2026-11-06T15:49:41.529Z"
   },
   {
     "id": "sneaker-jordan-blanco",
@@ -15311,6 +17025,191 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "inquiriesCount": 0,
     "createdAt": "2026-11-06T14:19:39.279Z",
     "updatedAt": "2026-11-06T14:19:39.279Z"
+  },
+  {
+    "id": "sneaker-jordan-max-aura-6-blanco-rojo",
+    "name": "Jordan Max Aura 6",
+    "brand": "Jordan",
+    "model": "Jordan Max Aura 6",
+    "sku": "PAPI-6954",
+    "category": "general",
+    "gender": "hombre",
+    "price": 179900,
+    "originalPrice": 209900,
+    "images": [
+      "/catalogo/sneakers/jordan/hombre/jordan-max-aura-6-blanco-rojo.jpg"
+    ],
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "White / Gym Red",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T15:49:41.529Z",
+    "updatedAt": "2026-11-06T15:49:41.529Z"
+  },
+  {
+    "id": "sneaker-jordan-max-aura-6-bred",
+    "name": "Jordan Max Aura 6",
+    "brand": "Jordan",
+    "model": "Jordan Max Aura 6",
+    "sku": "PAPI-8429",
+    "category": "general",
+    "gender": "hombre",
+    "price": 179900,
+    "originalPrice": 209900,
+    "images": [
+      "/catalogo/sneakers/jordan/hombre/jordan-max-aura-6-bred.jpg"
+    ],
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Black / Red / White",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T15:49:41.529Z",
+    "updatedAt": "2026-11-06T15:49:41.529Z"
+  },
+  {
+    "id": "sneaker-jordan-max-aura-6-negro-azul",
+    "name": "Jordan Max Aura 6",
+    "brand": "Jordan",
+    "model": "Jordan Max Aura 6",
+    "sku": "PAPI-1422",
+    "category": "general",
+    "gender": "hombre",
+    "price": 179900,
+    "originalPrice": 209900,
+    "images": [
+      "/catalogo/sneakers/jordan/hombre/jordan-max-aura-6-negro-azul.jpg"
+    ],
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Black / Blue / White",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T15:49:41.529Z",
+    "updatedAt": "2026-11-06T15:49:41.529Z"
+  },
+  {
+    "id": "sneaker-jordan-max-aura-7-blanco-negro",
+    "name": "Jordan Max Aura 7",
+    "brand": "Jordan",
+    "model": "Jordan Max Aura 7",
+    "sku": "PAPI-1039",
+    "category": "general",
+    "gender": "hombre",
+    "price": 179900,
+    "originalPrice": 209900,
+    "images": [
+      "/catalogo/sneakers/jordan/hombre/jordan-max-aura-7-blanco-negro.jpg"
+    ],
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "White / Black",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T15:49:41.529Z",
+    "updatedAt": "2026-11-06T15:49:41.529Z"
+  },
+  {
+    "id": "sneaker-jordan-max-aura-7-negro-rojo",
+    "name": "Jordan Max Aura 7",
+    "brand": "Jordan",
+    "model": "Jordan Max Aura 7",
+    "sku": "PAPI-6926",
+    "category": "general",
+    "gender": "hombre",
+    "price": 179900,
+    "originalPrice": 209900,
+    "images": [
+      "/catalogo/sneakers/jordan/hombre/jordan-max-aura-7-negro-rojo.jpg"
+    ],
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Black / Red / White",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T15:49:41.529Z",
+    "updatedAt": "2026-11-06T15:49:41.529Z"
   },
   {
     "id": "sneaker-jordan-negro",
@@ -19245,7 +21144,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       44
     ],
     "status": "disponible",
-    "isFeatured": true,
+    "isFeatured": false,
     "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
@@ -19356,7 +21255,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       44
     ],
     "status": "disponible",
-    "isFeatured": true,
+    "isFeatured": false,
     "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
@@ -19542,7 +21441,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       44
     ],
     "status": "disponible",
-    "isFeatured": true,
+    "isFeatured": false,
     "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
@@ -19931,6 +21830,43 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "inquiriesCount": 0,
     "createdAt": "2026-11-06T14:19:39.279Z",
     "updatedAt": "2026-11-06T14:19:39.279Z"
+  },
+  {
+    "id": "sneaker-nike-air-force-1-rosado-negro",
+    "name": "Nike Air Force 1 Low",
+    "brand": "Nike",
+    "model": "Nike Air Force 1 Low",
+    "sku": "PAPI-3832",
+    "category": "general",
+    "gender": "hombre",
+    "price": 179900,
+    "originalPrice": 209900,
+    "images": [
+      "/catalogo/sneakers/nike/hombre/nike-air-force-1-rosado-negro.jpg"
+    ],
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": true,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Pink / Black",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T15:49:41.529Z",
+    "updatedAt": "2026-11-06T15:49:41.529Z"
   },
   {
     "id": "sneaker-nike-air-force-1-verde-amarillo-rojo",
@@ -21546,6 +23482,43 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "updatedAt": "2026-08-13T18:57:45.000Z"
   },
   {
+    "id": "sneaker-nike-air-max-95-gris-naranja",
+    "name": "Nike Air Max 95",
+    "brand": "Nike",
+    "model": "Nike Air Max 95",
+    "sku": "PAPI-8141",
+    "category": "general",
+    "gender": "hombre",
+    "price": 179900,
+    "originalPrice": 209900,
+    "images": [
+      "/catalogo/sneakers/nike/hombre/nike-air-max-95-gris-naranja.jpg"
+    ],
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": true,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Grey / Orange",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T15:49:41.529Z",
+    "updatedAt": "2026-11-06T15:49:41.529Z"
+  },
+  {
     "id": "sneaker-nike-air-max-95-negro",
     "name": "Nike Air Max 95",
     "brand": "Nike",
@@ -21581,6 +23554,43 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "inquiriesCount": 0,
     "createdAt": "2026-11-06T14:19:39.279Z",
     "updatedAt": "2026-11-06T14:19:39.279Z"
+  },
+  {
+    "id": "sneaker-nike-air-max-95-triple-blanco",
+    "name": "Nike Air Max 95",
+    "brand": "Nike",
+    "model": "Nike Air Max 95",
+    "sku": "PAPI-7620",
+    "category": "general",
+    "gender": "hombre",
+    "price": 179900,
+    "originalPrice": 209900,
+    "images": [
+      "/catalogo/sneakers/nike/hombre/nike-air-max-95-triple-blanco.jpg"
+    ],
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Triple White",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T15:49:41.529Z",
+    "updatedAt": "2026-11-06T15:49:41.529Z"
   },
   {
     "id": "sneaker-nike-air-max-95-blanco-azul",
@@ -26913,7 +28923,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "price": 179900,
     "originalPrice": 209900,
     "images": [
-      "/catalogo/sneakers/nike/mujer/nike-dunk-low-hemp-sail.jpg"
+      "/catalogo/sneakers/nike/mujer/nike-dunk-low-hemp-sail.jpg",
+      "/catalogo/sneakers/nike/mujer/nike-dunk-low-hemp-sail_2.jpg"
     ],
     "sizes": [
       36,
@@ -26974,6 +28985,42 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "inquiriesCount": 0,
     "createdAt": "2026-09-08T16:36:16.035Z",
     "updatedAt": "2026-09-08T16:36:16.035Z"
+  },
+  {
+    "id": "sneaker-nike-dunk-low-lila",
+    "name": "Nike Dunk Low",
+    "brand": "Nike",
+    "model": "Nike Dunk Low",
+    "sku": "PAPI-6381",
+    "category": "general",
+    "gender": "mujer",
+    "price": 179900,
+    "originalPrice": 209900,
+    "images": [
+      "/catalogo/sneakers/nike/mujer/nike-dunk-low-lila.jpg"
+    ],
+    "sizes": [
+      36,
+      37,
+      38,
+      39
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Lilac",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T15:49:41.529Z",
+    "updatedAt": "2026-11-06T15:49:41.529Z"
   },
   {
     "id": "sneaker-nike-dunk-low-red-stardust",
@@ -27095,7 +29142,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "price": 179900,
     "originalPrice": 209900,
     "images": [
-      "/catalogo/sneakers/nike/nike-dunk-low-cafe-sail.jpg"
+      "/catalogo/sneakers/nike/nike-dunk-low-cafe-sail.jpg",
+      "/catalogo/sneakers/nike/nike-dunk-low-cafe-sail_2.jpg"
     ],
     "sizes": [
       36,
@@ -32265,7 +34313,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "price": 179900,
     "originalPrice": 209900,
     "images": [
-      "/catalogo/sneakers/nike/mujer/nike-v5-rnr-blanco-negro.jpg"
+      "/catalogo/sneakers/nike/mujer/nike-v5-rnr-blanco-negro.jpg",
+      "/catalogo/sneakers/nike/mujer/nike-v5-rnr-blanco-negro_2.jpg"
     ],
     "sizes": [
       36,
@@ -32361,6 +34410,42 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "inquiriesCount": 0,
     "createdAt": "2026-11-06T13:33:12.682Z",
     "updatedAt": "2026-11-06T13:33:12.682Z"
+  },
+  {
+    "id": "sneaker-nike-vomero-plus-orange-pulse",
+    "name": "Nike Vomero Plus Orange Pulse",
+    "brand": "Nike",
+    "model": "Nike Vomero Plus Orange Pulse",
+    "sku": "PAPI-1282",
+    "category": "general",
+    "gender": "mujer",
+    "price": 179900,
+    "originalPrice": 209900,
+    "images": [
+      "/catalogo/sneakers/nike/mujer/nike-vomero-plus-orange-pulse.jpg"
+    ],
+    "sizes": [
+      36,
+      37,
+      38,
+      39
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Orange / Black",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T15:49:41.529Z",
+    "updatedAt": "2026-11-06T15:49:41.529Z"
   },
   {
     "id": "sneaker-nike-vomero-premium-blanco-volt",
