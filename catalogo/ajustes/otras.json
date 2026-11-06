@@ -565,5 +565,145 @@
     "name": "Le Coq Sportif Blanco / Gris",
     "colorway": "White / Grey",
     "sizes": "40-44"
+  },
+  "diesel-running-blanco": {
+    "name": "Diesel Running Blanco",
+    "colorway": "Triple White",
+    "sizes": "40-44"
+  },
+  "the-north-face-blanco-turquesa": {
+    "name": "The North Face Blanco / Turquesa",
+    "colorway": "White / Teal / Pink",
+    "sizes": "36-39"
+  },
+  "the-north-face-blanco-gris-rosado": {
+    "name": "The North Face Blanco / Gris",
+    "colorway": "White / Grey / Pink",
+    "sizes": "36-39"
+  },
+  "the-north-face-blanco-negro": {
+    "name": "The North Face Blanco / Negro",
+    "colorway": "White / Black",
+    "sizes": "40-44"
+  },
+  "the-north-face-beige-gum": {
+    "name": "The North Face Beige",
+    "colorway": "Beige / Grey / Gum",
+    "sizes": "40-44"
+  },
+  "the-north-face-gris-azul": {
+    "name": "The North Face Gris / Azul",
+    "colorway": "Dark Grey / Blue",
+    "sizes": "40-44"
+  },
+  "coach-platform-negro-charol": {
+    "name": "Coach Platform",
+    "colorway": "Black Patent / White",
+    "sizes": "36-39"
+  },
+  "skechers-max-cushioning-navy-lila": {
+    "name": "Skechers Max Cushioning",
+    "colorway": "Navy / Lavender",
+    "sizes": "36-39"
+  },
+  "timberland-greenstride-motion-6-mid-wheat": {
+    "name": "Timberland GreenStride Motion 6 Mid",
+    "colorway": "Wheat / Black",
+    "sizes": "40-44"
+  },
+  "timberland-greenstride-motion-6-mid-negro": {
+    "name": "Timberland GreenStride Motion 6 Mid",
+    "colorway": "Triple Black",
+    "sizes": "40-44"
+  },
+  "reebok-princess-negro": {
+    "name": "Reebok Princess",
+    "colorway": "Triple Black",
+    "sizes": "36-39"
+  },
+  "reebok-princess-blanco": {
+    "name": "Reebok Princess",
+    "colorway": "Triple White",
+    "sizes": "36-44"
+  },
+  "bape-sta-rosado": {
+    "name": "Bape Sta",
+    "colorway": "Pink / Magenta",
+    "sizes": "40-44"
+  },
+  "bape-sta-azul-claro": {
+    "name": "Bape Sta",
+    "colorway": "Light Blue / White",
+    "sizes": "40-44"
+  },
+  "converse-chuck-taylor-lift-negro-bordado": {
+    "name": "Converse Chuck Taylor Lift",
+    "colorway": "Black / Embroidered",
+    "sizes": "36-39"
+  },
+  "converse-chuck-taylor-lift-crema-bordado": {
+    "name": "Converse Chuck Taylor Lift",
+    "colorway": "Cream / Embroidered",
+    "sizes": "36-39"
+  },
+  "fila-running-blanco-navy": {
+    "name": "Fila Running Blanco / Navy",
+    "colorway": "White / Navy / Teal",
+    "sizes": "36-39"
+  },
+  "hoka-mafate-speed-2-negro-gris": {
+    "name": "Hoka Mafate Speed 2",
+    "colorway": "Black / Grey",
+    "sizes": "40-44"
+  },
+  "hoka-mafate-speed-2-plata": {
+    "name": "Hoka Mafate Speed 2",
+    "colorway": "Silver / White",
+    "sizes": "40-44"
+  },
+  "hoka-mafate-speed-2-triple-negro": {
+    "name": "Hoka Mafate Speed 2",
+    "colorway": "Triple Black",
+    "sizes": "40-44"
+  },
+  "hoka-mafate-speed-2-amarillo-verde": {
+    "name": "Hoka Mafate Speed 2",
+    "colorway": "Yellow / Green",
+    "sizes": "40-44"
+  },
+  "hoka-mafate-speed-2-crema": {
+    "name": "Hoka Mafate Speed 2",
+    "colorway": "Cream / White",
+    "sizes": "36-44"
+  },
+  "hoka-mafate-speed-2-azul-claro": {
+    "name": "Hoka Mafate Speed 2",
+    "colorway": "Light Blue / Lavender",
+    "sizes": "36-39"
+  },
+  "vans-rowley-verde": {
+    "name": "Vans Rowley",
+    "colorway": "Green / White / Gum",
+    "sizes": "40-44"
+  },
+  "vans-rowley-beige": {
+    "name": "Vans Rowley",
+    "colorway": "Beige / White / Gum",
+    "sizes": "40-44"
+  },
+  "vans-rowley-navy": {
+    "name": "Vans Rowley",
+    "colorway": "Navy / White / Gum",
+    "sizes": "40-44"
+  },
+  "vans-rowley-vinotinto": {
+    "name": "Vans Rowley",
+    "colorway": "Burgundy / White / Gum",
+    "sizes": "36-44"
+  },
+  "vans-rowley-negro-blanco": {
+    "name": "Vans Rowley",
+    "colorway": "Black / White",
+    "sizes": "36-44"
   }
 }

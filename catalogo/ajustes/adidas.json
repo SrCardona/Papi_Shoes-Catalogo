@@ -1004,5 +1004,35 @@
     "name": "Adidas Cloudfoam",
     "colorway": "Black / White",
     "sizes": "36-39"
+  },
+  "adidas-superstar-crema-rosado": {
+    "name": "Adidas Superstar",
+    "colorway": "Cream / Pink",
+    "sizes": "36-39"
+  },
+  "adidas-superstar-salvia-verde": {
+    "name": "Adidas Superstar",
+    "colorway": "Sage / Green",
+    "sizes": "40-44"
+  },
+  "adidas-swift-run-negro-blanco": {
+    "name": "Adidas Swift Run",
+    "colorway": "Black / White",
+    "sizes": "36-44"
+  },
+  "adidas-taekwondo-mary-jane-blanco-negro": {
+    "name": "Adidas Taekwondo Mary Jane",
+    "colorway": "White / Black / Gum",
+    "sizes": "36-39"
+  },
+  "adidas-sl-72-crema-cafe": {
+    "name": "Adidas SL 72",
+    "colorway": "Cream / Brown",
+    "sizes": "36-39"
+  },
+  "adidas-samoa-negro-gum": {
+    "name": "Adidas Samoa",
+    "colorway": "Black / Gum",
+    "sizes": "36-44"
   }
 }

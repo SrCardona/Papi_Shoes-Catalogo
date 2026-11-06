@@ -953,5 +953,10 @@
     "name": "Jordan 1 Retro High",
     "colorway": "Team Red / White",
     "sizes": "36-39"
+  },
+  "jordan-4-retro-military-black": {
+    "name": "Jordan 4 Retro Military Black",
+    "colorway": "White / Black / Grey",
+    "sizes": "40-44"
   }
 }
