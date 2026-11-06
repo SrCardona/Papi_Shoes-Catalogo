@@ -1738,5 +1738,30 @@
     "name": "Nike Dunk Low",
     "colorway": "Amber / Sail",
     "sizes": "36-39"
+  },
+  "nike-dunk-low-lila": {
+    "name": "Nike Dunk Low",
+    "colorway": "Lilac",
+    "sizes": "36-39"
+  },
+  "nike-air-force-1-rosado-negro": {
+    "name": "Nike Air Force 1 Low",
+    "colorway": "Pink / Black",
+    "sizes": "40-44"
+  },
+  "nike-vomero-plus-orange-pulse": {
+    "name": "Nike Vomero Plus Orange Pulse",
+    "colorway": "Orange / Black",
+    "sizes": "36-39"
+  },
+  "nike-air-max-95-gris-naranja": {
+    "name": "Nike Air Max 95",
+    "colorway": "Grey / Orange",
+    "sizes": "40-44"
+  },
+  "nike-air-max-95-triple-blanco": {
+    "name": "Nike Air Max 95",
+    "colorway": "Triple White",
+    "sizes": "40-44"
   }
 }

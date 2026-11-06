@@ -631,5 +631,55 @@
     "name": "Adidas Samba",
     "colorway": "Cream / Black / Pink Gum",
     "sizes": "36-39"
+  },
+  "adidas-superstar-navy-gamuza": {
+    "name": "Adidas Superstar",
+    "colorway": "Navy Suede / White",
+    "sizes": "36-39"
+  },
+  "adidas-campus-blanco-gum": {
+    "name": "Adidas Campus",
+    "colorway": "White / Gum",
+    "sizes": "36-39"
+  },
+  "adidas-superstar-negro-blanco": {
+    "name": "Adidas Superstar",
+    "colorway": "Core Black / White",
+    "sizes": "36-44"
+  },
+  "adidas-advantage-blanco": {
+    "name": "Adidas Advantage",
+    "colorway": "White / Black",
+    "sizes": "36-39"
+  },
+  "adidas-samba-blanco-gris-plataforma": {
+    "name": "Adidas Samba",
+    "colorway": "White / Grey / Gum",
+    "sizes": "36-39"
+  },
+  "adidas-sl-72-plata-navy": {
+    "name": "Adidas SL 72",
+    "colorway": "Silver Metallic / Navy",
+    "sizes": "36-39"
+  },
+  "adidas-campus-00s-crema": {
+    "name": "Adidas Campus 00s",
+    "colorway": "Cream White",
+    "sizes": "40-44"
+  },
+  "adidas-superstar-blanco-negro-plata": {
+    "name": "Adidas Superstar",
+    "colorway": "White / Black / Silver",
+    "sizes": "40-44"
+  },
+  "adidas-samba-xlg-blanco-negro": {
+    "name": "Adidas Samba XLG",
+    "colorway": "White / Black / Gum",
+    "sizes": "40-44"
+  },
+  "adidas-samba-cafe": {
+    "name": "Adidas Samba",
+    "colorway": "Brown / White / Gum",
+    "sizes": "40-44"
   }
 }
