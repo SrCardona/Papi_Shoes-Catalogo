@@ -199,5 +199,10 @@
     "name": "Hugo Boss Runner",
     "colorway": "Black / Olive",
     "sizes": "40-44"
+  },
+  "hugo-boss-runner-taupe": {
+    "name": "Hugo Boss Runner",
+    "colorway": "Taupe / White",
+    "sizes": "40-44"
   }
 }

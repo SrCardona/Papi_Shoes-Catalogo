@@ -380,5 +380,30 @@
     "name": "Osiris D3",
     "colorway": "Black / Gum",
     "sizes": "40-44"
+  },
+  "osiris-peril-negro-rojo": {
+    "name": "Osiris Peril",
+    "colorway": "Black / Red",
+    "sizes": "40-44"
+  },
+  "amiri-ma-1-blanco-negro": {
+    "name": "Amiri MA-1",
+    "colorway": "White / Black / Cream",
+    "sizes": "36-39"
+  },
+  "off-white-odsy-1000-negro-gris": {
+    "name": "Off-White ODSY-1000",
+    "colorway": "Black / Grey",
+    "sizes": "40-44"
+  },
+  "osiris-d3-triple-blanco": {
+    "name": "Osiris D3",
+    "colorway": "Triple White",
+    "sizes": "36-39"
+  },
+  "timberland-greenstride-motion-6-mid-menta": {
+    "name": "Timberland GreenStride Motion 6 Mid",
+    "colorway": "Mint / White",
+    "sizes": "40-44"
   }
 }

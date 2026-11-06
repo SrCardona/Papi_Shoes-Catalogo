@@ -147,5 +147,50 @@
     "name": "Puma Park",
     "colorway": "White / Gold",
     "sizes": "36-39"
+  },
+  "puma-180-gris-negro": {
+    "name": "Puma-180",
+    "colorway": "Dark Grey / Black",
+    "sizes": "40-44"
+  },
+  "puma-180-gris-blanco": {
+    "name": "Puma-180",
+    "colorway": "Grey / White",
+    "sizes": "36-39"
+  },
+  "puma-180-blanco-navy": {
+    "name": "Puma-180",
+    "colorway": "White / Navy",
+    "sizes": "36-39"
+  },
+  "puma-180-sail-blanco": {
+    "name": "Puma-180",
+    "colorway": "Sail / White",
+    "sizes": "36-39"
+  },
+  "puma-180-blanco-negro-gum": {
+    "name": "Puma-180",
+    "colorway": "White / Black / Gum",
+    "sizes": "36-39"
+  },
+  "puma-park-lifestyle-blanco-gris": {
+    "name": "Puma Park Lifestyle",
+    "colorway": "White / Grey",
+    "sizes": "36-39"
+  },
+  "puma-park-lifestyle-blanco-navy": {
+    "name": "Puma Park Lifestyle",
+    "colorway": "White / Navy / Gum",
+    "sizes": "36-39"
+  },
+  "puma-park-lifestyle-blanco-verde": {
+    "name": "Puma Park Lifestyle",
+    "colorway": "White / Green / Gum",
+    "sizes": "36-39"
+  },
+  "puma-park-lifestyle-blanco-azul": {
+    "name": "Puma Park Lifestyle",
+    "colorway": "White / Navy / Blue",
+    "sizes": "36-39"
   }
 }

@@ -151,6 +151,7 @@ const BRAND_FOLDERS = new Map([
   ['asics', 'Asics'],
   ['on', 'On'],
   ['under-armour', 'Under Armour'],
+  ['onitsuka-tiger', 'Onitsuka Tiger'],
   ['otras', 'Otras'],
 ]);
 

@@ -14,6 +14,8 @@ marca:Hugo Boss,189900,229900
 marca:Puma,179900,209900
 marca:On,189900,229900
 marca:Under Armour,199900,239900
+marca:Onitsuka Tiger,189900,229900
+marca:Yeezy,199900,239900
 
 # Línea Originales. Una fila `originales:<Marca>` le gana a la de `marca:`,
 # para que un par verificado no herede el precio de la línea de uso diario.

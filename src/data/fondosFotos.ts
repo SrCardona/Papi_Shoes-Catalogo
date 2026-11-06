@@ -132,6 +132,7 @@ export const FONDOS_FOTOS: Record<string, string> = {
   '/catalogo/sneakers/new-balance/new-balance-550-x-aime-leon-dore-blanco-rojo.jpg': '#ffffff',
   '/catalogo/sneakers/new-balance/new-balance-9060-moonrock-linen.jpg': '#ffffff',
   '/catalogo/sneakers/new-balance/new-balance-9060-sea-salt-yellow.jpg': '#ffffff',
+  '/catalogo/sneakers/nike/hombre/nike-air-force-1-negro-dorado.jpg': '#542396',
   '/catalogo/sneakers/nike/nike-air-force-1-mid-07.jpg': '#ebebeb',
   '/catalogo/sneakers/nike/nike-air-force-1-negro.jpg': '#ececec',
   '/catalogo/sneakers/nike/nike-air-force-1-university-blue.jpg': '#ebebeb',

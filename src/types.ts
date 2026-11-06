@@ -18,6 +18,7 @@ export type SneakerBrand =
   | 'Asics'
   | 'On'
   | 'Under Armour'
+  | 'Onitsuka Tiger'
   | 'Otras';
 
 export interface SneakerDetails {
