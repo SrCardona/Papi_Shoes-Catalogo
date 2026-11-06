@@ -858,5 +858,55 @@
     "name": "Jordan 3 Retro",
     "colorway": "White / Pastel",
     "sizes": "36-39"
+  },
+  "jordan-6-retro-infrared": {
+    "name": "Jordan 6 Retro Infrared",
+    "colorway": "Black / Infrared",
+    "sizes": "40-44"
+  },
+  "jordan-4-retro-denim-gum": {
+    "name": "Jordan 4 Retro",
+    "colorway": "Blue Denim / Sail / Gum",
+    "sizes": "36-44"
+  },
+  "jordan-4-retro-negro-blanco": {
+    "name": "Jordan 4 Retro",
+    "colorway": "Black / White",
+    "sizes": "36-44"
+  },
+  "jordan-4-retro-negro-azul-rey": {
+    "name": "Jordan 4 Retro",
+    "colorway": "Black / Royal Blue",
+    "sizes": "40-44"
+  },
+  "jordan-4-retro-royalty": {
+    "name": "Jordan 4 Retro Royalty",
+    "colorway": "Black / Metallic Gold",
+    "sizes": "36-44"
+  },
+  "jordan-4-x-nike-sb-navy": {
+    "name": "Jordan 4 x Nike SB Navy",
+    "colorway": "White / Navy / Gum",
+    "sizes": "40-44"
+  },
+  "jordan-4-retro-blanco-gris": {
+    "name": "Jordan 4 Retro",
+    "colorway": "White / Grey",
+    "sizes": "36-44"
+  },
+  "jordan-1-low-navy-gris": {
+    "name": "Jordan 1 Low",
+    "colorway": "Navy / Grey / White",
+    "sizes": "40-44"
+  },
+  "jordan-1-low-travis-scott-oliva-negro": {
+    "name": "Jordan 1 Low x Travis Scott",
+    "colorway": "Medium Olive / Black",
+    "sizes": "40-44"
+  },
+  "jordan-1-mid-bred": {
+    "name": "Jordan 1 Mid Bred",
+    "colorway": "Black / Gym Red / White",
+    "sizes": "36-44"
   }
 }

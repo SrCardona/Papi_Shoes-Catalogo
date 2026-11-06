@@ -475,5 +475,50 @@
     "name": "Diesel Running Café / Beige",
     "colorway": "Brown / Beige",
     "sizes": "40-44"
+  },
+  "vans-hylane-blanco-lila": {
+    "name": "Vans Hylane",
+    "colorway": "White / Lilac",
+    "sizes": "40-44"
+  },
+  "vans-hylane-negro-gris-gum": {
+    "name": "Vans Hylane",
+    "colorway": "Black / Grey / Gum",
+    "sizes": "40-44"
+  },
+  "vans-hylane-cafe-sail": {
+    "name": "Vans Hylane",
+    "colorway": "Brown / Sail",
+    "sizes": "40-44"
+  },
+  "vans-hylane-navy-denim": {
+    "name": "Vans Hylane",
+    "colorway": "Navy / Denim / Gum",
+    "sizes": "40-44"
+  },
+  "vans-hylane-blanco-negro": {
+    "name": "Vans Hylane",
+    "colorway": "White / Black",
+    "sizes": "40-44"
+  },
+  "loewe-ballet-runner-cafe-navy": {
+    "name": "Loewe Ballet Runner",
+    "colorway": "Brown / Navy",
+    "sizes": "36-39"
+  },
+  "reebok-ex-o-fit-hi-blanco": {
+    "name": "Reebok Ex-O-Fit Hi",
+    "colorway": "Triple White",
+    "sizes": "40-44"
+  },
+  "reebok-ex-o-fit-hi-negro": {
+    "name": "Reebok Ex-O-Fit Hi",
+    "colorway": "Triple Black",
+    "sizes": "36-39"
+  },
+  "loewe-ballet-runner-negro": {
+    "name": "Loewe Ballet Runner",
+    "colorway": "Black / White / Gum",
+    "sizes": "36-39"
   }
 }

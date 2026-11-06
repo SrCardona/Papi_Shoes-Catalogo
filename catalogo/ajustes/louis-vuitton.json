@@ -103,5 +103,15 @@
     "name": "Louis Vuitton LV Skate",
     "colorway": "Black / White",
     "sizes": "36-44"
+  },
+  "louis-vuitton-trainer-negro-blanco-monogram": {
+    "name": "Louis Vuitton LV Trainer",
+    "colorway": "Black / White Monogram",
+    "sizes": "36-39"
+  },
+  "louis-vuitton-trainer-negro-brillos": {
+    "name": "Louis Vuitton LV Trainer",
+    "colorway": "Black / Crystal",
+    "sizes": "36-39"
   }
 }

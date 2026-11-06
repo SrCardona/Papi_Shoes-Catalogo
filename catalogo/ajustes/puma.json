@@ -227,5 +227,15 @@
     "name": "Puma Indoor",
     "colorway": "White / Navy / Gum",
     "sizes": "36-39"
+  },
+  "puma-california-navy-blanco": {
+    "name": "Puma California",
+    "colorway": "Navy / White",
+    "sizes": "40-44"
+  },
+  "puma-california-blanco-navy": {
+    "name": "Puma California",
+    "colorway": "White / Navy",
+    "sizes": "40-44"
   }
 }

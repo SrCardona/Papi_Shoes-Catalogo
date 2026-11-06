@@ -1773,5 +1773,110 @@
     "name": "Nike Air Force 1 Low",
     "colorway": "Metallic Silver / Black",
     "sizes": "40-44"
+  },
+  "nike-dunk-low-sail-rosado": {
+    "name": "Nike Dunk Low",
+    "colorway": "Sail / Pink",
+    "sizes": "36-39"
+  },
+  "nike-sb-dunk-low-supreme-crema": {
+    "name": "Nike SB Dunk Low Supreme",
+    "colorway": "Cream",
+    "sizes": "40-44"
+  },
+  "nike-sb-dunk-low-supreme-negro": {
+    "name": "Nike SB Dunk Low Supreme",
+    "colorway": "Triple Black",
+    "sizes": "40-44"
+  },
+  "nike-dunk-low-navy-blanco": {
+    "name": "Nike Dunk Low",
+    "colorway": "Midnight Navy / White",
+    "sizes": "36-39"
+  },
+  "nike-shox-tl-cafe-turquesa": {
+    "name": "Nike Shox TL",
+    "colorway": "Brown / Teal",
+    "sizes": "36-39"
+  },
+  "nike-air-force-1-sail-rosado-azul": {
+    "name": "Nike Air Force 1 Low",
+    "colorway": "Sail / Pink / Blue",
+    "sizes": "36-39"
+  },
+  "nike-kyrie-3-triple-negro": {
+    "name": "Nike Kyrie 3",
+    "colorway": "Triple Black",
+    "sizes": "40-44"
+  },
+  "nike-kyrie-3-negro-blanco": {
+    "name": "Nike Kyrie 3",
+    "colorway": "Black / White",
+    "sizes": "40-44"
+  },
+  "nike-kyrie-3-gris": {
+    "name": "Nike Kyrie 3",
+    "colorway": "Cool Grey / Black",
+    "sizes": "40-44"
+  },
+  "nike-kyrie-3-negro-blanco-verde": {
+    "name": "Nike Kyrie 3",
+    "colorway": "Black / White / Green",
+    "sizes": "40-44"
+  },
+  "nike-air-max-intrlk-blanco-negro": {
+    "name": "Nike Air Max INTRLK",
+    "colorway": "White / Black / Red",
+    "sizes": "40-44"
+  },
+  "nike-air-max-intrlk-negro-blanco": {
+    "name": "Nike Air Max INTRLK",
+    "colorway": "Black / White",
+    "sizes": "40-44"
+  },
+  "nike-court-legacy-lift-negro-blanco": {
+    "name": "Nike Court Legacy Lift",
+    "colorway": "Black / White",
+    "sizes": "36-39"
+  },
+  "nike-air-max-plus-navy-turquesa": {
+    "name": "Nike Air Max Plus",
+    "colorway": "Navy / Teal",
+    "sizes": "40-44"
+  },
+  "nike-air-max-plus-blanco-turquesa": {
+    "name": "Nike Air Max Plus",
+    "colorway": "White / Teal",
+    "sizes": "40-44"
+  },
+  "nike-shox-r4-plata-azul": {
+    "name": "Nike Shox R4",
+    "colorway": "Metallic Silver / Black / Blue",
+    "sizes": "40-44"
+  },
+  "nike-shox-r4-navy-rojo": {
+    "name": "Nike Shox R4",
+    "colorway": "Navy / White / Red",
+    "sizes": "40-44"
+  },
+  "nike-air-force-1-blanco-oliva": {
+    "name": "Nike Air Force 1 Low",
+    "colorway": "White / Olive",
+    "sizes": "40-44"
+  },
+  "nike-air-force-1-mid-triple-negro": {
+    "name": "Nike Air Force 1 Mid",
+    "colorway": "Triple Black",
+    "sizes": "36-44"
+  },
+  "nike-air-max-90-negro-gris-turquesa": {
+    "name": "Nike Air Max 90",
+    "colorway": "Black / Grey / Turquoise",
+    "sizes": "40-44"
+  },
+  "nike-pegasus-trail-5-gore-tex-gris": {
+    "name": "Nike Pegasus Trail 5 GORE-TEX",
+    "colorway": "Grey / Sail",
+    "sizes": "40-44"
   }
 }

@@ -204,5 +204,15 @@
     "name": "Hugo Boss Runner",
     "colorway": "Taupe / White",
     "sizes": "40-44"
+  },
+  "hugo-boss-runner-monograma-gris": {
+    "name": "Hugo Boss Runner",
+    "colorway": "Grey Monogram",
+    "sizes": "40-44"
+  },
+  "hugo-boss-runner-monograma-navy": {
+    "name": "Hugo Boss Runner",
+    "colorway": "Navy Monogram / White",
+    "sizes": "40-44"
   }
 }
