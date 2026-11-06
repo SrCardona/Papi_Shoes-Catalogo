@@ -633,5 +633,15 @@
     "name": "Jordan 1 Mid",
     "colorway": "Court Purple / Black / White",
     "sizes": "36-39"
+  },
+  "jordan-3-retro-black-cat": {
+    "name": "Jordan 3 Retro Black Cat",
+    "colorway": "Black / Cement Grey",
+    "sizes": "36-39"
+  },
+  "jordan-1-retro-high-blanco-rojo-contorno": {
+    "name": "Jordan 1 Retro High",
+    "colorway": "White / Varsity Red",
+    "sizes": "40-44"
   }
 }
