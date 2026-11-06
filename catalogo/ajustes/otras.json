@@ -405,5 +405,40 @@
     "name": "Timberland GreenStride Motion 6 Mid",
     "colorway": "Mint / White",
     "sizes": "40-44"
+  },
+  "dior-b22-negro-gris": {
+    "name": "Dior B22",
+    "colorway": "Black / Grey",
+    "sizes": "40-44"
+  },
+  "diesel-s-athene-negro": {
+    "name": "Diesel S-Athene",
+    "colorway": "Black / White",
+    "sizes": "40-44"
+  },
+  "veja-campo-blanco-natural": {
+    "name": "Veja Campo",
+    "colorway": "White / Natural",
+    "sizes": "36-39"
+  },
+  "veja-campo-blanco-negro": {
+    "name": "Veja Campo",
+    "colorway": "White / Black",
+    "sizes": "36-39"
+  },
+  "vans-skate-estazzo-negro-blanco": {
+    "name": "Vans Skate Estazzo",
+    "colorway": "Black / White / Gum",
+    "sizes": "40-44"
+  },
+  "vans-knu-skool-negro-blanco": {
+    "name": "Vans Knu Skool",
+    "colorway": "Black / White",
+    "sizes": "36-44"
+  },
+  "dior-b22-navy-gris": {
+    "name": "Dior B22",
+    "colorway": "Navy / Grey / White",
+    "sizes": "40-44"
   }
 }

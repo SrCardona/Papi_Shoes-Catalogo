@@ -1,0 +1,22 @@
+{
+  "yeezy-boost-700-wave-runner": {
+    "name": "Yeezy Boost 700 Wave Runner",
+    "colorway": "Grey / Teal / Black",
+    "sizes": "40-44"
+  },
+  "yeezy-boost-700-azul": {
+    "name": "Yeezy Boost 700",
+    "colorway": "Blue / Grey",
+    "sizes": "40-44"
+  },
+  "yeezy-boost-700-inertia": {
+    "name": "Yeezy Boost 700 Inertia",
+    "colorway": "Grey / Orange",
+    "sizes": "40-44"
+  },
+  "yeezy-boost-700-gris": {
+    "name": "Yeezy Boost 700",
+    "colorway": "Grey / White / Orange",
+    "sizes": "40-44"
+  }
+}

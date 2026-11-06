@@ -588,5 +588,50 @@
     "name": "Jordan 1 Low x Travis Scott x Stüssy",
     "colorway": "Black / Aqua",
     "sizes": "40-44"
+  },
+  "jordan-3-x-j-balvin-medellin-sunset": {
+    "name": "Jordan 3 x J Balvin Medellín Sunset",
+    "colorway": "Sail / Multicolor",
+    "sizes": "40-44"
+  },
+  "jordan-4-retro-blanco-negro-rojo": {
+    "name": "Jordan 4 Retro",
+    "colorway": "White / Black / Red",
+    "sizes": "40-44"
+  },
+  "jordan-11-retro-blanco-negro-rojo": {
+    "name": "Jordan 11 Retro",
+    "colorway": "White / Black / Red",
+    "sizes": "40-44"
+  },
+  "jordan-13-retro-azul-sail": {
+    "name": "Jordan 13 Retro",
+    "colorway": "Sail / Blue Grey",
+    "sizes": "40-44"
+  },
+  "jordan-3-retro-rosado": {
+    "name": "Jordan 3 Retro",
+    "colorway": "Pink / Sail",
+    "sizes": "36-39"
+  },
+  "jordan-3-retro-sail-naranja": {
+    "name": "Jordan 3 Retro",
+    "colorway": "Sail / Orange / Gum",
+    "sizes": "36-44"
+  },
+  "jordan-1-mid-blanco-negro-rojo": {
+    "name": "Jordan 1 Mid",
+    "colorway": "White / Black / Red",
+    "sizes": "40-44"
+  },
+  "jordan-1-mid-azul-denim": {
+    "name": "Jordan 1 Mid",
+    "colorway": "Light Blue / Denim / Yellow",
+    "sizes": "36-39"
+  },
+  "jordan-1-mid-court-purple": {
+    "name": "Jordan 1 Mid",
+    "colorway": "Court Purple / Black / White",
+    "sizes": "36-39"
   }
 }
