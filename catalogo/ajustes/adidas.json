@@ -814,5 +814,170 @@
     "name": "Adidas Superstar x Neighborhood",
     "colorway": "Black / Cream",
     "sizes": "40-44"
+  },
+  "adidas-supernova-crema-cafe": {
+    "name": "Adidas Supernova",
+    "colorway": "Cream / Brown",
+    "sizes": "36-39"
+  },
+  "adidas-supernova-blanco-naranja": {
+    "name": "Adidas Supernova",
+    "colorway": "White / Orange",
+    "sizes": "36-39"
+  },
+  "adidas-supernova-blanco-negro-menta": {
+    "name": "Adidas Supernova",
+    "colorway": "White / Black / Mint",
+    "sizes": "36-39"
+  },
+  "adidas-supernova-negro-blanco": {
+    "name": "Adidas Supernova",
+    "colorway": "Black / White",
+    "sizes": "36-44"
+  },
+  "adidas-supernova-navy-azul": {
+    "name": "Adidas Supernova",
+    "colorway": "Navy / Royal Blue",
+    "sizes": "40-44"
+  },
+  "adidas-supernova-gris-negro": {
+    "name": "Adidas Supernova",
+    "colorway": "Grey / Black",
+    "sizes": "40-44"
+  },
+  "adidas-supernova-negro-cobre": {
+    "name": "Adidas Supernova",
+    "colorway": "Black / Copper",
+    "sizes": "40-44"
+  },
+  "adidas-supernova-blanco-negro": {
+    "name": "Adidas Supernova",
+    "colorway": "White / Black",
+    "sizes": "40-44"
+  },
+  "adidas-court-funk-triple-negro": {
+    "name": "Adidas Court Funk",
+    "colorway": "Triple Black",
+    "sizes": "36-44"
+  },
+  "adidas-court-funk-blanco-azul-rojo": {
+    "name": "Adidas Court Funk",
+    "colorway": "White / Blue / Red",
+    "sizes": "40-44"
+  },
+  "adidas-court-funk-blanco-negro": {
+    "name": "Adidas Court Funk",
+    "colorway": "White / Black",
+    "sizes": "40-44"
+  },
+  "adidas-court-funk-sail-gris": {
+    "name": "Adidas Court Funk",
+    "colorway": "Sail / Grey",
+    "sizes": "40-44"
+  },
+  "adidas-court-funk-negro-blanco": {
+    "name": "Adidas Court Funk",
+    "colorway": "Black / White",
+    "sizes": "36-44"
+  },
+  "adidas-court-funk-blanco-azul-rey": {
+    "name": "Adidas Court Funk",
+    "colorway": "White / Royal Blue",
+    "sizes": "40-44"
+  },
+  "adidas-court-funk-gris-negro": {
+    "name": "Adidas Court Funk",
+    "colorway": "Grey / Black",
+    "sizes": "40-44"
+  },
+  "adidas-duramo-azul-lavanda": {
+    "name": "Adidas Duramo",
+    "colorway": "Blue / Lavender",
+    "sizes": "36-39"
+  },
+  "adidas-rod-laver-blanco-verde": {
+    "name": "Adidas Rod Laver",
+    "colorway": "White / Green",
+    "sizes": "40-44"
+  },
+  "adidas-country-og-blanco-negro": {
+    "name": "Adidas Country OG",
+    "colorway": "White / Black / Gum",
+    "sizes": "40-44"
+  },
+  "adidas-country-og-blanco-navy": {
+    "name": "Adidas Country OG",
+    "colorway": "White / Navy",
+    "sizes": "40-44"
+  },
+  "adidas-samba-gris-gum": {
+    "name": "Adidas Samba",
+    "colorway": "Grey / White / Gum",
+    "sizes": "36-39"
+  },
+  "adidas-superstar-cafe-gum": {
+    "name": "Adidas Superstar",
+    "colorway": "Brown / White / Gum",
+    "sizes": "36-39"
+  },
+  "adidas-superstar-x-cdg-play": {
+    "name": "Adidas Superstar x CDG Play",
+    "colorway": "White / Black / Red",
+    "sizes": "36-39"
+  },
+  "adidas-superstar-blanco-brillos": {
+    "name": "Adidas Superstar",
+    "colorway": "White / Glitter",
+    "sizes": "36-39"
+  },
+  "adidas-sl-72-blanco-cafe": {
+    "name": "Adidas SL 72",
+    "colorway": "White / Brown",
+    "sizes": "36-44"
+  },
+  "adidas-sl-72-rosado-navy": {
+    "name": "Adidas SL 72",
+    "colorway": "Pink / Navy",
+    "sizes": "36-39"
+  },
+  "adidas-sl-72-vinotinto-crema": {
+    "name": "Adidas SL 72",
+    "colorway": "Burgundy / Cream",
+    "sizes": "36-44"
+  },
+  "adidas-sl-72-plata-blanco-verde": {
+    "name": "Adidas SL 72",
+    "colorway": "Silver / White / Green",
+    "sizes": "36-39"
+  },
+  "adidas-sl-72-negro-crema": {
+    "name": "Adidas SL 72",
+    "colorway": "Black / Cream",
+    "sizes": "36-39"
+  },
+  "adidas-sl-72-negro-blanco": {
+    "name": "Adidas SL 72",
+    "colorway": "Black / White",
+    "sizes": "36-39"
+  },
+  "adidas-sl-72-negro-leopardo": {
+    "name": "Adidas SL 72",
+    "colorway": "Black / Leopard",
+    "sizes": "36-39"
+  },
+  "adidas-sl-72-oliva-cafe": {
+    "name": "Adidas SL 72",
+    "colorway": "Olive / Brown / White",
+    "sizes": "40-44"
+  },
+  "adidas-superstar-azul-negro-estrellas": {
+    "name": "Adidas Superstar",
+    "colorway": "Blue / Black / Red",
+    "sizes": "40-44"
+  },
+  "adidas-superstar-negro-gris-trebol": {
+    "name": "Adidas Superstar",
+    "colorway": "Black / Grey Trefoil",
+    "sizes": "36-44"
   }
 }

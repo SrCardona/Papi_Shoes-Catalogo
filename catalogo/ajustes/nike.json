@@ -1923,5 +1923,115 @@
     "name": "Nike Air Force 1 Low x Louis Vuitton",
     "colorway": "Black Monogram",
     "sizes": "40-44"
+  },
+  "nike-air-max-pulse-gris-oscuro": {
+    "name": "Nike Air Max Pulse",
+    "colorway": "Dark Grey",
+    "sizes": "40-44"
+  },
+  "nike-air-max-pulse-gris-sail-rojo": {
+    "name": "Nike Air Max Pulse",
+    "colorway": "Grey / Sail / Red",
+    "sizes": "40-44"
+  },
+  "nike-air-max-pulse-oliva-volt": {
+    "name": "Nike Air Max Pulse",
+    "colorway": "Olive / Volt",
+    "sizes": "40-44"
+  },
+  "nike-air-max-pulse-sail-volt": {
+    "name": "Nike Air Max Pulse",
+    "colorway": "Sail / Volt / Grey",
+    "sizes": "40-44"
+  },
+  "nike-air-force-1-negro-cristales": {
+    "name": "Nike Air Force 1 Low",
+    "colorway": "Black / Crystal",
+    "sizes": "36-44"
+  },
+  "nike-moto-2k-blanco-plata": {
+    "name": "Nike Moto 2K",
+    "colorway": "White / Metallic Silver",
+    "sizes": "36-44"
+  },
+  "nike-moto-2k-negro-plata": {
+    "name": "Nike Moto 2K",
+    "colorway": "Black / Metallic Silver",
+    "sizes": "40-44"
+  },
+  "nike-p-6000-negro-blanco-plata": {
+    "name": "Nike P-6000",
+    "colorway": "Black / White / Silver",
+    "sizes": "40-44"
+  },
+  "nike-p-6000-peltre": {
+    "name": "Nike P-6000",
+    "colorway": "Metallic Pewter / White",
+    "sizes": "36-39"
+  },
+  "nike-air-force-1-gamuza-taupe": {
+    "name": "Nike Air Force 1 Low",
+    "colorway": "Taupe Suede",
+    "sizes": "36-44"
+  },
+  "nike-air-force-1-gamuza-gris-claro": {
+    "name": "Nike Air Force 1 Low",
+    "colorway": "Light Grey Suede",
+    "sizes": "36-44"
+  },
+  "nike-air-force-1-blanco-lila": {
+    "name": "Nike Air Force 1 Low",
+    "colorway": "White / Lilac",
+    "sizes": "36-39"
+  },
+  "nike-vomero-18-sail-azul": {
+    "name": "Nike Vomero 18",
+    "colorway": "Sail / Blue / Black",
+    "sizes": "36-39"
+  },
+  "nike-vomero-18-blanco-aqua": {
+    "name": "Nike Vomero 18",
+    "colorway": "White / Aqua / Pink",
+    "sizes": "36-39"
+  },
+  "nike-vomero-18-negro-blanco": {
+    "name": "Nike Vomero 18",
+    "colorway": "Black / White",
+    "sizes": "36-39"
+  },
+  "nike-vomero-18-gris-salvia": {
+    "name": "Nike Vomero 18",
+    "colorway": "Grey / Sage",
+    "sizes": "36-39"
+  },
+  "nike-vomero-18-triple-blanco": {
+    "name": "Nike Vomero 18",
+    "colorway": "Triple White",
+    "sizes": "36-39"
+  },
+  "nike-pegasus-trail-5-salvia-navy": {
+    "name": "Nike Pegasus Trail 5",
+    "colorway": "Sage / Navy",
+    "sizes": "36-44"
+  },
+  "nike-pegasus-trail-5-cafe-naranja": {
+    "name": "Nike Pegasus Trail 5",
+    "colorway": "Brown / Orange / Pink",
+    "sizes": "36-39"
+  },
+  "nike-pegasus-trail-5-gris-rosado": {
+    "name": "Nike Pegasus Trail 5",
+    "colorway": "Grey / Pink",
+    "sizes": "36-39"
+  },
+  "nike-pegasus-trail-5-negro-verde-naranja": {
+    "name": "Nike Pegasus Trail 5",
+    "colorway": "Black / Green / Orange",
+    "sizes": "40-44"
+  },
+  "nike-pegasus-trail-5-negro-blanco": {
+    "name": "Nike Pegasus Trail 5",
+    "colorway": "Black / White",
+    "sizes": "40-44"
   }
 }

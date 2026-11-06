@@ -247,5 +247,15 @@
     "name": "Puma Indoor",
     "colorway": "White / Green / Gum",
     "sizes": "40-44"
+  },
+  "puma-roma-bmw-motorsport-blanco-azul": {
+    "name": "Puma Roma BMW M Motorsport",
+    "colorway": "White / Blue / Red",
+    "sizes": "40-44"
+  },
+  "puma-roma-bmw-motorsport-negro-azul": {
+    "name": "Puma Roma BMW M Motorsport",
+    "colorway": "Black / Blue / Red",
+    "sizes": "40-44"
   }
 }

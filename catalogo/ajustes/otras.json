@@ -525,5 +525,25 @@
     "name": "Diesel Running Azul / Amarillo",
     "colorway": "Blue / Yellow / Sail",
     "sizes": "40-44"
+  },
+  "diesel-running-rosado": {
+    "name": "Diesel Running Rosado",
+    "colorway": "Pink / Burgundy / White",
+    "sizes": "36-39"
+  },
+  "alexander-mcqueen-oversized-blanco-negro": {
+    "name": "Alexander McQueen Oversized",
+    "colorway": "White / Black",
+    "sizes": "36-44"
+  },
+  "dolce-gabbana-blanco": {
+    "name": "Dolce & Gabbana Blanco",
+    "colorway": "Triple White",
+    "sizes": "36-39"
+  },
+  "lacoste-blanco": {
+    "name": "Lacoste Blanco",
+    "colorway": "White / Navy / Red",
+    "sizes": "40-44"
   }
 }

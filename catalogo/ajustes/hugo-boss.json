@@ -214,5 +214,55 @@
     "name": "Hugo Boss Runner",
     "colorway": "Navy Monogram / White",
     "sizes": "40-44"
+  },
+  "hugo-boss-runner-monograma-negro": {
+    "name": "Hugo Boss Runner",
+    "colorway": "Black Monogram",
+    "sizes": "40-44"
+  },
+  "hugo-boss-runner-blanco-hueso": {
+    "name": "Hugo Boss Runner",
+    "colorway": "White / Off-White",
+    "sizes": "40-44"
+  },
+  "hugo-boss-runner-gris-blanco-negro": {
+    "name": "Hugo Boss Runner",
+    "colorway": "Grey / White / Black",
+    "sizes": "40-44"
+  },
+  "hugo-boss-runner-gris-negro": {
+    "name": "Hugo Boss Runner",
+    "colorway": "Grey / Black",
+    "sizes": "40-44"
+  },
+  "hugo-boss-runner-gris-grafito": {
+    "name": "Hugo Boss Runner",
+    "colorway": "Graphite Grey",
+    "sizes": "40-44"
+  },
+  "hugo-boss-runner-negro-blanco": {
+    "name": "Hugo Boss Runner",
+    "colorway": "Black / White",
+    "sizes": "40-44"
+  },
+  "hugo-boss-runner-negro-gris": {
+    "name": "Hugo Boss Runner",
+    "colorway": "Black / Grey",
+    "sizes": "40-44"
+  },
+  "hugo-boss-runner-negro-dorado": {
+    "name": "Hugo Boss Runner",
+    "colorway": "Black / Gold",
+    "sizes": "40-44"
+  },
+  "hugo-boss-runner-negro-suela-rosada": {
+    "name": "Hugo Boss Runner",
+    "colorway": "Black / Pink Sole",
+    "sizes": "40-44"
+  },
+  "hugo-boss-runner-negro-logo-blanco": {
+    "name": "Hugo Boss Runner",
+    "colorway": "Black / White Logo",
+    "sizes": "40-44"
   }
 }
