@@ -54,6 +54,129 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "updatedAt": "2026-08-12T21:42:38.000Z"
   },
   {
+    "id": "sneaker-adidas-adimule-beige",
+    "name": "Adidas Adimule",
+    "brand": "Adidas",
+    "model": "Adidas Adimule",
+    "sku": "PAPI-1454",
+    "category": "general",
+    "gender": "unisex",
+    "price": 179900,
+    "originalPrice": 209900,
+    "images": [
+      "/catalogo/sneakers/adidas/adidas-adimule-beige.jpg"
+    ],
+    "sizes": [
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": true,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Beige Suede",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T16:29:57.174Z",
+    "updatedAt": "2026-11-06T16:29:57.174Z"
+  },
+  {
+    "id": "sneaker-adidas-adimule-naranja",
+    "name": "Adidas Adimule",
+    "brand": "Adidas",
+    "model": "Adidas Adimule",
+    "sku": "PAPI-6474",
+    "category": "general",
+    "gender": "unisex",
+    "price": 179900,
+    "originalPrice": 209900,
+    "images": [
+      "/catalogo/sneakers/adidas/adidas-adimule-naranja.jpg"
+    ],
+    "sizes": [
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": true,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Orange Suede",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T16:29:57.174Z",
+    "updatedAt": "2026-11-06T16:29:57.174Z"
+  },
+  {
+    "id": "sneaker-adidas-adimule-negro",
+    "name": "Adidas Adimule",
+    "brand": "Adidas",
+    "model": "Adidas Adimule",
+    "sku": "PAPI-7243",
+    "category": "general",
+    "gender": "unisex",
+    "price": 179900,
+    "originalPrice": 209900,
+    "images": [
+      "/catalogo/sneakers/adidas/adidas-adimule-negro.jpg"
+    ],
+    "sizes": [
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": true,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Black Suede",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T16:29:57.174Z",
+    "updatedAt": "2026-11-06T16:29:57.174Z"
+  },
+  {
     "id": "sneaker-adidas-adistar-cs-negro-verde",
     "name": "Adidas Adistar CS",
     "brand": "Adidas",
@@ -228,7 +351,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       39
     ],
     "status": "disponible",
-    "isFeatured": true,
+    "isFeatured": false,
     "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
@@ -461,7 +584,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       39
     ],
     "status": "disponible",
-    "isFeatured": true,
+    "isFeatured": false,
     "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
@@ -581,7 +704,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       44
     ],
     "status": "disponible",
-    "isFeatured": true,
+    "isFeatured": false,
     "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
@@ -1281,6 +1404,43 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "updatedAt": "2026-08-12T21:42:38.000Z"
   },
   {
+    "id": "sneaker-adidas-f50-azul-volt",
+    "name": "Adidas F50",
+    "brand": "Adidas",
+    "model": "Adidas F50",
+    "sku": "PAPI-8807",
+    "category": "general",
+    "gender": "hombre",
+    "price": 179900,
+    "originalPrice": 209900,
+    "images": [
+      "/catalogo/sneakers/adidas/hombre/adidas-f50-azul-volt.jpg"
+    ],
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "Guayo de fútbol.",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Blue / Volt",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T16:29:57.174Z",
+    "updatedAt": "2026-11-06T16:29:57.174Z"
+  },
+  {
     "id": "sneaker-adidas-forum-x-bad-bunny",
     "name": "Adidas Forum x Bad Bunny",
     "brand": "Adidas",
@@ -1480,6 +1640,43 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "inquiriesCount": 0,
     "createdAt": "2026-08-12T21:42:38.000Z",
     "updatedAt": "2026-08-12T21:42:38.000Z"
+  },
+  {
+    "id": "sneaker-adidas-predator-elite-gris-amarillo",
+    "name": "Adidas Predator Elite",
+    "brand": "Adidas",
+    "model": "Adidas Predator Elite",
+    "sku": "PAPI-1402",
+    "category": "general",
+    "gender": "hombre",
+    "price": 179900,
+    "originalPrice": 209900,
+    "images": [
+      "/catalogo/sneakers/adidas/hombre/adidas-predator-elite-gris-amarillo.jpg"
+    ],
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "Guayo de fútbol.",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Grey / Yellow / Purple",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T16:29:57.174Z",
+    "updatedAt": "2026-11-06T16:29:57.174Z"
   },
   {
     "id": "sneaker-adidas-pureboost",
@@ -1826,6 +2023,42 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "inquiriesCount": 0,
     "createdAt": "2026-11-06T14:19:39.279Z",
     "updatedAt": "2026-11-06T14:19:39.279Z"
+  },
+  {
+    "id": "sneaker-adidas-samba-blanco-dorado-brillos",
+    "name": "Adidas Samba",
+    "brand": "Adidas",
+    "model": "Adidas Samba",
+    "sku": "PAPI-1142",
+    "category": "general",
+    "gender": "mujer",
+    "price": 179900,
+    "originalPrice": 209900,
+    "images": [
+      "/catalogo/sneakers/adidas/mujer/adidas-samba-blanco-dorado-brillos.jpg"
+    ],
+    "sizes": [
+      36,
+      37,
+      38,
+      39
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "White / Gold Glitter / Gum",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T16:29:57.174Z",
+    "updatedAt": "2026-11-06T16:29:57.174Z"
   },
   {
     "id": "sneaker-adidas-samba-blanco-gris-plataforma",
@@ -3314,7 +3547,9 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "price": 179900,
     "originalPrice": 209900,
     "images": [
-      "/catalogo/sneakers/adidas/mujer/adidas-supernova-blanco-morado.jpg"
+      "/catalogo/sneakers/adidas/mujer/adidas-supernova-blanco-morado.jpg",
+      "/catalogo/sneakers/adidas/mujer/adidas-supernova-blanco-morado_2.jpg",
+      "/catalogo/sneakers/adidas/mujer/adidas-supernova-blanco-morado_3.jpg"
     ],
     "sizes": [
       36,
@@ -3937,7 +4172,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "price": 179900,
     "originalPrice": 209900,
     "images": [
-      "/catalogo/sneakers/adidas/adidas-superstar-triple-white.jpg"
+      "/catalogo/sneakers/adidas/adidas-superstar-triple-white.jpg",
+      "/catalogo/sneakers/adidas/adidas-superstar-triple-white_2.jpg"
     ],
     "sizes": [
       37,
@@ -4159,6 +4395,80 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "updatedAt": "2026-11-06T13:33:12.682Z"
   },
   {
+    "id": "sneaker-adidas-superstar-crema-floral",
+    "name": "Adidas Superstar",
+    "brand": "Adidas",
+    "model": "Adidas Superstar",
+    "sku": "PAPI-1153",
+    "category": "general",
+    "gender": "hombre",
+    "price": 179900,
+    "originalPrice": 209900,
+    "images": [
+      "/catalogo/sneakers/adidas/hombre/adidas-superstar-crema-floral.jpg"
+    ],
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Cream / Floral",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T16:29:57.174Z",
+    "updatedAt": "2026-11-06T16:29:57.174Z"
+  },
+  {
+    "id": "sneaker-adidas-superstar-gamuza-gris",
+    "name": "Adidas Superstar",
+    "brand": "Adidas",
+    "model": "Adidas Superstar",
+    "sku": "PAPI-2263",
+    "category": "general",
+    "gender": "hombre",
+    "price": 179900,
+    "originalPrice": 209900,
+    "images": [
+      "/catalogo/sneakers/adidas/hombre/adidas-superstar-gamuza-gris.jpg"
+    ],
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Grey Suede / White",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T16:29:57.174Z",
+    "updatedAt": "2026-11-06T16:29:57.174Z"
+  },
+  {
     "id": "sneaker-adidas-superstar-negro-cafe",
     "name": "Adidas Superstar",
     "brand": "Adidas",
@@ -4309,6 +4619,42 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "inquiriesCount": 0,
     "createdAt": "2026-09-08T16:36:16.035Z",
     "updatedAt": "2026-09-08T16:36:16.035Z"
+  },
+  {
+    "id": "sneaker-adidas-superstar-azul-rey",
+    "name": "Adidas Superstar",
+    "brand": "Adidas",
+    "model": "Adidas Superstar",
+    "sku": "PAPI-8736",
+    "category": "general",
+    "gender": "mujer",
+    "price": 179900,
+    "originalPrice": 209900,
+    "images": [
+      "/catalogo/sneakers/adidas/mujer/adidas-superstar-azul-rey.jpg"
+    ],
+    "sizes": [
+      36,
+      37,
+      38,
+      39
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Royal Blue / White",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T16:29:57.174Z",
+    "updatedAt": "2026-11-06T16:29:57.174Z"
   },
   {
     "id": "sneaker-adidas-superstar-blanco-beige-navy",
@@ -4763,6 +5109,43 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "updatedAt": "2026-08-21T13:03:03.159Z"
   },
   {
+    "id": "sneaker-adidas-superstar-x-bape-azul",
+    "name": "Adidas Superstar x Bape",
+    "brand": "Adidas",
+    "model": "Adidas Superstar x Bape",
+    "sku": "PAPI-1331",
+    "category": "general",
+    "gender": "hombre",
+    "price": 179900,
+    "originalPrice": 209900,
+    "images": [
+      "/catalogo/sneakers/adidas/hombre/adidas-superstar-x-bape-azul.jpg"
+    ],
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Blue Camo / White",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T16:29:57.174Z",
+    "updatedAt": "2026-11-06T16:29:57.174Z"
+  },
+  {
     "id": "sneaker-adidas-superstar-x-blessd",
     "name": "Adidas Superstar x Blessd",
     "brand": "Adidas",
@@ -4877,6 +5260,78 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "updatedAt": "2026-08-21T13:03:03.159Z"
   },
   {
+    "id": "sneaker-adidas-taekwondo-mary-jane-durazno",
+    "name": "Adidas Taekwondo Mary Jane",
+    "brand": "Adidas",
+    "model": "Adidas Taekwondo Mary Jane",
+    "sku": "PAPI-1294",
+    "category": "general",
+    "gender": "mujer",
+    "price": 179900,
+    "originalPrice": 209900,
+    "images": [
+      "/catalogo/sneakers/adidas/mujer/adidas-taekwondo-mary-jane-durazno.jpg"
+    ],
+    "sizes": [
+      36,
+      37,
+      38,
+      39
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Peach / Gum",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T16:29:57.174Z",
+    "updatedAt": "2026-11-06T16:29:57.174Z"
+  },
+  {
+    "id": "sneaker-adidas-taekwondo-mary-jane-gris",
+    "name": "Adidas Taekwondo Mary Jane",
+    "brand": "Adidas",
+    "model": "Adidas Taekwondo Mary Jane",
+    "sku": "PAPI-9923",
+    "category": "general",
+    "gender": "mujer",
+    "price": 179900,
+    "originalPrice": 209900,
+    "images": [
+      "/catalogo/sneakers/adidas/mujer/adidas-taekwondo-mary-jane-gris.jpg"
+    ],
+    "sizes": [
+      36,
+      37,
+      38,
+      39
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Grey / White / Gum",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T16:29:57.174Z",
+    "updatedAt": "2026-11-06T16:29:57.174Z"
+  },
+  {
     "id": "sneaker-adidas-terrex-negro-blanco",
     "name": "Adidas Terrex",
     "brand": "Adidas",
@@ -4912,6 +5367,43 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "inquiriesCount": 0,
     "createdAt": "2026-11-06T14:19:39.279Z",
     "updatedAt": "2026-11-06T14:19:39.279Z"
+  },
+  {
+    "id": "sneaker-adidas-terrex-negro-turquesa",
+    "name": "Adidas Terrex",
+    "brand": "Adidas",
+    "model": "Adidas Terrex",
+    "sku": "PAPI-1262",
+    "category": "general",
+    "gender": "hombre",
+    "price": 179900,
+    "originalPrice": 209900,
+    "images": [
+      "/catalogo/sneakers/adidas/hombre/adidas-terrex-negro-turquesa.jpg"
+    ],
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Black / Teal",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T16:29:57.174Z",
+    "updatedAt": "2026-11-06T16:29:57.174Z"
   },
   {
     "id": "sneaker-adidas-terrex-rojo",
@@ -9115,6 +9607,42 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "inquiriesCount": 0,
     "createdAt": "2026-08-13T19:36:10.000Z",
     "updatedAt": "2026-08-13T19:36:10.000Z"
+  },
+  {
+    "id": "sneaker-alexander-mcqueen-oversized-negro",
+    "name": "Alexander McQueen Oversized",
+    "brand": "Otras",
+    "model": "Alexander McQueen Oversized",
+    "sku": "PAPI-1475",
+    "category": "general",
+    "gender": "mujer",
+    "price": 189900,
+    "originalPrice": 229900,
+    "images": [
+      "/catalogo/sneakers/otras/mujer/alexander-mcqueen-oversized-negro.jpg"
+    ],
+    "sizes": [
+      36,
+      37,
+      38,
+      39
+    ],
+    "status": "disponible",
+    "isFeatured": true,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Black / White",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T16:29:57.174Z",
+    "updatedAt": "2026-11-06T16:29:57.174Z"
   },
   {
     "id": "sneaker-amiri-ma-1-blanco-negro",
@@ -13466,6 +13994,43 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "updatedAt": "2026-08-25T13:25:51.184Z"
   },
   {
+    "id": "sneaker-diesel-running-cafe-beige",
+    "name": "Diesel Running Café / Beige",
+    "brand": "Otras",
+    "model": "Diesel Running Café / Beige",
+    "sku": "PAPI-2255",
+    "category": "general",
+    "gender": "hombre",
+    "price": 189900,
+    "originalPrice": 229900,
+    "images": [
+      "/catalogo/sneakers/otras/hombre/diesel-running-cafe-beige.jpg"
+    ],
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": true,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Brown / Beige",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T16:29:57.174Z",
+    "updatedAt": "2026-11-06T16:29:57.174Z"
+  },
+  {
     "id": "sneaker-diesel-s-athene-negro",
     "name": "Diesel S-Athene",
     "brand": "Otras",
@@ -13615,6 +14180,43 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "inquiriesCount": 0,
     "createdAt": "2026-08-13T19:36:12.000Z",
     "updatedAt": "2026-08-13T19:36:12.000Z"
+  },
+  {
+    "id": "sneaker-dolce-gabbana-negro-gris",
+    "name": "Dolce & Gabbana Negro / Gris",
+    "brand": "Otras",
+    "model": "Dolce & Gabbana Negro / Gris",
+    "sku": "PAPI-4336",
+    "category": "general",
+    "gender": "hombre",
+    "price": 189900,
+    "originalPrice": 229900,
+    "images": [
+      "/catalogo/sneakers/otras/hombre/dolce-gabbana-negro-gris.jpg"
+    ],
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": true,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Black / Grey",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T16:29:57.174Z",
+    "updatedAt": "2026-11-06T16:29:57.174Z"
   },
   {
     "id": "sneaker-fila-running-blanco-crema",
@@ -14717,7 +15319,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       39
     ],
     "status": "disponible",
-    "isFeatured": true,
+    "isFeatured": false,
     "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
@@ -14753,7 +15355,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       39
     ],
     "status": "disponible",
-    "isFeatured": true,
+    "isFeatured": false,
     "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
@@ -14827,7 +15429,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       44
     ],
     "status": "disponible",
-    "isFeatured": true,
+    "isFeatured": false,
     "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
@@ -15553,7 +16155,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "price": 179900,
     "originalPrice": 209900,
     "images": [
-      "/catalogo/sneakers/jordan/hombre/jordan-11-retro-legend-blue.jpg"
+      "/catalogo/sneakers/jordan/hombre/jordan-11-retro-legend-blue.jpg",
+      "/catalogo/sneakers/jordan/hombre/jordan-11-retro-legend-blue_2.jpg"
     ],
     "sizes": [
       40,
@@ -16024,6 +16627,47 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "updatedAt": "2026-11-06T15:49:41.529Z"
   },
   {
+    "id": "sneaker-jordan-3-retro-negro-floral",
+    "name": "Jordan 3 Retro",
+    "brand": "Jordan",
+    "model": "Jordan 3 Retro",
+    "sku": "PAPI-8037",
+    "category": "general",
+    "gender": "unisex",
+    "price": 179900,
+    "originalPrice": 209900,
+    "images": [
+      "/catalogo/sneakers/jordan/jordan-3-retro-negro-floral.jpg"
+    ],
+    "sizes": [
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": true,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Black / Floral",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T16:29:57.174Z",
+    "updatedAt": "2026-11-06T16:29:57.174Z"
+  },
+  {
     "id": "sneaker-jordan-3-retro-sail-naranja",
     "name": "Jordan 3 Retro",
     "brand": "Jordan",
@@ -16136,6 +16780,42 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "inquiriesCount": 0,
     "createdAt": "2026-11-06T15:49:41.529Z",
     "updatedAt": "2026-11-06T15:49:41.529Z"
+  },
+  {
+    "id": "sneaker-jordan-3-retro-blanco-pastel",
+    "name": "Jordan 3 Retro",
+    "brand": "Jordan",
+    "model": "Jordan 3 Retro",
+    "sku": "PAPI-1341",
+    "category": "general",
+    "gender": "mujer",
+    "price": 179900,
+    "originalPrice": 209900,
+    "images": [
+      "/catalogo/sneakers/jordan/mujer/jordan-3-retro-blanco-pastel.jpg"
+    ],
+    "sizes": [
+      36,
+      37,
+      38,
+      39
+    ],
+    "status": "disponible",
+    "isFeatured": true,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "White / Pastel",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T16:29:57.174Z",
+    "updatedAt": "2026-11-06T16:29:57.174Z"
   },
   {
     "id": "sneaker-jordan-3-retro-blanco-rosado",
@@ -17463,7 +18143,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "originalPrice": 229900,
     "images": [
       "/catalogo/sneakers/louis-vuitton/louis-vuitton-skate-negro.jpg",
-      "/catalogo/sneakers/louis-vuitton/louis-vuitton-skate-negro_2.jpg"
+      "/catalogo/sneakers/louis-vuitton/louis-vuitton-skate-negro_2.jpg",
+      "/catalogo/sneakers/louis-vuitton/louis-vuitton-skate-negro_3.jpg"
     ],
     "sizes": [
       36,
@@ -17541,7 +18222,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "price": 189900,
     "originalPrice": 229900,
     "images": [
-      "/catalogo/sneakers/louis-vuitton/hombre/louis-vuitton-trainer-flores.jpg"
+      "/catalogo/sneakers/louis-vuitton/hombre/louis-vuitton-trainer-flores.jpg",
+      "/catalogo/sneakers/louis-vuitton/hombre/louis-vuitton-trainer-flores_2.jpg"
     ],
     "sizes": [
       40,
@@ -19348,7 +20030,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "price": 179900,
     "originalPrice": 209900,
     "images": [
-      "/catalogo/sneakers/new-balance/new-balance-530-negro-blanco.jpg"
+      "/catalogo/sneakers/new-balance/new-balance-530-negro-blanco.jpg",
+      "/catalogo/sneakers/new-balance/new-balance-530-negro-blanco_2.jpg"
     ],
     "sizes": [
       37,
@@ -19390,7 +20073,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "images": [
       "/catalogo/sneakers/new-balance/new-balance-530-white-silver-navy.jpg",
       "/catalogo/sneakers/new-balance/new-balance-530-white-silver-navy_2.jpg",
-      "/catalogo/sneakers/new-balance/new-balance-530-white-silver-navy_3.jpg"
+      "/catalogo/sneakers/new-balance/new-balance-530-white-silver-navy_3.jpg",
+      "/catalogo/sneakers/new-balance/new-balance-530-white-silver-navy_4.jpg"
     ],
     "sizes": [
       37,
@@ -19540,6 +20224,43 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "updatedAt": "2026-08-13T19:36:11.000Z"
   },
   {
+    "id": "sneaker-new-balance-574-gris-navy",
+    "name": "New Balance 574",
+    "brand": "New Balance",
+    "model": "New Balance 574",
+    "sku": "PAPI-5600",
+    "category": "general",
+    "gender": "hombre",
+    "price": 179900,
+    "originalPrice": 209900,
+    "images": [
+      "/catalogo/sneakers/new-balance/hombre/new-balance-574-gris-navy.jpg"
+    ],
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Grey / Navy / Gum",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T16:29:57.174Z",
+    "updatedAt": "2026-11-06T16:29:57.174Z"
+  },
+  {
     "id": "sneaker-new-balance-574-crema-navy",
     "name": "New Balance 574",
     "brand": "New Balance",
@@ -19622,7 +20343,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "price": 179900,
     "originalPrice": 209900,
     "images": [
-      "/catalogo/sneakers/new-balance/mujer/new-balance-574-negro-gris.jpg"
+      "/catalogo/sneakers/new-balance/mujer/new-balance-574-negro-gris.jpg",
+      "/catalogo/sneakers/new-balance/mujer/new-balance-574-negro-gris_2.jpg"
     ],
     "sizes": [
       36,
@@ -19646,6 +20368,42 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "inquiriesCount": 0,
     "createdAt": "2026-11-06T14:58:00.796Z",
     "updatedAt": "2026-11-06T14:58:00.796Z"
+  },
+  {
+    "id": "sneaker-new-balance-574-plataforma-cebra",
+    "name": "New Balance 574+",
+    "brand": "New Balance",
+    "model": "New Balance 574+",
+    "sku": "PAPI-4852",
+    "category": "general",
+    "gender": "mujer",
+    "price": 179900,
+    "originalPrice": 209900,
+    "images": [
+      "/catalogo/sneakers/new-balance/mujer/new-balance-574-plataforma-cebra.jpg"
+    ],
+    "sizes": [
+      36,
+      37,
+      38,
+      39
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Black / Zebra",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T16:29:57.174Z",
+    "updatedAt": "2026-11-06T16:29:57.174Z"
   },
   {
     "id": "sneaker-new-balance-730-blanco-plata",
@@ -19924,6 +20682,80 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "updatedAt": "2026-11-06T13:33:12.682Z"
   },
   {
+    "id": "sneaker-new-balance-9060-sea-salt-cafe",
+    "name": "New Balance 9060",
+    "brand": "New Balance",
+    "model": "New Balance 9060",
+    "sku": "PAPI-1082",
+    "category": "general",
+    "gender": "hombre",
+    "price": 179900,
+    "originalPrice": 209900,
+    "images": [
+      "/catalogo/sneakers/new-balance/hombre/new-balance-9060-sea-salt-cafe.jpg"
+    ],
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Sea Salt / Brown / Green",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T16:29:57.174Z",
+    "updatedAt": "2026-11-06T16:29:57.174Z"
+  },
+  {
+    "id": "sneaker-new-balance-9060-sea-salt-verde",
+    "name": "New Balance 9060",
+    "brand": "New Balance",
+    "model": "New Balance 9060",
+    "sku": "PAPI-1451",
+    "category": "general",
+    "gender": "hombre",
+    "price": 179900,
+    "originalPrice": 209900,
+    "images": [
+      "/catalogo/sneakers/new-balance/hombre/new-balance-9060-sea-salt-verde.jpg"
+    ],
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Sea Salt / Grey / Green",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T16:29:57.174Z",
+    "updatedAt": "2026-11-06T16:29:57.174Z"
+  },
+  {
     "id": "sneaker-new-balance-9060-beige-gris",
     "name": "New Balance 9060",
     "brand": "New Balance",
@@ -19960,6 +20792,42 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "updatedAt": "2026-11-06T14:58:00.796Z"
   },
   {
+    "id": "sneaker-new-balance-9060-blanco-azul-negro",
+    "name": "New Balance 9060",
+    "brand": "New Balance",
+    "model": "New Balance 9060",
+    "sku": "PAPI-9172",
+    "category": "general",
+    "gender": "mujer",
+    "price": 179900,
+    "originalPrice": 209900,
+    "images": [
+      "/catalogo/sneakers/new-balance/mujer/new-balance-9060-blanco-azul-negro.jpg"
+    ],
+    "sizes": [
+      36,
+      37,
+      38,
+      39
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "White / Light Blue / Black",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T16:29:57.174Z",
+    "updatedAt": "2026-11-06T16:29:57.174Z"
+  },
+  {
     "id": "sneaker-new-balance-9060-blanco-gris",
     "name": "New Balance 9060",
     "brand": "New Balance",
@@ -19970,7 +20838,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "price": 179900,
     "originalPrice": 209900,
     "images": [
-      "/catalogo/sneakers/new-balance/mujer/new-balance-9060-blanco-gris.jpg"
+      "/catalogo/sneakers/new-balance/mujer/new-balance-9060-blanco-gris.jpg",
+      "/catalogo/sneakers/new-balance/mujer/new-balance-9060-blanco-gris_2.jpg"
     ],
     "sizes": [
       36,
@@ -19994,6 +20863,42 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "inquiriesCount": 0,
     "createdAt": "2026-11-06T14:19:39.279Z",
     "updatedAt": "2026-11-06T14:19:39.279Z"
+  },
+  {
+    "id": "sneaker-new-balance-9060-blanco-menta",
+    "name": "New Balance 9060",
+    "brand": "New Balance",
+    "model": "New Balance 9060",
+    "sku": "PAPI-1266",
+    "category": "general",
+    "gender": "mujer",
+    "price": 179900,
+    "originalPrice": 209900,
+    "images": [
+      "/catalogo/sneakers/new-balance/mujer/new-balance-9060-blanco-menta.jpg"
+    ],
+    "sizes": [
+      36,
+      37,
+      38,
+      39
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "White / Mint",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T16:29:57.174Z",
+    "updatedAt": "2026-11-06T16:29:57.174Z"
   },
   {
     "id": "sneaker-new-balance-9060-blanco-navy-rosado",
@@ -20079,7 +20984,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "price": 179900,
     "originalPrice": 209900,
     "images": [
-      "/catalogo/sneakers/new-balance/mujer/new-balance-9060-blanco-negro.jpg"
+      "/catalogo/sneakers/new-balance/mujer/new-balance-9060-blanco-negro.jpg",
+      "/catalogo/sneakers/new-balance/mujer/new-balance-9060-blanco-negro_2.jpg"
     ],
     "sizes": [
       36,
@@ -20103,6 +21009,78 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "inquiriesCount": 0,
     "createdAt": "2026-11-06T14:19:39.279Z",
     "updatedAt": "2026-11-06T14:19:39.279Z"
+  },
+  {
+    "id": "sneaker-new-balance-9060-blanco-verde-gris",
+    "name": "New Balance 9060",
+    "brand": "New Balance",
+    "model": "New Balance 9060",
+    "sku": "PAPI-1670",
+    "category": "general",
+    "gender": "mujer",
+    "price": 179900,
+    "originalPrice": 209900,
+    "images": [
+      "/catalogo/sneakers/new-balance/mujer/new-balance-9060-blanco-verde-gris.jpg"
+    ],
+    "sizes": [
+      36,
+      37,
+      38,
+      39
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "White / Green / Grey",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T16:29:57.174Z",
+    "updatedAt": "2026-11-06T16:29:57.174Z"
+  },
+  {
+    "id": "sneaker-new-balance-9060-cafe-rosado-verde",
+    "name": "New Balance 9060",
+    "brand": "New Balance",
+    "model": "New Balance 9060",
+    "sku": "PAPI-8424",
+    "category": "general",
+    "gender": "mujer",
+    "price": 179900,
+    "originalPrice": 209900,
+    "images": [
+      "/catalogo/sneakers/new-balance/mujer/new-balance-9060-cafe-rosado-verde.jpg"
+    ],
+    "sizes": [
+      36,
+      37,
+      38,
+      39
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Brown / Pink / Green",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T16:29:57.174Z",
+    "updatedAt": "2026-11-06T16:29:57.174Z"
   },
   {
     "id": "sneaker-new-balance-9060-crema-rosado",
@@ -20152,7 +21130,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "price": 179900,
     "originalPrice": 209900,
     "images": [
-      "/catalogo/sneakers/new-balance/mujer/new-balance-9060-gris-niebla.jpg"
+      "/catalogo/sneakers/new-balance/mujer/new-balance-9060-gris-niebla.jpg",
+      "/catalogo/sneakers/new-balance/mujer/new-balance-9060-gris-niebla_2.jpg"
     ],
     "sizes": [
       36,
@@ -20212,6 +21191,42 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "inquiriesCount": 0,
     "createdAt": "2026-11-06T14:58:00.796Z",
     "updatedAt": "2026-11-06T14:58:00.796Z"
+  },
+  {
+    "id": "sneaker-new-balance-9060-oliva-cafe",
+    "name": "New Balance 9060",
+    "brand": "New Balance",
+    "model": "New Balance 9060",
+    "sku": "PAPI-5285",
+    "category": "general",
+    "gender": "mujer",
+    "price": 179900,
+    "originalPrice": 209900,
+    "images": [
+      "/catalogo/sneakers/new-balance/mujer/new-balance-9060-oliva-cafe.jpg"
+    ],
+    "sizes": [
+      36,
+      37,
+      38,
+      39
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Olive / Brown",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T16:29:57.174Z",
+    "updatedAt": "2026-11-06T16:29:57.174Z"
   },
   {
     "id": "sneaker-new-balance-9060-plata-dorado",
@@ -20357,6 +21372,43 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "inquiriesCount": 0,
     "createdAt": "2026-11-06T14:19:39.279Z",
     "updatedAt": "2026-11-06T14:19:39.279Z"
+  },
+  {
+    "id": "sneaker-new-balance-9060-taupe",
+    "name": "New Balance 9060",
+    "brand": "New Balance",
+    "model": "New Balance 9060",
+    "sku": "PAPI-9901",
+    "category": "general",
+    "gender": "mujer",
+    "price": 179900,
+    "originalPrice": 209900,
+    "images": [
+      "/catalogo/sneakers/new-balance/mujer/new-balance-9060-taupe.jpg",
+      "/catalogo/sneakers/new-balance/mujer/new-balance-9060-taupe_2.jpg"
+    ],
+    "sizes": [
+      36,
+      37,
+      38,
+      39
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Taupe / Grey",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T16:29:57.174Z",
+    "updatedAt": "2026-11-06T16:29:57.174Z"
   },
   {
     "id": "sneaker-new-balance-9060-blanco-crema",
@@ -20530,7 +21582,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "price": 179900,
     "originalPrice": 209900,
     "images": [
-      "/catalogo/sneakers/new-balance/new-balance-9060-gris-negro-unisex.jpg"
+      "/catalogo/sneakers/new-balance/new-balance-9060-gris-negro-unisex.jpg",
+      "/catalogo/sneakers/new-balance/new-balance-9060-gris-negro-unisex_2.jpg"
     ],
     "sizes": [
       36,
@@ -20693,7 +21746,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "price": 179900,
     "originalPrice": 209900,
     "images": [
-      "/catalogo/sneakers/new-balance/new-balance-9060-triple-blanco.jpg"
+      "/catalogo/sneakers/new-balance/new-balance-9060-triple-blanco.jpg",
+      "/catalogo/sneakers/new-balance/new-balance-9060-triple-blanco_2.jpg"
     ],
     "sizes": [
       37,
@@ -21016,7 +22070,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       "/catalogo/sneakers/nike/nike-air-force-1-triple-white_3.jpg",
       "/catalogo/sneakers/nike/nike-air-force-1-triple-white_4.jpg",
       "/catalogo/sneakers/nike/nike-air-force-1-triple-white_5.jpg",
-      "/catalogo/sneakers/nike/nike-air-force-1-triple-white_6.jpg"
+      "/catalogo/sneakers/nike/nike-air-force-1-triple-white_6.jpg",
+      "/catalogo/sneakers/nike/nike-air-force-1-triple-white_7.jpg"
     ],
     "sizes": [
       37,
@@ -21731,7 +22786,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "price": 179900,
     "originalPrice": 209900,
     "images": [
-      "/catalogo/sneakers/nike/hombre/nike-air-force-1-naranja-metalico.jpg"
+      "/catalogo/sneakers/nike/hombre/nike-air-force-1-naranja-metalico.jpg",
+      "/catalogo/sneakers/nike/hombre/nike-air-force-1-naranja-metalico_2.jpg"
     ],
     "sizes": [
       40,
@@ -21832,6 +22888,43 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "updatedAt": "2026-11-06T14:19:39.279Z"
   },
   {
+    "id": "sneaker-nike-air-force-1-plata-negro",
+    "name": "Nike Air Force 1 Low",
+    "brand": "Nike",
+    "model": "Nike Air Force 1 Low",
+    "sku": "PAPI-1305",
+    "category": "general",
+    "gender": "hombre",
+    "price": 179900,
+    "originalPrice": 209900,
+    "images": [
+      "/catalogo/sneakers/nike/hombre/nike-air-force-1-plata-negro.jpg"
+    ],
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Metallic Silver / Black",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T16:29:57.174Z",
+    "updatedAt": "2026-11-06T16:29:57.174Z"
+  },
+  {
     "id": "sneaker-nike-air-force-1-rosado-negro",
     "name": "Nike Air Force 1 Low",
     "brand": "Nike",
@@ -21852,7 +22945,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       44
     ],
     "status": "disponible",
-    "isFeatured": true,
+    "isFeatured": false,
     "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
@@ -21916,7 +23009,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "price": 179900,
     "originalPrice": 209900,
     "images": [
-      "/catalogo/sneakers/nike/mujer/nike-air-force-1-charol-negro.jpg"
+      "/catalogo/sneakers/nike/mujer/nike-air-force-1-charol-negro.jpg",
+      "/catalogo/sneakers/nike/mujer/nike-air-force-1-charol-negro_2.jpg"
     ],
     "sizes": [
       36,
@@ -22952,7 +24046,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "price": 179900,
     "originalPrice": 209900,
     "images": [
-      "/catalogo/sneakers/nike/nike-air-force-1-x-tiffany.jpg"
+      "/catalogo/sneakers/nike/nike-air-force-1-x-tiffany.jpg",
+      "/catalogo/sneakers/nike/nike-air-force-1-x-tiffany_2.jpg"
     ],
     "sizes": [
       37,
@@ -23502,7 +24597,7 @@ export const CATALOGO_GENERADO: Sneaker[] = [
       44
     ],
     "status": "disponible",
-    "isFeatured": true,
+    "isFeatured": false,
     "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
@@ -31374,6 +32469,43 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "updatedAt": "2026-11-06T15:26:13.113Z"
   },
   {
+    "id": "sneaker-nike-mind-002-negro-blanco",
+    "name": "Nike Mind 002",
+    "brand": "Nike",
+    "model": "Nike Mind 002",
+    "sku": "PAPI-1384",
+    "category": "general",
+    "gender": "hombre",
+    "price": 179900,
+    "originalPrice": 209900,
+    "images": [
+      "/catalogo/sneakers/nike/hombre/nike-mind-002-negro-blanco.jpg"
+    ],
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Black / White",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T16:29:57.174Z",
+    "updatedAt": "2026-11-06T16:29:57.174Z"
+  },
+  {
     "id": "sneaker-nike-mind-002-lila",
     "name": "Nike Mind 002",
     "brand": "Nike",
@@ -35069,6 +36201,85 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "updatedAt": "2026-11-06T14:19:39.279Z"
   },
   {
+    "id": "sneaker-off-white-out-of-office-blanco-negro",
+    "name": "Off-White Out of Office",
+    "brand": "Otras",
+    "model": "Off-White Out of Office",
+    "sku": "PAPI-4100",
+    "category": "general",
+    "gender": "hombre",
+    "price": 189900,
+    "originalPrice": 229900,
+    "images": [
+      "/catalogo/sneakers/otras/hombre/off-white-out-of-office-blanco-negro.jpg"
+    ],
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "White / Black",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T16:29:57.174Z",
+    "updatedAt": "2026-11-06T16:29:57.174Z"
+  },
+  {
+    "id": "sneaker-off-white-out-of-office-negro-blanco",
+    "name": "Off-White Out of Office",
+    "brand": "Otras",
+    "model": "Off-White Out of Office",
+    "sku": "PAPI-1306",
+    "category": "general",
+    "gender": "unisex",
+    "price": 189900,
+    "originalPrice": 229900,
+    "images": [
+      "/catalogo/sneakers/otras/off-white-out-of-office-negro-blanco.jpg",
+      "/catalogo/sneakers/otras/off-white-out-of-office-negro-blanco_2.jpg"
+    ],
+    "sizes": [
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Black / White",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T16:29:57.174Z",
+    "updatedAt": "2026-11-06T16:29:57.174Z"
+  },
+  {
     "id": "sneaker-off-white-out-of-office-blanco-gris",
     "name": "Off-White Out Of Office",
     "brand": "Otras",
@@ -35105,6 +36316,78 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "inquiriesCount": 0,
     "createdAt": "2026-09-03T16:52:11.995Z",
     "updatedAt": "2026-09-03T16:52:11.995Z"
+  },
+  {
+    "id": "sneaker-on-cloudrunner-2-gris-morado",
+    "name": "On Cloudrunner 2",
+    "brand": "On",
+    "model": "On Cloudrunner 2",
+    "sku": "PAPI-7125",
+    "category": "general",
+    "gender": "mujer",
+    "price": 189900,
+    "originalPrice": 229900,
+    "images": [
+      "/catalogo/sneakers/on/mujer/on-cloudrunner-2-gris-morado.jpg"
+    ],
+    "sizes": [
+      36,
+      37,
+      38,
+      39
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Grey / Purple",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T16:29:57.174Z",
+    "updatedAt": "2026-11-06T16:29:57.174Z"
+  },
+  {
+    "id": "sneaker-on-cloudrunner-2-undyed-verde",
+    "name": "On Cloudrunner 2",
+    "brand": "On",
+    "model": "On Cloudrunner 2",
+    "sku": "PAPI-4984",
+    "category": "general",
+    "gender": "mujer",
+    "price": 189900,
+    "originalPrice": 229900,
+    "images": [
+      "/catalogo/sneakers/on/mujer/on-cloudrunner-2-undyed-verde.jpg"
+    ],
+    "sizes": [
+      36,
+      37,
+      38,
+      39
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Undyed / Green",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T16:29:57.174Z",
+    "updatedAt": "2026-11-06T16:29:57.174Z"
   },
   {
     "id": "sneaker-on-cloudrunner-2-blanco-negro",
@@ -35199,7 +36482,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "price": 189900,
     "originalPrice": 229900,
     "images": [
-      "/catalogo/sneakers/on/on-cloudrunner-2-negro-blanco.jpg"
+      "/catalogo/sneakers/on/on-cloudrunner-2-negro-blanco.jpg",
+      "/catalogo/sneakers/on/on-cloudrunner-2-negro-blanco_2.jpg"
     ],
     "sizes": [
       36,
@@ -35228,6 +36512,78 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "inquiriesCount": 0,
     "createdAt": "2026-11-06T13:33:12.682Z",
     "updatedAt": "2026-11-06T13:33:12.682Z"
+  },
+  {
+    "id": "sneaker-on-cloudtilt-blanco-negro",
+    "name": "On Cloudtilt",
+    "brand": "On",
+    "model": "On Cloudtilt",
+    "sku": "PAPI-4242",
+    "category": "general",
+    "gender": "mujer",
+    "price": 189900,
+    "originalPrice": 229900,
+    "images": [
+      "/catalogo/sneakers/on/mujer/on-cloudtilt-blanco-negro.jpg"
+    ],
+    "sizes": [
+      36,
+      37,
+      38,
+      39
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "White / Black",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T16:29:57.174Z",
+    "updatedAt": "2026-11-06T16:29:57.174Z"
+  },
+  {
+    "id": "sneaker-on-cloudtilt-lima",
+    "name": "On Cloudtilt",
+    "brand": "On",
+    "model": "On Cloudtilt",
+    "sku": "PAPI-1855",
+    "category": "general",
+    "gender": "mujer",
+    "price": 189900,
+    "originalPrice": 229900,
+    "images": [
+      "/catalogo/sneakers/on/mujer/on-cloudtilt-lima.jpg"
+    ],
+    "sizes": [
+      36,
+      37,
+      38,
+      39
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Lime / White",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T16:29:57.174Z",
+    "updatedAt": "2026-11-06T16:29:57.174Z"
   },
   {
     "id": "sneaker-on-cloudtilt-negro-marfil",
@@ -35264,6 +36620,42 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "inquiriesCount": 0,
     "createdAt": "2026-11-06T14:19:39.279Z",
     "updatedAt": "2026-11-06T14:19:39.279Z"
+  },
+  {
+    "id": "sneaker-on-cloudtilt-oliva-desert",
+    "name": "On Cloudtilt",
+    "brand": "On",
+    "model": "On Cloudtilt",
+    "sku": "PAPI-3451",
+    "category": "general",
+    "gender": "mujer",
+    "price": 189900,
+    "originalPrice": 229900,
+    "images": [
+      "/catalogo/sneakers/on/mujer/on-cloudtilt-oliva-desert.jpg"
+    ],
+    "sizes": [
+      36,
+      37,
+      38,
+      39
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Olive / Desert",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T16:29:57.174Z",
+    "updatedAt": "2026-11-06T16:29:57.174Z"
   },
   {
     "id": "sneaker-on-running-negro-blanco",
@@ -35304,6 +36696,42 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "updatedAt": "2026-09-08T16:36:16.035Z"
   },
   {
+    "id": "sneaker-onitsuka-tiger-mexico-66-crema-cafe",
+    "name": "Onitsuka Tiger Mexico 66",
+    "brand": "Onitsuka Tiger",
+    "model": "Onitsuka Tiger Mexico 66",
+    "sku": "PAPI-1561",
+    "category": "general",
+    "gender": "mujer",
+    "price": 189900,
+    "originalPrice": 229900,
+    "images": [
+      "/catalogo/sneakers/onitsuka-tiger/mujer/onitsuka-tiger-mexico-66-crema-cafe.jpg"
+    ],
+    "sizes": [
+      36,
+      37,
+      38,
+      39
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Cream / Brown",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T16:29:57.174Z",
+    "updatedAt": "2026-11-06T16:29:57.174Z"
+  },
+  {
     "id": "sneaker-onitsuka-tiger-mexico-66-crema-navy",
     "name": "Onitsuka Tiger Mexico 66",
     "brand": "Onitsuka Tiger",
@@ -35340,6 +36768,42 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "updatedAt": "2026-11-06T14:19:39.279Z"
   },
   {
+    "id": "sneaker-onitsuka-tiger-mexico-66-crema-negro",
+    "name": "Onitsuka Tiger Mexico 66",
+    "brand": "Onitsuka Tiger",
+    "model": "Onitsuka Tiger Mexico 66",
+    "sku": "PAPI-4560",
+    "category": "general",
+    "gender": "mujer",
+    "price": 189900,
+    "originalPrice": 229900,
+    "images": [
+      "/catalogo/sneakers/onitsuka-tiger/mujer/onitsuka-tiger-mexico-66-crema-negro.jpg"
+    ],
+    "sizes": [
+      36,
+      37,
+      38,
+      39
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Cream / Black",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T16:29:57.174Z",
+    "updatedAt": "2026-11-06T16:29:57.174Z"
+  },
+  {
     "id": "sneaker-osiris-d3-negro-gris",
     "name": "Osiris D3",
     "brand": "Otras",
@@ -35350,7 +36814,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "price": 189900,
     "originalPrice": 229900,
     "images": [
-      "/catalogo/sneakers/otras/hombre/osiris-d3-negro-gris.jpg"
+      "/catalogo/sneakers/otras/hombre/osiris-d3-negro-gris.jpg",
+      "/catalogo/sneakers/otras/hombre/osiris-d3-negro-gris_2.jpg"
     ],
     "sizes": [
       40,
@@ -35412,6 +36877,43 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "inquiriesCount": 0,
     "createdAt": "2026-11-06T13:33:12.682Z",
     "updatedAt": "2026-11-06T13:33:12.682Z"
+  },
+  {
+    "id": "sneaker-osiris-d3-triple-negro",
+    "name": "Osiris D3",
+    "brand": "Otras",
+    "model": "Osiris D3",
+    "sku": "PAPI-1447",
+    "category": "general",
+    "gender": "hombre",
+    "price": 189900,
+    "originalPrice": 229900,
+    "images": [
+      "/catalogo/sneakers/otras/hombre/osiris-d3-triple-negro.jpg"
+    ],
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Triple Black",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T16:29:57.174Z",
+    "updatedAt": "2026-11-06T16:29:57.174Z"
   },
   {
     "id": "sneaker-osiris-d3-triple-blanco",
@@ -35865,6 +37367,42 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "updatedAt": "2026-09-14T16:54:20.918Z"
   },
   {
+    "id": "sneaker-puma-indoor-blanco-navy",
+    "name": "Puma Indoor",
+    "brand": "Puma",
+    "model": "Puma Indoor",
+    "sku": "PAPI-1655",
+    "category": "general",
+    "gender": "mujer",
+    "price": 179900,
+    "originalPrice": 209900,
+    "images": [
+      "/catalogo/sneakers/puma/mujer/puma-indoor-blanco-navy.jpg"
+    ],
+    "sizes": [
+      36,
+      37,
+      38,
+      39
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "White / Navy / Gum",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T16:29:57.174Z",
+    "updatedAt": "2026-11-06T16:29:57.174Z"
+  },
+  {
     "id": "sneaker-puma-morphic-gris-azul",
     "name": "Puma Morphic",
     "brand": "Puma",
@@ -36244,6 +37782,42 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "updatedAt": "2026-08-15T21:25:11.931Z"
   },
   {
+    "id": "sneaker-puma-palermo-blanco-gris",
+    "name": "Puma Palermo",
+    "brand": "Puma",
+    "model": "Puma Palermo",
+    "sku": "PAPI-4906",
+    "category": "general",
+    "gender": "mujer",
+    "price": 179900,
+    "originalPrice": 209900,
+    "images": [
+      "/catalogo/sneakers/puma/mujer/puma-palermo-blanco-gris.jpg"
+    ],
+    "sizes": [
+      36,
+      37,
+      38,
+      39
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "White / Grey",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T16:29:57.174Z",
+    "updatedAt": "2026-11-06T16:29:57.174Z"
+  },
+  {
     "id": "sneaker-puma-palermo-blanco-oro",
     "name": "Puma Palermo",
     "brand": "Puma",
@@ -36328,7 +37902,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "price": 179900,
     "originalPrice": 209900,
     "images": [
-      "/catalogo/sneakers/puma/mujer/puma-park-blanco-dorado.jpg"
+      "/catalogo/sneakers/puma/mujer/puma-park-blanco-dorado.jpg",
+      "/catalogo/sneakers/puma/mujer/puma-park-blanco-dorado_2.jpg"
     ],
     "sizes": [
       36,
@@ -36436,7 +38011,9 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "price": 179900,
     "originalPrice": 209900,
     "images": [
-      "/catalogo/sneakers/puma/mujer/puma-park-lifestyle-blanco-navy.jpg"
+      "/catalogo/sneakers/puma/mujer/puma-park-lifestyle-blanco-navy.jpg",
+      "/catalogo/sneakers/puma/mujer/puma-park-lifestyle-blanco-navy_2.jpg",
+      "/catalogo/sneakers/puma/mujer/puma-park-lifestyle-blanco-navy_3.jpg"
     ],
     "sizes": [
       36,
@@ -36472,7 +38049,9 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "price": 179900,
     "originalPrice": 209900,
     "images": [
-      "/catalogo/sneakers/puma/mujer/puma-park-lifestyle-blanco-verde.jpg"
+      "/catalogo/sneakers/puma/mujer/puma-park-lifestyle-blanco-verde.jpg",
+      "/catalogo/sneakers/puma/mujer/puma-park-lifestyle-blanco-verde_2.jpg",
+      "/catalogo/sneakers/puma/mujer/puma-park-lifestyle-blanco-verde_3.jpg"
     ],
     "sizes": [
       36,
@@ -36704,6 +38283,42 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "updatedAt": "2026-08-25T13:25:51.184Z"
   },
   {
+    "id": "sneaker-puma-scuderia-ferrari-negro-blanco",
+    "name": "Puma Scuderia Ferrari",
+    "brand": "Puma",
+    "model": "Puma Scuderia Ferrari",
+    "sku": "PAPI-8282",
+    "category": "general",
+    "gender": "mujer",
+    "price": 179900,
+    "originalPrice": 209900,
+    "images": [
+      "/catalogo/sneakers/puma/mujer/puma-scuderia-ferrari-negro-blanco.jpg"
+    ],
+    "sizes": [
+      36,
+      37,
+      38,
+      39
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Black / White",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T16:29:57.174Z",
+    "updatedAt": "2026-11-06T16:29:57.174Z"
+  },
+  {
     "id": "sneaker-puma-shuffle",
     "name": "Puma Shuffle",
     "brand": "Puma",
@@ -36909,6 +38524,117 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "updatedAt": "2026-08-14T15:26:27.178Z"
   },
   {
+    "id": "sneaker-puma-suede-xl-beige-navy",
+    "name": "Puma Suede XL",
+    "brand": "Puma",
+    "model": "Puma Suede XL",
+    "sku": "PAPI-5495",
+    "category": "general",
+    "gender": "hombre",
+    "price": 179900,
+    "originalPrice": 209900,
+    "images": [
+      "/catalogo/sneakers/puma/hombre/puma-suede-xl-beige-navy.jpg"
+    ],
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Beige / Navy",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T16:29:57.174Z",
+    "updatedAt": "2026-11-06T16:29:57.174Z"
+  },
+  {
+    "id": "sneaker-puma-suede-xl-triple-blanco",
+    "name": "Puma Suede XL",
+    "brand": "Puma",
+    "model": "Puma Suede XL",
+    "sku": "PAPI-3061",
+    "category": "general",
+    "gender": "hombre",
+    "price": 179900,
+    "originalPrice": 209900,
+    "images": [
+      "/catalogo/sneakers/puma/hombre/puma-suede-xl-triple-blanco.jpg"
+    ],
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Triple White",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T16:29:57.174Z",
+    "updatedAt": "2026-11-06T16:29:57.174Z"
+  },
+  {
+    "id": "sneaker-puma-suede-xl-negro-blanco",
+    "name": "Puma Suede XL",
+    "brand": "Puma",
+    "model": "Puma Suede XL",
+    "sku": "PAPI-5690",
+    "category": "general",
+    "gender": "mujer",
+    "price": 179900,
+    "originalPrice": 209900,
+    "images": [
+      "/catalogo/sneakers/puma/mujer/puma-suede-xl-negro-blanco.jpg",
+      "/catalogo/sneakers/puma/mujer/puma-suede-xl-negro-blanco_2.jpg"
+    ],
+    "sizes": [
+      36,
+      37,
+      38,
+      39
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Black / White",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T16:29:57.174Z",
+    "updatedAt": "2026-11-06T16:29:57.174Z"
+  },
+  {
     "id": "sneaker-puma-suede-xl-rojo",
     "name": "Puma Suede XL",
     "brand": "Puma",
@@ -36948,6 +38674,42 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "inquiriesCount": 0,
     "createdAt": "2026-09-17T16:52:34.435Z",
     "updatedAt": "2026-09-17T16:52:34.435Z"
+  },
+  {
+    "id": "sneaker-puma-suede-xl-bmw-blanco",
+    "name": "Puma Suede XL BMW M Motorsport",
+    "brand": "Puma",
+    "model": "Puma Suede XL BMW M Motorsport",
+    "sku": "PAPI-1514",
+    "category": "general",
+    "gender": "mujer",
+    "price": 179900,
+    "originalPrice": 209900,
+    "images": [
+      "/catalogo/sneakers/puma/mujer/puma-suede-xl-bmw-blanco.jpg"
+    ],
+    "sizes": [
+      36,
+      37,
+      38,
+      39
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "White",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T16:29:57.174Z",
+    "updatedAt": "2026-11-06T16:29:57.174Z"
   },
   {
     "id": "sneaker-puma-suede-xl-bmw-motorsport",
@@ -37167,6 +38929,43 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "inquiriesCount": 0,
     "createdAt": "2026-11-06T14:19:39.279Z",
     "updatedAt": "2026-11-06T14:19:39.279Z"
+  },
+  {
+    "id": "sneaker-reebok-club-c-85-blanco-verde",
+    "name": "Reebok Club C 85",
+    "brand": "Otras",
+    "model": "Reebok Club C 85",
+    "sku": "PAPI-6814",
+    "category": "general",
+    "gender": "hombre",
+    "price": 189900,
+    "originalPrice": 229900,
+    "images": [
+      "/catalogo/sneakers/otras/hombre/reebok-club-c-85-blanco-verde.jpg"
+    ],
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "White / Green",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T16:29:57.174Z",
+    "updatedAt": "2026-11-06T16:29:57.174Z"
   },
   {
     "id": "sneaker-reebok-x-anuel-aa-rojo",
@@ -37719,7 +39518,8 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "originalPrice": 239900,
     "images": [
       "/catalogo/sneakers/under-armour/hombre/under-armour-micro-g-valsetz-mid-negro.jpg",
-      "/catalogo/sneakers/under-armour/hombre/under-armour-micro-g-valsetz-mid-negro_2.jpg"
+      "/catalogo/sneakers/under-armour/hombre/under-armour-micro-g-valsetz-mid-negro_2.jpg",
+      "/catalogo/sneakers/under-armour/hombre/under-armour-micro-g-valsetz-mid-negro_3.jpg"
     ],
     "sizes": [
       40,
@@ -37781,6 +39581,42 @@ export const CATALOGO_GENERADO: Sneaker[] = [
     "inquiriesCount": 0,
     "createdAt": "2026-11-06T14:58:00.796Z",
     "updatedAt": "2026-11-06T14:58:00.796Z"
+  },
+  {
+    "id": "sneaker-under-armour-micro-g-valsetz-zip-negro",
+    "name": "Under Armour Micro G Valsetz Zip",
+    "brand": "Under Armour",
+    "model": "Under Armour Micro G Valsetz Zip",
+    "sku": "PAPI-1084",
+    "category": "general",
+    "gender": "mujer",
+    "price": 199900,
+    "originalPrice": 239900,
+    "images": [
+      "/catalogo/sneakers/under-armour/mujer/under-armour-micro-g-valsetz-zip-negro.jpg"
+    ],
+    "sizes": [
+      36,
+      37,
+      38,
+      39
+    ],
+    "status": "disponible",
+    "isFeatured": false,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Black",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-06T16:29:57.174Z",
+    "updatedAt": "2026-11-06T16:29:57.174Z"
   },
   {
     "id": "sneaker-vans-headlyne-gris",

@@ -3,5 +3,15 @@
     "name": "Onitsuka Tiger Mexico 66",
     "colorway": "Cream / Navy",
     "sizes": "36-39"
+  },
+  "onitsuka-tiger-mexico-66-crema-cafe": {
+    "name": "Onitsuka Tiger Mexico 66",
+    "colorway": "Cream / Brown",
+    "sizes": "36-39"
+  },
+  "onitsuka-tiger-mexico-66-crema-negro": {
+    "name": "Onitsuka Tiger Mexico 66",
+    "colorway": "Cream / Black",
+    "sizes": "36-39"
   }
 }

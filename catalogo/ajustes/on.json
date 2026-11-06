@@ -18,5 +18,30 @@
     "name": "On Cloudtilt",
     "colorway": "Black / Ivory",
     "sizes": "36-39"
+  },
+  "on-cloudtilt-blanco-negro": {
+    "name": "On Cloudtilt",
+    "colorway": "White / Black",
+    "sizes": "36-39"
+  },
+  "on-cloudrunner-2-gris-morado": {
+    "name": "On Cloudrunner 2",
+    "colorway": "Grey / Purple",
+    "sizes": "36-39"
+  },
+  "on-cloudtilt-oliva-desert": {
+    "name": "On Cloudtilt",
+    "colorway": "Olive / Desert",
+    "sizes": "36-39"
+  },
+  "on-cloudtilt-lima": {
+    "name": "On Cloudtilt",
+    "colorway": "Lime / White",
+    "sizes": "36-39"
+  },
+  "on-cloudrunner-2-undyed-verde": {
+    "name": "On Cloudrunner 2",
+    "colorway": "Undyed / Green",
+    "sizes": "36-39"
   }
 }

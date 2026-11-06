@@ -440,5 +440,40 @@
     "name": "Dior B22",
     "colorway": "Navy / Grey / White",
     "sizes": "40-44"
+  },
+  "alexander-mcqueen-oversized-negro": {
+    "name": "Alexander McQueen Oversized",
+    "colorway": "Black / White",
+    "sizes": "36-39"
+  },
+  "dolce-gabbana-negro-gris": {
+    "name": "Dolce & Gabbana Negro / Gris",
+    "colorway": "Black / Grey",
+    "sizes": "40-44"
+  },
+  "off-white-out-of-office-negro-blanco": {
+    "name": "Off-White Out of Office",
+    "colorway": "Black / White",
+    "sizes": "36-44"
+  },
+  "off-white-out-of-office-blanco-negro": {
+    "name": "Off-White Out of Office",
+    "colorway": "White / Black",
+    "sizes": "40-44"
+  },
+  "osiris-d3-triple-negro": {
+    "name": "Osiris D3",
+    "colorway": "Triple Black",
+    "sizes": "40-44"
+  },
+  "reebok-club-c-85-blanco-verde": {
+    "name": "Reebok Club C 85",
+    "colorway": "White / Green",
+    "sizes": "40-44"
+  },
+  "diesel-running-cafe-beige": {
+    "name": "Diesel Running Café / Beige",
+    "colorway": "Brown / Beige",
+    "sizes": "40-44"
   }
 }

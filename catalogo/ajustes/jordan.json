@@ -848,5 +848,15 @@
     "name": "Jordan 1 Low",
     "colorway": "Grey / Pink / Sail",
     "sizes": "36-39"
+  },
+  "jordan-3-retro-negro-floral": {
+    "name": "Jordan 3 Retro",
+    "colorway": "Black / Floral",
+    "sizes": "36-44"
+  },
+  "jordan-3-retro-blanco-pastel": {
+    "name": "Jordan 3 Retro",
+    "colorway": "White / Pastel",
+    "sizes": "36-39"
   }
 }
