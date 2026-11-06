@@ -748,5 +748,40 @@
     "name": "Adidas Adimule",
     "colorway": "Orange Suede",
     "sizes": "36-44"
+  },
+  "adidas-adimule-cafe": {
+    "name": "Adidas Adimule",
+    "colorway": "Brown Suede",
+    "sizes": "36-39"
+  },
+  "adidas-superstar-x-neighborhood-negro": {
+    "name": "Adidas Superstar x Neighborhood",
+    "colorway": "Core Black",
+    "sizes": "40-44"
+  },
+  "adidas-superstar-crema-rojo": {
+    "name": "Adidas Superstar",
+    "colorway": "Cream / Red",
+    "sizes": "36-39"
+  },
+  "adidas-superstar-crema-azul-naranja": {
+    "name": "Adidas Superstar",
+    "colorway": "Cream / Royal / Orange",
+    "sizes": "36-39"
+  },
+  "adidas-samba-crema-rojo-corazones": {
+    "name": "Adidas Samba",
+    "colorway": "Cream / Red Hearts / Gum",
+    "sizes": "36-39"
+  },
+  "adidas-samba-salvia-rosado": {
+    "name": "Adidas Samba",
+    "colorway": "Sage / Pink",
+    "sizes": "36-39"
+  },
+  "adidas-taekwondo-mary-jane-blanco-rosado": {
+    "name": "Adidas Taekwondo Mary Jane",
+    "colorway": "White / Pink / Gum",
+    "sizes": "36-39"
   }
 }
