@@ -5508,7 +5508,8 @@ const BLOQUE_1: Sneaker[] = [
       "/catalogo/sneakers/adidas/adidas-superstar-blanco-negro-unisex_5.jpg",
       "/catalogo/sneakers/adidas/adidas-superstar-blanco-negro-unisex_6.jpg",
       "/catalogo/sneakers/adidas/adidas-superstar-blanco-negro-unisex_7.jpg",
-      "/catalogo/sneakers/adidas/adidas-superstar-blanco-negro-unisex_8.jpg"
+      "/catalogo/sneakers/adidas/adidas-superstar-blanco-negro-unisex_8.jpg",
+      "/catalogo/sneakers/adidas/adidas-superstar-blanco-negro-unisex_9.jpg"
     ],
     "sizes": [
       36,
@@ -5952,43 +5953,6 @@ const BLOQUE_1: Sneaker[] = [
     "inquiriesCount": 0,
     "createdAt": "2026-11-06T15:49:41.529Z",
     "updatedAt": "2026-11-06T15:49:41.529Z"
-  },
-  {
-    "id": "sneaker-adidas-superstar-blanco-punta-negra",
-    "name": "Adidas Superstar",
-    "brand": "Adidas",
-    "model": "Adidas Superstar",
-    "sku": "PAPI-2207",
-    "category": "general",
-    "gender": "hombre",
-    "price": 179900,
-    "originalPrice": 209900,
-    "images": [
-      "/catalogo/sneakers/adidas/hombre/adidas-superstar-blanco-punta-negra.jpg"
-    ],
-    "sizes": [
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
-    "status": "disponible",
-    "isFeatured": false,
-    "isNewArrival": true,
-    "isOriginalCertified": false,
-    "description": "",
-    "details": {
-      "condition": "En caja",
-      "colorway": "White / Black",
-      "includedItems": [
-        "Caja"
-      ]
-    },
-    "viewsCount": 0,
-    "inquiriesCount": 0,
-    "createdAt": "2026-11-06T14:19:39.279Z",
-    "updatedAt": "2026-11-06T14:19:39.279Z"
   },
   {
     "id": "sneaker-adidas-superstar-blanco-verde",
@@ -11606,10 +11570,7 @@ const BLOQUE_1: Sneaker[] = [
     "inquiriesCount": 0,
     "createdAt": "2026-08-25T13:34:51.420Z",
     "updatedAt": "2026-08-25T13:34:51.420Z"
-  }
-];
-
-const BLOQUE_2: Sneaker[] = [
+  },
   {
     "id": "sneaker-jordan-5-retro-metallic-black",
     "name": "Air Jordan 5 Retro Metallic Black",
@@ -11647,7 +11608,10 @@ const BLOQUE_2: Sneaker[] = [
     "inquiriesCount": 0,
     "createdAt": "2026-08-25T13:34:51.420Z",
     "updatedAt": "2026-08-25T13:34:51.420Z"
-  },
+  }
+];
+
+const BLOQUE_2: Sneaker[] = [
   {
     "id": "sneaker-jordan-5-retro-oreo",
     "name": "Air Jordan 5 Retro Oreo",
@@ -23126,10 +23090,7 @@ const BLOQUE_2: Sneaker[] = [
     "inquiriesCount": 0,
     "createdAt": "2026-08-13T19:13:00.000Z",
     "updatedAt": "2026-08-13T19:13:00.000Z"
-  }
-];
-
-const BLOQUE_3: Sneaker[] = [
+  },
   {
     "id": "sneaker-louis-vuitton-skate-cuero-azul-royal",
     "name": "Louis Vuitton Skate Cuero",
@@ -23167,7 +23128,10 @@ const BLOQUE_3: Sneaker[] = [
     "inquiriesCount": 0,
     "createdAt": "2026-09-14T19:25:44.633Z",
     "updatedAt": "2026-09-14T19:25:44.633Z"
-  },
+  }
+];
+
+const BLOQUE_3: Sneaker[] = [
   {
     "id": "sneaker-louis-vuitton-skate-cuero-blanco-gris",
     "name": "Louis Vuitton Skate Cuero",
@@ -34671,10 +34635,7 @@ const BLOQUE_3: Sneaker[] = [
     "inquiriesCount": 0,
     "createdAt": "2026-11-06T19:45:10.477Z",
     "updatedAt": "2026-11-06T19:45:10.477Z"
-  }
-];
-
-const BLOQUE_4: Sneaker[] = [
+  },
   {
     "id": "sneaker-nike-ava-rover-negro-muselina",
     "name": "Nike Ava Rover",
@@ -34711,7 +34672,10 @@ const BLOQUE_4: Sneaker[] = [
     "inquiriesCount": 0,
     "createdAt": "2026-11-06T19:45:10.477Z",
     "updatedAt": "2026-11-06T19:45:10.477Z"
-  },
+  }
+];
+
+const BLOQUE_4: Sneaker[] = [
   {
     "id": "sneaker-nike-ava-rover-sail-terracota",
     "name": "Nike Ava Rover",
@@ -41031,47 +40995,6 @@ const BLOQUE_4: Sneaker[] = [
     "updatedAt": "2026-08-26T15:18:01.924Z"
   },
   {
-    "id": "sneaker-nike-sb-dunk-low-blanco-negro-gum",
-    "name": "Nike SB Dunk Low",
-    "brand": "Nike",
-    "model": "Nike SB Dunk Low",
-    "sku": "PAPI-1296",
-    "category": "general",
-    "gender": "unisex",
-    "price": 179900,
-    "originalPrice": 209900,
-    "images": [
-      "/catalogo/sneakers/nike/nike-sb-dunk-low-blanco-negro-gum.jpg"
-    ],
-    "sizes": [
-      36,
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
-    "status": "disponible",
-    "isFeatured": false,
-    "isNewArrival": true,
-    "isOriginalCertified": false,
-    "description": "",
-    "details": {
-      "condition": "En caja",
-      "colorway": "White / Black / Gum",
-      "includedItems": [
-        "Caja"
-      ]
-    },
-    "viewsCount": 0,
-    "inquiriesCount": 0,
-    "createdAt": "2026-11-06T13:33:12.682Z",
-    "updatedAt": "2026-11-06T13:33:12.682Z"
-  },
-  {
     "id": "sneaker-nike-sb-dunk-low-charol-negro",
     "name": "Nike SB Dunk Low",
     "brand": "Nike",
@@ -41150,48 +41073,6 @@ const BLOQUE_4: Sneaker[] = [
     "inquiriesCount": 0,
     "createdAt": "2026-08-26T15:18:01.924Z",
     "updatedAt": "2026-08-26T15:18:01.924Z"
-  },
-  {
-    "id": "sneaker-nike-sb-dunk-low-negro-blanco-gum",
-    "name": "Nike SB Dunk Low",
-    "brand": "Nike",
-    "model": "Nike SB Dunk Low",
-    "sku": "PAPI-1190",
-    "category": "general",
-    "gender": "unisex",
-    "price": 179900,
-    "originalPrice": 209900,
-    "images": [
-      "/catalogo/sneakers/nike/nike-sb-dunk-low-negro-blanco-gum.jpg",
-      "/catalogo/sneakers/nike/nike-sb-dunk-low-negro-blanco-gum_2.jpg"
-    ],
-    "sizes": [
-      36,
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
-    "status": "disponible",
-    "isFeatured": false,
-    "isNewArrival": true,
-    "isOriginalCertified": false,
-    "description": "",
-    "details": {
-      "condition": "En caja",
-      "colorway": "Black / White / Gum",
-      "includedItems": [
-        "Caja"
-      ]
-    },
-    "viewsCount": 0,
-    "inquiriesCount": 0,
-    "createdAt": "2026-11-06T13:33:12.682Z",
-    "updatedAt": "2026-11-06T13:33:12.682Z"
   },
   {
     "id": "sneaker-nike-sb-dunk-low-talon-morado",
@@ -46110,10 +45991,7 @@ const BLOQUE_4: Sneaker[] = [
     "inquiriesCount": 0,
     "createdAt": "2026-09-14T16:54:20.918Z",
     "updatedAt": "2026-09-14T16:54:20.918Z"
-  }
-];
-
-const BLOQUE_5: Sneaker[] = [
+  },
   {
     "id": "sneaker-puma-indoor-blanco-gris",
     "name": "Puma Indoor",
@@ -46223,7 +46101,10 @@ const BLOQUE_5: Sneaker[] = [
     "inquiriesCount": 0,
     "createdAt": "2026-11-06T16:29:57.174Z",
     "updatedAt": "2026-11-06T16:29:57.174Z"
-  },
+  }
+];
+
+const BLOQUE_5: Sneaker[] = [
   {
     "id": "sneaker-puma-morphic-gris-azul",
     "name": "Puma Morphic",
