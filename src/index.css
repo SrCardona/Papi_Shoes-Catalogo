@@ -41,6 +41,15 @@
   --radius-tarjeta: 1.875rem;
   --radius-sala: 2rem;
 
+  /* Navidad (temporada, ver `lib/temporada.ts`). La única excepción al acento
+     único: solo la usa la decoración navideña y se apaga con ella. Rellenos y
+     dibujos, nunca texto: el rojo sobre el negro no da contraste de lectura. */
+  --color-navidad-rojo: #c8102e;
+  /* El mismo rojo, más claro, para un ícono fino sobre fondo oscuro. */
+  --color-navidad-claro: #ff6b7d;
+  --color-navidad-oro: #ffd166;
+  --color-navidad-verde: #2bab69;
+
   /* Tipografía */
   --font-display: 'Anton', 'Impact', sans-serif;
   --font-body: 'Montserrat', system-ui, sans-serif;
@@ -383,6 +392,157 @@
   .animate-drop {
     animation: drop 140ms cubic-bezier(0.16, 1, 0.3, 1) both;
   }
+}
+
+/* ── Cinta del anuncio ─────────────────────────────────────────
+   El texto va dos veces seguido y la fila corre la mitad de su ancho: al
+   terminar la vuelta, la segunda copia queda justo donde empezó la primera y
+   el salto no se ve. Se detiene con el puntero o el foco encima, para poder
+   leerla. Con movimiento reducido no se monta (ver `Navbar`). */
+.cinta {
+  display: flex;
+  width: max-content;
+  animation: cinta 38s linear infinite;
+}
+.cinta-marco:hover .cinta,
+.cinta-marco:focus-within .cinta {
+  animation-play-state: paused;
+}
+@keyframes cinta {
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+/* ═══ NAVIDAD ═════════════════════════════════════════════════
+   Todo lo de aquí abajo es decoración de temporada: lo monta `NAVIDAD`
+   (`lib/temporada.ts`) y desaparece solo el 4 de enero. Los colores rojo,
+   oro y verde son la excepción pactada al acento único, y los brillos de los
+   bombillos, la única sombra difusa fuera de la de piso. */
+
+/* Nieve: puntos que bajan con `transform`, sin tocar el diseño de la página. */
+.nieve {
+  position: fixed;
+  inset: 0;
+  z-index: 30;
+  overflow: hidden;
+  pointer-events: none;
+}
+.nieve i {
+  position: absolute;
+  top: -10px;
+  border-radius: 9999px;
+  background: #fff;
+  animation-name: caer;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  will-change: transform;
+}
+@keyframes caer {
+  to {
+    transform: translate3d(var(--deriva), 110vh, 0);
+  }
+}
+
+/* Guirnalda: cuelga del borde de abajo de la barra y la sigue al bajar. */
+.luces {
+  position: absolute;
+  inset-inline: 0;
+  top: 100%;
+  height: 16px;
+  display: flex;
+  justify-content: space-around;
+  overflow: hidden;
+  pointer-events: none;
+}
+.luces::before {
+  content: '';
+  position: absolute;
+  inset-inline: 0;
+  top: -6px;
+  height: 12px;
+  border-bottom: 1px solid rgb(255 255 255 / 0.22);
+  border-radius: 0 0 50% 50% / 0 0 100% 100%;
+}
+.luces b {
+  width: 7px;
+  height: 10px;
+  margin-top: 3px;
+  border-radius: 9999px;
+  animation: titilar 1.6s ease-in-out infinite alternate;
+}
+.luces b:nth-child(4n + 1) {
+  background: var(--color-navidad-rojo);
+  box-shadow: 0 0 8px var(--color-navidad-rojo);
+}
+.luces b:nth-child(4n + 2) {
+  background: var(--color-navidad-oro);
+  box-shadow: 0 0 8px var(--color-navidad-oro);
+  animation-delay: 0.4s;
+}
+.luces b:nth-child(4n + 3) {
+  background: var(--color-navidad-verde);
+  box-shadow: 0 0 8px var(--color-navidad-verde);
+  animation-delay: 0.8s;
+}
+.luces b:nth-child(4n) {
+  background: var(--color-lapis-texto);
+  box-shadow: 0 0 8px var(--color-lapis-texto);
+  animation-delay: 1.2s;
+}
+@media (max-width: 639px) {
+  .luces b:nth-child(n + 25) {
+    display: none;
+  }
+}
+@keyframes titilar {
+  from {
+    opacity: 0.35;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Árbol del hero: los bombillos titilan desfasados y la estrella late. */
+.arbol .bombillo {
+  animation: titilar 1.4s ease-in-out infinite alternate;
+}
+.arbol .bombillo:nth-of-type(2n) {
+  animation-delay: 0.7s;
+}
+.arbol .estrella {
+  transform-box: view-box;
+  transform-origin: 100px 20px;
+  animation: estrella 3s ease-in-out infinite;
+}
+@keyframes estrella {
+  50% {
+    transform: scale(1.15);
+    filter: drop-shadow(0 0 8px var(--color-navidad-oro));
+  }
+}
+
+/* Nieve colgando del borde de arriba de cada tarjeta de par. Va dentro de la
+   tarjeta y no asomando por encima: `content-visibility: auto` recorta lo que
+   se sale de ella. Cabe en los 10 px de aire sobre la foto, sin tocarla.
+
+   Es un solo dibujo estirado al ancho de la tarjeta, no un motivo repetido:
+   con ondas iguales en fila se leía como el borde de un sello. Así el canto
+   de abajo es irregular, los extremos se adelgazan contra las esquinas y el
+   degradado frío más los granos le dan cuerpo de nieve en vez de pintura. */
+.navidad .column-card::before {
+  content: '';
+  position: absolute;
+  /* Hasta donde empieza el tramo recto del borde: más afuera, los extremos
+     quedaban flotando sobre el redondeo de 30 px de la esquina. */
+  inset-inline: 24px;
+  top: 0;
+  height: 10px;
+  z-index: 3;
+  pointer-events: none;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 12' preserveAspectRatio='none'%3E%3Cdefs%3E%3ClinearGradient id='n' x1='0' y1='0' x2='0' y2='1'%3E%3Cstop offset='0' stop-color='%23ffffff'/%3E%3Cstop offset='.55' stop-color='%23f4f6fa'/%3E%3Cstop offset='1' stop-color='%23cfd8e6'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cpath fill='url(%23n)' d='M0 0H300C298 2 296 3 292 3.5C288 4 286 7 281 7C276 7 275 4.5 270 4.5C264 4.5 263 8.5 256 9C249 9.5 248 5 242 5C237 5 236 6.5 231 6.5C225 6.5 224 10.5 217 10.5C210 10.5 210 6 204 6C199 6 197 4 192 4C186 4 186 8 179 8.5C172 9 171 5.5 165 5.5C160 5.5 158 7.5 153 7.5C147 7.5 147 4 141 4C135 4 134 9.5 127 10C120 10.5 119 6 113 6C108 6 107 4.5 102 4.5C96 4.5 95 8 88 8C81 8 81 5 75 5C70 5 68 10 61 10C54 10 54 6 48 6C43 6 42 4 37 4C31 4 30 7.5 24 7.5C18 7.5 17 4 12 3.5C7 3 4 2 0 0Z'/%3E%3Cg fill='%23b9c5d8' opacity='.55'%3E%3Ccircle cx='23' cy='5.5' r='.7'/%3E%3Ccircle cx='58' cy='7.5' r='.8'/%3E%3Ccircle cx='97' cy='5.5' r='.6'/%3E%3Ccircle cx='126' cy='7.5' r='.8'/%3E%3Ccircle cx='178' cy='6.5' r='.7'/%3E%3Ccircle cx='215' cy='8' r='.8'/%3E%3Ccircle cx='255' cy='7' r='.7'/%3E%3Ccircle cx='280' cy='5' r='.6'/%3E%3C/g%3E%3Cg fill='%23ffffff'%3E%3Ccircle cx='44' cy='2' r='.9'/%3E%3Ccircle cx='110' cy='2.5' r='.8'/%3E%3Ccircle cx='160' cy='2' r='1'/%3E%3Ccircle cx='238' cy='2.5' r='.8'/%3E%3C/g%3E%3C/svg%3E")
+    0 0 / 100% 100% no-repeat;
 }
 
 /* Barras de scroll: finas, plata sobre obsidiana */

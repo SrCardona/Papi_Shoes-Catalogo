@@ -4,6 +4,9 @@ import { Navbar } from './Navbar';
 import { Footer } from './Footer';
 import { FloatingWhatsApp } from '../ui/FloatingWhatsApp';
 import { useStore } from '../../context/StoreContext';
+import { Nieve } from '../navidad/Nieve';
+import { NAVIDAD } from '../../lib/temporada';
+import { cx } from '../../lib/utils';
 
 /**
  * Devuelve el scroll al inicio en cada cambio de vista.
@@ -58,11 +61,17 @@ function DocumentTitle() {
 }
 
 export function Layout() {
+  /* El panel es la herramienta de la tienda, no la vitrina: sin nieve ni
+     guirnalda encima de los formularios. */
+  const { pathname } = useLocation();
+  const decorada = NAVIDAD && !pathname.startsWith('/admin');
+
   return (
-    <div className="min-h-screen flex flex-col">
+    <div className={cx('min-h-screen flex flex-col', decorada && 'navidad')}>
       <ScrollToTop />
       <DocumentTitle />
-      <Navbar />
+      {decorada && <Nieve />}
+      <Navbar navidad={decorada} />
       <main className="flex-1">
         <Outlet />
       </main>

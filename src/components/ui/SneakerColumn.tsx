@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
-import { MessageCircle } from 'lucide-react';
+import { Gift, MessageCircle } from 'lucide-react';
 import type { Sneaker } from '../../types';
+import { NAVIDAD } from '../../lib/temporada';
 import { useStore } from '../../context/StoreContext';
 import { SmartImage } from './SmartImage';
 import { NO_ES_MARCA } from '../../lib/marcas';
@@ -28,6 +29,11 @@ const TAMANOS_FOTO = '(max-width: 640px) 50vw, (max-width: 1280px) 33vw, 25vw';
    dice nada: "Nuevo" en las 616 tarjetas es ruido. Lo que separa un par recién
    llegado es la fecha de `catalogo/llegadas.json`, que viaja en `createdAt`. */
 const DIAS_DE_NUEVO = 21;
+
+/* "Regalo ideal" en Navidad. Todo el catálogo tiene precio anterior, así que
+   "con descuento" son todos: casi todos rebajan 14 % y uno de cada cuatro,
+   17 % o más. Ese cuarto es el que lleva la insignia. */
+const DESCUENTO_DE_REGALO = 17;
 const MS_POR_DIA = 86_400_000;
 
 function esNuevo(s: Sneaker): boolean {
@@ -127,6 +133,26 @@ export function SneakerColumn({
             sizes={TAMANOS_FOTO}
             className="relative w-full h-full object-contain motion-safe:transition-transform motion-safe:duration-500 motion-safe:ease-out motion-safe:group-hover:scale-[1.04]"
           />
+
+          {/* Única excepción a "nada sobre la foto", y solo en Navidad: el
+              dueño la quiso sobre la foto pero discreta. Por eso es oscura y
+              pequeña, en la esquina de arriba —donde las fotos de proveedor
+              casi siempre tienen fondo y no el tenis—, y en el celular queda
+              solo el ícono. Fuera del nombre del enlace (`aria-hidden`): el
+              lector de pantalla ya oye el par y su precio. Solo en los de
+              mayor descuento: puesta en todos dejaba de señalar nada, y un
+              regalo con rebaja es el argumento que vale en diciembre. */}
+          {NAVIDAD && !isSoldOut && (discount ?? 0) >= DESCUENTO_DE_REGALO && (
+            <span
+              aria-hidden
+              className="absolute top-2 left-2 z-[2] flex items-center gap-1.5 rounded-full bg-obsidian/75 backdrop-blur-sm p-1.5 sm:px-2.5 sm:py-1"
+            >
+              <Gift className="w-3.5 h-3.5 shrink-0 text-navidad-claro" />
+              <span className="hidden sm:inline text-rotulo font-semibold uppercase tracking-[0.08em] text-marble">
+                Regalo ideal
+              </span>
+            </span>
+          )}
         </div>
 
         <div className="flex flex-1 flex-col gap-1.5 px-1.5 sm:px-2.5 pt-3.5 sm:pt-4">
