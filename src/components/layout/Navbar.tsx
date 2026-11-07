@@ -1,9 +1,12 @@
-import { useEffect, useState } from 'react';
+import { Fragment, useEffect, useState, type ReactNode } from 'react';
 import { Link, NavLink, useLocation, useNavigate } from 'react-router-dom';
-import { Instagram, Menu, MessageCircle, Search, X } from 'lucide-react';
+import { Gift, Instagram, Menu, MessageCircle, Search, X } from 'lucide-react';
 import { useStore } from '../../context/StoreContext';
 import { useMarcasAgrupadas } from '../../hooks/useMarcasPorLinea';
+import { useMovimientoReducido } from '../../hooks/useMovimientoReducido';
 import { TempleMark } from '../ui/TempleMark';
+import { Gorro } from '../navidad/Gorro';
+import { Luces } from '../navidad/Luces';
 import { BrandAccordion, BrandDropdown } from './BrandDropdown';
 import { cx, generateDirectWhatsAppContact, instagramUrl } from '../../lib/utils';
 
@@ -25,11 +28,26 @@ const NAV_LINKS = [
   { to: '/preguntas', label: 'Preguntas' },
 ];
 
-export function Navbar() {
+const FELIZ_NAVIDAD = 'Feliz Navidad desde el templo';
+
+/** Una frase de la cinta, con el punto que la separa de la siguiente. */
+function TramoCinta({ children }: { children: ReactNode }) {
+  return (
+    <span className="flex items-center gap-2 pl-10 whitespace-nowrap text-rotulo font-semibold uppercase tracking-[0.24em]">
+      {children}
+      <span aria-hidden className="pl-8 text-marble/60">
+        ·
+      </span>
+    </span>
+  );
+}
+
+export function Navbar({ navidad = false }: { navidad?: boolean }) {
   const { settings, sneakers } = useStore();
   const marcas = useMarcasAgrupadas();
   const location = useLocation();
   const navigate = useNavigate();
+  const reducido = useMovimientoReducido();
 
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [menuOpenedAt, setMenuOpenedAt] = useState(location.pathname);
@@ -37,7 +55,11 @@ export function Navbar() {
   const [query, setQuery] = useState('');
 
   const igUrl = instagramUrl(settings.instagramHandle);
-  const anuncioCorto = settings.announcement.split('·')[0].trim();
+  const tramos = settings.announcement
+    .split('·')
+    .map((t) => t.trim())
+    .filter(Boolean);
+  const anuncioCorto = tramos[0] ?? '';
 
   // El menú móvil se cierra al cambiar de ruta. Ajustar el estado durante el
   // render (en vez de en un efecto) evita el parpadeo de un render intermedio
@@ -73,17 +95,54 @@ export function Navbar() {
 
   return (
     <>
-      {/* Una franja quieta, sin cinta en movimiento. En el celular va solo el
-          primer tramo del anuncio (hasta el primer "·"): tres frases partidas
-          en tres renglones empujan el catálogo fuera de la primera pantalla. */}
+      {/* El anuncio corre como cinta, una sola franja de un solo renglón: así
+          caben todas las frases también en el celular, sin partirse en tres
+          renglones que empujaban el catálogo fuera de la primera pantalla.
+          Con movimiento reducido vuelve a ser la franja quieta de antes, que
+          en el celular muestra solo el primer tramo (hasta el primer "·"). */}
       {settings.showAnnouncement && anuncioCorto && (
         <div className="bg-lapis text-marble overflow-hidden">
-          <p className="sm:hidden py-2.5 px-4 text-center text-rotulo font-semibold uppercase tracking-[0.16em] truncate">
-            {anuncioCorto}
-          </p>
-          <p className="hidden sm:block py-2.5 px-4 text-center text-rotulo font-semibold uppercase tracking-[0.24em] truncate">
-            {settings.announcement}
-          </p>
+          {reducido ? (
+            <>
+              <p className="sm:hidden py-2.5 px-4 text-center text-rotulo font-semibold uppercase tracking-[0.16em] truncate">
+                {navidad ? FELIZ_NAVIDAD : anuncioCorto}
+              </p>
+              <p className="hidden sm:block py-2.5 px-4 text-center text-rotulo font-semibold uppercase tracking-[0.24em] truncate">
+                {navidad ? `${FELIZ_NAVIDAD} · ${settings.announcement}` : settings.announcement}
+              </p>
+            </>
+          ) : (
+            <div className="cinta-marco py-2.5">
+              {/* Lo que oye un lector de pantalla: el anuncio una vez, entero.
+                  La cinta repite cada frase y se le esconde. */}
+              <p className="sr-only">
+                {navidad ? `${FELIZ_NAVIDAD}. ` : ''}
+                {tramos.join('. ')}
+              </p>
+              <div aria-hidden className="cinta">
+                {[0, 1].map((copia) => (
+                  <div key={copia} className="flex shrink-0 items-center">
+                    {/* Cada copia lleva las frases dos veces: con un anuncio
+                        corto, una sola vuelta no llenaba una pantalla de
+                        1920 px y la cinta mostraba un hueco antes de repetir. */}
+                    {[0, 1].map((vuelta) => (
+                      <Fragment key={vuelta}>
+                        {navidad && (
+                          <TramoCinta>
+                            <Gift className="w-3.5 h-3.5 shrink-0" />
+                            {FELIZ_NAVIDAD}
+                          </TramoCinta>
+                        )}
+                        {tramos.map((tramo, i) => (
+                          <TramoCinta key={i}>{tramo}</TramoCinta>
+                        ))}
+                      </Fragment>
+                    ))}
+                  </div>
+                ))}
+              </div>
+            </div>
+          )}
         </div>
       )}
 
@@ -101,7 +160,10 @@ export function Navbar() {
               className="flex items-center gap-3 shrink-0 group"
               aria-label={`${settings.storeName} — inicio`}
             >
-              <TempleMark className="w-[34px] h-[34px] transition-transform duration-500 group-hover:-translate-y-0.5" />
+              <span className="relative shrink-0 transition-transform duration-500 group-hover:-translate-y-0.5">
+                <TempleMark className="w-[34px] h-[34px]" />
+                {navidad && <Gorro className="w-[26px] -top-[9px] left-[13px] rotate-[14deg]" />}
+              </span>
               {/* El nombre también en móvil: es la identidad de la tienda y
                   antes desaparecía justo donde más gente entra. La bajada sí
                   espera a sm, que es donde hay ancho para leerla, y se retira
@@ -197,6 +259,7 @@ export function Navbar() {
             </div>
           </div>
         </div>
+        {navidad && <Luces />}
       </header>
 
       {/* Menú móvil a pantalla completa */}

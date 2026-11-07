@@ -543,10 +543,23 @@ repetidas ya existen como clases en `@layer components`: `.btn` (píldora de
 mármol), `.btn-ghost` (la misma, hueca), `.chip` / `.chip-on` y `.campo`
 (buscadores). El panel no entra en esta regla.
 
-Nada se mueve solo en la barra: una sola franja de anuncio, quieta, sin cinta
-en movimiento. En el celular muestra solo el primer tramo de
-`settings.announcement`, hasta el primer "·"; por eso la frase más importante
-va primero.
+La franja de anuncio corre como cinta (`.cinta` en `index.css`): un solo
+renglón con las frases de `settings.announcement` separadas por "·", que se
+detiene con el puntero o el foco encima. Con movimiento reducido vuelve a ser
+la franja quieta, que en el celular muestra solo el primer tramo, hasta el
+primer "·"; por eso la frase más importante va primero. Es la única cinta en
+movimiento del sitio.
+
+**Navidad (temporada).** `lib/temporada.ts` la prende del 1 de noviembre al 3
+de enero, en hora de Colombia, y se apaga sola: nieve, guirnalda bajo la
+barra, gorro en el emblema, píldora y árboles en el hero, moño en las dos
+líneas, nieve en el borde de cada tarjeta, la frase "Feliz Navidad" en la
+cinta y la insignia "Regalo ideal" sobre la foto. Todo vive en
+`components/navidad/` y en el bloque NAVIDAD de `index.css`, y mientras dura
+es la excepción pactada a tres reglas de abajo: el rojo, oro y verde
+(`navidad-*`, solo rellenos, nunca texto), el brillo de los bombillos y la
+insignia sobre la foto (oscura, pequeña, solo ícono en el celular). El panel
+no lleva decoración. `?navidad=si` / `?navidad=no` la fuerzan para revisar.
 
 **Un solo acento: el lapislázuli.** Nada de verdes, ámbares ni otros azules en
 el sitio público. `lapis` va en rellenos (la barra de anuncio, el descuento

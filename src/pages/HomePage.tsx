@@ -1,6 +1,10 @@
-import { useMemo } from 'react';
+import { useMemo, useState } from 'react';
 import { Link } from 'react-router-dom';
-import { ArrowRight, MessageCircle } from 'lucide-react';
+import { ArrowRight, MessageCircle, Snowflake } from 'lucide-react';
+import { NAVIDAD } from '../lib/temporada';
+import { Arbol } from '../components/navidad/Arbol';
+import { Gorro } from '../components/navidad/Gorro';
+import { Mono } from '../components/navidad/Mono';
 import type { Sneaker } from '../types';
 import { useStore } from '../context/StoreContext';
 import { useMarcasAgrupadas, useMarcasPorLinea } from '../hooks/useMarcasPorLinea';
@@ -12,11 +16,13 @@ import { SectionHeader } from '../components/ui/SectionHeader';
 import { HeroRotativo } from '../components/ui/HeroRotativo';
 import { DeliveryWall } from '../components/ui/DeliveryWall';
 import { AnnouncementPopup } from '../components/ui/AnnouncementPopup';
-import { generateDirectWhatsAppContact } from '../lib/utils';
+import { cx, generateDirectWhatsAppContact } from '../lib/utils';
 import { SIN_FLOTANTE } from '../hooks/useFranjaDelFlotante';
 
 /** Los pares que caben en la columnata del altar sin abrir una segunda fila. */
 const ALTAR_SIZE = 8;
+/** Cuántas marcas ofrece el altar como atajo. */
+const CHIPS_ALTAR = 9;
 
 export function HomePage() {
   const { sneakers, settings, deliveries } = useStore();
@@ -30,13 +36,25 @@ export function HomePage() {
      Con tope de tres por marca, porque un lote entero llega con la misma
      fecha y sin el tope el altar queda con ocho pares de la misma casa. Si
      aun así faltan puestos, se completan con los siguientes más recientes. */
+  const [marcaAltar, setMarcaAltar] = useState<string | null>(null);
+
+  const recientes = useMemo(
+    () =>
+      [...sneakers]
+        .filter((s) => s.status !== 'agotado')
+        .sort(
+          (a, b) =>
+            new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime(),
+        ),
+    [sneakers],
+  );
+
   const featured = useMemo(() => {
-    const recientes = [...sneakers]
-      .filter((s) => s.status !== 'agotado')
-      .sort(
-        (a, b) =>
-          new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime(),
-      );
+    /* Con una marca escogida en los chips, el altar son sus ocho más
+       recientes, sin tope: el tope por marca existe para variar la mezcla. */
+    if (marcaAltar) {
+      return recientes.filter((s) => s.brand === marcaAltar).slice(0, ALTAR_SIZE);
+    }
 
     const altar: Sneaker[] = [];
     const porMarca = new Map<string, number>();
@@ -55,7 +73,7 @@ export function HomePage() {
     }
 
     return altar;
-  }, [sneakers]);
+  }, [recientes, marcaAltar]);
 
   /* Muro de marcas: se arma con las marcas que de verdad hay en el catálogo,
      para que cada una lleve a su sección y no a un filtro vacío.
@@ -86,6 +104,21 @@ export function HomePage() {
     return lista.sort((a, b) => a.brand.localeCompare(b.brand, 'es'));
   }, [sneakers, marcas, agrupadas]);
 
+  /* Los chips del altar: las mismas marcas del muro —las que tienen apartado
+     propio, con su enlace a la línea correcta—, ordenadas por cuántos pares
+     disponibles tienen. Así "Ver más" cae en una sección que existe. */
+  const marcasAltar = useMemo(() => {
+    const disponibles = new Map<string, number>();
+    for (const s of recientes) disponibles.set(s.brand, (disponibles.get(s.brand) ?? 0) + 1);
+    return brands
+      .filter((b) => (disponibles.get(b.brand) ?? 0) > 0)
+      .sort((a, b) => (disponibles.get(b.brand) ?? 0) - (disponibles.get(a.brand) ?? 0))
+      /* Las nueve con más surtido: con las catorce, en escritorio la fila se
+         partía en dos renglones. Las demás siguen en el muro de marcas. */
+      .slice(0, CHIPS_ALTAR);
+  }, [brands, recientes]);
+  const enlaceMarcaAltar = marcasAltar.find((b) => b.brand === marcaAltar)?.to;
+
   const counts = useMemo(
     () => ({
       originales: sneakers.filter((s) => s.category === 'originales').length,
@@ -115,9 +148,31 @@ export function HomePage() {
           ))}
         </div>
 
+        {/* Dos árboles al pie de la fachada, por detrás del texto. Desde `md`:
+            en un teléfono no hay costado libre y quedaban encima de los botones
+            y de los contadores. */}
+        {NAVIDAD && (
+          <>
+            <Arbol className="hidden md:block absolute bottom-10 left-[3%] w-[clamp(110px,12vw,180px)]" />
+            <Arbol className="hidden md:block absolute bottom-10 right-[3%] w-[clamp(140px,17vw,250px)]" />
+          </>
+        )}
+
         <div className="relative max-w-[1400px] mx-auto px-5 lg:px-8 pt-11 pb-14 sm:pb-[72px]">
           <div className="flex flex-col items-center text-center">
-            <TempleMark className="w-[76px] h-[60px] animate-rise" title={settings.storeName} />
+            {NAVIDAD && (
+              /* En el celular con el tracking cerrado y en un renglón: a 0,24em
+                 la frase se partía en dos dentro de la píldora. */
+              <p className="mb-4 inline-flex items-center gap-2 sm:gap-2.5 px-3.5 sm:px-4 py-2 rounded-full border border-white/14 bg-navidad-rojo/15 whitespace-nowrap text-rotulo font-bold uppercase tracking-[0.1em] sm:tracking-[0.3em] text-marble animate-rise">
+                <Snowflake aria-hidden className="w-3.5 h-3.5 shrink-0 text-silver" />
+                Los tenis para tu Navidad
+                <Snowflake aria-hidden className="w-3.5 h-3.5 shrink-0 text-silver" />
+              </p>
+            )}
+            <div className="relative animate-rise">
+              <TempleMark className="w-[76px] h-[60px]" title={settings.storeName} />
+              {NAVIDAD && <Gorro className="w-[56px] -top-[22px] left-[30px] rotate-[14deg]" />}
+            </div>
 
             {/* Inscripción, no encabezado: el nombre ya va dentro del h1 de
                 abajo, para que un lector de pantalla no lo oiga dos veces.
@@ -267,6 +322,7 @@ export function HomePage() {
               className="group relative flex flex-col min-h-[400px] sm:min-h-[440px] overflow-hidden rounded-sala border border-white/8 p-7 sm:p-10"
               style={{ background: room.fondo }}
             >
+              {NAVIDAD && <Mono className="w-[118px] sm:w-[150px]" />}
               <span
                 className={`text-rotulo font-bold uppercase tracking-[0.3em] ${room.accent}`}
               >
@@ -314,15 +370,49 @@ export function HomePage() {
             className="mb-10"
             action={
               <Link
-                to="/catalogo"
+                to={marcaAltar && enlaceMarcaAltar ? enlaceMarcaAltar : '/catalogo'}
                 className="group flex items-center justify-center gap-2 text-rotulo font-semibold uppercase tracking-[0.22em] text-secundario hover:text-marble transition-colors"
               >
-                Ver los {sneakers.length} pares
+                {marcaAltar ? `Ver más de ${marcaAltar}` : `Ver los ${sneakers.length} pares`}
                 <ArrowRight className="w-3.5 h-3.5 transition-transform group-hover:translate-x-1" />
               </Link>
             }
           />
-          <Colonnade sneakers={featured} />
+
+          {/* Atajos por marca. En el teléfono la fila se desliza de lado en
+              vez de partirse en cuatro renglones de chips sobre el altar; el
+              margen negativo deja que llegue hasta el borde de la pantalla.
+              El desvanecido de la derecha avisa que hay más marcas; el
+              relleno del final deja salir de él al último chip. */}
+          {marcasAltar.length > 1 && (
+            <div className="relative -mx-5 lg:mx-0 mb-8">
+            <div
+              role="group"
+              aria-label="Filtrar el altar por marca"
+              className="no-scrollbar pl-5 pr-14 flex gap-2 overflow-x-auto lg:px-0 lg:flex-wrap lg:justify-center"
+            >
+              {[{ brand: null as string | null, etiqueta: 'Todos' }, ...marcasAltar.map((b) => ({ brand: b.brand, etiqueta: b.brand }))].map(
+                ({ brand, etiqueta }) => (
+                  <button
+                    key={etiqueta}
+                    type="button"
+                    aria-pressed={marcaAltar === brand}
+                    onClick={() => setMarcaAltar(brand)}
+                    className={cx('chip shrink-0', marcaAltar === brand && 'chip-on')}
+                  >
+                    {etiqueta}
+                  </button>
+                ),
+              )}
+            </div>
+            <div
+              aria-hidden
+              className="pointer-events-none absolute inset-y-0 right-0 w-14 bg-gradient-to-l from-obsidian to-transparent lg:hidden"
+            />
+            </div>
+          )}
+
+          <Colonnade key={marcaAltar ?? 'todos'} sneakers={featured} />
         </section>
       )}
 
