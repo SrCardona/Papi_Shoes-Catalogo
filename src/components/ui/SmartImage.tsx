@@ -39,8 +39,20 @@ function urlOptimizada(url: string, ancho: number): string {
    mes agotada, no una foto mala. Desde ese momento las fotos que se monten van
    directo al archivo, en vez de pedir cada una dos veces —primero la que falla
    y después la buena— por 1.300 tarjetas. Vive en el módulo y no en un estado:
-   dura lo que dura la pestaña y la siguiente carga vuelve a probar. */
+   dura lo que dura la pestaña y la siguiente carga vuelve a probar.
+
+   Las tarjetas ya montadas también se enteran (`avisarCaida`): el catálogo
+   monta todas al cargar, y las de más abajo todavía no han pedido su foto
+   diferida, así que cambian de dirección antes de pedirla. */
 let optimizadorCaido = false;
+const alCaer = new Set<() => void>();
+
+function avisarCaida() {
+  if (optimizadorCaido) return;
+  optimizadorCaido = true;
+  alCaer.forEach((avisar) => avisar());
+  alCaer.clear();
+}
 
 interface SmartImageProps {
   src: string;
@@ -88,12 +100,21 @@ export function SmartImage({
 
   const alFallar = () => {
     if (optimizable) {
-      optimizadorCaido = true;
       setSinOptimizar(true);
+      avisarCaida();
     } else {
       setFailed(true);
     }
   };
+
+  useEffect(() => {
+    if (sinOptimizar) return;
+    const avisar = () => setSinOptimizar(true);
+    alCaer.add(avisar);
+    return () => {
+      alCaer.delete(avisar);
+    };
+  }, [sinOptimizar]);
 
   /* Una foto que ya estaba en la caché, o un error que llega en un instante,
      puede terminar antes de que React escuche `load` o `error` en la etiqueta.
