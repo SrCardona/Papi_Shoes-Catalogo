@@ -154,6 +154,8 @@ export function SmartImage({
       sizes={sizes}
       onError={alFallar}
       onLoad={() => setLoaded(true)}
+      /* Para que la celda deje de mostrar "cargando" (`.foto-cargando`). */
+      data-cargada={loaded || undefined}
       className={cx(
         className,
         conFundido && 'transition-opacity duration-700',

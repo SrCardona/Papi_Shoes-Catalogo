@@ -108,6 +108,12 @@ Solo se optimiza lo que sirve este mismo sitio (rutas que empiezan por `/`).
 Una foto subida desde el panel vive en el almacen, con otro dominio, y pasa tal
 cual: declararla mal dejaria sin foto justo a los pares que cargo el dueno.
 
+Si el optimizador falla (un 402 es la cuota del mes agotada), `SmartImage` cae
+al archivo original, y después del primer fallo todas las fotos de la pestaña
+van directo al archivo. Las fotos llegan enteras y tardan más; mientras tanto
+la celda muestra `.foto-cargando`, nunca un hueco negro. Si las tarjetas "se
+ven negras", lo primero es revisar el uso de Image Optimization en Vercel.
+
 En `npm run dev` no hay optimizador —es un servicio de Vercel, no de Vite— y se
 sirve el archivo original. Es la misma foto, sin encoger.
 
