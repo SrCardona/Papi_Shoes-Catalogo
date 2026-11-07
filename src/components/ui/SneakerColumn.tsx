@@ -103,7 +103,7 @@ export function SneakerColumn({
             portadas quedaban con franjas negras a los lados o arriba y abajo. */}
         <div
           className={cx(
-            'relative aspect-square overflow-hidden rounded-foto bg-obsidian',
+            'relative aspect-square overflow-hidden rounded-foto foto-cargando',
             isSoldOut && 'opacity-45',
           )}
           style={fondo ? { background: fondo } : undefined}
