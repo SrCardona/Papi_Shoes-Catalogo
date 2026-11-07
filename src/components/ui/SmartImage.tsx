@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { IMAGE_PLACEHOLDER, sanitizeImageUrl } from '../../lib/security';
 import { cx } from '../../lib/utils';
 
@@ -35,6 +35,13 @@ function urlOptimizada(url: string, ancho: number): string {
   return `/_vercel/image?url=${encodeURIComponent(url)}&w=${ancho}&q=${CALIDAD}`;
 }
 
+/* Si el optimizador falla una vez, falla para todas: un 402 es la cuota del
+   mes agotada, no una foto mala. Desde ese momento las fotos que se monten van
+   directo al archivo, en vez de pedir cada una dos veces —primero la que falla
+   y después la buena— por 1.300 tarjetas. Vive en el módulo y no en un estado:
+   dura lo que dura la pestaña y la siguiente carga vuelve a probar. */
+let optimizadorCaido = false;
+
 interface SmartImageProps {
   src: string;
   alt: string;
@@ -63,9 +70,10 @@ export function SmartImage({
      archivo tal cual; solo si también cae el archivo se pone el respaldo. Sin
      el paso intermedio, un 402 del optimizador por cuota agotada dejaba el
      catálogo entero sin una sola foto, aunque los archivos estaban ahí. */
-  const [sinOptimizar, setSinOptimizar] = useState(false);
+  const [sinOptimizar, setSinOptimizar] = useState(() => optimizadorCaido);
   const [failed, setFailed] = useState(false);
   const [loaded, setLoaded] = useState(false);
+  const ref = useRef<HTMLImageElement>(null);
   const safe = failed ? IMAGE_PLACEHOLDER : sanitizeImageUrl(src);
 
   /* En desarrollo no existe el optimizador —es un servicio de Vercel, no de
@@ -76,6 +84,37 @@ export function SmartImage({
   const srcSet = optimizable
     ? ANCHOS.map((a) => `${urlOptimizada(safe, a)} ${a}w`).join(', ')
     : undefined;
+  const actual = optimizable ? urlOptimizada(safe, 1024) : safe;
+
+  const alFallar = () => {
+    if (optimizable) {
+      optimizadorCaido = true;
+      setSinOptimizar(true);
+    } else {
+      setFailed(true);
+    }
+  };
+
+  /* Una foto que ya estaba en la caché, o un error que llega en un instante,
+     puede terminar antes de que React escuche `load` o `error` en la etiqueta.
+     Entonces el evento no llega nunca: la tarjeta se quedaba en opacidad cero
+     —un cuadro negro— o pegada a la dirección del optimizador caído. Al montar
+     y al cambiar de dirección se mira cómo quedó la etiqueta y se actúa igual
+     que si el evento hubiera llegado. */
+  useEffect(() => {
+    const img = ref.current;
+    if (!img || !img.complete) return;
+    if (img.naturalWidth > 0) {
+      setLoaded(true);
+    } else if (img.currentSrc) {
+      /* Solo con `currentSrc`: una foto diferida que todavía no se pidió no
+         tiene, y en algunos Safari ya dice `complete`. Sin esa guarda, las
+         tarjetas de más abajo se darían por rotas antes de cargar. */
+      alFallar();
+    }
+    // alFallar cambia en cada render; lo que importa es la dirección pedida.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [actual]);
 
   /* El fundido tapa el salto de la carga diferida, pero sobre la foto de
      arriba del pliegue se paga caro: el navegador no cuenta como pintado lo
@@ -84,14 +123,15 @@ export function SmartImage({
 
   return (
     <img
-      src={optimizable ? urlOptimizada(safe, 1024) : safe}
+      ref={ref}
+      src={actual}
       srcSet={srcSet}
       alt={alt}
       loading={priority ? 'eager' : 'lazy'}
       fetchPriority={priority ? 'high' : 'auto'}
       decoding={priority ? 'sync' : 'async'}
       sizes={sizes}
-      onError={() => (optimizable ? setSinOptimizar(true) : setFailed(true))}
+      onError={alFallar}
       onLoad={() => setLoaded(true)}
       className={cx(
         className,
