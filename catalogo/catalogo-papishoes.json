@@ -1,6 +1,6 @@
 {
   "version": 3,
-  "exportedAt": "2026-11-06T20:31:47.654Z",
+  "exportedAt": "2026-11-07T22:26:07.220Z",
   "sneakers": [
     {
       "id": "sneaker-adidas-adilette-22",
@@ -5497,7 +5497,8 @@
         "/catalogo/sneakers/adidas/adidas-superstar-blanco-negro-unisex_5.jpg",
         "/catalogo/sneakers/adidas/adidas-superstar-blanco-negro-unisex_6.jpg",
         "/catalogo/sneakers/adidas/adidas-superstar-blanco-negro-unisex_7.jpg",
-        "/catalogo/sneakers/adidas/adidas-superstar-blanco-negro-unisex_8.jpg"
+        "/catalogo/sneakers/adidas/adidas-superstar-blanco-negro-unisex_8.jpg",
+        "/catalogo/sneakers/adidas/adidas-superstar-blanco-negro-unisex_9.jpg"
       ],
       "sizes": [
         36,
@@ -5941,43 +5942,6 @@
       "inquiriesCount": 0,
       "createdAt": "2026-11-06T15:49:41.529Z",
       "updatedAt": "2026-11-06T15:49:41.529Z"
-    },
-    {
-      "id": "sneaker-adidas-superstar-blanco-punta-negra",
-      "name": "Adidas Superstar",
-      "brand": "Adidas",
-      "model": "Adidas Superstar",
-      "sku": "PAPI-2207",
-      "category": "general",
-      "gender": "hombre",
-      "price": 179900,
-      "originalPrice": 209900,
-      "images": [
-        "/catalogo/sneakers/adidas/hombre/adidas-superstar-blanco-punta-negra.jpg"
-      ],
-      "sizes": [
-        40,
-        41,
-        42,
-        43,
-        44
-      ],
-      "status": "disponible",
-      "isFeatured": false,
-      "isNewArrival": true,
-      "isOriginalCertified": false,
-      "description": "",
-      "details": {
-        "condition": "En caja",
-        "colorway": "White / Black",
-        "includedItems": [
-          "Caja"
-        ]
-      },
-      "viewsCount": 0,
-      "inquiriesCount": 0,
-      "createdAt": "2026-11-06T14:19:39.279Z",
-      "updatedAt": "2026-11-06T14:19:39.279Z"
     },
     {
       "id": "sneaker-adidas-superstar-blanco-verde",
@@ -41011,47 +40975,6 @@
       "updatedAt": "2026-08-26T15:18:01.924Z"
     },
     {
-      "id": "sneaker-nike-sb-dunk-low-blanco-negro-gum",
-      "name": "Nike SB Dunk Low",
-      "brand": "Nike",
-      "model": "Nike SB Dunk Low",
-      "sku": "PAPI-1296",
-      "category": "general",
-      "gender": "unisex",
-      "price": 179900,
-      "originalPrice": 209900,
-      "images": [
-        "/catalogo/sneakers/nike/nike-sb-dunk-low-blanco-negro-gum.jpg"
-      ],
-      "sizes": [
-        36,
-        37,
-        38,
-        39,
-        40,
-        41,
-        42,
-        43,
-        44
-      ],
-      "status": "disponible",
-      "isFeatured": false,
-      "isNewArrival": true,
-      "isOriginalCertified": false,
-      "description": "",
-      "details": {
-        "condition": "En caja",
-        "colorway": "White / Black / Gum",
-        "includedItems": [
-          "Caja"
-        ]
-      },
-      "viewsCount": 0,
-      "inquiriesCount": 0,
-      "createdAt": "2026-11-06T13:33:12.682Z",
-      "updatedAt": "2026-11-06T13:33:12.682Z"
-    },
-    {
       "id": "sneaker-nike-sb-dunk-low-charol-negro",
       "name": "Nike SB Dunk Low",
       "brand": "Nike",
@@ -41130,48 +41053,6 @@
       "inquiriesCount": 0,
       "createdAt": "2026-08-26T15:18:01.924Z",
       "updatedAt": "2026-08-26T15:18:01.924Z"
-    },
-    {
-      "id": "sneaker-nike-sb-dunk-low-negro-blanco-gum",
-      "name": "Nike SB Dunk Low",
-      "brand": "Nike",
-      "model": "Nike SB Dunk Low",
-      "sku": "PAPI-1190",
-      "category": "general",
-      "gender": "unisex",
-      "price": 179900,
-      "originalPrice": 209900,
-      "images": [
-        "/catalogo/sneakers/nike/nike-sb-dunk-low-negro-blanco-gum.jpg",
-        "/catalogo/sneakers/nike/nike-sb-dunk-low-negro-blanco-gum_2.jpg"
-      ],
-      "sizes": [
-        36,
-        37,
-        38,
-        39,
-        40,
-        41,
-        42,
-        43,
-        44
-      ],
-      "status": "disponible",
-      "isFeatured": false,
-      "isNewArrival": true,
-      "isOriginalCertified": false,
-      "description": "",
-      "details": {
-        "condition": "En caja",
-        "colorway": "Black / White / Gum",
-        "includedItems": [
-          "Caja"
-        ]
-      },
-      "viewsCount": 0,
-      "inquiriesCount": 0,
-      "createdAt": "2026-11-06T13:33:12.682Z",
-      "updatedAt": "2026-11-06T13:33:12.682Z"
     },
     {
       "id": "sneaker-nike-sb-dunk-low-talon-morado",

@@ -1,19 +1,15 @@
-import { cx } from '../../lib/utils';
-
 /**
- * Gorro de Papá Noel para el emblema del templo.
+ * Gorro de Papá Noel, como grupo de SVG para montarlo dentro del emblema.
  *
- * Va aparte de `TempleMark` y no dentro: el emblema se usa también en la
- * pantalla de error, en el panel y en las historias, y ahí no lleva gorro.
- * Quien lo quiera lo monta encima, con su propia posición.
+ * Va dentro del `<svg>` de `TempleMark` y no encima como capa aparte: así
+ * escala y se atenúa junto con el emblema donde sea que aparezca —la barra, el
+ * pie, la página de error, el 404—, sin que cada sitio tenga que calcular su
+ * posición. Dibujado en su propia caja de 42 × 32; `TempleMark` lo coloca
+ * sobre el frontón.
  */
-export function Gorro({ className }: { className?: string }) {
+export function FormaGorro({ transform }: { transform: string }) {
   return (
-    <svg
-      aria-hidden
-      viewBox="0 0 42 32"
-      className={cx('pointer-events-none absolute', className)}
-    >
+    <g transform={transform} aria-hidden>
       {/* Cuerpo: sube desde el ribete y cae doblado hacia la derecha. */}
       <path
         d="M6 24 C8 12 15 4 25 4 C32 4 36.5 8 38 14.5 L34 15.5 C32.5 12 30 10.5 26.5 11 C30.5 15 31.5 20 31.5 24 Z"
@@ -28,6 +24,6 @@ export function Gorro({ className }: { className?: string }) {
       {/* Ribete y pompón, en el blanco mármol de la casa. */}
       <rect x="3" y="21.5" width="31.5" height="7.5" rx="3.75" fill="var(--color-marble)" />
       <circle cx="37" cy="16.5" r="4.2" fill="var(--color-marble)" />
-    </svg>
+    </g>
   );
 }

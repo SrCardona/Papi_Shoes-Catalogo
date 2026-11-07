@@ -1,5 +1,7 @@
 import { useId } from 'react';
 import { useStore } from '../../context/StoreContext';
+import { NAVIDAD } from '../../lib/temporada';
+import { FormaGorro } from '../navidad/Gorro';
 import { cx } from '../../lib/utils';
 
 interface TempleMarkProps {
@@ -7,7 +9,16 @@ interface TempleMarkProps {
   /** `silver` reproduce el metálico del manual; `line` es el trazo de las historias. */
   variant?: 'silver' | 'line';
   title?: string;
+  /** Gorro de Papá Noel sobre el frontón. Por defecto, en temporada de
+      Navidad; el panel lo apaga, porque es la herramienta y no la vitrina. */
+  gorro?: boolean;
 }
+
+/* El gorro, en las unidades del emblema (64 × 52): centrado a la derecha del
+   vértice del frontón, inclinado 14° y asomando por encima de la caja. Por eso
+   el `<svg>` lleva `overflow: visible`: el gorro sale del cuadro sin empujar
+   el diseño de nadie. */
+const POSICION_GORRO = 'translate(49 1.7) rotate(14) scale(1.165) translate(-21 -16)';
 
 /**
  * El emblema de la tienda: frontón, cinco columnas y estilóbato.
@@ -23,6 +34,7 @@ export function TempleMark({
   className,
   variant = 'silver',
   title = 'Emblema del templo',
+  gorro = NAVIDAD,
 }: TempleMarkProps) {
   const id = useId();
   const gradientId = `temple-metal-${id}`;
@@ -35,6 +47,7 @@ export function TempleMark({
       role="img"
       aria-label={title}
       fill="none"
+      overflow={gorro ? 'visible' : undefined}
     >
       {!isLine && (
         <defs>
@@ -70,6 +83,8 @@ export function TempleMark({
           </g>
         );
       })()}
+
+      {gorro && <FormaGorro transform={POSICION_GORRO} />}
     </svg>
   );
 }
@@ -79,10 +94,12 @@ export function BrandLockup({
   size = 'md',
   className,
   showTagline = true,
+  gorro,
 }: {
   size?: 'sm' | 'md' | 'lg' | 'xl';
   className?: string;
   showTagline?: boolean;
+  gorro?: boolean;
 }) {
   const { settings } = useStore();
   const scale = {
@@ -98,7 +115,7 @@ export function BrandLockup({
 
   return (
     <div className={cx('flex flex-col items-center', className)}>
-      <TempleMark className={scale.mark} title={settings.storeName} />
+      <TempleMark className={scale.mark} title={settings.storeName} gorro={gorro} />
       <span
         className={cx('font-display text-engraved leading-none mt-2', scale.word)}
       >

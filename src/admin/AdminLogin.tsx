@@ -51,7 +51,7 @@ export function AdminLogin() {
     return (
       <div className="min-h-[70vh] flex items-center justify-center px-5 py-16">
         <div className="w-full max-w-sm">
-          <BrandLockup size="md" className="mb-10" />
+          <BrandLockup size="md" className="mb-10" gorro={false} />
           <div className="bg-basalt border border-white/10 p-7">
             <div className="flex items-center gap-2.5 mb-6 pb-5 border-b border-white/8">
               <Lock className="w-4 h-4 text-silver/70" />
@@ -77,7 +77,7 @@ export function AdminLogin() {
   return (
     <div className="min-h-[70vh] flex items-center justify-center px-5 py-16">
       <div className="w-full max-w-sm">
-        <BrandLockup size="md" className="mb-10" />
+        <BrandLockup size="md" className="mb-10" gorro={false} />
 
         <div className="bg-basalt border border-white/10 p-7">
           <div className="flex items-center gap-2.5 mb-6 pb-5 border-b border-white/8">

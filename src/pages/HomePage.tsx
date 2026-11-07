@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 import { ArrowRight, MessageCircle, Snowflake } from 'lucide-react';
 import { NAVIDAD } from '../lib/temporada';
 import { Arbol } from '../components/navidad/Arbol';
-import { Gorro } from '../components/navidad/Gorro';
 import { Mono } from '../components/navidad/Mono';
 import type { Sneaker } from '../types';
 import { useStore } from '../context/StoreContext';
@@ -171,7 +170,6 @@ export function HomePage() {
             )}
             <div className="relative animate-rise">
               <TempleMark className="w-[76px] h-[60px]" title={settings.storeName} />
-              {NAVIDAD && <Gorro className="w-[56px] -top-[22px] left-[30px] rotate-[14deg]" />}
             </div>
 
             {/* Inscripción, no encabezado: el nombre ya va dentro del h1 de
