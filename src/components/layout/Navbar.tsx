@@ -5,7 +5,6 @@ import { useStore } from '../../context/StoreContext';
 import { useMarcasAgrupadas } from '../../hooks/useMarcasPorLinea';
 import { useMovimientoReducido } from '../../hooks/useMovimientoReducido';
 import { TempleMark } from '../ui/TempleMark';
-import { Gorro } from '../navidad/Gorro';
 import { Luces } from '../navidad/Luces';
 import { BrandAccordion, BrandDropdown } from './BrandDropdown';
 import { cx, generateDirectWhatsAppContact, instagramUrl } from '../../lib/utils';
@@ -161,8 +160,7 @@ export function Navbar({ navidad = false }: { navidad?: boolean }) {
               aria-label={`${settings.storeName} — inicio`}
             >
               <span className="relative shrink-0 transition-transform duration-500 group-hover:-translate-y-0.5">
-                <TempleMark className="w-[34px] h-[34px]" />
-                {navidad && <Gorro className="w-[26px] -top-[9px] left-[13px] rotate-[14deg]" />}
+                <TempleMark className="w-[34px] h-[34px]" gorro={navidad} />
               </span>
               {/* El nombre también en móvil: es la identidad de la tienda y
                   antes desaparecía justo donde más gente entra. La bajada sí
@@ -266,7 +264,7 @@ export function Navbar({ navidad = false }: { navidad?: boolean }) {
       {isMenuOpen && (
         <div className="fixed inset-0 z-50 bg-obsidian animate-fade lg:hidden flex flex-col">
           <div className="flex items-center justify-between h-[72px] px-5 border-b border-white/8">
-            <TempleMark className="w-8 h-8" />
+            <TempleMark className="w-8 h-8" gorro={navidad} />
             <button
               onClick={() => setIsMenuOpen(false)}
               aria-label="Cerrar menú"

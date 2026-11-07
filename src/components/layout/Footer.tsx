@@ -9,7 +9,7 @@ import {
   instagramUrl,
 } from '../../lib/utils';
 
-export function Footer() {
+export function Footer({ navidad = false }: { navidad?: boolean }) {
   const { settings } = useStore();
   const year = new Date().getFullYear();
   const igUrl = instagramUrl(settings.instagramHandle);
@@ -39,7 +39,7 @@ export function Footer() {
           {/* Marca */}
           <div className="lg:col-span-5 space-y-5">
             <div className="flex items-center gap-4">
-              <TempleMark className="w-[52px] h-[52px]" title={settings.storeName} />
+              <TempleMark className="w-[52px] h-[52px]" title={settings.storeName} gorro={navidad} />
               <div className="leading-none">
                 <p className="font-display text-engraved text-[32px]">
                   {settings.storeName}

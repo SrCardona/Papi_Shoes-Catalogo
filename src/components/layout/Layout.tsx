@@ -75,7 +75,7 @@ export function Layout() {
       <main className="flex-1">
         <Outlet />
       </main>
-      <Footer />
+      <Footer navidad={decorada} />
       <FloatingWhatsApp />
     </div>
   );

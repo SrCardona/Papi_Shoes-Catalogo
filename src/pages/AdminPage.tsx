@@ -31,7 +31,7 @@ export function AdminPage() {
   if (isChecking) {
     return (
       <div className="min-h-[60vh] flex items-center justify-center">
-        <TempleMark className="w-10 h-10 opacity-30 animate-pulse" />
+        <TempleMark className="w-10 h-10 opacity-30 animate-pulse" gorro={false} />
       </div>
     );
   }
@@ -67,7 +67,7 @@ export function AdminPage() {
       {/* Encabezado */}
       <div className="flex items-center justify-between gap-4 flex-wrap pb-6 border-b border-white/10">
         <div className="flex items-center gap-4">
-          <TempleMark className="w-9 h-9" />
+          <TempleMark className="w-9 h-9" gorro={false} />
           <div>
             <h1 className="font-display text-xl text-marble">Panel de administración</h1>
             <p className="text-[11px] text-marble/35 mt-0.5">
