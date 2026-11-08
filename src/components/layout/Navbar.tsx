@@ -52,6 +52,10 @@ export function Navbar({ navidad = false }: { navidad?: boolean }) {
   const [menuOpenedAt, setMenuOpenedAt] = useState(location.pathname);
   const [isScrolled, setIsScrolled] = useState(false);
   const [query, setQuery] = useState('');
+  /* El buscador desplegable de la lupa, para donde no cabe el de la barra
+     (por debajo de `xl`). */
+  const [buscando, setBuscando] = useState(false);
+  const [buscandoEn, setBuscandoEn] = useState(location.pathname);
 
   const igUrl = instagramUrl(settings.instagramHandle);
   const tramos = settings.announcement
@@ -86,10 +90,31 @@ export function Navbar({ navidad = false }: { navidad?: boolean }) {
     setIsMenuOpen(true);
   };
 
+  /* Estando en una línea, se busca dentro de ella: quien mira Sneakers y busca
+     "dunk" no espera que le salgan mezclados los Originales. */
+  const destinoBusqueda = location.pathname.startsWith('/originales')
+    ? '/originales'
+    : location.pathname.startsWith('/sneakers')
+      ? '/sneakers'
+      : '/catalogo';
+
   const submitSearch = (e: React.FormEvent) => {
     e.preventDefault();
-    navigate(`/catalogo?q=${encodeURIComponent(query.trim())}`);
+    const texto = query.trim();
+    if (!texto) return;
+    navigate(`${destinoBusqueda}?q=${encodeURIComponent(texto)}`);
     setQuery('');
+    setBuscando(false);
+  };
+
+  // El buscador del celular se cierra al cambiar de ruta, igual que el menú.
+  if (buscando && buscandoEn !== location.pathname) {
+    setBuscando(false);
+  }
+
+  const abrirBuscador = () => {
+    setBuscandoEn(location.pathname);
+    setBuscando((b) => !b);
   };
 
   return (
@@ -248,6 +273,17 @@ export function Navbar({ navidad = false }: { navidad?: boolean }) {
                   se entra escribiendo /admin. La puerta sigue siendo el
                   servidor, esconder el enlace no protege nada. */}
               <button
+                type="button"
+                onClick={abrirBuscador}
+                aria-label={buscando ? 'Cerrar el buscador' : 'Buscar en el catálogo'}
+                aria-expanded={buscando}
+                aria-controls="buscador-movil"
+                className="tap xl:hidden p-2.5 text-marble"
+              >
+                {buscando ? <X className="w-5 h-5" /> : <Search className="w-5 h-5" />}
+              </button>
+
+              <button
                 onClick={openMenu}
                 aria-label="Abrir menú"
                 className="tap lg:hidden -mr-1.5 p-2.5 text-marble"
@@ -256,6 +292,34 @@ export function Navbar({ navidad = false }: { navidad?: boolean }) {
               </button>
             </div>
           </div>
+
+          {/* El buscador de la lupa: un renglón bajo la barra, que la sigue
+              al bajar porque vive dentro del encabezado fijo. La letra va a
+              16 px en el celular: con menos, Safari agranda la página al
+              enfocar el campo y la deja descuadrada. */}
+          {buscando && (
+            <form
+              id="buscador-movil"
+              role="search"
+              onSubmit={submitSearch}
+              className="xl:hidden relative pb-4 animate-drop"
+            >
+              <Search className="w-4 h-4 absolute left-4 top-[22px] -translate-y-1/2 text-terciario" />
+              <input
+                autoFocus
+                type="search"
+                enterKeyHint="search"
+                value={query}
+                onChange={(e) => setQuery(e.target.value)}
+                onKeyDown={(e) => {
+                  if (e.key === 'Escape') setBuscando(false);
+                }}
+                placeholder={`Buscar en ${sneakers.length} pares`}
+                aria-label="Buscar en el catálogo"
+                className="campo w-full h-11 pl-11 pr-4 text-base sm:text-lectura"
+              />
+            </form>
+          )}
         </div>
         {navidad && <Luces />}
       </header>
