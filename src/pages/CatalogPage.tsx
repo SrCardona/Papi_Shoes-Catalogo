@@ -1,6 +1,6 @@
-import { useEffect, useMemo } from 'react';
+import { useEffect, useMemo, useRef, useState } from 'react';
 import { useSearchParams } from 'react-router-dom';
-import type { SneakerCategory } from '../types';
+import type { Sneaker, SneakerCategory } from '../types';
 import { useStore } from '../context/StoreContext';
 import { useCatalogFilters } from '../hooks/useCatalogFilters';
 import { useGrupoOtras } from '../hooks/useMarcasPorLinea';
@@ -9,6 +9,75 @@ import { Colonnade } from '../components/ui/SneakerColumn';
 import { FilterRail } from '../components/ui/FilterRail';
 import { EmptyState } from '../components/ui/EmptyState';
 import { SectionHeader } from '../components/ui/SectionHeader';
+
+/* Tarjetas por tanda: múltiplo de 2, 3 y 4 para que cada tanda cierre filas
+   completas en el celular, la tableta y el escritorio. */
+const PASO = 24;
+
+/**
+ * La columnata del catálogo, montada por tandas.
+ *
+ * Montar las 1.305 tarjetas de una vez —cada una con dos fotos— le costaba a
+ * un celular segundos de pantalla congelada, al abrir la página y en cada
+ * cambio de filtro o de búsqueda. Ahora se montan 24 y, cuando el visitante se
+ * acerca al final (1.500 px antes), las siguientes 24. Un cambio de resultados
+ * vuelve a la primera tanda. El botón de abajo hace lo mismo a mano, por si el
+ * navegador no avisa del desplazamiento, y sirve a quien navega con teclado.
+ */
+function ColumnataPorTandas({
+  pares,
+  lineaUnica,
+}: {
+  pares: Sneaker[];
+  lineaUnica: boolean;
+}) {
+  const [visibles, setVisibles] = useState(PASO);
+  const [paresPrevios, setParesPrevios] = useState(pares);
+  const centinela = useRef<HTMLDivElement>(null);
+
+  // Ajustar el estado durante el render y no en un efecto: así la primera
+  // pintada con resultados nuevos ya sale recortada, sin montar los 1.305.
+  if (paresPrevios !== pares) {
+    setParesPrevios(pares);
+    setVisibles(PASO);
+  }
+
+  const quedan = pares.length - visibles;
+
+  useEffect(() => {
+    const nodo = centinela.current;
+    if (!nodo || quedan <= 0 || typeof IntersectionObserver === 'undefined') return;
+    const observador = new IntersectionObserver(
+      (entradas) => {
+        if (entradas.some((e) => e.isIntersecting)) setVisibles((v) => v + PASO);
+      },
+      { rootMargin: '1500px 0px' },
+    );
+    observador.observe(nodo);
+    return () => observador.disconnect();
+  }, [quedan, visibles]);
+
+  return (
+    <>
+      <Colonnade sneakers={pares.slice(0, visibles)} lineaUnica={lineaUnica} />
+      {quedan > 0 && (
+        /* Sin anclaje de desplazamiento aquí ni en el pie (`Footer`): si el
+           navegador se anclara a ellos, al crecer la lista los mantendría en
+           pantalla, el centinela seguiría a la vista y las tandas se
+           encadenarían hasta montar el catálogo entero. */
+        <div ref={centinela} className="mt-10 flex justify-center [overflow-anchor:none]">
+          <button
+            type="button"
+            onClick={() => setVisibles((v) => v + PASO)}
+            className="btn btn-ghost"
+          >
+            Ver más pares ({quedan})
+          </button>
+        </div>
+      )}
+    </>
+  );
+}
 
 interface CatalogPageProps {
   /** Fija la línea: las vistas /originales y /sneakers reusan esta página. */
@@ -171,7 +240,7 @@ export function CatalogPage({
             <p className="text-rotulo uppercase tracking-[0.22em] text-terciario mb-5 tabular-nums">
               {results.length} {results.length === 1 ? 'par' : 'pares'}
             </p>
-            <Colonnade sneakers={results} lineaUnica={Boolean(category)} />
+            <ColumnataPorTandas pares={results} lineaUnica={Boolean(category)} />
           </>
         ) : (
           <EmptyState query={filters.searchQuery} onReset={resetFilters} />
