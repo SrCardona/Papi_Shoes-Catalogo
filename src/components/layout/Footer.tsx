@@ -15,7 +15,8 @@ export function Footer({ navidad = false }: { navidad?: boolean }) {
   const igUrl = instagramUrl(settings.instagramHandle);
 
   return (
-    <footer className="bg-marble-navy border-t border-silver/15 mt-24">
+    /* Sin anclaje de desplazamiento: ver `ColumnataPorTandas` en CatalogPage. */
+    <footer className="bg-marble-navy border-t border-silver/15 mt-24 [overflow-anchor:none]">
       {/* Friso de valores — los cinco pilares del manual */}
       <div className="border-b border-white/8">
         <div className="max-w-[1400px] mx-auto px-5 lg:px-8">

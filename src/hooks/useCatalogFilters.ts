@@ -1,4 +1,4 @@
-import { useMemo, useState, useCallback } from 'react';
+import { useCallback, useDeferredValue, useMemo, useState } from 'react';
 import type { FilterState, Sneaker } from '../types';
 import { DEFAULT_FILTERS } from '../types';
 
@@ -70,8 +70,37 @@ export function useCatalogFilters(sneakers: Sneaker[], seed?: Partial<FilterStat
     };
   }, [enLinea]);
 
+  /* El texto con el que se busca de verdad va un paso detrás del que se
+     escribe: React pinta primero la letra en el campo y filtra después, y si
+     llega otra letra a mitad de camino abandona el filtrado viejo. Sin esto,
+     cada tecla esperaba a que se rehiciera el catálogo entero y en un celular
+     escribir "tenis" se congelaba cuatro segundos. */
+  const consulta = useDeferredValue(filters.searchQuery);
+
+  /* El texto donde se busca, armado una sola vez por par y no en cada tecla. */
+  const textoDe = useMemo(
+    () =>
+      new Map(
+        sneakers.map((s) => [
+          s.id,
+          [
+            s.name,
+            s.brand,
+            s.model,
+            s.sku,
+            s.details.colorway,
+            s.description,
+            ...(s.sizes ?? []).map(String),
+          ]
+            .join(' ')
+            .toLowerCase(),
+        ]),
+      ),
+    [sneakers],
+  );
+
   const results = useMemo(() => {
-    const query = filters.searchQuery.trim().toLowerCase();
+    const query = consulta.trim().toLowerCase();
 
     const matched = sneakers.filter((s) => {
       if (filters.category !== 'all' && s.category !== filters.category) return false;
@@ -91,20 +120,7 @@ export function useCatalogFilters(sneakers: Sneaker[], seed?: Partial<FilterStat
       // Filtro de precio — antes declarado pero nunca aplicado.
       if (s.price < filters.minPrice || s.price > filters.maxPrice) return false;
 
-      if (query) {
-        const haystack = [
-          s.name,
-          s.brand,
-          s.model,
-          s.sku,
-          s.details.colorway,
-          s.description,
-          ...(s.sizes ?? []).map(String),
-        ]
-          .join(' ')
-          .toLowerCase();
-        if (!haystack.includes(query)) return false;
-      }
+      if (query && !textoDe.get(s.id)?.includes(query)) return false;
 
       return true;
     });
@@ -132,7 +148,21 @@ export function useCatalogFilters(sneakers: Sneaker[], seed?: Partial<FilterStat
           return byNewest(a, b);
         });
     }
-  }, [sneakers, filters]);
+    // `filters.searchQuery` queda fuera a propósito: el filtro usa `consulta`.
+  }, [
+    sneakers,
+    textoDe,
+    consulta,
+    filters.category,
+    filters.gender,
+    filters.brand,
+    filters.brandGroup,
+    filters.status,
+    filters.size,
+    filters.minPrice,
+    filters.maxPrice,
+    filters.sortBy,
+  ]);
 
   const activeFilterCount = useMemo(() => {
     let n = 0;
