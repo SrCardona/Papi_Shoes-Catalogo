@@ -192,6 +192,12 @@
   .campo::placeholder {
     color: var(--color-terciario);
   }
+  /* La X nativa de los campos de búsqueda sale azul de sistema, fuera de la
+     paleta, y en iOS se monta sobre el texto. Se borra con el teclado. */
+  .campo[type='search']::-webkit-search-cancel-button {
+    -webkit-appearance: none;
+    appearance: none;
+  }
   .campo:focus {
     outline: none;
     border-color: rgb(200 200 200 / 0.4);
