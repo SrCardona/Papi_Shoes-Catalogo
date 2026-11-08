@@ -147,11 +147,17 @@ export function HomePage() {
           ))}
         </div>
 
-        {/* Dos árboles al pie de la fachada, por detrás del texto. Desde `md`:
-            en un teléfono no hay costado libre y quedaban encima de los botones
-            y de los contadores. */}
+        {/* Dos árboles al pie de la fachada, por detrás del texto, desde `md`.
+            En el teléfono no hay costado libre: va uno solo, a la derecha y
+            apoyado en el estilóbato, por detrás de los contadores —así lo
+            pidió el dueño—: las píldoras son sólidas y el árbol asoma por los
+            lados, sin cruzar los números. */}
         {NAVIDAD && (
           <>
+            {/* Tope de 150 px: desde 400 px de ancho los contadores van en dos
+                filas, el bloque baja de alto y un árbol mayor llegaba con la
+                estrella hasta el botón "Ver Sneakers". */}
+            <Arbol className="md:hidden absolute bottom-1 right-[3%] w-[40vw] max-w-[150px]" />
             <Arbol className="hidden md:block absolute bottom-10 left-[3%] w-[clamp(110px,12vw,180px)]" />
             <Arbol className="hidden md:block absolute bottom-10 right-[3%] w-[clamp(140px,17vw,250px)]" />
           </>
@@ -251,7 +257,11 @@ export function HomePage() {
               ].map(({ n, rotulo }) => (
                 <div
                   key={rotulo}
-                  className="flex items-baseline gap-2.5 px-5 py-3 rounded-full border border-white/8 bg-white/[0.03]"
+                  /* Fondo sólido (basalto, el mismo tono que daba el blanco al
+                     3 % sobre la obsidiana): en el teléfono el árbol de Navidad
+                     va detrás y, con fondo translúcido, se veía a través de
+                     las letras. */
+                  className="relative flex items-baseline gap-2.5 px-5 py-3 rounded-full border border-white/8 bg-basalt"
                 >
                   <span className="font-display text-[28px] leading-none text-marble tabular-nums">
                     {n}
