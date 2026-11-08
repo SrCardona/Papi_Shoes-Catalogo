@@ -3,6 +3,7 @@ import { useLocation } from 'react-router-dom';
 import { X } from 'lucide-react';
 import { useStore } from '../../context/StoreContext';
 import { SmartImage } from './SmartImage';
+import { IMAGE_PLACEHOLDER, sanitizeImageUrl } from '../../lib/security';
 
 /**
  * El flyer que recibe a quien abre el sitio.
@@ -89,15 +90,43 @@ export function AnnouncementPopup() {
      recupera la clave de entrada, pero el anuncio ya salió en esta carga. */
   const esEntradaDirecta = location.key === CLAVE_DE_ENTRADA;
 
+  /* Solo se abre si la foto carga de verdad. Un anuncio guardado en un
+     navegador puede apuntar a un flyer que ya se borró del sitio —pasó con el
+     de septiembre, que siguió saliendo en el celular del dueño porque su copia
+     local de los ajustes lo tenía encendido—, y entonces el visitante veía un
+     cuadro vacío con la X. Se descarga primero y, si falla, no sale nada. */
   useEffect(() => {
     if (!activo || yaSeMostro || !esEntradaDirecta) return;
     if (!esElSitioDeLaTienda()) return;
-    const temporizador = setTimeout(() => {
+    const src = sanitizeImageUrl(anuncio.image);
+    if (!src || src === IMAGE_PLACEHOLDER) return;
+
+    let cargada = false;
+    let vencido = false;
+    let cancelado = false;
+    const abrir = () => {
+      if (cancelado || !cargada || !vencido || yaSeMostro) return;
       yaSeMostro = true;
       setAbierto(true);
+    };
+
+    const previa = new Image();
+    previa.onload = () => {
+      cargada = previa.naturalWidth > 0;
+      abrir();
+    };
+    previa.src = src;
+
+    const temporizador = setTimeout(() => {
+      vencido = true;
+      abrir();
     }, RETARDO_MS);
-    return () => clearTimeout(temporizador);
-  }, [activo, esEntradaDirecta]);
+    return () => {
+      cancelado = true;
+      previa.onload = null;
+      clearTimeout(temporizador);
+    };
+  }, [activo, esEntradaDirecta, anuncio.image]);
 
   const cerrar = useCallback(() => setAbierto(false), []);
 
