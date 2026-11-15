@@ -85,6 +85,49 @@ export function vieneDelCodigo(id: string): boolean {
   return FIRMAS_DEL_CODIGO.has(id);
 }
 
+/* Los ids que pone el panel al crear un par: `sneaker-` y un UUID
+   (`crypto.randomUUID`), o, donde el navegador no lo ofrece, el respaldo de
+   `uuid()` en `security.ts` —el reloj en base 36 y ocho caracteres al azar—.
+   Los del código son el nombre del archivo: `sneaker-nike-dunk-low-panda`. */
+const ID_UUID = /^sneaker-[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i;
+const ID_RESPALDO = /^sneaker-([0-9a-z]{8,9})-([0-9a-z]{8})$/;
+/* El panel existe desde 2026: un reloj fuera de esa ventana no es un id suyo. */
+const RELOJ_MIN = Date.parse('2026-01-01');
+const RELOJ_MAX = Date.parse('2031-01-01');
+
+/**
+ * ¿Este id lo puso el panel al crear un par?
+ *
+ * Hace falta porque "no está en el código" no basta para decir "lo creó el
+ * dueño": un par que el código renombró o retiró tampoco está, y la fusión lo
+ * conservaba para siempre en el navegador de cada visitante que ya había
+ * entrado, con la foto rota —el Calm Mule que pasó a ser NIKE MIND 001 en
+ * agosto seguía saliendo como "Sin imagen" en noviembre—. El respaldo exige
+ * que el primer tramo sea un reloj de la vida del panel; al tramo al azar no
+ * se le pide nada, porque puede salir sin dígitos y equivocarse ahí borraría
+ * un par que el dueño sí creó.
+ */
+export function creadoEnPanel(id: string): boolean {
+  if (ID_UUID.test(id)) return true;
+  const m = ID_RESPALDO.exec(id);
+  if (!m) return false;
+  const reloj = parseInt(m[1], 36);
+  return reloj >= RELOJ_MIN && reloj < RELOJ_MAX;
+}
+
+/**
+ * Suelta los pares fantasma: los que no están en el código ni llevan un id
+ * del panel, es decir, los que el código renombró o retiró.
+ *
+ * La fusión ya los descarta, pero solo corre cuando cambia el catálogo; un
+ * navegador que guardó la copia con fantasmas bajo la huella actual los
+ * seguiría mostrando hasta la próxima carga de fotos.
+ */
+export function sinFantasmas(pares: Sneaker[]): Sneaker[] {
+  const limpios = pares.filter((s) => vieneDelCodigo(s.id) || creadoEnPanel(s.id));
+  return limpios.length === pares.length ? pares : limpios;
+}
+
 /**
  * Qué le hizo el panel al catálogo del código.
  *
@@ -127,7 +170,9 @@ export function fusionaConCodigo(
   );
 
   /* Los pares creados en el panel van primero: es donde los deja `upsertSneaker`
-     y donde el dueño espera encontrarlos al abrir el catálogo. */
-  const propios = guardados.filter((s) => !vieneDelCodigo(s.id));
+     y donde el dueño espera encontrarlos al abrir el catálogo. Lo que no está
+     en el código y tampoco lleva un id del panel es un par que el código
+     renombró o retiró: se suelta. */
+  const propios = guardados.filter((s) => !vieneDelCodigo(s.id) && creadoEnPanel(s.id));
   return [...propios, ...delCodigo];
 }
