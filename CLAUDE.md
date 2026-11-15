@@ -47,6 +47,12 @@ Tres fuentes, y en este orden manda cada una:
    pares nuevos y las fotos corregidas de los que nadie tocó. Los ajustes y las
    entregas se siguen tomando de la nube.
 
+   Un par guardado que no está en el código solo se conserva si su id es de
+   los que pone el panel (`sneaker-<uuid>`, ver `creadoEnPanel()`): si no, es
+   un par que el código renombró o retiró, y `sinFantasmas()` lo suelta. Antes
+   se conservaba para siempre en cada navegador que ya había entrado, con la
+   foto rota ("Sin imagen"). Renombrar un archivo de foto cambia el id del par.
+
    Esas dos listas se deducen comparando contra el código **al editar**, que es
    cuando la comparación vale: después de regenerar, el par del código ya es otro
    y "distinto" dejaría de significar "lo editó el dueño". Por eso se guardan y

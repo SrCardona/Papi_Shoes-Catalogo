@@ -25,6 +25,7 @@ import {
   SIN_DECISIONES,
   decisionesDe,
   fusionaConCodigo,
+  sinFantasmas,
 } from '../lib/catalogo';
 import {
   guardarEstado,
@@ -112,7 +113,7 @@ function loadInventory(): Sneaker[] {
        descarta lo guardado: se fusiona, para que el código traiga sus pares
        nuevos sin llevarse por delante lo que se cargó desde el panel. */
     return localStorage.getItem(CATALOG_VERSION_KEY) === HUELLA_CATALOGO
-      ? parsed
+      ? sinFantasmas(parsed)
       : fusionaConCodigo(parsed, loadDecisions());
   } catch {
     return INITIAL_SNEAKERS;
@@ -281,7 +282,7 @@ export function StoreProvider({ children }: { children: ReactNode }) {
     const guardados = validateSneakers(estado.sneakers);
     const inventario = otroCatalogo
       ? fusionaConCodigo(guardados, validateCatalogDecisions(estado.catalogo))
-      : guardados;
+      : sinFantasmas(guardados);
     const pares = inventario.length ? inventario : INITIAL_SNEAKERS;
     const entregas = validateDeliveries(estado.deliveries);
     const ajustes = validateSettings(estado.settings, datosRef.current.settings);
@@ -294,9 +295,11 @@ export function StoreProvider({ children }: { children: ReactNode }) {
     /* Tras una fusión, lo que quedó en pantalla ya no es lo que está publicado.
        Se deja el último envío en blanco para que la publicación automática suba
        el catálogo fusionado en vez de darlo por idéntico y no mandar nada. */
-    ultimoEnviadoRef.current = otroCatalogo
-      ? ''
-      : JSON.stringify(borradorDe(pares, entregas, ajustes));
+    // Lo mismo si se soltaron fantasmas: lo publicado ya no es lo que se ve.
+    ultimoEnviadoRef.current =
+      otroCatalogo || inventario !== guardados
+        ? ''
+        : JSON.stringify(borradorDe(pares, entregas, ajustes));
     // Lo que acaba de llegar no es un cambio local: el reloj se pone a la par
     // para que no quede marcado como pendiente de publicar.
     escribirSelloLocal(estado.actualizadoEn);
