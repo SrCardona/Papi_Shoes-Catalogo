@@ -68,18 +68,20 @@ export function CuentaRegresiva({ className }: { className?: string }) {
     <div
       role="timer"
       aria-label={`Faltan ${f.dias} días, ${f.horas} horas y ${f.minutos} minutos para que termine el Black Friday`}
-      className={cx('flex items-stretch gap-2 sm:gap-3', className)}
+      /* Cuatro columnas iguales que se encogen con la pantalla: con un ancho
+         mínimo fijo por casilla, en un teléfono de 320 px no cabían. */
+      className={cx('grid w-full max-w-[400px] grid-cols-4 gap-2 sm:gap-3', className)}
     >
       {casillas.map(([n, rotulo], i) => (
         <div
           key={rotulo}
           aria-hidden
-          className="flex min-w-[64px] sm:min-w-[84px] flex-col items-center rounded-tarjeta border border-white/10 bg-obsidian/70 px-3 py-3 sm:py-4"
+          className="flex min-w-0 flex-col items-center rounded-tarjeta border border-white/10 bg-obsidian/70 px-1 py-3 sm:py-4"
         >
-          <span className="font-display text-[34px] sm:text-[48px] leading-none text-marble tabular-nums">
+          <span className="font-display text-[clamp(28px,9vw,48px)] leading-none text-marble tabular-nums">
             {i === 0 ? f.dias : dos(n)}
           </span>
-          <span className="mt-2 text-rotulo font-semibold uppercase tracking-[0.18em] text-terciario">
+          <span className="mt-2 text-rotulo font-semibold uppercase tracking-[0.06em] sm:tracking-[0.18em] text-terciario">
             {rotulo}
           </span>
         </div>
