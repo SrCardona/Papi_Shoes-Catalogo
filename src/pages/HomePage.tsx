@@ -351,7 +351,9 @@ export function HomePage() {
               >
                 {room.room}
               </span>
-              <h3 className="mt-5 font-display text-[clamp(64px,8vw,112px)] leading-[0.88] text-marble">
+              {/* En el teléfono el tamaño sigue al ancho: con 64 px fijos de
+                  mínimo, "ORIGINALES" no cabía en 320 px y se cortaba. */}
+              <h3 className="mt-5 font-display text-[clamp(46px,14.5vw,64px)] md:text-[clamp(64px,8vw,112px)] leading-[0.88] text-marble">
                 {room.title}
               </h3>
               <p className="mt-4 max-w-[300px] text-lectura leading-relaxed text-secundario">

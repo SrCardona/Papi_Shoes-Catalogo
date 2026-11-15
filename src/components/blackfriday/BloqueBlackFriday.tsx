@@ -31,7 +31,7 @@ export function BloqueBlackFriday() {
       className="max-w-[1400px] mx-auto px-5 lg:px-8 pt-14 sm:pt-20"
     >
       <div
-        className="relative overflow-hidden rounded-sala border border-white/10 px-6 py-10 sm:px-12 sm:py-14"
+        className="relative overflow-hidden rounded-sala border border-white/10 px-5 py-10 sm:px-12 sm:py-14"
         style={{
           background:
             'radial-gradient(ellipse 60% 70% at 85% 100%, rgb(30 58 138 / 0.35), transparent 70%), radial-gradient(ellipse 50% 60% at 10% 0%, rgb(200 200 200 / 0.06), transparent 70%), #070707',
@@ -43,9 +43,11 @@ export function BloqueBlackFriday() {
           className="absolute inset-0 bg-[radial-gradient(rgb(255_255_255/0.06)_1px,transparent_1px)] bg-[length:22px_22px]"
         />
 
+        {/* `min-w-0` en las dos columnas: sin él, lo que no cabe ensancha
+            la columna en vez de ajustarse, y el bloque se desborda. */}
         <div className="relative grid items-center gap-10 lg:grid-cols-[1.25fr_1fr]">
-          <div>
-            <p className="text-rotulo font-bold uppercase tracking-[0.3em] text-lapis-texto">
+          <div className="min-w-0">
+            <p className="text-rotulo font-bold uppercase tracking-[0.18em] sm:tracking-[0.3em] text-lapis-texto">
               Solo hasta el 30 de noviembre
             </p>
 
@@ -72,9 +74,14 @@ export function BloqueBlackFriday() {
               {...{ [SIN_FLOTANTE]: '' }}
               className="mt-9 flex flex-col sm:flex-row sm:items-center gap-3"
             >
-              <Link to="/sneakers" className="btn group">
-                Ver los Sneakers a {precio}
-                <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
+              {/* En el celular, a lo ancho y sin el precio: el botón no parte
+                  renglón, y con el precio adentro medía más que la columna en
+                  un iPhone, la empujaba hacia la derecha y se salía del
+                  bloque. El precio ya está gigante justo arriba. */}
+              <Link to="/sneakers" className="btn group w-full sm:w-auto">
+                <span className="sm:hidden">Ver los Sneakers</span>
+                <span className="hidden sm:inline">Ver los Sneakers a {precio}</span>
+                <ArrowRight className="w-4 h-4 shrink-0 transition-transform group-hover:translate-x-1" />
               </Link>
             </div>
 
@@ -86,7 +93,7 @@ export function BloqueBlackFriday() {
 
           {/* El tenis flota a la derecha en escritorio y queda abajo en el
               celular. La sombra es la de piso, la única permitida. */}
-          <div aria-hidden className="relative mx-auto w-full max-w-[460px]">
+          <div aria-hidden className="relative mx-auto w-full min-w-0 max-w-[460px]">
             <img
               src="/recortes/sneakers/nike-dunk-low-unc.webp"
               alt=""
