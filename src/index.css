@@ -451,6 +451,43 @@
   }
 }
 
+/* ═══ BLACK FRIDAY ═══════════════════════════════════════════
+   Un brillo que cruza el título del bloque de campaña cada siete segundos.
+   Es lo único que se mueve del Black Friday: pieza de campaña, se ve pocas
+   veces. Solo `transform` sobre una capa encima, que el navegador mueve sin
+   repintar; `overlay` aclara el metal y apenas toca el fondo negro. Con
+   movimiento reducido no corre (la regla global la deja en su punto de
+   partida, fuera del título). */
+.titulo-bf {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+}
+.titulo-bf::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: linear-gradient(
+    100deg,
+    transparent 35%,
+    rgb(255 255 255 / 0.6) 50%,
+    transparent 65%
+  );
+  mix-blend-mode: overlay;
+  transform: translateX(-110%);
+  animation: brillo-bf 7s cubic-bezier(0.77, 0, 0.175, 1) infinite;
+}
+@keyframes brillo-bf {
+  0% {
+    transform: translateX(-110%);
+  }
+  25%,
+  100% {
+    transform: translateX(110%);
+  }
+}
+
 /* ═══ NAVIDAD ═════════════════════════════════════════════════
    Todo lo de aquí abajo es decoración de temporada: lo monta `NAVIDAD`
    (`lib/temporada.ts`) y desaparece solo el 4 de enero. Los colores rojo,

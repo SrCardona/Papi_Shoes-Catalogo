@@ -567,6 +567,19 @@ es la excepción pactada a tres reglas de abajo: el rojo, oro y verde
 insignia sobre la foto (oscura, pequeña, solo ícono en el celular). El panel
 no lleva decoración. `?navidad=si` / `?navidad=no` la fuerzan para revisar.
 
+**Black Friday (campaña).** Del 15 al 30 de noviembre de 2026 (hasta las
+11:59:59 p. m., hora de Colombia) toda la línea Sneakers vale
+`PRECIO_BLACK_FRIDAY` (164.900). No se toca el catálogo ni la nube: el precio
+se cambia **al mostrarlo** con `conPrecioVigente()` de `lib/temporada.ts`, que
+usan la tarjeta, la ficha, los filtros y el mensaje de WhatsApp; el precio
+tachado es el normal de ese día, no el "antes" del catálogo. Se pregunta la
+fecha en cada uso y la cuenta regresiva recarga la página al llegar a cero,
+así que todo vuelve solo. Piezas: `components/blackfriday/` (bloque de la
+portada y cuenta regresiva), píldora del hero, frase en la cinta y franja en
+Sneakers y Catálogo. Las fichas estáticas no llevan el precio de campaña
+(no se reescriben solas el 1 de diciembre). `?blackfriday=si` / `=no` la
+fuerzan para revisar. Originales no entran.
+
 **Un solo acento: el lapislázuli.** Nada de verdes, ámbares ni otros azules en
 el sitio público. `lapis` va en rellenos (la barra de anuncio, el descuento
 sobre la foto de la ficha, la selección, la luz del hero, la línea del

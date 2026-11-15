@@ -1,3 +1,5 @@
+import type { Sneaker } from '../types';
+
 /**
  * Temporadas del sitio: decoración que se prende y se apaga sola por fecha.
  *
@@ -29,6 +31,49 @@ export function esNavidad(ahora: number = Date.now()): boolean {
     if (forzada === 'no') return false;
   }
   return ahora >= INICIO_NAVIDAD && ahora < FIN_NAVIDAD;
+}
+
+/* ═══ BLACK FRIDAY ════════════════════════════════════════════════════════
+   Toda la línea Sneakers a un precio único durante lo que queda de noviembre.
+   No se toca el catálogo ni la nube: el precio se cambia al mostrarlo, así que
+   el 30 de noviembre a las 11:59:59 p. m. (hora de Colombia) todo vuelve solo
+   a su precio normal, sin publicar nada. Los Originales no entran. */
+
+export const PRECIO_BLACK_FRIDAY = 164_900;
+const INICIO_BLACK_FRIDAY = Date.parse('2026-11-15T00:00:00-05:00');
+/** Primer instante sin Black Friday: el 30 de noviembre termina a las 11:59:59 p. m. */
+export const FIN_BLACK_FRIDAY = Date.parse('2026-12-01T00:00:00-05:00');
+
+/**
+ * Si hoy es Black Friday. Se pregunta en cada uso, no una vez al cargar: una
+ * pestaña abierta al cruzar la medianoche del 30 no puede seguir vendiendo al
+ * precio de campaña. `?blackfriday=si` / `?blackfriday=no` la fuerzan.
+ */
+export function esBlackFriday(ahora: number = Date.now()): boolean {
+  if (typeof window !== 'undefined') {
+    const forzada = new URLSearchParams(window.location.search).get('blackfriday');
+    if (forzada === 'si') return true;
+    if (forzada === 'no') return false;
+  }
+  return ahora >= INICIO_BLACK_FRIDAY && ahora < FIN_BLACK_FRIDAY;
+}
+
+/** El par entra a la campaña: es de la línea Sneakers y cuesta más que el precio único. */
+export function entraABlackFriday(s: Sneaker): boolean {
+  return s.category === 'general' && s.price > PRECIO_BLACK_FRIDAY;
+}
+
+/**
+ * El par con el precio que rige hoy.
+ *
+ * El precio anterior que se tacha es el precio normal de ese día (179.900,
+ * 189.900…), no el "antes" inflado del catálogo: un descuento de campaña tiene
+ * que medirse contra lo que de verdad costaba ayer. Se puede aplicar dos veces
+ * sin daño: un par que ya vale 164.900 no vuelve a entrar.
+ */
+export function conPrecioVigente(s: Sneaker): Sneaker {
+  if (!esBlackFriday() || !entraABlackFriday(s)) return s;
+  return { ...s, price: PRECIO_BLACK_FRIDAY, originalPrice: s.price };
 }
 
 /**

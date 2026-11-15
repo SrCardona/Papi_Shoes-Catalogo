@@ -1,7 +1,12 @@
 import { Link } from 'react-router-dom';
 import { Gift, MessageCircle } from 'lucide-react';
 import type { Sneaker } from '../../types';
-import { NAVIDAD } from '../../lib/temporada';
+import {
+  NAVIDAD,
+  PRECIO_BLACK_FRIDAY,
+  conPrecioVigente,
+  esBlackFriday,
+} from '../../lib/temporada';
 import { useStore } from '../../context/StoreContext';
 import { SmartImage } from './SmartImage';
 import { NO_ES_MARCA } from '../../lib/marcas';
@@ -69,12 +74,22 @@ interface SneakerColumnProps {
  * "Verificado" solo existe en Originales.
  */
 export function SneakerColumn({
-  sneaker,
+  sneaker: par,
   index = 0,
   priority = false,
   lineaUnica = false,
 }: SneakerColumnProps) {
   const { settings } = useStore();
+  /* El precio que rige hoy (Black Friday en Sneakers). Todo lo de la tarjeta
+     —precio, tachado, descuento, mensaje de WhatsApp— sale de aquí. */
+  const sneaker = conPrecioVigente(par);
+  /* Mirado sobre el resultado y no comparando objetos: el catálogo ya le pasa
+     a la tarjeta el par con el precio de campaña puesto. */
+  const enBlackFriday =
+    esBlackFriday() &&
+    sneaker.category === 'general' &&
+    sneaker.price === PRECIO_BLACK_FRIDAY &&
+    (sneaker.originalPrice ?? 0) > PRECIO_BLACK_FRIDAY;
   const discount = discountPercent(sneaker);
   const isOriginal = sneaker.category === 'originales';
   const isVerified = isOriginal && sneaker.isOriginalCertified;
@@ -200,6 +215,9 @@ export function SneakerColumn({
             {/* La disponibilidad en gris, como texto: sin verde ni ícono de
                 estado. Cada dato entero o a la línea siguiente, nunca partido. */}
             <p className="flex flex-wrap content-start gap-x-3 gap-y-1 pt-3 border-t border-white/10 whitespace-nowrap text-rotulo uppercase tracking-[0.04em] sm:tracking-[0.14em] text-terciario">
+              {/* El rótulo de campaña, en el azul de texto de la casa: es lo que
+                  explica por qué el precio de esta tarjeta es otro. */}
+              {enBlackFriday && <span className="text-lapis-texto font-semibold">Black Friday</span>}
               {esNuevo(sneaker) && !isSoldOut && <span className="text-secundario">Nuevo</span>}
               <span>{STATUS_LABEL[sneaker.status]}</span>
               {isVerified && <span>Verificado</span>}

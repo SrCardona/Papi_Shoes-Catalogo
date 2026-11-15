@@ -9,6 +9,9 @@ import { Colonnade } from '../components/ui/SneakerColumn';
 import { FilterRail } from '../components/ui/FilterRail';
 import { EmptyState } from '../components/ui/EmptyState';
 import { SectionHeader } from '../components/ui/SectionHeader';
+import { Tag } from 'lucide-react';
+import { esBlackFriday } from '../lib/temporada';
+import { CuentaRegresivaCorta } from '../components/blackfriday/CuentaRegresiva';
 
 /* Tarjetas por tanda: múltiplo de 2, 3 y 4 para que cada tanda cierre filas
    completas en el celular, la tableta y el escritorio. */
@@ -211,6 +214,21 @@ export function CatalogPage({
           title={encabezado.title}
           description={encabezado.description}
         />
+        {/* La campaña, dicha donde se compra. No en Originales: esa línea
+            conserva su precio y la franja ahí haría creer lo contrario. */}
+        {esBlackFriday() && category !== 'originales' && (
+          <div className="mt-7 flex flex-col sm:flex-row sm:items-center gap-x-5 gap-y-2 rounded-tarjeta border border-lapis-texto/30 bg-lapis/15 px-5 py-4">
+            <p className="flex items-center gap-2.5 font-display text-2xl sm:text-3xl text-marble">
+              <Tag aria-hidden className="w-5 h-5 shrink-0 text-lapis-texto" />
+              Black Friday
+            </p>
+            <p className="text-lectura text-secundario">
+              {category ? 'Toda la línea' : 'Toda la línea Sneakers'} a{' '}
+              <span className="font-semibold text-marble">$164.900</span>. Termina en{' '}
+              <CuentaRegresivaCorta className="font-semibold text-marble" />.
+            </p>
+          </div>
+        )}
         {grupoActivo && incluye && (
           <p className="mt-4 text-lectura text-terciario max-w-xl">
             <span className="uppercase tracking-[0.2em] text-terciario">

@@ -1,5 +1,6 @@
 import type { Sneaker, StoreSettings } from '../types';
 import { FONDOS_FOTOS } from '../data/fondosFotos';
+import { conPrecioVigente } from './temporada';
 
 /* ── Fondo de la celda de una foto ──────────────────────────────────────── */
 
@@ -97,10 +98,12 @@ export function waHref(number: string, message: string): string {
 }
 
 export function generateWhatsAppLink(
-  sneaker: Sneaker,
+  par: Sneaker,
   selectedSize: string | number | null,
   settings: StoreSettings,
 ): string {
+  // El mensaje lleva el precio que rige hoy: en Black Friday, el de campaña.
+  const sneaker = conPrecioVigente(par);
   const size = selectedSize ? String(selectedSize) : 'por confirmar';
   const category =
     sneaker.category === 'originales'

@@ -1,11 +1,12 @@
 import { Fragment, useEffect, useState, type ReactNode } from 'react';
 import { Link, NavLink, useLocation, useNavigate } from 'react-router-dom';
-import { Gift, Instagram, Menu, MessageCircle, Search, X } from 'lucide-react';
+import { Gift, Instagram, Menu, MessageCircle, Search, Tag, X } from 'lucide-react';
 import { useStore } from '../../context/StoreContext';
 import { useMarcasAgrupadas } from '../../hooks/useMarcasPorLinea';
 import { useMovimientoReducido } from '../../hooks/useMovimientoReducido';
 import { TempleMark } from '../ui/TempleMark';
 import { Luces } from '../navidad/Luces';
+import { esBlackFriday } from '../../lib/temporada';
 import { BrandAccordion, BrandDropdown } from './BrandDropdown';
 import { cx, generateDirectWhatsAppContact, instagramUrl } from '../../lib/utils';
 
@@ -28,6 +29,7 @@ const NAV_LINKS = [
 ];
 
 const FELIZ_NAVIDAD = 'Feliz Navidad desde el templo';
+const BLACK_FRIDAY_CINTA = 'Black Friday: Sneakers a $164.900 hasta el 30 de noviembre';
 
 /** Una frase de la cinta, con el punto que la separa de la siguiente. */
 function TramoCinta({ children }: { children: ReactNode }) {
@@ -63,6 +65,13 @@ export function Navbar({ navidad = false }: { navidad?: boolean }) {
     .map((t) => t.trim())
     .filter(Boolean);
   const anuncioCorto = tramos[0] ?? '';
+  /* Frases de temporada, delante del anuncio de la tienda y en orden de
+     urgencia: la campaña que se acaba primero va primero. Con movimiento
+     reducido, en el celular solo cabe la primera. */
+  const especiales = [
+    ...(esBlackFriday() ? [{ texto: BLACK_FRIDAY_CINTA, Icono: Tag }] : []),
+    ...(navidad ? [{ texto: FELIZ_NAVIDAD, Icono: Gift }] : []),
+  ];
 
   // El menú móvil se cierra al cambiar de ruta. Ajustar el estado durante el
   // render (en vez de en un efecto) evita el parpadeo de un render intermedio
@@ -129,10 +138,10 @@ export function Navbar({ navidad = false }: { navidad?: boolean }) {
           {reducido ? (
             <>
               <p className="sm:hidden py-2.5 px-4 text-center text-rotulo font-semibold uppercase tracking-[0.16em] truncate">
-                {navidad ? FELIZ_NAVIDAD : anuncioCorto}
+                {especiales[0]?.texto ?? anuncioCorto}
               </p>
               <p className="hidden sm:block py-2.5 px-4 text-center text-rotulo font-semibold uppercase tracking-[0.24em] truncate">
-                {navidad ? `${FELIZ_NAVIDAD} · ${settings.announcement}` : settings.announcement}
+                {[...especiales.map((e) => e.texto), settings.announcement].join(' · ')}
               </p>
             </>
           ) : (
@@ -140,7 +149,7 @@ export function Navbar({ navidad = false }: { navidad?: boolean }) {
               {/* Lo que oye un lector de pantalla: el anuncio una vez, entero.
                   La cinta repite cada frase y se le esconde. */}
               <p className="sr-only">
-                {navidad ? `${FELIZ_NAVIDAD}. ` : ''}
+                {especiales.map((e) => `${e.texto}. `).join('')}
                 {tramos.join('. ')}
               </p>
               <div aria-hidden className="cinta">
@@ -151,12 +160,12 @@ export function Navbar({ navidad = false }: { navidad?: boolean }) {
                         1920 px y la cinta mostraba un hueco antes de repetir. */}
                     {[0, 1].map((vuelta) => (
                       <Fragment key={vuelta}>
-                        {navidad && (
-                          <TramoCinta>
-                            <Gift className="w-3.5 h-3.5 shrink-0" />
-                            {FELIZ_NAVIDAD}
+                        {especiales.map(({ texto, Icono }) => (
+                          <TramoCinta key={texto}>
+                            <Icono className="w-3.5 h-3.5 shrink-0" />
+                            {texto}
                           </TramoCinta>
-                        )}
+                        ))}
                         {tramos.map((tramo, i) => (
                           <TramoCinta key={i}>{tramo}</TramoCinta>
                         ))}
