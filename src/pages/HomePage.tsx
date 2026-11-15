@@ -1,7 +1,8 @@
 import { useMemo, useState } from 'react';
 import { Link } from 'react-router-dom';
-import { ArrowRight, MessageCircle, Snowflake } from 'lucide-react';
-import { NAVIDAD } from '../lib/temporada';
+import { ArrowRight, MessageCircle, Snowflake, Tag } from 'lucide-react';
+import { NAVIDAD, esBlackFriday } from '../lib/temporada';
+import { BloqueBlackFriday } from '../components/blackfriday/BloqueBlackFriday';
 import { Arbol } from '../components/navidad/Arbol';
 import { Mono } from '../components/navidad/Mono';
 import type { Sneaker } from '../types';
@@ -25,6 +26,7 @@ const CHIPS_ALTAR = 9;
 
 export function HomePage() {
   const { sneakers, settings, deliveries } = useStore();
+  const blackFriday = esBlackFriday();
   const marcas = useMarcasPorLinea();
   const agrupadas = useMarcasAgrupadas();
 
@@ -165,7 +167,17 @@ export function HomePage() {
 
         <div className="relative max-w-[1400px] mx-auto px-5 lg:px-8 pt-11 pb-14 sm:pb-[72px]">
           <div className="flex flex-col items-center text-center">
-            {NAVIDAD && (
+            {/* Durante el Black Friday la píldora anuncia la campaña y lleva
+                al bloque de abajo; después vuelve la de Navidad. */}
+            {blackFriday ? (
+              <a
+                href="#titulo-black-friday"
+                className="mb-4 inline-flex items-center gap-2 sm:gap-2.5 px-3.5 sm:px-4 py-2 rounded-full border border-lapis-texto/40 bg-lapis/25 whitespace-nowrap text-rotulo font-bold uppercase tracking-[0.1em] sm:tracking-[0.26em] text-marble animate-rise"
+              >
+                <Tag aria-hidden className="w-3.5 h-3.5 shrink-0 text-lapis-texto" />
+                Black Friday · Sneakers a $164.900
+              </a>
+            ) : NAVIDAD && (
               /* En el celular con el tracking cerrado y en un renglón: a 0,24em
                  la frase se partía en dos dentro de la píldora. */
               <p className="mb-4 inline-flex items-center gap-2 sm:gap-2.5 px-3.5 sm:px-4 py-2 rounded-full border border-white/14 bg-navidad-rojo/15 whitespace-nowrap text-rotulo font-bold uppercase tracking-[0.1em] sm:tracking-[0.3em] text-marble animate-rise">
@@ -282,6 +294,9 @@ export function HomePage() {
       {/* Las historias destacadas salieron de la portada con el rediseño v2.
           `HighlightRail` y lo que edita el panel siguen en su sitio: volver a
           montarlas es una línea aquí. */}
+
+      {/* ═══ BLACK FRIDAY ═════════════════════════════════════════════════ */}
+      {blackFriday && <BloqueBlackFriday />}
 
       {/* ═══ LAS DOS LÍNEAS ═══════════════════════════════════════════════ */}
       <section className="max-w-[1400px] mx-auto px-5 lg:px-8 py-14 sm:py-20">

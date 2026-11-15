@@ -10,6 +10,7 @@ import {
   Ruler,
   Share2,
   ShieldCheck,
+  Tag,
   Truck,
 } from 'lucide-react';
 import { useStore } from '../context/StoreContext';
@@ -18,6 +19,8 @@ import { SizeGuide } from '../components/ui/SizeGuide';
 import { Colonnade } from '../components/ui/SneakerColumn';
 import { SectionHeader } from '../components/ui/SectionHeader';
 import { NO_ES_MARCA } from '../lib/marcas';
+import { conPrecioVigente } from '../lib/temporada';
+import { CuentaRegresivaCorta } from '../components/blackfriday/CuentaRegresiva';
 import {
   cx,
   discountPercent,
@@ -46,7 +49,14 @@ function ProductView({ id }: { id?: string }) {
   const navigate = useNavigate();
   const { getSneaker, sneakers, settings } = useStore();
 
-  const sneaker = id ? getSneaker(id) : undefined;
+  /* Con el precio que rige hoy: en Black Friday, el de campaña en Sneakers. */
+  const guardado = id ? getSneaker(id) : undefined;
+  // Memorizado: el título y los pares parecidos dependen de él en efectos.
+  const sneaker = useMemo(
+    () => (guardado ? conPrecioVigente(guardado) : undefined),
+    [guardado],
+  );
+  const enBlackFriday = Boolean(guardado && sneaker !== guardado);
   const igUrl = instagramUrl(settings.instagramHandle);
 
   const [imageIndex, setImageIndex] = useState(0);
@@ -302,6 +312,17 @@ function ProductView({ id }: { id?: string }) {
                 </span>
               )}
             </div>
+            {/* Por qué este precio es otro, y hasta cuándo. Va pegado al
+                precio y antes de las tallas: es lo que decide la compra. */}
+            {enBlackFriday && (
+              <p className="-mt-3 flex flex-wrap items-center gap-x-2 gap-y-1 text-rotulo font-semibold uppercase tracking-[0.16em] text-lapis-texto">
+                <Tag aria-hidden className="w-3.5 h-3.5 shrink-0" />
+                Precio Black Friday
+                <span className="text-terciario font-normal tracking-[0.1em]">
+                  · Termina en <CuentaRegresivaCorta />
+                </span>
+              </p>
+            )}
 
             {/* Tallas */}
             <div className="space-y-3.5">

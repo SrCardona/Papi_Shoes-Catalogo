@@ -1,13 +1,18 @@
 import { useCallback, useDeferredValue, useMemo, useState } from 'react';
 import type { FilterState, Sneaker } from '../types';
 import { DEFAULT_FILTERS } from '../types';
+import { conPrecioVigente } from '../lib/temporada';
 
 /**
  * Toda la lógica de filtrado y orden del catálogo, fuera de la vista.
  * Incluye los filtros de precio y género que en la versión anterior existían
  * en el tipo pero nunca se aplicaban.
  */
-export function useCatalogFilters(sneakers: Sneaker[], seed?: Partial<FilterState>) {
+export function useCatalogFilters(base: Sneaker[], seed?: Partial<FilterState>) {
+  /* Filtros, orden y topes del deslizador trabajan con el precio que rige hoy:
+     en Black Friday, "menor precio" y el filtro de presupuesto tienen que ver
+     los 164.900 que muestra la tarjeta, no el precio de lista. */
+  const sneakers = useMemo(() => base.map(conPrecioVigente), [base]);
   const [filters, setFilters] = useState<FilterState>({
     ...DEFAULT_FILTERS,
     ...seed,

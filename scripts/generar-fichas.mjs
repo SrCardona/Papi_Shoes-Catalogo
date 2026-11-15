@@ -99,7 +99,20 @@ function descripcionDe(par) {
   const tallas = par.sizes?.length
     ? ` Tallas ${par.sizes[0]} a ${par.sizes[par.sizes.length - 1]}.`
     : '';
-  return `${linea}.${color} ${precioEnPesos(par.price)}.${tallas} Cotiza por WhatsApp.`;
+  return `${linea}.${color} ${precioEnPesos(par.price)}.${blackFridayDe(par)}${tallas} Cotiza por WhatsApp.`;
+}
+
+/* Black Friday (ver `src/lib/temporada.ts`): la ficha es un archivo estático
+   que solo cambia al compilar, así que NO lleva el precio de campaña —el 1 de
+   diciembre seguiría anunciándolo hasta el siguiente despliegue—. Lleva el
+   precio normal y una frase que, vencida, solo queda vieja, no engañosa. */
+const FIN_BLACK_FRIDAY = Date.parse('2026-12-01T00:00:00-05:00');
+const PRECIO_BLACK_FRIDAY = 164_900;
+
+function blackFridayDe(par) {
+  const vigente = Date.now() < FIN_BLACK_FRIDAY;
+  if (!vigente || par.category !== 'general' || par.price <= PRECIO_BLACK_FRIDAY) return '';
+  return ' Black Friday en la página hasta el 30 de noviembre.';
 }
 
 /**
