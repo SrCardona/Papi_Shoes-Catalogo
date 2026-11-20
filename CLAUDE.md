@@ -1,5 +1,8 @@
 # PAPI SHOES — Contexto del proyecto
 
+> **Sesión nueva o equipo nuevo:** lee también `CONTEXTO.md` antes de empezar.
+> Tiene cómo se trabaja con el dueño, el estado actual y los pendientes.
+
 Catálogo de tenis con cotización por WhatsApp. No hay carrito ni pasarela de
 pago: el objetivo de cada pantalla es llevar a un mensaje de WhatsApp bien
 armado. Todo el texto de cara al usuario va en español de Colombia.
