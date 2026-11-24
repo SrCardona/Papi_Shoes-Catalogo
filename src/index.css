@@ -53,6 +53,10 @@
   /* Tipografía */
   --font-display: 'Anton', 'Impact', sans-serif;
   --font-body: 'Montserrat', system-ui, sans-serif;
+
+  /* Curvas de movimiento. Esta reemplaza la `ease-out` de Tailwind, que
+     arranca tibia: la interfaz tiene que responder desde el primer cuadro. */
+  --ease-out: cubic-bezier(0.23, 1, 0.32, 1);
 }
 
 @layer base {
@@ -72,6 +76,17 @@
     font-family: var(--font-body);
     font-weight: 400;
     -webkit-font-smoothing: antialiased;
+    /* Safari pinta un recuadro gris sobre lo que se toca. La respuesta al
+       toque la dan las tarjetas, botones y chips con `:active`. */
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  /* Sin la espera del doble toque para hacer zoom: el toque responde ya. */
+  a,
+  button,
+  summary,
+  label {
+    touch-action: manipulation;
   }
 
   /* Ningún medio puede empujar el ancho de la página en un teléfono. */
@@ -125,9 +140,9 @@
     text-transform: uppercase;
     white-space: nowrap;
     transition:
-      background-color 300ms,
-      border-color 300ms,
-      transform 300ms;
+      background-color 200ms ease,
+      border-color 200ms ease,
+      transform 200ms var(--ease-out);
   }
   .btn:hover {
     background: var(--color-silver);
@@ -137,6 +152,12 @@
     .btn:hover {
       transform: translateY(-2px);
     }
+  }
+  /* Al presionar se hunde apenas y responde más rápido de lo que sube: el
+     dedo tiene que sentir el botón en el mismo instante. */
+  .btn:active {
+    transform: scale(0.97);
+    transition-duration: 100ms;
   }
 
   /* La misma píldora, hueca: la segunda opción al lado de un `.btn`. */
@@ -165,13 +186,17 @@
     text-transform: uppercase;
     white-space: nowrap;
     transition:
-      color 300ms,
-      border-color 300ms,
-      background-color 300ms;
+      color 200ms ease,
+      border-color 200ms ease,
+      background-color 200ms ease,
+      transform 160ms var(--ease-out);
   }
   .chip:hover {
     color: var(--color-marble);
     border-color: var(--color-silver);
+  }
+  .chip:active {
+    transform: scale(0.96);
   }
   .chip-on,
   .chip-on:hover {
@@ -292,7 +317,7 @@
     border-radius: var(--radius-tarjeta);
     background: var(--color-basalt);
     border: 1px solid rgb(255 255 255 / 0.1);
-    transition: transform 160ms ease-out;
+    transition: transform 160ms var(--ease-out);
 
     /* El catálogo sin filtros monta 615 columnas de una vez, y casi todas
        están fuera de pantalla. Con esto el navegador se salta el cálculo y la
@@ -408,8 +433,26 @@
       opacity: 1;
     }
   }
+  /* Ventanas, menú del celular, respuestas de preguntas: aparecen porque el
+     visitante tocó algo, así que no se hacen esperar. */
   .animate-fade {
-    animation: fade 500ms ease both;
+    animation: fade 220ms var(--ease-out) both;
+  }
+
+  /* Los renglones del menú del celular. `rise` es para secciones que entran
+     al hacer scroll; un menú que se abre a cada rato necesita algo más corto. */
+  @keyframes entra {
+    from {
+      opacity: 0;
+      transform: translateY(8px);
+    }
+    to {
+      opacity: 1;
+      transform: none;
+    }
+  }
+  .animate-entra {
+    animation: entra 280ms var(--ease-out) both;
   }
 
   /* Apertura de un menú: tiene que sentirse instantánea. Los 500 ms de `fade`

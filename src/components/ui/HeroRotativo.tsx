@@ -150,7 +150,7 @@ export function HeroRotativo() {
             >
               <span
                 className={cx(
-                  'block h-1.5 rounded-full transition-all duration-500',
+                  'block h-1.5 rounded-full transition-[width,background-color] duration-300 ease-out',
                   i === indice ? 'w-5 bg-marble' : 'w-1.5 bg-white/25',
                 )}
               />

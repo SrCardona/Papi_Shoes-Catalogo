@@ -165,7 +165,7 @@ export function HighlightRail() {
                   aria-label={story.title}
                   className="group flex flex-col items-center gap-2.5 shrink-0 w-[74px]"
                 >
-                  <span className="relative w-[58px] h-[58px] rounded-full border border-silver/25 group-hover:border-silver/70 flex items-center justify-center text-silver/70 group-hover:text-silver transition-all duration-300 group-hover:-translate-y-0.5">
+                  <span className="relative w-[58px] h-[58px] rounded-full border border-silver/25 group-hover:border-silver/70 flex items-center justify-center text-silver/70 group-hover:text-silver transition-[color,border-color,transform] duration-300 ease-out group-hover:-translate-y-0.5">
                     <HighlightIcon name={story.iconName} />
 
                     {/* Las que abren WhatsApp llevan un punto en el acento: avisa

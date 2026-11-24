@@ -114,14 +114,8 @@ npm run build                 # compila y escribe las 1.305 fichas + sitemap
    Armour, Adidas, Nike y otros). Esperan a que el dueño diga los modelos.
    Recordárselo una vez al empezar una sesión.
 3. **Hallazgos de la revisión del sitio que el dueño no ha aprobado todavía:**
-   - El pie dice "Garantía de calidad y autenticidad verificada en cada
-     entrega" en todas las páginas, también en Sneakers (choca con la regla de
-     la línea). Está en `guaranteeText` de `src/data/initialData.ts`. Propuesta:
-     "Garantía de calidad en cada entrega. Originales con legit check
-     documentado."
    - 66 pares de agosto sin `colorway` (el mensaje de WhatsApp sale sin color).
-   - Las páginas de catálogo no tienen `h1`; en el celular los enlaces del pie,
-     las migas y el botón de compartir miden menos de 44 px.
+   - Las páginas de catálogo no tienen `h1`.
    - Fotos con códigos de proveedor visibles ("3637H", "136-2"…) y una con el
      ícono de otra tienda (el Chuck 70 de lona).
    - Una dirección inexistente responde 200 en vez de 404; la CSP está solo

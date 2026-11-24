@@ -208,7 +208,7 @@ export function DeliveryWall({
                 onClick={() => page(-1)}
                 disabled={reach.atStart}
                 aria-label="Ver entregas anteriores"
-                className="hidden lg:flex absolute left-2 top-1/2 -translate-y-1/2 items-center justify-center w-11 h-11 rounded-full border border-white/12 bg-obsidian/85 text-marble/70 hover:text-marble hover:border-silver/40 disabled:opacity-0 disabled:pointer-events-none transition-all"
+                className="hidden lg:flex absolute left-2 top-1/2 -translate-y-1/2 items-center justify-center w-11 h-11 rounded-full border border-white/12 bg-obsidian/85 text-marble/70 hover:text-marble hover:border-silver/40 disabled:opacity-0 disabled:pointer-events-none transition-[color,border-color,opacity]"
               >
                 <ChevronLeft className="w-5 h-5" />
               </button>
@@ -216,7 +216,7 @@ export function DeliveryWall({
                 onClick={() => page(1)}
                 disabled={reach.atEnd}
                 aria-label="Ver más entregas"
-                className="hidden lg:flex absolute right-2 top-1/2 -translate-y-1/2 items-center justify-center w-11 h-11 rounded-full border border-white/12 bg-obsidian/85 text-marble/70 hover:text-marble hover:border-silver/40 disabled:opacity-0 disabled:pointer-events-none transition-all"
+                className="hidden lg:flex absolute right-2 top-1/2 -translate-y-1/2 items-center justify-center w-11 h-11 rounded-full border border-white/12 bg-obsidian/85 text-marble/70 hover:text-marble hover:border-silver/40 disabled:opacity-0 disabled:pointer-events-none transition-[color,border-color,opacity]"
               >
                 <ChevronRight className="w-5 h-5" />
               </button>

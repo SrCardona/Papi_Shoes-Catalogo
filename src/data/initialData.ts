@@ -39,7 +39,7 @@ export const INITIAL_SETTINGS: StoreSettings = {
   instagramHandle: 'papishoes_oficial',
   tiktokHandle: 'papishoes_cultura',
   locationCity: 'Medellín · Bogotá · Envíos Nacionales',
-  guaranteeText: 'Garantía de calidad y autenticidad verificada en cada entrega.',
+  guaranteeText: 'Garantía de calidad en cada entrega.',
   // Vacías a propósito: son las fotos del dueño, que entran desde
   // Panel › Ajustes › Historias. Hasta entonces cada historia enseña la
   // diapositiva de ejemplo que trae INITIAL_STORIES.
