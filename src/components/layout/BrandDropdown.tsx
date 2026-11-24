@@ -306,7 +306,7 @@ export function BrandAccordion({
         style={{ animationDelay: `${delay}ms` }}
         className={({ isActive }) =>
           cx(
-            'font-display text-3xl py-3.5 border-b border-white/6 animate-rise transition-colors',
+            'font-display text-3xl py-3.5 border-b border-white/6 animate-entra transition-colors',
             isActive ? 'text-marble' : 'text-secundario',
           )
         }
@@ -319,7 +319,7 @@ export function BrandAccordion({
   return (
     <div
       style={{ animationDelay: `${delay}ms` }}
-      className="border-b border-white/6 animate-rise"
+      className="border-b border-white/6 animate-entra"
     >
       <button
         type="button"

@@ -94,7 +94,7 @@ export function Footer({ navidad = false }: { navidad?: boolean }) {
                 <li key={l.to}>
                   <Link
                     to={l.to}
-                    className="text-secundario hover:text-marble transition-colors"
+                    className="tap text-secundario hover:text-marble transition-colors"
                   >
                     {l.label}
                   </Link>

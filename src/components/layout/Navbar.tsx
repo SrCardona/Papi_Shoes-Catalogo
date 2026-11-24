@@ -362,7 +362,7 @@ export function Navbar({ navidad = false }: { navidad?: boolean }) {
                 label={linea.label}
                 marcas={marcas[linea.linea].principales}
                 otras={marcas[linea.linea].otras}
-                delay={i * 55}
+                delay={i * 35}
                 /* Elegir una marca no cambia el pathname —solo la
                    querystring—, así que el cierre por cambio de ruta no se
                    dispara y el menú se quedaría abierto encima del catálogo. */
@@ -373,10 +373,10 @@ export function Navbar({ navidad = false }: { navidad?: boolean }) {
               <NavLink
                 key={link.to}
                 to={link.to}
-                style={{ animationDelay: `${(i + LINEAS.length) * 55}ms` }}
+                style={{ animationDelay: `${(i + LINEAS.length) * 35}ms` }}
                 className={({ isActive }) =>
                   cx(
-                    'font-display text-3xl py-3.5 border-b border-white/6 animate-rise transition-colors',
+                    'font-display text-3xl py-3.5 border-b border-white/6 animate-entra transition-colors',
                     isActive ? 'text-marble' : 'text-secundario',
                   )
                 }

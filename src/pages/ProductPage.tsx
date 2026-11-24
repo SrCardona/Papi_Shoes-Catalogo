@@ -135,13 +135,13 @@ function ProductView({ id }: { id?: string }) {
         className="max-w-[1400px] mx-auto px-5 lg:px-8 pt-7 pb-5"
       >
         <div className="flex items-center gap-2 text-rotulo uppercase tracking-[0.18em] text-terciario">
-          <Link to="/" className="hover:text-marble transition-colors">
+          <Link to="/" className="tap hover:text-marble transition-colors">
             Inicio
           </Link>
           <span>/</span>
           <Link
             to={isOriginal ? '/originales' : '/sneakers'}
-            className="hover:text-marble transition-colors"
+            className="tap hover:text-marble transition-colors"
           >
             {isOriginal ? 'Originales' : 'Sneakers'}
           </Link>
@@ -347,7 +347,7 @@ function ProductView({ id }: { id?: string }) {
                     disabled={isSoldOut}
                     aria-pressed={selectedSize === size}
                     className={cx(
-                      'min-w-14 h-12 px-4 rounded-full text-lectura font-semibold border transition-all disabled:opacity-30 disabled:cursor-not-allowed',
+                      'min-w-14 h-12 px-4 rounded-full text-lectura font-semibold border transition-[color,background-color,border-color,transform] duration-150 ease-out active:scale-95 disabled:opacity-30 disabled:cursor-not-allowed',
                       selectedSize === size
                         ? 'bg-marble text-obsidian border-marble'
                         : 'border-white/14 text-secundario hover:border-silver/50 hover:text-marble',
