@@ -726,5 +726,75 @@
     "name": "Dolce & Gabbana Sorrento",
     "colorway": "Black / White",
     "description": "Slip-on de tejido tipo media en negro, con la banda blanca GABBANA en el empeine y suela blanca con tacos grises."
+  },
+  "skechers-lavender-blue": {
+    "name": "Skechers Lavender / Blue",
+    "colorway": "Lavender / Blue",
+    "sizes": "36-39"
+  },
+  "skechers-triple-white": {
+    "name": "Skechers Triple White",
+    "colorway": "Triple White",
+    "sizes": "36-39"
+  },
+  "skechers-white-pink-lime": {
+    "name": "Skechers White / Pink / Lime",
+    "colorway": "White / Pink / Lime",
+    "sizes": "36-39"
+  },
+  "skechers-black-white": {
+    "name": "Skechers Black / White",
+    "colorway": "Black / White",
+    "sizes": "36-44"
+  },
+  "skechers-triple-black": {
+    "name": "Skechers Triple Black",
+    "colorway": "Triple Black",
+    "sizes": "40-44"
+  },
+  "armani-exchange-black-white": {
+    "name": "Armani Exchange Black / White",
+    "colorway": "Black / White",
+    "sizes": "40-44"
+  },
+  "armani-exchange-black-white-heel": {
+    "name": "Armani Exchange Black / White Heel",
+    "colorway": "Black / White Heel",
+    "sizes": "40-44"
+  },
+  "armani-exchange-black-gum": {
+    "name": "Armani Exchange Black / Gum",
+    "colorway": "Black / Gum",
+    "sizes": "40-44"
+  },
+  "asics-gel-nyc-cream-pink": {
+    "name": "Asics Gel-NYC",
+    "colorway": "Cream / Pink",
+    "sizes": "36-39"
+  },
+  "reebok-npc-ii-triple-white": {
+    "name": "Reebok NPC II",
+    "colorway": "Triple White",
+    "sizes": "36-39"
+  },
+  "vans-knu-skool-black-white": {
+    "name": "Vans Knu Skool",
+    "colorway": "Black / White",
+    "sizes": "40-44"
+  },
+  "chanel-sneakers-silver-white": {
+    "name": "Chanel Sneakers Silver / White",
+    "colorway": "Silver / White",
+    "sizes": "36-39"
+  },
+  "christian-dior-b30-triple-black": {
+    "name": "Christian Dior B30",
+    "colorway": "Triple Black",
+    "sizes": "40-44"
+  },
+  "reebok-x-anuel-aa-black-grey": {
+    "name": "Reebok x Anuel AA",
+    "colorway": "Black / Grey",
+    "sizes": "40-44"
   }
 }

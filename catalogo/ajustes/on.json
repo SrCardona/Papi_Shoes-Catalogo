@@ -93,5 +93,10 @@
     "name": "On Cloudmonster Void",
     "colorway": "Black",
     "sizes": "40-44"
+  },
+  "on-cloudrunner-2-white-black-mint": {
+    "name": "On Cloudrunner 2",
+    "colorway": "White / Black / Mint",
+    "sizes": "40-44"
   }
 }

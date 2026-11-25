@@ -397,5 +397,15 @@
     "name": "New Balance AC Runner",
     "colorway": "Orange / Black",
     "sizes": "40-44"
+  },
+  "new-balance-9060-cream-brown": {
+    "name": "New Balance 9060",
+    "colorway": "Cream / Brown",
+    "sizes": "36-39"
+  },
+  "new-balance-550-sea-salt-brown": {
+    "name": "New Balance 550",
+    "colorway": "Sea Salt / Brown",
+    "sizes": "40-44"
   }
 }

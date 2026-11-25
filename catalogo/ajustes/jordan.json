@@ -958,5 +958,95 @@
     "name": "Jordan 4 Retro Military Black",
     "colorway": "White / Black / Grey",
     "sizes": "40-44"
+  },
+  "air-jordan-4-retro-sail-sail-metallic-gold": {
+    "name": "Air Jordan 4 Retro Sail",
+    "colorway": "Sail / Metallic Gold",
+    "sizes": "36-45"
+  },
+  "air-jordan-4-retro-military-blue-white-military-blue": {
+    "name": "Air Jordan 4 Retro Military Blue",
+    "colorway": "White / Military Blue",
+    "sizes": "40-45"
+  },
+  "air-jordan-4-retro-red-cement-sail-fire-red-cement-grey": {
+    "name": "Air Jordan 4 Retro Red Cement",
+    "colorway": "Sail / Fire Red / Cement Grey",
+    "sizes": "40-45"
+  },
+  "jordan-4-retro-black-white": {
+    "name": "Jordan 4 Retro",
+    "colorway": "Black / White",
+    "sizes": "40-45"
+  },
+  "air-jordan-4-retro-white-light-blue": {
+    "name": "Air Jordan 4 Retro",
+    "colorway": "White / Light Blue",
+    "sizes": "36-40"
+  },
+  "air-jordan-4-retro-white-burgundy": {
+    "name": "Air Jordan 4 Retro",
+    "colorway": "White / Burgundy",
+    "sizes": "36-40"
+  },
+  "jordan-4-retro-white-grey": {
+    "name": "Jordan 4 Retro",
+    "colorway": "White / Grey",
+    "sizes": "36-40"
+  },
+  "air-jordan-13-retro-court-purple-black-court-purple": {
+    "name": "Air Jordan 13 Retro Court Purple",
+    "colorway": "Black / Court Purple",
+    "sizes": "40-44"
+  },
+  "air-jordan-13-retro-bred-black-true-red": {
+    "name": "Air Jordan 13 Retro Bred",
+    "colorway": "Black / True Red",
+    "sizes": "40-44"
+  },
+  "air-jordan-13-retro-playoff-black-true-red-white": {
+    "name": "Air Jordan 13 Retro Playoff",
+    "colorway": "Black / True Red / White",
+    "sizes": "40-44"
+  },
+  "air-jordan-13-retro-triple-black": {
+    "name": "Air Jordan 13 Retro",
+    "colorway": "Triple Black",
+    "sizes": "40-44"
+  },
+  "air-jordan-13-retro-white-varsity-red": {
+    "name": "Air Jordan 13 Retro",
+    "colorway": "White / Varsity Red",
+    "sizes": "40-44"
+  },
+  "air-jordan-13-retro-he-got-game-white-black-true-red": {
+    "name": "Air Jordan 13 Retro He Got Game",
+    "colorway": "White / Black / True Red",
+    "sizes": "40-44"
+  },
+  "air-jordan-1-high-denim-pink": {
+    "name": "Air Jordan 1 High",
+    "colorway": "Denim / Pink",
+    "sizes": "36-39"
+  },
+  "air-jordan-1-high-panda-white-black": {
+    "name": "Air Jordan 1 High Panda",
+    "colorway": "White / Black",
+    "sizes": "36-39"
+  },
+  "air-jordan-1-high-white-burgundy": {
+    "name": "Air Jordan 1 High",
+    "colorway": "White / Burgundy",
+    "sizes": "36-39"
+  },
+  "air-jordan-1-high-orange-black": {
+    "name": "Air Jordan 1 High",
+    "colorway": "Orange / Black",
+    "sizes": "36-39"
+  },
+  "air-jordan-1-low-bred-black-gym-red": {
+    "name": "Air Jordan 1 Low Bred",
+    "colorway": "Black / Gym Red",
+    "sizes": "36-44"
   }
 }

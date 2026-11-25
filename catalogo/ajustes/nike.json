@@ -2203,5 +2203,220 @@
     "name": "Nike Vomero 18",
     "colorway": "Sage / Black / Volt",
     "sizes": "40-44"
+  },
+  "nike-ja-morant-multicolor": {
+    "name": "Nike Ja Morant",
+    "colorway": "Multicolor",
+    "sizes": "36-39"
+  },
+  "nike-shox-r4-black-metallic-silver-red": {
+    "name": "Nike Shox R4",
+    "colorway": "Black / Metallic Silver / Red",
+    "sizes": "36-39"
+  },
+  "nike-air-more-uptempo-96-black-white": {
+    "name": "Nike Air More Uptempo 96",
+    "colorway": "Black / White",
+    "sizes": "40-45"
+  },
+  "nike-air-more-uptempo-96-baroque-brown": {
+    "name": "Nike Air More Uptempo 96",
+    "colorway": "Baroque Brown",
+    "sizes": "40-45"
+  },
+  "nike-air-more-uptempo-96-white-green": {
+    "name": "Nike Air More Uptempo 96",
+    "colorway": "White / Green",
+    "sizes": "40-45"
+  },
+  "nike-air-more-uptempo-96-black-brown-cream": {
+    "name": "Nike Air More Uptempo 96",
+    "colorway": "Black / Brown / Cream",
+    "sizes": "40-45"
+  },
+  "nike-vomero-plus-sail-pink-brown": {
+    "name": "Nike Vomero Plus",
+    "colorway": "Sail / Pink / Brown",
+    "sizes": "36-39"
+  },
+  "nike-vomero-plus-white-pink-burgundy": {
+    "name": "Nike Vomero Plus",
+    "colorway": "White / Pink / Burgundy",
+    "sizes": "36-39"
+  },
+  "nike-sb-dunk-low-white-pink": {
+    "name": "Nike SB Dunk Low",
+    "colorway": "White / Pink",
+    "sizes": "36-39"
+  },
+  "nike-winflo-white-blue-lilac": {
+    "name": "Nike Winflo",
+    "colorway": "White / Blue / Lilac",
+    "sizes": "36-39"
+  },
+  "nike-winflo-sail-iridescent": {
+    "name": "Nike Winflo",
+    "colorway": "Sail / Iridescent",
+    "sizes": "36-39"
+  },
+  "nike-winflo-black-pink-blue": {
+    "name": "Nike Winflo",
+    "colorway": "Black / Pink / Blue",
+    "sizes": "36-39"
+  },
+  "nike-juniper-trail-olive-black": {
+    "name": "Nike Juniper Trail",
+    "colorway": "Olive / Black",
+    "sizes": "40-44"
+  },
+  "nike-metcon-10-white-purple": {
+    "name": "Nike Metcon 10",
+    "colorway": "White / Purple",
+    "sizes": "36-39"
+  },
+  "nike-metcon-10-black-white": {
+    "name": "Nike Metcon 10",
+    "colorway": "Black / White",
+    "sizes": "36-39"
+  },
+  "nike-metcon-10-grey-pink": {
+    "name": "Nike Metcon 10",
+    "colorway": "Grey / Pink",
+    "sizes": "36-39"
+  },
+  "nike-air-max-payaso-black-multicolor": {
+    "name": "Nike Air Max Payaso",
+    "colorway": "Black / Multicolor",
+    "sizes": "40-44"
+  },
+  "nike-lebron-22-black-purple": {
+    "name": "Nike LeBron 22",
+    "colorway": "Black / Purple",
+    "sizes": "40-44"
+  },
+  "nike-sb-malor-grey-white": {
+    "name": "Nike SB Malor",
+    "colorway": "Grey / White",
+    "sizes": "40-44"
+  },
+  "nike-sb-malor-white-grey-green": {
+    "name": "Nike SB Malor",
+    "colorway": "White / Grey / Green",
+    "sizes": "40-44"
+  },
+  "nike-sb-malor-black-white": {
+    "name": "Nike SB Malor",
+    "colorway": "Black / White",
+    "sizes": "40-44"
+  },
+  "nike-air-max-1-white-navy-gold": {
+    "name": "Nike Air Max 1",
+    "colorway": "White / Navy / Gold",
+    "sizes": "40-44"
+  },
+  "nike-air-max-1-sail-cacao-brown": {
+    "name": "Nike Air Max 1",
+    "colorway": "Sail / Cacao Brown",
+    "sizes": "40-44"
+  },
+  "nike-air-max-90-wheat-tan": {
+    "name": "Nike Air Max 90",
+    "colorway": "Wheat / Tan",
+    "sizes": "36-39"
+  },
+  "nike-juniper-trail-multicolor": {
+    "name": "Nike Juniper Trail",
+    "colorway": "Multicolor",
+    "sizes": "36-39"
+  },
+  "nike-p-6000-white-pink-silver": {
+    "name": "Nike P-6000",
+    "colorway": "White / Pink / Silver",
+    "sizes": "36-39"
+  },
+  "nike-pegasus-trail-5-pink-black": {
+    "name": "Nike Pegasus Trail 5",
+    "colorway": "Pink / Black",
+    "sizes": "36-39"
+  },
+  "nike-pegasus-trail-5-green-pink-purple": {
+    "name": "Nike Pegasus Trail 5",
+    "colorway": "Green / Pink / Purple",
+    "sizes": "36-39"
+  },
+  "nike-pegasus-trail-5-sage-red-gum": {
+    "name": "Nike Pegasus Trail 5",
+    "colorway": "Sage / Red / Gum",
+    "sizes": "40-44"
+  },
+  "nike-zoom-happy-black-pink-grey": {
+    "name": "Nike Zoom Happy",
+    "colorway": "Black / Pink / Grey",
+    "sizes": "36-39"
+  },
+  "nike-flywire-white-purple-teal": {
+    "name": "Nike Flywire",
+    "colorway": "White / Purple / Teal",
+    "sizes": "36-39"
+  },
+  "nike-flywire-grey-pink": {
+    "name": "Nike Flywire",
+    "colorway": "Grey / Pink",
+    "sizes": "36-39"
+  },
+  "nike-air-max-dn-mint-white": {
+    "name": "Nike Air Max DN",
+    "colorway": "Mint / White",
+    "sizes": "36-39"
+  },
+  "nike-air-max-dn-white-blue": {
+    "name": "Nike Air Max DN",
+    "colorway": "White / Blue",
+    "sizes": "36-39"
+  },
+  "nike-air-max-dn-snake-grey": {
+    "name": "Nike Air Max DN",
+    "colorway": "Snake / Grey",
+    "sizes": "36-39"
+  },
+  "nike-air-max-dn-white-orange": {
+    "name": "Nike Air Max DN",
+    "colorway": "White / Orange",
+    "sizes": "36-39"
+  },
+  "nike-air-max-dn-white-black": {
+    "name": "Nike Air Max DN",
+    "colorway": "White / Black",
+    "sizes": "36-39"
+  },
+  "nike-air-max-dn8-metallic-pink": {
+    "name": "Nike Air Max DN8",
+    "colorway": "Metallic Pink",
+    "sizes": "36-39"
+  },
+  "nike-air-max-dn-metallic-gold": {
+    "name": "Nike Air Max DN",
+    "colorway": "Metallic Gold",
+    "sizes": "40-44"
+  },
+  "nike-air-max-dn-orange-black": {
+    "name": "Nike Air Max DN",
+    "colorway": "Orange / Black",
+    "sizes": "40-44"
+  },
+  "nike-initiator-black-volt": {
+    "name": "Nike Initiator",
+    "colorway": "Black / Volt",
+    "sizes": "40-44"
+  },
+  "nike-initiator-black-orange": {
+    "name": "Nike Initiator",
+    "colorway": "Black / Orange",
+    "sizes": "40-44"
+  },
+  "nike-p-6000-grey-orange": {
+    "name": "Nike P-6000",
+    "colorway": "Grey / Orange",
+    "sizes": "36-44"
   }
 }
