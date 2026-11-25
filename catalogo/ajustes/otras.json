@@ -721,5 +721,10 @@
     "name": "Emporio Armani EA7",
     "colorway": "Black / Grey",
     "sizes": "40-44"
+  },
+  "dolce-gabbana-sorrento-negro-blanco": {
+    "name": "Dolce & Gabbana Sorrento",
+    "colorway": "Black / White",
+    "description": "Slip-on de tejido tipo media en negro, con la banda blanca GABBANA en el empeine y suela blanca con tacos grises."
   }
 }

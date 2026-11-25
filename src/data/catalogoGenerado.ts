@@ -16824,6 +16824,50 @@ const BLOQUE_2: Sneaker[] = [
     "updatedAt": "2026-11-06T16:29:57.174Z"
   },
   {
+    "id": "sneaker-dolce-gabbana-sorrento-negro-blanco",
+    "name": "Dolce & Gabbana Sorrento",
+    "brand": "Otras",
+    "model": "Dolce & Gabbana Sorrento",
+    "sku": "PAPI-3896",
+    "category": "general",
+    "gender": "hombre",
+    "price": 189900,
+    "originalPrice": 229900,
+    "images": [
+      "/catalogo/sneakers/otras/hombre/dolce-gabbana-sorrento-negro-blanco.jpg",
+      "/catalogo/sneakers/otras/hombre/dolce-gabbana-sorrento-negro-blanco_2.jpg",
+      "/catalogo/sneakers/otras/hombre/dolce-gabbana-sorrento-negro-blanco_3.jpg",
+      "/catalogo/sneakers/otras/hombre/dolce-gabbana-sorrento-negro-blanco_4.jpg",
+      "/catalogo/sneakers/otras/hombre/dolce-gabbana-sorrento-negro-blanco_5.jpg",
+      "/catalogo/sneakers/otras/hombre/dolce-gabbana-sorrento-negro-blanco_6.jpg"
+    ],
+    "sizes": [
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ],
+    "status": "disponible",
+    "isFeatured": true,
+    "isNewArrival": true,
+    "isOriginalCertified": false,
+    "description": "Slip-on de tejido tipo media en negro, con la banda blanca GABBANA en el empeine y suela blanca con tacos grises.",
+    "details": {
+      "condition": "En caja",
+      "colorway": "Black / White",
+      "includedItems": [
+        "Caja"
+      ]
+    },
+    "viewsCount": 0,
+    "inquiriesCount": 0,
+    "createdAt": "2026-11-25T01:49:05.064Z",
+    "updatedAt": "2026-11-25T01:49:05.064Z"
+  },
+  {
     "id": "sneaker-emporio-armani-ea7-negro-dorado",
     "name": "Emporio Armani EA7",
     "brand": "Otras",
@@ -16918,7 +16962,7 @@ const BLOQUE_2: Sneaker[] = [
       44
     ],
     "status": "disponible",
-    "isFeatured": true,
+    "isFeatured": false,
     "isNewArrival": true,
     "isOriginalCertified": false,
     "description": "",
@@ -23088,7 +23132,10 @@ const BLOQUE_2: Sneaker[] = [
     "inquiriesCount": 0,
     "createdAt": "2026-09-14T19:25:44.633Z",
     "updatedAt": "2026-09-14T19:25:44.633Z"
-  },
+  }
+];
+
+const BLOQUE_3: Sneaker[] = [
   {
     "id": "sneaker-louis-vuitton-skate-cuero-blanco-gris",
     "name": "Louis Vuitton Skate Cuero",
@@ -23126,10 +23173,7 @@ const BLOQUE_2: Sneaker[] = [
     "inquiriesCount": 0,
     "createdAt": "2026-09-14T19:25:44.633Z",
     "updatedAt": "2026-09-14T19:25:44.633Z"
-  }
-];
-
-const BLOQUE_3: Sneaker[] = [
+  },
   {
     "id": "sneaker-louis-vuitton-skate-cuero-crema",
     "name": "Louis Vuitton Skate Cuero",
@@ -34632,7 +34676,10 @@ const BLOQUE_3: Sneaker[] = [
     "inquiriesCount": 0,
     "createdAt": "2026-11-06T19:45:10.477Z",
     "updatedAt": "2026-11-06T19:45:10.477Z"
-  },
+  }
+];
+
+const BLOQUE_4: Sneaker[] = [
   {
     "id": "sneaker-nike-ava-rover-sail-terracota",
     "name": "Nike Ava Rover",
@@ -34669,10 +34716,7 @@ const BLOQUE_3: Sneaker[] = [
     "inquiriesCount": 0,
     "createdAt": "2026-11-06T19:45:10.477Z",
     "updatedAt": "2026-11-06T19:45:10.477Z"
-  }
-];
-
-const BLOQUE_4: Sneaker[] = [
+  },
   {
     "id": "sneaker-nike-ava-rover-triple-negro",
     "name": "Nike Ava Rover",
@@ -46061,7 +46105,10 @@ const BLOQUE_4: Sneaker[] = [
     "inquiriesCount": 0,
     "createdAt": "2026-11-06T16:29:57.174Z",
     "updatedAt": "2026-11-06T16:29:57.174Z"
-  },
+  }
+];
+
+const BLOQUE_5: Sneaker[] = [
   {
     "id": "sneaker-puma-morphic-gris-azul",
     "name": "Puma Morphic",
@@ -46099,10 +46146,7 @@ const BLOQUE_4: Sneaker[] = [
     "inquiriesCount": 0,
     "createdAt": "2026-08-15T21:25:11.931Z",
     "updatedAt": "2026-08-15T21:25:11.931Z"
-  }
-];
-
-const BLOQUE_5: Sneaker[] = [
+  },
   {
     "id": "sneaker-puma-morphic-negro",
     "name": "Puma Morphic",
