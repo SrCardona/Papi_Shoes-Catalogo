@@ -103,28 +103,26 @@ Ojo: eso significa que `npm run dev` edita los datos de producción.
 
 ## Las fotos se sirven encogidas
 
-`SmartImage` no pide el archivo de `public/catalogo/` tal cual: lo pide a traves
-de `/_vercel/image`, que lo redimensiona y lo convierte a AVIF o WebP segun lo
-que acepte el navegador. Las fotos de proveedor pesan 156 KB de promedio y la
-tarjeta mide 175 px en un telefono; sin esto, llenar la primera pantalla del
-catalogo costaba 1,5 MB.
+`SmartImage` no pide el archivo de `public/catalogo/` tal cual: pide una copia
+liviana de `public/livianas/`, misma ruta, en WebP calidad 75, de 384 px
+(tarjeta, ~16 KB) o de 800 px (ficha, ~44 KB), y el navegador escoge con
+`sizes`. Las fotos de proveedor pesan 141 KB de promedio y la tarjeta mide
+175 px en un telefono.
 
-**La lista `ANCHOS` de `SmartImage.tsx` tiene que ser identica a `images.sizes`
-de `vercel.json`.** Pedir un ancho que no este declarado alli devuelve 400 y la
-foto no aparece. Si se toca una, se toca la otra.
+Las copias las hace `scripts/fotos-livianas.py` (Pillow), que corre solo al
+final de `npm run catalogo`: es incremental, nunca agranda una foto y borra las
+copias de fotos que ya no existen. **Se versionan**: son archivos del sitio,
+como las fotos. **`ANCHOS_LIVIANAS` de `SmartImage.tsx` tiene que ser igual a
+`ANCHOS` del script**: un ancho que no se genero es un archivo que no existe.
 
-Solo se optimiza lo que sirve este mismo sitio (rutas que empiezan por `/`).
-Una foto subida desde el panel vive en el almacen, con otro dominio, y pasa tal
-cual: declararla mal dejaria sin foto justo a los pares que cargo el dueno.
+Hasta el 24-nov-2026 las encogia al vuelo el optimizador de Vercel
+(`/_vercel/image`), pero tiene cuota mensual y al agotarse (402) todo el sitio
+caia a los archivos enteros. Ya no se usa: no vuelvas a ponerlo.
 
-Si el optimizador falla (un 402 es la cuota del mes agotada), `SmartImage` cae
-al archivo original, y después del primer fallo todas las fotos de la pestaña
-van directo al archivo. Las fotos llegan enteras y tardan más; mientras tanto
-la celda muestra `.foto-cargando`, nunca un hueco negro. Si las tarjetas "se
-ven negras", lo primero es revisar el uso de Image Optimization en Vercel.
-
-En `npm run dev` no hay optimizador —es un servicio de Vercel, no de Vite— y se
-sirve el archivo original. Es la misma foto, sin encoger.
+Si falta la copia de una foto (se cargo sin correr el script), `SmartImage` cae
+al original: la foto se ve, solo que entera. Las fotos subidas desde el panel
+viven en el almacen, con otro dominio, y pasan tal cual; las de entregas y los
+recortes del hero ya vienen livianos.
 
 La primera fila de la columnata lleva `priority`: carga sin diferir, con
 prioridad alta y sin el fundido de entrada, porque es la que mide el LCP.

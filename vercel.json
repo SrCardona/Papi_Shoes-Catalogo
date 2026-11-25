@@ -1,11 +1,6 @@
 {
   "redirects": [{ "source": "/streetwear", "destination": "/sneakers", "permanent": true }],
   "rewrites": [{ "source": "/((?!api/|_vercel/)[^.]*)", "destination": "/index.html" }],
-  "images": {
-    "sizes": [256, 384, 512, 768, 1024, 1536],
-    "formats": ["image/avif", "image/webp"],
-    "minimumCacheTTL": 31536000
-  },
   "headers": [
     {
       "source": "/(.*)",
@@ -38,6 +33,15 @@
     },
     {
       "source": "/catalogo/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=3600, s-maxage=31536000, stale-while-revalidate=86400"
+        }
+      ]
+    },
+    {
+      "source": "/livianas/(.*)",
       "headers": [
         {
           "key": "Cache-Control",
