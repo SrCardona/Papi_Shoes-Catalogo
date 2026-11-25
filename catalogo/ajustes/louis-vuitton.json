@@ -113,5 +113,80 @@
     "name": "Louis Vuitton LV Trainer",
     "colorway": "Black / Crystal",
     "sizes": "36-39"
+  },
+  "louis-vuitton-trainer-pink-light-blue": {
+    "name": "Louis Vuitton Trainer",
+    "colorway": "Pink / Light Blue",
+    "sizes": "36-39"
+  },
+  "louis-vuitton-trainer-grey-light-blue-denim": {
+    "name": "Louis Vuitton Trainer",
+    "colorway": "Grey / Light Blue Denim",
+    "sizes": "36-39"
+  },
+  "louis-vuitton-trainer-black-white": {
+    "name": "Louis Vuitton Trainer",
+    "colorway": "Black / White",
+    "sizes": "40-44"
+  },
+  "louis-vuitton-trainer-black-patent": {
+    "name": "Louis Vuitton Trainer",
+    "colorway": "Black Patent",
+    "sizes": "40-44"
+  },
+  "louis-vuitton-trainer-white-navy": {
+    "name": "Louis Vuitton Trainer",
+    "colorway": "White / Navy",
+    "sizes": "40-44"
+  },
+  "louis-vuitton-trainer-light-blue-navy": {
+    "name": "Louis Vuitton Trainer",
+    "colorway": "Light Blue / Navy",
+    "sizes": "40-44"
+  },
+  "louis-vuitton-trainer-navy-white": {
+    "name": "Louis Vuitton Trainer",
+    "colorway": "Navy / White",
+    "sizes": "40-44"
+  },
+  "louis-vuitton-trainer-white-black": {
+    "name": "Louis Vuitton Trainer",
+    "colorway": "White / Black",
+    "sizes": "40-44"
+  },
+  "louis-vuitton-trainer-blue-denim": {
+    "name": "Louis Vuitton Trainer",
+    "colorway": "Blue Denim",
+    "sizes": "40-44"
+  },
+  "louis-vuitton-trainer-triple-white": {
+    "name": "Louis Vuitton Trainer",
+    "colorway": "Triple White",
+    "sizes": "40-44"
+  },
+  "louis-vuitton-trainer-blue-navy": {
+    "name": "Louis Vuitton Trainer",
+    "colorway": "Blue / Navy",
+    "sizes": "40-44"
+  },
+  "louis-vuitton-trainer-black-gum": {
+    "name": "Louis Vuitton Trainer",
+    "colorway": "Black / Gum",
+    "sizes": "40-44"
+  },
+  "louis-vuitton-trainer-tan-brown": {
+    "name": "Louis Vuitton Trainer",
+    "colorway": "Tan / Brown",
+    "sizes": "40-44"
+  },
+  "louis-vuitton-trainer-white-brown": {
+    "name": "Louis Vuitton Trainer",
+    "colorway": "White / Brown",
+    "sizes": "40-44"
+  },
+  "louis-vuitton-trainer-black-grey": {
+    "name": "Louis Vuitton Trainer",
+    "colorway": "Black / Grey",
+    "sizes": "40-44"
   }
 }

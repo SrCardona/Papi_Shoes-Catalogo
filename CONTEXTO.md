@@ -100,15 +100,12 @@ npm run build                 # compila y escribe las 1.305 fichas + sitemap
 
 ## 4. Pendientes, en orden de importancia
 
-1. **Fotos lentas: el optimizador de imágenes de Vercel responde 402** (cuota
-   agotada). El sitio cae al archivo original (~156 KB por foto en vez de
-   ~20 KB) y en el celular las tarjetas tardan. Plan acordado en principio:
-   **migrar las fotos a Cloudinary**. El dueño iba a crear la cuenta y pasar
-   solo el *cloud name* (es público). Las llaves de la API las pone él en
-   `.env.local` y en Vercel. Plan: script que sube `public/catalogo/` con la
-   misma ruta como nombre, `SmartImage` pide `f_auto,q_auto,w_N` a Cloudinary
-   con respaldo al archivo local, `npm run subir-fotos` dentro del flujo de
-   fotos, e imagen de WhatsApp de 1200×630. Mostrar en local antes de publicar.
+1. ~~Fotos lentas por el optimizador de Vercel (402)~~ **Resuelto el
+   24-nov-2026** sin Cloudinary: copias livianas pregeneradas en
+   `public/livianas/` (`scripts/fotos-livianas.py`, corre en
+   `npm run catalogo`). Ver "Las fotos se sirven encogidas" en CLAUDE.md. El
+   dueño aprobó la calidad con una hoja de comparación antes de aplicarlo.
+   Queda pendiente revisar si su cuenta de Vercel es Hobby (no comercial).
 2. **66 fotos de Telegram por identificar:** en
    `pendientes/telegram-por-identificar/` con su `LEEME.md` (grupos: On, Under
    Armour, Adidas, Nike y otros). Esperan a que el dueño diga los modelos.
@@ -124,8 +121,8 @@ npm run build                 # compila y escribe las 1.305 fichas + sitemap
    propio por sección, `h1` en catálogo, datos de la tienda en `index.html`,
    preguntas legibles sin abrir, `noindex` en 404, `BackOrder`. Falta:
    - **Velocidad en el celular**: el catálogo (1,2 MB) viaja dentro del JS y
-     bloquea ~6 s en un teléfono simulado; cargarlo aparte. Junto con
-     Cloudinary (pendiente 1).
+     bloquea ~6 s en un teléfono simulado; cargarlo aparte (las fotos ya
+     quedaron livianas).
    - 949 pares sin descripción: las fichas se parecen entre sí para Google.
    - Páginas por marca (`/sneakers/nike`) con su propio HTML.
    - El dueño decidió **dejar** la marca en los datos de Google de Sneakers,

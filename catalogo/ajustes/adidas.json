@@ -1049,5 +1049,135 @@
     "name": "Adidas Taekwondo Mary Jane",
     "colorway": "Black / White / Gum",
     "sizes": "36-39"
+  },
+  "adidas-adizero-evo-sl-black-white": {
+    "name": "Adidas Adizero Evo SL",
+    "colorway": "Black / White",
+    "sizes": "36-44"
+  },
+  "adidas-glow-white-blue": {
+    "name": "Adidas Glow",
+    "colorway": "White / Blue",
+    "sizes": "36-39"
+  },
+  "adidas-glow-black-white": {
+    "name": "Adidas Glow",
+    "colorway": "Black / White",
+    "sizes": "36-45"
+  },
+  "adidas-hyperboost-red-grey": {
+    "name": "Adidas Hyperboost",
+    "colorway": "Red / Grey",
+    "sizes": "40-44"
+  },
+  "adidas-adizero-evo-sl-atr-grey-black-white": {
+    "name": "Adidas Adizero Evo SL ATR",
+    "colorway": "Grey / Black / White",
+    "sizes": "40-42"
+  },
+  "adidas-adizero-evo-sl-white-maroon": {
+    "name": "Adidas Adizero Evo SL",
+    "colorway": "White / Maroon",
+    "sizes": "40-44"
+  },
+  "adidas-terrex-black-white-orange": {
+    "name": "Adidas Terrex",
+    "colorway": "Black / White / Orange",
+    "sizes": "40-44"
+  },
+  "adidas-campus-x-bad-bunny-cream-grey": {
+    "name": "Adidas Campus x Bad Bunny",
+    "colorway": "Cream / Grey",
+    "sizes": "40-44"
+  },
+  "adidas-formotion-one-silver-grey": {
+    "name": "Adidas Formotion One",
+    "colorway": "Silver / Grey",
+    "sizes": "40-44"
+  },
+  "adidas-formotion-one-white-black-silver": {
+    "name": "Adidas Formotion One",
+    "colorway": "White / Black / Silver",
+    "sizes": "40-44"
+  },
+  "adidas-formotion-one-cream-silver-blue": {
+    "name": "Adidas Formotion One",
+    "colorway": "Cream / Silver / Blue",
+    "sizes": "40-44"
+  },
+  "adidas-formotion-one-white-black": {
+    "name": "Adidas Formotion One",
+    "colorway": "White / Black",
+    "sizes": "40-44"
+  },
+  "adidas-formotion-one-brown-red": {
+    "name": "Adidas Formotion One",
+    "colorway": "Brown / Red",
+    "sizes": "40-44"
+  },
+  "adidas-formotion-one-grey-gum": {
+    "name": "Adidas Formotion One",
+    "colorway": "Grey / Gum",
+    "sizes": "40-44"
+  },
+  "adidas-formotion-one-triple-black": {
+    "name": "Adidas Formotion One",
+    "colorway": "Triple Black",
+    "sizes": "40-44"
+  },
+  "adidas-gazelle-white-navy": {
+    "name": "Adidas Gazelle",
+    "colorway": "White / Navy",
+    "sizes": "36-39"
+  },
+  "adidas-glow-black-light-blue": {
+    "name": "Adidas Glow",
+    "colorway": "Black / Light Blue",
+    "sizes": "36-39"
+  },
+  "adidas-glow-grey-purple-lime": {
+    "name": "Adidas Glow",
+    "colorway": "Grey / Purple / Lime",
+    "sizes": "36-39"
+  },
+  "adidas-glow-black-red-blue": {
+    "name": "Adidas Glow",
+    "colorway": "Black / Red / Blue",
+    "sizes": "36-39"
+  },
+  "adidas-glow-grey-white-copper": {
+    "name": "Adidas Glow",
+    "colorway": "Grey / White / Copper",
+    "sizes": "36-39"
+  },
+  "adidas-pureboost-lilac-white": {
+    "name": "Adidas Pureboost",
+    "colorway": "Lilac / White",
+    "sizes": "36-39"
+  },
+  "adidas-pureboost-light-blue-white": {
+    "name": "Adidas Pureboost",
+    "colorway": "Light Blue / White",
+    "sizes": "36-39"
+  },
+  "adidas-samba-og-cream-pink-gum": {
+    "name": "Adidas Samba OG",
+    "colorway": "Cream / Pink / Gum",
+    "sizes": "36-39"
+  },
+  "adidas-samba-denim-white-gum": {
+    "name": "Adidas Samba",
+    "colorway": "Denim / White / Gum",
+    "sizes": "36-39"
+  },
+  "adidas-spezial-sage-pink": {
+    "name": "Adidas Spezial",
+    "colorway": "Sage / Pink",
+    "sizes": "36-39"
+  },
+  "adidas-forum-low-cream-mint": {
+    "name": "Adidas Forum Low",
+    "colorway": "Cream / Mint",
+    "sizes": "36-39"
   }
 }

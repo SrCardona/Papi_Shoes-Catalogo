@@ -43,5 +43,30 @@
     "name": "Onitsuka Tiger Mexico 66",
     "colorway": "Navy / Yellow",
     "sizes": "36-39"
+  },
+  "onitsuka-tiger-mexico-66-white-pink": {
+    "name": "Onitsuka Tiger Mexico 66",
+    "colorway": "White / Pink",
+    "sizes": "36-39"
+  },
+  "onitsuka-tiger-mexico-66-silver-cream": {
+    "name": "Onitsuka Tiger Mexico 66",
+    "colorway": "Silver / Cream",
+    "sizes": "36-39"
+  },
+  "onitsuka-tiger-mexico-66-white-black-pink": {
+    "name": "Onitsuka Tiger Mexico 66",
+    "colorway": "White / Black / Pink",
+    "sizes": "36-39"
+  },
+  "onitsuka-tiger-mexico-66-pink-white": {
+    "name": "Onitsuka Tiger Mexico 66",
+    "colorway": "Pink / White",
+    "sizes": "36-39"
+  },
+  "onitsuka-tiger-mexico-66-mint-cream": {
+    "name": "Onitsuka Tiger Mexico 66",
+    "colorway": "Mint / Cream",
+    "sizes": "36-39"
   }
 }

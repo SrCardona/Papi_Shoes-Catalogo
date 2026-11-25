@@ -23,5 +23,20 @@
     "name": "Under Armour Micro G Valsetz",
     "colorway": "Grey / Mint",
     "sizes": "40-44"
+  },
+  "under-armour-sola-black-silver": {
+    "name": "Under Armour Sola",
+    "colorway": "Black / Silver",
+    "sizes": "40-44"
+  },
+  "under-armour-micro-g-valsetz-mid-khaki": {
+    "name": "Under Armour Micro G Valsetz Mid",
+    "colorway": "Khaki",
+    "sizes": "40-44"
+  },
+  "under-armour-storm-light-blue-grey": {
+    "name": "Under Armour Storm",
+    "colorway": "Light Blue / Grey",
+    "sizes": "40-44"
   }
 }
