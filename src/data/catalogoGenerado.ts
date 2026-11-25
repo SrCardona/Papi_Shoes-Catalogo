@@ -16834,7 +16834,12 @@ const BLOQUE_2: Sneaker[] = [
     "price": 189900,
     "originalPrice": 229900,
     "images": [
-      "/catalogo/sneakers/otras/hombre/dolce-gabbana-sorrento-negro-blanco.jpg"
+      "/catalogo/sneakers/otras/hombre/dolce-gabbana-sorrento-negro-blanco.jpg",
+      "/catalogo/sneakers/otras/hombre/dolce-gabbana-sorrento-negro-blanco_2.jpg",
+      "/catalogo/sneakers/otras/hombre/dolce-gabbana-sorrento-negro-blanco_3.jpg",
+      "/catalogo/sneakers/otras/hombre/dolce-gabbana-sorrento-negro-blanco_4.jpg",
+      "/catalogo/sneakers/otras/hombre/dolce-gabbana-sorrento-negro-blanco_5.jpg",
+      "/catalogo/sneakers/otras/hombre/dolce-gabbana-sorrento-negro-blanco_6.jpg"
     ],
     "sizes": [
       39,
