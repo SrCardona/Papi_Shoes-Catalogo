@@ -7,6 +7,7 @@ import { useStore } from '../../context/StoreContext';
 import { Nieve } from '../navidad/Nieve';
 import { NAVIDAD } from '../../lib/temporada';
 import { cx } from '../../lib/utils';
+import { paginaFija, ponMetadatos } from '../../lib/meta';
 
 /**
  * Devuelve el scroll al inicio en cada cambio de vista.
@@ -38,20 +39,26 @@ function ScrollToTop() {
 }
 
 /**
- * Mantiene el título de la pestaña al día con el nombre configurado.
+ * Título, descripción y dirección canónica de cada sección, al navegar sin
+ * recargar. El HTML estático de cada ruta ya los trae (los escribe
+ * `scripts/generar-fichas.mjs`); esto evita que, al pasar de una sección a
+ * otra, quede puesto el de la anterior.
  *
- * El `<title>` de index.html es solo lo que se ve antes de que arranque React:
- * es un archivo estático y no puede leer los ajustes. La ficha de producto pone
- * su propio título con el nombre del par, y aquí se respeta: los efectos de los
+ * La ficha de producto pone los suyos, y aquí se respeta: los efectos de los
  * hijos corren antes que los del padre, así que sin esta guarda este efecto le
  * pisaría el título a la ficha.
  */
-function DocumentTitle() {
+function MetadatosDeRuta() {
   const { settings } = useStore();
   const { pathname } = useLocation();
 
   useEffect(() => {
     if (pathname.startsWith('/producto/')) return;
+    const pagina = paginaFija(pathname);
+    if (pagina) {
+      ponMetadatos({ titulo: pagina.titulo, descripcion: pagina.descripcion, ruta: pagina.ruta });
+      return;
+    }
     document.title = settings.tagline
       ? `${settings.storeName} — ${settings.tagline}`
       : settings.storeName;
@@ -69,7 +76,7 @@ export function Layout() {
   return (
     <div className={cx('min-h-screen flex flex-col', decorada && 'navidad')}>
       <ScrollToTop />
-      <DocumentTitle />
+      <MetadatosDeRuta />
       {decorada && <Nieve />}
       <Navbar navidad={decorada} />
       <main className="flex-1">

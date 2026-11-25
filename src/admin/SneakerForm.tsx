@@ -304,7 +304,7 @@ export function SneakerForm({ editing, onDone }: SneakerFormProps) {
               {
                 value: 'originales',
                 title: 'Originales',
-                text: 'Pasó legit check. Se muestra con comprobante de autenticidad.',
+                text: 'Tenis original de marca.',
               },
               {
                 value: 'general',

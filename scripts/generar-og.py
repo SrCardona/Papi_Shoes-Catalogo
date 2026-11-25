@@ -106,7 +106,7 @@ def main() -> None:
         lienzo,
         centro,
         502,
-        "ORIGINALES CON LEGIT CHECK   ·   SNEAKERS DE USO DIARIO",
+        "TENIS ORIGINALES   ·   SNEAKERS DE USO DIARIO",
         carga(TEXTO, 17),
         (125, 125, 125),
         5,

@@ -14,6 +14,7 @@ import { TempleMark } from '../components/ui/TempleMark';
 import { Colonnade } from '../components/ui/SneakerColumn';
 import { SectionHeader } from '../components/ui/SectionHeader';
 import { HeroRotativo } from '../components/ui/HeroRotativo';
+import { Canales } from '../components/ui/Canales';
 import { DeliveryWall } from '../components/ui/DeliveryWall';
 import { AnnouncementPopup } from '../components/ui/AnnouncementPopup';
 import { cx, generateDirectWhatsAppContact } from '../lib/utils';
@@ -231,8 +232,8 @@ export function HomePage() {
               className="mt-6 max-w-lg text-[14px] leading-relaxed text-secundario animate-rise"
               style={{ animationDelay: '280ms' }}
             >
-              Sneakers que hablan por ti. Originales con legit check documentado
-              y una selección de sneakers cuidada par por par.
+              Sneakers que hablan por ti. Tenis originales y una selección de
+              sneakers de uso diario cuidada par por par.
             </p>
 
             {/* En móvil los dos accesos ocupan el ancho y quedan uno sobre
@@ -309,7 +310,7 @@ export function HomePage() {
         />
 
         {/* Dos puertas, cada una con un tenis recortado de su propia línea:
-            el par que se ve en la puerta de Originales es verificado, y el de
+            el par que se ve en la puerta de Originales es original, y el de
             Sneakers es de uso diario. Mezclarlos sería sugerir lo contrario.
             Los recortes son de los aprobados para el hero, sin repetir el que
             lo abre. La sombra bajo el tenis es la única permitida: la de piso
@@ -318,10 +319,10 @@ export function HomePage() {
           {[
             {
               to: '/originales',
-              room: 'Con legit check',
+              room: 'De marca',
               title: 'Originales',
               count: counts.originales,
-              text: 'Pares verificados uno por uno: costuras, códigos UV, etiqueta interior y peso. Llegan con comprobante de procedencia.',
+              text: 'Tenis originales de las marcas que mueven la cultura, escogidos par por par. Muchos se traen bajo encargo.',
               accent: 'text-silver',
               fondo:
                 'radial-gradient(circle at 85% 90%, rgb(200 200 200 / 0.16), transparent 55%), var(--color-basalt)',
@@ -511,6 +512,17 @@ export function HomePage() {
             </div>
           ))}
         </div>
+      </section>
+
+      {/* ═══ ENCUÉNTRANOS ═════════════════════════════════════════════════ */}
+      <section className="max-w-[1400px] mx-auto px-5 lg:px-8 pb-14 sm:pb-20">
+        <SectionHeader
+          eyebrow="Síguenos"
+          title="Encuéntranos"
+          description="Los pares nuevos salen primero en Instagram y TikTok. Pedidos y asesoría, por WhatsApp."
+          className="mb-8 sm:mb-10"
+        />
+        <Canales />
       </section>
 
       {/* ═══ LLAMADO FINAL ════════════════════════════════════════════════ */}

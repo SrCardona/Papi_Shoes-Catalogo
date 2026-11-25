@@ -210,6 +210,7 @@ export function CatalogPage({
     <>
       <section className="max-w-[1400px] mx-auto px-5 lg:px-8 pt-14 pb-9">
         <SectionHeader
+          nivel="h1"
           eyebrow={encabezado.eyebrow}
           title={encabezado.title}
           description={encabezado.description}
@@ -272,9 +273,9 @@ export function OriginalsPage() {
   return (
     <CatalogPage
       category="originales"
-      eyebrow="Línea verificada"
+      eyebrow="Línea de marca"
       title="Originales"
-      description="Cada par pasó revisión: costuras, códigos UV, etiqueta interior y peso calibrado. Llegan con comprobante de procedencia."
+      description="Tenis originales de las marcas que mueven la cultura, escogidos par por par. Muchos se traen bajo encargo."
     />
   );
 }

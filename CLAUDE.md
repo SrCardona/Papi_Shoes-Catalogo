@@ -132,7 +132,7 @@ prioridad alta y sin el fundido de entrada, porque es la que mide el LCP.
 ## Lo que ve WhatsApp al pegar un enlace
 
 Todo el negocio termina en un mensaje de WhatsApp, y su robot no ejecuta
-JavaScript: lee el HTML tal como sale del servidor. Por eso las 615 fichas se
+JavaScript: lee el HTML tal como sale del servidor. Por eso las fichas (una por par) se
 escriben como archivos estaticos al compilar (`scripts/generar-fichas.mjs`):
 `dist/producto/<id>/index.html`, cada una con su titulo, su descripcion, su foto
 y sus datos estructurados. Vercel sirve el archivo antes de mirar la reescritura
@@ -142,6 +142,21 @@ misma aplicacion de siempre.
 Cambiar `document.title` desde React sigue sirviendo para la pestana del
 navegador, pero nunca le llega al robot. No lo quites pensando que lo reemplaza
 el script: cubren cosas distintas.
+
+El mismo script escribe una pagina estatica por seccion (`/`, `/originales`,
+`/sneakers`, `/catalogo`, `/nosotros`, `/preguntas`) con su titulo,
+descripcion, canonica y un texto dentro de `#root` (h1, parrafo, enlaces; en
+`/preguntas`, todas las preguntas). Antes las cinco secciones servian el HTML
+de la portada con `canonical` a `/`: para Google eran copias de la portada.
+React borra ese texto al arrancar. Los textos viven en `src/data/paginas.json`
+y `src/data/preguntas.json`, y los leen los dos lados: el script y la
+aplicacion (`src/lib/meta.ts` los vuelve a poner al navegar sin recargar). Una
+ruta nueva en `paginas.json` tiene que estar tambien en `PAGINAS` del script.
+`/catalogo/index.html` convive con las fotos de `public/catalogo/`; por eso
+`vercel.json` le quita a `/catalogo/` la cache de una hora de las fotos.
+
+Las paginas que no existen y los pares retirados llevan `noindex` (`noIndexar()`
+en `src/lib/meta.ts`): el servidor responde 200 a toda direccion.
 
 Si se editan las etiquetas `<meta>` de `index.html`, hay que revisar ese script:
 busca cada una por nombre y falla si no la encuentra, a proposito.
@@ -211,8 +226,12 @@ Para ver el estado del servidor publicado, sin exponer nada:
 
 ## Las dos líneas del catálogo
 
-- **Originales** (`category: 'originales'`, ruta `/originales`): pares con legit
-  check, llevan `isOriginalCertified`.
+- **Originales** (`category: 'originales'`, ruta `/originales`): tenis
+  originales de marca. Desde el 24 de noviembre de 2026, por decisión del
+  dueño, el sitio **no** promete legit check, verificación, comprobante ni
+  devolución por autenticidad: no vuelvas a escribir ninguna de esas cosas
+  sin que él lo pida. `isOriginalCertified` sigue en los datos, pero ya no se
+  muestra.
 - **Sneakers** (`category: 'general'`, ruta `/sneakers`): uso diario, NO se
   venden como originales. Antes se llamaba "Streetwear" y "Sala II";
   `/streetwear` redirige a `/sneakers`.
@@ -609,8 +628,8 @@ la foto, que lleva `rounded-foto`, y sin sombra. La rejilla de
 `gap-px` sigue valiendo para los bloques que no son tarjetas de par (pilares,
 salas, rótulos de la ficha, pie). Sobre la foto de la tarjeta no va nada:
 marca y línea, nombre, colorway, precio con el anterior y el descuento en
-texto, y "Nuevo" / disponibilidad / "Verificado" van debajo. "Verificado"
-solo en Originales, nunca en Sneakers. "Nuevo" sale por la fecha de llegada
+texto, y "Nuevo" / disponibilidad van debajo (ya no hay "Verificado": ver
+"Las dos líneas del catálogo"). "Nuevo" sale por la fecha de llegada
 (21 días), no por `isNewArrival`, que el generador pone en todos. La
 disponibilidad va en gris, sin verde ni ícono. Al pie, fuera del enlace de la
 ficha, el botón "Pedir por WhatsApp" (en el celular, "Pedir" con el ícono: la

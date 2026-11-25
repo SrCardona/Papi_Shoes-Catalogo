@@ -1,6 +1,6 @@
 import { Fragment, useEffect, useState, type ReactNode } from 'react';
 import { Link, NavLink, useLocation, useNavigate } from 'react-router-dom';
-import { Gift, Instagram, Menu, MessageCircle, Search, Tag, X } from 'lucide-react';
+import { Gift, Instagram, Menu, MessageCircle, Music2, Search, Tag, X } from 'lucide-react';
 import { useStore } from '../../context/StoreContext';
 import { useMarcasAgrupadas } from '../../hooks/useMarcasPorLinea';
 import { useMovimientoReducido } from '../../hooks/useMovimientoReducido';
@@ -8,7 +8,13 @@ import { TempleMark } from '../ui/TempleMark';
 import { Luces } from '../navidad/Luces';
 import { esBlackFriday } from '../../lib/temporada';
 import { BrandAccordion, BrandDropdown } from './BrandDropdown';
-import { cx, generateDirectWhatsAppContact, instagramUrl } from '../../lib/utils';
+import {
+  arroba,
+  cx,
+  generateDirectWhatsAppContact,
+  instagramUrl,
+  tiktokUrl,
+} from '../../lib/utils';
 
 /**
  * Las dos líneas llevan desplegable de marcas; el resto son enlaces secos.
@@ -60,6 +66,7 @@ export function Navbar({ navidad = false }: { navidad?: boolean }) {
   const [buscandoEn, setBuscandoEn] = useState(location.pathname);
 
   const igUrl = instagramUrl(settings.instagramHandle);
+  const tkUrl = tiktokUrl(settings.tiktokHandle);
   const tramos = settings.announcement
     .split('·')
     .map((t) => t.trim())
@@ -397,18 +404,34 @@ export function Navbar({ navidad = false }: { navidad?: boolean }) {
               <MessageCircle className="w-4 h-4" />
               Hablar con un asesor
             </a>
-            {igUrl && (
-              <a
-                href={igUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label={`${settings.storeName} en Instagram`}
-                className="flex items-center justify-center gap-2 w-full py-3 text-terciario hover:text-marble text-rotulo font-semibold uppercase tracking-[0.22em] transition-colors"
-              >
-                <Instagram className="w-3.5 h-3.5" />
-                Instagram
-              </a>
-            )}
+            {/* Las dos redes lado a lado y con el usuario escrito: así el
+                cliente sabe cómo buscar la cuenta aunque no toque el enlace. */}
+            <div className="flex">
+              {igUrl && (
+                <a
+                  href={igUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label={`${settings.storeName} en Instagram: ${arroba(settings.instagramHandle)}`}
+                  className="flex-1 flex items-center justify-center gap-2 py-3 text-terciario hover:text-marble text-lectura font-semibold transition-colors"
+                >
+                  <Instagram className="w-4 h-4" aria-hidden />
+                  {arroba(settings.instagramHandle)}
+                </a>
+              )}
+              {tkUrl && (
+                <a
+                  href={tkUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label={`${settings.storeName} en TikTok: ${arroba(settings.tiktokHandle)}`}
+                  className="flex-1 flex items-center justify-center gap-2 py-3 text-terciario hover:text-marble text-lectura font-semibold transition-colors"
+                >
+                  <Music2 className="w-4 h-4" aria-hidden />
+                  {arroba(settings.tiktokHandle)}
+                </a>
+              )}
+            </div>
           </div>
         </div>
       )}

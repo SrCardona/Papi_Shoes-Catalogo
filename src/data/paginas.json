@@ -1,0 +1,44 @@
+[
+  {
+    "ruta": "/",
+    "titulo": "PAPI SHOES — El Templo de los Tenis en Medellín",
+    "descripcion": "Tienda de tenis en Medellín con envíos a toda Colombia. Tenis originales y sneakers de uso diario escogidos par por par. Pide por WhatsApp.",
+    "h1": "PAPI SHOES: más que tenis, es cultura",
+    "intro": "Tienda de tenis en Medellín con envíos a toda Colombia y contra entrega en Medellín y Bogotá. El catálogo tiene dos líneas: Originales y Sneakers de uso diario, y cada ficha dice a cuál pertenece el par. Cada pedido se arma por WhatsApp con asesoría uno a uno."
+  },
+  {
+    "ruta": "/originales",
+    "titulo": "Tenis originales — PAPI SHOES",
+    "descripcion": "Tenis originales de las marcas que mueven la cultura, escogidos par por par. Pide por WhatsApp y recíbelos en toda Colombia desde Medellín.",
+    "h1": "Tenis originales",
+    "intro": "La línea Originales reúne tenis originales de las marcas que mueven la cultura, escogidos par por par. Muchos se traen bajo encargo: escríbenos la referencia y la talla, y te damos precio y tiempo de llegada por WhatsApp."
+  },
+  {
+    "ruta": "/sneakers",
+    "titulo": "Sneakers de uso diario — PAPI SHOES",
+    "descripcion": "Las siluetas que se están usando ahora, con acabados premium y precio de uso diario. Escoge tu talla y pide por WhatsApp. Envíos a toda Colombia desde Medellín.",
+    "h1": "Sneakers de uso diario",
+    "intro": "La línea Sneakers reúne las siluetas que se están usando ahora, con acabados premium y precio de uso diario: para vestir, no para vitrina. Escoge el par y la talla, y el mensaje de WhatsApp se arma solo."
+  },
+  {
+    "ruta": "/catalogo",
+    "titulo": "Catálogo completo de tenis — PAPI SHOES",
+    "descripcion": "Todos los pares en una sola vista: tenis originales y sneakers de uso diario. Filtra por talla, marca o presupuesto y pide por WhatsApp.",
+    "h1": "Catálogo completo de tenis",
+    "intro": "Tenis originales y sneakers de uso diario en una sola vista. Filtra por talla, marca o presupuesto; cada ficha dice a qué línea pertenece el par."
+  },
+  {
+    "ruta": "/nosotros",
+    "titulo": "El Templo: quiénes somos — PAPI SHOES",
+    "descripcion": "Quiénes somos, cómo trabajamos las dos líneas del catálogo y el muro de entregas reales en Medellín, Bello, Itagüí y Sabaneta.",
+    "h1": "El Templo de los Tenis",
+    "intro": "Empezamos vendiendo pares entre amigos en Medellín. Hoy despachamos a todo el país, pero la regla no cambió: si un par no nos lo pondríamos nosotros, no te lo vendemos. Aquí están las entregas reales a clientes, con el barrio y la ciudad donde llegó cada par."
+  },
+  {
+    "ruta": "/preguntas",
+    "titulo": "Preguntas frecuentes: envíos, tallas, pagos y encargos — PAPI SHOES",
+    "descripcion": "Tiempos de envío, medios de pago, contra entrega en Medellín y Bogotá, cambios de talla, pedidos bajo encargo y la diferencia entre Originales y Sneakers.",
+    "h1": "Preguntas frecuentes",
+    "intro": "Envíos, tallas, pagos, pedidos bajo encargo y la diferencia entre las dos líneas del catálogo."
+  }
+]

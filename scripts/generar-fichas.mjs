@@ -38,6 +38,16 @@ const DIST = join(RAIZ, 'dist');
 const PLANTILLA = join(DIST, 'index.html');
 const CATALOGO = join(RAIZ, 'src', 'data', 'catalogoGenerado.ts');
 
+/* Título, descripción y texto de cada sección, y las preguntas frecuentes. Los
+   mismos archivos que lee la aplicación (`src/lib/meta.ts`, `FaqPage`): lo
+   que ve el robot y lo que ve el visitante salen de la misma fuente. */
+const TEXTOS_PAGINAS = JSON.parse(
+  readFileSync(join(RAIZ, 'src', 'data', 'paginas.json'), 'utf8'),
+);
+const PREGUNTAS = JSON.parse(
+  readFileSync(join(RAIZ, 'src', 'data', 'preguntas.json'), 'utf8'),
+);
+
 /* El dominio bueno, con `www`: el otro responde 308 y una etiqueta que apunta
    a una redirección hace trabajar de más al robot que la lee. */
 const SITIO = 'https://www.papishoes.shop';
@@ -93,7 +103,7 @@ function precioEnPesos(valor) {
 function descripcionDe(par) {
   const linea =
     par.category === 'originales'
-      ? 'Original con legit check'
+      ? 'Tenis original'
       : 'Sneakers de uso diario';
   const color = par.details?.colorway ? ` ${par.details.colorway}.` : '';
   const tallas = par.sizes?.length
@@ -120,11 +130,13 @@ function blackFridayDe(par) {
  * uno con precio y disponibilidad a la vista.
  */
 function datosEstructurados(par, url, foto) {
+  /* `bajo_encargo` es un par que existe y se trae por pedido: `BackOrder`.
+     `PreOrder` le diría a Google que el modelo todavía no ha salido. */
   const disponible =
     par.status === 'agotado'
       ? 'https://schema.org/OutOfStock'
       : par.status === 'bajo_encargo'
-        ? 'https://schema.org/PreOrder'
+        ? 'https://schema.org/BackOrder'
         : 'https://schema.org/InStock';
 
   return JSON.stringify({
@@ -139,9 +151,11 @@ function datosEstructurados(par, url, foto) {
       '@type': 'Offer',
       url,
       priceCurrency: 'COP',
-      price: String(par.price),
+      price: Number(par.price),
       availability: disponible,
-      seller: { '@type': 'Organization', name: 'PAPI SHOES' },
+      itemCondition: 'https://schema.org/NewCondition',
+      /* La misma tienda que describe el bloque de `index.html`. */
+      seller: { '@type': 'OnlineStore', '@id': `${SITIO}/#tienda`, name: 'PAPI SHOES' },
     },
     /* El `<` de un texto cualquiera dentro de un `<script>` puede cerrar la
        etiqueta antes de tiempo. Se neutraliza en el propio JSON. */
@@ -170,6 +184,74 @@ function reemplazaMeta(html, atributo, nombre, contenido) {
   }
   const valor = escapaAtributo(contenido);
   return html.replace(patron, (_todo, antes, despues) => antes + valor + despues);
+}
+
+/* ── Contenido estático dentro de #root ──────────────────────────────────
+   Sin JavaScript, cada página era un `<div id="root"></div>` vacío: Google
+   tiene que ejecutar el código para leer algo, y los buscadores con IA y los
+   robots que no lo ejecutan no leían nada. Ahora cada página trae su título y
+   su texto escritos. React borra este contenido al arrancar y pinta la página
+   de siempre, así que el visitante no ve ninguna diferencia.
+
+   Estilos en línea y no clases de Tailwind: Tailwind solo genera las clases
+   que encuentra en `src/`, y las de este archivo no existirían. */
+const ENLACES = [
+  ['/', 'Inicio'],
+  ['/originales', 'Originales'],
+  ['/sneakers', 'Sneakers'],
+  ['/catalogo', 'Catálogo'],
+  ['/nosotros', 'El Templo'],
+  ['/preguntas', 'Preguntas frecuentes'],
+];
+const ESTILO_ENLACE = 'color:inherit;text-decoration:underline;';
+
+function contenidoEstatico(h1, parrafos, extra = '') {
+  const texto = parrafos
+    .filter(Boolean)
+    .map((p) => `<p style="line-height:1.6;max-width:640px">${escapaTexto(p)}</p>`)
+    .join('');
+  const nav = ENLACES.map(
+    ([ruta, nombre]) => `<a href="${ruta}" style="${ESTILO_ENLACE}">${escapaTexto(nombre)}</a>`,
+  ).join(' · ');
+  return (
+    '<div id="root"><main style="max-width:960px;margin:0 auto;padding:96px 20px">' +
+    `<h1>${escapaTexto(h1)}</h1>${texto}${extra}` +
+    `<nav style="margin-top:32px">${nav}</nav></main></div>`
+  );
+}
+
+function conContenido(html, contenido) {
+  if (!html.includes('<div id="root"></div>')) {
+    throw new Error('No encontré <div id="root"></div> en dist/index.html.');
+  }
+  return html.replace('<div id="root"></div>', () => contenido);
+}
+
+function preguntasEstaticas() {
+  return PREGUNTAS.map(
+    (p) =>
+      `<h2 style="margin-top:28px;font-size:20px">${escapaTexto(p.question)}</h2>` +
+      `<p style="line-height:1.6;max-width:640px">${escapaTexto(p.answer)}</p>`,
+  ).join('');
+}
+
+/** Página estática de una sección: sus etiquetas y su texto. */
+function paginaDe(plantilla, pagina) {
+  const url = `${SITIO}${pagina.ruta}`;
+  let html = plantilla.replace(
+    /<title>[^<]*<\/title>/i,
+    () => `<title>${escapaTexto(pagina.titulo)}</title>`,
+  );
+  html = html.replace(
+    /(<link rel="canonical" href=")[^"]*(")/i,
+    (_todo, antes, despues) => antes + escapaAtributo(url) + despues,
+  );
+  html = reemplazaMeta(html, 'name', 'description', pagina.descripcion);
+  html = reemplazaMeta(html, 'property', 'og:url', url);
+  html = reemplazaMeta(html, 'property', 'og:title', pagina.titulo);
+  html = reemplazaMeta(html, 'property', 'og:description', pagina.descripcion);
+  const extra = pagina.ruta === '/preguntas' ? preguntasEstaticas() : '';
+  return conContenido(html, contenidoEstatico(pagina.h1, [pagina.intro], extra));
 }
 
 /** Lee el arreglo de pares del archivo generado, sin compilar TypeScript. */
@@ -237,6 +319,11 @@ function fichaDe(plantilla, par) {
     '',
   );
 
+  html = conContenido(
+    html,
+    contenidoEstatico(par.name, [descripcion, par.description]),
+  );
+
   const ficha = datosEstructurados(par, url, foto);
   return html.replace(
     '</head>',
@@ -246,11 +333,22 @@ function fichaDe(plantilla, par) {
 
 function mapaDelSitio(pares) {
   const hoy = new Date().toISOString().slice(0, 10);
+  /* Una sección cambia cuando cambia alguno de sus pares, no cada vez que se
+     compila: con la fecha del build, Google aprende a no creerle a lastmod. */
+  const fechaDe = (par) => (par.updatedAt || par.createdAt || '').slice(0, 10);
+  const ultima = (lista) => lista.map(fechaDe).filter(Boolean).sort().at(-1) || hoy;
+  const fechaSeccion = {
+    '/': ultima(pares),
+    '/catalogo': ultima(pares),
+    '/originales': ultima(pares.filter((p) => p.category === 'originales')),
+    '/sneakers': ultima(pares.filter((p) => p.category !== 'originales')),
+  };
   const entradas = [
-    ...PAGINAS.map(
-      ({ ruta, prioridad }) =>
-        `  <url><loc>${SITIO}${ruta}</loc><lastmod>${hoy}</lastmod><priority>${prioridad}</priority></url>`,
-    ),
+    ...PAGINAS.map(({ ruta, prioridad }) => {
+      const fecha = fechaSeccion[ruta];
+      const lastmod = fecha ? `<lastmod>${fecha}</lastmod>` : '';
+      return `  <url><loc>${SITIO}${ruta}</loc>${lastmod}<priority>${prioridad}</priority></url>`;
+    }),
     ...pares.map((par) => {
       const fecha = (par.updatedAt || par.createdAt || '').slice(0, 10) || hoy;
       return `  <url><loc>${SITIO}/producto/${par.id}</loc><lastmod>${fecha}</lastmod><priority>0.7</priority></url>`;
@@ -281,10 +379,25 @@ function main() {
     writeFileSync(join(carpeta, 'index.html'), fichaDe(plantilla, par), 'utf8');
   }
 
+  /* Las secciones. La portada se escribe al final y sobre el mismo
+     `dist/index.html`, porque es la plantilla de todo lo anterior: las fichas
+     no deben heredar su texto. Ese archivo es además el que Vercel sirve a
+     toda dirección sin página propia; React lo reemplaza al arrancar. */
+  for (const pagina of TEXTOS_PAGINAS) {
+    if (!PAGINAS.some((p) => p.ruta === pagina.ruta)) {
+      throw new Error(`paginas.json trae ${pagina.ruta}, que no está en PAGINAS.`);
+    }
+    const destino =
+      pagina.ruta === '/' ? PLANTILLA : join(DIST, pagina.ruta.slice(1), 'index.html');
+    mkdirSync(dirname(destino), { recursive: true });
+    writeFileSync(destino, paginaDe(plantilla, pagina), 'utf8');
+  }
+
   writeFileSync(join(DIST, 'sitemap.xml'), mapaDelSitio(pares), 'utf8');
 
   const sinFoto = pares.filter((p) => !p.images?.length).length;
   console.log(`OK ${pares.length} fichas en dist/producto/`);
+  console.log(`OK ${TEXTOS_PAGINAS.length} secciones con su propio HTML`);
   console.log(`OK sitemap.xml con ${pares.length + PAGINAS.length} direcciones`);
   if (sinFoto) {
     console.log(

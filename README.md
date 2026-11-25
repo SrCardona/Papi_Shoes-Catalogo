@@ -155,7 +155,7 @@ src/
 | Ruta | Vista |
 |---|---|
 | `/` | Portada |
-| `/originales` | Línea Originales — con legit check |
+| `/originales` | Línea Originales |
 | `/sneakers` | Línea Sneakers — uso diario (`/streetwear` redirige aquí) |
 | `/catalogo` | Catálogo completo con filtros |
 | `/producto/:id` | Ficha de producto |
