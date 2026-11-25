@@ -751,3 +751,19 @@ if (!fondos || fondos.status !== 0) {
   console.log('⚠ No se recalcularon los fondos de las fotos: hace falta Python con Pillow.');
   console.log('  Corre a mano: py scripts/fondos-fotos.py');
 }
+
+/* Las copias livianas de cada foto (public/livianas/), que es lo que piden las
+   tarjetas y la ficha. Sin ellas una foto nueva se ve igual, pero entera: el
+   sitio cae al original. */
+let livianas = null;
+for (const [cmd, args] of PYTHONS) {
+  const r = spawnSync(cmd, [...args, join('scripts', 'fotos-livianas.py')], { stdio: 'inherit' });
+  if (!r.error) {
+    livianas = r;
+    break;
+  }
+}
+if (!livianas || livianas.status !== 0) {
+  console.log('⚠ No se hicieron las fotos livianas: hace falta Python con Pillow.');
+  console.log('  Corre a mano: py scripts/fotos-livianas.py');
+}

@@ -3,55 +3,30 @@ import { IMAGE_PLACEHOLDER, sanitizeImageUrl } from '../../lib/security';
 import { cx } from '../../lib/utils';
 
 /**
- * Anchos que el optimizador de Vercel tiene permitido servir.
- *
- * Tiene que ser el mismo conjunto que `images.sizes` en `vercel.json`: pedir un
- * ancho que no esté en esa lista devuelve 400 y la foto no se ve. Si se toca
- * uno, se tocan los dos.
+ * Anchos de las copias livianas de `public/livianas/`. Tienen que ser los
+ * mismos de `ANCHOS` en `scripts/fotos-livianas.py`, que es el que las hace:
+ * pedir un ancho que no se generó es pedir un archivo que no existe.
  */
-const ANCHOS = [256, 384, 512, 768, 1024, 1536] as const;
-
-/** Calidad de recompresión. 75 es el punto donde la gamuza todavía se lee. */
-const CALIDAD = 75;
+const ANCHOS_LIVIANAS = [384, 800] as const;
 
 /**
- * Las fotos del catálogo se sirven redimensionadas y en formato moderno.
+ * Las fotos del catálogo se sirven encogidas y en WebP.
  *
- * Los archivos de `public/catalogo/` son de proveedor: 156 KB de promedio y
- * hasta 646 KB, para una tarjeta que en un teléfono mide 175 px. Vercel las
- * encoge y las convierte a AVIF o WebP al vuelo según lo que acepte el
- * navegador, así que no hay copias que versionar ni originales que tocar.
+ * Los archivos de `public/catalogo/` son de proveedor: 141 KB de promedio y
+ * hasta 646 KB, para una tarjeta que en un teléfono mide 175 px.
+ * `scripts/fotos-livianas.py` hace dos copias de cada una (384 y 800 px, unos
+ * 16 y 44 KB) y el navegador escoge con `sizes`. Antes las encogía el
+ * optimizador de Vercel al vuelo, pero tiene cuota mensual: al agotarse (402)
+ * todo el sitio caía a los archivos enteros.
  *
- * Solo se optimiza lo que sirve este mismo sitio. Una foto que el dueño subió
- * desde el panel vive en el almacén con otro dominio y pasa tal cual: para
- * optimizarla habría que declarar ese dominio, y una lista mal escrita deja sin
- * foto justo a los pares que él mismo cargó.
+ * Solo las fotos de `/catalogo/` tienen copia. Las del panel viven en el
+ * almacén, con otro dominio, y las de entregas y recortes ya vienen livianas:
+ * esas pasan tal cual.
  */
-function esLocal(url: string): boolean {
-  return url.startsWith('/') && !url.startsWith('//');
-}
-
-function urlOptimizada(url: string, ancho: number): string {
-  return `/_vercel/image?url=${encodeURIComponent(url)}&w=${ancho}&q=${CALIDAD}`;
-}
-
-/* Si el optimizador falla una vez, falla para todas: un 402 es la cuota del
-   mes agotada, no una foto mala. Desde ese momento las fotos que se monten van
-   directo al archivo, en vez de pedir cada una dos veces —primero la que falla
-   y después la buena— por 1.300 tarjetas. Vive en el módulo y no en un estado:
-   dura lo que dura la pestaña y la siguiente carga vuelve a probar.
-
-   Las tarjetas ya montadas también se enteran (`avisarCaida`): el catálogo
-   monta todas al cargar, y las de más abajo todavía no han pedido su foto
-   diferida, así que cambian de dirección antes de pedirla. */
-let optimizadorCaido = false;
-const alCaer = new Set<() => void>();
-
-function avisarCaida() {
-  if (optimizadorCaido) return;
-  optimizadorCaido = true;
-  alCaer.forEach((avisar) => avisar());
-  alCaer.clear();
+function liviana(url: string, ancho: number): string | null {
+  if (!url.startsWith('/catalogo/')) return null;
+  const sinExtension = url.slice('/catalogo/'.length).replace(/\.[a-z0-9]+$/i, '');
+  return `/livianas/${sinExtension}-${ancho}.webp`;
 }
 
 interface SmartImageProps {
@@ -78,50 +53,36 @@ export function SmartImage({
   priority = false,
   sizes,
 }: SmartImageProps) {
-  /* Dos tropiezos posibles, en orden: primero cae el optimizador y se pide el
-     archivo tal cual; solo si también cae el archivo se pone el respaldo. Sin
-     el paso intermedio, un 402 del optimizador por cuota agotada dejaba el
-     catálogo entero sin una sola foto, aunque los archivos estaban ahí. */
-  const [sinOptimizar, setSinOptimizar] = useState(() => optimizadorCaido);
-  const [failed, setFailed] = useState(false);
+  /* Dos tropiezos posibles, en orden: si falta la copia liviana (una foto
+     recién cargada a la que no se le corrió el script) se pide el original; solo
+     si también cae el original se pone el respaldo. */
+  /* Los tropiezos se anotan con la foto a la que le pasaron: la galería de la
+     ficha cambia `src` sin desmontar, y la foto siguiente no tiene por qué
+     heredar el fallo de la anterior. */
+  const [sinLivianaEn, setSinLivianaEn] = useState<string | null>(null);
+  const [fallidaEn, setFallidaEn] = useState<string | null>(null);
+  const sinLiviana = sinLivianaEn === src;
+  const failed = fallidaEn === src;
   const [loaded, setLoaded] = useState(false);
   const ref = useRef<HTMLImageElement>(null);
   const safe = failed ? IMAGE_PLACEHOLDER : sanitizeImageUrl(src);
 
-  /* En desarrollo no existe el optimizador —es un servicio de Vercel, no de
-     Vite—, así que ahí se sirve el archivo tal cual. Es la misma foto, solo que
-     sin encoger. */
-  const optimizable =
-    !import.meta.env.DEV && !failed && !sinOptimizar && esLocal(safe);
-  const srcSet = optimizable
-    ? ANCHOS.map((a) => `${urlOptimizada(safe, a)} ${a}w`).join(', ')
+  const conLiviana = !failed && !sinLiviana && liviana(safe, ANCHOS_LIVIANAS[0]) !== null;
+  const srcSet = conLiviana
+    ? ANCHOS_LIVIANAS.map((a) => `${liviana(safe, a)} ${a}w`).join(', ')
     : undefined;
-  const actual = optimizable ? urlOptimizada(safe, 1024) : safe;
+  const actual = conLiviana ? (liviana(safe, 800) as string) : safe;
 
   const alFallar = () => {
-    if (optimizable) {
-      setSinOptimizar(true);
-      avisarCaida();
-    } else {
-      setFailed(true);
-    }
+    if (conLiviana) setSinLivianaEn(src);
+    else setFallidaEn(src);
   };
-
-  useEffect(() => {
-    if (sinOptimizar) return;
-    const avisar = () => setSinOptimizar(true);
-    alCaer.add(avisar);
-    return () => {
-      alCaer.delete(avisar);
-    };
-  }, [sinOptimizar]);
 
   /* Una foto que ya estaba en la caché, o un error que llega en un instante,
      puede terminar antes de que React escuche `load` o `error` en la etiqueta.
      Entonces el evento no llega nunca: la tarjeta se quedaba en opacidad cero
-     —un cuadro negro— o pegada a la dirección del optimizador caído. Al montar
-     y al cambiar de dirección se mira cómo quedó la etiqueta y se actúa igual
-     que si el evento hubiera llegado. */
+     —un cuadro negro—. Al montar y al cambiar de dirección se mira cómo quedó
+     la etiqueta y se actúa igual que si el evento hubiera llegado. */
   useEffect(() => {
     const img = ref.current;
     if (!img || !img.complete) return;
