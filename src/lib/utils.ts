@@ -107,7 +107,7 @@ export function generateWhatsAppLink(
   const size = selectedSize ? String(selectedSize) : 'por confirmar';
   const category =
     sneaker.category === 'originales'
-      ? '100% Original · Legit Check'
+      ? 'Línea Originales'
       : 'Línea Sneakers';
 
   const values: Record<(typeof TEMPLATE_VARS)[number], string> = {
@@ -157,6 +157,18 @@ export function instagramUrl(handle: string): string | null {
   const clean = handle.trim().replace(/^@+/, '');
   if (!clean) return null;
   return `https://instagram.com/${encodeURIComponent(clean)}`;
+}
+
+/** Perfil de TikTok, o `null` sin usuario. Mismo trato que `instagramUrl`. */
+export function tiktokUrl(handle: string): string | null {
+  const clean = handle.trim().replace(/^@+/, '');
+  if (!clean) return null;
+  return `https://www.tiktok.com/@${encodeURIComponent(clean)}`;
+}
+
+/** Usuario para mostrar, siempre con una sola arroba. */
+export function arroba(handle: string): string {
+  return `@${handle.trim().replace(/^@+/, '')}`;
 }
 
 /** Número en formato legible: 573045961031 → +57 304 596 1031 */

@@ -68,10 +68,9 @@ interface SneakerColumnProps {
  *
  * Donde se mezclan las dos líneas (portada, catálogo completo, búsqueda) la
  * línea sale en toda tarjeta, también en el celular: es lo único que impide
- * leer un par de uso diario como verificado. En una cuadrícula de una sola
+ * leer un par de uso diario como original. En una cuadrícula de una sola
  * línea el encabezado de la página ya la dice, y en un celular la fila
- * "Louis Vuitton · Sneakers" no cabe: ahí queda solo la marca. Por lo mismo,
- * "Verificado" solo existe en Originales.
+ * "Louis Vuitton · Sneakers" no cabe: ahí queda solo la marca.
  */
 export function SneakerColumn({
   sneaker: par,
@@ -91,8 +90,6 @@ export function SneakerColumn({
     sneaker.price === PRECIO_BLACK_FRIDAY &&
     (sneaker.originalPrice ?? 0) > PRECIO_BLACK_FRIDAY;
   const discount = discountPercent(sneaker);
-  const isOriginal = sneaker.category === 'originales';
-  const isVerified = isOriginal && sneaker.isOriginalCertified;
   const isSoldOut = sneaker.status === 'agotado';
   const colorway = sneaker.details.colorway.trim();
   const esOtras = sneaker.brand === NO_ES_MARCA;
@@ -220,7 +217,6 @@ export function SneakerColumn({
               {enBlackFriday && <span className="text-lapis-texto font-semibold">Black Friday</span>}
               {esNuevo(sneaker) && !isSoldOut && <span className="text-secundario">Nuevo</span>}
               <span>{STATUS_LABEL[sneaker.status]}</span>
-              {isVerified && <span>Verificado</span>}
             </p>
 
             {/* En el celular el precio anterior y el descuento van en su propia

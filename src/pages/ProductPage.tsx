@@ -20,6 +20,7 @@ import { Colonnade } from '../components/ui/SneakerColumn';
 import { SectionHeader } from '../components/ui/SectionHeader';
 import { NO_ES_MARCA } from '../lib/marcas';
 import { conPrecioVigente } from '../lib/temporada';
+import { noIndexar, ponMetadatos } from '../lib/meta';
 import { CuentaRegresivaCorta } from '../components/blackfriday/CuentaRegresiva';
 import {
   cx,
@@ -64,14 +65,24 @@ function ProductView({ id }: { id?: string }) {
   const [isGuideOpen, setIsGuideOpen] = useState(false);
   const [copied, setCopied] = useState(false);
 
-  // SEO: cada producto tiene su propio título y descripción.
+  /* Título, descripción y canónica de la ficha al llegar navegando. El mismo
+     formato de título que la ficha estática de `generar-fichas.mjs`; la
+     descripción va sin precio porque el de campaña cambia con la fecha. */
   useEffect(() => {
-    if (!sneaker) return;
-    const previousTitle = document.title;
-    document.title = `${sneaker.name} — ${settings.storeName}`;
-    return () => {
-      document.title = previousTitle;
-    };
+    if (!sneaker) return noIndexar();
+    const color = sneaker.details.colorway.trim();
+    const distingue =
+      color && !sneaker.name.toLowerCase().includes(color.toLowerCase()) ? ` · ${color}` : '';
+    const linea =
+      sneaker.category === 'originales' ? 'Tenis original' : 'Sneakers de uso diario';
+    const tallas = sneaker.sizes.length
+      ? ` Tallas ${sneaker.sizes[0]} a ${sneaker.sizes[sneaker.sizes.length - 1]}.`
+      : '';
+    ponMetadatos({
+      titulo: `${sneaker.name}${distingue} — ${settings.storeName}`,
+      descripcion: `${linea}.${color ? ` ${color}.` : ''}${tallas} Pide por WhatsApp.`,
+      ruta: `/producto/${sneaker.id}`,
+    });
   }, [sneaker, settings.storeName]);
 
   const related = useMemo(() => {
@@ -266,7 +277,7 @@ function ProductView({ id }: { id?: string }) {
                     isOriginal ? 'text-silver' : 'text-lapis-texto',
                   )}
                 >
-                  {isOriginal ? '100% Original · Legit check' : 'Sneakers · Uso diario'}
+                  {isOriginal ? 'Línea Originales' : 'Sneakers · Uso diario'}
                 </span>
                 <span className="h-px flex-1 bg-white/10" />
                 <button
@@ -412,7 +423,7 @@ function ProductView({ id }: { id?: string }) {
 
               <div className="grid grid-cols-3 gap-px overflow-hidden rounded-tarjeta bg-white/8 border border-white/8">
                 {[
-                  { Icon: ShieldCheck, label: isOriginal ? 'Legit check' : 'Revisado' },
+                  { Icon: ShieldCheck, label: isOriginal ? 'Original' : 'Revisado' },
                   { Icon: Truck, label: 'Envío nacional' },
                   { Icon: Check, label: 'Asesoría 1 a 1' },
                 ].map(({ Icon, label }) => (

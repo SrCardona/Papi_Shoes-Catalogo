@@ -3,7 +3,7 @@
 Este archivo complementa a `CLAUDE.md`. CLAUDE.md dice **cómo funciona el
 proyecto y qué reglas no se rompen**; este dice **cómo se trabaja con el dueño,
 en qué estado quedó todo y qué falta**. Una sesión nueva debe leer los dos antes
-de tocar nada. Última actualización: 20 de noviembre de 2026.
+de tocar nada. Última actualización: 24 de noviembre de 2026.
 
 El repositorio es **público**: aquí no va ningún PIN, token, llave, correo ni
 precio de costo del proveedor.
@@ -115,11 +115,23 @@ npm run build                 # compila y escribe las 1.305 fichas + sitemap
    Recordárselo una vez al empezar una sesión.
 3. **Hallazgos de la revisión del sitio que el dueño no ha aprobado todavía:**
    - 66 pares de agosto sin `colorway` (el mensaje de WhatsApp sale sin color).
-   - Las páginas de catálogo no tienen `h1`.
    - Fotos con códigos de proveedor visibles ("3637H", "136-2"…) y una con el
      ícono de otra tienda (el Chuck 70 de lona).
-   - Una dirección inexistente responde 200 en vez de 404; la CSP está solo
-     en modo de reporte.
+   - Una dirección inexistente responde 200 en vez de 404 (ya lleva `noindex`);
+     la CSP está solo en modo de reporte.
+3b. **Auditoría SEO del 24-nov-2026** (informes fuera del repo, en
+   `../papishoes.shop-audit/` del equipo donde se hizo). Ya aplicado: HTML
+   propio por sección, `h1` en catálogo, datos de la tienda en `index.html`,
+   preguntas legibles sin abrir, `noindex` en 404, `BackOrder`. Falta:
+   - **Velocidad en el celular**: el catálogo (1,2 MB) viaja dentro del JS y
+     bloquea ~6 s en un teléfono simulado; cargarlo aparte. Junto con
+     Cloudinary (pendiente 1).
+   - 949 pares sin descripción: las fichas se parecen entre sí para Google.
+   - Páginas por marca (`/sneakers/nike`) con su propio HTML.
+   - El dueño decidió **dejar** la marca en los datos de Google de Sneakers,
+     y el escudo "Revisado" y el lema "Autenticidad" como están.
+   - Perfil de Empresa en Google: no se sabe si existe; vale la pena crearlo
+     (zona de servicio, sin dirección).
 4. **El iPhone del dueño** tiene guardados cambios viejos del panel que nunca se
    publicaron (unos 36 pares ocultos y ajustes de septiembre). Por eso ahí ve
    1194 Sneakers en vez de 1217. Decidió descartarlos: tiene que borrar los

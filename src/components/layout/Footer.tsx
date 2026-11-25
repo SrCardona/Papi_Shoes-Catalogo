@@ -4,15 +4,23 @@ import { useStore } from '../../context/StoreContext';
 import { BRAND_PILLARS } from '../../data/initialData';
 import { TempleMark } from '../ui/TempleMark';
 import {
+  arroba,
   formatPhoneDisplay,
   generateDirectWhatsAppContact,
   instagramUrl,
+  tiktokUrl,
 } from '../../lib/utils';
+
+/* Las redes con el usuario escrito: un ícono suelto no le dice al cliente cómo
+   buscar la cuenta. */
+const PILDORA_RED =
+  'inline-flex items-center gap-2 min-h-11 px-4 rounded-full border border-white/16 text-lectura text-secundario hover:text-marble hover:border-silver/40 transition-colors';
 
 export function Footer({ navidad = false }: { navidad?: boolean }) {
   const { settings } = useStore();
   const year = new Date().getFullYear();
   const igUrl = instagramUrl(settings.instagramHandle);
+  const tkUrl = tiktokUrl(settings.tiktokHandle);
 
   return (
     /* Sin anclaje de desplazamiento: ver `ColumnataPorTandas` en CatalogPage. */
@@ -55,27 +63,31 @@ export function Footer({ navidad = false }: { navidad?: boolean }) {
             <p className="text-lectura text-secundario leading-relaxed max-w-sm">
               {settings.guaranteeText} Atendemos desde {settings.locationCity}.
             </p>
-            <div className="flex items-center gap-3 pt-1">
+            <div className="flex flex-wrap items-center gap-3 pt-1">
               {igUrl && (
                 <a
                   href={igUrl}
                   target="_blank"
                   rel="noopener noreferrer"
-                  aria-label={`${settings.storeName} en Instagram`}
-                  className="w-11 h-11 rounded-full border border-white/16 flex items-center justify-center text-secundario hover:text-marble hover:border-silver/40 transition-colors"
+                  aria-label={`${settings.storeName} en Instagram: ${arroba(settings.instagramHandle)}`}
+                  className={PILDORA_RED}
                 >
-                  <Instagram className="w-4 h-4" />
+                  <Instagram className="w-4 h-4" aria-hidden />
+                  {arroba(settings.instagramHandle)}
                 </a>
               )}
-              <a
-                href={`https://tiktok.com/@${settings.tiktokHandle}`}
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="TikTok"
-                className="w-11 h-11 rounded-full border border-white/16 flex items-center justify-center text-secundario hover:text-marble hover:border-silver/40 transition-colors"
-              >
-                <Music2 className="w-4 h-4" />
-              </a>
+              {tkUrl && (
+                <a
+                  href={tkUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label={`${settings.storeName} en TikTok: ${arroba(settings.tiktokHandle)}`}
+                  className={PILDORA_RED}
+                >
+                  <Music2 className="w-4 h-4" aria-hidden />
+                  {arroba(settings.tiktokHandle)}
+                </a>
+              )}
             </div>
           </div>
 

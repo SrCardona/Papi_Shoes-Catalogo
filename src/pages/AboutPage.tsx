@@ -4,27 +4,9 @@ import { useStore } from '../context/StoreContext';
 import { BRAND_PILLARS } from '../data/initialData';
 import { BrandLockup, TempleMark } from '../components/ui/TempleMark';
 import { SectionHeader } from '../components/ui/SectionHeader';
+import { Canales } from '../components/ui/Canales';
 import { DeliveryLedger, DeliveryWall } from '../components/ui/DeliveryWall';
 import { generateDirectWhatsAppContact } from '../lib/utils';
-
-const VERIFICATION_STEPS = [
-  {
-    title: 'Procedencia',
-    text: 'Pedimos factura o comprobante de compra al proveedor antes de recibir el par. Sin origen claro, no entra.',
-  },
-  {
-    title: 'Inspección física',
-    text: 'Costuras, alineación del swoosh o las tres rayas, calidad del cuero y simetría entre los dos pies.',
-  },
-  {
-    title: 'Marcas ocultas',
-    text: 'Códigos UV, etiqueta interior, SKU de la caja contra el SKU del par y tipografía de la plantilla.',
-  },
-  {
-    title: 'Peso y tacto',
-    text: 'Comparamos el peso contra la referencia oficial. Una diferencia grande casi siempre delata una réplica.',
-  },
-];
 
 export function AboutPage() {
   const { settings, sneakers, deliveries } = useStore();
@@ -70,33 +52,19 @@ export function AboutPage() {
         </div>
       </section>
 
-      {/* Proceso de verificación */}
+      {/* Las dos líneas */}
       <section className="max-w-[1400px] mx-auto px-5 lg:px-8 py-20">
         <SectionHeader
-          eyebrow="Legit check"
-          title="Cómo verificamos"
-          description="Cuatro revisiones antes de que un par entre a la línea Originales. Si falla una, pasa a la línea Sneakers o se devuelve."
-          className="mb-14"
+          eyebrow="Dos líneas"
+          title="Qué estás comprando"
+          description="Originales y Sneakers son dos líneas distintas, y cada ficha dice a cuál pertenece el par."
+          className="mb-10"
         />
 
-        <ol className="grid sm:grid-cols-2 lg:grid-cols-4 gap-px overflow-hidden rounded-tarjeta bg-white/8 border border-white/8">
-          {VERIFICATION_STEPS.map((step, i) => (
-            <li key={step.title} className="bg-basalt p-7 space-y-4">
-              <span className="block font-display text-3xl text-terciario tabular-nums">
-                {String(i + 1).padStart(2, '0')}
-              </span>
-              <h3 className="font-body font-bold text-rotulo uppercase tracking-[0.18em] text-marble">
-                {step.title}
-              </h3>
-              <p className="text-lectura leading-relaxed text-secundario">{step.text}</p>
-            </li>
-          ))}
-        </ol>
-
-        <p className="mt-8 text-lectura text-terciario leading-relaxed max-w-2xl border-l-2 border-silver/40 pl-5 py-1">
-          La línea Sneakers no pasa por legit check y no se vende como original.
-          Son pares de buena factura para uso diario, y lo decimos de frente: preferimos
-          perder una venta antes que venderte algo con una etiqueta que no le corresponde.
+        <p className="text-lectura text-terciario leading-relaxed max-w-2xl border-l-2 border-silver/40 pl-5 py-1">
+          La línea Sneakers no se vende como original. Son pares de buena factura
+          para uso diario, y lo decimos de frente: preferimos perder una venta
+          antes que venderte algo con una etiqueta que no le corresponde.
         </p>
       </section>
 
@@ -170,6 +138,7 @@ export function AboutPage() {
             Hablar con un asesor
           </a>
         </div>
+        <Canales className="mt-12 text-left max-w-5xl mx-auto" />
       </section>
     </>
   );

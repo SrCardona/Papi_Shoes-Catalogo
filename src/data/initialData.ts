@@ -36,8 +36,8 @@ export const INITIAL_SETTINGS: StoreSettings = {
   announcement:
     'ENVÍOS A TODO EL PAÍS · ASESORÍA PERSONALIZADA 1 A 1 · CATÁLOGO ACTUALIZADO SEMANALMENTE',
   showAnnouncement: true,
-  instagramHandle: 'papishoes_oficial',
-  tiktokHandle: 'papishoes_cultura',
+  instagramHandle: 'papi_shoes1',
+  tiktokHandle: 'papi_shoes1',
   locationCity: 'Medellín · Bogotá · Envíos Nacionales',
   guaranteeText: 'Garantía de calidad en cada entrega.',
   // Vacías a propósito: son las fotos del dueño, que entran desde
@@ -66,7 +66,7 @@ export const BRAND_PILLARS = [
   {
     id: 'autenticidad',
     title: 'Autenticidad',
-    text: 'Legit check documentado en la línea Originales. Si no pasa la revisión, no entra al templo.',
+    text: 'Originales en una línea y sneakers de uso diario en otra. Cada ficha te dice qué estás comprando.',
   },
   {
     id: 'exclusividad',
@@ -158,15 +158,9 @@ export const INITIAL_STORIES: StoryHighlight[] = [
       {
         image: 'https://images.unsplash.com/photo-1579338559194-a162d19bf842?auto=format&fit=crop&w=1000&q=85',
         title: 'LÍNEA 100% ORIGINAL',
-        caption: 'Pares verificados con legit check y comprobante de procedencia.',
-        badge: 'LEGIT CHECK',
+        caption: 'Tenis originales de las marcas que mueven la cultura.',
+        badge: 'ORIGINALES',
         ctaText: 'Ver los Originales',
-      },
-      {
-        image: 'https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?auto=format&fit=crop&w=1000&q=85',
-        title: 'CÓMO VERIFICAMOS',
-        caption: 'Costuras, códigos UV, etiqueta interior y peso calibrado.',
-        badge: 'PROCESO',
       },
     ],
   },

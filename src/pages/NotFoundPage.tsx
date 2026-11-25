@@ -1,7 +1,13 @@
+import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import { noIndexar } from '../lib/meta';
 import { TempleMark } from '../components/ui/TempleMark';
 
 export function NotFoundPage() {
+  /* El servidor responde 200 a toda dirección; esto le dice a Google que no la
+     guarde. */
+  useEffect(() => noIndexar(), []);
+
   return (
     <div className="min-h-[65vh] flex flex-col items-center justify-center px-6 text-center gap-7">
       <TempleMark className="w-14 h-14 opacity-45" />
