@@ -16750,46 +16750,6 @@ const BLOQUE_2: Sneaker[] = [
     "updatedAt": "2026-11-06T14:58:00.796Z"
   },
   {
-    "id": "sneaker-dolce-gabbana",
-    "name": "Dolce & Gabbana",
-    "brand": "Otras",
-    "model": "Dolce & Gabbana",
-    "sku": "PAPI-5318",
-    "category": "general",
-    "gender": "unisex",
-    "price": 189900,
-    "originalPrice": 229900,
-    "images": [
-      "/catalogo/sneakers/otras/dolce-gabbana.jpg"
-    ],
-    "sizes": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
-    "status": "disponible",
-    "isFeatured": false,
-    "isNewArrival": true,
-    "isOriginalCertified": false,
-    "description": "",
-    "details": {
-      "condition": "En caja",
-      "colorway": "",
-      "includedItems": [
-        "Caja"
-      ]
-    },
-    "viewsCount": 0,
-    "inquiriesCount": 0,
-    "createdAt": "2026-08-13T19:36:12.000Z",
-    "updatedAt": "2026-08-13T19:36:12.000Z"
-  },
-  {
     "id": "sneaker-dolce-gabbana-blanco",
     "name": "Dolce & Gabbana Blanco",
     "brand": "Otras",
@@ -23128,10 +23088,7 @@ const BLOQUE_2: Sneaker[] = [
     "inquiriesCount": 0,
     "createdAt": "2026-09-14T19:25:44.633Z",
     "updatedAt": "2026-09-14T19:25:44.633Z"
-  }
-];
-
-const BLOQUE_3: Sneaker[] = [
+  },
   {
     "id": "sneaker-louis-vuitton-skate-cuero-blanco-gris",
     "name": "Louis Vuitton Skate Cuero",
@@ -23169,7 +23126,10 @@ const BLOQUE_3: Sneaker[] = [
     "inquiriesCount": 0,
     "createdAt": "2026-09-14T19:25:44.633Z",
     "updatedAt": "2026-09-14T19:25:44.633Z"
-  },
+  }
+];
+
+const BLOQUE_3: Sneaker[] = [
   {
     "id": "sneaker-louis-vuitton-skate-cuero-crema",
     "name": "Louis Vuitton Skate Cuero",
@@ -34672,10 +34632,7 @@ const BLOQUE_3: Sneaker[] = [
     "inquiriesCount": 0,
     "createdAt": "2026-11-06T19:45:10.477Z",
     "updatedAt": "2026-11-06T19:45:10.477Z"
-  }
-];
-
-const BLOQUE_4: Sneaker[] = [
+  },
   {
     "id": "sneaker-nike-ava-rover-sail-terracota",
     "name": "Nike Ava Rover",
@@ -34712,7 +34669,10 @@ const BLOQUE_4: Sneaker[] = [
     "inquiriesCount": 0,
     "createdAt": "2026-11-06T19:45:10.477Z",
     "updatedAt": "2026-11-06T19:45:10.477Z"
-  },
+  }
+];
+
+const BLOQUE_4: Sneaker[] = [
   {
     "id": "sneaker-nike-ava-rover-triple-negro",
     "name": "Nike Ava Rover",
@@ -46101,10 +46061,7 @@ const BLOQUE_4: Sneaker[] = [
     "inquiriesCount": 0,
     "createdAt": "2026-11-06T16:29:57.174Z",
     "updatedAt": "2026-11-06T16:29:57.174Z"
-  }
-];
-
-const BLOQUE_5: Sneaker[] = [
+  },
   {
     "id": "sneaker-puma-morphic-gris-azul",
     "name": "Puma Morphic",
@@ -46142,7 +46099,10 @@ const BLOQUE_5: Sneaker[] = [
     "inquiriesCount": 0,
     "createdAt": "2026-08-15T21:25:11.931Z",
     "updatedAt": "2026-08-15T21:25:11.931Z"
-  },
+  }
+];
+
+const BLOQUE_5: Sneaker[] = [
   {
     "id": "sneaker-puma-morphic-negro",
     "name": "Puma Morphic",

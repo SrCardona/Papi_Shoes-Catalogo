@@ -1,6 +1,6 @@
 {
   "version": 3,
-  "exportedAt": "2026-11-07T22:26:07.220Z",
+  "exportedAt": "2026-11-25T01:40:28.969Z",
   "sneakers": [
     {
       "id": "sneaker-adidas-adilette-22",
@@ -16734,46 +16734,6 @@
       "inquiriesCount": 0,
       "createdAt": "2026-11-06T14:58:00.796Z",
       "updatedAt": "2026-11-06T14:58:00.796Z"
-    },
-    {
-      "id": "sneaker-dolce-gabbana",
-      "name": "Dolce & Gabbana",
-      "brand": "Otras",
-      "model": "Dolce & Gabbana",
-      "sku": "PAPI-5318",
-      "category": "general",
-      "gender": "unisex",
-      "price": 189900,
-      "originalPrice": 229900,
-      "images": [
-        "/catalogo/sneakers/otras/dolce-gabbana.jpg"
-      ],
-      "sizes": [
-        37,
-        38,
-        39,
-        40,
-        41,
-        42,
-        43,
-        44
-      ],
-      "status": "disponible",
-      "isFeatured": false,
-      "isNewArrival": true,
-      "isOriginalCertified": false,
-      "description": "",
-      "details": {
-        "condition": "En caja",
-        "colorway": "",
-        "includedItems": [
-          "Caja"
-        ]
-      },
-      "viewsCount": 0,
-      "inquiriesCount": 0,
-      "createdAt": "2026-08-13T19:36:12.000Z",
-      "updatedAt": "2026-08-13T19:36:12.000Z"
     },
     {
       "id": "sneaker-dolce-gabbana-blanco",
